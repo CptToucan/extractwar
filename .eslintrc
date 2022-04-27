@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "oclif",
+    "oclif-typescript",
+    "eslint-config-prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/no-inferrable-types": "off",
+    "no-await-in-loop": "off",
+    "max-depth": "off"
+  }
+}
