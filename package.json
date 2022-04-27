@@ -28,7 +28,7 @@
   "devDependencies": {
     "@oclif/test": "^2",
     "@types/chai": "^4",
-    "@types/mocha": "^9.0.0",
+    "@types/mocha": "^9.1.1",
     "@types/node": "^16.11.12",
     "chai": "^4",
     "csv-writer": "^1.6.0",
