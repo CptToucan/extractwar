@@ -281,7 +281,7 @@ export class UnitInfo {
         }
       }
     }
-
+    
     const sanitisedExtractionImage = path.join(
       this.tempFolderPath,
       'sanitised-extraction-image.png'

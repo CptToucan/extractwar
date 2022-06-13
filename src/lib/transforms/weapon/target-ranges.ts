@@ -9,6 +9,11 @@ export class TargetRangeTransform extends WeaponTransform {
 
   deserialize(input: string): string {
     const output = input.replace("- ", "");
+
+    if(output && output !== "") {
+      return output.split("m")[0].trim();
+    }
+
     return output;
   }
 }

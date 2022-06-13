@@ -76,17 +76,17 @@ const extraRedToReplace = {
 };
 
 export const colorsToReplace: rgbaColor[] = [
-  redToReplace,
-  cyanToReplace,
-  orangeToReplace,
-  greenToReplace,
-  whiteToReplace,
+  // redToReplace,
+  // cyanToReplace,
+  // orangeToReplace,
+  // greenToReplace,
+  // whiteToReplace,
 ];
 
 export const backgroundsToReplace: rgbaColor[] = [
-  backgroundToReplace,
-  background2ToReplace,
-  background3ToReplace,
+  // backgroundToReplace,
+  // background2ToReplace,
+  // background3ToReplace,
 ];
 
-export const extrasToReplace: rgbaColor[] = [extraRedToReplace /*, extraOrangeToReplace*/];
+export const extrasToReplace: rgbaColor[] = [/* extraRedToReplace */ /* , extraOrangeToReplace */];

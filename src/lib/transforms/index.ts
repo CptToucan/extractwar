@@ -216,7 +216,5 @@ export const supplyLayout = [
   new SupplyTransform(supplyRect, platoonPositions[3]),
   new SpeedTransform(speedRect, platoonPositions[4]),
   new RoadSpeedTransform(roadSpeedRect, platoonPositions[5]),
-  new AutonomyTransform(autonomyRect, platoonPositions[6]),
-  new FuelTransform(fuelRect, platoonPositions[7]),
-  new RevealInfluenceTransform(revealInfluenceRect, platoonPositions[8]),
+  new RevealInfluenceTransform(revealInfluenceRect, platoonPositions[6]),
 ];

@@ -6,4 +6,17 @@ export class TimeTransform extends WeaponTransform {
     super(rect, startPos);
     this.name = name;
   }
+
+  deserialize(input: string): string {
+    let output = input.split("s")[0].trim();
+
+    if(output.startsWith("0")) {
+      output = `0.${output.slice(1)}`;
+    }
+    else if(output.length > 2 && !output.includes(".")) {
+      output = `${output[0]}.${output.slice(1)}`;
+    }
+
+    return output;
+  }
 }

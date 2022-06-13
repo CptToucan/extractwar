@@ -7,9 +7,9 @@ import { Rectangle } from "tesseract.js";
  */
 
 export const maxDmgRect: Rectangle = {
-  left: 104,
+  left: 118,
   top: 0,
-  width: 186,
+  width: 172,
   height: 38,
 };
 
@@ -28,23 +28,23 @@ export const stealthRect: Rectangle = {
 };
 
 export const speedRect: Rectangle = {
-  left: 77,
+  left: 87,
   top: 0,
-  width: 215,
+  width: 205,
   height: 38,
 };
 
 export const roadSpeedRect: Rectangle = {
-  left: 134,
+  left: 144,
   top: 0,
-  width: 158,
+  width: 148,
   height: 38,
 };
 
 export const autonomyRect: Rectangle = {
-  left: 119,
+  left: 130,
   top: 0,
-  width: 170,
+  width: 159,
   height: 36,
 };
 
@@ -77,9 +77,9 @@ export const airOpticsRect: Rectangle = {
 };
 
 export const ecmRect: Rectangle = {
-  left: 56,
+  left: 66,
   top: 0,
-  width: 236,
+  width: 226,
   height: 38,
 };
 
@@ -100,14 +100,14 @@ export const trajectoryRect: Rectangle = {
 export const transportRect: Rectangle = {
   left: 128,
   top: 0,
-  width: 164,
+  width: 162,
   height: 38,
 };
 
 export const supplyRect: Rectangle = {
   left: 91,
   top: 0,
-  width: 201,
+  width: 198,
   height: 38,
 };
 

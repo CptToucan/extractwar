@@ -6,4 +6,15 @@ export class AccuracyTransform extends WeaponTransform {
     super(rect, startPos);
     this.name = name;
   }
+
+  deserialize(input: string): string {
+
+    if(input && input !== "") {
+      const output = Number.parseFloat(input);
+      const decimalPercentage = output / 100;
+      return `${decimalPercentage}`
+    }
+
+    return input;
+  }
 }

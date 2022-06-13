@@ -8,15 +8,13 @@ export class ArmorTransform extends Transform {
   }
 
   deserialize(input: string): string {
-    let output = '';
+    let output = input;
 
-    for (const char of input) {
-      let outChar = char;
-      if (char === 'o' || char === 'O' || char === 'D') {
-        outChar = '0';
-      }
-
-      output += outChar;
+    if(input === "aw") {
+      output = "0"
+    }
+    else if(input === "<1") {
+      output = "0.5"
     }
 
     return output;

@@ -25,9 +25,9 @@ export const qualityRect: Rectangle = {
 
 export const commandPointsRect: Rectangle = {
   left: 91,
-  top: 13,
-  width: 70,
-  height: 31
+  top: 10,
+  width: 80,
+  height: 34
 }
 
 

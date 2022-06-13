@@ -17,7 +17,6 @@ import ux from 'cli-ux';
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const fs = require('fs');
 
-const WARNO_MAX_WEAPONS = 3;
 
 type csvHeader = {
   id: string;
@@ -29,24 +28,31 @@ export default class ParseUnitCards extends Command {
 
   static examples = ['<%= config.bin %> <%= command.id %>'];
 
-  static flags = {};
+  static flags = {
+    json: Flags.boolean({ char: 'j' }),
+    csv: Flags.boolean({ char: 'c' }),
+  }
 
   static args = [
     { name: 'unitCardInputFolder', required: true },
-    { name: 'outputCsv', required: true },
+    { name: 'outputFile', required: true },
   ];
 
   public async run(): Promise<void> {
     const { args, flags } = await this.parse(ParseUnitCards);
 
+    const writeToJson = flags.json;
+    const writeToCsv = flags.csv;
+
+    if(!writeToCsv && !writeToJson) {
+      throw new Error("Have to write to at least one file type, none specified");
+    }
+
     this.log('Extracting unit cards');
 
-    const csvHeaders: csvHeader[] = generateCsvHeaderNames();
-    const csvWriter = createCsvWriter({
-      path: args.outputCsv,
-      header: csvHeaders,
-    });
+
     const filesInInputDirectory = fs.readdirSync(args.unitCardInputFolder);
+    const allUnits: any[] = [];
 
     let unitIndex = 1;
     for (const filePath of filesInInputDirectory) {
@@ -87,12 +93,27 @@ export default class ParseUnitCards extends Command {
         }
       }
 
-      await csvWriter.writeRecords([allUnitStats]);
+      allUnits.push(allUnitStats);
       ux.action.stop(`Extracted ${unitIndex} / ${filesInInputDirectory.length} | ${allUnitStats.name}`);
       unitIndex++;
     }
 
-    this.log(`Finished extracting information from unit cards to csv`)
+
+    if(flags.json) {
+      fs.writeFileSync(`${args.outputFile}.json`, JSON.stringify(allUnits));
+      this.log(`Finished extracting information from unit cards to json`)
+    }
+
+
+    if(flags.csv) {
+      const csvHeaders: csvHeader[] = generateCsvHeaderNames();
+      const csvWriter = createCsvWriter({
+        path: `${args.outputFile}.csv`,
+        header: csvHeaders,
+      });
+      await csvWriter.writeRecords(allUnits);
+      this.log(`Finished extracting information from unit cards to csv`)
+    }
   }
 }
 
