@@ -119,9 +119,10 @@ export const weaponBarRectRect: Rectangle = {
 };
 
 // These map out 3 top positions and 3 left positions which make it possible to calculate positions for all platoon stats
-export const platoonRow1Top = 1440;
-export const platoonRow2Top = 1480;
-export const platoonRow3Top = 1520;
+export const platoonRow1Top = 1380;
+export const platoonRow2Top = 1420;
+export const platoonRow3Top = 1460;
+export const platoonRow4Top = 1500;
 export const platoonColumn1Left = 1;
 export const platoonColumn2Left = 293;
 export const platoonColumn3Left = 587;

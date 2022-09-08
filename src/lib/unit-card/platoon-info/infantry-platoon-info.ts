@@ -3,4 +3,5 @@ export class InfantryPlatoonInfo {
   optics: string;
   stealth: string;
   revealInfluence: string;
+  speed: number;
 }

@@ -296,7 +296,7 @@ export class UnitInfo {
   async determineWeaponCount(filePath: string): Promise<number> {
     let weaponCount: number = 0;
 
-    const compareRoot: string = path.join(__dirname, '..', '..', 'images');
+    const compareRoot: string = path.join(__dirname, '..', '..', 'images-new');
     const weaponBarPath: string = path.join(compareRoot, 'weapon-bar.png');
     const extractedWeaponbarPath: string = path.join(
       this.tempFolderPath,
@@ -341,7 +341,7 @@ export class UnitInfo {
   async determinePlatoonType(filePath: string): Promise<string | null> {
     const defaultRect: Rectangle = {
       left: 0,
-      top: 1438,
+      top: 1378,
       width: 120,
       height: 120,
     };
@@ -353,18 +353,34 @@ export class UnitInfo {
       height: 80,
     };
 
-    const compareRoot: string = path.join(__dirname, '..', '..', 'images');
+    const supplyRect: Rectangle = {
+      left: 291,
+      top: defaultRect.top,
+      width: defaultRect.width,
+      height: defaultRect.height,
+    };
+
+    const transportRect: Rectangle = {
+      left: defaultRect.left,
+      top: defaultRect.top,
+      width: defaultRect.width,
+      height: 160,
+    };
+
+    const compareRoot: string = path.join(__dirname, '..', '..', 'images-new');
     const extractedPlatoonImage = path.join(
       this.tempFolderPath,
       'platoon-extract.png'
     );
-    // Extract default check image
-    await sharp(filePath).extract(defaultRect).toFile(extractedPlatoonImage);
+
 
     // Compare default check image against vehicle, aircraft, transport supply
     let unitType: string | null = null;
 
-    for (const type of ['vehicle', 'aircraft', 'transport', 'supply']) {
+    // Extract image for vehicle and airfact
+    await sharp(filePath).extract(defaultRect).toFile(extractedPlatoonImage);
+
+    for (const type of ['vehicle', 'aircraft']) {
       const comparePath: string = path.join(compareRoot, `${type}.png`);
       const diffPixels: number = countDifferentPixels(
         comparePath,
@@ -376,6 +392,36 @@ export class UnitInfo {
         break;
       }
     }
+
+    // Extract image for transport
+    await sharp(filePath).extract(transportRect).toFile(extractedPlatoonImage);
+    for (const type of ['transport']) {
+      const comparePath: string = path.join(compareRoot, `${type}.png`);
+      const diffPixels: number = countDifferentPixels(
+        comparePath,
+        extractedPlatoonImage
+      );
+
+      if (diffPixels === 0) {
+        unitType = type;
+        break;
+      }
+    }
+
+        // Extract image for transport
+        await sharp(filePath).extract(supplyRect).toFile(extractedPlatoonImage);
+        for (const type of ['supply']) {
+          const comparePath: string = path.join(compareRoot, `${type}.png`);
+          const diffPixels: number = countDifferentPixels(
+            comparePath,
+            extractedPlatoonImage
+          );
+    
+          if (diffPixels === 0) {
+            unitType = type;
+            break;
+          }
+        }
 
     // Extract infantry check image
     await sharp(filePath).extract(infantryRect).toFile(extractedPlatoonImage);
@@ -391,6 +437,10 @@ export class UnitInfo {
         unitType = type;
         break;
       }
+    }
+
+    if (unitType === null) {
+      unitType = "vehicle"
     }
 
     return unitType;

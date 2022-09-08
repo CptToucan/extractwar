@@ -80,6 +80,7 @@ import {
   platoonRow1Top,
   platoonRow2Top,
   platoonRow3Top,
+  platoonRow4Top,
   platoonColumn1Left,
   platoonColumn2Left,
   platoonColumn3Left,
@@ -164,13 +165,17 @@ const platoonPositions = [
   { left: platoonColumn1Left, top: platoonRow3Top },
   { left: platoonColumn2Left, top: platoonRow3Top },
   { left: platoonColumn3Left, top: platoonRow3Top },
+  { left: platoonColumn1Left, top: platoonRow4Top },
+  { left: platoonColumn2Left, top: platoonRow4Top },
+  { left: platoonColumn3Left, top: platoonRow4Top },
 ];
 
 export const infantryLayout = [
   new StrengthTransform(strengthRect, platoonPositions[0]),
   new OpticsTransform(opticsRect, platoonPositions[1]),
   new StealthTransform(stealthRect, platoonPositions[2]),
-  new RevealInfluenceTransform(revealInfluenceRect, platoonPositions[3])
+  new RevealInfluenceTransform(revealInfluenceRect, platoonPositions[3]),
+  new SpeedTransform(speedRect, platoonPositions[4])
 ];
 
 export const aircraftLayout = [
@@ -201,20 +206,20 @@ export const transportLayout = [
   new MaxDmgTransform(maxDmgRect, platoonPositions[0]),
   new OpticsTransform(opticsRect, platoonPositions[1]),
   new StealthTransform(stealthRect, platoonPositions[2]),
-  new TransportTransform(transportRect, platoonPositions[3]),
   new SpeedTransform(speedRect, platoonPositions[4]),
   new RoadSpeedTransform(roadSpeedRect, platoonPositions[5]),
   new AutonomyTransform(autonomyRect, platoonPositions[6]),
   new FuelTransform(fuelRect, platoonPositions[7]),
   new RevealInfluenceTransform(revealInfluenceRect, platoonPositions[8]),
+  new TransportTransform(transportRect, platoonPositions[9]),
 ];
 
 export const supplyLayout = [
   new MaxDmgTransform(maxDmgRect, platoonPositions[0]),
   new OpticsTransform(opticsRect, platoonPositions[1]),
   new StealthTransform(stealthRect, platoonPositions[2]),
-  new SupplyTransform(supplyRect, platoonPositions[3]),
   new SpeedTransform(speedRect, platoonPositions[4]),
   new RoadSpeedTransform(roadSpeedRect, platoonPositions[5]),
   new RevealInfluenceTransform(revealInfluenceRect, platoonPositions[6]),
+  new SupplyTransform(supplyRect, platoonPositions[7]),
 ];

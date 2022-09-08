@@ -73,7 +73,7 @@ export const topArmorRect: Rectangle = {
  */
 
 const weaponNameTopPos = 350;
-const weaponNameWidth = 290;
+const weaponNameWidth = 284;
 const weaponNameHeight = 52;
 
 export const weapon1Rect: Rectangle = {
@@ -84,14 +84,14 @@ export const weapon1Rect: Rectangle = {
 };
 
 export const weapon2Rect: Rectangle = {
-  left: 293,
+  left: 298,
   top: weaponNameTopPos,
   width: weaponNameWidth,
   height: weaponNameHeight,
 };
 
 export const weapon3Rect: Rectangle = {
-  left: 587,
+  left: 595,
   top: weaponNameTopPos,
   width: weaponNameWidth,
   height: weaponNameHeight,

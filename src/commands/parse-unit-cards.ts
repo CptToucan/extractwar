@@ -57,44 +57,48 @@ export default class ParseUnitCards extends Command {
     let unitIndex = 1;
     for (const filePath of filesInInputDirectory) {
       ux.action.start(`Extracting ${filePath}`);
-      const fullFilePath = `${args.unitCardInputFolder}/${filePath}`;
-      const worker = await startTesseract();
-      const unitCardInfo = new UnitInfo(fullFilePath, worker);
-      const extractedUnitCardInfo = await unitCardInfo.complete;
-      await stopTesseract(worker);
-
-      const allUnitStats = {
-        ...extractedUnitCardInfo.staticInformation,
-        ...extractedUnitCardInfo.platoonInformation,
-      };
-
-      if (extractedUnitCardInfo.weaponsInformation) {
-        for (const weaponName in extractedUnitCardInfo.weaponsInformation) {
-          if (
-            Object.prototype.hasOwnProperty.call(
-              extractedUnitCardInfo.weaponsInformation,
-              weaponName
-            )
-          ) {
-            const weaponAttributes =
-              extractedUnitCardInfo.weaponsInformation[weaponName];
-            for (const attribute in weaponAttributes) {
-              if (
-                Object.prototype.hasOwnProperty.call(
-                  weaponAttributes,
-                  attribute
-                )
-              ) {
-                allUnitStats[createUniqueWeaponName(weaponName, attribute)] =
-                  weaponAttributes[attribute];
+      if(true) {
+        const fullFilePath = `${args.unitCardInputFolder}/${filePath}`;
+        const worker = await startTesseract();
+        const unitCardInfo = new UnitInfo(fullFilePath, worker);
+        const extractedUnitCardInfo = await unitCardInfo.complete;
+        await stopTesseract(worker);
+  
+        const allUnitStats = {
+          ...extractedUnitCardInfo.staticInformation,
+          ...extractedUnitCardInfo.platoonInformation,
+        };
+  
+        if (extractedUnitCardInfo.weaponsInformation) {
+          for (const weaponName in extractedUnitCardInfo.weaponsInformation) {
+            if (
+              Object.prototype.hasOwnProperty.call(
+                extractedUnitCardInfo.weaponsInformation,
+                weaponName
+              )
+            ) {
+              const weaponAttributes =
+                extractedUnitCardInfo.weaponsInformation[weaponName];
+              for (const attribute in weaponAttributes) {
+                if (
+                  Object.prototype.hasOwnProperty.call(
+                    weaponAttributes,
+                    attribute
+                  )
+                ) {
+                  allUnitStats[createUniqueWeaponName(weaponName, attribute)] =
+                    weaponAttributes[attribute];
+                }
               }
             }
           }
         }
+  
+        allUnits.push(allUnitStats);
+        ux.action.stop(`Extracted ${unitIndex} / ${filesInInputDirectory.length} | ${allUnitStats.name}`);
       }
 
-      allUnits.push(allUnitStats);
-      ux.action.stop(`Extracted ${unitIndex} / ${filesInInputDirectory.length} | ${allUnitStats.name}`);
+ 
       unitIndex++;
     }
 

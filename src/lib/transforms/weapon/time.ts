@@ -17,6 +17,10 @@ export class TimeTransform extends WeaponTransform {
       output = `${output[0]}.${output.slice(1)}`;
     }
 
+    if(output.includes("..")) {
+      output = output.replace("..", ".");
+    }
+
     return output;
   }
 }
