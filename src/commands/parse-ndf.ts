@@ -119,8 +119,8 @@ export default class ParseNdf extends Command {
       );
 
       // Speed
-      unitJson.speed = parseNumberFromNdfValue(unitDescriptor, 'MaxSpeed');
-
+      unitJson.speed = Math.round(parseNumberFromMetre(extractValueFromSearchResult(search(unitDescriptor, "MaxSpeed"))));
+      
       // Road Speed
       unitJson.roadSpeed = parseNumberFromNdfValue(
         unitDescriptor,
