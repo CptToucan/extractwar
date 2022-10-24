@@ -1,7 +1,7 @@
 import { Command, Flags } from '@oclif/core';
 import ux from 'cli-ux';
-import { NdfParser, search } from 'ndf-parser';
-import { NdfObject } from 'ndf-parser/dist/src/types';
+import { NdfParser, search } from '@izohek/ndf-parser';
+import { NdfObject } from '@izohek/ndf-parser/dist/src/types';
 
 const fs = require('fs');
 const path = require('path');
@@ -93,6 +93,10 @@ export default class ParseNdf extends Command {
       const unitName = (unitDescriptor as NdfObject).name;
       unitJson.descriptorName = unitName;
 
+      const commandPointsResult = search(unitDescriptor, "ProductionRessourcesNeeded");
+
+      unitJson.commandPoints = Number(commandPointsResult[0]?.value?.value[0]?.value[1]?.value);
+
       // Armour
       const frontArmorResult = search(unitDescriptor, 'ArmorDescriptorFront');
       const sideArmorResult = search(unitDescriptor, 'ArmorDescriptorSides');
@@ -176,7 +180,7 @@ export default class ParseNdf extends Command {
         const parsedAgilityRadius = removeBracketsFromMetreValue(
           agilityRadiusResult as string
         );
-        unitJson.agility = parseNumberFromMetre(parsedAgilityRadius);
+        unitJson.agility = Math.round(parseNumberFromMetre(parsedAgilityRadius));
       }
 
       // Travel Time
