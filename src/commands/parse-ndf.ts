@@ -2,6 +2,7 @@ import { Command, Flags } from '@oclif/core';
 import ux from 'cli-ux';
 import { NdfParser, search } from '@izohek/ndf-parser';
 import { NdfObject } from '@izohek/ndf-parser/dist/src/types';
+import { findUnitCardByDescriptor } from '@izohek/warno-db';
 
 const fs = require('fs');
 const path = require('path');
@@ -92,6 +93,12 @@ export default class ParseNdf extends Command {
       // Name
       const unitName = (unitDescriptor as NdfObject).name;
       unitJson.descriptorName = unitName;
+
+      // Localize + misc info - English only for now.
+      const localizedUnitCard = findUnitCardByDescriptor(unitName)
+      unitJson.name = localizedUnitCard?.name
+      unitJson.category = localizedUnitCard?.category
+      unitJson.id = localizedUnitCard?.code
 
       const commandPointsResult = search(unitDescriptor, "ProductionRessourcesNeeded");
 
