@@ -318,6 +318,7 @@ function extractMountedWeaponStatistics(
   );
 
   mountedWeaponJson.ammoDescriptorName = ammunitionDescriptorId; 
+  mountedWeaponJson.weaponName = prettifyAmmoDescriptorName(mountedWeaponJson.ammoDescriptorName);
   mountedWeaponJson.he = heDamage;
   mountedWeaponJson.suppress = suppress;
 
@@ -504,4 +505,30 @@ function removeBracketsFromMetreValue(target: string) {
   let result = target.replace(/\(/g, '');
   result = result.replace(/\)/g, '');
   return result;
+}
+
+/**
+ * Convert a weapon ammo descriptor into a presentable name.  
+ * 
+ * Lots of regex, good luck - there's likely some optimizations to be found.  
+ * 
+ * The order of replace calls affects the parse value so careful if changing/reordering.
+ * 
+ * @param descriptor weapon ammoDescriptorName
+ * @returns pretty name derived from ammoDescriptorName
+ */
+function prettifyAmmoDescriptorName(descriptor: string): string {
+  return descriptor
+    // remove prefixes and suffixes
+    .replace(/(^Ammo_)|(_late|_early)$/g, "")
+    // some names have numbers in them that should not later be converted to '.' like ammunition size
+    .replace(/(?<=(HS|RPK|UPK|G[sS]h|ZU[\d]*))_(?=[\d]*)/, '-')
+    // some names like above have two numbers in them, "gsh-30-2".  this fixes issue where they all get converted to '.' by ammunition size conversion
+    .replace(/(?<=(UPK|G[sS]h)-[\d]*)_(?=[\d]*)(?![\d]*[Mm]{2})/, '-')
+    // underscores to spaces
+    .split('_').join(' ')
+    // replace spaces with '.' for ammunition size " 7 75" -> " 7.75"
+    .replace(/(?<=\s[\d]*)\s(?=\d)/g, '.')
+    // sometimes values come out like: "77 mm" -> coverts to "77mm"
+    .replace(/(?<=[\d]*)\s(?=mm)/g, "");
 }
