@@ -160,7 +160,7 @@ export default class ParseNdf extends Command {
         search(unitDescriptor, 'DeploymentShift')
       );
       unitJson.advancedDeployment = deploymentShiftResult
-        ? parseNumberFromMetre(deploymentShiftResult as string)
+        ? Math.round(parseNumberFromMetre(deploymentShiftResult as string))
         : null;
 
       // Fuel
