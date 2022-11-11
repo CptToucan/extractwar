@@ -530,5 +530,8 @@ function prettifyAmmoDescriptorName(descriptor: string): string {
     // replace spaces with '.' for ammunition size " 7 75" -> " 7.75"
     .replace(/(?<=\s[\d]*)\s(?=\d)/g, '.')
     // sometimes values come out like: "77 mm" -> coverts to "77mm"
-    .replace(/(?<=[\d]*)\s(?=mm)/g, "");
+    .replace(/(?<=[\d]*)\s(?=mm)/g, "")
+    //  remove prefixes with duplicate info to shorten some of these names
+    .replace(/^(Howz Canon|Howz|Canon AP|Canon HEAT|Canon HE|MMG inf|MMG|HMG inf|HMG|ATGM|Mortier|AutoCanon AP|AutoCanon HE|AutoCanon|DCA \d canons?|RocketInf|Grenade|RocketArt thermobaric|RocketArt|AA |GatlingAir|RocketAir|Bomb CBU|Bomb|FakeRoquette|SAM |Lance grenade|Gatling|Pod|flamethrower|MANPAD|FM |PM |Canon|AGM)/g, '')
+    .trim();
 }
