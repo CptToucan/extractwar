@@ -18,7 +18,7 @@ EShowGhostOverSpecificTerrainConditionFilterType is TBaseClass
     None is 0
 )
 
-export Constantes is TTunableConstante
+Constantes is TTunableConstante
 (
     // /!\ MERCI DE RESPECTER L'ORDRE ALPHABETIQUE !
     // Par catégories puis par constante.
@@ -128,6 +128,8 @@ export Constantes is TTunableConstante
     TagControleZone = "InfmapCommander"
     DureeDeploiementControleZone = 0.2
     DureeRetraitControleZone = 0.2
+
+    TacticVictoryLevelConstantes = ~/TacticVictoryLevelConstantes
 
 //------------------------- Constantes GestionFormation -----------------------------------//
 
@@ -274,23 +276,11 @@ export Constantes is TTunableConstante
 
 //------------------------------ Constantes Victoire --------------------------------------//
 
-VictoryConstantes  is TVictoryLevelConstantes
+TacticVictoryLevelConstantes is TVictoryLevelConstantes
 (
-    // Les paliers de victoire ne représentent pas forcément la même chose selon que l'on a une victoire au temps et au score!! (cf les commentaires)
     PalierVictoireMineure = 0.05   // Ratio entre le score du vainqueur et le deuxieme meilleur score
-    PalierVictoireMajeure = 0.55  // Ratio e²ntre le score du vainqueur et le deuxieme meilleur score
+    PalierVictoireMajeure = 0.55  // Ratio entre le score du vainqueur et le deuxieme meilleur score
     PalierVictoireTotale = 0.75   // Ratio entre le score du vainqueur et le deuxieme meilleur score
-
-    BonusModeDestruction = 0.4  // Pour permettre d'avoir un meilleur lissage des types de victoire en mode destruction
-                                // le tableau se lit comme ça: pour avoir une victoire majeure contre un adversaire avec 0% de bonus, celui ci ne doit pas avoit plus de 450 points
-                                // avec 30% de bonus celui ci ne doit pas avoir plus de 1350 points
-                                // lu autrement, avec 40% de bonus si l'adversaire à plus de 2700 points c'est un draw, entre 1950 et 2700 une victoire mineure ....
-                                //                                         point max adversaire / 3000
-                                // type de victoire    Ratio \ bonus   0       20%     30%     40%
-                                // draw                0
-                                // mineure             0,5             1500    2100    2400    2700
-                                // majeure             0,75            750     1350    1650    1950
-                                // totale              0,85            450     1050    1350    1650
 )
 
 //---------------------------------------------------------------------------------------//
@@ -335,7 +325,7 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     TempsSansTirNiDamagePourPasserHorsCombat = 30 // 1, passage à 2 pour limiter bug graphique
 
-    DensitePointsRecherchePosition = 14.84 //42 // 75, utilisé par l'IA pour calculer la densité de points à tester pour trouver des positions. En DistanceFeedbackTactique.
+    DensitePointsRecherchePosition = 8.0 // utilisé par l'IA pour calculer la densité de points à tester pour trouver des positions. En DistanceFeedbackTactique.
 
     TagStunned = "Stunned"
     TagUberstress = "Uberstress"
@@ -650,6 +640,7 @@ WargameConstantes is TWargameTunableConstante
     MultiplicateurMetreRTSVersVitesseTactiquePourVehicule = 0.45 div 1.0
     MultiplicateurDegresParSecondesPourVitesseDeRotation = 1.0
     NombreUniteVisibleDesQueDetecte = true
+    NomDAffichageDesUnitesNonIdentifiees = "UNIDNM"
 
     // Facteur utilisé pour la transformation des Plating et APValue pour l'affichage en mm dans l'UI
     PlatingAndApDisplayFactor = 1 //10 pour du mm
@@ -691,13 +682,6 @@ WargameConstantes is TWargameTunableConstante
         (191.03, 'Value_5'),
         (233.48, 'Value_6'),
     ]
-
-
-
-
-
-
-
 
     PaliersDeResilience = MAP
     [
