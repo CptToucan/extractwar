@@ -100,6 +100,11 @@ export default class ParseNdf extends Command {
       unitJson.category = localizedUnitCard?.category
       unitJson.id = localizedUnitCard?.code
 
+      // If no manual localization, create it from unit descriptor
+      if (unitJson.name.length < 1) {
+        unitJson.name = prettyUnitNameFromDescriptor(unitJson.descriptorName)
+      }
+
       const commandPointsResult = search(unitDescriptor, "ProductionRessourcesNeeded");
 
       unitJson.commandPoints = Number(commandPointsResult[0]?.value?.value[0]?.value[1]?.value);
@@ -534,4 +539,16 @@ function prettifyAmmoDescriptorName(descriptor: string): string {
     //  remove prefixes with duplicate info to shorten some of these names
     .replace(/^(Howz Canon|Howz|Canon AP|Canon HEAT|Canon HE|MMG inf|MMG|HMG inf|HMG|ATGM|Mortier|AutoCanon AP|AutoCanon HE|AutoCanon|DCA \d canons?|RocketInf|Grenade|RocketArt thermobaric|RocketArt|AA |GatlingAir|RocketAir|Bomb CBU|Bomb|FakeRoquette|SAM |Lance grenade|Gatling|Pod|flamethrower|MANPAD|FM |PM |Canon|AGM)/g, '')
     .trim();
+}
+
+/**
+ * Convert a units descriptor to a more displayable name.
+ * 
+ * @param descriptor unit descriptor
+ * @returns displayable unit name
+ */
+function prettyUnitNameFromDescriptor(descriptor: string): string {
+  return descriptor
+    .replace(/^Descriptor_Unit_/g, '')
+    .split('_').join(' ');
 }
