@@ -261,17 +261,12 @@ export default class ParseNdf extends Command {
           for (let i = 1; i < weaponsForSalvoIndex.length; i++) {
             const _weapon = weaponsForSalvoIndex[i];
 
-            if (_weapon['suppress'] > mergedWeapon['suppress']) {
-              mergedWeapon['suppress'] = _weapon['suppress'];
-            }
-
-            if (_weapon['penetration'] > mergedWeapon['penetration']) {
-              mergedWeapon['penetration'] = _weapon['penetration'];
-            }
-
-            if (_weapon['he'] > mergedWeapon['he']) {
-              mergedWeapon['he'] = _weapon['he'];
-            }
+            mergeBestValue(_weapon, mergedWeapon, 'suppress');
+            mergeBestValue(_weapon, mergedWeapon, 'penetration');
+            mergeBestValue(_weapon, mergedWeapon, 'he');
+            mergeBestValue(_weapon, mergedWeapon, 'groundRange');
+            mergeBestValue(_weapon, mergedWeapon, 'helicopterRange');
+            mergeBestValue(_weapon, mergedWeapon, 'planeRange');
           }
 
           unitJson.weapons.push(mergedWeapon);
@@ -292,6 +287,18 @@ export default class ParseNdf extends Command {
     */
   }
 }
+/**
+ * 
+ * @param compareObject The object to compare against the merged value
+ * @param mergedObject The object to merge the stat on to
+ * @param stat  The key of the value to check
+ */
+function mergeBestValue(compareObject: any, mergedObject: any, stat: string) {
+  if (compareObject[stat] > mergedObject[stat]) {
+    mergedObject[stat] = compareObject[stat];
+  }
+}
+
 function extractMountedWeaponStatistics(
   mountedWeaponDescriptor: any,
   ammoDescriptors: { [key: string]: any },
