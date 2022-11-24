@@ -345,6 +345,11 @@ function extractMountedWeaponStatistics(
     'SuppressDamages'
   );
 
+  // traits for things like radar, f&f, motion firing, indirect fire, etc 
+  mountedWeaponJson.traits = search(ammunitionDescriptor, 'TraitsToken')[0].value.values.map ( 
+    (t: any) => t.value.replaceAll("'","")
+  );
+
   mountedWeaponJson.ammoDescriptorName = ammunitionDescriptorId; 
   mountedWeaponJson.weaponName = prettifyAmmoDescriptorName(mountedWeaponJson.ammoDescriptorName);
   mountedWeaponJson.he = heDamage;
