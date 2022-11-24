@@ -15082,7 +15082,7 @@ Ammo_Canon_AP_2A18_122mm is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'NFWPEQRTDW'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    TraitsToken                       = [ 'STAT', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -15136,7 +15136,7 @@ Ammo_Canon_AP_2A18_122mm is TAmmunitionDescriptor
          [
              (EBaseHitValueModifier/Base, 0.0),
              (EBaseHitValueModifier/Idling, 30),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -15157,7 +15157,7 @@ Ammo_Canon_AP_2A18_122mm is TAmmunitionDescriptor
     SupplyCost                        = 10
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = False
-    CanShootWhileMoving               = True
+    CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     MissileDescriptor                 = nil
@@ -16720,7 +16720,7 @@ Ammo_Canon_AP_D22_152mm is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'CMEFIPVBYI'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    TraitsToken                       = [ 'STAT', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -16774,7 +16774,7 @@ Ammo_Canon_AP_D22_152mm is TAmmunitionDescriptor
          [
              (EBaseHitValueModifier/Base, 0.0),
              (EBaseHitValueModifier/Idling, 30),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -16788,14 +16788,14 @@ Ammo_Canon_AP_D22_152mm is TAmmunitionDescriptor
     )
 
     TempsDeVisee                      = 3.0
-    TempsEntreDeuxSalves              = 10.0
+    TempsEntreDeuxSalves              = 12.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
     SupplyCost                        = 10
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = False
-    CanShootWhileMoving               = True
+    CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     MissileDescriptor                 = nil
@@ -22269,7 +22269,7 @@ Ammo_Canon_HE_73_mm_SPG9 is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'UAMGVQLVMC'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'KINETIC', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'KINETIC', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -22372,7 +22372,7 @@ Ammo_Canon_HE_73_mm_SPG9_TOWED is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'UAMGVQLVMC'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'KINETIC', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'KINETIC', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -22591,12 +22591,12 @@ Ammo_Canon_HE_76mm_L23A1 is TAmmunitionDescriptor
     TempsEntreDeuxTirs_Min             = -1.0
     TempsEntreDeuxTirs_Max             = -1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((5000) * Metre)
+    PorteeMaximale                    = ((4953) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
     PorteeMaximaleHA                  = ((0) * Metre)
-    PorteeMinimale                    = ((500) * Metre)
+    PorteeMinimale                    = ((100) * Metre)
     AltitudeAPorteeMinimale           = ((20.0) * Metre)
     AltitudeAPorteeMaximale           = ((40.0) * Metre)
     AffecteParNombre                  = False
@@ -23710,7 +23710,7 @@ Ammo_Canon_HEAT_73_mm_SPG9 is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'BQEOKGFQRX'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -23813,7 +23813,7 @@ Ammo_Canon_HEAT_73_mm_SPG9_TOWED is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'BQEOKGFQRX'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -28910,7 +28910,7 @@ Ammo_FM_Tantal is TAmmunitionDescriptor
         // DiceHitRollRule
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-         DescriptorId          = GUID:{bd6d7999-949e-4f25-baa8-2153616b6f96}
+         DescriptorId          = GUID:{dfff899e-3092-4bf1-8765-1d305805871d}
          BaseCriticModifier = 25
          BaseEffectModifier = 0
          BaseHitValueModifiers =
@@ -29012,7 +29012,7 @@ Ammo_FM_kbk_AK is TAmmunitionDescriptor
         // DiceHitRollRule
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-         DescriptorId          = GUID:{7246fd5c-983a-435e-91e3-ee3c7c825ca3}
+         DescriptorId          = GUID:{e938b2c3-6d68-4374-8c3f-3b5735b7e9d2}
          BaseCriticModifier = 25
          BaseEffectModifier = 0
          BaseHitValueModifiers =
@@ -29114,7 +29114,7 @@ Ammo_FM_kbk_AKM is TAmmunitionDescriptor
         // DiceHitRollRule
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-         DescriptorId          = GUID:{be8762ac-1e46-4646-9a2f-6324c2ac9386}
+         DescriptorId          = GUID:{f5f90ca2-76a5-49dd-ba8e-709e469317ae}
          BaseCriticModifier = 25
          BaseEffectModifier = 0
          BaseHitValueModifiers =
@@ -33456,8 +33456,8 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -33561,8 +33561,8 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -33666,8 +33666,8 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm_TOWED is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -33981,8 +33981,8 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -34086,8 +34086,8 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm_SMOKE is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -34134,7 +34134,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm is TAmmunitionDescriptor
     TempsEntreDeuxTirs                = 5.0
     TempsEntreDeuxTirs_Min             = -1.0
     TempsEntreDeuxTirs_Max             = -1.0
-    TempsEntreDeuxFx                  = 3.0
+    TempsEntreDeuxFx                  = 4.0
     PorteeMaximale                    = ((49950) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
@@ -34192,7 +34192,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm is TAmmunitionDescriptor
     )
 
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 36.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -34216,7 +34216,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm is TAmmunitionDescriptor
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
     FlightTimeForSpeed                    = 25.0
-    DistanceForSpeed                      = 49950.0 * Metre
+    DistanceForSpeed                      = 50010.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
 Ammo_Howz_Canon_D20_Howitzer_152mm_SMOKE is TAmmunitionDescriptor
@@ -34239,7 +34239,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxTirs                = 3.0
     TempsEntreDeuxTirs_Min             = -1.0
     TempsEntreDeuxTirs_Max             = -1.0
-    TempsEntreDeuxFx                  = 3.0
+    TempsEntreDeuxFx                  = 4.0
     PorteeMaximale                    = ((49950) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
@@ -34297,7 +34297,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm_SMOKE is TAmmunitionDescriptor
     )
 
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 36.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -34321,7 +34321,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm_SMOKE is TAmmunitionDescriptor
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
     FlightTimeForSpeed                    = 25.0
-    DistanceForSpeed                      = 49950.0 * Metre
+    DistanceForSpeed                      = 50010.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
 Ammo_Howz_Canon_D22_Howitzer_152mm is TAmmunitionDescriptor
@@ -34716,8 +34716,8 @@ Ammo_Howz_Canon_D30_Howitzer_122mm is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -34821,8 +34821,8 @@ Ammo_Howz_Canon_D30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -35661,8 +35661,8 @@ Ammo_Howz_Canon_L13A1__Howitzer_105mm_SMOKE is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -35766,8 +35766,8 @@ Ammo_Howz_Canon_L13A1__Howitzer_105mm_SMOKE_TOWED is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -35811,7 +35811,7 @@ Ammo_Howz_Canon_L13A1_Howitzer_105mm is TAmmunitionDescriptor
     FxWeaponType                      = ~/TFxWeaponType_Artillerie2A18122Mm
     FxPower                           = EFXPower/Moyen
     Puissance                         = 100.0
-    TempsEntreDeuxTirs                = 4.0
+    TempsEntreDeuxTirs                = 5.0
     TempsEntreDeuxTirs_Min             = -1.0
     TempsEntreDeuxTirs_Max             = -1.0
     TempsEntreDeuxFx                  = 5.0
@@ -35830,10 +35830,10 @@ Ammo_Howz_Canon_L13A1_Howitzer_105mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = ((214) * Metre)
-    PhysicalDamages                   = 2.033
-    RadiusSplashSuppressDamages       = ((428) * Metre)
-    SuppressDamages                   = 107.0
+    RadiusSplashPhysicalDamages       = ((244) * Metre)
+    PhysicalDamages                   = 2.318
+    RadiusSplashSuppressDamages       = ((488) * Metre)
+    SuppressDamages                   = 122.0
     RayonPinned                       = ((400) * Metre)
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
@@ -35871,8 +35871,8 @@ Ammo_Howz_Canon_L13A1_Howitzer_105mm is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -35920,7 +35920,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm is TAmmunitionDescriptor
     TempsEntreDeuxTirs_Min             = -1.0
     TempsEntreDeuxTirs_Max             = -1.0
     TempsEntreDeuxFx                  = 3.0
-    PorteeMaximale                    = ((49950) * Metre)
+    PorteeMaximale                    = ((29927) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -35976,8 +35976,8 @@ Ammo_Howz_Canon_M101_Howitzer_105mm is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -36001,7 +36001,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm is TAmmunitionDescriptor
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
     FlightTimeForSpeed                    = 25.0
-    DistanceForSpeed                      = 49950.0 * Metre
+    DistanceForSpeed                      = 48000.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
 Ammo_Howz_Canon_M101_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
@@ -36025,7 +36025,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxTirs_Min             = -1.0
     TempsEntreDeuxTirs_Max             = -1.0
     TempsEntreDeuxFx                  = 3.0
-    PorteeMaximale                    = ((49950) * Metre)
+    PorteeMaximale                    = ((29927) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -36081,8 +36081,8 @@ Ammo_Howz_Canon_M101_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -36106,7 +36106,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
     FlightTimeForSpeed                    = 25.0
-    DistanceForSpeed                      = 49950.0 * Metre
+    DistanceForSpeed                      = 48000.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
 Ammo_Howz_Canon_M102_Howitzer_105mm is TAmmunitionDescriptor
@@ -36186,8 +36186,8 @@ Ammo_Howz_Canon_M102_Howitzer_105mm is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -36291,8 +36291,8 @@ Ammo_Howz_Canon_M102_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -36606,8 +36606,8 @@ Ammo_Howz_Canon_M118_Howitzer_105mm is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -36711,8 +36711,8 @@ Ammo_Howz_Canon_M118_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
          ]
     )
 
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 16.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -38942,7 +38942,7 @@ Ammo_Lance_grenade_Mk19_40mm_Twin is TAmmunitionDescriptor
     Name                              = 'LSHCZPRPRM'
     TypeName                          = 'NA'
     TypeCategoryName                  = 'DOXFRWXQZK'
-    Caliber                           = 'OLDCVJIQZQ'
+    Caliber                           = 'SSSIABNVRC'
     WeaponDescriptionToken            = 'DRUUTWCUTU'
     TraitsToken                       = [ 'MOTION', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_MachineGun
@@ -39045,7 +39045,7 @@ Ammo_Lance_grenade_PalladD is TAmmunitionDescriptor
     Name                              = 'DTEXNFFJFR'
     TypeName                          = 'NA'
     TypeCategoryName                  = 'QOYCTTAUEL'
-    Caliber                           = 'OLDCVJIQZQ'
+    Caliber                           = 'SSSIABNVRC'
     WeaponDescriptionToken            = 'LZZCUILBCY'
     TraitsToken                       = [ 'MOTION', 'HE', 'CAC', ]
     WeaponCursorType                  = Weapon_Cursor_None
@@ -39095,7 +39095,7 @@ Ammo_Lance_grenade_PalladD is TAmmunitionDescriptor
         // DiceHitRollRule
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-         DescriptorId          = GUID:{ac2917b4-8e17-4454-a81f-e7f462f98eb5}
+         DescriptorId          = GUID:{1002c067-09ce-447c-9c57-3d9140aec7a2}
          BaseCriticModifier = 25
          BaseEffectModifier = 0
          BaseHitValueModifiers =
@@ -39147,7 +39147,7 @@ Ammo_Lance_grenade_PalladD_wz83 is TAmmunitionDescriptor
     Name                              = 'DOIOQPVSTP'
     TypeName                          = 'NA'
     TypeCategoryName                  = 'QOYCTTAUEL'
-    Caliber                           = 'OLDCVJIQZQ'
+    Caliber                           = 'SSSIABNVRC'
     WeaponDescriptionToken            = 'LZZCUILBCY'
     TraitsToken                       = [ 'MOTION', 'HE', 'CAC', ]
     WeaponCursorType                  = Weapon_Cursor_None
@@ -39197,7 +39197,7 @@ Ammo_Lance_grenade_PalladD_wz83 is TAmmunitionDescriptor
         // DiceHitRollRule
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-         DescriptorId          = GUID:{2849b5fd-7e23-4aaa-82ce-cb070266f97c}
+         DescriptorId          = GUID:{b5c9bd37-111d-4afb-9e8f-6562b162fcdf}
          BaseCriticModifier = 25
          BaseEffectModifier = 0
          BaseHitValueModifiers =
@@ -54323,6 +54323,109 @@ Ammo_RocketAvion_S13_122mm is TAmmunitionDescriptor
     DistanceForSpeed                      = 10000.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
+Ammo_RocketInf_AGI_3X40_40mm is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{8b9b682e-4ac1-48c5-990e-ec0af76cb32e}
+    Name                              = 'KDQLLRNFUI'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'WZIIVZBBQL'
+    Caliber                           = 'SSSIABNVRC'
+    WeaponDescriptionToken            = 'SYHCNYOVQU'
+    TraitsToken                       = [ 'STAT', 'napalm', ]
+    WeaponCursorType                  = Weapon_Cursor_UnguidedMissile
+    MinMaxCategory                    = MinMax_LAW
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="he" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    FxWeaponType                      = ~/TFxWeaponType_RoquetteLAW
+    FxPower                           = EFXPower/Moyen
+    Puissance                         = 100.0
+    TempsEntreDeuxTirs                = 0.7
+    TempsEntreDeuxTirs_Min             = -1.0
+    TempsEntreDeuxTirs_Max             = -1.0
+    TempsEntreDeuxFx                  = 1.0
+    PorteeMaximale                    = ((1415) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((0) * Metre)
+    AltitudeAPorteeMinimale           = ((12.5) * Metre)
+    AltitudeAPorteeMaximale           = ((25.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((10) * Metre)
+    DispersionAtMinRange              = ((5) * Metre)
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = ((70) * Metre)
+    PhysicalDamages                   = 1.4
+    RadiusSplashSuppressDamages       = ((14) * Metre)
+    SuppressDamages                   = 92.0
+    RayonPinned                       = ((400) * Metre)
+    AllowSuppressDamageWhenNoImpact                = False
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    TempsAnimation                    = 0.0
+    NoiseDissimulationMalus           = 2.5
+    ShotsBeforeMaxNoise               = 2
+    TargetsDistricts                  = True
+        // DiceHitRollRule
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{2c70d97d-ecd8-4da1-bd5f-37e02091f16e}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 40),
+             (EBaseHitValueModifier/Moving, 0),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+
+    TempsDeVisee                      = 1.0
+    TempsEntreDeuxSalves              = 5.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 3
+    SupplyCost                        = 30
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 3
+    MissileDescriptor                 = nil
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_NapalmLeger
+    FireTriggeringProbability         = 1.0
+    TargetUnitCenter                  = True
+    IgnoreInflammabilityConditions    = True
+    CanHarmInfantry                   = True
+    CanHarmVehicles                   = True
+    CanHarmHelicopters                = True
+    CanHarmAirplanes                  = True
+    CanHarmGuidedMissiles             = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 1.15
+    DistanceForSpeed                      = 2000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
 Ammo_RocketInf_APILAS is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{e0791fd5-d73a-4ba0-ab36-01305f059189}
@@ -55369,7 +55472,7 @@ Ammo_RocketInf_M202_Flash_66mm is TAmmunitionDescriptor
     FxWeaponType                      = ~/TFxWeaponType_RoquetteLAW
     FxPower                           = EFXPower/Moyen
     Puissance                         = 100.0
-    TempsEntreDeuxTirs                = 1.0
+    TempsEntreDeuxTirs                = 0.7
     TempsEntreDeuxTirs_Min             = -1.0
     TempsEntreDeuxTirs_Max             = -1.0
     TempsEntreDeuxFx                  = 1.0
@@ -55429,15 +55532,15 @@ Ammo_RocketInf_M202_Flash_66mm is TAmmunitionDescriptor
     )
 
     TempsDeVisee                      = 1.0
-    TempsEntreDeuxSalves              = 3.0
+    TempsEntreDeuxSalves              = 6.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
-    NbTirParSalves                    = 1
-    SupplyCost                        = 10
+    NbTirParSalves                    = 4
+    SupplyCost                        = 40
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 1
+    AffichageMunitionParSalve         = 4
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M202_flash"
     SmokeDescriptor                   = nil
@@ -55464,7 +55567,7 @@ Ammo_RocketInf_M40A1_RCL_106mm is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'DUSWQRGOFW'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -55567,7 +55670,7 @@ Ammo_RocketInf_M40A1_RCL_106mm_HE is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'DUSWQRGOFW'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'KINETIC', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'KINETIC', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -55669,7 +55772,7 @@ Ammo_RocketInf_M40A1_RCL_106mm_HE_TOWED is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'DUSWQRGOFW'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'KINETIC', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'KINETIC', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -55771,7 +55874,7 @@ Ammo_RocketInf_M40A1_RCL_106mm_TOWED is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'DUSWQRGOFW'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -57364,7 +57467,7 @@ Ammo_RocketInf_RPG76_Komar is TAmmunitionDescriptor
         // DiceHitRollRule
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-         DescriptorId          = GUID:{135a1373-5cfd-4f68-a1a4-6c785ba4d064}
+         DescriptorId          = GUID:{0103ebb7-73a7-461a-aa98-821887cd82b6}
          BaseCriticModifier = 0
          BaseEffectModifier = 0
          BaseHitValueModifiers =
@@ -58038,7 +58141,7 @@ Ammo_RocketInf_WOMBAT_RCL_120mm is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'UAMGVQLVMC'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -58141,7 +58244,7 @@ Ammo_RocketInf_WOMBAT_RCL_120mm_HE is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'UAMGVQLVMC'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'KINETIC', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'KINETIC', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -58243,7 +58346,7 @@ Ammo_RocketInf_WOMBAT_RCL_120mm_HE_TOWED is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'UAMGVQLVMC'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'KINETIC', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'KINETIC', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -58345,7 +58448,7 @@ Ammo_RocketInf_WOMBAT_RCL_120mm_TOWED is TAmmunitionDescriptor
     TypeCategoryName                  = 'FIQMEQMUTK'
     Caliber                           = 'UAMGVQLVMC'
     WeaponDescriptionToken            = 'YDWRGQLHYI'
-    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    TraitsToken                       = [ 'STAT', 'HE', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
@@ -59524,7 +59627,7 @@ Ammo_Sniper_SVD_Dragunov is TAmmunitionDescriptor
         // DiceHitRollRule
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-         DescriptorId          = GUID:{ed71d658-b843-4dfb-a654-c9f0fccc6889}
+         DescriptorId          = GUID:{60aa051c-02a8-4d7a-b0e2-a53dddaba127}
          BaseCriticModifier = 25
          BaseEffectModifier = 0
          BaseHitValueModifiers =
@@ -59625,7 +59728,7 @@ Ammo_Sniper_VSS_Vintorez is TAmmunitionDescriptor
         // DiceHitRollRule
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-         DescriptorId          = GUID:{ca8f5e83-3471-4f1a-84ce-d87dabec0277}
+         DescriptorId          = GUID:{318a5442-8cea-4de9-9c81-501f9716bc75}
          BaseCriticModifier = 25
          BaseEffectModifier = 0
          BaseHitValueModifiers =
@@ -71754,7 +71857,7 @@ Ammo_Bomb_KAB_500Kr_x2 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 2
-    AffichageMunitionParSalve         = 1
+    AffichageMunitionParSalve         = 2
     MissileTimeBetweenCorrections     = 10.0
     MissileDescriptor                 = ~/Descriptor_Missile_Bomb_KAB_500Kr_x2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_500Kr"
@@ -75021,7 +75124,7 @@ Ammo_SAM_RAPIER_FSA_x4 is TAmmunitionDescriptor
         // DiceHitRollRule
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-         DescriptorId          = GUID:{144e1c98-3b7b-4c3c-a538-45b5ca6b537f}
+         DescriptorId          = GUID:{671fde80-161a-4107-abe3-c9714d744383}
          BaseCriticModifier = 25
          BaseEffectModifier = 0
          BaseHitValueModifiers =
