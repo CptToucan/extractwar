@@ -125,6 +125,22 @@ export default class ParseNdf extends Command {
       unitJson.category = localizedUnitCard?.category
       unitJson.id = localizedUnitCard?.code
 
+      // Unit Type info - TTypeUnitModuleDescriptor
+      const typeUnitPrettyKeys: {[key: string]: string} = {
+        "Nationalite": "nationality",
+        "MotherCountry": "motherCountry",
+        "TypeUnitFormation": "formation"
+      }
+      unitJson.unitType = search(unitDescriptor, 'TTypeUnitModuleDescriptor')[0].children.reduce( 
+        (result: any, child: any) =>  {
+          if (typeUnitPrettyKeys[child.name]) {
+            result[typeUnitPrettyKeys[child.name]] = child.value.value.replaceAll("'", "");
+          }
+          return result;
+        }, 
+        {}
+      )
+
       // If no manual localization, create it from unit descriptor
       if (unitJson.name.length < 1) {
         unitJson.name = prettyUnitNameFromDescriptor(unitJson.descriptorName)
