@@ -42,7 +42,7 @@
     "oclif": "^2",
     "pixelmatch": "^5.2.1",
     "pngjs": "^4.0.1",
-    "sharp": "^0.30.3",
+    "sharp": "^0.31.2",
     "shx": "^0.3.3",
     "tesseract.js": "^2.1.5",
     "ts-node": "^10.2.1",
