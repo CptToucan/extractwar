@@ -1,8 +1,11 @@
 import { Command, Flags } from '@oclif/core';
 import ux from 'cli-ux';
-import { NdfParser, search } from '@izohek/ndf-parser';
+import { search } from '@izohek/ndf-parser';
 import { NdfObject } from '@izohek/ndf-parser/dist/src/types';
 import { findUnitCardByDescriptor } from '@izohek/warno-db';
+import parseDivisionRules from '../lib/parse/rules';
+import { extractToAnnotatedDescriptor } from '../lib/parse/util';
+import parseDivisionData from '../lib/parse/divisions';
 
 const fs = require('fs');
 const path = require('path');
@@ -11,6 +14,10 @@ const filesToRead = {
   units: 'UniteDescriptor.ndf',
   ammo: 'Ammunition.ndf',
   weapon: 'WeaponDescriptor.ndf',
+  rules: 'DivisionRules.ndf',
+  divisions: 'Divisions.ndf',
+  costMatrix: 'DivisionCostMatrix.ndf',
+  packs: 'Packs.ndf'
 };
 
 type damageDropOffMap = {
@@ -66,6 +73,10 @@ export default class ParseNdf extends Command {
       filesToRead.weapon
     );
     const ammoDescriptorPath = path.join(args.inputNdfFolder, filesToRead.ammo);
+    const rulesDescriptorPath = path.join(args.inputNdfFolder, filesToRead.rules);
+    const divisionsDescriptorPath = path.join(args.inputNdfFolder, filesToRead.divisions);
+    const packsDescriptorPath = path.join(args.inputNdfFolder, filesToRead.packs);
+    const costMatrixPath = path.join(args.inputNdfFolder, filesToRead.costMatrix);
 
     const annotatedWeaponDescriptors =
       extractToAnnotatedDescriptor(weaponDescriptorPath);
@@ -73,6 +84,14 @@ export default class ParseNdf extends Command {
       extractToAnnotatedDescriptor(ammoDescriptorPath);
     const annotatedUniteDescriptors =
       extractToAnnotatedDescriptor(uniteDescriptorPath);
+    const divisionRulesDescriptors =
+      extractToAnnotatedDescriptor(rulesDescriptorPath);
+    const divisionDescriptors = 
+      extractToAnnotatedDescriptor(divisionsDescriptorPath);
+    const packsDescriptors = 
+      extractToAnnotatedDescriptor(packsDescriptorPath);
+    const costMatrixPathDescriptors =
+      extractToAnnotatedDescriptor(costMatrixPath);
 
     for (const weaponDescriptor of annotatedWeaponDescriptors) {
       weaponDescriptors[(weaponDescriptor as NdfObject).name] =
@@ -86,6 +105,12 @@ export default class ParseNdf extends Command {
     const allUnits: any = {
       version: undefined,
       units: [],
+      divisions: parseDivisionData({
+        division: divisionDescriptors,
+        rules: divisionRulesDescriptors,
+        packs: packsDescriptors,
+        costMatrix: costMatrixPathDescriptors
+      })
     };
     for (const unitDescriptor of annotatedUniteDescriptors) {
       const unitJson: any = {};
@@ -417,10 +442,15 @@ function extractMountedWeaponStatistics(
   const valueModifiers: any = {};
   // This array is split up weird. Index "n + 1" has the name of the value I'm looking to extract and index "n+2" has the value.
   // Hence why I'm going to every 3rd index, as I want to access both values in an iteration;
-  for (let i = 0; i < baseHitValueModifierValues.length; i += 3) {
-    const baseHitValueModifierName = baseHitValueModifierValues[i + 1];
-    const baseHitValueModifierValue = baseHitValueModifierValues[i + 2];
-    valueModifiers[baseHitValueModifierName.name] = Number(
+  // ** izohek:
+  // ** ndf-parser >= 1.2.0 simplified this array and removes one of the values we're skipping here (now only n and n+1).
+  // ** previous versions would split the name space and name as separate array values (EBaseHitValueModifier & Base)
+  // ** but in versions 1.2.0 and forward these values are combined into a single entity: "EBaseHitValueModifier/Base"
+  // ** we now split on '/' and remove the EBaseHitValueModifier prefix to match existing logic
+  for (let i = 0; i < baseHitValueModifierValues.length; i += 2) {
+    const baseHitValueModifierName = baseHitValueModifierValues[i].name.split('/')[1];
+    const baseHitValueModifierValue = baseHitValueModifierValues[i + 1];
+    valueModifiers[baseHitValueModifierName] = Number(
       baseHitValueModifierValue.value
     );
   }
@@ -461,16 +491,6 @@ function extractLastTokenFromString(path: string) {
   const pathTokens = path.split('/');
   const lastToken = pathTokens[pathTokens.length - 1];
   return lastToken;
-}
-
-function extractToAnnotatedDescriptor(filePath: string) {
-  const buffer: string = fs.readFileSync(filePath);
-  const descriptorNdf = buffer.toString();
-  const parser = new NdfParser(descriptorNdf);
-  const jsonDescriptor = parser.parse();
-  // Index 1 is the nice syntax, index 0 is raw
-  const annotatedDescriptor = jsonDescriptor[1];
-  return annotatedDescriptor;
 }
 
 function extractValueFromSearchResult<T>(searchResult: any[]): T {
