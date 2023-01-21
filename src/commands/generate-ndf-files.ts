@@ -26,7 +26,9 @@ export default class GenerateNdfFiles extends Command {
 
   static flags = {
     prompt: Flags.boolean({ char: 'p' }),
+    // @ts-ignore
     warnoDir: Flags.directory({ required: false}),
+     // @ts-ignore
     modDir: Flags.directory({ required: false })
   };
 

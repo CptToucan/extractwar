@@ -115,6 +115,9 @@ export default class ParseNdf extends Command {
       const rearArmorResult = search(unitDescriptor, 'ArmorDescriptorRear');
       const topArmorResult = search(unitDescriptor, 'ArmorDescriptorTop');
 
+
+      unitJson.factoryDescriptor = search(unitDescriptor, 'Factory')?.[0]?.value?.value;
+
       unitJson.frontArmor = convertArmourTokenToNumber(
         extractValueFromSearchResult(frontArmorResult)
       );
