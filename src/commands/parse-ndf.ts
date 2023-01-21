@@ -142,7 +142,7 @@ export default class ParseNdf extends Command {
       )
 
       // If no manual localization, create it from unit descriptor
-      if (unitJson.name.length < 1) {
+      if (unitJson.name && unitJson.name.length < 1) {
         unitJson.name = prettyUnitNameFromDescriptor(unitJson.descriptorName)
       }
 
@@ -315,10 +315,9 @@ export default class ParseNdf extends Command {
 
           unitJson.weapons.push(mergedWeapon);
         }
-
-        allUnits.units.push(unitJson);
       }
 
+      allUnits.units.push(unitJson);
     }
 
     fs.writeFileSync(`${args.outputFile}`, JSON.stringify(allUnits));

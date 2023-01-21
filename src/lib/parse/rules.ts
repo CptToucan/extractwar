@@ -1,5 +1,3 @@
-import { NdfParser, search } from "@izohek/ndf-parser";
-
 export default function parseDivisionRules(data: any) {
     const ndfItems = ((data[0] as any).attributes[0].value.value).map( (e: any) => e.value)
     
@@ -11,7 +9,7 @@ export default function parseDivisionRules(data: any) {
             division: item[0].value.replace('~/', ''),
             unitRules: (unitRules.values).map( (ur: any) => {
                 return {
-                    unitDescriptor: (ur.children.find( (u: any) => u.name === 'UnitDescriptor' )?.value).value,
+                    unitDescriptor: (ur.children.find( (u: any) => u.name === 'UnitDescriptor' )?.value).value.replace('~/', ''),
                     availableTransportList: extractTransportList(ur),
                     availableWithoutTransport: JSON.parse((ur.children.find( (u: any) => u.name === 'AvailableWithoutTransport' )?.value).value.toLowerCase()),
                     numberOfUnitsInPack: parseInt((ur.children.find( (u: any) => u.name === 'NumberOfUnitInPack' )?.value).value),
@@ -39,7 +37,7 @@ function extractTransportList(data: any) {
     )?.value;
 
     if (rawDataFromNdf?.values) {
-        return rawDataFromNdf.values[0].value?.split(",").map((i: any) => i.trim() );
+        return rawDataFromNdf.values[0].value?.split(",").map((i: any) => i.trim().replace('~/', ''));
     }
 
     return undefined;

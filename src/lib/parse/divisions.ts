@@ -52,13 +52,12 @@ function extractDivisionDetails(division: any) {
     return {
         descriptor: search(division, 'name'),
         alliance: search(division, 'DivisionNationalite')[0].value.value,
-        availableForPlay: JSON.parse(search(division, 'AvailableForPlay')[0].value.value.toLowerCase()),
         country: search(division, 'CountryId')[0].value.value.replaceAll('"', ''), 
         tags: search(division, 'DivisionTags')[0].value.values.map((t: any) => t.value.replaceAll("'", '')),
         maxActivationPoints: parseInt(search(division, 'MaxActivationPoints')[0].value.value),
         costMatrix: search(division, 'CostMatrix')[0].value.value,
         packList: search(division, 'PackList')[0].value.value.map((p: any) => { return {
-            descriptor: p.value[0].value,
+            descriptor: p.value[0].value.replace('~/', ''),
             count: parseInt(p.value[1].value)
         }})
     };
@@ -79,12 +78,12 @@ function extractDivisionDetails(division: any) {
 function combineUnitRulesAndPacks(unitRules: any, divisionPacks: any, packDefinitions: any) {
     return divisionPacks.map( (dp: any) => {
         const packDefinition = packDefinitions.find( (packDef: any) => {
-            return dp.descriptor === "~/" + packDef.name;
+            return dp.descriptor === packDef.name;
         });
-        const packUnit = search(packDefinition, 'UnitDescriptorList')[0].value.values[0].value;
+        const packUnit = search(packDefinition, 'UnitDescriptorList')[0].value.values[0].value.replace('~/', '');
 
         return {
-            packDescriptor: dp.descriptor,
+            packDescriptor: dp.descriptor.replace('~/', ''),
             ... unitRules.find((ur: any) => { return ur.unitDescriptor === packUnit }),
             numberOfCards: dp.count
         }
