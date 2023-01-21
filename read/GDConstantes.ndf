@@ -51,17 +51,10 @@ Constantes is TTunableConstante
 
 //--------------------------- Constantes Bâtiments ---------------------------------------//
 
-    // Taille et couleur des cases de la grille de placement de batiments
-    AngleMinimumDeRotation = 90 // en degrée
-    GridBorderExtraCellDrawRatio = 0.35
-    GridLineOpacity = 0.075
-    GridMarginSquareOpacity = 0.0
-    GridSquareColorValid =  RGBA[0, 255, 0, 255]
-    GridSquareColorWarning = RGBA[0, 0, 0, 0]
-    GridSquareColorInvalid = RGBA[255, 0, 0, 255]
+    // Taille des cases de la grille de placement de batiments
     GridSquareHeight = ~/GridHelper/Height
-    GridSquareOpacity = 0.05
     GridSquareWidth  = ~/GridHelper/Width
+    UnitPositionVerticalOffsetFromRoof = 60*Metre
 
 //------------------------------ Constantes Color -----------------------------------------//
 
@@ -77,15 +70,13 @@ Constantes is TTunableConstante
 
 //----------------------------- Constantes Combat -----------------------------------------//
 
-    LesTirsIgnorentLesObstacles = false
     ReductionDegatsSuppressDansVehicule = 0.05 // Pourcentage des dégats de suppress reçuts par un véhicule appliqués aux unités transportées
-    RegenerationPinnedEnCombat = 0 //0.5
     TimerRechercheDeCibleRiposte = -1
     TagRadioArtillerie = "Radio"
     PorteeRadioArtillerie = 6000 * Metre //7500
     EfficiencyShotSearchDistanceTolerance = 100.0
 
-    PerteDeSuppressParPointDeVieEntierPerdu = 100.0
+    PerteDeSuppressParPointDeVieEntierPerdu = 0.0
 
      // Permet de voir la grosse explosion quand les avions se crashen hors map. Ceci dit tous les fx qui vont avec son là notamment le feu et
      //   les particulent qui tombent hors de la map.
@@ -95,15 +86,6 @@ Constantes is TTunableConstante
     FacteurSecuriteSplashPhysique = 1 // 1.75
 
     StunEffectDuration = 10.0
-//----------------------------- Constantes Construction -----------------------------------//
-
-    // Si le terrain est occupe par des unites alliees qui peuvent se deplacer,
-    // une fois arrive sur place, le delegate va attendre ce temps avant de considerer qu'il ne peut pas construire
-    // A renseigner en secondes
-    TimeoutAvantCancelConstruction = 30.0
-
-    // Pareil qu'au dessus, mais pour les unites ennemies (unites ennemies qui peuvent se deplacer bloquent la construction -> on attend ce temps avant de partir)
-    TimeoutAvantCancelConstruction_Enemy = 10.0
 
 //------------------------------ Constantes Corridors ------------------------------------//
     CanUseAlliedAllianceCorridors = false
@@ -120,9 +102,6 @@ Constantes is TTunableConstante
 
     DefaultAIDifficultyForPlayerReplacement = IADifficulty/Normal
 
-    // List d'options effects appliqué a toutes les parties, quelque soit les options choisies. Exemple : DefaultEffectsList = [ ~/OptionsEffectsDescriptor_ShowAllGisement ]
-    DefaultEffectsList = [  ]
-
     SuddenDeathTime = 5 * 60 * Seconde
 
     TagControleZone = "InfmapCommander"
@@ -135,11 +114,6 @@ Constantes is TTunableConstante
 
     DistanceCoherence = 5000 * Metre
     DistanceCoherenceAvion = 20000 * Metre
-
-//-------------------------- Constantes HarvestRules --------------------------------------//
-
-    RecolteursGerentCompatibiliteRessourcesClientMaster = false
-    RecolteursRestentQuandMasterVide = false
 
 //-------------------------- Constantes Helicopters --------------------------------------//
     // Angle max avec la direction (0,0,1) EN DEGRES -- DOIT ETRE > 0 (sinon je pense que ça va être la daube) -- VOIR AVEC UN DEV POUR CHANGER LA VALEUR C'EST TRES SENSIBLE !!!
@@ -205,20 +179,9 @@ Constantes is TTunableConstante
     TimeDownloadObjectiveAnimationInSecond = 1.0
     TimeAfterDownloadObjectiveInSecond = 0.5
 
-//---------------------------- Constantes Pathfinding -------------------------------------//
-
-    AntiDemiTourSurRoute = false
-
-//-------------------------- Constantes Recolte -------------------------------------------//
-
-    UnitesALArretPourRavitaillementAuto = false
-    UnitesALArretPourRecolteAuto = false
-    UnitesHorsMondePeuventEtreRavitaillees = false
-
 //----------------------------- Constantes Replay -----------------------------------------//
 
     TimeBetweenNodeDuringReplayInSeconds = 30
-    TimeNeededAfterNodeToGoBackToThisNodeInSeconds = 5
 
 //----------------------------- Constantes Resale -----------------------------------------//
 
@@ -232,13 +195,10 @@ Constantes is TTunableConstante
     AllowMixedSelection = false // Selection d'unités ET bâtiments en même temps ?
     AllowMultipleBuildingSelection = false // Selection multiple de bâtiments (et quartiers)
 
-//------------------------------ Constantes Stats -----------------------------------------//
+//----------------------------- Constantes Supply -----------------------------------------//
 
-    AverageOnPeriod = 120
-
-//------------------------- Constantes StorageNetwork -------------------------------------//
-
-    StorageNetworkOnWholeMap = false
+    DeploymentDuration = 0.0
+    WithdrawalDuration = 0.0
 
 //------------------------- Constantes Tourelles ----------------------------------//
 
@@ -252,11 +212,6 @@ Constantes is TTunableConstante
 
 //---------------------------- Constantes Visibilite --------------------------------------//
 
-    CouvertBonusForet                            = 15000 * Metre // 10000 pas branché
-    DistanceIgnoreForet                          = 0 * Metre     // pas branché
-    DistanceMinimumVision                        = 0 //500 * Metre // 2500, 3000, 1000, 0 pas branché
-    DistanceMinimumVisionBatimentReco            = 8000 * Metre // pas branché
-    RayonCercleDeVisionMinimum                   = 0 * Metre    // pas branché
     MultiplicateurDistancePourBonusDissimulation = 1.0 DIV Metre DIV 100.0 // = (Distance en Mètres RTS) / 100.f
 
 //------------------------------ Constantes Vision ----------------------------------------//
@@ -400,7 +355,8 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     MaxWeaponsOnUI = 4 // Nombre d'armes affichées sur les panneaux d'interface qui affiche les armes
 
-    AdditionalSuppressDamagePerLostPhysicalDamage = 0 // c'est un multiplicateur des degats physiques qu'on va appliqué en stress.
+
+    AdditionalSuppressDamagePerLostPhysicalDamage = 25 // c'est un multiplicateur des degats physiques qu'on va appliqué en stress.
 
     ArtilleryDispersionTargetNotVisible = 1 // 2 Dispersion du tireur (artillerie) quand la cible n'est pas visible (attaque sur position ou unité)
     DamageMultiplierWhenShooterIsHidden = 1
@@ -648,11 +604,11 @@ WargameConstantes is TWargameTunableConstante
     PaliersDAgilite = MAP
     [
         (2000 *Metre, 'Value_6'),//Exceptional
-        (4000*Metre, 'Value_5'),//Excellent
-        (6000*Metre, 'Value_4'), //Very good
-        (7000*Metre, 'Value_3'), //Good
-        (90000*Metre, 'Value_2'),  //Medium
-        (10000*Metre, 'Value_1'),  //Medium
+        (4000*Metre, 'Value_5'),//Very good
+        (6000*Metre, 'Value_4'), //Good
+        (7000*Metre, 'Value_3'), //Normal
+        (90000*Metre, 'Value_2'),  //Mediocre
+        (10000*Metre, 'Value_1'),  //Bad
 
     ]
 
