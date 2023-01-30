@@ -199,8 +199,8 @@ private DivisionRules is TDeckDivisionRules
                         UnitDescriptor = ~/Descriptor_Unit_MANPAD_Mistral_para_FR
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_VLTT_P4_FR]
-                        NumberOfUnitInPack = 8
-                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.5]
+                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
                     TDeckUniteRule
                     (
@@ -637,8 +637,8 @@ private DivisionRules is TDeckDivisionRules
                         UnitDescriptor = ~/Descriptor_Unit_MANPAD_Mistral_FR
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_VLTT_P4_FR]
-                        NumberOfUnitInPack = 8
-                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.25]
+                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                     TDeckUniteRule
                     (
@@ -1252,8 +1252,8 @@ private DivisionRules is TDeckDivisionRules
                         UnitDescriptor = ~/Descriptor_Unit_MANPAD_Mistral_FR
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_VLTT_P4_FR]
-                        NumberOfUnitInPack = 8
-                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.25]
+                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                     TDeckUniteRule
                     (
@@ -6169,7 +6169,7 @@ private DivisionRules is TDeckDivisionRules
                         UnitDescriptor = ~/Descriptor_Unit_Challenger_1_Mk1_CMD_UK
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 1
-                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.5]
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
                     TDeckUniteRule
                     (
@@ -6661,7 +6661,7 @@ private DivisionRules is TDeckDivisionRules
                         UnitDescriptor = ~/Descriptor_Unit_Engineers_TA_UK
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_Bedford_MJ_4t_trans_UK]
-                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPack = 9
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
                     TDeckUniteRule
