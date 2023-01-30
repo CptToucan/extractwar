@@ -87,6 +87,17 @@ Constantes is TTunableConstante
 
     StunEffectDuration = 10.0
 
+//----------------------------- Constantes Commander -----------------------------------------//
+
+    CommanderEffect = ~/UnitEffect_Gain_un_niveau_XP
+
+    CommanderRadiusEffectByLevel =
+    [
+        1200 * Metre,
+        1600 * Metre,
+        1800 * Metre,
+    ]
+
 //------------------------------ Constantes Corridors ------------------------------------//
     CanUseAlliedAllianceCorridors = false
 
