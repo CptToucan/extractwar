@@ -251,7 +251,10 @@ export default class ParseNdf extends Command {
         map(
           (spec: any) => { 
             return spec.value.replace(/^([\'\"]*)/g, '').replace(/([\'\"]*)$/g, '');
-          });
+          }).
+        filter((spec: any) => {
+          return spec && spec !== 'appui'
+        });
 
       // Weapons
 
