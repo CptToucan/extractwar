@@ -245,6 +245,14 @@ export default class ParseNdf extends Command {
         'TravelDuration'
       );
 
+      // Specialities
+      unitJson.specialities = search(unitDescriptor, 'SpecialtiesList')[0].value.
+        values.
+        map(
+          (spec: any) => { 
+            return spec.value.replace(/^([\'\"]*)/g, '').replace(/([\'\"]*)$/g, '');
+          });
+
       // Weapons
 
       unitJson.weapons = [];
