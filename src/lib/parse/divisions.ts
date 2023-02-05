@@ -1,5 +1,6 @@
 import { search } from "@izohek/ndf-parser";
 import parseDivisionRules from "./rules";
+import DivisionsJson from "@izohek/warno-db/dist/json/divisions.json";
 
 /// All the data required for parsing a division
 interface DivisionInputData {
@@ -33,8 +34,11 @@ export default function parseDivisionData(data: DivisionInputData) {
             return pack;
         })
 
+        const id = DivisionsJson.find((_division) => _division.descriptor === division.descriptor)?.id;
+
         return {
             ...division,
+            id,
             packs: combineUnitRulesAndPacks(unitRules, divisionPacks, data.packs),
             costMatrix: extractCostMatrix(division.costMatrix, data.costMatrix),
             packList: undefined
@@ -49,6 +53,8 @@ export default function parseDivisionData(data: DivisionInputData) {
  * @returns 
  */
 function extractDivisionDetails(division: any) {
+    
+ 
     return {
         descriptor: search(division, 'name'),
         alliance: search(division, 'DivisionNationalite')[0].value.value,
