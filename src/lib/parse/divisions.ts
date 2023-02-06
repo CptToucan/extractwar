@@ -10,6 +10,28 @@ interface DivisionInputData {
     costMatrix: any
 }
 
+/// Pretty division names
+export const DIVISION_NAMES: {[key: string]: string} = {
+    'Descriptor_Deck_Division_RDA_7_Panzer_multi': '7. PanzerDivision',
+    'Descriptor_Deck_Division_RFA_5_Panzer_multi': '5. PanzerDivision',
+    'Descriptor_Deck_Division_SOV_79_Gds_Tank_multi': '79-Ya Gv. Tank. Div.',
+    'Descriptor_Deck_Division_US_3rd_Arm_multi': '3rd Armored Division',
+    'Descriptor_Deck_Division_US_8th_Inf_multi': '8th Infantry Division (Mech.)',
+    'Descriptor_Deck_Division_NATO_Garnison_Berlin_multi': 'Berlin Command',
+    'Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi': '39-Ya Gv. Motostrelk. Div.',
+    'Descriptor_Deck_Division_RDA_4_MSD_multi': '4. Mot.-Schutzen-Division',
+    'Descriptor_Deck_Division_RFA_2_PzGrenadier_multi': '2. Pz.Grenadier-Division',
+    'Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi': '35-Ya OG Desantno-Shturmovaya Brig.',
+    'Descriptor_Deck_Division_US_82nd_Airborne_multi': '82nd Airborne Division',
+    'Descriptor_Deck_Division_FR_11e_Para_multi': '11E Division Parachutiste',
+    'Descriptor_Deck_Division_FR_5e_Blindee_multi': '5E Division Blindee',
+    'Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi': 'K.d.A Bezirk Erfurt',
+    'Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi': 'TerritorialKommando Sud',
+    'Descriptor_Deck_Division_UK_1st_Armoured_multi': '1st Armoured Division',
+    'Descriptor_Deck_Division_UK_2nd_Infantry_multi': '2nd Infantry Division',
+    'Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi': 'Unternehmen Zentrum'
+}
+
 /**
  * This method pulls all division and deck building related data together
  * from multiple files into an array of objects.
@@ -35,10 +57,12 @@ export default function parseDivisionData(data: DivisionInputData) {
         })
 
         const id = DivisionsJson.find((_division) => _division.descriptor === division.descriptor)?.id;
+        const name = DIVISION_NAMES[division.descriptor];
 
         return {
             ...division,
             id,
+            name,
             packs: combineUnitRulesAndPacks(unitRules, divisionPacks, data.packs),
             costMatrix: extractCostMatrix(division.costMatrix, data.costMatrix),
             packList: undefined
