@@ -85,7 +85,7 @@ Constantes is TTunableConstante
     // Facteur de securite a appliquer sur le splash physique dans le calcul de la dispersion. Ne pas descendre trop bas, sinon on se prend des dégats en mouvement
     FacteurSecuriteSplashPhysique = 1 // 1.75
 
-    StunEffectDuration = 10.0
+    StunEffectDuration = 3.0
 
 //----------------------------- Constantes Commander -----------------------------------------//
 
