@@ -110,7 +110,8 @@ function combineUnitRulesAndPacks(unitRules: any, divisionPacks: any, packDefini
         const packDefinition = packDefinitions.find( (packDef: any) => {
             return dp.descriptor === packDef.name;
         });
-        const packUnit = search(packDefinition, 'UnitDescriptorList')[0].value.values[0].value.replace('~/', '');
+
+        const packUnit = search(packDefinition, 'UnitDescriptor')[0].value.value;
 
         return {
             packDescriptor: dp.descriptor.replace('~/', ''),
