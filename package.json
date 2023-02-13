@@ -17,7 +17,7 @@
     "/oclif.manifest.json"
   ],
   "dependencies": {
-    "@izohek/ndf-parser": "1.2.1",
+    "@izohek/ndf-parser": "1.2.2",
     "@izohek/warno-db": "^0.5.0",
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
