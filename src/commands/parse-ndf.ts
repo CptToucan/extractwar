@@ -17,7 +17,8 @@ const filesToRead = {
   rules: 'DivisionRules.ndf',
   divisions: 'Divisions.ndf',
   costMatrix: 'DivisionCostMatrix.ndf',
-  packs: 'Packs.ndf'
+  packs: 'Packs.ndf',
+  terrain: 'Terrains.ndf'
 };
 
 type damageDropOffMap = {
@@ -56,6 +57,7 @@ export default class ParseNdf extends Command {
     name: 'outputFile', required: true
   }];
 
+  // eslint-disable-next-line complexity
   public async run(): Promise<void> {
     const { args, flags } = await this.parse(ParseNdf);
 
@@ -77,6 +79,7 @@ export default class ParseNdf extends Command {
     const divisionsDescriptorPath = path.join(args.inputNdfFolder, filesToRead.divisions);
     const packsDescriptorPath = path.join(args.inputNdfFolder, filesToRead.packs);
     const costMatrixPath = path.join(args.inputNdfFolder, filesToRead.costMatrix);
+    const terrainPath = path.join(args.inputNdfFolder, filesToRead.terrain);
 
     const annotatedWeaponDescriptors =
       extractToAnnotatedDescriptor(weaponDescriptorPath);
@@ -92,6 +95,9 @@ export default class ParseNdf extends Command {
       extractToAnnotatedDescriptor(packsDescriptorPath);
     const costMatrixPathDescriptors =
       extractToAnnotatedDescriptor(costMatrixPath);
+
+    const terrainDescriptors = extractToAnnotatedDescriptor(terrainPath);
+
 
     for (const weaponDescriptor of annotatedWeaponDescriptors) {
       weaponDescriptors[(weaponDescriptor as NdfObject).name] =
@@ -270,12 +276,15 @@ export default class ParseNdf extends Command {
         const rawSalvoMap = search(weaponDescriptor, 'Salves');
         const salvoMap =
           rawSalvoMap[0]?.value?.values?.map((el: any) => el.value) || [];
-
         const turretDescriptorResult = search(
+
           weaponDescriptor,
           'TurretDescriptorList'
         );
+
         const turretDescriptors = turretDescriptorResult[0]?.value?.values;
+
+
         const allMountedWeapons = [];
 
         for (const turretDescriptor of turretDescriptors) {
@@ -284,6 +293,7 @@ export default class ParseNdf extends Command {
             'MountedWeaponDescriptorList'
           );
 
+
           // Some turrets have multiple "weapons" attached to them. This is to allow weapons being good at AP and having different values for HE. Units use the best weapon possible when they target an enemy.
           const mountedWeaponDescriptors =
             mountedWeaponResult[0]?.value?.values;
@@ -291,10 +301,12 @@ export default class ParseNdf extends Command {
 
           for (const mountedWeaponDescriptor of mountedWeaponDescriptors) {
             const mountedWeapon = extractMountedWeaponStatistics(
+              turretDescriptor,
               mountedWeaponDescriptor,
               ammoDescriptors,
               salvoMap
             );
+
             allMountedWeapons.push(mountedWeapon);
           }
         }
@@ -311,14 +323,44 @@ export default class ParseNdf extends Command {
           const weaponsForSalvoIndex = allMountedWeaponsToShow.filter(
             (_weapon) => _weapon.salvoIndex === salvoIndex
           );
+
+          
           const mergedWeapon = { ...weaponsForSalvoIndex[0] };
+
+          
+          /*
+          if(weaponsForSalvoIndex.length === 2) {
+            mergedWeapon.penetration = weaponsForSalvoIndex[0].penetration;
+            mergedWeapon.he = weaponsForSalvoIndex[1].he;
+          }
+          */
+
+
 
           for (let i = 1; i < weaponsForSalvoIndex.length; i++) {
             const _weapon = weaponsForSalvoIndex[i];
 
+            if(_weapon.ammoDescriptorName.includes("_AP_")) {
+              mergedWeapon.penetration = _weapon.penetration; 
+            }
+
+            if(_weapon.ammoDescriptorName.includes("_HE_")) {
+              mergedWeapon.he = _weapon.he;
+            } else if(!_weapon.ammoDescriptorName.includes("_AP_") && (_weapon.ammoDescriptorName.includes("_GatlingAir_") || _weapon.ammoDescriptorName.includes("Gatling"))) {
+              mergedWeapon.he = _weapon.he;
+            }
+
+            if(_weapon.ammoDescriptorName.includes("_GatlingAir_") || _weapon.ammoDescriptorName.includes("Gatling")) {
+
+              mergeBestValue(_weapon, mergedWeapon, 'penetration');
+
+              if(mergedWeapon.penetration > 1) {
+                mergedWeapon.penetration = 1;
+              }
+
+            }
+
             mergeBestValue(_weapon, mergedWeapon, 'suppress');
-            mergeBestValue(_weapon, mergedWeapon, 'penetration');
-            mergeBestValue(_weapon, mergedWeapon, 'he');
             mergeBestValue(_weapon, mergedWeapon, 'groundRange');
             mergeBestValue(_weapon, mergedWeapon, 'helicopterRange');
             mergeBestValue(_weapon, mergedWeapon, 'planeRange');
@@ -354,6 +396,7 @@ function mergeBestValue(compareObject: any, mergedObject: any, stat: string) {
 }
 
 function extractMountedWeaponStatistics(
+  turretDescriptor: any,
   mountedWeaponDescriptor: any,
   ammoDescriptors: { [key: string]: any },
   salvoMap: any
@@ -378,10 +421,41 @@ function extractMountedWeaponStatistics(
     ammunitionDescriptor,
     'PhysicalDamages'
   );
+
+  const heDamageRadius = parseNumberFromNdfValue(ammunitionDescriptor, 'RadiusSplashPhysicalDamages');
+  
+  mountedWeaponJson.heDamageRadius = heDamageRadius;
+
   const suppress = parseNumberFromNdfValue(
     ammunitionDescriptor,
     'SuppressDamages'
   );
+
+  const suppressDamageRadius = parseNumberFromNdfValue(
+    ammunitionDescriptor,
+    'RadiusSplashSuppressDamages'
+  );
+
+  mountedWeaponJson.suppressDamagesRadius = suppressDamageRadius;
+
+  const firesLeftToRightValue = extractValueFromSearchResult(search(ammunitionDescriptor, 'DispersionWithoutSorting'));
+  const firesLeftToRight = firesLeftToRightValue === "True";
+ 
+  mountedWeaponJson.firesLeftToRight = firesLeftToRight;
+
+  const numberOfWeapons = parseNumberFromNdfValue(mountedWeaponDescriptor, "NbWeapons");
+  mountedWeaponJson.numberOfWeapons = numberOfWeapons;
+  
+  const rotationSearch = search(turretDescriptor, 'VitesseRotation');
+  const turretRotationSpeed = rotationSearch?.[0]?.value?.value;
+
+  let hasTurret = false;
+  if(turretRotationSpeed) {
+    hasTurret = true;
+  }
+
+  mountedWeaponJson.hasTurret = hasTurret;
+  mountedWeaponJson.turretRotationSpeed = turretRotationSpeed;
 
   // traits for things like radar, f&f, motion firing, indirect fire, etc 
   mountedWeaponJson.traits = search(ammunitionDescriptor, 'TraitsToken')[0].value.values.map ( 
@@ -436,18 +510,25 @@ function extractMountedWeaponStatistics(
   );
   mountedWeaponJson.salvoLength = salvoLength;
 
-  const timeBetweenShots = parseNumberFromNdfValue(
+  const totalHeDamage = heDamage * salvoLength * numberOfWeapons;
+  mountedWeaponJson.totalHeDamage = totalHeDamage;
+
+  const timeBetweenSalvos = parseNumberFromNdfValue(
     ammunitionDescriptor,
     'TempsEntreDeuxTirs'
   );
+
+  mountedWeaponJson.timeBetweenSalvos = timeBetweenSalvos;
 
   const ammunitionPerSalvo = parseNumberFromNdfValue(
     ammunitionDescriptor,
     'AffichageMunitionParSalve'
   );
 
+  mountedWeaponJson.ammunitionPerSalvo = ammunitionPerSalvo;
+
   const rateOfFire =
-    (ammunitionPerSalvo / ((salvoLength - 1) * timeBetweenShots + reloadTime)) *
+    (ammunitionPerSalvo / ((salvoLength - 1) * timeBetweenSalvos + reloadTime)) *
     60;
   mountedWeaponJson.rateOfFire = Math.round(rateOfFire);
 
@@ -515,6 +596,7 @@ function extractMountedWeaponStatistics(
       ? Math.round(Number(damageIndex) - groundMaxRange / damageDropOffValue)
       : Number(damageIndex);
   mountedWeaponJson.penetration = penetration;
+
   return mountedWeaponJson;
 }
 
