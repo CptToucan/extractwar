@@ -67,10 +67,10 @@ const accuracyBonusOverRange = [
 ]
 
 enum Armour {
-  Blindage,
-  Infanterie,
-  Vehicule,
-  Helico,
+  Blindage = "Blindage",
+  Infanterie = "Infanterie",
+  Vehicule = "Vehicule",
+  Helico = "Helico",
 }
 
 const METRE = 1 / 2.83;
@@ -276,12 +276,6 @@ export default class ParseNdf extends Command {
           extractValueFromSearchResult(search(unitDescriptor, 'MaxSpeed'))
         )
       );
-
-      const speedOverTerrain = {
-        forest: {},
-        building: {},
-        ruins: {},
-      }
 
       const unitMoveTypeValue: string | undefined = extractValueFromSearchResult(search(unitDescriptor, 'UnitMovingType'));
 
@@ -513,10 +507,6 @@ export default class ParseNdf extends Command {
               _weapon.ammoDescriptorName.includes('Gatling')
             ) {
               mergeBestValue(_weapon, mergedWeapon, 'penetration');
-
-              if (mergedWeapon.penetration > 1) {
-                mergedWeapon.penetration = 1;
-              }
             }
 
             if (_weapon.smokeProperties) {
@@ -909,9 +899,22 @@ function convertArmourTokenToNumber(armourToken: string): number {
     return 0.5;
   }
 
+  console.log(armourType);
+
   // If infanterie, then this is 0 armour
   if ((armourType as unknown as Armour) === Armour.Infanterie) {
     return 0;
+  }
+
+  if((armourType as unknown as Armour) === Armour.Helico) {
+    const baseArmourValue = Number(armourStrength);
+
+    const helicoArmour = baseArmourValue - 1;
+    if(helicoArmour >= 1) {
+      return helicoArmour;
+    }
+
+    return 0.5;
   }
 
   return Number(armourStrength);
