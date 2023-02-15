@@ -899,7 +899,6 @@ function convertArmourTokenToNumber(armourToken: string): number {
     return 0.5;
   }
 
-  console.log(armourType);
 
   // If infanterie, then this is 0 armour
   if ((armourType as unknown as Armour) === Armour.Infanterie) {
