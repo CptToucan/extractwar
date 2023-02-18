@@ -3677,8 +3677,8 @@ Ammo_Bomb_FAB_250kg_x4 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 125 * Metre
-    PhysicalDamages                   = 3.3
+    RadiusSplashPhysicalDamages       = 175 * Metre
+    PhysicalDamages                   = 3.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 250 * Metre
     SuppressDamages                   = 330.0
@@ -4172,8 +4172,8 @@ Ammo_Bomb_Matra_250kg_x10 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 125 * Metre
-    PhysicalDamages                   = 3.3
+    RadiusSplashPhysicalDamages       = 175 * Metre
+    PhysicalDamages                   = 3.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 250 * Metre
     SuppressDamages                   = 330.0
@@ -4272,8 +4272,8 @@ Ammo_Bomb_Matra_250kg_x5 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 125 * Metre
-    PhysicalDamages                   = 3.3
+    RadiusSplashPhysicalDamages       = 175 * Metre
+    PhysicalDamages                   = 3.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 250 * Metre
     SuppressDamages                   = 330.0
@@ -4372,7 +4372,7 @@ Ammo_Bomb_Matra_400kg_x16 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 200 * Metre
+    RadiusSplashPhysicalDamages       = 240 * Metre
     PhysicalDamages                   = 5.28
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 240 * Metre
@@ -4472,7 +4472,7 @@ Ammo_Bomb_Matra_400kg_x4 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 200 * Metre
+    RadiusSplashPhysicalDamages       = 240 * Metre
     PhysicalDamages                   = 5.28
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 240 * Metre
@@ -4572,7 +4572,7 @@ Ammo_Bomb_Matra_400kg_x6 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 200 * Metre
+    RadiusSplashPhysicalDamages       = 240 * Metre
     PhysicalDamages                   = 5.28
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 240 * Metre
@@ -5073,7 +5073,7 @@ Ammo_Bomb_Mk81_119kg_x4 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 60 * Metre
-    PhysicalDamages                   = 1.584
+    PhysicalDamages                   = 1.68
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 72 * Metre
     SuppressDamages                   = 158.0
@@ -5172,8 +5172,8 @@ Ammo_Bomb_Mk82_250kg_x12 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 125 * Metre
-    PhysicalDamages                   = 3.3
+    RadiusSplashPhysicalDamages       = 175 * Metre
+    PhysicalDamages                   = 3.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 250 * Metre
     SuppressDamages                   = 330.0
@@ -5272,8 +5272,8 @@ Ammo_Bomb_Mk82_250kg_x2 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 125 * Metre
-    PhysicalDamages                   = 3.3
+    RadiusSplashPhysicalDamages       = 175 * Metre
+    PhysicalDamages                   = 3.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 250 * Metre
     SuppressDamages                   = 330.0
@@ -5372,8 +5372,8 @@ Ammo_Bomb_Mk82_250kg_x4 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 125 * Metre
-    PhysicalDamages                   = 3.3
+    RadiusSplashPhysicalDamages       = 175 * Metre
+    PhysicalDamages                   = 3.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 250 * Metre
     SuppressDamages                   = 330.0
@@ -5472,8 +5472,8 @@ Ammo_Bomb_Mk82_250kg_x6 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 125 * Metre
-    PhysicalDamages                   = 3.3
+    RadiusSplashPhysicalDamages       = 175 * Metre
+    PhysicalDamages                   = 3.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 250 * Metre
     SuppressDamages                   = 330.0
@@ -5572,8 +5572,8 @@ Ammo_Bomb_Mk82_250kg_x8 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 125 * Metre
-    PhysicalDamages                   = 3.3
+    RadiusSplashPhysicalDamages       = 175 * Metre
+    PhysicalDamages                   = 3.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 250 * Metre
     SuppressDamages                   = 330.0
@@ -5672,7 +5672,7 @@ Ammo_Bomb_Mk83_450kg_x2 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 225 * Metre
+    RadiusSplashPhysicalDamages       = 270 * Metre
     PhysicalDamages                   = 5.94
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 270 * Metre
@@ -5772,7 +5772,7 @@ Ammo_Bomb_Mk83_450kg_x3 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 225 * Metre
+    RadiusSplashPhysicalDamages       = 270 * Metre
     PhysicalDamages                   = 5.94
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 270 * Metre
@@ -5872,7 +5872,7 @@ Ammo_Bomb_Mk83_450kg_x5 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 225 * Metre
+    RadiusSplashPhysicalDamages       = 270 * Metre
     PhysicalDamages                   = 5.94
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 270 * Metre
@@ -16647,7 +16647,7 @@ export Ammo_Degats_incendie is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -16734,7 +16734,7 @@ export Ammo_Degats_napalm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -16821,7 +16821,7 @@ export Ammo_Degats_napalm_buratino is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -16908,7 +16908,7 @@ export Ammo_Degats_napalm_leger is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -16995,7 +16995,7 @@ export Ammo_Degats_napalm_leger_Cluster is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -17082,7 +17082,7 @@ export Ammo_Degats_napalm_leger_Cluster_petit is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -17169,7 +17169,7 @@ export Ammo_Degats_napalm_lourd is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -19894,7 +19894,7 @@ Ammo_Gatling_m134_7_62mm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 100000.0
+    FX_vitesse_de_depart              = 100000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -19994,7 +19994,7 @@ Ammo_Gatling_m134_7_62mm_x2 is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 100000.0
+    FX_vitesse_de_depart              = 100000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -20091,7 +20091,7 @@ Ammo_GatlingAir_ADEN_25mm_x2 is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -20188,7 +20188,7 @@ Ammo_GatlingAir_AP_GAU8_30mm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -20285,7 +20285,7 @@ Ammo_GatlingAir_AP_Gsh_30_2_30mm_x2 is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -20382,7 +20382,7 @@ Ammo_GatlingAir_AP_Gsh_30_6_30mm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -20469,16 +20469,16 @@ Ammo_GatlingAir_DEFA_30mm_x1 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 54 * Metre
-    PhysicalDamages                   = 0.81
+    PhysicalDamages                   = 0.69
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 90 * Metre
-    SuppressDamages                   = 50.0
+    RadiusSplashSuppressDamages       = 75 * Metre
+    SuppressDamages                   = 45.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -20565,16 +20565,16 @@ Ammo_GatlingAir_DEFA_30mm_x2 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 54 * Metre
-    PhysicalDamages                   = 0.81
+    PhysicalDamages                   = 0.69
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 90 * Metre
-    SuppressDamages                   = 50.0
+    RadiusSplashSuppressDamages       = 75 * Metre
+    SuppressDamages                   = 45.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -20670,7 +20670,7 @@ Ammo_GatlingAir_GAU8_30mm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -20768,7 +20768,7 @@ Ammo_GatlingAir_GSh_23_23mm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -20864,7 +20864,7 @@ Ammo_GatlingAir_Gsh_23_6_23mm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 200000.0
+    FX_vitesse_de_depart              = 200000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -20962,7 +20962,7 @@ Ammo_GatlingAir_Gsh_30_1_30mm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -21058,7 +21058,7 @@ Ammo_GatlingAir_Gsh_30_2_30mm_x2 is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -21154,7 +21154,7 @@ Ammo_GatlingAir_Gsh_30_6_30mm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -21252,7 +21252,7 @@ Ammo_GatlingAir_M61_Vulcan_20mm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 200000.0
+    FX_vitesse_de_depart              = 200000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -21348,7 +21348,7 @@ Ammo_GatlingAir_Mauser_BK_27mm is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -21444,7 +21444,7 @@ Ammo_GatlingAir_Mauser_BK_27mm_x2 is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -21540,7 +21540,7 @@ Ammo_GatlingAir_NR30_30mm_x2 is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 150000.0
+    FX_vitesse_de_depart              = 150000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -22714,8 +22714,8 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 134 * Metre
-    PhysicalDamages                   = 1.952
+    RadiusSplashPhysicalDamages       = 152 * Metre
+    PhysicalDamages                   = 2.074
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 305 * Metre
     SuppressDamages                   = 146.0
@@ -22914,8 +22914,8 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 223 * Metre
-    PhysicalDamages                   = 4.263
+    RadiusSplashPhysicalDamages       = 254 * Metre
+    PhysicalDamages                   = 4.466
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 508 * Metre
     SuppressDamages                   = 264.0
@@ -23114,8 +23114,8 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 134 * Metre
-    PhysicalDamages                   = 1.952
+    RadiusSplashPhysicalDamages       = 152 * Metre
+    PhysicalDamages                   = 2.074
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 305 * Metre
     SuppressDamages                   = 146.0
@@ -23314,8 +23314,8 @@ Ammo_Howz_Canon_D20_Howitzer_152mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 170 * Metre
-    PhysicalDamages                   = 2.945
+    RadiusSplashPhysicalDamages       = 194 * Metre
+    PhysicalDamages                   = 3.1
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 388 * Metre
     SuppressDamages                   = 194.0
@@ -23514,8 +23514,8 @@ Ammo_Howz_Canon_D22_Howitzer_152mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 167 * Metre
-    PhysicalDamages                   = 2.888
+    RadiusSplashPhysicalDamages       = 190 * Metre
+    PhysicalDamages                   = 3.04
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 380 * Metre
     SuppressDamages                   = 190.0
@@ -23614,8 +23614,8 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 167 * Metre
-    PhysicalDamages                   = 2.888
+    RadiusSplashPhysicalDamages       = 190 * Metre
+    PhysicalDamages                   = 3.04
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 380 * Metre
     SuppressDamages                   = 190.0
@@ -23814,8 +23814,8 @@ Ammo_Howz_Canon_D30_Howitzer_122mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 134 * Metre
-    PhysicalDamages                   = 1.952
+    RadiusSplashPhysicalDamages       = 152 * Metre
+    PhysicalDamages                   = 2.074
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 305 * Metre
     SuppressDamages                   = 146.0
@@ -24014,8 +24014,8 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 170 * Metre
-    PhysicalDamages                   = 2.945
+    RadiusSplashPhysicalDamages       = 194 * Metre
+    PhysicalDamages                   = 3.1
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 388 * Metre
     SuppressDamages                   = 194.0
@@ -24214,8 +24214,8 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 170 * Metre
-    PhysicalDamages                   = 2.945
+    RadiusSplashPhysicalDamages       = 194 * Metre
+    PhysicalDamages                   = 3.1
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 388 * Metre
     SuppressDamages                   = 194.0
@@ -24414,8 +24414,8 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 170 * Metre
-    PhysicalDamages                   = 2.945
+    RadiusSplashPhysicalDamages       = 194 * Metre
+    PhysicalDamages                   = 3.1
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 388 * Metre
     SuppressDamages                   = 194.0
@@ -24514,8 +24514,8 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm_Direct is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 170 * Metre
-    PhysicalDamages                   = 2.945
+    RadiusSplashPhysicalDamages       = 194 * Metre
+    PhysicalDamages                   = 3.1
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 388 * Metre
     SuppressDamages                   = 194.0
@@ -24814,8 +24814,8 @@ Ammo_Howz_Canon_L13A1_Howitzer_105mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 118 * Metre
-    PhysicalDamages                   = 1.605
+    RadiusSplashPhysicalDamages       = 134 * Metre
+    PhysicalDamages                   = 1.712
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 268 * Metre
     SuppressDamages                   = 128.0
@@ -24914,8 +24914,8 @@ Ammo_Howz_Canon_M101_Howitzer_105mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 118 * Metre
-    PhysicalDamages                   = 1.605
+    RadiusSplashPhysicalDamages       = 134 * Metre
+    PhysicalDamages                   = 1.712
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 268 * Metre
     SuppressDamages                   = 128.0
@@ -25114,8 +25114,8 @@ Ammo_Howz_Canon_M102_Howitzer_105mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 118 * Metre
-    PhysicalDamages                   = 1.605
+    RadiusSplashPhysicalDamages       = 134 * Metre
+    PhysicalDamages                   = 1.712
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 268 * Metre
     SuppressDamages                   = 128.0
@@ -25314,8 +25314,8 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 182 * Metre
-    PhysicalDamages                   = 3.3
+    RadiusSplashPhysicalDamages       = 206 * Metre
+    PhysicalDamages                   = 3.465
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 412 * Metre
     SuppressDamages                   = 214.0
@@ -25514,8 +25514,8 @@ Ammo_Howz_Canon_M118_Howitzer_105mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 118 * Metre
-    PhysicalDamages                   = 1.605
+    RadiusSplashPhysicalDamages       = 134 * Metre
+    PhysicalDamages                   = 1.712
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 268 * Metre
     SuppressDamages                   = 128.0
@@ -25714,8 +25714,8 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 170 * Metre
-    PhysicalDamages                   = 2.945
+    RadiusSplashPhysicalDamages       = 194 * Metre
+    PhysicalDamages                   = 3.1
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 388 * Metre
     SuppressDamages                   = 194.0
@@ -25914,8 +25914,8 @@ Ammo_Howz_Canon_M198_Howitzer_155mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 170 * Metre
-    PhysicalDamages                   = 2.945
+    RadiusSplashPhysicalDamages       = 194 * Metre
+    PhysicalDamages                   = 3.1
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 388 * Metre
     SuppressDamages                   = 194.0
@@ -26112,8 +26112,8 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 223 * Metre
-    PhysicalDamages                   = 4.263
+    RadiusSplashPhysicalDamages       = 254 * Metre
+    PhysicalDamages                   = 4.466
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 508 * Metre
     SuppressDamages                   = 264.0
@@ -26312,8 +26312,8 @@ Ammo_Howz_Canon_M46_Howitzer_130mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 143 * Metre
-    PhysicalDamages                   = 2.21
+    RadiusSplashPhysicalDamages       = 162 * Metre
+    PhysicalDamages                   = 2.34
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 325 * Metre
     SuppressDamages                   = 156.0
@@ -26512,8 +26512,8 @@ Ammo_Howz_Canon_M50_155mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 170 * Metre
-    PhysicalDamages                   = 2.945
+    RadiusSplashPhysicalDamages       = 194 * Metre
+    PhysicalDamages                   = 3.1
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 388 * Metre
     SuppressDamages                   = 194.0
@@ -26712,8 +26712,8 @@ Ammo_Howz_Canon_TRF1_155mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 170 * Metre
-    PhysicalDamages                   = 2.945
+    RadiusSplashPhysicalDamages       = 194 * Metre
+    PhysicalDamages                   = 3.1
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 388 * Metre
     SuppressDamages                   = 194.0
@@ -26912,8 +26912,8 @@ Ammo_Howz_Canon_ZiS3_Howitzer_76mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 82 * Metre
-    PhysicalDamages                   = 1.0125
+    RadiusSplashPhysicalDamages       = 94 * Metre
+    PhysicalDamages                   = 1.0875
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 188 * Metre
     SuppressDamages                   = 90.0
@@ -30055,7 +30055,7 @@ export Ammo_Mort_Avion_ExtraLourd is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -30142,7 +30142,7 @@ export Ammo_Mort_Avion_Leger is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -30229,7 +30229,7 @@ export Ammo_Mort_Avion_Lourd is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -30316,7 +30316,7 @@ export Ammo_Mort_Avion_Moyen is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -30403,7 +30403,7 @@ export Ammo_Mort_Avion_UltraLourd is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -30490,7 +30490,7 @@ export Ammo_Mort_Helico_Leger is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -30577,7 +30577,7 @@ export Ammo_Mort_Helico_Moyen is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -30664,7 +30664,7 @@ export Ammo_Mort_Helico_Ultra_Leger is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -30751,7 +30751,7 @@ export Ammo_Mort_Unite_faible is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -30838,7 +30838,7 @@ export Ammo_Mort_Unite_forte is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -30925,7 +30925,7 @@ export Ammo_Mort_Unite_infanterie is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -31012,7 +31012,7 @@ export Ammo_Mort_Unite_moyenne is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -31089,17 +31089,17 @@ export Ammo_Mort_Unite_ravitaillement is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 0 * Metre
-    PhysicalDamages                   = 1.0
-    ShowDamageInUI                    = False
-    RadiusSplashSuppressDamages       = 0 * Metre
-    SuppressDamages                   = 0.0
+    RadiusSplashPhysicalDamages       = 2 * Metre
+    PhysicalDamages                   = 0.01
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 3 * Metre
+    SuppressDamages                   = 2.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -31186,7 +31186,7 @@ export Ammo_Mort_Unite_suicide is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 10000.0
+    FX_vitesse_de_depart              = 10000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -31270,7 +31270,7 @@ Ammo_Mortier_2S12_120mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 244 * Metre
-    PhysicalDamages                   = 1.22
+    PhysicalDamages                   = 1.342
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 366 * Metre
     SuppressDamages                   = 159.0
@@ -31468,7 +31468,7 @@ Ammo_Mortier_60mm_longue_portee is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 120 * Metre
-    PhysicalDamages                   = 0.78
+    PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 180 * Metre
     SuppressDamages                   = 60.0
@@ -31566,7 +31566,7 @@ Ammo_Mortier_81mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 162 * Metre
-    PhysicalDamages                   = 0.81
+    PhysicalDamages                   = 0.891
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 243 * Metre
     SuppressDamages                   = 122.0
@@ -31665,7 +31665,7 @@ Ammo_Mortier_81mm_61C is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 162 * Metre
-    PhysicalDamages                   = 0.81
+    PhysicalDamages                   = 0.891
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 243 * Metre
     SuppressDamages                   = 122.0
@@ -32061,7 +32061,7 @@ Ammo_Mortier_81mm_TOWED is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 162 * Metre
-    PhysicalDamages                   = 0.81
+    PhysicalDamages                   = 0.891
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 243 * Metre
     SuppressDamages                   = 122.0
@@ -32160,7 +32160,7 @@ Ammo_Mortier_81mm_towed_61C is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 162 * Metre
-    PhysicalDamages                   = 0.81
+    PhysicalDamages                   = 0.891
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 243 * Metre
     SuppressDamages                   = 122.0
@@ -32358,7 +32358,7 @@ Ammo_Mortier_L16_82mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 162 * Metre
-    PhysicalDamages                   = 0.81
+    PhysicalDamages                   = 0.891
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 243 * Metre
     SuppressDamages                   = 122.0
@@ -32556,7 +32556,7 @@ Ammo_Mortier_M29_81mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 162 * Metre
-    PhysicalDamages                   = 0.81
+    PhysicalDamages                   = 0.891
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 243 * Metre
     SuppressDamages                   = 122.0
@@ -32754,7 +32754,7 @@ Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 214 * Metre
-    PhysicalDamages                   = 1.07
+    PhysicalDamages                   = 1.177
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 321 * Metre
     SuppressDamages                   = 150.0
@@ -33049,7 +33049,7 @@ Ammo_Mortier_M40_tower_107mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 214 * Metre
-    PhysicalDamages                   = 1.07
+    PhysicalDamages                   = 1.177
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 321 * Metre
     SuppressDamages                   = 150.0
@@ -33148,7 +33148,7 @@ Ammo_Mortier_PM41_82mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 162 * Metre
-    PhysicalDamages                   = 0.81
+    PhysicalDamages                   = 0.891
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 243 * Metre
     SuppressDamages                   = 122.0
@@ -33246,7 +33246,7 @@ Ammo_Mortier_PM43_120mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 244 * Metre
-    PhysicalDamages                   = 1.22
+    PhysicalDamages                   = 1.342
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 366 * Metre
     SuppressDamages                   = 159.0
@@ -33444,7 +33444,7 @@ Ammo_Mortier_RT61_120mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 244 * Metre
-    PhysicalDamages                   = 1.22
+    PhysicalDamages                   = 1.342
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 366 * Metre
     SuppressDamages                   = 159.0
@@ -33642,7 +33642,7 @@ Ammo_Mortier_RT61_towed_120mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 244 * Metre
-    PhysicalDamages                   = 1.22
+    PhysicalDamages                   = 1.342
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 366 * Metre
     SuppressDamages                   = 159.0
@@ -33840,7 +33840,7 @@ Ammo_Mortier_Tampella_120mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 244 * Metre
-    PhysicalDamages                   = 1.22
+    PhysicalDamages                   = 1.342
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 366 * Metre
     SuppressDamages                   = 159.0
@@ -34038,7 +34038,7 @@ Ammo_Mortier_Tampella_towed_120mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 244 * Metre
-    PhysicalDamages                   = 1.22
+    PhysicalDamages                   = 1.342
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 366 * Metre
     SuppressDamages                   = 159.0
@@ -34432,7 +34432,7 @@ Ammo_Mortier_Vasilek_indirect_82mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 164 * Metre
-    PhysicalDamages                   = 0.82
+    PhysicalDamages                   = 0.902
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 246 * Metre
     SuppressDamages                   = 123.0
@@ -34531,7 +34531,7 @@ Ammo_Mortier_Vasilek_indirect_82mm_towed is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 164 * Metre
-    PhysicalDamages                   = 0.82
+    PhysicalDamages                   = 0.902
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 246 * Metre
     SuppressDamages                   = 123.0
@@ -36417,7 +36417,7 @@ Ammo_Pod_GUV_Gatling_7_62mm_12_7mm_x2 is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
-    FX_vitesse_de_depart              = 100000.0
+    FX_vitesse_de_depart              = 100000
     FX_acceleration_max               = 0.0
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.0
@@ -40497,7 +40497,7 @@ Ammo_RocketArt_9M27F_HE_220mm is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 440 * Metre
     PhysicalDamages                   = 3.3
@@ -40596,7 +40596,7 @@ Ammo_RocketArt_9M27K_CLU_HE_220mm is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 300 * Metre
     PhysicalDamages                   = 0.45
@@ -40695,7 +40695,7 @@ Ammo_RocketArt_9M27S_NPLM_220mm is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 110 * Metre
     PhysicalDamages                   = 1.54
@@ -40795,7 +40795,7 @@ Ammo_RocketArt_9M55K5_300mm is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 330 * Metre
     PhysicalDamages                   = 1.056
@@ -40896,7 +40896,7 @@ Ammo_RocketArt_BM27_220mm is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 285 * Metre
     PhysicalDamages                   = 0.912
@@ -40996,7 +40996,7 @@ Ammo_RocketArt_LARS_110mm is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 214 * Metre
     PhysicalDamages                   = 1.605
@@ -41095,7 +41095,7 @@ Ammo_RocketArt_LARS_110mm_cluster is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 165 * Metre
     PhysicalDamages                   = 0.528
@@ -41196,7 +41196,7 @@ Ammo_RocketArt_M21OF_122mm is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 244 * Metre
     PhysicalDamages                   = 1.83
@@ -41296,7 +41296,7 @@ Ammo_RocketArt_M21OF_122mm_cluster is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 165 * Metre
     PhysicalDamages                   = 0.528
@@ -41397,7 +41397,7 @@ Ammo_RocketArt_M21OF_122mm_napalm is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 120 * Metre
     PhysicalDamages                   = 2.4
@@ -41499,7 +41499,7 @@ Ammo_RocketArt_M21OF_122mm_x12 is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 244 * Metre
     PhysicalDamages                   = 1.83
@@ -41599,7 +41599,7 @@ Ammo_RocketArt_M26_227mm is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 454 * Metre
     PhysicalDamages                   = 3.405
@@ -41699,7 +41699,7 @@ Ammo_RocketArt_M26_227mm_Cluster is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 330 * Metre
     PhysicalDamages                   = 1.056
@@ -41800,7 +41800,7 @@ Ammo_RocketArt_thermobaric_220mm is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 110 * Metre
     PhysicalDamages                   = 1.54
@@ -41901,7 +41901,7 @@ Ammo_RocketArt_thermobaric_220mm_x30 is TAmmunitionDescriptor
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((1000) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 440 * Metre
     PhysicalDamages                   = 3.3
@@ -54556,10 +54556,10 @@ Ammo_AGM_Kh29T is TAmmunitionDescriptor
     PiercingWeapon                    = True
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
-export Ammo_AGM_Kh31P is TAmmunitionDescriptor
+Ammo_AGM_Kh31P is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{7d5844af-121a-4628-888a-b0be07766f78}
-    Name                              = 'None'
+    Name                              = 'ZFJECSJMHR'
     TypeName                          = 'SACLOSM'
     TypeCategoryName                  = 'NIAUDOXOXR'
     Caliber                           = 'PAXDOARDFT'
@@ -58410,10 +58410,10 @@ Ammo_ATGM_MILAN_2_x2 is TAmmunitionDescriptor
     PiercingWeapon                    = True
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
-export Ammo_ATGM_SS11_x4 is TAmmunitionDescriptor
+Ammo_ATGM_SS11_x4 is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{e4caa445-00b0-4682-a176-04d57f5130ca}
-    Name                              = 'None'
+    Name                              = 'HAEJGUBCDT'
     TypeName                          = 'SACLOSM'
     TypeCategoryName                  = 'JTOYRAARTS'
     Caliber                           = 'XKUTMAUMJH'
@@ -58908,7 +58908,7 @@ Ammo_Bomb_BGL_400_x1 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((1000) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 112 * Metre
+    RadiusSplashPhysicalDamages       = 135 * Metre
     PhysicalDamages                   = 13.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 135 * Metre
@@ -59002,7 +59002,7 @@ Ammo_Bomb_BGL_400_x2 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((1000) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 112 * Metre
+    RadiusSplashPhysicalDamages       = 135 * Metre
     PhysicalDamages                   = 13.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 135 * Metre
@@ -59282,7 +59282,7 @@ Ammo_Bomb_GBU_10_x1 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((1000) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 112 * Metre
+    RadiusSplashPhysicalDamages       = 135 * Metre
     PhysicalDamages                   = 13.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 135 * Metre
@@ -59376,7 +59376,7 @@ Ammo_Bomb_GBU_10_x2 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((1000) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 112 * Metre
+    RadiusSplashPhysicalDamages       = 135 * Metre
     PhysicalDamages                   = 13.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 135 * Metre
@@ -59470,7 +59470,7 @@ Ammo_Bomb_GBU_12_x1 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((1000) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 62 * Metre
+    RadiusSplashPhysicalDamages       = 88 * Metre
     PhysicalDamages                   = 7.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 125 * Metre
@@ -59564,7 +59564,7 @@ Ammo_Bomb_GBU_12_x2 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((1000) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 62 * Metre
+    RadiusSplashPhysicalDamages       = 88 * Metre
     PhysicalDamages                   = 7.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 125 * Metre

@@ -17,7 +17,7 @@ const EXTRACT_FILES = [
     'GameData/Generated/Gameplay/Decks/Packs.ndf',
     'GameData/Generated/Gameplay/Gfx/UniteDescriptor.ndf',
     'GameData/Generated/Gameplay/Gfx/WeaponDescriptor.ndf',
-    'GameData/Generated/Gameplay/Terrains/Terrains.ndf',
+    'GameData/Gameplay/Terrains/Terrains.ndf',
     'GameData/Generated/Gameplay/Gfx/MissileDescriptors.ndf',
     'GameData/Generated/Gameplay/Gfx/SmokeDescriptor.ndf',
 ]

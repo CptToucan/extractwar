@@ -14,9 +14,6 @@ export DefaultTerrain is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_DEF'
     Name = 'DefaultTerrain'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
@@ -52,9 +49,6 @@ export ForetDense is TGameplayTerrain
     InflammabilityProbability = 0.8
     LocalizationToken = 'TER_FOR_H'
     Name = 'ForetDense'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierHalfTrack = 0
     SpeedModifierInfantry = 1
@@ -79,14 +73,14 @@ export ForetLegere is TGameplayTerrain
     CriticalEffectProbability = 0.025
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.55)]),
-            ("he_autocanon", MAP [("infanterie",0.55)]),
-            ("balle", MAP [("infanterie",0.5)]),
-            ("balledca", MAP [("infanterie",0.5)]),
-            ("howz", MAP [("infanterie",0.5)]),
-            ("howz_bombe", MAP [("infanterie",0.5)]),
+            ("he", MAP [("infanterie",0.7)]),
+            ("he_autocanon", MAP [("infanterie",0.7)]),
+            ("balle", MAP [("infanterie",0.65)]),
+            ("balledca", MAP [("infanterie",0.65)]),
+            ("howz", MAP [("infanterie",0.65)]),
+            ("howz_bombe", MAP [("infanterie",0.65)]),
             //("roquette_ap_1", MAP [("infanterie",0.5)]),
-            ("fmballe", MAP [("infanterie",0.5)]),
+            ("fmballe", MAP [("infanterie",0.65)]),
         ]
     DebugColor = rgba[70, 252, 70, 255]
     DissimulationModifierGroundAir = 12
@@ -95,9 +89,6 @@ export ForetLegere is TGameplayTerrain
     InflammabilityProbability = 0.6
     LocalizationToken = 'TER_FOR_L'
     Name = 'ForetLegere'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 0.5
     SpeedModifierBoats = 0
     SpeedModifierHalfTrack = 0.4
@@ -123,15 +114,15 @@ export PetitBatiment is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.4)]),
-            ("he_autocanon", MAP [("infanterie",0.4)]),
-            ("balle", MAP [("infanterie",0.3)]),
-            ("balledca", MAP [("infanterie",0.3)]),
-            ("howz", MAP [("infanterie",0.3)]),
-            ("howz_bombe", MAP [("infanterie",0.3)]),
-            ("fmballe", MAP [("infanterie",0.3)]),
+            ("he", MAP [("infanterie",0.5)]),
+            ("he_autocanon", MAP [("infanterie",0.5)]),
+            ("balle", MAP [("infanterie",0.4)]),
+            ("balledca", MAP [("infanterie",0.4)]),
+            ("howz", MAP [("infanterie",0.4)]),
+            ("howz_bombe", MAP [("infanterie",0.4)]),
+            ("fmballe", MAP [("infanterie",0.4)]),
             ("cac", MAP [("infanterie",1)]),
-            ("roquette_ap", MAP [("infanterie",0.8)]),
+            ("roquette_ap", MAP [("infanterie",0.85)]),
         ]
     DebugColor = rgba[0, 0, 0, 255]
     DissimulationModifierGroundAir = 10.5
@@ -140,9 +131,6 @@ export PetitBatiment is TGameplayTerrain
     InflammabilityProbability = 0.2
     LocalizationToken = 'TER_BUILD'
     Name = 'PetitBatiment'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = true
-    ObstructInsideVehicleSight = true
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierHalfTrack = 0
     SpeedModifierInfantry = 0.5
@@ -167,15 +155,15 @@ export Batiment is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.4)]),
-            ("he_autocanon", MAP [("infanterie",0.4)]),
-            ("balle", MAP [("infanterie",0.3)]),
-            ("balledca", MAP [("infanterie",0.3)]),
-            ("howz", MAP [("infanterie",0.3)]),
-            ("howz_bombe", MAP [("infanterie",0.3)]),
-            ("fmballe", MAP [("infanterie",0.3)]),
+            ("he", MAP [("infanterie",0.5)]),
+            ("he_autocanon", MAP [("infanterie",0.5)]),
+            ("balle", MAP [("infanterie",0.4)]),
+            ("balledca", MAP [("infanterie",0.4)]),
+            ("howz", MAP [("infanterie",0.4)]),
+            ("howz_bombe", MAP [("infanterie",0.4)]),
+            ("fmballe", MAP [("infanterie",0.4)]),
             ("cac", MAP [("infanterie",1)]),
-            ("roquette_ap", MAP [("infanterie",0.8)]),
+            ("roquette_ap", MAP [("infanterie",0.85)]),
         ]
     DebugColor = rgba[0, 0, 0, 255]
     DissimulationModifierGroundAir = 10.5
@@ -184,9 +172,6 @@ export Batiment is TGameplayTerrain
     InflammabilityProbability = 0.2
     LocalizationToken = 'TER_BUILD'
     Name = 'Batiment'
-    ObstructInsideAirSight = true
-    ObstructInsideInfantrySight = true
-    ObstructInsideVehicleSight = true
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierHalfTrack = 0
     SpeedModifierInfantry = 0.5
@@ -211,14 +196,14 @@ export Ruin is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.40)]),
-            ("he_autocanon", MAP [("infanterie",0.50)]),
-            ("balle", MAP [("infanterie",0.40)]),
-            ("balledca", MAP [("infanterie",0.40)]),
-            ("howz", MAP [("infanterie",0.40)]),
-            ("howz_bombe", MAP [("infanterie",0.40)]),
+            ("he", MAP [("infanterie",0.50)]),
+            ("he_autocanon", MAP [("infanterie",0.60)]),
+            ("balle", MAP [("infanterie",0.50)]),
+            ("balledca", MAP [("infanterie",0.50)]),
+            ("howz", MAP [("infanterie",0.50)]),
+            ("howz_bombe", MAP [("infanterie",0.50)]),
             //("roquette_ap_1", MAP [("infanterie",0.65)]),
-            ("fmballe", MAP [("infanterie",0.40)]),
+            ("fmballe", MAP [("infanterie",0.50)]),
         ]
     DebugColor = rgba[0, 6, 200, 255]
     DissimulationModifierGroundAir = 10.5
@@ -227,9 +212,6 @@ export Ruin is TGameplayTerrain
     InflammabilityProbability = 0.2
     LocalizationToken = 'TER_BUILD'
     Name = 'Ruin'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierHalfTrack = 0
     SpeedModifierInfantry = 0.5
@@ -281,9 +263,6 @@ export Tranchee is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_TRENCH'
     Name = 'Trench'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 0.9
     SpeedModifierHalfTrack = 0.9
     SpeedModifierInfantry = 1
@@ -333,9 +312,6 @@ export Barbeles is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_BWIRE'
     Name = 'TerrainBarbeles'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 0.25
     SpeedModifierHalfTrack = 0.25
     SpeedModifierInfantry = 0.25
@@ -385,9 +361,6 @@ export NidMitrailleuse is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_MGNEST'
     Name = 'GunnerNest'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
@@ -417,9 +390,6 @@ export Bloqueur is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_BLQ0'
     Name = 'Bloqueur'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = true
-    ObstructInsideVehicleSight = true
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
@@ -449,9 +419,6 @@ export StrategicForest is TGameplayTerrain
     InflammabilityProbability = 0.1
     LocalizationToken = 'TER_CEREAL'
     Name = 'StrategicForest'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierHalfTrack = 0.8
     SpeedModifierInfantry = 1
@@ -481,9 +448,6 @@ export StrategicPlain is TGameplayTerrain
     InflammabilityProbability = 0.1
     LocalizationToken = 'TER_CEREAL'
     Name = 'StrategicPlain'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierHalfTrack = 0.8
     SpeedModifierInfantry = 1
@@ -513,9 +477,6 @@ export StrategicSemiUrban is TGameplayTerrain
     InflammabilityProbability = 0.1
     LocalizationToken = 'TER_CEREAL'
     Name = 'StrategicSemiUrban'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierHalfTrack = 0.8
     SpeedModifierInfantry = 1
@@ -546,9 +507,6 @@ export EauPeuProfonde is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_WATE'
     Name = 'EauPeuProfonde'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 0.8
@@ -599,9 +557,6 @@ export Urbain is TGameplayTerrain
     InflammabilityProbability = 0.4
     LocalizationToken = 'TER_URBN'
     Name = 'Urbain'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
@@ -631,9 +586,6 @@ export Rocher is TGameplayTerrain
     InflammabilityProbability = 0.1
     LocalizationToken = 'TER_ROCK'
     Name = 'Rocher'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierHalfTrack = 0
     SpeedModifierInfantry = 1
@@ -663,9 +615,6 @@ export SmokeHeavy is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_SMOKEH'
     Name = 'HeavySmoke'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
@@ -695,9 +644,6 @@ export SmokeLight is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_SMOKEL'
     Name = 'LightSmoke'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
@@ -727,9 +673,6 @@ export SmokeMedium is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_SMOKEM'
     Name = 'MediumSmoke'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
@@ -759,9 +702,6 @@ export EauProfonde is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_DEEP_W'
     Name = 'EauProfonde'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 0.3
     SpeedModifierHalfTrack = 0.3
     SpeedModifierInfantry = 0.8
@@ -791,9 +731,6 @@ export BloqueConstruction is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_BLQCST'
     Name = 'BloqueConstruction'
-    ObstructInsideAirSight = false
-    ObstructInsideInfantrySight = false
-    ObstructInsideVehicleSight = false
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
