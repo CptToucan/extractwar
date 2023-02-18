@@ -26,6 +26,21 @@ const filesToRead = {
   missile: 'MissileDescriptors.ndf',
 };
 
+interface NdfMap {
+  [key: string]: string
+}
+
+const infoPanelMap: NdfMap = {
+  Default: "default",
+  VehiculeSupplier: "supply-vehicle",
+  VehiculeTransporter: "transport-vehicle",
+  Infantry: "infantry",
+  avion: "plane",
+  HelicoDefault: "helicopter",
+  HelicoTransporter: "transport-helicopter",
+  HelicoSupplier: "supply-helicopter"
+}
+
 type damageDropOffMap = {
   [key: string]: number;
 };
@@ -239,6 +254,10 @@ export default class ParseNdf extends Command {
       unitJson.commandPoints = Number(
         commandPointsResult[0]?.value?.value[0]?.value[1]?.value
       );
+
+      const informationPanelType = (extractValueFromSearchResult(search(unitDescriptor, "InfoPanelConfigurationToken")) as string).replace(/'/g, "");
+      
+      unitJson.infoPanelType = infoPanelMap[informationPanelType];
 
       // Armour
       const frontArmorResult = search(unitDescriptor, 'ArmorDescriptorFront');
@@ -526,6 +545,8 @@ export default class ParseNdf extends Command {
       allUnits.units.push(unitJson);
     }
 
+    console.log(allUnits.units.length)
+
     fs.writeFileSync(`${args.outputFile}`, JSON.stringify(allUnits));
   }
 }
@@ -642,10 +663,13 @@ function extractMountedWeaponStatistics(
     'PhysicalDamages'
   );
 
-  const heDamageRadius = parseNumberFromNdfValue(
-    ammunitionDescriptor,
-    'RadiusSplashPhysicalDamages'
-  );
+  const heDamageRadius = Math.round(parseNumberFromMetre(
+    removeBracketsFromValue(
+      extractValueFromSearchResult(
+        search(ammunitionDescriptor, 'RadiusSplashPhysicalDamages')
+      )
+    )
+  ))
 
   mountedWeaponJson.heDamageRadius = heDamageRadius;
 
@@ -654,10 +678,13 @@ function extractMountedWeaponStatistics(
     'SuppressDamages'
   );
 
-  const suppressDamageRadius = parseNumberFromNdfValue(
-    ammunitionDescriptor,
-    'RadiusSplashSuppressDamages'
-  );
+  const suppressDamageRadius = Math.round(parseNumberFromMetre(
+    removeBracketsFromValue(
+      extractValueFromSearchResult(
+        search(ammunitionDescriptor, 'RadiusSplashSuppressDamages')
+      )
+    )
+  ))
 
   mountedWeaponJson.suppressDamagesRadius = suppressDamageRadius;
 
