@@ -852,8 +852,13 @@ function extractMountedWeaponStatistics(
     movingAccuracyOverDistance.push({distance: accuracy.distance, accuracy: movingAccuracyCalc})
   }
 
-  mountedWeaponJson.staticAccuracyScaling = staticAccuracyOverDistance;
-  mountedWeaponJson.movingAccuracyScaling = movingAccuracyOverDistance;
+  const distanceToTargetSearchResult = search(ammunitionDescriptor, 'EDiceHitModifier/DistanceToTarget');
+
+  if(distanceToTargetSearchResult.length > 0) {
+    mountedWeaponJson.staticAccuracyScaling = staticAccuracyOverDistance;
+    mountedWeaponJson.movingAccuracyScaling = movingAccuracyOverDistance;
+  }
+
 
   const damageDropOffToken = extractLastTokenFromString(
     extractValueFromSearchResult(
