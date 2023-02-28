@@ -1,3 +1,4 @@
+/* eslint-disable complexity */
 import { Command, Flags } from '@oclif/core';
 import ux from 'cli-ux';
 import { search } from '@izohek/ndf-parser';
@@ -11,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 
 const HEAT_AP_MAGIC_NUMBER = 14;
-const KINETIC_AP_MAGIC_NUMBER = 18
+const KINETIC_AP_MAGIC_NUMBER = 18;
 
 const filesToRead = {
   units: 'UniteDescriptor.ndf',
@@ -27,19 +28,19 @@ const filesToRead = {
 };
 
 interface NdfMap {
-  [key: string]: string
+  [key: string]: string;
 }
 
 const infoPanelMap: NdfMap = {
-  Default: "default",
-  VehiculeSupplier: "supply-vehicle",
-  VehiculeTransporter: "transport-vehicle",
-  Infantry: "infantry",
-  avion: "plane",
-  HelicoDefault: "helicopter",
-  HelicoTransporter: "transport-helicopter",
-  HelicoSupplier: "supply-helicopter"
-}
+  Default: 'default',
+  VehiculeSupplier: 'supply-vehicle',
+  VehiculeTransporter: 'transport-vehicle',
+  Infantry: 'infantry',
+  avion: 'plane',
+  HelicoDefault: 'helicopter',
+  HelicoTransporter: 'transport-helicopter',
+  HelicoSupplier: 'supply-helicopter',
+};
 
 type damageDropOffMap = {
   [key: string]: number;
@@ -54,38 +55,49 @@ const dropOff: damageDropOffMap = {
   DamageTypeEvolutionOverRangeDescriptor_DCA: 700,
 };
 
+type AccuracyDataPoint = {
+  distance: number;
+  accuracy: number;
+};
+
+interface AccuracyDataPointsForType {
+  ground?: AccuracyDataPoint[];
+  helicopter?: AccuracyDataPoint[];
+  plane?: AccuracyDataPoint[];
+}
+
 const accuracyBonusOverRange = [
   {
-    multiplier: 0.05,
-    distance: 1000
+    maxRangeDistanceMultiplier: 0.05,
+    accuracyMultiplier: 1000,
   },
   {
-    multiplier: 0.17,
-    distance: 100
+    maxRangeDistanceMultiplier: 0.17,
+    accuracyMultiplier: 100,
   },
   {
-    multiplier: 0.33,
-    distance: 75
+    maxRangeDistanceMultiplier: 0.33,
+    accuracyMultiplier: 75,
   },
   {
-    multiplier: 0.5,
-    distance: 50
+    maxRangeDistanceMultiplier: 0.5,
+    accuracyMultiplier: 50,
   },
   {
-    multiplier: 0.67,
-    distance: 25
+    maxRangeDistanceMultiplier: 0.67,
+    accuracyMultiplier: 25,
   },
   {
-    multiplier: 1,
-    distance: 0
-  }
-]
+    maxRangeDistanceMultiplier: 1,
+    accuracyMultiplier: 0,
+  },
+];
 
 enum Armour {
-  Blindage = "Blindage",
-  Infanterie = "Infanterie",
-  Vehicule = "Vehicule",
-  Helico = "Helico",
+  Blindage = 'Blindage',
+  Infanterie = 'Infanterie',
+  Vehicule = 'Vehicule',
+  Helico = 'Helico',
 }
 
 const METRE = 1 / 2.83;
@@ -174,30 +186,41 @@ export default class ParseNdf extends Command {
       ammoDescriptors[(ammoDescriptor as NdfObject).name] = ammoDescriptor;
     }
 
-
-    
-    const validTerrains = [{descriptorName: "ForetLegere", name: "forest"}, {descriptorName: "Batiment", name: "building"}, {descriptorName: "Ruin", name: "ruins"}];
+    const validTerrains = [
+      { descriptorName: 'ForetLegere', name: 'forest' },
+      { descriptorName: 'Batiment', name: 'building' },
+      { descriptorName: 'Ruin', name: 'ruins' },
+    ];
     const speedModifiers = [];
 
-    for(const terrainDescriptor of terrainDescriptors) {
+    for (const terrainDescriptor of terrainDescriptors) {
+      const terrain = validTerrains.find(
+        (ter) => ter.descriptorName === terrainDescriptor.name
+      );
 
-
-      const terrain = validTerrains.find((ter) => ter.descriptorName === terrainDescriptor.name);
-
-      if(terrain) {
-        const wheel = parseNumberFromNdfValue(terrainDescriptor, "SpeedModifierAllTerrainWheel");
-        const infantry = parseNumberFromNdfValue(terrainDescriptor, "SpeedModifierInfantry");
-        const track = parseNumberFromNdfValue(terrainDescriptor, "SpeedModifierTrack");
+      if (terrain) {
+        const wheel = parseNumberFromNdfValue(
+          terrainDescriptor,
+          'SpeedModifierAllTerrainWheel'
+        );
+        const infantry = parseNumberFromNdfValue(
+          terrainDescriptor,
+          'SpeedModifierInfantry'
+        );
+        const track = parseNumberFromNdfValue(
+          terrainDescriptor,
+          'SpeedModifierTrack'
+        );
         speedModifiers.push({
           ...terrain,
-          movementTypes: {"AllTerrainWheel": {name: "wheel", value: wheel},
-          "Infantry": {name: "infantry", value: infantry},
-          "Track": {name: "track", value: track}
-        }})
+          movementTypes: {
+            AllTerrainWheel: { name: 'wheel', value: wheel },
+            Infantry: { name: 'infantry', value: infantry },
+            Track: { name: 'track', value: track },
+          },
+        });
       }
-
     }
-
 
     const allUnits: any = {
       version: undefined,
@@ -255,8 +278,12 @@ export default class ParseNdf extends Command {
         commandPointsResult[0]?.value?.value[0]?.value[1]?.value
       );
 
-      const informationPanelType = (extractValueFromSearchResult(search(unitDescriptor, "InfoPanelConfigurationToken")) as string).replace(/'/g, "");
-      
+      const informationPanelType = (
+        extractValueFromSearchResult(
+          search(unitDescriptor, 'InfoPanelConfigurationToken')
+        ) as string
+      ).replace(/'/g, '');
+
       unitJson.infoPanelType = infoPanelMap[informationPanelType];
 
       // Armour
@@ -296,31 +323,30 @@ export default class ParseNdf extends Command {
         )
       );
 
-      const unitMoveTypeValue: string | undefined = extractValueFromSearchResult(search(unitDescriptor, 'UnitMovingType'));
-
-
+      const unitMoveTypeValue: string | undefined =
+        extractValueFromSearchResult(search(unitDescriptor, 'UnitMovingType'));
 
       // console.log(extractLastTokenFromString())
-      if(unitMoveTypeValue) {
+      if (unitMoveTypeValue) {
         const speedsForTerrains = [];
         const unitMoveType = extractLastTokenFromString(unitMoveTypeValue);
-        for(const speedModifier of speedModifiers) {
-
+        for (const speedModifier of speedModifiers) {
           const moveTypes = Object.keys(speedModifier.movementTypes);
-          const foundMoveType = moveTypes.find((type) => unitMoveType.includes(type));
-          if(foundMoveType) {
+          const foundMoveType = moveTypes.find((type) =>
+            unitMoveType.includes(type)
+          );
+          if (foundMoveType) {
             // @ts-ignore
             const speedMultiplier = speedModifier.movementTypes[foundMoveType];
-            speedsForTerrains.push({speed: Math.round(unitJson.speed * speedMultiplier.value), name: speedModifier.name})
+            speedsForTerrains.push({
+              speed: Math.round(unitJson.speed * speedMultiplier.value),
+              name: speedModifier.name,
+            });
           }
-         
-          
         }
 
         unitJson.speedsForTerrains = speedsForTerrains;
       }
-
-
 
       // Road Speed
       unitJson.roadSpeed = parseNumberFromNdfValue(
@@ -545,7 +571,7 @@ export default class ParseNdf extends Command {
       allUnits.units.push(unitJson);
     }
 
-    console.log(allUnits.units.length)
+    console.log(allUnits.units.length);
 
     fs.writeFileSync(`${args.outputFile}`, JSON.stringify(allUnits));
   }
@@ -654,8 +680,9 @@ function extractMountedWeaponStatistics(
     );
 
     mountedWeaponJson.missileProperties = {
-      maxMissileSpeed, maxMissileAcceleration
-    }
+      maxMissileSpeed,
+      maxMissileAcceleration,
+    };
   }
 
   const heDamage = parseNumberFromNdfValue(
@@ -663,13 +690,15 @@ function extractMountedWeaponStatistics(
     'PhysicalDamages'
   );
 
-  const heDamageRadius = Math.round(parseNumberFromMetre(
-    removeBracketsFromValue(
-      extractValueFromSearchResult(
-        search(ammunitionDescriptor, 'RadiusSplashPhysicalDamages')
+  const heDamageRadius = Math.round(
+    parseNumberFromMetre(
+      removeBracketsFromValue(
+        extractValueFromSearchResult(
+          search(ammunitionDescriptor, 'RadiusSplashPhysicalDamages')
+        )
       )
     )
-  ))
+  );
 
   mountedWeaponJson.heDamageRadius = heDamageRadius;
 
@@ -678,13 +707,15 @@ function extractMountedWeaponStatistics(
     'SuppressDamages'
   );
 
-  const suppressDamageRadius = Math.round(parseNumberFromMetre(
-    removeBracketsFromValue(
-      extractValueFromSearchResult(
-        search(ammunitionDescriptor, 'RadiusSplashSuppressDamages')
+  const suppressDamageRadius = Math.round(
+    parseNumberFromMetre(
+      removeBracketsFromValue(
+        extractValueFromSearchResult(
+          search(ammunitionDescriptor, 'RadiusSplashSuppressDamages')
+        )
       )
     )
-  ))
+  );
 
   mountedWeaponJson.suppressDamagesRadius = suppressDamageRadius;
 
@@ -732,7 +763,23 @@ function extractMountedWeaponStatistics(
       )
     )
   );
+
+  const groundMinRangeResult = search(ammunitionDescriptor, 'PorteeMinimale');
+  const heliMinRangeResult = search(ammunitionDescriptor, 'PorteeMinimaleTBA');
+  const planeMinRangeResult = search(ammunitionDescriptor, 'PorteeMinimaleTBA');
+
   mountedWeaponJson.groundRange = Math.round(groundMaxRange);
+
+  if (groundMinRangeResult.length > 0) {
+    mountedWeaponJson.groundMinRange = Math.round(
+      parseNumberFromMetre(
+        removeBracketsFromValue(
+          extractValueFromSearchResult(groundMinRangeResult)
+        )
+      )
+    );
+  }
+
   mountedWeaponJson.helicopterRange = Math.round(
     parseNumberFromMetre(
       removeBracketsFromValue(
@@ -742,6 +789,17 @@ function extractMountedWeaponStatistics(
       )
     )
   );
+
+  if (heliMinRangeResult.length > 0) {
+    mountedWeaponJson.helicopterMinRange = Math.round(
+      parseNumberFromMetre(
+        removeBracketsFromValue(
+          extractValueFromSearchResult(heliMinRangeResult)
+        )
+      )
+    );
+  }
+
   mountedWeaponJson.planeRange = Math.round(
     parseNumberFromMetre(
       removeBracketsFromValue(
@@ -751,6 +809,17 @@ function extractMountedWeaponStatistics(
       )
     )
   );
+
+  if (planeMinRangeResult.length > 0) {
+    mountedWeaponJson.planeMinRange = Math.round(
+      parseNumberFromMetre(
+        removeBracketsFromValue(
+          extractValueFromSearchResult(planeMinRangeResult)
+        )
+      )
+    );
+  }
+
   mountedWeaponJson.aimingTime = parseNumberFromNdfValue(
     ammunitionDescriptor,
     'TempsDeVisee'
@@ -769,7 +838,7 @@ function extractMountedWeaponStatistics(
   mountedWeaponJson.salvoLength = salvoLength;
 
   const totalHeDamage = heDamage * salvoLength * numberOfWeapons;
-  mountedWeaponJson.totalHeDamage = totalHeDamage;
+  mountedWeaponJson.totalHeDamage = Math.round(totalHeDamage);
 
   const timeBetweenSalvos = parseNumberFromNdfValue(
     ammunitionDescriptor,
@@ -793,7 +862,7 @@ function extractMountedWeaponStatistics(
 
   const trueRateOfFire =
     (salvoLength / ((salvoLength - 1) * timeBetweenSalvos + reloadTime)) * 60;
-  mountedWeaponJson.trueRateOfFire = trueRateOfFire;
+  mountedWeaponJson.trueRateOfFire = trueRateOfFire?.toFixed(2);
 
   const supplyCostPerSalvo = parseNumberFromNdfValue(
     ammunitionDescriptor,
@@ -838,27 +907,107 @@ function extractMountedWeaponStatistics(
   mountedWeaponJson.staticAccuracy = staticAccuracy;
   mountedWeaponJson.movingAccuracy = movingAccuracy;
 
+  const staticAccuracyOverDistance: AccuracyDataPointsForType = {};
+  const movingAccuracyOverDistance: AccuracyDataPointsForType = {};
 
-  const staticAccuracyOverDistance = [];
-  const movingAccuracyOverDistance = [];
+  // Accuracy calculation
 
-  // Accuracy calculation 
-  // Total accuracy = Accuracy + (Accuracy * Bonus)
+  for (const accuracy of accuracyBonusOverRange) {
+    if (mountedWeaponJson.staticAccuracy) {
+      if (mountedWeaponJson.groundRange) {
+        if (staticAccuracyOverDistance.ground === undefined) {
+          staticAccuracyOverDistance.ground = [];
+        }
 
-  for(const accuracy of accuracyBonusOverRange) {
-    const staticAccuracyCalc = staticAccuracy + (accuracy.multiplier * staticAccuracy);
-    const movingAccuracyCalc = movingAccuracy + (accuracy.multiplier * movingAccuracy);
-    staticAccuracyOverDistance.push({distance: accuracy.distance, accuracy: staticAccuracyCalc})
-    movingAccuracyOverDistance.push({distance: accuracy.distance, accuracy: movingAccuracyCalc})
+        const groundStatic = calculateAccuracyAndDistance(
+          mountedWeaponJson.staticAccuracy,
+          mountedWeaponJson.groundRange,
+          accuracy
+        );
+        staticAccuracyOverDistance?.ground.push(groundStatic);
+      }
+
+      if (mountedWeaponJson.helicopterRange) {
+        if (staticAccuracyOverDistance.helicopter === undefined) {
+          staticAccuracyOverDistance.helicopter = [];
+        }
+
+        const heloStatic = calculateAccuracyAndDistance(
+          mountedWeaponJson.staticAccuracy,
+          mountedWeaponJson.helicopterRange,
+          accuracy
+        );
+        staticAccuracyOverDistance?.helicopter.push(heloStatic);
+      }
+
+      if (mountedWeaponJson.planeRange) {
+        if (staticAccuracyOverDistance.plane === undefined) {
+          staticAccuracyOverDistance.plane = [];
+        }
+
+        const planeStatic = calculateAccuracyAndDistance(
+          mountedWeaponJson.staticAccuracy,
+          mountedWeaponJson.planeRange,
+          accuracy
+        );
+        staticAccuracyOverDistance?.plane.push(planeStatic);
+      }
+    }
+
+    if (mountedWeaponJson.movingAccuracy) {
+      if (mountedWeaponJson.groundRange) {
+        if (movingAccuracyOverDistance.ground === undefined) {
+          movingAccuracyOverDistance.ground = [];
+        }
+
+        const groundMotion = calculateAccuracyAndDistance(
+          mountedWeaponJson.movingAccuracy,
+          mountedWeaponJson.groundRange,
+          accuracy
+        );
+        movingAccuracyOverDistance?.ground.push(groundMotion);
+      }
+
+      if (mountedWeaponJson.helicopterRange) {
+        if (movingAccuracyOverDistance.helicopter === undefined) {
+          movingAccuracyOverDistance.helicopter = [];
+        }
+
+        const heloMotion = calculateAccuracyAndDistance(
+          mountedWeaponJson.movingAccuracy,
+          mountedWeaponJson.helicopterRange,
+          accuracy
+        );
+        movingAccuracyOverDistance?.helicopter.push(heloMotion);
+      }
+
+      if (mountedWeaponJson.planeMotion) {
+        if (movingAccuracyOverDistance.plane === undefined) {
+          movingAccuracyOverDistance.plane = [];
+        }
+
+        const planeMotion = calculateAccuracyAndDistance(
+          mountedWeaponJson.movingAccuracy,
+          mountedWeaponJson.planeRange,
+          accuracy
+        );
+        movingAccuracyOverDistance?.plane.push(planeMotion);
+      }
+
+      // if accuracy is 0 that means it cant fire when moving
+      // if distance is 0 that means it cant fire at that type of target
+    }
   }
 
-  const distanceToTargetSearchResult = search(ammunitionDescriptor, 'EDiceHitModifier/DistanceToTarget');
+  const distanceToTargetSearchResult = search(
+    ammunitionDescriptor,
+    'EDiceHitModifier/DistanceToTarget'
+  );
 
-  if(distanceToTargetSearchResult.length > 0) {
+  if (distanceToTargetSearchResult.length > 0) {
     mountedWeaponJson.staticAccuracyScaling = staticAccuracyOverDistance;
     mountedWeaponJson.movingAccuracyScaling = movingAccuracyOverDistance;
   }
-
 
   const damageDropOffToken = extractLastTokenFromString(
     extractValueFromSearchResult(
@@ -878,15 +1027,19 @@ function extractMountedWeaponStatistics(
   // This works for the AP family and most weapons, some other weapons like autocannons penetration does not work on
   // TODO: Work out how to properly calculate penetration
 
-  const isKinetic =  piercingWeapon && damageFamily === '"ap"';
-  const kineticAP = Math.round(Number(damageIndex) - groundMaxRange / damageDropOffValue);
+  const isKinetic = piercingWeapon && damageFamily === '"ap"';
+  const kineticAP = Math.round(
+    Number(damageIndex) - groundMaxRange / damageDropOffValue
+  );
   const heatAP = Number(damageIndex);
 
   const kineticInstakillAtMaxRangeArmour = kineticAP - KINETIC_AP_MAGIC_NUMBER;
   const heatInstakillAtMaxRangeArmour = heatAP - HEAT_AP_MAGIC_NUMBER;
 
   const penetration = isKinetic ? kineticAP : heatAP;
-  const instaKillAtMaxRangeArmour = isKinetic ? kineticInstakillAtMaxRangeArmour : heatInstakillAtMaxRangeArmour;
+  const instaKillAtMaxRangeArmour = isKinetic
+    ? kineticInstakillAtMaxRangeArmour
+    : heatInstakillAtMaxRangeArmour;
 
   mountedWeaponJson.penetration = penetration;
   mountedWeaponJson.instaKillAtMaxRangeArmour = instaKillAtMaxRangeArmour;
@@ -931,17 +1084,16 @@ function convertArmourTokenToNumber(armourToken: string): number {
     return 0.5;
   }
 
-
   // If infanterie, then this is 0 armour
   if ((armourType as unknown as Armour) === Armour.Infanterie) {
     return 0;
   }
 
-  if((armourType as unknown as Armour) === Armour.Helico) {
+  if ((armourType as unknown as Armour) === Armour.Helico) {
     const baseArmourValue = Number(armourStrength);
 
     const helicoArmour = baseArmourValue - 1;
-    if(helicoArmour >= 1) {
+    if (helicoArmour >= 1) {
       return helicoArmour;
     }
 
@@ -1024,4 +1176,17 @@ function prettyUnitNameFromDescriptor(descriptor: string): string {
     .replace(/^Descriptor_Unit_/g, '')
     .split('_')
     .join(' ');
+}
+
+function calculateAccuracyAndDistance(
+  baseAccuracy: number,
+  baseRange: number,
+  multipliers: {
+    accuracyMultiplier: number;
+    maxRangeDistanceMultiplier: number;
+  }
+): AccuracyDataPoint {
+  const distance = Math.round(multipliers.maxRangeDistanceMultiplier * baseRange);
+  const accuracy = baseAccuracy * (1 + multipliers.accuracyMultiplier / 100);
+  return { distance, accuracy };
 }
