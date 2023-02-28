@@ -981,7 +981,7 @@ function extractMountedWeaponStatistics(
         movingAccuracyOverDistance?.helicopter.push(heloMotion);
       }
 
-      if (mountedWeaponJson.planeMotion) {
+      if (mountedWeaponJson.planeRange) {
         if (movingAccuracyOverDistance.plane === undefined) {
           movingAccuracyOverDistance.plane = [];
         }
