@@ -73,14 +73,15 @@ export ForetLegere is TGameplayTerrain
     CriticalEffectProbability = 0.025
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.7)]),
-            ("he_autocanon", MAP [("infanterie",0.7)]),
+            ("he", MAP [("infanterie",0.75)]),
+            ("he_autocanon", MAP [("infanterie",0.65)]),
+            ("superhe", MAP [("infanterie",0.65)]),
             ("balle", MAP [("infanterie",0.65)]),
             ("balledca", MAP [("infanterie",0.65)]),
-            ("howz", MAP [("infanterie",0.65)]),
-            ("howz_bombe", MAP [("infanterie",0.65)]),
-            //("roquette_ap_1", MAP [("infanterie",0.5)]),
-            ("fmballe", MAP [("infanterie",0.65)]),
+            ("howz", MAP [("infanterie",0.7)]),
+            ("howz_bombe", MAP [("infanterie",0.7)]),
+            ("fmballe", MAP [("infanterie",0.7)]),
+            ("roquette_ap", MAP [("infanterie",0.65)]),
         ]
     DebugColor = rgba[70, 252, 70, 255]
     DissimulationModifierGroundAir = 12
@@ -89,11 +90,11 @@ export ForetLegere is TGameplayTerrain
     InflammabilityProbability = 0.6
     LocalizationToken = 'TER_FOR_L'
     Name = 'ForetLegere'
-    SpeedModifierAllTerrainWheel = 0.5
+    SpeedModifierAllTerrainWheel = 0.45
     SpeedModifierBoats = 0
     SpeedModifierHalfTrack = 0.4
-    SpeedModifierInfantry = 0.8
-    SpeedModifierTrack = 0.6
+    SpeedModifierInfantry = 0.75
+    SpeedModifierTrack = 0.55
     SpeedModifierWheel = 0.3
     StealthBonus = 2.50
     //~~~~~~~~
@@ -114,15 +115,16 @@ export PetitBatiment is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.5)]),
-            ("he_autocanon", MAP [("infanterie",0.5)]),
+            ("he", MAP [("infanterie",0.6)]),
+            ("he_autocanon", MAP [("infanterie",0.45)]),
+            ("superhe", MAP [("infanterie",0.45)]),
             ("balle", MAP [("infanterie",0.4)]),
             ("balledca", MAP [("infanterie",0.4)]),
             ("howz", MAP [("infanterie",0.4)]),
             ("howz_bombe", MAP [("infanterie",0.4)]),
             ("fmballe", MAP [("infanterie",0.4)]),
-            ("cac", MAP [("infanterie",1)]),
-            ("roquette_ap", MAP [("infanterie",0.85)]),
+            ("cac", MAP [("infanterie",0.85)]),
+            ("roquette_ap", MAP [("infanterie",0.55)]),
         ]
     DebugColor = rgba[0, 0, 0, 255]
     DissimulationModifierGroundAir = 10.5
@@ -155,15 +157,16 @@ export Batiment is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.5)]),
-            ("he_autocanon", MAP [("infanterie",0.5)]),
+            ("he", MAP [("infanterie",0.6)]),
+            ("he_autocanon", MAP [("infanterie",0.45)]),
+            ("superhe", MAP [("infanterie",0.45)]),
             ("balle", MAP [("infanterie",0.4)]),
             ("balledca", MAP [("infanterie",0.4)]),
             ("howz", MAP [("infanterie",0.4)]),
             ("howz_bombe", MAP [("infanterie",0.4)]),
-            ("fmballe", MAP [("infanterie",0.4)]),
-            ("cac", MAP [("infanterie",1)]),
-            ("roquette_ap", MAP [("infanterie",0.85)]),
+            ("fmballe", MAP [("infanterie",0.35)]),
+            ("cac", MAP [("infanterie",0.85)]),
+            ("roquette_ap", MAP [("infanterie",0.55)]),
         ]
     DebugColor = rgba[0, 0, 0, 255]
     DissimulationModifierGroundAir = 10.5
@@ -196,14 +199,16 @@ export Ruin is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.50)]),
-            ("he_autocanon", MAP [("infanterie",0.60)]),
+            ("he", MAP [("infanterie",0.60)]),
+            ("he_autocanon", MAP [("infanterie",0.45)]),
+            ("superhe", MAP [("infanterie",0.45)]),
             ("balle", MAP [("infanterie",0.50)]),
             ("balledca", MAP [("infanterie",0.50)]),
-            ("howz", MAP [("infanterie",0.50)]),
-            ("howz_bombe", MAP [("infanterie",0.50)]),
-            //("roquette_ap_1", MAP [("infanterie",0.65)]),
-            ("fmballe", MAP [("infanterie",0.50)]),
+            ("howz", MAP [("infanterie",0.35)]),
+            ("howz_bombe", MAP [("infanterie",0.35)]),
+            ("cac", MAP [("infanterie",0.85)]),
+            ("fmballe", MAP [("infanterie",0.35)]),
+            ("roquette_ap", MAP [("infanterie",0.55)]),
         ]
     DebugColor = rgba[0, 6, 200, 255]
     DissimulationModifierGroundAir = 10.5
