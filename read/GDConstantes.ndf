@@ -388,8 +388,8 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     ShootingAdjustmentAngleMax = 0.4 //20°
     SplashSurTirRate = true // Est-ce que les tirs ratés font des dégâts de splash ?
-    SplashRatioDamage = [0.25, 0.25, 0.10] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
-    SplashRatioDistance = [0.25, 0.25, 0.15] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
+    SplashRatioDamage = [0.30, 0.30, 0.15] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
+    SplashRatioDistance = [0.30, 0.30, 0.20] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
 
     MinBlindageForRoEMissiles = ArmorDescriptor_Blindage_2 // Blindage min pour la RoE Missiles
     TagAllowedForMissileRoE = "AllowedForMissileRoE"
@@ -769,4 +769,7 @@ WargameConstantes is TWargameTunableConstante
         (~/DissimulationValue/INFANTRY, 2.0),
         (~/DissimulationValue/INFANTRY_RECO, 2.5),
     ]
+
+//------------------------------ Constantes WargameBuilding --------------------------------------//
+    WargameBuildingAllowedTerrainsMask = ETerrainType/Default | ETerrainType/ForetLegere
 )

@@ -18,8 +18,6 @@ export Descriptor_Smoke_Fumi105mm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((250) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -60,8 +58,6 @@ export Descriptor_Smoke_Fumi107mm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((250) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -102,8 +98,6 @@ export Descriptor_Smoke_Fumi120mm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((300) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -144,8 +138,6 @@ export Descriptor_Smoke_Fumi122mm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((300) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -186,8 +178,6 @@ export Descriptor_Smoke_Fumi152mm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((350) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -228,8 +218,6 @@ export Descriptor_Smoke_Fumi155mm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((350) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -270,8 +258,6 @@ export Descriptor_Smoke_Fumi203mm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((500) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -312,8 +298,6 @@ export Descriptor_Smoke_Fumi60mm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((150) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -354,8 +338,6 @@ export Descriptor_Smoke_Fumi81mm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((200) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -396,8 +378,6 @@ export Descriptor_Smoke_FumiBombe is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((400) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -438,8 +418,6 @@ export Descriptor_Smoke_FumiIncendie is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((100) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -463,8 +441,6 @@ export Descriptor_Smoke_FumiNapalm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((200) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -488,8 +464,6 @@ export Descriptor_Smoke_FumiNapalmleger is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((100) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -513,8 +487,6 @@ export Descriptor_Smoke_FumiNapalmlourd is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((400) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -538,8 +510,6 @@ export Descriptor_Smoke_FumiTest1 is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((10) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
