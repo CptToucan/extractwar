@@ -10,6 +10,6 @@ By default, we'll try to build all the data.  You can skip generating certain bu
 
 New patch data process:
 1. Update NDFs: `./bin/dev generate-ndf-files`
-2. Parse NDFS: `./bin/dev parse-ndf ./read/ output.json`
+2. Parse NDFS: `./bin/dev ndf-to-json ./read/ output.json`
 3. Update Firebase: `./bin/dev build-firebase-bundles output.json`
 4. Manually upload bundle files to Firebase storage
