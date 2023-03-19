@@ -255,7 +255,7 @@ export class WeaponManager extends AbstractManager {
           mergedWeapon.suppress = this.getBestValue(
             mergedWeapon.suppress,
             mountedWeapon.ammo.suppress
-          );
+          ) * mergedWeapon.numberOfWeapons;
           mergedWeapon.groundRange = this.getBestValue(
             mergedWeapon.groundRange,
             mountedWeapon.ammo.groundMaxRange
