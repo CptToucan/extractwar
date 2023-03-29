@@ -25,6 +25,7 @@ const NDF_FILES = Object.freeze({
   terrain: 'Terrains.ndf',
   smoke: 'SmokeDescriptor.ndf',
   missile: 'MissileDescriptors.ndf',
+  building: 'BuildingDescriptors.ndf',
 });
 
 export type SpeedModifier = {
@@ -121,6 +122,21 @@ export default class NdfToJson extends Command {
         );
         const unit = unitManager.parse();
         outputJson.units.push(unit);
+      }
+    }
+
+    for(const buildingNdf of ndfs.building) {
+      if(isNdfObject(buildingNdf)) {
+        const buildingManager = new UnitManager(
+          buildingNdf,
+          speedModifiers,
+          mappedWeaponDescriptors,
+          mappedAmmoDescriptors,
+          mappedSmokeDescriptors,
+          mappedMissileDescriptors
+        );
+        const building = buildingManager.parse();
+        outputJson.units.push(building);
       }
     }
 

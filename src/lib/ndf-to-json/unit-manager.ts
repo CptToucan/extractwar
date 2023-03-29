@@ -72,12 +72,12 @@ export type Unit = {
   specialities: string[];
   hasDefensiveSmoke: boolean;
   weapons: Weapon[];
-}
+};
 
 export type SpeedOnTerrain = {
   name: string;
   speed: number;
-}
+};
 
 export type UnitType = {
   nationality: string;
@@ -116,13 +116,13 @@ export class UnitManager extends AbstractManager {
 
     const localizedUnitCard = findUnitCardByDescriptor(descriptorName);
 
-    let name = localizedUnitCard?.name || "";
+    let name = localizedUnitCard?.name || '';
 
     if (name && name.length === 0) {
       name = this.prettyUnitNameFromDescriptor(descriptorName);
     }
 
-    const category = localizedUnitCard?.category || "";
+    const category = localizedUnitCard?.category || '';
     const id = localizedUnitCard?.code || -1;
 
     const unitType = this.extractUnitType();
@@ -131,25 +131,30 @@ export class UnitManager extends AbstractManager {
       'ProductionRessourcesNeeded'
     );
 
-    const commandPoints = Number(NdfManager.extractTupleFromMap(
-      productionResources.value as ParserMap,
-      'Resource_CommandPoints'
-    ));
+    const commandPoints = Number(
+      NdfManager.extractTupleFromMap(
+        productionResources.value as ParserMap,
+        'Resource_CommandPoints'
+      )
+    );
 
     const descriptorInformationPanelType = this.getValueFromSearch<string>(
       'InfoPanelConfigurationToken'
     ).replace(/'/g, '');
     const infoPanelType = infoPanelMap[descriptorInformationPanelType];
 
-    const factoryDescriptor = this.getValueFromSearch<string>(
-      'Factory'
-    );
+    const factoryDescriptor = this.getValueFromSearch<string>('Factory');
     const armourValues = this.extractArmourValues();
     const maxDamage = Number(this.getValueFromSearch<string>('MaxDamages'));
 
-    const speed = Math.round(
-      NdfManager.parseNumberFromMetre(this.getValueFromSearch('MaxSpeed'))
-    );
+    let speed: number;
+    try {
+      speed = Math.round(
+        NdfManager.parseNumberFromMetre(this.getValueFromSearch('MaxSpeed'))
+      );
+    } catch {
+      speed = 0;
+    }
 
     const unitMoveTypeValue = this.getValueFromSearch<string>('UnitMovingType');
     let speedsForTerrains;
@@ -192,7 +197,8 @@ export class UnitManager extends AbstractManager {
         )
       : undefined;
 
-    const travelTime = Number(this.getValueFromSearch('TravelDuration')) || null;
+    const travelTime =
+      Number(this.getValueFromSearch('TravelDuration')) || null;
 
     /**
      * Extract weapon data for the weapon descriptors associated to this descriptor by finding the weapon manager and then using  the weapon manager to extract the weapon data
@@ -203,7 +209,7 @@ export class UnitManager extends AbstractManager {
     const weaponManagerPath =
       weaponManagerSearchResult?.children[0]?.value?.value;
 
-    let weapons: Weapon[] = []
+    let weapons: Weapon[] = [];
     let hasDefensiveSmoke = false;
 
     if (weaponManagerPath !== undefined) {
@@ -217,7 +223,8 @@ export class UnitManager extends AbstractManager {
           this.mappedSmoke,
           this.mappedMissiles
         );
-        const { weapons: parsedWeapons, hasDefensiveSmoke: smoke } = weaponManager.parse();
+        const { weapons: parsedWeapons, hasDefensiveSmoke: smoke } =
+          weaponManager.parse();
 
         weapons = [...parsedWeapons];
         hasDefensiveSmoke = smoke;
@@ -257,7 +264,7 @@ export class UnitManager extends AbstractManager {
       travelTime,
       specialities,
       hasDefensiveSmoke,
-      weapons
+      weapons,
     };
 
     return unit;
@@ -286,7 +293,10 @@ export class UnitManager extends AbstractManager {
    * @param unitMoveTypeValue
    * @param speed
    */
-  private calculateSpeedsForTerrains(unitMoveTypeValue: string, speed: number): SpeedOnTerrain[] {
+  private calculateSpeedsForTerrains(
+    unitMoveTypeValue: string,
+    speed: number
+  ): SpeedOnTerrain[] {
     const speedForTerrains: SpeedOnTerrain[] = [];
     const speedModifiers = this.speedModifiers;
     const moveType = NdfManager.extractLastToken(unitMoveTypeValue);
