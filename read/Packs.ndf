@@ -73,6 +73,18 @@ Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_ERC_90_Sagaie_FR is TDeckPackDescript
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_FOB_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{86333f28-8917-4594-a850-4ee2ca369ab5}
+    CfgName = 'TOE_FR_11e_Para_multi_FOB_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_FR
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_Gazelle_20mm_FR is TDeckPackDescriptor
 (
     DescriptorId = GUID:{05cc0c30-115e-4210-a4af-6e3929527ae8}
@@ -901,6 +913,18 @@ Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_Escorte_FR is TDeckPackDescriptor
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_FOB_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{8316415d-6acf-477a-af86-105b0f771fb9}
+    CfgName = 'TOE_FR_5e_Blindee_multi_FOB_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_FR
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_Gazelle_HOT_2_FR is TDeckPackDescriptor
 (
     DescriptorId = GUID:{8a97731f-2347-427c-9ae2-c28bfb9a9736}
@@ -1558,6 +1582,18 @@ Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_F117_Nighthawk_US is TDeckPa
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_F117_Nighthawk_US
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_FOB_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f73ae1ea-ce8d-423b-8fee-c625c0bb895f}
+    CfgName = 'TOE_NATO_Garnison_Berlin_multi_FOB_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_UK
         ),
     ]
 )
@@ -2233,6 +2269,18 @@ Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Scout_US is TDeckPackDescrip
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Sniper_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{9128bb81-92dc-45ba-b804-cabfb7c17218}
+    CfgName = 'TOE_NATO_Garnison_Berlin_multi_Sniper_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Sniper_UK
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Sonderwagen_4_recon_RFA is TDeckPackDescriptor
 (
     DescriptorId = GUID:{3c51fb60-b7a6-4a9f-bf0c-062a692909d9}
@@ -2554,6 +2602,18 @@ Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_Engineers_Flam_DDR is TDeckPackDescript
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_Engineers_Flam_DDR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_FOB_DDR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{2148a4f1-a9ab-4861-8d8e-d5d8dc6ecb36}
+    CfgName = 'TOE_RDA_4_MSD_multi_FOB_DDR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_DDR
         ),
     ]
 )
@@ -3505,6 +3565,18 @@ Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_Engineers_Flam_DDR is TDeckPackDescr
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_FOB_DDR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{5bc627ce-385c-4254-9cad-3e8a4b697301}
+    CfgName = 'TOE_RDA_7_Panzer_multi_FOB_DDR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_DDR
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_HMGteam_AGS17_DDR is TDeckPackDescriptor
 (
     DescriptorId = GUID:{474428f0-6541-49a3-bce7-223143694eea}
@@ -4282,6 +4354,18 @@ Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_Engineers_Flam_DDR is TDeck
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_Engineers_Flam_DDR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_FOB_DDR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{42644a0c-3a72-4529-b715-591ccce1de09}
+    CfgName = 'TOE_RDA_KdA_Bezirk_Erfurt_multi_FOB_DDR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_DDR
         ),
     ]
 )
@@ -5170,6 +5254,18 @@ Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_FH70_155mm_RFA is TDeckPackDesc
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_FH70_155mm_RFA
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_FOB_RFA is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{054b6878-54bb-4fdf-a127-6b3c1de6edca}
+    CfgName = 'TOE_RFA_2_PzGrenadier_multi_FOB_RFA'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_RFA
         ),
     ]
 )
@@ -6073,6 +6169,18 @@ Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_FH70_155mm_RFA is TDeckPackDescripto
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_FOB_RFA is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{47a843de-fe24-45eb-870f-0630171d07ee}
+    CfgName = 'TOE_RFA_5_Panzer_multi_FOB_RFA'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_RFA
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Feldgendarmerie_RFA is TDeckPackDescriptor
 (
     DescriptorId = GUID:{96e5576b-6df6-40b0-be71-3cdcd6457763}
@@ -6853,6 +6961,18 @@ Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_FH70_155mm_RFA is TDeckPackDescri
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_FOB_RFA is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{da2c35e2-6862-4362-a0ea-564b0de8044c}
+    CfgName = 'TOE_RFA_TerrKdo_Sud_multi_FOB_RFA'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_RFA
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_Fallschirm_B1_RFA is TDeckPackDescriptor
 (
     DescriptorId = GUID:{206b372e-9fe1-498f-aab6-837f59168598}
@@ -7546,6 +7666,18 @@ Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_Engineers_VDV_SOV is TDeckPac
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_Engineers_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_FOB_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{14fac88c-9244-4cf8-82bc-ede7414ab18f}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_multi_FOB_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_SOV
         ),
     ]
 )
@@ -8449,6 +8581,18 @@ Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Engineers_Scout_SOV is TDeckPack
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_FOB_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{bd223447-8d08-4ff4-8d3b-388aa105d95e}
+    CfgName = 'TOE_SOV_39_Gds_Rifle_multi_FOB_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_SOV
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_FireSupport_SOV is TDeckPackDescriptor
 (
     DescriptorId = GUID:{29764fb4-3dfd-4c25-ba47-0abe5bfc3481}
@@ -9301,6 +9445,18 @@ Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Engineers_Scout_SOV is TDeckPackD
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_FOB_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7906bf73-6b3b-4e8d-85a0-a7a8fefdbd95}
+    CfgName = 'TOE_SOV_79_Gds_Tank_multi_FOB_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_SOV
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_HMGteam_AGS17_SOV is TDeckPackDescriptor
 (
     DescriptorId = GUID:{a718e0ab-9efb-4b3d-ab39-f2982605d330}
@@ -10042,6 +10198,18 @@ Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Engineers_UK is TDeckPackDescript
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_Engineers_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_FOB_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{57691b59-e877-44df-be03-9a5be0ca36af}
+    CfgName = 'TOE_UK_1st_Armoured_multi_FOB_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_UK
         ),
     ]
 )
@@ -10789,15 +10957,15 @@ Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Engineers_UK is TDeckPackDescript
         ),
     ]
 )
-Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_F4_Phantom_AA_F3 is TDeckPackDescriptor
+Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_F4_Phantom_AA_F3_UK is TDeckPackDescriptor
 (
-    DescriptorId = GUID:{b2ce9c79-b1a1-42f8-827c-6a175d78f24a}
-    CfgName = 'TOE_UK_2nd_Infantry_multi_F4_Phantom_AA_F3'
+    DescriptorId = GUID:{ddc3923c-7915-49d3-890a-b32cf2ecbe03}
+    CfgName = 'TOE_UK_2nd_Infantry_multi_F4_Phantom_AA_F3_UK'
     TransporterAndUnitsList =
     [
         TDeckTransporterAndUnitsDescriptor
         (
-            UnitDescriptor = Descriptor_Unit_F4_Phantom_AA_F3
+            UnitDescriptor = Descriptor_Unit_F4_Phantom_AA_F3_UK
         ),
     ]
 )
@@ -10810,6 +10978,18 @@ Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_FH70_155mm_UK is TDeckPackDescrip
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_FH70_155mm_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_FOB_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{27d93697-ba99-425b-a57f-6b977ae340f9}
+    CfgName = 'TOE_UK_2nd_Infantry_multi_FOB_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_UK
         ),
     ]
 )
@@ -11626,6 +11806,18 @@ Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_F4_Wild_Weasel_US is TDeckPackDescript
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_F4_Wild_Weasel_US
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_FOB_US is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7829e1be-ba3e-4f88-858f-517680b92c03}
+    CfgName = 'TOE_US_3rd_Arm_multi_FOB_US'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_US
         ),
     ]
 )
@@ -12553,6 +12745,18 @@ Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_F4E_Phantom_II_AA_US is TDeckPac
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_FOB_US is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3522fff4-bea1-450b-a335-6ecbfa069f6d}
+    CfgName = 'TOE_US_82nd_Airborne_multi_FOB_US'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_US
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_HMGteam_M2HB_AB_US is TDeckPackDescriptor
 (
     DescriptorId = GUID:{2b306e89-92b7-4d70-8160-53ff3ba3ad73}
@@ -13090,6 +13294,18 @@ Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_F4_Wild_Weasel_US is TDeckPackDescript
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_F4_Wild_Weasel_US
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_FOB_US is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{80191560-8552-4ae1-9d96-92e0e1056059}
+    CfgName = 'TOE_US_8th_Inf_multi_FOB_US'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_US
         ),
     ]
 )
@@ -13993,6 +14209,18 @@ Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Engineers_SOV is TDeckPack
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_FOB_DDR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{0081f281-174f-41dd-9b5d-7a6e1b332d4e}
+    CfgName = 'TOE_WP_Unternehmen_Zentrum_multi_FOB_DDR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FOB_DDR
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Fallschirmjager_CMD_DDR is TDeckPackDescriptor
 (
     DescriptorId = GUID:{2b581b16-59db-4875-80a3-f0840d066804}
@@ -14554,6 +14782,18 @@ Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Scout_DDR is TDeckPackDesc
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_Scout_DDR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Sniper_FJ_DDR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{4d54b813-acaa-4a09-8749-c73666401dce}
+    CfgName = 'TOE_WP_Unternehmen_Zentrum_multi_Sniper_FJ_DDR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Sniper_FJ_DDR
         ),
     ]
 )

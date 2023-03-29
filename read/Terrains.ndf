@@ -2,7 +2,6 @@ export DefaultTerrain is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = false
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false
@@ -31,7 +30,6 @@ export ForetDense is TGameplayTerrain
 (
     BloqueAmphibie = true
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = true
     BloqueVision = true
@@ -66,7 +64,6 @@ export ForetLegere is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false
@@ -108,7 +105,6 @@ export PetitBatiment is TGameplayTerrain
 (
     BloqueAmphibie = true
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = true
     BloqueVision = false
@@ -150,7 +146,6 @@ export Batiment is TGameplayTerrain
 (
     BloqueAmphibie = true
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = true
     BloqueVision = true
@@ -192,7 +187,6 @@ export Ruin is TGameplayTerrain
 (
     BloqueAmphibie = true
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = true
     BloqueVision = false
@@ -236,7 +230,6 @@ export Tranchee is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false
@@ -285,7 +278,6 @@ export Barbeles is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = false
-    BloqueFoW = false
     BloqueInfanterie = true
     BloqueVehicule = false
     BloqueVision = false
@@ -334,7 +326,6 @@ export NidMitrailleuse is TGameplayTerrain
 (
     BloqueAmphibie = true
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = true
     BloqueVehicule = true
     BloqueVision = false
@@ -383,7 +374,6 @@ export Bloqueur is TGameplayTerrain
 (
     BloqueAmphibie = true
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = true
     BloqueVehicule = true
     BloqueVision = false
@@ -412,7 +402,6 @@ export StrategicForest is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = false
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false
@@ -441,7 +430,6 @@ export StrategicPlain is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = false
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false
@@ -470,7 +458,6 @@ export StrategicSemiUrban is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = false
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false
@@ -500,7 +487,6 @@ export EauPeuProfonde is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = true
     BloqueVehicule = true
     BloqueVision = false
@@ -530,7 +516,6 @@ export Urbain is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false
@@ -579,7 +564,6 @@ export Rocher is TGameplayTerrain
 (
     BloqueAmphibie = true
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = true
     BloqueVision = false
@@ -608,7 +592,6 @@ export SmokeHeavy is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = false
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false
@@ -637,7 +620,6 @@ export SmokeLight is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = false
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false
@@ -666,7 +648,6 @@ export SmokeMedium is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = false
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false
@@ -695,7 +676,6 @@ export EauProfonde is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = true
-    BloqueFoW = false
     BloqueInfanterie = true
     BloqueVehicule = true
     BloqueVision = false
@@ -724,7 +704,6 @@ export BloqueConstruction is TGameplayTerrain
 (
     BloqueAmphibie = false
     BloqueAtterrissage = false
-    BloqueFoW = false
     BloqueInfanterie = false
     BloqueVehicule = false
     BloqueVision = false

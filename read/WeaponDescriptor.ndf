@@ -26695,12 +26695,12 @@ export WeaponDescriptor_HS30_Panzermorser_120mm_RFA is TWeaponManagerModuleDescr
     TurretDescriptorList = [
         TTurretTwoAxisDescriptor
         (
-            AngleRotationBase               = 1.5707963267948966
-            AngleRotationBasePitch          = 0.6981317007977319
-            AngleRotationMax                = 0.5235987755982988
-            AngleRotationMaxPitch           = 1.53588974175501
-            AngleRotationMinPitch           = 0.08726646259971647
-            MountedWeaponDescriptorList     = [
+            AngleRotationBase           = 0.0
+            AngleRotationBasePitch      = 0.6981317007977319
+            AngleRotationMax            = 0.5235987755982988
+            AngleRotationMaxPitch       = 1.53588974175501
+            AngleRotationMinPitch       = 0.08726646259971647
+            MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
@@ -26750,21 +26750,20 @@ export WeaponDescriptor_HS30_Panzermorser_120mm_RFA is TWeaponManagerModuleDescr
                     WeaponShootDataPropertyName         = ["WeaponShootData_0_2", ]
                 )
             ]
-            NbFX                            = 1
-            OutOfRangeTrackingDuration      = 3.5
-            Tag                             = 'tourelle1'
-            TurretIdleBehaviourDescriptor   = ~/TurretIdle_VehicleReco
-            VitesseRotation                 = 1.0471975511965976
-            YulBoneOrdinal                  = 1
+            NbFX                        = 1
+            OutOfRangeTrackingDuration  = 3.5
+            Tag                         = 'tourelle1'
+            VitesseRotation             = 1.0471975511965976
+            YulBoneOrdinal              = 1
         ),
         TTurretTwoAxisDescriptor
         (
-            AngleRotationBase               = 0.0
-            AngleRotationBasePitch          = 0.17453292519943275
-            AngleRotationMax                = 6.283185307179586
-            AngleRotationMaxPitch           = 1.3089969389957472
-            AngleRotationMinPitch           = -0.2617993877991494
-            MountedWeaponDescriptorList     = [
+            AngleRotationBase           = 0.0
+            AngleRotationBasePitch      = 0.17453292519943275
+            AngleRotationMax            = 6.283185307179586
+            AngleRotationMaxPitch       = 1.3089969389957472
+            AngleRotationMinPitch       = -0.2617993877991494
+            MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
@@ -26791,12 +26790,11 @@ export WeaponDescriptor_HS30_Panzermorser_120mm_RFA is TWeaponManagerModuleDescr
                     WeaponShootDataPropertyName         = ["WeaponShootData_0_3", ]
                 )
             ]
-            NbFX                            = 1
-            OutOfRangeTrackingDuration      = 3.5
-            Tag                             = 'tourelle2'
-            TurretIdleBehaviourDescriptor   = ~/TurretIdle_VehicleReco
-            VitesseRotation                 = 2.0943951023931953
-            YulBoneOrdinal                  = 2
+            NbFX                        = 1
+            OutOfRangeTrackingDuration  = 3.5
+            Tag                         = 'tourelle2'
+            VitesseRotation             = 2.0943951023931953
+            YulBoneOrdinal              = 2
         )
     ]
 )
@@ -51601,13 +51599,13 @@ export WeaponDescriptor_Scout_LRRP_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Sniper_VSS_Vintorez
+                    Ammunition                          = ~/Ammo_Sniper_SVD_Dragunov
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Sniper_VSS_Vintorez'
+                    EffectTag                           = 'FireEffect_Sniper_SVD_Dragunov'
                     HandheldEquipmentKey                = 'MeshAlternative_2'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
@@ -52829,13 +52827,13 @@ export WeaponDescriptor_Sniper_Spetsnaz_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_PM_AS_Val
+                    Ammunition                          = ~/Ammo_Sniper_VSS_Vintorez
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_PM_AS_Val'
+                    EffectTag                           = 'FireEffect_Sniper_VSS_Vintorez'
                     HandheldEquipmentKey                = 'MeshAlternative_1'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -52860,13 +52858,13 @@ export WeaponDescriptor_Sniper_Spetsnaz_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Sniper_VSS_Vintorez
+                    Ammunition                          = ~/Ammo_Sniper_SVD_Dragunov
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Sniper_VSS_Vintorez'
+                    EffectTag                           = 'FireEffect_Sniper_SVD_Dragunov'
                     HandheldEquipmentKey                = 'MeshAlternative_2'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
@@ -53207,13 +53205,13 @@ export WeaponDescriptor_Spetsnaz_CMD_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Sniper_VSS_Vintorez
+                    Ammunition                          = ~/Ammo_Sniper_SVD_Dragunov
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Sniper_VSS_Vintorez'
+                    EffectTag                           = 'FireEffect_Sniper_SVD_Dragunov'
                     HandheldEquipmentKey                = 'MeshAlternative_2'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
@@ -73817,7 +73815,7 @@ export WeaponDescriptor_F4F_Phantom_II_RKT2_RFA is TWeaponManagerModuleDescripto
         )
     ]
 )
-export WeaponDescriptor_F4_Phantom_AA_F3 is TWeaponManagerModuleDescriptor
+export WeaponDescriptor_F4_Phantom_AA_F3_UK is TWeaponManagerModuleDescriptor
 (
     DelayIdleAmmoSorting = DelayIdleAmmoSorting
     DefaultHoldFireState = False

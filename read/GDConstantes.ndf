@@ -85,7 +85,7 @@ Constantes is TTunableConstante
     // Facteur de securite a appliquer sur le splash physique dans le calcul de la dispersion. Ne pas descendre trop bas, sinon on se prend des dégats en mouvement
     FacteurSecuriteSplashPhysique = 1 // 1.75
 
-    StunEffectDuration = 3.0
+    StunEffectDuration = 4.0
 
 //----------------------------- Constantes Commander -----------------------------------------//
 
@@ -388,8 +388,8 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     ShootingAdjustmentAngleMax = 0.4 //20°
     SplashSurTirRate = true // Est-ce que les tirs ratés font des dégâts de splash ?
-    SplashRatioDamage = [0.30, 0.30, 0.15] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
-    SplashRatioDistance = [0.30, 0.30, 0.20] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
+    SplashRatioDamage = [0.35, 0.35, 0.20] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
+    SplashRatioDistance = [0.35, 0.35, 0.25] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
 
     MinBlindageForRoEMissiles = ArmorDescriptor_Blindage_2 // Blindage min pour la RoE Missiles
     TagAllowedForMissileRoE = "AllowedForMissileRoE"

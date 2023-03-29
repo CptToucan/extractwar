@@ -660,7 +660,7 @@ export Capacite_IFV is TCapaciteDescriptor
     TargetInTransport      = True
     TargetInSelf           = True
     TargetMySelf           = False
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_anyalliance
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_soloselected | ~/CapaciteFeedbackActivationMask_anyalliance
     DisplayRangeColor      = RGBA[255,255,255,255]
     DisplayRangeThickness  = 0.80
     Price = MAP[]
@@ -1052,6 +1052,7 @@ export Capacite_MilitaryPolice is TCapaciteDescriptor
     DisplayRangeThickness  = 0.40
     Price = MAP[]
     TagsCiblePossible = [
+        "GroundUnits",
     ]
 
 )
@@ -1809,6 +1810,7 @@ export Capacite_security is TCapaciteDescriptor
     DisplayRangeThickness  = 0.00
     Price = MAP[]
     TagsCiblePossible = [
+        "GroundUnits",
     ]
 
 )
