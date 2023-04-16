@@ -156,7 +156,8 @@ export class AmmunitionManager extends AbstractManager {
       missile = missileManager.parse();
     }
 
-    const heDamage = Number(this.getValueFromSearch<string>('PhysicalDamages'));
+    const heDamage = Number(Number(this.getValueFromSearch<string>('PhysicalDamages')).toFixed(2));
+  
     const heDamageRadius = Math.round(
       NdfManager.parseNumberFromMetre(
         this.getValueFromSearch<string>('RadiusSplashPhysicalDamages')
@@ -245,6 +246,11 @@ export class AmmunitionManager extends AbstractManager {
       Number(damageIndex) - groundMaxRange / damageDropOff
     );
 
+
+    if(this.ndf.name.includes("Gatling")) {
+      console.log(this.ndf.name);
+    }
+
     const heatAP = Number(damageIndex);
 
     const kineticInstakillAtMaxRangeArmour =
@@ -252,6 +258,7 @@ export class AmmunitionManager extends AbstractManager {
     const heatInstakillAtMaxRangeArmour = heatAP - HEAT_AP_MAGIC_NUMBER;
 
     const penetration = isKinetic ? kineticAP : heatAP;
+
     const instaKillAtMaxRangeArmour = isKinetic
       ? kineticInstakillAtMaxRangeArmour
       : heatInstakillAtMaxRangeArmour;

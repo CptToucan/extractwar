@@ -71,6 +71,7 @@ export type Unit = {
   travelTime: number | null;
   specialities: string[];
   hasDefensiveSmoke: boolean;
+  isSellable: boolean;
   weapons: Weapon[];
 };
 
@@ -200,6 +201,8 @@ export class UnitManager extends AbstractManager {
     const travelTime =
       Number(this.getValueFromSearch('TravelDuration')) || null;
 
+    const isSellable = Boolean(this.getFirstSearchResult('TSellModuleDescriptor'));
+
     /**
      * Extract weapon data for the weapon descriptors associated to this descriptor by finding the weapon manager and then using  the weapon manager to extract the weapon data
      */
@@ -264,6 +267,7 @@ export class UnitManager extends AbstractManager {
       travelTime,
       specialities,
       hasDefensiveSmoke,
+      isSellable,
       weapons,
     };
 

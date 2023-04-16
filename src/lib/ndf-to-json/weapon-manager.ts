@@ -24,6 +24,7 @@ export type Weapon = {
   movingAccuracy: number;
   movingAccuracyScaling?: AccuracyDataPointsForType;
   numberOfWeapons: number;
+  numberOfSalvos: number;
   penetration: number;
   planeMinRange: number;
   planeRange: number;
@@ -44,6 +45,7 @@ export type Weapon = {
   trueRateOfFire: number;
   turretRotationSpeed: number;
   weaponName: string;
+  piercingWeapon: boolean;
 };
 
 export type MountedWeaponWithTurret = MountedWeapon & Turret;
@@ -202,6 +204,7 @@ export class WeaponManager extends AbstractManager {
           helicopterRange: firstWeapon.ammo.heliMaxRange,
           instaKillAtMaxRangeArmour: firstWeapon.ammo.instaKillAtMaxRangeArmour,
           missileProperties: firstWeapon.ammo.missile,
+          numberOfSalvos: salvoMap[salvoIndex],
           movingAccuracy: firstWeapon.ammo.movingAccuracy,
           movingAccuracyScaling: firstWeapon.ammo.movingAccuracyOverDistance,
           numberOfWeapons: firstWeapon.numberOfWeapons,
@@ -225,6 +228,7 @@ export class WeaponManager extends AbstractManager {
           trueRateOfFire: firstWeapon.ammo.trueRateOfFire,
           turretRotationSpeed: firstWeapon.turretRotationSpeed,
           weaponName: firstWeapon.ammo.name,
+          piercingWeapon: firstWeapon.ammo.piercingWeapon,
         };
   
         /**
@@ -268,8 +272,22 @@ export class WeaponManager extends AbstractManager {
             mergedWeapon.planeRange,
             mountedWeapon.ammo.planeMaxRange
           );
+
+          if(mountedWeapon.ammo.piercingWeapon) {
+            mergedWeapon.piercingWeapon = mountedWeapon.ammo.piercingWeapon;
+          }
         }
   
+        // non piercing weapons do not have any penetration
+        if(!mergedWeapon.piercingWeapon) {
+          mergedWeapon.penetration = 0;
+        }
+
+        // piercing weapons have a minimum penetration of 1
+        if(mergedWeapon.piercingWeapon && mergedWeapon.penetration < 1) {
+          mergedWeapon.penetration = 1;
+        }
+
         weapons.push(mergedWeapon);
       }
 
