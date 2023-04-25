@@ -21,7 +21,7 @@ export class MissileManager extends AbstractManager {
   getConfigAttribute(attribute: string): number {
     const defaultConfig = this.getFirstSearchResult('DefaultConfig');
 
-    const value = NdfManager.parseNumberFromMetre(
+    const value = NdfManager.parseSpeedNumberFromMetre(
       NdfManager.extractValueFromSearchResult(
         search(defaultConfig, attribute)[0]
       )

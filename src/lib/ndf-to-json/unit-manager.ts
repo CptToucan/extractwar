@@ -150,9 +150,8 @@ export class UnitManager extends AbstractManager {
 
     let speed: number;
     try {
-      speed = Math.round(
-        NdfManager.parseNumberFromMetre(this.getValueFromSearch('MaxSpeed'))
-      );
+      speed = NdfManager.parseSpeedNumberFromMetre(this.getValueFromSearch('MaxSpeed'))
+
     } catch {
       speed = 0;
     }

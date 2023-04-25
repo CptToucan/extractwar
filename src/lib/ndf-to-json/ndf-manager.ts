@@ -26,7 +26,8 @@ export interface NdfMap {
   [key: string]: string;
 }
 
-export const METRE = 1 / 2.83;
+export const RANGE_METRE = 1 / 2.83;
+export const SPEED_METRE = 0.45;
 
 /**
  * Responsible for managing Ndf files being extracted from ndf syntax to readable JSON syntax
@@ -157,8 +158,19 @@ export class NdfManager {
   static parseNumberFromMetre(rawValue: string): number {
     const metreValue = this.removeBracketsFromValue(rawValue);
     const numberTokens = metreValue.split('*');
-    return Number(numberTokens[0]) * METRE;
+    return Number(numberTokens[0]) * RANGE_METRE;
   }
+
+    /**
+   * Extract number from a metre value in the form of (number * metre)
+   * @param rawValue The raw value to extract from
+   * @returns The number
+   */
+    static parseSpeedNumberFromMetre(rawValue: string): number {
+      const metreValue = this.removeBracketsFromValue(rawValue);
+      const numberTokens = metreValue.split('*');
+      return Number(numberTokens[0]) * SPEED_METRE;
+    }
 
   /**
    * Extracts a number from a second value in the form of (number * second)
