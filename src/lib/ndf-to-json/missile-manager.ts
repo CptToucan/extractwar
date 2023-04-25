@@ -21,11 +21,11 @@ export class MissileManager extends AbstractManager {
   getConfigAttribute(attribute: string): number {
     const defaultConfig = this.getFirstSearchResult('DefaultConfig');
 
-    const value = NdfManager.parseSpeedNumberFromMetre(
+    const value = Math.round(NdfManager.parseSpeedNumberFromMetre(
       NdfManager.extractValueFromSearchResult(
         search(defaultConfig, attribute)[0]
       )
-    );
+    ));
 
     return Math.round(value);
   }
