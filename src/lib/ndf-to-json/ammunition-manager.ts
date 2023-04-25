@@ -246,11 +246,6 @@ export class AmmunitionManager extends AbstractManager {
       Number(damageIndex) - groundMaxRange / damageDropOff
     );
 
-
-    if(this.ndf.name.includes("Gatling")) {
-      console.log(this.ndf.name);
-    }
-
     const heatAP = Number(damageIndex);
 
     const kineticInstakillAtMaxRangeArmour =
