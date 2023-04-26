@@ -44,6 +44,9 @@ export const DIVISION_NAMES: { [key: string]: string } = {
 export default function parseDivisionData(data: DivisionInputData) {
   const divisionData = data.division.map((division: any) => {
     return extractDivisionDetails(division);
+  }).filter( (division: any) => {
+    // 'DEFAULT' tag defines a multiplayer-enabled division - not 100% sure
+    return division.tags.includes('DEFAULT');
   });
 
   const rulesData = parseDivisionRules(data.rules);
