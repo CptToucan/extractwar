@@ -31,7 +31,7 @@ export const DIVISION_NAMES: { [key: string]: string } = {
   Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi: 'TerritorialKommando Sud',
   Descriptor_Deck_Division_UK_1st_Armoured_multi: '1st Armoured Division',
   Descriptor_Deck_Division_UK_2nd_Infantry_multi: '2nd Infantry Division',
-  Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi: 'Unternehmen Zentrum',
+  Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi: 'Berliner Gruppierung',
 };
 
 /**
