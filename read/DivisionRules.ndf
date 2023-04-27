@@ -1039,7 +1039,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = ~/Descriptor_Unit_FV721_Fox_UK
                         AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                     TDeckUniteRule
@@ -1218,7 +1218,7 @@ private DivisionRules is TDeckDivisionRules
                         UnitDescriptor = ~/Descriptor_Unit_M109A2_HOWZ_US
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
-                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.0]
                     ),
                     TDeckUniteRule
                     (

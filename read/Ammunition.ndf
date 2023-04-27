@@ -7617,13 +7617,13 @@ Ammo_Canon_AP_105mm_L7_Centurion is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap" Index=27)
+    Arme                              = TDamageTypeRTTI(Family="ap" Index=26)
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'CanonGrosAPFDSM1Abrams' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((5448) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -7639,7 +7639,7 @@ Ammo_Canon_AP_105mm_L7_Centurion is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 0 * Metre
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
-    RadiusSplashSuppressDamages       = 122 * Metre
+    RadiusSplashSuppressDamages       = 121 * Metre
     SuppressDamages                   = 79.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = False
@@ -7662,7 +7662,7 @@ Ammo_Canon_AP_105mm_L7_Centurion is TAmmunitionDescriptor
          [
              (EBaseHitValueModifier/Base, 0.0),
              (EBaseHitValueModifier/Idling, 50),
-             (EBaseHitValueModifier/Moving, 35),
+             (EBaseHitValueModifier/Moving, 15),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -12725,7 +12725,7 @@ Ammo_Canon_HE_105mm_L7_Centurion is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((5448) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -12764,7 +12764,7 @@ Ammo_Canon_HE_105mm_L7_Centurion is TAmmunitionDescriptor
          [
              (EBaseHitValueModifier/Base, 0.0),
              (EBaseHitValueModifier/Idling, 50),
-             (EBaseHitValueModifier/Moving, 35),
+             (EBaseHitValueModifier/Moving, 15),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -17370,9 +17370,9 @@ Ammo_DCA_1_canon_Bofors_upgrade_40mm is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 0.2
     PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
-    PorteeMaximaleTBA                 = ((7500) * Metre)
+    PorteeMaximaleTBA                 = ((7995) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
-    PorteeMaximaleHA                  = ((7004) * Metre)
+    PorteeMaximaleHA                  = ((8490) * Metre)
     PorteeMinimale                    = ((100) * Metre)
     AltitudeAPorteeMinimale           = ((35.0) * Metre)
     AltitudeAPorteeMaximale           = ((70.0) * Metre)
@@ -17406,7 +17406,7 @@ Ammo_DCA_1_canon_Bofors_upgrade_40mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 5),
+             (EBaseHitValueModifier/Idling, 20),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -18712,8 +18712,8 @@ Ammo_DCA_2_canons_Oerlikon_GDF_35mm_NL is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 35),
-             (EBaseHitValueModifier/Moving, 20),
+             (EBaseHitValueModifier/Idling, 40),
+             (EBaseHitValueModifier/Moving, 25),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -38468,7 +38468,7 @@ Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 4.0
     TempsEntreDeuxFx                  = 3.0
-    PorteeMaximale                    = ((15919) * Metre)
+    PorteeMaximale                    = ((13938) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -38541,7 +38541,7 @@ Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
     FlightTimeForSpeed                    = 15.0
-    DistanceForSpeed                      = 15919.0 * Metre
+    DistanceForSpeed                      = 13938.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
 Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
@@ -38562,7 +38562,7 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 3.0
     TempsEntreDeuxFx                  = 3.0
-    PorteeMaximale                    = ((15919) * Metre)
+    PorteeMaximale                    = ((13938) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -38634,7 +38634,7 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
     FlightTimeForSpeed                    = 15.0
-    DistanceForSpeed                      = 15919.0 * Metre
+    DistanceForSpeed                      = 13938.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
 Ammo_Mortier_M40_towed_107mm_SMOKE is TAmmunitionDescriptor
@@ -48281,7 +48281,7 @@ Ammo_RocketInf_AT4_83mm is TAmmunitionDescriptor
     Name                              = 'EUBFZGPGSF'
     TypeName                          = 'NA'
     TypeCategoryName                  = 'NZWXQNJFDX'
-    Caliber                           = 'UHLFKCEAZR'
+    Caliber                           = 'MNSGAKYBGL'
     WeaponDescriptionToken            = 'YKOXTNOAFR'
     TraitsToken                       = [ 'STAT', 'HE', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_UnguidedMissile
@@ -48311,7 +48311,7 @@ Ammo_RocketInf_AT4_83mm is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 112 * Metre
-    SuppressDamages                   = 83.0
+    SuppressDamages                   = 84.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
