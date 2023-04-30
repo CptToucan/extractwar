@@ -154,9 +154,8 @@ Constantes is TTunableConstante
     //Couleur par défaut des ghosts
     DefaultGhostColors = TGhostColors(
         GhostColor = [255, 255, 255, 255]
-        GhostAlpha = 0.4
-        GhostColor2 = [255, 255, 255, 25]
-        GhostAlpha2 = 0.2
+        GhostAlphas = [0.4, 0.2]
+        GhostBlends = [1, 0.1]
     )
 
     NbMaxProductionsEtRecherchesSimultanees = 0
@@ -189,10 +188,6 @@ Constantes is TTunableConstante
     TimeNotificationObjectiveInSecond = 2.0
     TimeDownloadObjectiveAnimationInSecond = 1.0
     TimeAfterDownloadObjectiveInSecond = 0.5
-
-//----------------------------- Constantes Replay -----------------------------------------//
-
-    TimeBetweenNodeDuringReplayInSeconds = 30
 
 //----------------------------- Constantes Resale -----------------------------------------//
 
@@ -733,7 +728,6 @@ WargameConstantes is TWargameTunableConstante
 
     AmphibiousSpawnLandSeaRatio = 1.5 // >=0, ponderation arbitraire pour determiner si une amphibie spawne au spawn marin ou terrestre (=1:elle prendra le plus proche a vol d'oiseau ; <1:elle preferera le marin, >1:elle preferera le terrestre)
     InfantryTrenchDepth = 7 * Metre //9 * Metre //11.5 * Metre
-    TimeForOnePAMove = 0.2 //0.5 // temps de mouvement pour dépenser un PA : ne pas descendre trop bas. Cela affecte la qualité de certains algo
 
 //------------------------ Constantes Option_Graphique ----------------------------------//
 
