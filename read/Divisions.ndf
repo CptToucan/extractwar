@@ -956,6 +956,7 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_APC_RFA, 3),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_CMD_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_IFV_RFA, 6),
+        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_PzGrenadier_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Scout_RFA, 3),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Security_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_TPZ_Fuchs_CMD_RFA, 1),

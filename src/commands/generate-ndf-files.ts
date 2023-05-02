@@ -5,7 +5,7 @@ const path = require('path');
 const child_process = require('child_process');
 const os = require('os');
 
-const EXTRACT_FILES = [
+export const EXTRACT_FILES = [
     'GameData/Generated/Gameplay/Gfx/Ammunition.ndf',
     'GameData/Generated/Gameplay/Gfx/ArmorDescriptor.ndf',
     'GameData/Generated/Gameplay/Gfx/DamageResistance.ndf',
