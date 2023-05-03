@@ -41,6 +41,7 @@ export type Weapon = {
   suppressDamagesRadius: number;
   timeBetweenSalvos: number;
   totalHeDamage: number;
+  totalHePerSalvo: number;
   traits: string[];
   trueRateOfFire: number;
   turretRotationSpeed: number;
@@ -186,7 +187,8 @@ export class WeaponManager extends AbstractManager {
       const firstWeapon = weaponsForSalvoIndex[0];
 
       if(firstWeapon) {
-        const totalHeDamage = Number((firstWeapon.ammo.heDamage * firstWeapon.ammo.salvoLength * firstWeapon.numberOfWeapons).toFixed(2));
+        const totalHeDamage = Number((firstWeapon.ammo.heDamage * firstWeapon.numberOfWeapons).toFixed(2));
+        const totalHePerSalvo = firstWeapon.ammo.salvoLength * totalHeDamage; 
 
         const supplyCost = salvoMap[salvoIndex] * firstWeapon.ammo.supplyCostPerSalvo
 
@@ -224,6 +226,7 @@ export class WeaponManager extends AbstractManager {
           suppressDamagesRadius: firstWeapon.ammo.suppressDamagesRadius,
           timeBetweenSalvos: firstWeapon.ammo.timeBetweenSalvos,
           totalHeDamage: totalHeDamage,
+          totalHePerSalvo: totalHePerSalvo,
           traits: firstWeapon.ammo.traits,
           trueRateOfFire: firstWeapon.ammo.trueRateOfFire,
           turretRotationSpeed: firstWeapon.turretRotationSpeed,
