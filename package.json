@@ -26,12 +26,14 @@
     "cli-ux": "^6.0.5",
     "eslint-config-prettier": "^8.5.0",
     "firebase-admin": "^11.5.0",
+    "json-diff": "^1.0.3",
     "prettier": "^2.6.2",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@oclif/test": "^2",
     "@types/chai": "^4",
+    "@types/json-diff": "^0.9.1",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.11.12",
     "chai": "^4",

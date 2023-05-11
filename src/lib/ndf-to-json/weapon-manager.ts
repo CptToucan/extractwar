@@ -188,7 +188,7 @@ export class WeaponManager extends AbstractManager {
 
       if(firstWeapon) {
         const totalHeDamage = Number((firstWeapon.ammo.heDamage * firstWeapon.numberOfWeapons).toFixed(2));
-        const totalHePerSalvo = firstWeapon.ammo.salvoLength * totalHeDamage; 
+        const totalHePerSalvo = Number((firstWeapon.ammo.salvoLength * totalHeDamage).toFixed(2)); 
 
         const supplyCost = salvoMap[salvoIndex] * firstWeapon.ammo.supplyCostPerSalvo
 

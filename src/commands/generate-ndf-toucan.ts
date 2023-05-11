@@ -10,11 +10,16 @@ export default class GenerateNdfToucan extends Command {
 
   static flags = {
     // @ts-ignore
-    modDir: Flags.directory({ required: true })
+    modDir: Flags.directory({ required: true }),
   };
 
   static args = [
     { name: 'outDir', required: false, default: path.join('.', 'read') },
+    {
+      name: 'backupDir',
+      required: false,
+      default: path.join('.', 'read-previous-patch'),
+    },
   ];
 
   public async run(): Promise<void> {
@@ -22,9 +27,20 @@ export default class GenerateNdfToucan extends Command {
 
     const modDir = flags.modDir;
     const outDir = args.outDir;
+    const backupDir = args.backupDir;
 
-    console.log("Mod Dir: ", modDir);
-    console.log("Output Dir: ", outDir);
+    // clear read-previous-patch directory
+    if (fs.existsSync(backupDir)) {
+      fs.rmdirSync(backupDir, { recursive: true });
+    }
+
+    // backup the read directory to read-previous-patch
+    if (fs.existsSync(outDir)) {
+      fs.renameSync(outDir, backupDir);
+    }
+
+    // create read directory
+    fs.mkdirSync(outDir, { recursive: true });
 
     const numFiles = this.extractModFiles(modDir, outDir);
     console.log(`Extracted ${numFiles} files to: `, outDir);
@@ -33,21 +49,21 @@ export default class GenerateNdfToucan extends Command {
   /**
    * Extract the specific files we want into the given directory.  We don't keep
    * directory structure, only base file name.
-   * 
-   * @param extractDir 
-   * @param destinationDir 
+   *
+   * @param extractDir
+   * @param destinationDir
    */
   public extractModFiles(extractDir: string, destinationDir: string) {
     fs.mkdirSync(destinationDir, { recursive: true });
 
     let numFiles = 0;
     for (const file of EXTRACT_FILES) {
-        const originalPath = path.join(extractDir, file)
-        const newPath = path.join(destinationDir, path.basename(file))
-        if (fs.existsSync(originalPath)) {
-            fs.copyFileSync(originalPath, newPath)
-            numFiles++;
-        }
+      const originalPath = path.join(extractDir, file);
+      const newPath = path.join(destinationDir, path.basename(file));
+      if (fs.existsSync(originalPath)) {
+        fs.copyFileSync(originalPath, newPath);
+        numFiles++;
+      }
     }
 
     return numFiles;

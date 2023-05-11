@@ -1,15 +1,11 @@
 import { search } from '@izohek/ndf-parser';
 import { NdfConstant, NdfObject } from '@izohek/ndf-parser/dist/src/types';
 import { Command } from '@oclif/core';
-import { fstat } from 'fs';
-import {
-  NdfFilePathMap,
-  NdfManager,
-  NdfObjectMap,
-} from '../lib/ndf-to-json/ndf-manager';
+import { NdfFilePathMap, NdfManager } from '../lib/ndf-to-json/ndf-manager';
 import { Unit, UnitManager } from '../lib/ndf-to-json/unit-manager';
 import { isNdfObject } from '../lib/ndf-to-json/utils';
 import parseDivisionData from '../lib/parse/divisions';
+import { diff } from 'json-diff';
 
 const path = require('path');
 const fs = require('fs');
@@ -27,6 +23,12 @@ const NDF_FILES = Object.freeze({
   missile: 'MissileDescriptors.ndf',
   building: 'BuildingDescriptors.ndf',
 });
+
+interface UnitData {
+  version?: string;
+  units: Unit[];
+  divisions: any;
+}
 
 export type SpeedModifier = {
   name: string;
@@ -51,13 +53,31 @@ export interface NdfExtractAsJson {
   [key: string]: unknown;
 }
 
+// replace values of object or array with null if they are NaN
+const replaceNaNwithNull = (obj: any) => {
+  if (typeof obj === 'object') {
+    // eslint-disable-next-line guard-for-in
+    for (const key in obj) {
+      if (Number.isNaN(obj[key])) {
+        obj[key] = null;
+      } else {
+        replaceNaNwithNull(obj[key]);
+      }
+    }
+  }
+
+  if (Array.isArray(obj)) {
+    for (const item of obj) {
+      replaceNaNwithNull(item);
+    }
+  }
+};
+
 export default class NdfToJson extends Command {
   static description =
     'reads ndf files, outputs WarYes compatible datastructures';
 
   static examples = ['<%= config.bin %> <%= command.id %>'];
-
-  static flags = {};
 
   static args = [
     { name: 'inputNdfFolder', required: true },
@@ -65,17 +85,62 @@ export default class NdfToJson extends Command {
       name: 'outputFile',
       required: true,
     },
+    {
+      name: 'previousNdfFolder',
+      required: false,
+    },
   ];
 
   public async run(): Promise<void> {
     const { args } = await this.parse(NdfToJson);
     this.log('Extracting unit data from ndf files');
 
+    const currentPatchData: UnitData = await this.extractNdfData(
+      args.inputNdfFolder
+    );
+
+    let previousPatchData: UnitData;
+
+    if (args.previousNdfFolder) {
+      previousPatchData = await this.extractNdfData(args.previousNdfFolder);
+
+      const patchDiff: any[] = [];
+
+      for (const unit of currentPatchData.units) {
+        const oldUnit = previousPatchData.units.find(
+          (u) => u.descriptorName === unit.descriptorName
+        );
+
+        if (oldUnit) {
+          const unitDiff = diff(oldUnit, unit);
+          if (unitDiff) {
+            patchDiff.push({
+              descriptorName: unit.descriptorName,
+              diff: unitDiff,
+            });
+          }
+        } else {
+          patchDiff.push({
+            descriptorName: unit.descriptorName,
+            new: true,
+          });
+        }
+      }
+
+      fs.writeFileSync('patch.json', JSON.stringify(patchDiff));
+    }
+
+    fs.writeFileSync(args.outputFile, JSON.stringify(currentPatchData));
+
+    this.log(`Done! 🎉 File written to ${args.outputFile}`);
+  }
+
+  private async extractNdfData(readDirectory: string) {
     const ndfFilePathMap: NdfFilePathMap = {};
     // eslint-disable-next-line guard-for-in
     for (const key in NDF_FILES) {
       ndfFilePathMap[key] = path.join(
-        args.inputNdfFolder,
+        readDirectory,
         NDF_FILES[key as keyof typeof NDF_FILES]
       );
     }
@@ -99,7 +164,7 @@ export default class NdfToJson extends Command {
 
     const speedModifiers = this.extractSpeedModifiers(ndfs.terrain);
 
-    const outputJson = {
+    const outputJson: UnitData = {
       version: undefined,
       units: [] as Unit[],
       divisions: parseDivisionData({
@@ -121,12 +186,15 @@ export default class NdfToJson extends Command {
           mappedMissileDescriptors
         );
         const unit = unitManager.parse();
+
+        replaceNaNwithNull(unit);
+
         outputJson.units.push(unit);
       }
     }
 
-    for(const buildingNdf of ndfs.building) {
-      if(isNdfObject(buildingNdf)) {
+    for (const buildingNdf of ndfs.building) {
+      if (isNdfObject(buildingNdf)) {
         const buildingManager = new UnitManager(
           buildingNdf,
           speedModifiers,
@@ -136,13 +204,15 @@ export default class NdfToJson extends Command {
           mappedMissileDescriptors
         );
         const building = buildingManager.parse();
+
+        replaceNaNwithNull(building);
         outputJson.units.push(building);
       }
     }
 
     this.log('Data parsed. Writing to file...');
-    fs.writeFileSync(args.outputFile, JSON.stringify(outputJson));
-    this.log(`Done! 🎉 File written to ${args.outputFile}`);
+
+    return outputJson;
   }
 
   /**
