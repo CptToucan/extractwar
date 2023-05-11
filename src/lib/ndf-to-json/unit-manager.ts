@@ -119,7 +119,7 @@ export class UnitManager extends AbstractManager {
 
     let name = localizedUnitCard?.name || '';
 
-    if (name && name.length === 0) {
+    if (name.length === 0) {
       name = this.prettyUnitNameFromDescriptor(descriptorName);
     }
 
