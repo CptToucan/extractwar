@@ -106,17 +106,17 @@ MatrixCostName_US_82nd_Airborne_multi is MAP
 
 MatrixCostName_US_11ACR_multi is MAP
 [
-   ( EDefaultFactories/Logistic,    [1, 1, 2, 3] ),//4;7
-   ( EDefaultFactories/reco,        [1, 1, 1, 1, 1, 1, 2, 3] ),//8;11
-   ( EDefaultFactories/infanterie,  [1, 2, 3, 4] ),//4;10
-   ( EDefaultFactories/tank,        [1, 1, 1, 2, 2, 3, 3] ),//8;13
-   ( EDefaultFactories/support,     [1, 1, 2, 3, 4] ),//5;11    =ART
-   ( EDefaultFactories/at,          [1, 1, 2, 2, 3, 4] ),//6;13   =AA
+   ( EDefaultFactories/Logistic,    [1, 2, 2, 3] ),//4;9
+   ( EDefaultFactories/reco,        [1, 1, 1, 1, 1, 1, 2, 2, 3, 3] ),//10;16
+   ( EDefaultFactories/infanterie,  [1, 1, 2, 3, 3] ),//5;10
+   ( EDefaultFactories/tank,        [1, 1, 1, 1, 1, 2, 2, 2, 3, 3] ),//10;17
+   ( EDefaultFactories/support,     [1, 2, 3, 3, 3] ),//5;12    =ART
+   ( EDefaultFactories/at,          [1, 2, 3, 3, 3] ),//5;12   =AA
    ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
    ( EDefaultFactories/art,         [0,] ),//0...DEPREC
-   ( EDefaultFactories/Helis,       [1, 1, 1, 2, 2, 2, 3] ),//7;12
-   ( EDefaultFactories/air,         [1, 2, 3, 4] ),//4;10
-   ( EDefaultFactories/defense,     [0, 0, 0, 0] ),//46cases 77pts
+   ( EDefaultFactories/Helis,       [1, 1, 1, 2, 2, 3, 3, 3] ),//8;16
+   ( EDefaultFactories/air,         [1, 1, 1, 2, 2, 3, 3, 3] ),//8;16
+   ( EDefaultFactories/defense,     [0, 0, 0, 0] ),//55cases 107pts
 ]
 
 //--------------------- RFA -----------------------------------------
@@ -288,6 +288,21 @@ MatrixCostName_FR_5e_Blindee_challenge is MAP
    ( EDefaultFactories/Helis,       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
    ( EDefaultFactories/air,         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
    ( EDefaultFactories/defense,     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+]
+
+MatrixCostName_FR_6e_Blindee_Legere_multi is MAP
+[
+   ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/infanterie,  [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/tank,        [1, 1, 1, 1, 1, 1, 2, 3, 3, 3]),//10;17
+   ( EDefaultFactories/support,     [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15    =ART
+   ( EDefaultFactories/at,          [1, 1, 1, 2, 3, 3, 3] ),//7;14   =AA
+   ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/art,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/Helis,       [1, 1, 2] ),//3;4
+   ( EDefaultFactories/air,         [1, 1, 2, 3, 3, 3, 3] ),//7;16
+   ( EDefaultFactories/defense,     [0,] ),//55 cases 107 pts...Coef 1.95
 ]
 
 MatrixCostName_FR_11e_Para_multi is MAP

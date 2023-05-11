@@ -11,7 +11,12 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             MotherCountry                    = 'DDR'
             Nationalite                      = ENationalite/Axis
         ),
-        ~/EmptyTagsModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "FOB",
+            ]
+        ),
         TFlagsModuleDescriptor
         (
             InitialFlagSet =
@@ -274,7 +279,12 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             MotherCountry                    = 'FR'
             Nationalite                      = ENationalite/Allied
         ),
-        ~/EmptyTagsModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "FOB",
+            ]
+        ),
         TFlagsModuleDescriptor
         (
             InitialFlagSet =
@@ -537,7 +547,12 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             MotherCountry                    = 'RFA'
             Nationalite                      = ENationalite/Allied
         ),
-        ~/EmptyTagsModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "FOB",
+            ]
+        ),
         TFlagsModuleDescriptor
         (
             InitialFlagSet =
@@ -800,7 +815,12 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             MotherCountry                    = 'SOV'
             Nationalite                      = ENationalite/Axis
         ),
-        ~/EmptyTagsModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "FOB",
+            ]
+        ),
         TFlagsModuleDescriptor
         (
             InitialFlagSet =
@@ -1063,7 +1083,12 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             MotherCountry                    = 'UK'
             Nationalite                      = ENationalite/Allied
         ),
-        ~/EmptyTagsModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "FOB",
+            ]
+        ),
         TFlagsModuleDescriptor
         (
             InitialFlagSet =
@@ -1326,7 +1351,12 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             MotherCountry                    = 'US'
             Nationalite                      = ENationalite/Allied
         ),
-        ~/EmptyTagsModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "FOB",
+            ]
+        ),
         TFlagsModuleDescriptor
         (
             InitialFlagSet =
