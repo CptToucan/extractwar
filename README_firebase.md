@@ -15,12 +15,11 @@ New patch data process:
 4. Manually upload bundle files to Firebase storage
 
 Toucan patch data process:
+Run all of these from the extractwar directory
+
 1. Generate mod files using .bat on PC
-2. Bring those ndfs in to file: `./bin/dev generate-ndf-toucan --modDir ../mod-files`
 
-If you want patch data add the previous ndf-file
-3a. Parse NDFS: `./bin/dev ndf-to-json ./read/ output.json ./read-previous-patch`
+2. ./update-warno.sh
+2a. ./update-frago.sh
+2b. ./update-warno-let-loose.sh
 
-Otherwise
-3b `./bin/dev ndf-to-json ./read/ output.json`
-4. Update Firebase: `./bin/dev build-firebase-bundles output.json`

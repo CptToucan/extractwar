@@ -14,11 +14,11 @@ export default class GenerateNdfToucan extends Command {
   };
 
   static args = [
-    { name: 'outDir', required: false, default: path.join('.', 'read') },
+    { name: 'outDir', required: false, default: path.join('.', 'read', 'warno') },
     {
       name: 'backupDir',
       required: false,
-      default: path.join('.', 'read-previous-patch'),
+      default: path.join('.', 'read-previous-patch', 'warno'),
     },
   ];
 
