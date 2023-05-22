@@ -78,9 +78,6 @@ export ForetLegere is TGameplayTerrain
             ("howz", MAP [("infanterie",0.7)]),
             ("howz_bombe", MAP [("infanterie",0.7)]),
             ("fmballe", MAP [("infanterie",0.7)]),
-            ("suppress", MAP [("blindage",1.5)]),
-            ("suppressap", MAP [("blindage",1.5)]),
-            ("suppressdca", MAP [("blindage",1.5)]),
         ]
     DebugColor = rgba[70, 252, 70, 255]
     DissimulationModifierGroundAir = 12

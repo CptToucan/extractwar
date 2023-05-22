@@ -149,11 +149,23 @@ export class UnitManager extends AbstractManager {
     const maxDamage = Number(this.getValueFromSearch<string>('MaxDamages'));
 
     let speed: number;
-    try {
-      speed = Math.round(NdfManager.parseSpeedNumberFromMetre(this.getValueFromSearch('MaxSpeed')))
 
+    try {
+      speed = Math.round(
+        NdfManager.parseSpeedNumberFromMetre(
+          this.getValueFromSearch('MaxSpeed')
+        )
+      );
     } catch {
       speed = 0;
+    }
+
+    try {
+      speed = Math.round(
+        NdfManager.parseSpeedNumberFromMetre(this.getValueFromSearch('Speed'))
+      );
+    } catch {
+      console.log('Could not parse speed, using MaxSpeed')
     }
 
     const unitMoveTypeValue = this.getValueFromSearch<string>('UnitMovingType');
@@ -200,7 +212,9 @@ export class UnitManager extends AbstractManager {
     const travelTime =
       Number(this.getValueFromSearch('TravelDuration')) || null;
 
-    const isSellable = Boolean(this.getFirstSearchResult('TSellModuleDescriptor'));
+    const isSellable = Boolean(
+      this.getFirstSearchResult('TSellModuleDescriptor')
+    );
 
     /**
      * Extract weapon data for the weapon descriptors associated to this descriptor by finding the weapon manager and then using  the weapon manager to extract the weapon data
