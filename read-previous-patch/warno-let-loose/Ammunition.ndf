@@ -48574,7 +48574,7 @@ Ammo_RocketInf_APILAS is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((1981) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -48609,11 +48609,11 @@ Ammo_RocketInf_APILAS is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{a29eb63a-8c6b-4b34-a053-f4a0e618341e}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
+             (EBaseHitValueModifier/Idling, 70),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -48666,7 +48666,7 @@ Ammo_RocketInf_AT4_83mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -48701,11 +48701,11 @@ Ammo_RocketInf_AT4_83mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{57768644-7e87-44ef-a8d0-4611bc442700}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
+             (EBaseHitValueModifier/Idling, 60),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -48758,7 +48758,7 @@ Ammo_RocketInf_Armbrust is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -48793,11 +48793,11 @@ Ammo_RocketInf_Armbrust is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{dce9e3ae-8c14-48ef-b8b2-630451e0a326}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
+             (EBaseHitValueModifier/Idling, 60),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -48850,7 +48850,7 @@ Ammo_RocketInf_Blindicide_RL_100 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -48885,11 +48885,11 @@ Ammo_RocketInf_Blindicide_RL_100 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{0514ab8d-7231-4b39-a33c-c5299709188e}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
+             (EBaseHitValueModifier/Idling, 60),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -48941,7 +48941,7 @@ Ammo_RocketInf_Blindicide_RL_83 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -48976,11 +48976,11 @@ Ammo_RocketInf_Blindicide_RL_83 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{7221fae6-e7f1-4d8c-9635-b946c6c26354}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 40),
+             (EBaseHitValueModifier/Idling, 50),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -49032,7 +49032,7 @@ Ammo_RocketInf_Carl_Gustav is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((1981) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -49067,11 +49067,11 @@ Ammo_RocketInf_Carl_Gustav is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{3dd0e744-dd67-458f-bffd-c97825bdc3f8}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
+             (EBaseHitValueModifier/Idling, 70),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -49218,7 +49218,7 @@ Ammo_RocketInf_LAW_80 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((1981) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -49253,11 +49253,11 @@ Ammo_RocketInf_LAW_80 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{689c1807-1451-42db-8cd4-fbb46b46fd8c}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
+             (EBaseHitValueModifier/Idling, 70),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -49310,7 +49310,7 @@ Ammo_RocketInf_LRAC_F1 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((1981) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -49345,11 +49345,11 @@ Ammo_RocketInf_LRAC_F1 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{57f5635b-d32b-4f4e-9162-88d997c073d5}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
+             (EBaseHitValueModifier/Idling, 70),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -49437,7 +49437,7 @@ Ammo_RocketInf_M20_SuperBaz is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{2c330be7-b69e-439b-8bad-86a9067c71e4}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50141,7 +50141,7 @@ Ammo_RocketInf_M72_LAW_66mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -50176,11 +50176,11 @@ Ammo_RocketInf_M72_LAW_66mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{b6d92112-4ad2-4cb6-ab44-e4e5e74da917}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 40),
+             (EBaseHitValueModifier/Idling, 50),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -50233,7 +50233,7 @@ Ammo_RocketInf_PzF_3 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -50268,11 +50268,11 @@ Ammo_RocketInf_PzF_3 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{c5785902-72bc-415b-981f-96ad49eb72ea}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 60),
+             (EBaseHitValueModifier/Idling, 70),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -50325,7 +50325,7 @@ Ammo_RocketInf_PzF_44 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -50360,11 +50360,11 @@ Ammo_RocketInf_PzF_44 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{f53426cc-b355-4724-a9e2-86aee498a6ed}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 55),
+             (EBaseHitValueModifier/Idling, 65),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -50417,7 +50417,7 @@ Ammo_RocketInf_RPG16 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((1981) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -50452,11 +50452,11 @@ Ammo_RocketInf_RPG16 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{a708eca7-6d31-48d0-bab6-b317f86d8033}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
+             (EBaseHitValueModifier/Idling, 70),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -50543,7 +50543,7 @@ Ammo_RocketInf_RPG18_64mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{7c843a44-46f3-4e2e-9dce-7a6291bd9151}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50635,7 +50635,7 @@ Ammo_RocketInf_RPG2 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{c77db438-f269-49ec-97de-5113eacad57d}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50727,7 +50727,7 @@ Ammo_RocketInf_RPG22_72_5mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{3f8def75-d824-4c54-b874-f5cef801af8c}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50784,7 +50784,7 @@ Ammo_RocketInf_RPG26_72_5mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -50819,11 +50819,11 @@ Ammo_RocketInf_RPG26_72_5mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{4a24e9bd-edd6-4069-bdaa-583cacb3fa2f}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 55),
+             (EBaseHitValueModifier/Idling, 65),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -50911,7 +50911,7 @@ Ammo_RocketInf_RPG27_105mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{55dee2f4-f556-4e16-a5b3-da9be452daf4}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51003,7 +51003,7 @@ Ammo_RocketInf_RPG29_105mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{31366f4a-e9ae-4c77-bceb-11b4f6d35921}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51095,7 +51095,7 @@ Ammo_RocketInf_RPG29_105mm_napalm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{f31231f9-eb89-481a-a03b-d9e80d1531a6}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51154,7 +51154,7 @@ Ammo_RocketInf_RPG7 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -51189,11 +51189,11 @@ Ammo_RocketInf_RPG7 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{fa4e94f7-05c3-486b-a40a-6db6f2447b41}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 40),
+             (EBaseHitValueModifier/Idling, 50),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -51281,7 +51281,7 @@ Ammo_RocketInf_RPG76_Komar is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{0103ebb7-73a7-461a-aa98-821887cd82b6}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51337,7 +51337,7 @@ Ammo_RocketInf_RPG7V_85mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -51372,11 +51372,11 @@ Ammo_RocketInf_RPG7V_85mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{c3fd76aa-dcda-4e45-b29a-f03286b780ae}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 60),
+             (EBaseHitValueModifier/Idling, 70),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -51429,7 +51429,7 @@ Ammo_RocketInf_RPG7VL is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((1910) * Metre)
+    PorteeMaximale                    = ((1698) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -51464,11 +51464,11 @@ Ammo_RocketInf_RPG7VL is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{94cc467f-2224-4bd8-90fb-f48175673005}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
+             (EBaseHitValueModifier/Idling, 60),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -51556,7 +51556,7 @@ Ammo_RocketInf_RPG7VR_105mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{afaeb0b0-54f2-43a0-9a48-8161cadda58a}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51648,7 +51648,7 @@ Ammo_RocketInf_RPG7VR_64mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{4d8e01f2-90f5-4771-9c67-cf83518cd576}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51740,7 +51740,7 @@ Ammo_RocketInf_RPO_RYS is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{9fa37648-ccf5-4410-a470-439916e08e79}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -180
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
