@@ -49,6 +49,7 @@ export type Ammo = {
   missile: Missile | undefined;
   smoke: Smoke | undefined;
   traits: string[];
+  textureId: string;
 };
 
 export interface AccuracyDataPointsForType {
@@ -131,6 +132,7 @@ export class AmmunitionManager extends AbstractManager {
     const name = this.prettifyAmmoDescriptorName(this.ndf.name);
     const descriptorName = this.ndf.name;
 
+    const textureId = (this.getValueFromSearch<string>('InterfaceWeaponTexture') || "").replaceAll("\"", '').replaceAll("Texture_Interface_Weapon_", "");
 
     const traits = NdfManager.extractValuesFromSearchResult<ParserStringLiteral>(this.getFirstSearchResult('TraitsToken')).map((t: ParserStringLiteral) => {
       return t.value.replaceAll("'", '');
@@ -296,7 +298,8 @@ export class AmmunitionManager extends AbstractManager {
       instaKillAtMaxRangeArmour,
       missile,
       smoke,
-      traits
+      traits,
+      textureId
     };
 
     return ammo;

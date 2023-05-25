@@ -47,6 +47,7 @@ export type Weapon = {
   turretRotationSpeed: number;
   weaponName: string;
   piercingWeapon: boolean;
+  imageTexture: string;
 };
 
 export type MountedWeaponWithTurret = MountedWeapon & Turret;
@@ -232,6 +233,7 @@ export class WeaponManager extends AbstractManager {
           turretRotationSpeed: firstWeapon.turretRotationSpeed,
           weaponName: firstWeapon.ammo.name,
           piercingWeapon: firstWeapon.ammo.piercingWeapon,
+          imageTexture: firstWeapon.ammo.textureId
         };
   
         /**
