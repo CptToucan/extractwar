@@ -2771,8 +2771,8 @@ export WeaponDescriptor_AMX_30_AuF1_FR is TWeaponManagerModuleDescriptor
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
         10,
+        10,
         80,
-        -1,
         -1,
         -1,
         -1
@@ -2858,7 +2858,7 @@ export WeaponDescriptor_AMX_30_AuF1_FR is TWeaponManagerModuleDescriptor
                     EffectTag                           = 'FireEffect_Howz_Canon_GCT_Howitzer_155mm_Direct'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
-                    SalvoStockIndex                     = 0
+                    SalvoStockIndex                     = 1
                     ShowDispersion                      = True
                     ShowInInterface                     = True
                     ShowSplashRadius                    = False
@@ -2898,7 +2898,7 @@ export WeaponDescriptor_AMX_30_AuF1_FR is TWeaponManagerModuleDescriptor
                     EffectTag                           = 'FireEffect_HMG_12_7_mm_M2HB'
                     HandheldEquipmentKey                = 'MeshAlternative_4'
                     NbWeapons                           = 1
-                    SalvoStockIndex                     = 1
+                    SalvoStockIndex                     = 2
                     ShowDispersion                      = False
                     ShowInInterface                     = True
                     ShowSplashRadius                    = True
@@ -54398,7 +54398,7 @@ export WeaponDescriptor_T55AM2B_DDR is TWeaponManagerModuleDescriptor
         43,
         6,
         53,
-        -1,
+        1,
         -1,
         -1
     ]
@@ -54514,13 +54514,13 @@ export WeaponDescriptor_T55AM2B_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 2
@@ -54543,6 +54543,41 @@ export WeaponDescriptor_T55AM2B_DDR is TWeaponManagerModuleDescriptor
             TurretIdleBehaviourDescriptor   = ~/TurretIdle_WatchForwardMG
             VitesseRotation                 = 2.0943951023931953
             YulBoneOrdinal                  = 2
+        ),
+        TTurretUnitDescriptor
+        (
+            AngleRotationMax            = 2.0943951023931953
+            AngleRotationMaxPitch       = 1.5707963267948966
+            AngleRotationMinPitch       = -1.5707963267948966
+            MountedWeaponDescriptorList = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_SMOKE_Vehicle_Grenadex8
+                    AnimateOnlyOneSoldier               = True
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_SMOKE_Vehicle_Grenadex8'
+                    HandheldEquipmentKey                = 'MeshAlternative_5'
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 3
+                    ShowDispersion                      = False
+                    ShowInInterface                     = False
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                )
+            ]
+            NbFX                        = 2
+            Tag                         = 'tourelle5'
+            YulBoneOrdinal              = 5
         )
     ]
 )
@@ -54555,7 +54590,7 @@ export WeaponDescriptor_T55AM2_CMD_DDR is TWeaponManagerModuleDescriptor
     Salves               = [
         43,
         53,
-        15,
+        80,
         1,
         -1,
         -1
@@ -54648,13 +54683,13 @@ export WeaponDescriptor_T55AM2_CMD_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
@@ -54766,7 +54801,7 @@ export WeaponDescriptor_T55AM2_DDR is TWeaponManagerModuleDescriptor
     Salves               = [
         43,
         53,
-        15,
+        80,
         1,
         -1,
         -1
@@ -54859,13 +54894,13 @@ export WeaponDescriptor_T55AM2_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
@@ -54977,7 +55012,7 @@ export WeaponDescriptor_T55A_CMD_DDR is TWeaponManagerModuleDescriptor
     Salves               = [
         43,
         53,
-        15,
+        80,
         -1,
         -1,
         -1
@@ -55070,13 +55105,13 @@ export WeaponDescriptor_T55A_CMD_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
@@ -55153,7 +55188,7 @@ export WeaponDescriptor_T55A_CMD_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         43,
         53,
-        15,
+        80,
         -1,
         -1,
         -1
@@ -55246,13 +55281,13 @@ export WeaponDescriptor_T55A_CMD_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
@@ -55329,7 +55364,7 @@ export WeaponDescriptor_T55A_DDR is TWeaponManagerModuleDescriptor
     Salves               = [
         43,
         53,
-        15,
+        80,
         -1,
         -1,
         -1
@@ -55422,13 +55457,13 @@ export WeaponDescriptor_T55A_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
@@ -55505,7 +55540,7 @@ export WeaponDescriptor_T55A_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         43,
         53,
-        15,
+        80,
         -1,
         -1,
         -1
@@ -55598,13 +55633,13 @@ export WeaponDescriptor_T55A_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
