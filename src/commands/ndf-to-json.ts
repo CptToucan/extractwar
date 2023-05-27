@@ -187,6 +187,9 @@ export default class NdfToJson extends Command {
         );
         const unit = unitManager.parse();
 
+        const divisionsForUnit = this.divisionsForUnit(unit, outputJson.divisions);
+        unit.divisions = divisionsForUnit;
+
         replaceNaNwithNull(unit);
 
         outputJson.units.push(unit);
@@ -271,5 +274,19 @@ export default class NdfToJson extends Command {
     }
 
     return speedModifiers;
+  }
+
+  private divisionsForUnit(unit: Unit, divisions: any[]) {
+    const nationalityDivisions = divisions?.filter(
+      (division) => division.alliance === unit.unitType.nationality
+    );
+
+    return nationalityDivisions?.filter((division) => {
+      return division.packs.find(
+        (pack: any) => pack.unitDescriptor === unit.descriptorName
+      );
+    }).map(
+      (division) => division.descriptor
+    );
   }
 }

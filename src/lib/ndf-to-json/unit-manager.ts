@@ -73,6 +73,7 @@ export type Unit = {
   hasDefensiveSmoke: boolean;
   isSellable: boolean;
   weapons: Weapon[];
+  divisions: string[];
 };
 
 export type SpeedOnTerrain = {
@@ -282,6 +283,7 @@ export class UnitManager extends AbstractManager {
       hasDefensiveSmoke,
       isSellable,
       weapons,
+      divisions: [],
     };
 
     return unit;
