@@ -1426,7 +1426,7 @@ Ammo_AutoCanon_HE_20mm_M621_GIAT is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.30
+    PhysicalDamages                   = 0.25
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 30.0
@@ -1520,7 +1520,7 @@ Ammo_AutoCanon_HE_20mm_M621_GIAT_AMX30 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.30
+    PhysicalDamages                   = 0.25
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 30.0
@@ -1613,7 +1613,7 @@ Ammo_AutoCanon_HE_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.30
+    PhysicalDamages                   = 0.25
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 30.0
@@ -1707,7 +1707,7 @@ Ammo_AutoCanon_HE_23mm_Bitube_Gsh23L is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.345
+    PhysicalDamages                   = 0.25
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 34.0
@@ -1802,7 +1802,7 @@ Ammo_AutoCanon_HE_23mm_NS23 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.30
+    PhysicalDamages                   = 0.25
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 30.0
@@ -1896,7 +1896,7 @@ Ammo_AutoCanon_HE_25mm_KBA is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.35
+    PhysicalDamages                   = 0.30
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 38.0
@@ -1989,7 +1989,7 @@ Ammo_AutoCanon_HE_25mm_M242_Bushmaster_Late is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.35
+    PhysicalDamages                   = 0.30
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 38.0
@@ -2083,7 +2083,7 @@ Ammo_AutoCanon_HE_30mm_24A2 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.40
+    PhysicalDamages                   = 0.35
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 45.0
@@ -2177,7 +2177,7 @@ Ammo_AutoCanon_HE_30mm_24A2_BMP2 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.40
+    PhysicalDamages                   = 0.35
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 45.0
@@ -2270,7 +2270,7 @@ Ammo_AutoCanon_HE_30mm_2A72_BMP3 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.40
+    PhysicalDamages                   = 0.35
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 45.0
@@ -2364,7 +2364,7 @@ Ammo_AutoCanon_HE_30mm_Bitube_Gsh30k is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.40
+    PhysicalDamages                   = 0.35
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 45.0
@@ -2458,7 +2458,7 @@ Ammo_AutoCanon_HE_30mm_L21A1_RARDEN is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.40
+    PhysicalDamages                   = 0.35
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 45.0
@@ -2552,7 +2552,7 @@ Ammo_AutoCanon_HE_30mm_M230 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.40
+    PhysicalDamages                   = 0.35
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 45.0
@@ -2645,7 +2645,7 @@ Ammo_AutoCanon_HE_M693_F1_20mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.30
+    PhysicalDamages                   = 0.25
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 30.0
@@ -2738,7 +2738,7 @@ Ammo_AutoCanon_HE_T20_20mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.30
+    PhysicalDamages                   = 0.25
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 30.0
@@ -22403,7 +22403,7 @@ Ammo_Gatling_M197_20mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.30
+    PhysicalDamages                   = 0.25
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 30.0

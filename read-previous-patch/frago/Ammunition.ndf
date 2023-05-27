@@ -33405,7 +33405,7 @@ Ammo_MMG_AANF1_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -33415,7 +33415,7 @@ Ammo_MMG_AANF1_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -33498,7 +33498,7 @@ Ammo_MMG_AANF1_7_62mm_x2 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -33508,7 +33508,7 @@ Ammo_MMG_AANF1_7_62mm_x2 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -33591,7 +33591,7 @@ Ammo_MMG_FN_MAG_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -33601,7 +33601,7 @@ Ammo_MMG_FN_MAG_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -33684,7 +33684,7 @@ Ammo_MMG_HK21_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -33694,7 +33694,7 @@ Ammo_MMG_HK21_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -33777,7 +33777,7 @@ Ammo_MMG_L37A2_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -33787,7 +33787,7 @@ Ammo_MMG_L37A2_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -33870,7 +33870,7 @@ Ammo_MMG_L43A1_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -33880,7 +33880,7 @@ Ammo_MMG_L43A1_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -33963,7 +33963,7 @@ Ammo_MMG_L8A2_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -33973,7 +33973,7 @@ Ammo_MMG_L8A2_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -34056,7 +34056,7 @@ Ammo_MMG_L94A1_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34066,7 +34066,7 @@ Ammo_MMG_L94A1_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -34149,7 +34149,7 @@ Ammo_MMG_M1919 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34159,7 +34159,7 @@ Ammo_MMG_M1919 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -34242,7 +34242,7 @@ Ammo_MMG_M240_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34252,7 +34252,7 @@ Ammo_MMG_M240_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -34335,7 +34335,7 @@ Ammo_MMG_M240_abrams_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34345,7 +34345,7 @@ Ammo_MMG_M240_abrams_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -34428,7 +34428,7 @@ Ammo_MMG_M240d_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34438,7 +34438,7 @@ Ammo_MMG_M240d_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -34521,7 +34521,7 @@ Ammo_MMG_M60_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34531,7 +34531,7 @@ Ammo_MMG_M60_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -34614,7 +34614,7 @@ Ammo_MMG_MG3_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.19
     TempsEntreDeuxFx                  = 0.19
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34707,7 +34707,7 @@ Ammo_MMG_PKM_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34717,7 +34717,7 @@ Ammo_MMG_PKM_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -34800,7 +34800,7 @@ Ammo_MMG_PKT_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34810,7 +34810,7 @@ Ammo_MMG_PKT_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -34893,7 +34893,7 @@ Ammo_MMG_PKT_7_62mm_x2 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34903,7 +34903,7 @@ Ammo_MMG_PKT_7_62mm_x2 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -34986,7 +34986,7 @@ Ammo_MMG_SGMB_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -34996,7 +34996,7 @@ Ammo_MMG_SGMB_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -35079,7 +35079,7 @@ Ammo_MMG_inf__MG3_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -35172,7 +35172,7 @@ Ammo_MMG_inf_AA52_7_5mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -35182,7 +35182,7 @@ Ammo_MMG_inf_AA52_7_5mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -35265,7 +35265,7 @@ Ammo_MMG_inf_AANF1_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -35275,7 +35275,7 @@ Ammo_MMG_inf_AANF1_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -35358,7 +35358,7 @@ Ammo_MMG_inf_MAG_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -35368,7 +35368,7 @@ Ammo_MMG_inf_MAG_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -52092,7 +52092,7 @@ Ammo_SAW_Bren_L4A4 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -52185,7 +52185,7 @@ Ammo_SAW_FALO is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -52274,7 +52274,7 @@ Ammo_SAW_HK21_7_62mm is TAmmunitionDescriptor
     PorteeMinimaleHA                  = ((0) * Metre)
     PorteeMaximaleHA                  = ((0) * Metre)
     PorteeMinimale                    = ((200) * Metre)
-    AltitudeAPorteeMinimale           = ((15.0) * Metre)
+    AltitudeAPorteeMinimale           = ((17.0) * Metre)
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
@@ -52371,7 +52371,7 @@ Ammo_SAW_L86A1_5_56mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -52464,7 +52464,7 @@ Ammo_SAW_M249_5_56mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -52557,7 +52557,7 @@ Ammo_SAW_Minimi_5_56mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -52650,7 +52650,7 @@ Ammo_SAW_RPK_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -52743,7 +52743,7 @@ Ammo_SAW_RPK_74_5_56mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -52836,7 +52836,7 @@ Ammo_SAW_lMG_K_7_62mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMaxRange              = ((17) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -73515,5 +73515,193 @@ Ammo_AutoCanon_HE_M693_F1_20mm_FAKE_FRL is TAmmunitionDescriptor
     PiercingWeapon                    = False
     FlightTimeForSpeed                    = 1.6
     DistanceForSpeed                      = 5000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Mortier_Vasilek_indirect_82mm_smoke_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{eb1e05be-118a-4bcd-af92-538972444ba0}
+    Name                              = 'YCMRTIJZLN'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'HYUWZSIKYW'
+    Caliber                           = 'ZUFQSARUBS'
+    WeaponDescriptionToken            = 'YWFMBNSXOW'
+    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Mortier
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="howz" Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = [ 'MortierM30107MmSmoke' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.4
+    TempsEntreDeuxFx                  = 0.4
+    PorteeMaximale                    = ((13938) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((4005) * Metre)
+    AltitudeAPorteeMinimale           = ((50.0) * Metre)
+    AltitudeAPorteeMaximale           = ((100.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((1250) * Metre)
+    DispersionAtMinRange              = ((200) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 5 * Metre
+    PhysicalDamages                   = 0.12
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 1 * Metre
+    SuppressDamages                   = 7
+    AllowSuppressDamageWhenNoImpact                = False
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetsDistricts                  = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{237c2fa3-c38b-4a0b-98c0-667fd0f8c113}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 0),
+             (EBaseHitValueModifier/Moving, 0),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    TempsDeVisee                      = 10.0
+    TempsEntreDeuxSalves              = 3.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 4
+    SupplyCost                        = 32
+    NbSalvosShootOnPosition           = 2
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 4
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_2b9"
+    SmokeDescriptor                   = ~/Descriptor_Smoke_Fumi60mm
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 16.0
+    DistanceForSpeed                      = 13938.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Mortier_Vasilek_indirect_82mm_towed_smoke_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{f8630377-b444-4100-8d1d-9598bb6bf034}
+    Name                              = 'YCMRTIJZLN'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'HYUWZSIKYW'
+    Caliber                           = 'ZUFQSARUBS'
+    WeaponDescriptionToken            = 'YWFMBNSXOW'
+    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Mortier
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="howz" Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = [ 'MortierM30107MmSmoke' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.4
+    TempsEntreDeuxFx                  = 0.4
+    PorteeMaximale                    = ((13938) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((4005) * Metre)
+    AltitudeAPorteeMinimale           = ((50.0) * Metre)
+    AltitudeAPorteeMaximale           = ((100.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((1250) * Metre)
+    DispersionAtMinRange              = ((200) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 5 * Metre
+    PhysicalDamages                   = 0.12
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 1 * Metre
+    SuppressDamages                   = 7.0
+    AllowSuppressDamageWhenNoImpact                = False
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetsDistricts                  = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{4ad5c09e-4a3b-4577-93cf-18ac6a148a7f}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 0),
+             (EBaseHitValueModifier/Moving, 0),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    TempsDeVisee                      = 10.0
+    TempsEntreDeuxSalves              = 3.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 4
+    SupplyCost                        = 32
+    NbSalvosShootOnPosition           = 2
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 4
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_2b9"
+    SmokeDescriptor                   = ~/Descriptor_Smoke_Fumi60mm
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 16.0
+    DistanceForSpeed                      = 13938.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
