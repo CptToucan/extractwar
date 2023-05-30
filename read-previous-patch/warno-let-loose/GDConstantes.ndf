@@ -58,9 +58,6 @@ Constantes is TTunableConstante
 
 //------------------------------ Constantes Color -----------------------------------------//
 
-    Color_Invisible      = $/SystemColor/Color_Invisible
-    Color_Neutre         = $/SystemColor/Color_Neutre
-
     // Couleur du debug pour les artilleries hors carte (temporaire)
     // Attention: l'alpha n'est pas pris en compte (toujours opaque)
     Color_ObserverDebugFill           = RGBA[0, 0, 255, 255]
@@ -223,8 +220,6 @@ Constantes is TTunableConstante
 //------------------------------ Constantes Vision ----------------------------------------//
 
     ConsidereUniteStealthSurTerrainAvecDissimulation = true
-    VisionParams_Default_Check3DMLos =  true
-    VisionParams_Default_CheckObstacles = true
 
 //------------------------------- Constantes Economy --------------------------------------//
     RoundToNearestDigit = MAP // Toutes les valeurs d'économie seront arrondies à ce nombre près

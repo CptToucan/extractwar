@@ -24325,8 +24325,7 @@ Ammo_Grenade_SMOKE is TAmmunitionDescriptor
     MinMaxCategory                    = MinMax_Grenade
     Level                             = 3
     Arme                              = TDamageTypeRTTI(Family="he" Index=1)
-    ProjectileType                    = EProjectileType/Artillerie
-    IsGrenade                    = true
+    ProjectileType                    = EProjectileType/Grenade
     ImpactHappening                   = [ 'GrenadeANM16Smoke' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 2.0
@@ -24419,8 +24418,7 @@ Ammo_Grenade_Satchel_Charge is TAmmunitionDescriptor
     MinMaxCategory                    = MinMax_Grenade
     Level                             = 3
     Arme                              = TDamageTypeRTTI(Family="cac" Index=2)
-    ProjectileType                    = EProjectileType/Artillerie
-    IsGrenade                    = true
+    ProjectileType                    = EProjectileType/Grenade
     ImpactHappening                   = [ 'GrenadeSatchem' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 2.0
@@ -24513,8 +24511,7 @@ Ammo_Grenade_US_mk2 is TAmmunitionDescriptor
     MinMaxCategory                    = MinMax_Grenade
     Level                             = 3
     Arme                              = TDamageTypeRTTI(Family="cac" Index=2)
-    ProjectileType                    = EProjectileType/Artillerie
-    IsGrenade                    = true
+    ProjectileType                    = EProjectileType/Grenade
     ImpactHappening                   = [ 'GrenadeSatchem' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 2.0
@@ -24590,6 +24587,100 @@ Ammo_Grenade_US_mk2 is TAmmunitionDescriptor
     PiercingWeapon                    = True
     FlightTimeForSpeed                    = 1.15
     DistanceForSpeed                      = 2000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_HMG_12_7_mm_DShKM is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{e8d45e5e-00b4-4566-9dab-4b00827f3d1c}
+    Name                              = 'OGHALCNRYG'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'GUQUYPXNMN'
+    Caliber                           = 'VXYLWCZLCA'
+    WeaponDescriptionToken            = 'OPSKECSVCI'
+    TraitsToken                       = [ 'MOTION', 'tripod', ]
+    WeaponCursorType                  = Weapon_Cursor_MachineGun
+    MinMaxCategory                    = MinMax_MMG_HMG
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="fmballe" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    ImpactHappening                   = [ 'MitrailleuseCal50Externe' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.3
+    TempsEntreDeuxFx                  = 0.3
+    PorteeMaximale                    = ((3962) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((3467) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((100) * Metre)
+    AltitudeAPorteeMinimale           = ((15.0) * Metre)
+    AltitudeAPorteeMaximale           = ((30.0) * Metre)
+    AffecteParNombre                  = True
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMinRange              = ((5) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 1 * Metre
+    PhysicalDamages                   = 0.204
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 20 * Metre
+    SuppressDamages                   = 24.0
+    AllowSuppressDamageWhenNoImpact                = False
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 3
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{bf11a37d-c471-4dfe-8bd7-51033338bd0f}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 20),
+             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    MaxSuccessiveHitCount             = 1
+    TempsDeVisee                      = 1.5
+    TempsEntreDeuxSalves              = 2.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 5
+    SupplyCost                        = 5
+    NbSalvosShootOnPosition           = 3
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 20
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_DShKM"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = True
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 0.8
+    DistanceForSpeed                      = 1500.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
 Ammo_HMG_12_7_mm_M2HB is TAmmunitionDescriptor
@@ -29053,7 +29144,7 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm_Direct is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'ArtillerieM185155Mm' ]
     FxPower                           = EFXPower/Moyen
-    TempsEntreDeuxTirs                = 5.0
+    TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
     PorteeMaximale                    = ((5448) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
@@ -29093,7 +29184,7 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm_Direct is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 0),
+             (EBaseHitValueModifier/Idling, 30),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -29106,19 +29197,19 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm_Direct is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsDeVisee                      = 3.0
+    TempsEntreDeuxSalves              = 12.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
-    NbTirParSalves                    = 4
-    SupplyCost                        = 40
+    NbTirParSalves                    = 1
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = False
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 4
+    AffichageMunitionParSalve         = 1
     MissileDescriptor                 = nil
-    InterfaceWeaponTexture            = "Texture_Interface_Weapon_GCT_F1"
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_2A18_AP"
     SmokeDescriptor                   = nil
     FireDescriptor                    = ~/Descriptor_Fire_Incendie
     FireTriggeringProbability         = 0.25
@@ -33113,8 +33204,7 @@ Ammo_Lance_grenade_PalladD is TAmmunitionDescriptor
     MinMaxCategory                    = MinMax_Grenade
     Level                             = 3
     Arme                              = TDamageTypeRTTI(Family="cac" Index=2)
-    ProjectileType                    = EProjectileType/Artillerie
-    IsGrenade                    = true
+    ProjectileType                    = EProjectileType/Grenade
     ImpactHappening                   = [ 'LanceGrenadeAGS17' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
@@ -33205,8 +33295,7 @@ Ammo_Lance_grenade_PalladD_wz83 is TAmmunitionDescriptor
     MinMaxCategory                    = MinMax_Grenade
     Level                             = 3
     Arme                              = TDamageTypeRTTI(Family="cac" Index=2)
-    ProjectileType                    = EProjectileType/Artillerie
-    IsGrenade                    = true
+    ProjectileType                    = EProjectileType/Grenade
     ImpactHappening                   = [ 'LanceGrenadeAGS17' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4

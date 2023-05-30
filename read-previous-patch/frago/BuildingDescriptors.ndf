@@ -256,6 +256,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             (
                 UnitRole = 'tank_A'
                 SpecialtiesList = [
+                    'supply',
                 ]
                 NameToken = 'FOBGER'
                 InfoPanelConfigurationToken = 'Default'
@@ -524,6 +525,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             (
                 UnitRole = 'tank_A'
                 SpecialtiesList = [
+                    'supply',
                 ]
                 NameToken = 'FOBFRA'
                 InfoPanelConfigurationToken = 'Default'
@@ -792,6 +794,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             (
                 UnitRole = 'tank_A'
                 SpecialtiesList = [
+                    'supply',
                 ]
                 NameToken = 'FOBGER'
                 InfoPanelConfigurationToken = 'Default'
@@ -1060,6 +1063,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             (
                 UnitRole = 'tank_A'
                 SpecialtiesList = [
+                    'supply',
                 ]
                 NameToken = 'FOBSOV'
                 InfoPanelConfigurationToken = 'Default'
@@ -1328,6 +1332,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             (
                 UnitRole = 'tank_A'
                 SpecialtiesList = [
+                    'supply',
                 ]
                 NameToken = 'FOBUSUK'
                 InfoPanelConfigurationToken = 'Default'
@@ -1596,6 +1601,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             (
                 UnitRole = 'tank_A'
                 SpecialtiesList = [
+                    'supply',
                 ]
                 NameToken = 'FOBUSUK'
                 InfoPanelConfigurationToken = 'Default'

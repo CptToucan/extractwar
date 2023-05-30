@@ -463,6 +463,21 @@ MatrixCostName_SOV_OMG_multi is MAP
    ( EDefaultFactories/defense,     [0, 0, 0, 0] ),//56 cases 104 pts coef 1,85
 ]
 
+MatrixCostName_SOV_119IndTkBrig_multi is MAP
+[
+   ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3] ),//5;10
+   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3, 3] ),//8;17
+   ( EDefaultFactories/infanterie,  [1, 1, 2, 3, 3] ),//5;10
+   ( EDefaultFactories/tank,        [1, 1, 1, 1, 1, 1, 1, 2, 2, 2] ),//10;13
+   ( EDefaultFactories/support,     [1, 1, 2, 3, 3, 3] ),//6;13   =ART
+   ( EDefaultFactories/at,          [1, 1, 2, 3, 3] ),//5;10   =AA
+   ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/art,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/Helis,       [1, 1, 1, 2, 2, 3, 3, 3] ),//8;16
+   ( EDefaultFactories/air,         [1, 1, 2, 2, 3, 3, 3, 3] ),//8;18
+   ( EDefaultFactories/defense,     [0, 0, 0, 0] ),//55 cases 107 pts coef 2,26
+]
+
 //--------------------- RDA -----------------------------------------
 
 MatrixCostName_RDA_7_Panzer_multi is MAP

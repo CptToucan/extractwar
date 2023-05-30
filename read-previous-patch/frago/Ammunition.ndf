@@ -24332,7 +24332,6 @@ Ammo_Grenade_SMOKE is TAmmunitionDescriptor
     Level                             = 3
     Arme                              = TDamageTypeRTTI(Family="he" Index=1)
     ProjectileType                    = EProjectileType/Artillerie
-    IsGrenade                    = true
     ImpactHappening                   = [ 'GrenadeANM16Smoke' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 2.0
@@ -24426,7 +24425,7 @@ Ammo_Grenade_Satchel_Charge is TAmmunitionDescriptor
     Level                             = 3
     Arme                              = TDamageTypeRTTI(Family="cac" Index=2)
     ProjectileType                    = EProjectileType/Artillerie
-    IsGrenade                    = true
+    //IsGrenade                    = true
     ImpactHappening                   = [ 'GrenadeSatchem' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 2.0
@@ -24520,7 +24519,7 @@ Ammo_Grenade_US_mk2 is TAmmunitionDescriptor
     Level                             = 3
     Arme                              = TDamageTypeRTTI(Family="cac" Index=2)
     ProjectileType                    = EProjectileType/Artillerie
-    IsGrenade                    = true
+    //IsGrenade                    = true
     ImpactHappening                   = [ 'GrenadeSatchem' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 2.0
@@ -33120,7 +33119,7 @@ Ammo_Lance_grenade_PalladD is TAmmunitionDescriptor
     Level                             = 3
     Arme                              = TDamageTypeRTTI(Family="cac" Index=2)
     ProjectileType                    = EProjectileType/Artillerie
-    IsGrenade                    = true
+    //IsGrenade                    = true
     ImpactHappening                   = [ 'LanceGrenadeAGS17' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
@@ -33213,7 +33212,7 @@ Ammo_Lance_grenade_PalladD_wz83 is TAmmunitionDescriptor
     Level                             = 3
     Arme                              = TDamageTypeRTTI(Family="cac" Index=2)
     ProjectileType                    = EProjectileType/Artillerie
-    IsGrenade                    = true
+    //IsGrenade                    = true
     ImpactHappening                   = [ 'LanceGrenadeAGS17' ]
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
