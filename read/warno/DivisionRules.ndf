@@ -8826,7 +8826,7 @@ private DivisionRules is TDeckDivisionRules
                         UnitDescriptor = ~/Descriptor_Unit_T62M_SOV
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 9
-                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                     TDeckUniteRule
                     (
