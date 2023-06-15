@@ -147,7 +147,7 @@ export class UnitManager extends AbstractManager {
 
     const factoryDescriptor = this.getValueFromSearch<string>('Factory');
     const armourValues = this.extractArmourValues();
-    const maxDamage = Number(this.getValueFromSearch<string>('MaxDamages'));
+    const maxDamage = Number(this.getValueFromSearch<string>('MaxPhysicalDamages')) ||  Number(this.getValueFromSearch<string>('MaxDamages'));
 
     let speed: number;
 
