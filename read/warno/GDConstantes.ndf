@@ -64,7 +64,7 @@ Constantes is TTunableConstante
 
 //----------------------------- Constantes Combat -----------------------------------------//
 
-    ReductionDegatsSuppressDansVehicule = 0.05 // Pourcentage des dégats de suppress reçuts par un véhicule appliqués aux unités transportées
+    ReductionDegatsSuppressDansVehicule = 0.50 // Pourcentage des dégats de suppress reçuts par un véhicule appliqués aux unités transportées
     TimerRechercheDeCibleRiposte = -1
     TagRadioArtillerie = "Radio"
     PorteeRadioArtillerie = 6000 * Metre //7500

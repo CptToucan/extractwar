@@ -105,7 +105,7 @@ export PetitBatiment is TGameplayTerrain
 (
     BloqueAmphibie = true
     BloqueAtterrissage = true
-    BloqueInfanterie = false
+    BloqueInfanterie = true
     BloqueVehicule = true
     BloqueVision = false
     CriticalEffectProbability = 0
@@ -146,7 +146,7 @@ export Batiment is TGameplayTerrain
 (
     BloqueAmphibie = true
     BloqueAtterrissage = true
-    BloqueInfanterie = false
+    BloqueInfanterie = true
     BloqueVehicule = true
     BloqueVision = true
     CriticalEffectProbability = 0
