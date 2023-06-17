@@ -51,9 +51,6 @@ Constantes is TTunableConstante
 
 //--------------------------- Constantes Bâtiments ---------------------------------------//
 
-    // Taille des cases de la grille de placement de batiments
-    GridSquareHeight = ~/GridHelper/Height
-    GridSquareWidth  = ~/GridHelper/Width
     UnitPositionVerticalOffsetFromRoof = 60*Metre
 
 //------------------------------ Constantes Color -----------------------------------------//
@@ -97,10 +94,6 @@ Constantes is TTunableConstante
 
 //------------------------------ Constantes Corridors ------------------------------------//
     CanUseAlliedAllianceCorridors = false
-
-//-------------------------------- Constantes File ----------------------------------------//
-
-    FileExtension = "wargame"
 
 //------------------------------ Constantes Gameplay --------------------------------------//
 
@@ -147,7 +140,6 @@ Constantes is TTunableConstante
 
 //-------------------------- Constantes Interface ---------------------------------------//
 
-       AfficherLeTexteDesGabarits = false
     //Couleur par défaut des ghosts
     DefaultGhostColors = TGhostColors(
         GhostColor = [255, 255, 255, 255]
@@ -256,10 +248,6 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     MultiplicateurMetreRTSVersDistanceFeedbackTactique = MultiplicateurMetreRTSVersDistanceFeedbackTactique
 
-//---------------------------- Constantes Anti SW -----------------------------------------//
-    BonusFactorForAntiSW = 50.0// Score bonus max possible
-    MaxDistanceForScoreBonusAntiSW = 500.0 * Metre // Distance à partir de laquelle le bonus commence à s'ajouter au score de la SW pour forcer l'interception d'un missile proche de sa cible
-
 //---------------------------- Constantes Combat ------------------------------------------//
 
     DistanceInfanterieEnnemiDectection = 200 * Metre
@@ -285,13 +273,6 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     TagStunned = "Stunned"
     TagUberstress = "Uberstress"
-
-//---------------------------- Constantes Company -----------------------------------------//
-
-    // règle de choix de terrain en comportement auto
-
-    TempsMemoireDamageRecu = 20 // en seconde
-    TypeDommagePourChoixTerrainIsSuppression = true
 
 //---------------------------- Constantes District ----------------------------------------//
 
@@ -466,11 +447,6 @@ WargameConstantes is TWargameTunableConstante
     // /!\ MERCI DE RESPECTER L'ORDRE ALPHABETIQUE !
     // Par catégories puis par constante.
 
-//----------------------------- Constantes Affichage ------------------------------------//
-
-    DelayBeforeNewMinimapWarning = 10.0
-    ForceAffichageCercleVision = false // true
-
 //--------------------------- Constantes Conquest ---------------------------------------//
 
     DefaultMoneyWinPerAllianceRateInConquestMode = 3 // medium
@@ -596,7 +572,6 @@ WargameConstantes is TWargameTunableConstante
     MultiplicateurMetreRTSVersVitesseTactiquePourInfantrie = 0.45 div 1.0
     MultiplicateurMetreRTSVersVitesseTactiquePourVehicule = 0.45 div 1.0
     MultiplicateurDegresParSecondesPourVitesseDeRotation = 1.0
-    NombreUniteVisibleDesQueDetecte = true
     NomDAffichageDesUnitesNonIdentifiees = "UNIDNM"
 
     // Facteur utilisé pour la transformation des Plating et APValue pour l'affichage en mm dans l'UI
@@ -723,13 +698,6 @@ WargameConstantes is TWargameTunableConstante
 
     AmphibiousSpawnLandSeaRatio = 1.5 // >=0, ponderation arbitraire pour determiner si une amphibie spawne au spawn marin ou terrestre (=1:elle prendra le plus proche a vol d'oiseau ; <1:elle preferera le marin, >1:elle preferera le terrestre)
     InfantryTrenchDepth = 7 * Metre //9 * Metre //11.5 * Metre
-
-//------------------------ Constantes Option_Graphique ----------------------------------//
-
-    // Valeur de 0 à 255
-    AlphaCerclePorteeVisionSelectionQuandPasseSurAutreUnite = 30
-    AlphaGhostSelection = 220
-    AlphaGhostSelectionQuandPasseSurAutreUnite = 50
 
 //------------------------- Constantes Supply -------------------------------------------//
 
