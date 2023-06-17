@@ -37,7 +37,7 @@ export default class GenerateNdfFiles extends Command {
   };
 
   static args = [
-    { name: 'outDir', required: false, default: path.join('.', 'read') },
+    { name: 'outDir', required: false, default: path.join('.', 'read', 'warno') },
   ];
 
   public async run(): Promise<void> {
