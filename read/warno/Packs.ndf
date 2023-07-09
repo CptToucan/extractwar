@@ -1369,6 +1369,690 @@ Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_VLTT_P4_PC_FR is TDeckPackDescripto
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_10_HOT_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a227549f-b4db-4c49-bbd5-ea700f5d3908}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_10_HOT_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_10_HOT_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_10_PC_CMD_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{79401e04-1444-45cd-98da-224614ee14a8}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_10_PC_CMD_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_10_PC_CMD_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_10_P_VOA_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{caf3cb91-cdb4-4c82-a069-331959802e34}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_10_P_VOA_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_10_P_VOA_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_10_RCR_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{4e3fca5e-8cc7-4194-8995-a8f00fe8e153}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_10_RCR_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_10_RCR_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_10_RC_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{673b894a-0fb7-42c2-943d-9d271f13e7b6}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_10_RC_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_10_RC_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_13_90mm_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ed9ead78-2ee1-46bc-a005-8cac6ca6daec}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_13_90mm_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_13_90mm_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_13_DCA_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{cd8b9faf-0557-4f49-9477-313f5c43c13b}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_13_DCA_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_13_DCA_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_AuF1_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f4f53cea-1238-4793-9e52-2a8e12de8026}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_30_AuF1_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_30_AuF1_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_B2_Brennus_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1bad62f9-ce90-4cb2-9406-bce0abf085f4}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_30_B2_Brennus_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_30_B2_Brennus_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_B2_CMD_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{65ff0c8a-50a3-48b4-9de4-bea73dbcd583}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_30_B2_CMD_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_30_B2_CMD_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_B2_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{95412834-82f5-49c1-8e50-7235be0a9a84}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_30_B2_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_30_B2_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_B_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a0ca4691-a3a3-4cd2-a040-d4613c8b706d}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_30_B_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_30_B_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_EBG_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{06e1a53f-617a-415e-80ef-d383c97c60a7}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_AMX_30_EBG_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AMX_30_EBG_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_ATteam_Milan_1_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7770245a-bc09-46e3-bbe1-a157cc6420a6}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_ATteam_Milan_1_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_Milan_1_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_ATteam_Milan_2_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{bf3916f0-f699-492d-88b3-9cd80229db8d}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_ATteam_Milan_2_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_Milan_2_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Alouette_III_reco_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1856225b-538c-499a-abc2-1503e27ebefa}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Alouette_III_reco_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Alouette_III_reco_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Chasseurs_CMD_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{5f6c36b2-bc67-40f4-88d0-421dc9dca0eb}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Chasseurs_CMD_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Chasseurs_CMD_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Chasseurs_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d5996327-277d-4cbb-8975-6dc129982eec}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Chasseurs_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Chasseurs_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Commandos_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7e7cf0cc-f271-455b-8614-7d00bf623537}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Commandos_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Commandos_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_DCA_53T2_20mm_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{0953b193-3e21-489c-a739-68e0dd54c119}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_DCA_53T2_20mm_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_DCA_53T2_20mm_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Escorte_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{02eeba2e-52a2-4a12-91d6-9d3dfe298bd7}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Escorte_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Escorte_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Gazelle_HOT_2_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ca234ba0-253b-4e39-8eb3-f3eb51f32c9d}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Gazelle_HOT_2_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Gazelle_HOT_2_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Gazelle_HOT_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e3576ade-3b1f-4a83-8fd5-a40a01f3a285}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Gazelle_HOT_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Gazelle_HOT_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Gendarmerie_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{82abeead-024a-409b-803e-46882c6d3929}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Gendarmerie_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Gendarmerie_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Groupe_AT_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{6caa9005-0ee6-4612-8785-0bf73bd6b4b8}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Groupe_AT_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Groupe_AT_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_HMGteam_AANF1_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{96e076c8-387d-480b-a0d1-f8998d9405fe}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_HMGteam_AANF1_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_HMGteam_AANF1_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_HMGteam_M2HB_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e6057f05-fd0c-4e76-9d48-d7d74ea4b763}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_HMGteam_M2HB_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_HMGteam_M2HB_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Jaguar_ATGM_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d5a99ce9-4d28-4fa6-ba3c-159981108ed6}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Jaguar_ATGM_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Jaguar_ATGM_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Jaguar_HE_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{4ec788e4-2021-4612-b56b-dfcf30de8bfa}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Jaguar_HE_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Jaguar_HE_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Jaguar_SEAD_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{98dcc2f6-6408-416e-956d-efb6dcbad3f2}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Jaguar_SEAD_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Jaguar_SEAD_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_MANPAD_Mistral_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{972e20d3-471d-464d-b421-dc4995bf34cd}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_MANPAD_Mistral_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MANPAD_Mistral_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Mirage_5_F_clu_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c3bf5a8d-a7fb-464a-8994-d8e384b9fbfd}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Mirage_5_F_clu_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mirage_5_F_clu_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Mirage_5_F_nplm_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{798a4698-a23b-48fd-98b8-dad0c656527e}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Mirage_5_F_nplm_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mirage_5_F_nplm_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Mirage_F1_C_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{8f5ff7e9-0373-4478-8d45-2b7f9eabba43}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Mirage_F1_C_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mirage_F1_C_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Mirage_III_E_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{992e4a36-0a6a-4f31-a74a-841753e698b8}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Mirage_III_E_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mirage_III_E_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Mortier_MORT61_120mm_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ebd88c75-7de5-4655-8ec9-7f4c325c5c0b}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Mortier_MORT61_120mm_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mortier_MORT61_120mm_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Puma_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f3934cd6-cbbd-4bf7-9029-97db63aa6e1f}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Puma_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Puma_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Reserviste_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ccf5d4b5-f44f-42d5-be6f-c99b47ae3423}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Reserviste_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Reserviste_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Rifles_APILAS_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b5ac7fe5-241e-4d83-84a3-b3b3cbb32e5a}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Rifles_APILAS_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Rifles_APILAS_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Rifles_CMD_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{4ea6290c-e2de-4514-8a34-a51503d2fda1}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Rifles_CMD_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Rifles_CMD_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Rifles_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3f69dcee-66e5-45d9-a4cd-9dabadf1c310}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Rifles_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Rifles_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Roland_2_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{89cfab71-de87-409e-88a9-799ec992463a}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Roland_2_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Roland_2_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Roland_3_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1648c21f-dd3a-40f3-a42b-e0fa005b3525}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Roland_3_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Roland_3_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Sapeurs_CMD_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e2db45ee-41ad-4bde-bcb8-58dd26fe3d29}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Sapeurs_CMD_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Sapeurs_CMD_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Sapeurs_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e8b539b7-f212-4491-8b0d-ef0ae91141eb}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Sapeurs_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Sapeurs_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Sapeurs_Flam_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{25bd1598-f385-48b0-9038-388abccbea90}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Sapeurs_Flam_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Sapeurs_Flam_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Scout_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{454ae2eb-15de-4803-a2f5-7923b5c37314}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_Scout_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Scout_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_TRM_2000_20mm_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a722ecdf-5f4c-4caa-b8e6-e8f2e996d741}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_TRM_2000_20mm_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_TRM_2000_20mm_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_TRM_2000_supply_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{0ee50d1f-d509-49b5-9d2c-137694bd3f4a}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_TRM_2000_supply_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_TRM_2000_supply_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VAB_CMD_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{cb2b8d08-6672-4e46-8969-87392b807f1e}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_VAB_CMD_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VAB_CMD_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VAB_HOT_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{cd60e77f-fb83-4330-8f8e-c7474b250fc9}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_VAB_HOT_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VAB_HOT_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VAB_Mortar_81_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ebca620d-b1f7-47a2-bce5-8ae06ccce2e5}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_VAB_Mortar_81_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VAB_Mortar_81_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VAB_RASIT_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e109886b-0922-4ddd-af78-00082265f333}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_VAB_RASIT_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VAB_RASIT_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VBL_MILAN_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f4d8f59d-6e3f-4cfe-bbd6-5d109c8f2951}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_VBL_MILAN_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VBL_MILAN_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VBL_Reco_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{4ff9eb61-686a-459c-9572-802aa209ce81}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_VBL_Reco_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VBL_Reco_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VLTT_P4_MILAN_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{adb6c48c-2f4a-4ad4-ab96-2aa59a31847b}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_VLTT_P4_MILAN_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VLTT_P4_MILAN_FR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VLTT_P4_PC_FR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{5119768e-97f2-4169-8d42-82a4a40dd3cb}
+    CfgName = 'TOE_FR_7e_Blindee_challenge_VLTT_P4_PC_FR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VLTT_P4_PC_FR
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_81mm_mortar_UK is TDeckPackDescriptor
 (
     DescriptorId = GUID:{4fddec24-b920-4f41-b66a-64a56a548309}

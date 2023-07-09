@@ -95,6 +95,8 @@ type DamageDropOffMap = {
 };
 
 const DROP_OFF: DamageDropOffMap = {
+    // eslint-disable-next-line camelcase
+  DamageTypeEvolutionOverRangeDescriptor_AP1_AC_Helo: 350,
   // eslint-disable-next-line camelcase
   DamageTypeEvolutionOverRangeDescriptor_AP1_1Km: 175,
   // eslint-disable-next-line camelcase

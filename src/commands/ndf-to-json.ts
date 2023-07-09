@@ -104,6 +104,8 @@ export default class NdfToJson extends Command {
     if (args.previousNdfFolder) {
       previousPatchData = await this.extractNdfData(args.previousNdfFolder);
 
+      const divisionDiff = diff(previousPatchData.divisions, currentPatchData.divisions);
+
       const patchDiff: any[] = [];
 
       for (const unit of currentPatchData.units) {
@@ -125,9 +127,11 @@ export default class NdfToJson extends Command {
             new: true,
           });
         }
+
       }
 
       fs.writeFileSync('patch.json', JSON.stringify(patchDiff));
+      fs.writeFileSync('patch-division.json', JSON.stringify(divisionDiff));
     }
 
     fs.writeFileSync(args.outputFile, JSON.stringify(currentPatchData));

@@ -245,16 +245,16 @@ MatrixCostName_UK_4th_Armoured_multi is MAP
 
 MatrixCostName_UK_5th_Airborne_Brigade_multi is MAP
 [
-   ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3, 3] ),//7;16
-   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3, 3] ),//8;17
+   ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3] ),//7;14
    ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] ),//10;10
-   ( EDefaultFactories/tank,        [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15
-   ( EDefaultFactories/support,     [1, 2, 3, 3, 3, 3] ),//7;15    =ART
-   ( EDefaultFactories/at,          [1, 2, 3, 3, 3] ),//5;12   =AA
+   ( EDefaultFactories/tank,        [1, 1, 1, 1, 2, 2, 3, 3, 3] ),//9;17
+   ( EDefaultFactories/support,     [1, 2, 3, 3, 3, 3] ),//6;15    =ART
+   ( EDefaultFactories/at,          [1, 1, 2, 3, 3, 3] ),//6;13   =AA
    ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
    ( EDefaultFactories/art,         [0,] ),//0...DEPREC
-   ( EDefaultFactories/Helis,       [1, 2, 2, 3] ),//4;8
-   ( EDefaultFactories/air,         [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/Helis,       [1, 2, 3, 3] ),//4;9
+   ( EDefaultFactories/air,         [1, 1, 1, 2, 2, 3, 3] ),//7;13
    ( EDefaultFactories/defense,     [0,] ),//55 cases 107pts...Coef 1,91
 ]
 
@@ -339,15 +339,15 @@ MatrixCostName_FR_Division_du_Rhin_multi is MAP
 
 MatrixCostName_NL_4e_Divisie_multi is MAP
 [
-   ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3] ),//6;13
-   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3] ),//7;14
-   ( EDefaultFactories/infanterie,  [1, 1, 1, 2, 3, 3, 3] ),//7;14
-   ( EDefaultFactories/tank,        [1, 1, 1, 1, 1, 1, 2, 3, 3, 3]),//10;17
-   ( EDefaultFactories/support,     [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15    =ART
-   ( EDefaultFactories/at,          [1, 1, 1, 2, 3, 3, 3] ),//7;14   =AA
+   ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3] ),//5;10
+   ( EDefaultFactories/reco,        [1, 1, 1, 2, 2, 3, 3, 3] ),//8;16
+   ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 1, 2, 3, 3] ),//10;15
+   ( EDefaultFactories/tank,        [1, 1, 1, 1, 2, 3, 3, 3]),//8;15
+   ( EDefaultFactories/support,     [1, 1, 2, 3, 3] ),//5;10    =ART
+   ( EDefaultFactories/at,          [1, 1, 2, 3, 3, 3, 3] ),//7;16   =AA
    ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
    ( EDefaultFactories/art,         [0,] ),//0...DEPREC
-   ( EDefaultFactories/Helis,       [1, 1, 2] ),//3;4
+   ( EDefaultFactories/Helis,       [1, 2, 3] ),//3;6
    ( EDefaultFactories/air,         [1, 1, 2, 3, 3, 3, 3] ),//7;16
    ( EDefaultFactories/defense,     [0,] ),//55 cases 107 pts...Coef 1.95
 ]
@@ -357,15 +357,15 @@ MatrixCostName_NL_4e_Divisie_multi is MAP
 MatrixCostName_BEL_16e_Mecanisee_multi is MAP
 [
    ( EDefaultFactories/Logistic,    [1, 1, 1, 2, 3, 3, 3] ),//7;14
-   ( EDefaultFactories/reco,        [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15
-   ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 1, 1, 2, 3] ),//10;13
+   ( EDefaultFactories/reco,        [1, 1, 1, 1, 2, 3, 3, 3] ),//8;16
+   ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 1, 2, 2, 3] ),//10;14
    ( EDefaultFactories/tank,        [1, 1, 1, 2, 3, 3, 3, 3] ),//8;17
-   ( EDefaultFactories/support,     [1, 1, 1, 2, 3, 3, 3, 3] ),//8;17    =ART
-   ( EDefaultFactories/at,          [1, 1, 2, 3, 3, 3, 3] ),//7;16   =AA
+   ( EDefaultFactories/support,     [1, 1, 2, 2, 3, 3, 3, 3] ),//8;18    =ART
+   ( EDefaultFactories/at,          [1, 1, 2, 2, 3, 3] ),//6;12   =AA
    ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
    ( EDefaultFactories/art,         [0,] ),//0...DEPREC
    ( EDefaultFactories/Helis,       [2, 3] ),//2;5
-   ( EDefaultFactories/air,         [1, 1, 2, 3, 3] ),//5;10
+   ( EDefaultFactories/air,         [1, 1, 2, 3, 3, 3] ),//6;13
    ( EDefaultFactories/defense,     [0,] ),//55cases 107pts...Coef 1,95
 ]
 
@@ -373,8 +373,8 @@ MatrixCostName_BEL_16e_Mecanisee_multi is MAP
 
 MatrixCostName_NATO_Garnison_Berlin_multi is MAP
 [
-   ( EDefaultFactories/Logistic,    [1, 1, 1, 2, 2, 2, 3] ),//7;12
-   ( EDefaultFactories/reco,        [1, 1, 2, 2, 3, 3] ),//6;12
+   ( EDefaultFactories/Logistic,    [1, 1, 1, 1, 2, 3, 3] ),//7;12
+   ( EDefaultFactories/reco,        [1, 1, 1, 2, 2, 3, 3, 3] ),//8;16
    ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 2, 2, 3, 3] ),//10;16
    ( EDefaultFactories/tank,        [1, 1, 1, 1, 2, 2, 3, 3] ),//8;14
    ( EDefaultFactories/support,     [1, 1, 1, 2, 2, 3, 3, 3] ),//8;16    =ART

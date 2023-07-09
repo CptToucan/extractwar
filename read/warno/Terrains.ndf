@@ -206,7 +206,7 @@ export Ruin is TGameplayTerrain
         ]
     DebugColor = rgba[0, 6, 200, 255]
     DissimulationModifierGroundAir = 10.5
-    DissimulationModifierGroundGround = 40
+    DissimulationModifierGroundGround = 10
     HeightInMeters = 8
     InflammabilityProbability = 0.2
     LocalizationToken = 'TER_BUILD'
