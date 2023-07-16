@@ -13,6 +13,7 @@ import { isParserStringLiteral } from './utils';
 export type Ammo = {
   name: string;
   descriptorName: string;
+  minMaxCategory: string;
   heDamage: number;
   heDamageRadius: number;
   suppress: number;
@@ -160,13 +161,15 @@ export class AmmunitionManager extends AbstractManager {
       missile = missileManager.parse();
     }
 
-    const heDamage = Number(Number(this.getValueFromSearch<string>('PhysicalDamages')).toFixed(2));
+    const heDamage = Number(Number(this.getValueFromSearch<string>('PhysicalDamages')).toFixed(4));
   
     const heDamageRadius = Math.round(
       NdfManager.parseNumberFromMetre(
         this.getValueFromSearch<string>('RadiusSplashPhysicalDamages')
       )
     );
+
+    const minMaxCategory = this.getValueFromSearch<string>('MinMaxCategory');
 
     const suppress = Number(this.getValueFromSearch<string>('SuppressDamages'));
     const suppressDamagesRadius = Math.round(
@@ -248,7 +251,7 @@ export class AmmunitionManager extends AbstractManager {
     const isKinetic = piercingWeapon && damageFamily === '"ap"';
     const kineticAP = Math.round(
       Number(damageIndex) - groundMaxRange / damageDropOff
-    );
+    ) + 1;
 
     const heatAP = Number(damageIndex);
 
@@ -264,6 +267,7 @@ export class AmmunitionManager extends AbstractManager {
 
     const ammo: Ammo = {
       name,
+      minMaxCategory,
       descriptorName,
       heDamage,
       heDamageRadius,

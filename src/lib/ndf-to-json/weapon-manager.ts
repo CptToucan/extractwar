@@ -20,6 +20,7 @@ export type Weapon = {
   helicopterMinRange: number;
   helicopterRange: number;
   instaKillAtMaxRangeArmour: number;
+  minMaxCategory: string;
   missileProperties?: Missile;
   movingAccuracy: number;
   movingAccuracyScaling?: AccuracyDataPointsForType;
@@ -206,6 +207,7 @@ export class WeaponManager extends AbstractManager {
           helicopterMinRange: firstWeapon.ammo.heliMinRange,
           helicopterRange: firstWeapon.ammo.heliMaxRange,
           instaKillAtMaxRangeArmour: firstWeapon.ammo.instaKillAtMaxRangeArmour,
+          minMaxCategory: firstWeapon.ammo.minMaxCategory,
           missileProperties: firstWeapon.ammo.missile,
           numberOfSalvos: salvoMap[salvoIndex],
           movingAccuracy: firstWeapon.ammo.movingAccuracy,
@@ -242,6 +244,10 @@ export class WeaponManager extends AbstractManager {
         for (let i = 1; i < weaponsForSalvoIndex.length; i++) {
           const mountedWeapon = weaponsForSalvoIndex[i];
           const ammoDescriptorName = mountedWeapon.ammo.descriptorName;
+
+          if(ammoDescriptorName ===  mergedWeapon.ammoDescriptorName) {
+            mergedWeapon.numberOfWeapons += mountedWeapon.numberOfWeapons;
+          }
   
           if (ammoDescriptorName.includes('_AP_')) {
             mergedWeapon.penetration = mountedWeapon.ammo.penetration;
