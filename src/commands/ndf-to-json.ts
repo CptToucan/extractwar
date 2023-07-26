@@ -104,7 +104,10 @@ export default class NdfToJson extends Command {
     if (args.previousNdfFolder) {
       previousPatchData = await this.extractNdfData(args.previousNdfFolder);
 
-      const divisionDiff = diff(previousPatchData.divisions, currentPatchData.divisions);
+      const divisionDiff = diff(
+        previousPatchData.divisions,
+        currentPatchData.divisions
+      );
 
       const patchDiff: any[] = [];
 
@@ -127,14 +130,44 @@ export default class NdfToJson extends Command {
             new: true,
           });
         }
-
       }
 
       fs.writeFileSync('patch.json', JSON.stringify(patchDiff));
       fs.writeFileSync('patch-division.json', JSON.stringify(divisionDiff));
     }
 
+    // create a stripped down version of the unit data that only contains the descriptorName and the id, as well as all the division data
+    const duplicatedCurrentPatchData = JSON.parse(
+      JSON.stringify(currentPatchData)
+    );
+
+    let unitIndex = 0;
+    for (const unit of duplicatedCurrentPatchData.units) {
+      const isCommand = unit.specialities.includes("_leader") || undefined;
+      duplicatedCurrentPatchData.units[unitIndex] = {
+        descriptorName: unit.descriptorName,
+        id: unit.id,
+        factoryDescriptorName: unit.factoryDescriptor,
+        isCommand,
+      };
+
+      unitIndex++;
+    }
+
+    // create map of unitDescriptor 
+    const strippedUnitDescriptorMap: { [key: string]: any } = {};
+    for (const unit of duplicatedCurrentPatchData.units) {
+      strippedUnitDescriptorMap[unit.descriptorName] = unit;
+    }
+
     fs.writeFileSync(args.outputFile, JSON.stringify(currentPatchData));
+    fs.writeFileSync(
+      `${args.outputFile}.stripped`,
+      JSON.stringify({
+        units: duplicatedCurrentPatchData.units,
+        divisions: duplicatedCurrentPatchData.divisions,
+      })
+    );
 
     this.log(`Done! 🎉 File written to ${args.outputFile}`);
   }
@@ -191,7 +224,10 @@ export default class NdfToJson extends Command {
         );
         const unit = unitManager.parse();
 
-        const divisionsForUnit = this.divisionsForUnit(unit, outputJson.divisions);
+        const divisionsForUnit = this.divisionsForUnit(
+          unit,
+          outputJson.divisions
+        );
         unit.divisions = divisionsForUnit;
 
         replaceNaNwithNull(unit);
@@ -285,12 +321,12 @@ export default class NdfToJson extends Command {
       (division) => division.alliance === unit.unitType.nationality
     );
 
-    return nationalityDivisions?.filter((division) => {
-      return division.packs.find(
-        (pack: any) => pack.unitDescriptor === unit.descriptorName
-      );
-    }).map(
-      (division) => division.descriptor
-    );
+    return nationalityDivisions
+      ?.filter((division) => {
+        return division.packs.find(
+          (pack: any) => pack.unitDescriptor === unit.descriptorName
+        );
+      })
+      .map((division) => division.descriptor);
   }
 }
