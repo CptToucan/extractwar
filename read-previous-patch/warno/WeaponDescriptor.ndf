@@ -532,7 +532,7 @@ export WeaponDescriptor_2S3_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        6,
+        10,
         5,
         15,
         -1,
@@ -2516,7 +2516,7 @@ export WeaponDescriptor_AMX_13_DCA_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        7,
+        10,
         -1,
         -1,
         -1,
@@ -23445,7 +23445,7 @@ export WeaponDescriptor_Fernspaher_RFA is TWeaponManagerModuleDescriptor
     Salves               = [
         80,
         80,
-        20,
+        100,
         -1,
         -1,
         -1
@@ -23886,7 +23886,7 @@ export WeaponDescriptor_Gepard_1A2_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        8,
+        10,
         1,
         -1,
         -1,
@@ -29375,7 +29375,7 @@ export WeaponDescriptor_LRRP_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         100,
-        20,
+        60,
         -1,
         -1,
         -1,
@@ -29465,7 +29465,7 @@ export WeaponDescriptor_LRRP_UK is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         100,
-        20,
+        60,
         5,
         -1,
         -1,
@@ -29587,7 +29587,7 @@ export WeaponDescriptor_LRRP_US is TWeaponManagerModuleDescriptor
     Salves               = [
         80,
         80,
-        20,
+        100,
         -1,
         -1,
         -1
@@ -50261,7 +50261,7 @@ export WeaponDescriptor_SAS_Sniper_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         20,
-        30,
+        60,
         -1,
         -1,
         -1,
@@ -50472,7 +50472,7 @@ export WeaponDescriptor_SEK_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         100,
-        30,
+        100,
         -1,
         -1,
         -1,
@@ -51862,7 +51862,7 @@ export WeaponDescriptor_Scout_LRRP_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         100,
-        20,
+        100,
         4,
         -1,
         -1,
@@ -51983,7 +51983,7 @@ export WeaponDescriptor_Scout_LRRP_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         75,
-        20,
+        100,
         4,
         -1,
         -1,
@@ -53128,7 +53128,7 @@ export WeaponDescriptor_Sniper_ESR_BEL is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         20,
-        30,
+        60,
         -1,
         -1,
         -1,
@@ -53218,7 +53218,7 @@ export WeaponDescriptor_Sniper_FJ_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         20,
-        30,
+        100,
         -1,
         -1,
         -1,
@@ -53308,7 +53308,7 @@ export WeaponDescriptor_Sniper_Fern_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         20,
-        30,
+        100,
         -1,
         -1,
         -1,
@@ -53397,8 +53397,8 @@ export WeaponDescriptor_Sniper_Spetsnaz_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
-        30,
+        100,
+        100,
         -1,
         -1,
         -1,
@@ -53488,7 +53488,7 @@ export WeaponDescriptor_Sniper_UK is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         20,
-        30,
+        60,
         -1,
         -1,
         -1,
@@ -53577,8 +53577,8 @@ export WeaponDescriptor_Sniper_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
-        30,
+        100,
+        60,
         -1,
         -1,
         -1,
@@ -53737,7 +53737,7 @@ export WeaponDescriptor_Spetsnaz_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         120,
-        20,
+        100,
         4,
         -1,
         -1,
@@ -62561,7 +62561,7 @@ export WeaponDescriptor_VDV_Afgantsy_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         80,
         160,
-        20,
+        100,
         -1,
         -1,
         -1
@@ -82124,7 +82124,7 @@ export WeaponDescriptor_Su_22_UPK_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         4,
-        25,
+        15,
         2,
         -1,
         -1,

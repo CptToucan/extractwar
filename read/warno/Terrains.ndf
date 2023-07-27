@@ -14,15 +14,13 @@ export DefaultTerrain is TGameplayTerrain
     LocalizationToken = 'TER_DEF'
     Name = 'DefaultTerrain'
     SpeedModifierAllTerrainWheel = 1
-    SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    SpeedModifierWheel = 1
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/Default
+    TerrainType = ~/ETerrainType/Default
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -48,15 +46,13 @@ export ForetDense is TGameplayTerrain
     LocalizationToken = 'TER_FOR_H'
     Name = 'ForetDense'
     SpeedModifierAllTerrainWheel = 0
-    SpeedModifierHalfTrack = 0
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0
-    SpeedModifierWheel = 0
     StealthBonus = 6
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/ForetDense
+    TerrainType = ~/ETerrainType/ForetDense
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = false
 )
@@ -89,15 +85,13 @@ export ForetLegere is TGameplayTerrain
     Name = 'ForetLegere'
     SpeedModifierAllTerrainWheel = 0.45
     SpeedModifierBoats = 0
-    SpeedModifierHalfTrack = 0.4
     SpeedModifierInfantry = 0.75
     SpeedModifierTrack = 0.55
-    SpeedModifierWheel = 0.3
     StealthBonus = 2.50
     //~~~~~~~~
 
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/ForetLegere
+    TerrainType = ~/ETerrainType/ForetLegere
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = false
 )
@@ -130,15 +124,13 @@ export PetitBatiment is TGameplayTerrain
     LocalizationToken = 'TER_BUILD'
     Name = 'PetitBatiment'
     SpeedModifierAllTerrainWheel = 0
-    SpeedModifierHalfTrack = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    SpeedModifierWheel = 0
     StealthBonus = 3.75
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/PetitBatiment
+    TerrainType = ~/ETerrainType/PetitBatiment
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -171,15 +163,13 @@ export Batiment is TGameplayTerrain
     LocalizationToken = 'TER_BUILD'
     Name = 'Batiment'
     SpeedModifierAllTerrainWheel = 0
-    SpeedModifierHalfTrack = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    SpeedModifierWheel = 0
     StealthBonus = 3.75
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/Batiment
+    TerrainType = ~/ETerrainType/Batiment
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -212,15 +202,13 @@ export Ruin is TGameplayTerrain
     LocalizationToken = 'TER_BUILD'
     Name = 'Ruin'
     SpeedModifierAllTerrainWheel = 0
-    SpeedModifierHalfTrack = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    SpeedModifierWheel = 0
     StealthBonus = 3.75
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/Ruin
+    TerrainType = ~/ETerrainType/Ruin
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -262,15 +250,13 @@ export Tranchee is TGameplayTerrain
     LocalizationToken = 'TER_TRENCH'
     Name = 'Trench'
     SpeedModifierAllTerrainWheel = 0.9
-    SpeedModifierHalfTrack = 0.9
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0.9
-    SpeedModifierWheel = 0.9
     StealthBonus = 9
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/Tranchee
+    TerrainType = ~/ETerrainType/Tranchee
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -310,15 +296,13 @@ export Barbeles is TGameplayTerrain
     LocalizationToken = 'TER_BWIRE'
     Name = 'TerrainBarbeles'
     SpeedModifierAllTerrainWheel = 0.25
-    SpeedModifierHalfTrack = 0.25
     SpeedModifierInfantry = 0.25
     SpeedModifierTrack = 0.25
-    SpeedModifierWheel = 0.25
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 1
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/Barbeles
+    TerrainType = ~/ETerrainType/Barbeles
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -358,15 +342,13 @@ export NidMitrailleuse is TGameplayTerrain
     LocalizationToken = 'TER_MGNEST'
     Name = 'GunnerNest'
     SpeedModifierAllTerrainWheel = 1
-    SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    SpeedModifierWheel = 1
     StealthBonus = 7
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/NidMitrailleuse
+    TerrainType = ~/ETerrainType/NidMitrailleuse
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -386,15 +368,13 @@ export Bloqueur is TGameplayTerrain
     LocalizationToken = 'TER_BLQ0'
     Name = 'Bloqueur'
     SpeedModifierAllTerrainWheel = 1
-    SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    SpeedModifierWheel = 1
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 0.3
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/Bloqueur
+    TerrainType = ~/ETerrainType/Bloqueur
     WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
 )
@@ -414,15 +394,13 @@ export StrategicForest is TGameplayTerrain
     LocalizationToken = 'TER_CEREAL'
     Name = 'StrategicForest'
     SpeedModifierAllTerrainWheel = 0.8
-    SpeedModifierHalfTrack = 0.8
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0.9
-    SpeedModifierWheel = 0.7
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/StrategicForest
+    TerrainType = ~/ETerrainType/StrategicForest
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -442,15 +420,13 @@ export StrategicPlain is TGameplayTerrain
     LocalizationToken = 'TER_CEREAL'
     Name = 'StrategicPlain'
     SpeedModifierAllTerrainWheel = 0.8
-    SpeedModifierHalfTrack = 0.8
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0.9
-    SpeedModifierWheel = 0.7
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/StrategicPlain
+    TerrainType = ~/ETerrainType/StrategicPlain
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -470,15 +446,13 @@ export StrategicSemiUrban is TGameplayTerrain
     LocalizationToken = 'TER_CEREAL'
     Name = 'StrategicSemiUrban'
     SpeedModifierAllTerrainWheel = 0.8
-    SpeedModifierHalfTrack = 0.8
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0.9
-    SpeedModifierWheel = 0.7
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/StrategicSemiUrban
+    TerrainType = ~/ETerrainType/StrategicSemiUrban
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -499,15 +473,13 @@ export EauPeuProfonde is TGameplayTerrain
     LocalizationToken = 'TER_WATE'
     Name = 'EauPeuProfonde'
     SpeedModifierAllTerrainWheel = 1
-    SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 0.8
     SpeedModifierTrack = 0.3
-    SpeedModifierWheel = 0.2
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 0.3
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/EauPeuProfonde
+    TerrainType = ~/ETerrainType/EauPeuProfonde
     WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
 )
@@ -548,15 +520,13 @@ export Urbain is TGameplayTerrain
     LocalizationToken = 'TER_URBN'
     Name = 'Urbain'
     SpeedModifierAllTerrainWheel = 1
-    SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    SpeedModifierWheel = 1
     StealthBonus = 4 //7
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/Urbain
+    TerrainType = ~/ETerrainType/Urbain
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -576,15 +546,13 @@ export Rocher is TGameplayTerrain
     LocalizationToken = 'TER_ROCK'
     Name = 'Rocher'
     SpeedModifierAllTerrainWheel = 0
-    SpeedModifierHalfTrack = 0
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0
-    SpeedModifierWheel = 0
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/Rocher
+    TerrainType = ~/ETerrainType/Rocher
     WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
 )
@@ -604,15 +572,13 @@ export SmokeHeavy is TGameplayTerrain
     LocalizationToken = 'TER_SMOKEH'
     Name = 'HeavySmoke'
     SpeedModifierAllTerrainWheel = 1
-    SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    SpeedModifierWheel = 1
     StealthBonus = 5
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/HeavySmoke
+    TerrainType = ~/ETerrainType/HeavySmoke
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -632,15 +598,13 @@ export SmokeLight is TGameplayTerrain
     LocalizationToken = 'TER_SMOKEL'
     Name = 'LightSmoke'
     SpeedModifierAllTerrainWheel = 1
-    SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    SpeedModifierWheel = 1
     StealthBonus = 4
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/LightSmoke
+    TerrainType = ~/ETerrainType/LightSmoke
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -660,15 +624,13 @@ export SmokeMedium is TGameplayTerrain
     LocalizationToken = 'TER_SMOKEM'
     Name = 'MediumSmoke'
     SpeedModifierAllTerrainWheel = 1
-    SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    SpeedModifierWheel = 1
     StealthBonus = 4.5
     //~~~~~~~~
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/MediumSmoke
+    TerrainType = ~/ETerrainType/MediumSmoke
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -688,15 +650,13 @@ export EauProfonde is TGameplayTerrain
     LocalizationToken = 'TER_DEEP_W'
     Name = 'EauProfonde'
     SpeedModifierAllTerrainWheel = 0.3
-    SpeedModifierHalfTrack = 0.3
     SpeedModifierInfantry = 0.8
     SpeedModifierTrack = 0.3
-    SpeedModifierWheel = 0.3
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 1
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/EauProfonde
+    TerrainType = ~/ETerrainType/EauProfonde
     WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
 )
@@ -716,15 +676,13 @@ export BloqueConstruction is TGameplayTerrain
     LocalizationToken = 'TER_BLQCST'
     Name = 'BloqueConstruction'
     SpeedModifierAllTerrainWheel = 1
-    SpeedModifierHalfTrack = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    SpeedModifierWheel = 1
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 1
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
-    SDBMask = ~/NAMask_Terrain/BloqueConstruction
+    TerrainType = ~/ETerrainType/BloqueConstruction
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )

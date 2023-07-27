@@ -338,7 +338,7 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     MaxWeaponsOnUI = 4 // Nombre d'armes affichées sur les panneaux d'interface qui affiche les armes
 
 
-    AdditionalSuppressDamagePerLostPhysicalDamage = 25 // c'est un multiplicateur des degats physiques qu'on va appliqué en stress.
+    AdditionalSuppressDamagePerLostPhysicalDamage = 25 // c'est un multiplicateur des degats physiques qu'on va appliquer en stress.
 
     ArtilleryDispersionTargetNotVisible = 1 // 2 Dispersion du tireur (artillerie) quand la cible n'est pas visible (attaque sur position ou unité)
     DamageMultiplierWhenShooterIsHidden = 1
@@ -622,13 +622,6 @@ WargameConstantes is TWargameTunableConstante
         (10, 'Value_3'),
     ]
 
-    PaliersDeTransport = MAP
-    [
-        (1, 'UIPT_VLGHT'),
-        (2, 'UIPT_LIGHT'),
-        (3, 'UIPT_HEAVY'),
-    ]
-
     PaliersDeVitesse = MAP
     [
         (800, 'UISP_VLOW'),
@@ -640,8 +633,8 @@ WargameConstantes is TWargameTunableConstante
 
     TagDInfanteriePinned = "Infanterie_Cowering"
     TempsAttenteAffichageIconeConflitQuartier = 0.5 // Permet de temporiser l'affichage de l'icône de conflit dans un quartier le temps que les étiquettes se placent
-    ValeurMinAffichageBarMoralLabel = 0.05 // compris entre 0 et 1
-    ValeurMaxBarMoralLabel = 0.8 // compris entre 0 et 1
+    ValeurMinAffichageBarMoralLabel = 0 // compris entre 0 et 1
+    ValeurMaxBarMoralLabel = 1 // compris entre 0 et 1
     ValeurMinimumCoverLeger = 4 // Terrain stealth bonus
     ValeurMinimumCoverMoyen = 7.5 // Terrain stealth bonus
     ValeurMinimumCoverTresLeger = 10 // Unit stealth bonus

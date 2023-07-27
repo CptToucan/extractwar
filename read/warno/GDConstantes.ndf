@@ -104,6 +104,7 @@ Constantes is TTunableConstante
     DefaultAIDifficultyForPlayerReplacement = IADifficulty/Normal
 
     SuddenDeathTime = 5 * 60 * Seconde
+    MinimumNumberOfUnitToStayInGameWithoutCmdOrProductionInDestructionMode = 5
 
     TagControleZone = "InfmapCommander"
     DureeDeploiementControleZone = 0.2
@@ -122,8 +123,9 @@ Constantes is TTunableConstante
     // Une solution serait de reset les commandes pour recommencer l'algo, mais ça peut aussi avoir des conséquences sur d'autre mouvement ce truc, donc à faire uniquement si on sent le besoin.
     MaxTerrainAngleForLanding = 8
 
-    // Distance en dessous de laquelle un ordre de déplacement d'hélicoptère déclenche un vol en basse altitude. Cette distance est en mètres.
-    DistanceDeVolTBAEnMetres = 150
+    // Distance pour petits déplacements (en mètres). Définie la distance max de déplacement d'un hélico pour:
+    // - Rester en très basse altitude.
+    DistanceMaxSmallMovementsInMeters = 150
 
     // Temps utilisé pour prédire la position de landing des hélicos. Pour les hélicos lourd, ils font quand même demi tour, mais je n'ai pas moyen de savoir combien de temps il faut à l'hélico pour se stopper en vitesse linéaire
     // sans faire des calculs à con. Donc j'utilise une heuristique à la place, et si on dépasse ben tant pis... Je ferais mieux si ça va vraiment pas

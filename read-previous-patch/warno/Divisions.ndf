@@ -171,6 +171,90 @@ Descriptor_Deck_Division_FR_5e_Blindee_multi is TDeckDivisionDescriptor
     TypeTexture       = "Texture_Division_Type_armored"
     CountryId = "FR"
 )
+Descriptor_Deck_Division_FR_7e_Blindee_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{1d6de536-94b6-48ad-97ae-70ab8dc37745}
+    CfgName = 'FR_7e_Blindee_challenge'
+    DivisionName = 'OUTIKXRJRP'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['HB', 'FR', 'Allied', 'DC_PWR1']
+    UncensoredHintGUID = GUID:{1287803b-59d9-48e8-9f20-e3f02bd5d860}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'MVUBDSQMBB'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_10_HOT_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_10_PC_CMD_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_10_P_VOA_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_10_RCR_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_10_RC_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_13_90mm_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_13_DCA_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_AuF1_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_B2_Brennus_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_B2_CMD_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_B2_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_B_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_AMX_30_EBG_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_ATteam_Milan_1_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_ATteam_Milan_2_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Alouette_III_reco_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Chasseurs_CMD_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Chasseurs_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Commandos_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_DCA_53T2_20mm_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Escorte_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Gazelle_HOT_2_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Gazelle_HOT_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Gendarmerie_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Groupe_AT_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_HMGteam_AANF1_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_HMGteam_M2HB_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Jaguar_ATGM_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Jaguar_HE_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Jaguar_SEAD_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_MANPAD_Mistral_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Mirage_5_F_clu_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Mirage_5_F_nplm_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Mirage_F1_C_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Mirage_III_E_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Mortier_MORT61_120mm_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Puma_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Reserviste_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Rifles_APILAS_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Rifles_CMD_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Rifles_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Roland_2_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Roland_3_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Sapeurs_CMD_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Sapeurs_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Sapeurs_Flam_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_Scout_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_TRM_2000_20mm_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_TRM_2000_supply_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VAB_CMD_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VAB_HOT_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VAB_Mortar_81_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VAB_RASIT_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VBL_MILAN_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VBL_Reco_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VLTT_P4_MILAN_FR, 999),
+        (~/Descriptor_Deck_Pack_TOE_FR_7e_Blindee_challenge_VLTT_P4_PC_FR, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_FR_5e_Blindee_challenge
+    EmblemTexture     = "Texture_Division_Emblem_default"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_default"
+    CountryId = "FR"
+)
 Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{9ab11079-b134-4ec3-beba-48cf4e885757}
@@ -662,7 +746,7 @@ Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_MotRifles_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_MotRifles_HMG_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_MotSchutzen_DDR, 1),
-        (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_Osa_9K33M3_DDR, 2),
+        (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_Osa_9K33M3_DDR, 3),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_PT76B_CMD_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_PT76B_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_PT76B_tank_DDR, 2),
@@ -851,7 +935,7 @@ Descriptor_Deck_Division_RFA_2_PzGrenadier_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Leopard_1A5_CMD_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Leopard_1A5_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Leopard_2A3_CMD_RFA, 1),
-        (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Leopard_2A3_RFA, 1),
+        (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Leopard_2A3_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Luchs_A1_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_M109A3G_HOWZ_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_M110A2_Howz_RFA, 2),
@@ -908,7 +992,7 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_AH64_Apache_emp2_US, 4),
+        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_AH64_Apache_emp2_US, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_ATteam_Milan_1_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_ATteam_Milan_2_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_ATteam_RCL_M40A1_RFA, 1),
@@ -944,8 +1028,8 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Leopard_1A5_CMD_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Leopard_1A5_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Leopard_2A3_CMD_RFA, 2),
-        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Leopard_2A3_RFA, 3),
-        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Leopard_2A4_RFA, 1),
+        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Leopard_2A3_RFA, 4),
+        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Leopard_2A4_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Luchs_A1_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_M109A3G_HOWZ_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_M110A2_Howz_RFA, 2),
@@ -959,9 +1043,9 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Marder_Roland_2_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Marder_Roland_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Mortier_Tampella_120mm_RFA, 2),
-        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_APC_RFA, 3),
+        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_APC_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_CMD_RFA, 2),
-        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_IFV_RFA, 6),
+        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_IFV_RFA, 5),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_PzGrenadier_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Scout_RFA, 3),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Security_RFA, 1),
@@ -1306,7 +1390,7 @@ Descriptor_Deck_Division_SOV_119IndTkBrig_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_Su_27S_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_T80BV_CMD_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_T80UD_SOV, 6),
-        (~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_T80U_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_T80U_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_TO_55_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_Tunguska_2K22_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_Ural_4320_SOV, 2),
@@ -1798,7 +1882,7 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MotRifles_HMG_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MotRifles_Metis_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MotRifles_SOV, 4),
-        (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Osa_9K33M3_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Osa_9K33M3_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Scout_SOV, 4),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Su_22_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Su_24M_SOV, 1),
@@ -1814,7 +1898,7 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T62M_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T62M_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80BV_CMD_SOV, 1),
-        (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80BV_SOV, 3),
+        (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80BV_SOV, 4),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80B_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80B_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_UAZ_469_AGL_SOV, 3),
@@ -2090,7 +2174,7 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MotRifles_HMG_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MotRifles_Metis_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MotRifles_SOV, 4),
-        (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Osa_9K33M3_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Osa_9K33M3_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Scout_LRRP_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Scout_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Su_24M_SOV, 1),
@@ -2336,7 +2420,7 @@ Descriptor_Deck_Division_US_11ACR_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_Engineers_Flash_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_Engineers_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_F16C_LGB_US, 1),
-        (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_F16E_AA_US, 3),
+        (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_F16E_AA_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_F16E_AGM_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_F16E_CBU_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_F16E_SEAD_US, 1),
@@ -2683,7 +2767,7 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AH1S_Cobra_US, 3),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AH64_Apache_US, 4),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AH64_Apache_emp1_US, 4),
-        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AH64_Apache_emp2_US, 4),
+        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AH64_Apache_emp2_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_ATteam_ITOW_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_ATteam_TOW2_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AeroRifles_US, 1),
@@ -2711,7 +2795,7 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M151_MUTT_CMD_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M163_PIVADS_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1HA_Abrams_CMD_US, 1),
-        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1HA_Abrams_US, 4),
+        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1HA_Abrams_US, 5),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_CMD_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_US, 6),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_US, 2),
@@ -2719,7 +2803,7 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A2_Bradley_Leader_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M35_supply_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M3A1_Bradley_CFV_US, 2),
-        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M48_Chaparral_MIM72F_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M48_Chaparral_MIM72F_US, 3),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M577_US, 3),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M728_CEV_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M901A1_ITW_US, 2),
@@ -2777,7 +2861,7 @@ Descriptor_Deck_Division_US_82nd_Airborne_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH1S_Cobra_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH64_Apache_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH64_Apache_emp1_US, 1),
-        (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH64_Apache_emp2_US, 4),
+        (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH64_Apache_emp2_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH6C_Little_Bird_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_ATteam_TOW2_para_US, 3),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AeroRifles_CMD_US, 1),
@@ -2996,13 +3080,13 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M125_HOWZ_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M151_MUTT_CMD_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M163_PIVADS_US, 2),
-        (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1A1_Abrams_US, 3),
+        (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1A1_Abrams_US, 4),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1_Abrams_CMD_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1_Abrams_US, 4),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M270_MLRS_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M35_supply_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M3A1_Bradley_CFV_US, 2),
-        (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M48_Chaparral_MIM72F_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M48_Chaparral_MIM72F_US, 3),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M577_US, 3),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M60A3_CMD_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M60A3_Patton_US, 2),
