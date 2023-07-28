@@ -133,7 +133,6 @@ export default class NdfToJson extends Command {
       }
 
       fs.writeFileSync('patch.json', JSON.stringify(patchDiff));
-      fs.writeFileSync('patch-division.json', JSON.stringify(divisionDiff));
     }
 
     // create a stripped down version of the unit data that only contains the descriptorName and the id, as well as all the division data
