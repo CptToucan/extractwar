@@ -255,6 +255,7 @@ export class WeaponManager extends AbstractManager {
   
           if (ammoDescriptorName.includes('_HE_')) {
             mergedWeapon.he = mountedWeapon.ammo.heDamage;
+            mergedWeapon.heDamageRadius = mountedWeapon.ammo.heDamageRadius;
           } else if (
             !ammoDescriptorName.includes('_AP_') &&
             (ammoDescriptorName.includes('_GatlingAir_') ||

@@ -1,11 +1,14 @@
-import { search } from '@izohek/ndf-parser';
 import { NdfObject, ParserMap } from '@izohek/ndf-parser/dist/src/types';
 import { findUnitCardByDescriptor } from '@izohek/warno-db';
-import { NdfExtractAsJson, SpeedModifier } from '../../commands/ndf-to-json';
+import { SpeedModifier } from '../../commands/ndf-to-json';
 import { AbstractManager } from './abstract-manager';
 import { MappedNdf, NdfManager } from './ndf-manager';
 import { isNdfObject } from './utils';
 import { Weapon, WeaponManager } from './weapon-manager';
+
+export const AIR_FUEL_PER_SECOND = 10;
+export const AIR_HEALTH_PER_SECOND = 0.018;
+export const AIR_SUPPLY_PER_SECOND = 1;
 
 export enum InfoPanelType {
   DEFAULT = 'default',
@@ -74,6 +77,10 @@ export type Unit = {
   isSellable: boolean;
   weapons: Weapon[];
   divisions: string[];
+  flyingAltitude?: number;
+  maxRefuelTime?: number;
+  maxRearmTime?: number;
+  maxRepairTime?: number;
 };
 
 export type SpeedOnTerrain = {
@@ -147,7 +154,9 @@ export class UnitManager extends AbstractManager {
 
     const factoryDescriptor = this.getValueFromSearch<string>('Factory');
     const armourValues = this.extractArmourValues();
-    const maxDamage = Number(this.getValueFromSearch<string>('MaxPhysicalDamages')) ||  Number(this.getValueFromSearch<string>('MaxDamages'));
+    const maxDamage =
+      Number(this.getValueFromSearch<string>('MaxPhysicalDamages')) ||
+      Number(this.getValueFromSearch<string>('MaxDamages'));
 
     let speed: number;
 
@@ -166,7 +175,7 @@ export class UnitManager extends AbstractManager {
         NdfManager.parseSpeedNumberFromMetre(this.getValueFromSearch('Speed'))
       );
     } catch {
-      console.log('Could not parse speed, using MaxSpeed')
+      console.log('Could not parse speed, using MaxSpeed');
     }
 
     const unitMoveTypeValue = this.getValueFromSearch<string>('UnitMovingType');
@@ -210,6 +219,12 @@ export class UnitManager extends AbstractManager {
         )
       : undefined;
 
+    const flyingAltitude = Math.round(
+      NdfManager.parseNumberFromMetre(
+        this.getValueFromSearch('LowAltitudeFlyingAltitude')
+      )
+    );
+
     const travelTime =
       Number(this.getValueFromSearch('TravelDuration')) || null;
 
@@ -248,6 +263,27 @@ export class UnitManager extends AbstractManager {
       }
     }
 
+    const isPlane = Boolean(travelTime);
+
+    let maxRefuelTime; 
+    let maxRepairTime;
+    let maxRearmTime;
+
+    if (isPlane) {
+      maxRefuelTime = Math.round(fuel / AIR_FUEL_PER_SECOND);
+      maxRepairTime = Math.round(maxDamage / AIR_HEALTH_PER_SECOND);
+
+      let maxSupplyCost = 0;
+      for (const weapon of weapons) {
+        if (weapon.supplyCost > maxSupplyCost) {
+          maxSupplyCost = weapon.supplyCost;
+        }
+      }
+
+      maxRearmTime = Math.round(maxSupplyCost / AIR_SUPPLY_PER_SECOND);
+    }
+
+
     const specialities = this.getSpecialities();
 
     const unit: Unit = {
@@ -284,6 +320,10 @@ export class UnitManager extends AbstractManager {
       isSellable,
       weapons,
       divisions: [],
+      flyingAltitude,
+      maxRefuelTime,
+      maxRepairTime,
+      maxRearmTime,
     };
 
     return unit;
