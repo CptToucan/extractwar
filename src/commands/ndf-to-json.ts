@@ -1,5 +1,5 @@
 import { search } from '@izohek/ndf-parser';
-import { NdfConstant, NdfObject } from '@izohek/ndf-parser/dist/src/types';
+import { NdfConstant, NdfObject, ParserTuple } from '@izohek/ndf-parser/dist/src/types';
 import { Command } from '@oclif/core';
 import { NdfFilePathMap, NdfManager } from '../lib/ndf-to-json/ndf-manager';
 import { Unit, UnitManager } from '../lib/ndf-to-json/unit-manager';
@@ -22,7 +22,12 @@ const NDF_FILES = Object.freeze({
   smoke: 'SmokeDescriptor.ndf',
   missile: 'MissileDescriptors.ndf',
   building: 'BuildingDescriptors.ndf',
+  deckSerializer: 'DeckSerializer.ndf',
 });
+
+export interface DescriptorIdMap {
+  [key: string]: number;
+}
 
 interface UnitData {
   version?: string;
@@ -198,7 +203,36 @@ export default class NdfToJson extends Command {
       ndfs.missile
     );
 
+    console.log((ndfs.deckSerializer[0] as NdfObject).attributes[3]);
+
+    const divisionIds = (ndfs.deckSerializer[0] as NdfObject).attributes[0];
+    const unitIds = (ndfs.deckSerializer[0] as NdfObject).attributes[2];
+
+    console.log(((divisionIds.value as any).value)[0].value as ParserTuple);
+
+    const divisionIdTuples: ParserTuple[] = ((divisionIds.value as any).value);
+    const unitIdTuples: ParserTuple[] = ((unitIds.value as any).value); 
+
+    const divisionIdMap: DescriptorIdMap = {}; 
+    const unitIdMap: DescriptorIdMap = {};
+
+    for(const divisionIdTuple of divisionIdTuples) {
+      const divisionDescriptor = `${NdfManager.extractNameFromTuple(divisionIdTuple)}`;
+      const divisionId = NdfManager.extractValueFromTuple(divisionIdTuple);
+
+      divisionIdMap[divisionDescriptor] = Number(divisionId);
+    }
+
+    for(const unitIdTuple of unitIdTuples) {
+      const unitDescriptor = `${NdfManager.extractNameFromTuple(unitIdTuple)}`;
+      const unitId = NdfManager.extractValueFromTuple(unitIdTuple);
+
+      unitIdMap[unitDescriptor] = Number(unitId) + 1;
+    }
+
     const speedModifiers = this.extractSpeedModifiers(ndfs.terrain);
+
+
 
     const outputJson: UnitData = {
       version: undefined,
@@ -208,6 +242,7 @@ export default class NdfToJson extends Command {
         rules: ndfs.rules,
         packs: ndfs.packs,
         costMatrix: ndfs.costMatrix,
+        divisionIdMap: divisionIdMap,
       }),
     };
 
@@ -219,7 +254,8 @@ export default class NdfToJson extends Command {
           mappedWeaponDescriptors,
           mappedAmmoDescriptors,
           mappedSmokeDescriptors,
-          mappedMissileDescriptors
+          mappedMissileDescriptors,
+          unitIdMap
         );
         const unit = unitManager.parse();
 
@@ -243,7 +279,8 @@ export default class NdfToJson extends Command {
           mappedWeaponDescriptors,
           mappedAmmoDescriptors,
           mappedSmokeDescriptors,
-          mappedMissileDescriptors
+          mappedMissileDescriptors,
+          unitIdMap
         );
         const building = buildingManager.parse();
 

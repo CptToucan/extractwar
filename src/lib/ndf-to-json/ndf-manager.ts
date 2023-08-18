@@ -133,6 +133,16 @@ export class NdfManager {
   }
 
   /**
+   * Extracts a name from a tuple
+   * @param tuple The tuple to extract from
+   * @returns The name
+   * 
+   */
+  static extractNameFromTuple(tuple: ParserTuple): unknown {
+    return (tuple.value[0] as ParserStringLiteral).value;
+  }
+
+  /**
    * Extracts a value from a tuple
    * @param tuple The tuple to extract from
    * @returns The value

@@ -1,6 +1,6 @@
 import { NdfObject, ParserMap } from '@izohek/ndf-parser/dist/src/types';
 import { findUnitCardByDescriptor } from '@izohek/warno-db';
-import { SpeedModifier } from '../../commands/ndf-to-json';
+import { DescriptorIdMap, SpeedModifier } from '../../commands/ndf-to-json';
 import { AbstractManager } from './abstract-manager';
 import { MappedNdf, NdfManager } from './ndf-manager';
 import { isNdfObject } from './utils';
@@ -104,7 +104,8 @@ export class UnitManager extends AbstractManager {
     mappedWeapons: MappedNdf,
     mappedAmmo: MappedNdf,
     mappedSmoke: MappedNdf,
-    mappedMissiles: MappedNdf
+    mappedMissiles: MappedNdf,
+    unitIdMap: DescriptorIdMap
   ) {
     super(unitDescriptor);
     this.speedModifiers = speedModifiers;
@@ -112,6 +113,7 @@ export class UnitManager extends AbstractManager {
     this.mappedAmmo = mappedAmmo;
     this.mappedSmoke = mappedSmoke;
     this.mappedMissiles = mappedMissiles;
+    this.unitIdMap = unitIdMap;
   }
 
   speedModifiers: SpeedModifier[];
@@ -119,6 +121,7 @@ export class UnitManager extends AbstractManager {
   mappedAmmo: MappedNdf;
   mappedSmoke: MappedNdf;
   mappedMissiles: MappedNdf;
+  unitIdMap: DescriptorIdMap;
 
   parse() {
     const descriptorName = this.ndf.name;
@@ -132,7 +135,7 @@ export class UnitManager extends AbstractManager {
     }
 
     const category = localizedUnitCard?.category || '';
-    const id = localizedUnitCard?.code || -1;
+    const id = this.unitIdMap[descriptorName];
 
     const unitType = this.extractUnitType();
 

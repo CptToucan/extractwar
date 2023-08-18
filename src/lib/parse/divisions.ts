@@ -2,6 +2,7 @@
 import { search } from '@izohek/ndf-parser';
 import parseDivisionRules from './rules';
 import DivisionsJson from '@izohek/warno-db/dist/json/divisions.json';
+import { DescriptorIdMap } from '../../commands/ndf-to-json';
 
 /// All the data required for parsing a division
 interface DivisionInputData {
@@ -9,6 +10,7 @@ interface DivisionInputData {
   rules: any;
   packs: any;
   costMatrix: any;
+  divisionIdMap: DescriptorIdMap
 }
 
 /// Pretty division names
@@ -63,9 +65,14 @@ export default function parseDivisionData(data: DivisionInputData) {
       return pack;
     });
 
+    /*
     const id = DivisionsJson.find(
       (_division) => _division.descriptor === division.descriptor
     )?.id;
+    */
+
+    const id = data.divisionIdMap[division.descriptor];
+
     const name = DIVISION_NAMES[division.descriptor];
 
     return {
