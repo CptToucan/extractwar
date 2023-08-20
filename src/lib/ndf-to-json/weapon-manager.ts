@@ -189,8 +189,7 @@ export class WeaponManager extends AbstractManager {
       const firstWeapon = weaponsForSalvoIndex[0];
 
       if(firstWeapon) {
-        const totalHeDamage = Number((firstWeapon.ammo.heDamage * firstWeapon.numberOfWeapons).toFixed(2));
-        const totalHePerSalvo = Number((firstWeapon.ammo.salvoLength * totalHeDamage).toFixed(2)); 
+        const { totalHeDamage, totalHePerSalvo } = this.extractAggregatedHeStatsFromWeapon(firstWeapon); 
 
         const supplyCost = salvoMap[salvoIndex] * firstWeapon.ammo.supplyCostPerSalvo
 
@@ -256,6 +255,12 @@ export class WeaponManager extends AbstractManager {
           if (ammoDescriptorName.includes('_HE_')) {
             mergedWeapon.he = mountedWeapon.ammo.heDamage;
             mergedWeapon.heDamageRadius = mountedWeapon.ammo.heDamageRadius;
+
+            const { totalHeDamage: totalHeDamageForMountedWeapon, totalHePerSalvo: totalHePerSalvoForMountedWeapon } = this.extractAggregatedHeStatsFromWeapon(mountedWeapon);
+            mergedWeapon.totalHeDamage = totalHeDamageForMountedWeapon;
+            mergedWeapon.totalHePerSalvo = totalHePerSalvoForMountedWeapon;
+
+            
           } else if (
             !ammoDescriptorName.includes('_AP_') &&
             (ammoDescriptorName.includes('_GatlingAir_') ||
@@ -306,6 +311,12 @@ export class WeaponManager extends AbstractManager {
     }
 
     return { weapons, hasDefensiveSmoke };
+  }
+
+  private extractAggregatedHeStatsFromWeapon(firstWeapon: MountedWeaponWithTurret) {
+    const totalHeDamage = Number((firstWeapon.ammo.heDamage * firstWeapon.numberOfWeapons).toFixed(2));
+    const totalHePerSalvo = Number((firstWeapon.ammo.salvoLength * totalHeDamage).toFixed(2));
+    return { totalHeDamage, totalHePerSalvo };
   }
 
   /**
