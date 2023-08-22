@@ -81,6 +81,7 @@ export type Unit = {
   maxRefuelTime?: number;
   maxRearmTime?: number;
   maxRepairTime?: number;
+  isCommand?: boolean;
 };
 
 export type SpeedOnTerrain = {
@@ -288,6 +289,7 @@ export class UnitManager extends AbstractManager {
 
 
     const specialities = this.getSpecialities();
+    const isCommand = specialities.includes("_leader") || undefined;
 
     const unit: Unit = {
       descriptorName,
@@ -327,6 +329,7 @@ export class UnitManager extends AbstractManager {
       maxRefuelTime,
       maxRepairTime,
       maxRearmTime,
+      isCommand
     };
 
     return unit;

@@ -147,12 +147,12 @@ export default class NdfToJson extends Command {
 
     let unitIndex = 0;
     for (const unit of duplicatedCurrentPatchData.units) {
-      const isCommand = unit.specialities.includes("_leader") || undefined;
+
       duplicatedCurrentPatchData.units[unitIndex] = {
         descriptorName: unit.descriptorName,
         id: unit.id,
         factoryDescriptorName: unit.factoryDescriptor,
-        isCommand,
+        isCommand: unit.isCommand,
       };
 
       unitIndex++;
