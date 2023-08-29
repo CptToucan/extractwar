@@ -51,9 +51,6 @@ Constantes is TTunableConstante
 
 //--------------------------- Constantes Bâtiments ---------------------------------------//
 
-    // Taille des cases de la grille de placement de batiments
-    GridSquareHeight = ~/GridHelper/Height
-    GridSquareWidth  = ~/GridHelper/Width
     UnitPositionVerticalOffsetFromRoof = 60*Metre
 
 //------------------------------ Constantes Color -----------------------------------------//
@@ -67,7 +64,7 @@ Constantes is TTunableConstante
 
 //----------------------------- Constantes Combat -----------------------------------------//
 
-    ReductionDegatsSuppressDansVehicule = 0.05 // Pourcentage des dégats de suppress reçuts par un véhicule appliqués aux unités transportées
+    ReductionDegatsSuppressDansVehicule = 0.50 // Pourcentage des dégats de suppress reçuts par un véhicule appliqués aux unités transportées
     TimerRechercheDeCibleRiposte = -1
     TagRadioArtillerie = "Radio"
     PorteeRadioArtillerie = 6000 * Metre //7500
@@ -98,10 +95,6 @@ Constantes is TTunableConstante
 //------------------------------ Constantes Corridors ------------------------------------//
     CanUseAlliedAllianceCorridors = false
 
-//-------------------------------- Constantes File ----------------------------------------//
-
-    FileExtension = "wargame"
-
 //------------------------------ Constantes Gameplay --------------------------------------//
 
     Persistance_Bruit = 15.0 * Seconde
@@ -111,6 +104,7 @@ Constantes is TTunableConstante
     DefaultAIDifficultyForPlayerReplacement = IADifficulty/Normal
 
     SuddenDeathTime = 5 * 60 * Seconde
+    MinimumNumberOfUnitToStayInGameWithoutCmdOrProductionInDestructionMode = 5
 
     TagControleZone = "InfmapCommander"
     DureeDeploiementControleZone = 0.2
@@ -129,8 +123,9 @@ Constantes is TTunableConstante
     // Une solution serait de reset les commandes pour recommencer l'algo, mais ça peut aussi avoir des conséquences sur d'autre mouvement ce truc, donc à faire uniquement si on sent le besoin.
     MaxTerrainAngleForLanding = 8
 
-    // Distance en dessous de laquelle un ordre de déplacement d'hélicoptère déclenche un vol en basse altitude. Cette distance est en mètres.
-    DistanceDeVolTBAEnMetres = 500
+    // Distance pour petits déplacements (en mètres). Définie la distance max de déplacement d'un hélico pour:
+    // - Rester en très basse altitude.
+    DistanceMaxSmallMovementsInMeters = 500
 
     // Temps utilisé pour prédire la position de landing des hélicos. Pour les hélicos lourd, ils font quand même demi tour, mais je n'ai pas moyen de savoir combien de temps il faut à l'hélico pour se stopper en vitesse linéaire
     // sans faire des calculs à con. Donc j'utilise une heuristique à la place, et si on dépasse ben tant pis... Je ferais mieux si ça va vraiment pas
@@ -147,7 +142,6 @@ Constantes is TTunableConstante
 
 //-------------------------- Constantes Interface ---------------------------------------//
 
-       AfficherLeTexteDesGabarits = false
     //Couleur par défaut des ghosts
     DefaultGhostColors = TGhostColors(
         GhostColor = [255, 255, 255, 255]
@@ -256,10 +250,6 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     MultiplicateurMetreRTSVersDistanceFeedbackTactique = MultiplicateurMetreRTSVersDistanceFeedbackTactique
 
-//---------------------------- Constantes Anti SW -----------------------------------------//
-    BonusFactorForAntiSW = 50.0// Score bonus max possible
-    MaxDistanceForScoreBonusAntiSW = 500.0 * Metre // Distance à partir de laquelle le bonus commence à s'ajouter au score de la SW pour forcer l'interception d'un missile proche de sa cible
-
 //---------------------------- Constantes Combat ------------------------------------------//
 
     DistanceInfanterieEnnemiDectection = 200 * Metre
@@ -285,13 +275,6 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     TagStunned = "Stunned"
     TagUberstress = "Uberstress"
-
-//---------------------------- Constantes Company -----------------------------------------//
-
-    // règle de choix de terrain en comportement auto
-
-    TempsMemoireDamageRecu = 20 // en seconde
-    TypeDommagePourChoixTerrainIsSuppression = true
 
 //---------------------------- Constantes District ----------------------------------------//
 
@@ -354,10 +337,10 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     MergeAllWeaponOnSameTurretInUI = false // permet d'indiquer dans l'interface si on merge les armes sur une même tourelle
                                            // même si elles ont des munitions différentes (boites de munitions différentes).
 
-    MaxWeaponsOnUI = 4 // Nombre d'armes affichées sur les panneaux d'interface qui affiche les armes
+    MaxWeaponsOnUI = 6 // Nombre d'armes affichées sur les panneaux d'interface qui affiche les armes
 
 
-    AdditionalSuppressDamagePerLostPhysicalDamage = 25 // c'est un multiplicateur des degats physiques qu'on va appliqué en stress.
+    AdditionalSuppressDamagePerLostPhysicalDamage = 25 // c'est un multiplicateur des degats physiques qu'on va appliquer en stress.
 
     ArtilleryDispersionTargetNotVisible = 1 // 2 Dispersion du tireur (artillerie) quand la cible n'est pas visible (attaque sur position ou unité)
     DamageMultiplierWhenShooterIsHidden = 1
@@ -465,11 +448,6 @@ WargameConstantes is TWargameTunableConstante
 (
     // /!\ MERCI DE RESPECTER L'ORDRE ALPHABETIQUE !
     // Par catégories puis par constante.
-
-//----------------------------- Constantes Affichage ------------------------------------//
-
-    DelayBeforeNewMinimapWarning = 10.0
-    ForceAffichageCercleVision = false // true
 
 //--------------------------- Constantes Conquest ---------------------------------------//
 
@@ -596,7 +574,6 @@ WargameConstantes is TWargameTunableConstante
     MultiplicateurMetreRTSVersVitesseTactiquePourInfantrie = 0.45 div 1.0
     MultiplicateurMetreRTSVersVitesseTactiquePourVehicule = 0.45 div 1.0
     MultiplicateurDegresParSecondesPourVitesseDeRotation = 1.0
-    NombreUniteVisibleDesQueDetecte = true
     NomDAffichageDesUnitesNonIdentifiees = "UNIDNM"
 
     // Facteur utilisé pour la transformation des Plating et APValue pour l'affichage en mm dans l'UI
@@ -647,13 +624,6 @@ WargameConstantes is TWargameTunableConstante
         (10, 'Value_3'),
     ]
 
-    PaliersDeTransport = MAP
-    [
-        (1, 'UIPT_VLGHT'),
-        (2, 'UIPT_LIGHT'),
-        (3, 'UIPT_HEAVY'),
-    ]
-
     PaliersDeVitesse = MAP
     [
         (800, 'UISP_VLOW'),
@@ -665,8 +635,8 @@ WargameConstantes is TWargameTunableConstante
 
     TagDInfanteriePinned = "Infanterie_Cowering"
     TempsAttenteAffichageIconeConflitQuartier = 0.5 // Permet de temporiser l'affichage de l'icône de conflit dans un quartier le temps que les étiquettes se placent
-    ValeurMinAffichageBarMoralLabel = 0.05 // compris entre 0 et 1
-    ValeurMaxBarMoralLabel = 0.8 // compris entre 0 et 1
+    ValeurMinAffichageBarMoralLabel = 0 // compris entre 0 et 1
+    ValeurMaxBarMoralLabel = 1 // compris entre 0 et 1
     ValeurMinimumCoverLeger = 4 // Terrain stealth bonus
     ValeurMinimumCoverMoyen = 7.5 // Terrain stealth bonus
     ValeurMinimumCoverTresLeger = 10 // Unit stealth bonus
@@ -723,13 +693,6 @@ WargameConstantes is TWargameTunableConstante
 
     AmphibiousSpawnLandSeaRatio = 1.5 // >=0, ponderation arbitraire pour determiner si une amphibie spawne au spawn marin ou terrestre (=1:elle prendra le plus proche a vol d'oiseau ; <1:elle preferera le marin, >1:elle preferera le terrestre)
     InfantryTrenchDepth = 7 * Metre //9 * Metre //11.5 * Metre
-
-//------------------------ Constantes Option_Graphique ----------------------------------//
-
-    // Valeur de 0 à 255
-    AlphaCerclePorteeVisionSelectionQuandPasseSurAutreUnite = 30
-    AlphaGhostSelection = 220
-    AlphaGhostSelectionQuandPasseSurAutreUnite = 50
 
 //------------------------- Constantes Supply -------------------------------------------//
 

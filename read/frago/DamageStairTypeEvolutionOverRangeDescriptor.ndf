@@ -7,6 +7,12 @@ export DamageTypeEvolutionOverRangeDescriptor_AP1_1Km is TStairsDamageTypeEvolut
    AP= 1.0
 )
 
+export DamageTypeEvolutionOverRangeDescriptor_AP1_AC_Helo is TStairsDamageTypeEvolutionOverRangeDescriptor
+(
+   Distance= 350.0
+   AP= 1.0
+)
+
 export DamageTypeEvolutionOverRangeDescriptor_Balle_500 is TStairsDamageTypeEvolutionOverRangeDescriptor
 (
    Distance= 500.0

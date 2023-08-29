@@ -28,7 +28,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -54,17 +53,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             ),
             TModuleSelector
             (
-                Default        = TDynamicTerrainModuleDescriptor
-                (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
-                    PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
-                    OnlyOnProduction = True
-                )
-                Selection      = [ ~/NilDescriptorIfCadavre ]
-            ),
-            TModuleSelector
-            (
                 Default        = TSupplyModuleDescriptor
                 (
                     SupplyDescriptor   = ~/StandardSupply
@@ -80,34 +68,35 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             ),
             TModuleSelector
             (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 10
+                    MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+                    MaxStunDamages = ~/Building_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
                 Default        = TDamageModuleDescriptor
                 (
-                    CommonDamageDescriptor = TDamageDescriptor
+                    SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Building_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
                     (
-                        SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
-                        SuppressDamagesRegenRatioOutOfRange = ~/Building_SuppressDamagesRegenRatioOutOfRange
-                        StunDamagesRegen = ~/Building_StunDamagesRegen
-                        StunFreezesUnits = False
-                        BlindageProperties = TBlindageProperties
-                        (
-                            ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorTop = ArmorDescriptor_Batiment_1
-                        )
-                        MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
-                        MaxStunDamages = ~/Building_MaxStunDamages
+                        ArmorDescriptorFront = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorSides = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorRear = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                     )
-                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
                     AutoOrientation = False
-                    SkipCadavreCreation  = False
                     UseTopArmorAgainstFire = False
-                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
-                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
-                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
             ),
@@ -167,13 +156,10 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             Default            = TApparenceModelModuleDescriptor
             (
                 PickableObject                        = True
-                Depiction                             = TemplateGfxDescriptorBatiment
+                BlackHoleIdentifier                   = "FOB_DDR"
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Pact_03'
-                )
-                GhostDepiction                        = TemplateGfxDescriptorGhostBatiment
-                (
-                    SceneryDescriptorName      = 'FOB_Pact_03'
+                    SymbolName                        = 'FOB_Pact_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -268,6 +254,10 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
                 CountryTexture = 'CommonTexture_MotherCountryFlag_DDR'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
             ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
+            ),
     ]
 )
 export Descriptor_Unit_FOB_FR is TEntityDescriptor
@@ -297,7 +287,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -323,17 +312,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             ),
             TModuleSelector
             (
-                Default        = TDynamicTerrainModuleDescriptor
-                (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
-                    PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
-                    OnlyOnProduction = True
-                )
-                Selection      = [ ~/NilDescriptorIfCadavre ]
-            ),
-            TModuleSelector
-            (
                 Default        = TSupplyModuleDescriptor
                 (
                     SupplyDescriptor   = ~/StandardSupply
@@ -349,34 +327,35 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             ),
             TModuleSelector
             (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 10
+                    MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+                    MaxStunDamages = ~/Building_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
                 Default        = TDamageModuleDescriptor
                 (
-                    CommonDamageDescriptor = TDamageDescriptor
+                    SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Building_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
                     (
-                        SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
-                        SuppressDamagesRegenRatioOutOfRange = ~/Building_SuppressDamagesRegenRatioOutOfRange
-                        StunDamagesRegen = ~/Building_StunDamagesRegen
-                        StunFreezesUnits = False
-                        BlindageProperties = TBlindageProperties
-                        (
-                            ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorTop = ArmorDescriptor_Batiment_1
-                        )
-                        MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
-                        MaxStunDamages = ~/Building_MaxStunDamages
+                        ArmorDescriptorFront = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorSides = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorRear = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                     )
-                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
                     AutoOrientation = False
-                    SkipCadavreCreation  = False
                     UseTopArmorAgainstFire = False
-                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
-                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
-                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
             ),
@@ -436,13 +415,10 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             Default            = TApparenceModelModuleDescriptor
             (
                 PickableObject                        = True
-                Depiction                             = TemplateGfxDescriptorBatiment
+                BlackHoleIdentifier                   = "FOB_FR"
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
-                )
-                GhostDepiction                        = TemplateGfxDescriptorGhostBatiment
-                (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
+                    SymbolName                        = 'FOB_Nato_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -537,6 +513,10 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
                 CountryTexture = 'CommonTexture_MotherCountryFlag_FR'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
             ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
+            ),
     ]
 )
 export Descriptor_Unit_FOB_RFA is TEntityDescriptor
@@ -566,7 +546,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -592,17 +571,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             ),
             TModuleSelector
             (
-                Default        = TDynamicTerrainModuleDescriptor
-                (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
-                    PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
-                    OnlyOnProduction = True
-                )
-                Selection      = [ ~/NilDescriptorIfCadavre ]
-            ),
-            TModuleSelector
-            (
                 Default        = TSupplyModuleDescriptor
                 (
                     SupplyDescriptor   = ~/StandardSupply
@@ -618,34 +586,35 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             ),
             TModuleSelector
             (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 10
+                    MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+                    MaxStunDamages = ~/Building_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
                 Default        = TDamageModuleDescriptor
                 (
-                    CommonDamageDescriptor = TDamageDescriptor
+                    SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Building_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
                     (
-                        SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
-                        SuppressDamagesRegenRatioOutOfRange = ~/Building_SuppressDamagesRegenRatioOutOfRange
-                        StunDamagesRegen = ~/Building_StunDamagesRegen
-                        StunFreezesUnits = False
-                        BlindageProperties = TBlindageProperties
-                        (
-                            ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorTop = ArmorDescriptor_Batiment_1
-                        )
-                        MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
-                        MaxStunDamages = ~/Building_MaxStunDamages
+                        ArmorDescriptorFront = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorSides = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorRear = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                     )
-                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
                     AutoOrientation = False
-                    SkipCadavreCreation  = False
                     UseTopArmorAgainstFire = False
-                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
-                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
-                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
             ),
@@ -705,13 +674,10 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             Default            = TApparenceModelModuleDescriptor
             (
                 PickableObject                        = True
-                Depiction                             = TemplateGfxDescriptorBatiment
+                BlackHoleIdentifier                   = "FOB_RFA"
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
-                )
-                GhostDepiction                        = TemplateGfxDescriptorGhostBatiment
-                (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
+                    SymbolName                        = 'FOB_Nato_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -806,6 +772,10 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
                 CountryTexture = 'CommonTexture_MotherCountryFlag_RFA'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
             ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
+            ),
     ]
 )
 export Descriptor_Unit_FOB_SOV is TEntityDescriptor
@@ -835,7 +805,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -861,17 +830,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             ),
             TModuleSelector
             (
-                Default        = TDynamicTerrainModuleDescriptor
-                (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
-                    PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
-                    OnlyOnProduction = True
-                )
-                Selection      = [ ~/NilDescriptorIfCadavre ]
-            ),
-            TModuleSelector
-            (
                 Default        = TSupplyModuleDescriptor
                 (
                     SupplyDescriptor   = ~/StandardSupply
@@ -887,34 +845,35 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             ),
             TModuleSelector
             (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 10
+                    MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+                    MaxStunDamages = ~/Building_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
                 Default        = TDamageModuleDescriptor
                 (
-                    CommonDamageDescriptor = TDamageDescriptor
+                    SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Building_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
                     (
-                        SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
-                        SuppressDamagesRegenRatioOutOfRange = ~/Building_SuppressDamagesRegenRatioOutOfRange
-                        StunDamagesRegen = ~/Building_StunDamagesRegen
-                        StunFreezesUnits = False
-                        BlindageProperties = TBlindageProperties
-                        (
-                            ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorTop = ArmorDescriptor_Batiment_1
-                        )
-                        MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
-                        MaxStunDamages = ~/Building_MaxStunDamages
+                        ArmorDescriptorFront = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorSides = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorRear = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                     )
-                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
                     AutoOrientation = False
-                    SkipCadavreCreation  = False
                     UseTopArmorAgainstFire = False
-                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
-                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
-                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
             ),
@@ -974,13 +933,10 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             Default            = TApparenceModelModuleDescriptor
             (
                 PickableObject                        = True
-                Depiction                             = TemplateGfxDescriptorBatiment
+                BlackHoleIdentifier                   = "FOB_SOV"
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Pact_03'
-                )
-                GhostDepiction                        = TemplateGfxDescriptorGhostBatiment
-                (
-                    SceneryDescriptorName      = 'FOB_Pact_03'
+                    SymbolName                        = 'FOB_Pact_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -1075,6 +1031,10 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
                 CountryTexture = 'CommonTexture_MotherCountryFlag_SOV'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
             ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
+            ),
     ]
 )
 export Descriptor_Unit_FOB_UK is TEntityDescriptor
@@ -1104,7 +1064,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -1130,17 +1089,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             ),
             TModuleSelector
             (
-                Default        = TDynamicTerrainModuleDescriptor
-                (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
-                    PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
-                    OnlyOnProduction = True
-                )
-                Selection      = [ ~/NilDescriptorIfCadavre ]
-            ),
-            TModuleSelector
-            (
                 Default        = TSupplyModuleDescriptor
                 (
                     SupplyDescriptor   = ~/StandardSupply
@@ -1156,34 +1104,35 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             ),
             TModuleSelector
             (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 10
+                    MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+                    MaxStunDamages = ~/Building_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
                 Default        = TDamageModuleDescriptor
                 (
-                    CommonDamageDescriptor = TDamageDescriptor
+                    SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Building_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
                     (
-                        SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
-                        SuppressDamagesRegenRatioOutOfRange = ~/Building_SuppressDamagesRegenRatioOutOfRange
-                        StunDamagesRegen = ~/Building_StunDamagesRegen
-                        StunFreezesUnits = False
-                        BlindageProperties = TBlindageProperties
-                        (
-                            ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorTop = ArmorDescriptor_Batiment_1
-                        )
-                        MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
-                        MaxStunDamages = ~/Building_MaxStunDamages
+                        ArmorDescriptorFront = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorSides = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorRear = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                     )
-                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
                     AutoOrientation = False
-                    SkipCadavreCreation  = False
                     UseTopArmorAgainstFire = False
-                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
-                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
-                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
             ),
@@ -1243,13 +1192,10 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             Default            = TApparenceModelModuleDescriptor
             (
                 PickableObject                        = True
-                Depiction                             = TemplateGfxDescriptorBatiment
+                BlackHoleIdentifier                   = "FOB_UK"
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
-                )
-                GhostDepiction                        = TemplateGfxDescriptorGhostBatiment
-                (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
+                    SymbolName                        = 'FOB_Nato_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -1344,6 +1290,10 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
                 CountryTexture = 'CommonTexture_MotherCountryFlag_UK'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
             ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
+            ),
     ]
 )
 export Descriptor_Unit_FOB_US is TEntityDescriptor
@@ -1373,7 +1323,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -1399,17 +1348,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             ),
             TModuleSelector
             (
-                Default        = TDynamicTerrainModuleDescriptor
-                (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
-                    PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
-                    OnlyOnProduction = True
-                )
-                Selection      = [ ~/NilDescriptorIfCadavre ]
-            ),
-            TModuleSelector
-            (
                 Default        = TSupplyModuleDescriptor
                 (
                     SupplyDescriptor   = ~/StandardSupply
@@ -1425,34 +1363,35 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             ),
             TModuleSelector
             (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 10
+                    MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+                    MaxStunDamages = ~/Building_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
                 Default        = TDamageModuleDescriptor
                 (
-                    CommonDamageDescriptor = TDamageDescriptor
+                    SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Building_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
                     (
-                        SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
-                        SuppressDamagesRegenRatioOutOfRange = ~/Building_SuppressDamagesRegenRatioOutOfRange
-                        StunDamagesRegen = ~/Building_StunDamagesRegen
-                        StunFreezesUnits = False
-                        BlindageProperties = TBlindageProperties
-                        (
-                            ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                            ArmorDescriptorTop = ArmorDescriptor_Batiment_1
-                        )
-                        MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
-                        MaxStunDamages = ~/Building_MaxStunDamages
+                        ArmorDescriptorFront = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorSides = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorRear = ArmorDescriptor_Batiment_1
+                        ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                     )
-                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
                     AutoOrientation = False
-                    SkipCadavreCreation  = False
                     UseTopArmorAgainstFire = False
-                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
-                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
-                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
             ),
@@ -1512,13 +1451,10 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             Default            = TApparenceModelModuleDescriptor
             (
                 PickableObject                        = True
-                Depiction                             = TemplateGfxDescriptorBatiment
+                BlackHoleIdentifier                   = "FOB_US"
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
-                )
-                GhostDepiction                        = TemplateGfxDescriptorGhostBatiment
-                (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
+                    SymbolName                        = 'FOB_Nato_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -1612,6 +1548,10 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
                 ButtonTexture = 'Texture_Button_Unit_FOB_US'
                 CountryTexture = 'CommonTexture_MotherCountryFlag_US'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
+            ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
             ),
     ]
 )

@@ -223,11 +223,14 @@ export class UnitManager extends AbstractManager {
         )
       : undefined;
 
-    const flyingAltitude = Math.round(
-      NdfManager.parseNumberFromMetre(
-        this.getValueFromSearch('LowAltitudeFlyingAltitude')
-      )
-    );
+    console.log(this.getValueFromSearch('LowAltitudeFlyingAltitude'));
+    const flyingAltitude = this.getValueFromSearch('LowAltitudeFlyingAltitude')
+      ? Math.round(
+          NdfManager.parseNumberFromMetre(
+            this.getValueFromSearch('LowAltitudeFlyingAltitude')
+          )
+        )
+      : undefined;
 
     const travelTime =
       Number(this.getValueFromSearch('TravelDuration')) || null;
@@ -269,7 +272,7 @@ export class UnitManager extends AbstractManager {
 
     const isPlane = Boolean(travelTime);
 
-    let maxRefuelTime; 
+    let maxRefuelTime;
     let maxRepairTime;
     let maxRearmTime;
 
@@ -287,9 +290,8 @@ export class UnitManager extends AbstractManager {
       maxRearmTime = Math.round(maxSupplyCost / AIR_SUPPLY_PER_SECOND);
     }
 
-
     const specialities = this.getSpecialities();
-    const isCommand = specialities.includes("_leader") || undefined;
+    const isCommand = specialities.includes('_leader') || undefined;
 
     const unit: Unit = {
       descriptorName,
@@ -329,7 +331,7 @@ export class UnitManager extends AbstractManager {
       maxRefuelTime,
       maxRepairTime,
       maxRearmTime,
-      isCommand
+      isCommand,
     };
 
     return unit;
