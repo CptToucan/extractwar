@@ -231,15 +231,15 @@ MatrixCostName_UK_2nd_Infantry_multi is MAP
 MatrixCostName_UK_4th_Armoured_multi is MAP
 [
    ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3] ),//6;13
-   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3 ,3, 3] ),//9;20
-   ( EDefaultFactories/infanterie,  [1, 1, 1, 2, 3, 3, 3] ),//7;14
-   ( EDefaultFactories/tank,        [1, 1, 1, 1, 1, 1, 1, 2, 3, 3] ),//10;15
+   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3 ,3] ),//8;17
+   ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 2, 3, 3, 3] ),//9;16
+   ( EDefaultFactories/tank,        [1, 1, 1, 1, 1, 2, 3, 3, 3] ),//9;16
    ( EDefaultFactories/support,     [1, 1, 1, 2, 3, 3, 3] ),//7;14    =ART
-   ( EDefaultFactories/at,          [1, 1, 2, 3, 3] ),//5;10   =AA
+   ( EDefaultFactories/at,          [1, 1, 1, 2, 3, 3, 3] ),//7;14   =AA
    ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
    ( EDefaultFactories/art,         [0,] ),//0...DEPREC
    ( EDefaultFactories/Helis,       [1, 1, 2] ),//3;4
-   ( EDefaultFactories/air,         [1, 1, 1, 2, 3, 3, 3, 3] ),//8;17
+   ( EDefaultFactories/air,         [1, 1, 2, 3, 3, 3] ),//6;13
    ( EDefaultFactories/defense,     [0,] ),//55 cases 107 pts...Coef 1.95
 ]
 
@@ -389,6 +389,21 @@ MatrixCostName_NATO_Garnison_Berlin_multi is MAP
 //--------------------- SOV -----------------------------------------
 
 MatrixCostName_SOV_79_Gds_Tank_multi is MAP
+[
+   ( EDefaultFactories/Logistic,    [1, 2, 3, 3] ),//4;9
+   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/infanterie,  [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/tank,        [1, 1, 1, 1, 1, 1, 2, 3, 3] ),//9;14
+   ( EDefaultFactories/support,     [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15    =ART
+   ( EDefaultFactories/at,          [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15   =AA
+   ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/art,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/Helis,       [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/air,         [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/defense,     [0,] ),//55 cases 107 pts...Coef 1,95
+]
+
+MatrixCostName_SOV_25_Tank_multi is MAP
 [
    ( EDefaultFactories/Logistic,    [1, 2, 3, 3] ),//4;9
    ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3] ),//7;14

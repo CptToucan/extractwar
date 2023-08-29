@@ -2746,8 +2746,8 @@ export WeaponDescriptor_AMX_30_AuF1_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        10,
-        10,
+        6,
+        1,
         80,
         -1,
         -1,
@@ -2904,7 +2904,7 @@ export WeaponDescriptor_AMX_30_B2_Brennus_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         47,
-        60,
+        96,
         28,
         1,
         -1,
@@ -3137,7 +3137,7 @@ export WeaponDescriptor_AMX_30_B2_CMD_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         47,
-        60,
+        96,
         28,
         1,
         -1,
@@ -3370,7 +3370,7 @@ export WeaponDescriptor_AMX_30_B2_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         47,
-        60,
+        96,
         28,
         1,
         -1,
@@ -3603,7 +3603,7 @@ export WeaponDescriptor_AMX_30_B_CMD_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         47,
-        60,
+        96,
         28,
         1,
         -1,
@@ -3836,7 +3836,7 @@ export WeaponDescriptor_AMX_30_B_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         47,
-        60,
+        96,
         28,
         1,
         -1,
@@ -4896,9 +4896,9 @@ export WeaponDescriptor_ATteam_Fagot_DDR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -4963,9 +4963,9 @@ export WeaponDescriptor_ATteam_Fagot_FJ_DDR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5030,9 +5030,9 @@ export WeaponDescriptor_ATteam_Fagot_SOV is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5097,9 +5097,9 @@ export WeaponDescriptor_ATteam_ITOW_US is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5164,9 +5164,9 @@ export WeaponDescriptor_ATteam_Konkurs_DDR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5231,9 +5231,9 @@ export WeaponDescriptor_ATteam_Konkurs_SOV is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5298,9 +5298,9 @@ export WeaponDescriptor_ATteam_Milan_1_FR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5365,9 +5365,9 @@ export WeaponDescriptor_ATteam_Milan_1_RFA is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5432,9 +5432,9 @@ export WeaponDescriptor_ATteam_Milan_1_UK is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5499,9 +5499,9 @@ export WeaponDescriptor_ATteam_Milan_1_para_FR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5566,9 +5566,9 @@ export WeaponDescriptor_ATteam_Milan_2_FR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5633,9 +5633,9 @@ export WeaponDescriptor_ATteam_Milan_2_RFA is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5700,9 +5700,9 @@ export WeaponDescriptor_ATteam_Milan_2_UK is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5767,9 +5767,9 @@ export WeaponDescriptor_ATteam_Milan_2_para_FR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5834,9 +5834,9 @@ export WeaponDescriptor_ATteam_Milan_2_para_RFA is TWeaponManagerModuleDescripto
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -5901,9 +5901,9 @@ export WeaponDescriptor_ATteam_Milan_2_para_UK is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -6332,9 +6332,9 @@ export WeaponDescriptor_ATteam_TOW2_US is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -6399,9 +6399,9 @@ export WeaponDescriptor_ATteam_TOW2_para_US is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -6466,9 +6466,9 @@ export WeaponDescriptor_ATteam_TOW_US is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase               = 0.0
             AngleRotationBasePitch          = 0.0
-            AngleRotationMax                = 6.283185307179586
-            AngleRotationMaxPitch           = 0.4363323129985824
-            AngleRotationMinPitch           = -0.17453292519943295
+            AngleRotationMax                = 1.5707963267948966
+            AngleRotationMaxPitch           = 0.6981317007977318
+            AngleRotationMinPitch           = -0.6981317007977318
             MountedWeaponDescriptorList     = [
                 TMountedWeaponDescriptor
                 (
@@ -8367,9 +8367,9 @@ export WeaponDescriptor_Atteam_Fagot_VDV_SOV is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -8434,9 +8434,9 @@ export WeaponDescriptor_Atteam_Konkurs_VDV_SOV is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -15214,6 +15214,75 @@ export WeaponDescriptor_DCA_Javelin_LML_UK is TWeaponManagerModuleDescriptor
             Tag                         = 'tourelle1'
             VitesseRotation             = 2.0943951023931953
             YulBoneOrdinal              = 1
+        )
+    ]
+)
+export WeaponDescriptor_DCA_M167A2_Vulcan_20mm_US is TWeaponManagerModuleDescriptor
+(
+    DelayIdleAmmoSorting = DelayIdleAmmoSorting
+    DefaultHoldFireState = False
+    DefaultRiposteStance = False
+    Salves               = [
+        8,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+    ]
+    HasMainSalvo = False
+    SalvoIsMainSalvo =
+    [
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+    ]
+    AlwaysOrientArmorTowardsThreat = False
+    TurretDescriptorList = [
+        TTurretTwoAxisDescriptor
+        (
+            AngleRotationBase               = 0.0
+            AngleRotationBasePitch          = 0.17453292519943275
+            AngleRotationMax                = 6.283185307179586
+            AngleRotationMaxPitch           = 1.3089969389957472
+            AngleRotationMinPitch           = -0.2617993877991494
+            MountedWeaponDescriptorList     = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_Gatling_M61_Vulcan_20mm_late_TOWED
+                    AnimateOnlyOneSoldier               = False
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_Gatling_M61_Vulcan_20mm_late_TOWED'
+                    HandheldEquipmentKey                = 'MeshAlternative_1'
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 0
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    TirContinu                          = True
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_1'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_1'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_1", ]
+                )
+            ]
+            NbFX                            = 1
+            OutOfRangeTrackingDuration      = 3.5
+            Tag                             = 'tourelle1'
+            TurretIdleBehaviourDescriptor   = ~/TurretIdle_VehicleReco
+            VitesseRotation                 = 2.0943951023931953
+            YulBoneOrdinal                  = 1
         )
     ]
 )
@@ -25097,9 +25166,9 @@ export WeaponDescriptor_HMGteam_AANF1_FR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25165,9 +25234,9 @@ export WeaponDescriptor_HMGteam_AANF1_para_FR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25233,9 +25302,9 @@ export WeaponDescriptor_HMGteam_AGS17_DDR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25300,9 +25369,9 @@ export WeaponDescriptor_HMGteam_AGS17_SOV is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25367,9 +25436,9 @@ export WeaponDescriptor_HMGteam_AGS17_VDV_SOV is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25434,9 +25503,9 @@ export WeaponDescriptor_HMGteam_M2HB_AB_US is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25502,9 +25571,9 @@ export WeaponDescriptor_HMGteam_M2HB_FR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25570,9 +25639,9 @@ export WeaponDescriptor_HMGteam_M2HB_US is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25638,9 +25707,9 @@ export WeaponDescriptor_HMGteam_M2HB_para_FR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25706,9 +25775,9 @@ export WeaponDescriptor_HMGteam_M60_AB_US is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25774,9 +25843,9 @@ export WeaponDescriptor_HMGteam_M60_US is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25842,9 +25911,9 @@ export WeaponDescriptor_HMGteam_MAG_UK is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25910,9 +25979,9 @@ export WeaponDescriptor_HMGteam_MG3_FJ_RFA is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -25978,9 +26047,9 @@ export WeaponDescriptor_HMGteam_MG3_RFA is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -26046,9 +26115,9 @@ export WeaponDescriptor_HMGteam_Mk19_AB_US is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -26113,9 +26182,9 @@ export WeaponDescriptor_HMGteam_NSV_DDR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -26181,9 +26250,9 @@ export WeaponDescriptor_HMGteam_NSV_SOV is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -26249,9 +26318,9 @@ export WeaponDescriptor_HMGteam_PKM_DDR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -26317,9 +26386,9 @@ export WeaponDescriptor_HMGteam_PKM_FJ_DDR is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -26385,9 +26454,9 @@ export WeaponDescriptor_HMGteam_PKM_SOV is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -26453,9 +26522,9 @@ export WeaponDescriptor_HMGteam_PKM_VDV_SOV is TWeaponManagerModuleDescriptor
         (
             AngleRotationBase           = 0.0
             AngleRotationBasePitch      = 0.0
-            AngleRotationMax            = 6.283185307179586
-            AngleRotationMaxPitch       = 0.4363323129985824
-            AngleRotationMinPitch       = -0.17453292519943295
+            AngleRotationMax            = 1.5707963267948966
+            AngleRotationMaxPitch       = 0.6981317007977318
+            AngleRotationMinPitch       = -0.6981317007977318
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -55649,13 +55718,13 @@ export WeaponDescriptor_T62M1_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
@@ -55883,13 +55952,13 @@ export WeaponDescriptor_T62MV_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 2
@@ -55956,9 +56025,9 @@ export WeaponDescriptor_T62M_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        34,
-        6,
+        40,
         53,
+        45,
         1,
         -1,
         -1
@@ -56031,30 +56100,6 @@ export WeaponDescriptor_T62M_CMD_SOV is TWeaponManagerModuleDescriptor
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_2'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_2'
                     WeaponShootDataPropertyName         = ["WeaponShootData_0_2", ]
-                ),
-                TMountedWeaponDescriptor
-                (
-                    AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_ATGM_9M117_Bastion
-                    AnimateOnlyOneSoldier               = False
-                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
-                    DispersionRadiusOffThickness        = -0.1
-                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
-                    DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_ATGM_9M117_Bastion'
-                    HandheldEquipmentKey                = 'MeshAlternative_4'
-                    NbWeapons                           = 1
-                    SalvoStockIndex                     = 1
-                    ShowDispersion                      = False
-                    ShowInInterface                     = True
-                    ShowSplashRadius                    = False
-                    SplashRadiusOffColor                = RGBA[0,0,0,0]
-                    SplashRadiusOffThickness            = -0.1
-                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
-                    SplashRadiusOnThickness             = -0.1
-                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_4'
-                    WeaponIgnoredPropertyName           = 'WeaponIgnored_4'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_4", ]
                 )
             ]
             NbFX                            = 1
@@ -56075,16 +56120,16 @@ export WeaponDescriptor_T62M_CMD_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
-                    SalvoStockIndex                     = 2
+                    SalvoStockIndex                     = 1
                     ShowDispersion                      = False
                     ShowInInterface                     = True
                     ShowSplashRadius                    = False
@@ -56104,6 +56149,48 @@ export WeaponDescriptor_T62M_CMD_SOV is TWeaponManagerModuleDescriptor
             TurretIdleBehaviourDescriptor   = ~/TurretIdle_WatchForwardMG
             VitesseRotation                 = 1.0471975511965976
             YulBoneOrdinal                  = 2
+        ),
+        TTurretTwoAxisDescriptor
+        (
+            AimingPriority              = 3
+            AngleRotationBase           = 0.0
+            AngleRotationBasePitch      = 0.0
+            AngleRotationMax            = 0.017453292519943295
+            AngleRotationMaxPitch       = 0.13962634015954636
+            AngleRotationMinPitch       = -0.13962634015954636
+            MasterTurretYulBoneOrdinal  = 1
+            MountedWeaponDescriptorList = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_MMG_PKT_7_62mm
+                    AnimateOnlyOneSoldier               = True
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_MMG_PKT_7_62mm'
+                    HandheldEquipmentKey                = 'MeshAlternative_4'
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 2
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    TirContinu                          = True
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_4'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_4'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_4", ]
+                )
+            ]
+            NbFX                        = 1
+            OutOfRangeTrackingDuration  = 3.5
+            Tag                         = 'tourelle4'
+            VitesseRotation             = 1.5707963267948966
+            YulBoneOrdinal              = 4
         ),
         TTurretUnitDescriptor
         (
@@ -56267,13 +56354,13 @@ export WeaponDescriptor_T62M_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_HMG_12_7_mm_NSVT
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_DShKM
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_HMG_12_7_mm_NSVT'
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_DShKM'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 2
@@ -56340,7 +56427,7 @@ export WeaponDescriptor_T64BV_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        2,
+        1,
         6,
         53,
         1,
@@ -56947,13 +57034,13 @@ export WeaponDescriptor_T72M1_CMD_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Canon_AP_125_mm_2A26_T72M
+                    Ammunition                          = ~/Ammo_Canon_AP_125_mm_2A46_T72M
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Canon_AP_125_mm_2A26_T72M'
+                    EffectTag                           = 'FireEffect_Canon_AP_125_mm_2A46_T72M'
                     HandheldEquipmentKey                = 'MeshAlternative_1'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -56971,13 +57058,13 @@ export WeaponDescriptor_T72M1_CMD_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Canon_HE_125_mm_2A26_T72M
+                    Ammunition                          = ~/Ammo_Canon_HE_125_mm_2A46_T72M
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Canon_HE_125_mm_2A26_T72M'
+                    EffectTag                           = 'FireEffect_Canon_HE_125_mm_2A46_T72M'
                     HandheldEquipmentKey                = 'MeshAlternative_2'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -57157,13 +57244,13 @@ export WeaponDescriptor_T72M1_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Canon_AP_125_mm_2A26_T72M
+                    Ammunition                          = ~/Ammo_Canon_AP_125_mm_2A46_T72M
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Canon_AP_125_mm_2A26_T72M'
+                    EffectTag                           = 'FireEffect_Canon_AP_125_mm_2A46_T72M'
                     HandheldEquipmentKey                = 'MeshAlternative_1'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -57181,13 +57268,13 @@ export WeaponDescriptor_T72M1_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Canon_HE_125_mm_2A26_T72M
+                    Ammunition                          = ~/Ammo_Canon_HE_125_mm_2A46_T72M
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Canon_HE_125_mm_2A26_T72M'
+                    EffectTag                           = 'FireEffect_Canon_HE_125_mm_2A46_T72M'
                     HandheldEquipmentKey                = 'MeshAlternative_2'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -57336,7 +57423,7 @@ export WeaponDescriptor_T72M_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        2,
+        1,
         53,
         45,
         1,
@@ -57367,13 +57454,13 @@ export WeaponDescriptor_T72M_CMD_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Canon_AP_125_mm_2A26_T72M
+                    Ammunition                          = ~/Ammo_Canon_AP_125_mm_2A46_T72M
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Canon_AP_125_mm_2A26_T72M'
+                    EffectTag                           = 'FireEffect_Canon_AP_125_mm_2A46_T72M'
                     HandheldEquipmentKey                = 'MeshAlternative_1'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -57391,13 +57478,13 @@ export WeaponDescriptor_T72M_CMD_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Canon_HE_125_mm_2A26_T72M
+                    Ammunition                          = ~/Ammo_Canon_HE_125_mm_2A46_T72M
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Canon_HE_125_mm_2A26_T72M'
+                    EffectTag                           = 'FireEffect_Canon_HE_125_mm_2A46_T72M'
                     HandheldEquipmentKey                = 'MeshAlternative_2'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -57577,13 +57664,13 @@ export WeaponDescriptor_T72M_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Canon_AP_125_mm_2A26_T72M
+                    Ammunition                          = ~/Ammo_Canon_AP_125_mm_2A46_T72M
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Canon_AP_125_mm_2A26_T72M'
+                    EffectTag                           = 'FireEffect_Canon_AP_125_mm_2A46_T72M'
                     HandheldEquipmentKey                = 'MeshAlternative_1'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -57601,13 +57688,13 @@ export WeaponDescriptor_T72M_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Canon_HE_125_mm_2A26_T72M
+                    Ammunition                          = ~/Ammo_Canon_HE_125_mm_2A46_T72M
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Canon_HE_125_mm_2A26_T72M'
+                    EffectTag                           = 'FireEffect_Canon_HE_125_mm_2A46_T72M'
                     HandheldEquipmentKey                = 'MeshAlternative_2'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -57787,13 +57874,13 @@ export WeaponDescriptor_T72_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Canon_AP_125_mm_2A26
+                    Ammunition                          = ~/Ammo_Canon_AP_125_mm_2A46
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Canon_AP_125_mm_2A26'
+                    EffectTag                           = 'FireEffect_Canon_AP_125_mm_2A46'
                     HandheldEquipmentKey                = 'MeshAlternative_1'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -57811,13 +57898,13 @@ export WeaponDescriptor_T72_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Canon_HE_125_mm_2A26
+                    Ammunition                          = ~/Ammo_Canon_HE_125_mm_2A46
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Canon_HE_125_mm_2A26'
+                    EffectTag                           = 'FireEffect_Canon_HE_125_mm_2A46'
                     HandheldEquipmentKey                = 'MeshAlternative_2'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -85093,6 +85180,5 @@ export WeaponDescriptor_Tornado_IDS_RFA is TWeaponManagerModuleDescriptor
         )
     ]
 )
-
 
 

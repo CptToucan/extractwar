@@ -990,7 +990,7 @@ export WeaponDescriptor_AML_60_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         53,
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -1102,7 +1102,7 @@ export WeaponDescriptor_AML_60_Gendarmerie_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         53,
-        56,
+        75,
         -1,
         -1,
         -1,
@@ -1368,7 +1368,7 @@ export WeaponDescriptor_AML_90_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -1471,7 +1471,7 @@ export WeaponDescriptor_AMX_10_HOT_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -1597,7 +1597,7 @@ export WeaponDescriptor_AMX_10_PC_CMD_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -1724,7 +1724,7 @@ export WeaponDescriptor_AMX_10_P_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -1891,7 +1891,7 @@ export WeaponDescriptor_AMX_10_P_MILAN_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -1906,7 +1906,7 @@ export WeaponDescriptor_AMX_10_P_VOA_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        29,
+        45,
         1,
         -1,
         -1,
@@ -1995,7 +1995,7 @@ export WeaponDescriptor_AMX_10_P_VOA_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -2163,7 +2163,7 @@ export WeaponDescriptor_AMX_10_RCR_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -2331,7 +2331,7 @@ export WeaponDescriptor_AMX_10_RC_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -2501,7 +2501,7 @@ export WeaponDescriptor_AMX_13_90mm_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = 0.5
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -2585,7 +2585,7 @@ export WeaponDescriptor_AMX_13_VCI_12_7mm_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -2748,7 +2748,7 @@ export WeaponDescriptor_AMX_30_AuF1_FR is TWeaponManagerModuleDescriptor
     Salves               = [
         6,
         1,
-        80,
+        100,
         -1,
         -1,
         -1
@@ -3121,7 +3121,7 @@ export WeaponDescriptor_AMX_30_B2_Brennus_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -3354,7 +3354,7 @@ export WeaponDescriptor_AMX_30_B2_CMD_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -3587,7 +3587,7 @@ export WeaponDescriptor_AMX_30_B2_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -3820,7 +3820,7 @@ export WeaponDescriptor_AMX_30_B_CMD_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -4053,7 +4053,7 @@ export WeaponDescriptor_AMX_30_B_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -4069,7 +4069,7 @@ export WeaponDescriptor_AMX_30_EBG_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         15,
-        30,
+        45,
         1,
         -1,
         -1,
@@ -4197,7 +4197,7 @@ export WeaponDescriptor_AMX_30_EBG_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -6510,7 +6510,7 @@ export WeaponDescriptor_AeroRifles_CMD_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
+        156,
         4,
         -1,
         -1,
@@ -6600,8 +6600,8 @@ export WeaponDescriptor_AeroRifles_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        160,
+        208,
+        184,
         4,
         -1,
         -1,
@@ -6721,7 +6721,7 @@ export WeaponDescriptor_Airborne_CMD_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        240,
+        312,
         4,
         -1,
         -1,
@@ -6811,8 +6811,8 @@ export WeaponDescriptor_Airborne_Dragon_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        160,
+        208,
+        184,
         6,
         -1,
         -1,
@@ -6932,8 +6932,8 @@ export WeaponDescriptor_Airborne_Engineer_CMD_US is TWeaponManagerModuleDescript
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        220,
-        80,
+        286,
+        92,
         4,
         -1,
         -1,
@@ -7053,8 +7053,8 @@ export WeaponDescriptor_Airborne_Engineers_Flash_US is TWeaponManagerModuleDescr
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        80,
+        104,
+        92,
         2,
         -1,
         -1,
@@ -7174,8 +7174,8 @@ export WeaponDescriptor_Airborne_Engineers_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         5,
         -1,
         -1,
@@ -7295,8 +7295,8 @@ export WeaponDescriptor_Airborne_HMG_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        240,
+        104,
+        276,
         4,
         -1,
         -1,
@@ -7416,7 +7416,7 @@ export WeaponDescriptor_Airborne_MP_RCL_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
+        130,
         6,
         -1,
         -1,
@@ -7530,8 +7530,8 @@ export WeaponDescriptor_Airborne_MP_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        80,
+        104,
+        92,
         -1,
         -1,
         -1,
@@ -7620,7 +7620,7 @@ export WeaponDescriptor_Airborne_Scout_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         4,
         -1,
         -1,
@@ -7710,8 +7710,8 @@ export WeaponDescriptor_Airborne_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        160,
+        208,
+        184,
         4,
         -1,
         -1,
@@ -7831,8 +7831,8 @@ export WeaponDescriptor_Airborne_half_Dragon_US is TWeaponManagerModuleDescripto
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        80,
+        104,
+        92,
         6,
         -1,
         -1,
@@ -7952,8 +7952,8 @@ export WeaponDescriptor_Airborne_half_LAW_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        80,
+        104,
+        92,
         4,
         -1,
         -1,
@@ -8073,7 +8073,7 @@ export WeaponDescriptor_Airmobile_CMD_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
+        208,
         -1,
         -1,
         -1,
@@ -8132,8 +8132,8 @@ export WeaponDescriptor_Airmobile_MILAN_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        160,
+        182,
+        184,
         4,
         -1,
         -1,
@@ -8253,8 +8253,8 @@ export WeaponDescriptor_Airmobile_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        240,
+        156,
+        276,
         -1,
         -1,
         -1,
@@ -8875,7 +8875,7 @@ export WeaponDescriptor_BMD_1_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        50,
+        75,
         -1,
         -1,
         -1,
@@ -8985,7 +8985,7 @@ export WeaponDescriptor_BMD_1_Reostat_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        50,
+        75,
         -1,
         -1,
         -1,
@@ -9880,7 +9880,7 @@ export WeaponDescriptor_BMP_1P_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -10090,7 +10090,7 @@ export WeaponDescriptor_BMP_1P_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -10457,7 +10457,7 @@ export WeaponDescriptor_BMP_1P_reco_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -10943,7 +10943,7 @@ export WeaponDescriptor_BMP_1_SP1_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -11137,7 +11137,7 @@ export WeaponDescriptor_BMP_1_SP2_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -11348,7 +11348,7 @@ export WeaponDescriptor_BMP_2_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -11540,7 +11540,7 @@ export WeaponDescriptor_BMP_3_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -11555,7 +11555,7 @@ export WeaponDescriptor_BRDM_2_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        53,
+        65,
         28,
         -1,
         -1,
@@ -11801,7 +11801,7 @@ export WeaponDescriptor_BRDM_2_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        53,
+        65,
         28,
         -1,
         -1,
@@ -12340,7 +12340,7 @@ export WeaponDescriptor_BRM_1_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -12510,7 +12510,7 @@ export WeaponDescriptor_BRM_1_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -12525,7 +12525,7 @@ export WeaponDescriptor_BTR_50_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        30,
         -1,
         -1,
         -1,
@@ -12594,7 +12594,7 @@ export WeaponDescriptor_BTR_60_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        53,
+        65,
         -1,
         -1,
         -1,
@@ -12663,8 +12663,8 @@ export WeaponDescriptor_BTR_60_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        53,
-        40,
+        65,
+        60,
         -1,
         -1,
         -1,
@@ -12775,8 +12775,8 @@ export WeaponDescriptor_BTR_60_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        53,
-        40,
+        65,
+        60,
         -1,
         -1,
         -1,
@@ -12885,8 +12885,8 @@ export WeaponDescriptor_BTR_60_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        53,
-        40,
+        65,
+        60,
         -1,
         -1,
         -1,
@@ -12997,8 +12997,8 @@ export WeaponDescriptor_BTR_70_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        53,
-        15,
+        65,
+        23,
         -1,
         -1,
         -1,
@@ -13109,8 +13109,8 @@ export WeaponDescriptor_BTR_70_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        53,
-        15,
+        65,
+        23,
         -1,
         -1,
         -1,
@@ -13221,8 +13221,8 @@ export WeaponDescriptor_BTR_80_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        53,
-        15,
+        65,
+        23,
         1,
         -1,
         -1,
@@ -13353,7 +13353,7 @@ export WeaponDescriptor_BTR_80_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -13369,7 +13369,7 @@ export WeaponDescriptor_BTR_D_Robot_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         10,
-        15,
+        23,
         1,
         -1,
         -1,
@@ -13538,7 +13538,7 @@ export WeaponDescriptor_BTR_D_Robot_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -13554,7 +13554,7 @@ export WeaponDescriptor_BTR_D_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         20,
-        15,
+        23,
         1,
         -1,
         -1,
@@ -13723,7 +13723,7 @@ export WeaponDescriptor_BTR_D_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -13739,7 +13739,7 @@ export WeaponDescriptor_BTR_ZD_Skrezhet_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         15,
-        15,
+        23,
         -1,
         -1,
         -1,
@@ -14220,7 +14220,7 @@ export WeaponDescriptor_Challenger_1_Mk1_CMD_UK is TWeaponManagerModuleDescripto
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -14430,7 +14430,7 @@ export WeaponDescriptor_Challenger_1_Mk1_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -14445,7 +14445,7 @@ export WeaponDescriptor_Chasseurs_CMD_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
+        208,
         -1,
         -1,
         -1,
@@ -14504,8 +14504,8 @@ export WeaponDescriptor_Chasseurs_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         6,
         -1,
         -1,
@@ -14625,8 +14625,8 @@ export WeaponDescriptor_Commandos_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        160,
+        208,
+        184,
         6,
         -1,
         -1,
@@ -15636,7 +15636,7 @@ export WeaponDescriptor_DShV_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         120,
-        80,
+        92,
         4,
         -1,
         -1,
@@ -15756,8 +15756,8 @@ export WeaponDescriptor_DShV_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         6,
         -1,
         -1,
@@ -16032,7 +16032,7 @@ export WeaponDescriptor_ERC_90_Sagaie_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -16047,7 +16047,7 @@ export WeaponDescriptor_Engineer_CMD_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
+        130,
         -1,
         -1,
         -1,
@@ -16106,8 +16106,8 @@ export WeaponDescriptor_Engineers_AGI_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         3,
         -1,
         -1,
@@ -16227,8 +16227,8 @@ export WeaponDescriptor_Engineers_AT_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         4,
         -1,
         -1,
@@ -16348,8 +16348,8 @@ export WeaponDescriptor_Engineers_AT_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        160,
+        156,
+        184,
         6,
         -1,
         -1,
@@ -16469,7 +16469,7 @@ export WeaponDescriptor_Engineers_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         6,
         -1,
         -1,
@@ -16649,7 +16649,7 @@ export WeaponDescriptor_Engineers_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         6,
         -1,
         -1,
@@ -16798,7 +16798,7 @@ export WeaponDescriptor_Engineers_CMD_VDV_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         6,
         -1,
         -1,
@@ -16888,8 +16888,8 @@ export WeaponDescriptor_Engineers_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         5,
         -1,
         -1,
@@ -17009,7 +17009,7 @@ export WeaponDescriptor_Engineers_Dragon_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        200,
+        260,
         6,
         -1,
         -1,
@@ -17099,8 +17099,8 @@ export WeaponDescriptor_Engineers_Flam_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         15,
         -1,
         -1,
@@ -17310,8 +17310,8 @@ export WeaponDescriptor_Engineers_Flam_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         4,
         -1,
         -1,
@@ -17431,8 +17431,8 @@ export WeaponDescriptor_Engineers_Flam_VDV_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        80,
+        104,
+        92,
         4,
         -1,
         -1,
@@ -17552,7 +17552,7 @@ export WeaponDescriptor_Engineers_Flash_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
+        130,
         2,
         -1,
         -1,
@@ -17642,8 +17642,8 @@ export WeaponDescriptor_Engineers_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         5,
         -1,
         -1,
@@ -17853,8 +17853,8 @@ export WeaponDescriptor_Engineers_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         5,
         -1,
         -1,
@@ -17974,8 +17974,8 @@ export WeaponDescriptor_Engineers_Scout_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         5,
         -1,
         -1,
@@ -18095,8 +18095,8 @@ export WeaponDescriptor_Engineers_TA_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        80,
+        208,
+        92,
         5,
         -1,
         -1,
@@ -18216,8 +18216,8 @@ export WeaponDescriptor_Engineers_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        160,
+        156,
+        184,
         5,
         -1,
         -1,
@@ -18337,8 +18337,8 @@ export WeaponDescriptor_Engineers_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         5,
         -1,
         -1,
@@ -18458,8 +18458,8 @@ export WeaponDescriptor_Engineers_VDV_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        80,
+        104,
+        92,
         5,
         -1,
         -1,
@@ -18579,7 +18579,7 @@ export WeaponDescriptor_Escorte_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
+        208,
         -1,
         -1,
         -1,
@@ -18976,7 +18976,7 @@ export WeaponDescriptor_FV101_Scorpion_BEL is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -19146,7 +19146,7 @@ export WeaponDescriptor_FV101_Scorpion_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -19248,7 +19248,7 @@ export WeaponDescriptor_FV102_Striker_BEL is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -19350,7 +19350,7 @@ export WeaponDescriptor_FV102_Striker_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -19365,7 +19365,7 @@ export WeaponDescriptor_FV103_Spartan_BEL is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        30,
+        45,
         1,
         -1,
         -1,
@@ -19454,7 +19454,7 @@ export WeaponDescriptor_FV103_Spartan_BEL is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -19469,7 +19469,7 @@ export WeaponDescriptor_FV103_Spartan_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        30,
+        45,
         1,
         -1,
         -1,
@@ -19558,7 +19558,7 @@ export WeaponDescriptor_FV103_Spartan_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -19621,7 +19621,7 @@ export WeaponDescriptor_FV105_Sultan_BEL is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -19684,7 +19684,7 @@ export WeaponDescriptor_FV105_Sultan_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -19854,7 +19854,7 @@ export WeaponDescriptor_FV107_Scimitar_BEL is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -20024,7 +20024,7 @@ export WeaponDescriptor_FV107_Scimitar_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -20040,7 +20040,7 @@ export WeaponDescriptor_FV120_Spartan_MCT_UK is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         6,
-        50,
+        75,
         1,
         -1,
         -1,
@@ -20168,7 +20168,7 @@ export WeaponDescriptor_FV120_Spartan_MCT_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -20313,7 +20313,7 @@ export WeaponDescriptor_FV4003_Centurion_AVRE_UK is TWeaponManagerModuleDescript
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -20523,7 +20523,7 @@ export WeaponDescriptor_FV4201_Chieftain_CMD_UK is TWeaponManagerModuleDescripto
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -20733,7 +20733,7 @@ export WeaponDescriptor_FV4201_Chieftain_Mk11_CMD_UK is TWeaponManagerModuleDesc
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -20943,7 +20943,7 @@ export WeaponDescriptor_FV4201_Chieftain_Mk11_UK is TWeaponManagerModuleDescript
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -21153,7 +21153,7 @@ export WeaponDescriptor_FV4201_Chieftain_Mk9_UK is TWeaponManagerModuleDescripto
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -21363,7 +21363,7 @@ export WeaponDescriptor_FV4201_Chieftain_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -21426,7 +21426,7 @@ export WeaponDescriptor_FV432_CMD_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -21594,7 +21594,7 @@ export WeaponDescriptor_FV432_Mortar_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -21721,7 +21721,7 @@ export WeaponDescriptor_FV432_Rarden_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -21736,7 +21736,7 @@ export WeaponDescriptor_FV432_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        15,
+        23,
         1,
         -1,
         -1,
@@ -21825,7 +21825,7 @@ export WeaponDescriptor_FV432_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -21977,7 +21977,7 @@ export WeaponDescriptor_FV433_Abbot_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = 0.5
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -22079,7 +22079,7 @@ export WeaponDescriptor_FV438_Swingfire_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -22231,7 +22231,7 @@ export WeaponDescriptor_FV721_Fox_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -22247,7 +22247,7 @@ export WeaponDescriptor_Fallschirm_B1_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         140,
-        80,
+        92,
         5,
         -1,
         -1,
@@ -22367,8 +22367,8 @@ export WeaponDescriptor_Fallschirm_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         4,
         -1,
         -1,
@@ -22488,7 +22488,7 @@ export WeaponDescriptor_Fallschirmjager_CMD_DDR is TWeaponManagerModuleDescripto
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         4,
         -1,
         -1,
@@ -22578,7 +22578,7 @@ export WeaponDescriptor_Fallschirmjager_CMD_RFA is TWeaponManagerModuleDescripto
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
+        156,
         -1,
         -1,
         -1,
@@ -22637,8 +22637,8 @@ export WeaponDescriptor_Fallschirmjager_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         6,
         -1,
         -1,
@@ -22758,7 +22758,7 @@ export WeaponDescriptor_Fallschirmjager_FalseFlag_CMD_DDR is TWeaponManagerModul
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
+        78,
         6,
         -1,
         -1,
@@ -22848,8 +22848,8 @@ export WeaponDescriptor_Fallschirmjager_FalseFlag_DDR is TWeaponManagerModuleDes
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        160,
+        156,
+        184,
         4,
         -1,
         -1,
@@ -22969,8 +22969,8 @@ export WeaponDescriptor_Fallschirmjager_FlaseFlag_Demo_DDR is TWeaponManagerModu
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        160,
+        156,
+        184,
         6,
         -1,
         -1,
@@ -23090,8 +23090,8 @@ export WeaponDescriptor_Fallschirmjager_HMG_DDR is TWeaponManagerModuleDescripto
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        240,
+        104,
+        276,
         4,
         -1,
         -1,
@@ -23211,8 +23211,8 @@ export WeaponDescriptor_Fallschirmjager_Metys_DDR is TWeaponManagerModuleDescrip
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         6,
         -1,
         -1,
@@ -23332,8 +23332,8 @@ export WeaponDescriptor_Fallschirmjager_Scout_RFA is TWeaponManagerModuleDescrip
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         4,
         -1,
         -1,
@@ -23513,7 +23513,7 @@ export WeaponDescriptor_Fernspaher_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         80,
-        80,
+        92,
         100,
         -1,
         -1,
@@ -23633,7 +23633,7 @@ export WeaponDescriptor_Ferret_Mk2_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        15,
+        23,
         1,
         -1,
         -1,
@@ -23722,7 +23722,7 @@ export WeaponDescriptor_Ferret_Mk2_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -23737,7 +23737,7 @@ export WeaponDescriptor_FireSupport_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         12,
         -1,
         -1,
@@ -24044,7 +24044,7 @@ export WeaponDescriptor_Gepard_1A2_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -24060,7 +24060,7 @@ export WeaponDescriptor_GreenBerets_CMD_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         180,
-        240,
+        276,
         4,
         -1,
         -1,
@@ -24302,7 +24302,7 @@ export WeaponDescriptor_GreenBerets_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         80,
-        160,
+        184,
         4,
         -1,
         -1,
@@ -24422,7 +24422,7 @@ export WeaponDescriptor_Grenzer_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        40,
+        52,
         -1,
         -1,
         -1,
@@ -24481,8 +24481,8 @@ export WeaponDescriptor_Grenzer_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         -1,
         -1,
         -1,
@@ -24571,7 +24571,7 @@ export WeaponDescriptor_Grenzer_Flam_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
+        156,
         4,
         -1,
         -1,
@@ -24661,7 +24661,7 @@ export WeaponDescriptor_Grenzer_Mot_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         -1,
         -1,
         -1,
@@ -24720,7 +24720,7 @@ export WeaponDescriptor_Groupe_AT_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
+        182,
         4,
         4,
         -1,
@@ -24841,7 +24841,7 @@ export WeaponDescriptor_Groupe_AT_para_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
+        182,
         4,
         4,
         -1,
@@ -24962,8 +24962,8 @@ export WeaponDescriptor_Gun_Group_TA_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        40,
-        160,
+        52,
+        184,
         -1,
         -1,
         -1,
@@ -25052,8 +25052,8 @@ export WeaponDescriptor_Gun_Group_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        40,
-        160,
+        52,
+        184,
         -1,
         -1,
         -1,
@@ -26697,8 +26697,8 @@ export WeaponDescriptor_HeimatschutzJager_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        200,
-        80,
+        260,
+        92,
         6,
         -1,
         -1,
@@ -27971,13 +27971,13 @@ export WeaponDescriptor_Howz_MstaB_150mm_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Howz_Canon_2A65_SP_152mm_Direct
+                    Ammunition                          = ~/Ammo_Howz_Canon_2A65_152mm_Direct
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_Howz_Canon_2A65_SP_152mm_Direct'
+                    EffectTag                           = 'FireEffect_Howz_Canon_2A65_152mm_Direct'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 1
@@ -28122,8 +28122,8 @@ export WeaponDescriptor_HvyScout_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         4,
         -1,
         -1,
@@ -28243,8 +28243,8 @@ export WeaponDescriptor_HvyScout_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         4,
         -1,
         -1,
@@ -28431,7 +28431,7 @@ export WeaponDescriptor_Iltis_reco_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -28499,8 +28499,8 @@ export WeaponDescriptor_Jager_Aufk_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        200,
-        80,
+        260,
+        92,
         6,
         -1,
         -1,
@@ -28620,7 +28620,7 @@ export WeaponDescriptor_Jager_CMD_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         6,
         -1,
         -1,
@@ -28710,8 +28710,8 @@ export WeaponDescriptor_Jager_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        200,
-        80,
+        260,
+        92,
         6,
         -1,
         -1,
@@ -28919,7 +28919,7 @@ export WeaponDescriptor_Jaguar_1_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -29022,7 +29022,7 @@ export WeaponDescriptor_Jaguar_2_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -29248,7 +29248,7 @@ export WeaponDescriptor_KanJagdPanzer_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -29263,7 +29263,7 @@ export WeaponDescriptor_KdA_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
+        156,
         -1,
         -1,
         -1,
@@ -29322,8 +29322,8 @@ export WeaponDescriptor_KdA_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        260,
-        80,
+        338,
+        92,
         6,
         -1,
         -1,
@@ -29655,7 +29655,7 @@ export WeaponDescriptor_LRRP_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         80,
-        80,
+        92,
         100,
         -1,
         -1,
@@ -30000,8 +30000,8 @@ export WeaponDescriptor_Lars_2_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        1,
-        10,
+        2,
+        15,
         -1,
         -1,
         -1,
@@ -30304,7 +30304,7 @@ export WeaponDescriptor_Leopard_1A1_CMD_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -30514,7 +30514,7 @@ export WeaponDescriptor_Leopard_1A1_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -30724,7 +30724,7 @@ export WeaponDescriptor_Leopard_1A5_CMD_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -30934,7 +30934,7 @@ export WeaponDescriptor_Leopard_1A5_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -31144,7 +31144,7 @@ export WeaponDescriptor_Leopard_2A3_CMD_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -31354,7 +31354,7 @@ export WeaponDescriptor_Leopard_2A3_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -31564,7 +31564,7 @@ export WeaponDescriptor_Leopard_2A4_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -31579,8 +31579,8 @@ export WeaponDescriptor_LightRifles_CMD_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
-        80,
+        130,
+        92,
         4,
         -1,
         -1,
@@ -31700,8 +31700,8 @@ export WeaponDescriptor_LightRifles_LAW_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        160,
+        208,
+        184,
         4,
         -1,
         -1,
@@ -31821,8 +31821,8 @@ export WeaponDescriptor_LightRifles_RCL_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        160,
+        208,
+        184,
         6,
         -1,
         -1,
@@ -32078,7 +32078,7 @@ export WeaponDescriptor_Luchs_A1_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -32365,7 +32365,76 @@ export WeaponDescriptor_M1025_Humvee_scout_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+    ]
+    HasMainSalvo = False
+    SalvoIsMainSalvo =
+    [
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+    ]
+    AlwaysOrientArmorTowardsThreat = True
+    TurretDescriptorList = [
+        TTurretTwoAxisDescriptor
+        (
+            AngleRotationBase               = 0.0
+            AngleRotationBasePitch          = 0.17453292519943275
+            AngleRotationMax                = 6.283185307179586
+            AngleRotationMaxPitch           = 1.3089969389957472
+            AngleRotationMinPitch           = -0.17453292519943295
+            MountedWeaponDescriptorList     = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_HMG_12_7_mm_M2HB
+                    AnimateOnlyOneSoldier               = False
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_HMG_12_7_mm_M2HB'
+                    HandheldEquipmentKey                = 'MeshAlternative_1'
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 0
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    TirContinu                          = True
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_1'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_1'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_1", ]
+                )
+            ]
+            NbFX                            = 1
+            OutOfRangeTrackingDuration      = 3.5
+            Tag                             = 'tourelle1'
+            TurretIdleBehaviourDescriptor   = ~/TurretIdle_WatchForwardMG
+            VitesseRotation                 = 1.0471975511965976
+            YulBoneOrdinal                  = 1
+        )
+    ]
+)
+export WeaponDescriptor_M1025_Humvee_scout_tuto_US is TWeaponManagerModuleDescriptor
+(
+    DelayIdleAmmoSorting = DelayIdleAmmoSorting
+    DefaultHoldFireState = False
+    DefaultRiposteStance = False
+    Salves               = [
+        100,
         -1,
         -1,
         -1,
@@ -32435,7 +32504,7 @@ export WeaponDescriptor_M106A2_HOWZ_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         23,
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -32660,7 +32729,7 @@ export WeaponDescriptor_M109A2_HOWZ_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         9,
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -32793,7 +32862,7 @@ export WeaponDescriptor_M109A2_UK is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         9,
-        80,
+        100,
         1,
         -1,
         -1,
@@ -32945,7 +33014,7 @@ export WeaponDescriptor_M109A2_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = 0.5
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -33277,7 +33346,7 @@ export WeaponDescriptor_M113A1G_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        70,
+        105,
         1,
         -1,
         -1,
@@ -33366,7 +33435,7 @@ export WeaponDescriptor_M113A1G_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -33381,7 +33450,7 @@ export WeaponDescriptor_M113A1G_reco_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        70,
+        105,
         1,
         -1,
         -1,
@@ -33469,7 +33538,7 @@ export WeaponDescriptor_M113A1G_reco_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -33484,7 +33553,7 @@ export WeaponDescriptor_M113A1_TOW_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         8,
         -1,
         -1,
@@ -33588,7 +33657,7 @@ export WeaponDescriptor_M113A3_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -33658,7 +33727,7 @@ export WeaponDescriptor_M113_ACAV_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         20,
-        80,
+        100,
         75,
         -1,
         -1,
@@ -33831,7 +33900,7 @@ export WeaponDescriptor_M113_Dragon_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         4,
         -1,
         -1,
@@ -33940,7 +34009,7 @@ export WeaponDescriptor_M113_GreenArcher_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        30,
+        45,
         1,
         -1,
         -1,
@@ -34029,7 +34098,7 @@ export WeaponDescriptor_M113_GreenArcher_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -34044,7 +34113,7 @@ export WeaponDescriptor_M113_GreenArcher_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        30,
+        45,
         1,
         -1,
         -1,
@@ -34133,7 +34202,7 @@ export WeaponDescriptor_M113_GreenArcher_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -34149,7 +34218,7 @@ export WeaponDescriptor_M113_PzMorser_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         20,
-        21,
+        30,
         -1,
         -1,
         -1,
@@ -34282,7 +34351,7 @@ export WeaponDescriptor_M125_HOWZ_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         18,
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -34414,7 +34483,7 @@ export WeaponDescriptor_M151A2_scout_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -34645,7 +34714,7 @@ export WeaponDescriptor_M1A1HA_Abrams_CMD_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         40,
-        53,
+        65,
         80,
         1,
         -1,
@@ -34881,7 +34950,7 @@ export WeaponDescriptor_M1A1HA_Abrams_CMD_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -34897,7 +34966,7 @@ export WeaponDescriptor_M1A1HA_Abrams_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         40,
-        53,
+        65,
         80,
         1,
         -1,
@@ -35133,7 +35202,7 @@ export WeaponDescriptor_M1A1HA_Abrams_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -35149,7 +35218,7 @@ export WeaponDescriptor_M1A1_Abrams_CMD_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         40,
-        53,
+        65,
         80,
         1,
         -1,
@@ -35385,7 +35454,7 @@ export WeaponDescriptor_M1A1_Abrams_CMD_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -35401,7 +35470,7 @@ export WeaponDescriptor_M1A1_Abrams_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         40,
-        53,
+        65,
         80,
         1,
         -1,
@@ -35637,7 +35706,7 @@ export WeaponDescriptor_M1A1_Abrams_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -35653,7 +35722,7 @@ export WeaponDescriptor_M1A1_Abrams_reco_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         40,
-        53,
+        65,
         80,
         1,
         -1,
@@ -35889,7 +35958,7 @@ export WeaponDescriptor_M1A1_Abrams_reco_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -35905,7 +35974,7 @@ export WeaponDescriptor_M1IP_Abrams_CMD_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         55,
-        53,
+        65,
         80,
         1,
         -1,
@@ -36141,7 +36210,7 @@ export WeaponDescriptor_M1IP_Abrams_CMD_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -36157,7 +36226,7 @@ export WeaponDescriptor_M1IP_Abrams_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         55,
-        53,
+        65,
         80,
         1,
         -1,
@@ -36393,7 +36462,7 @@ export WeaponDescriptor_M1IP_Abrams_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -36409,7 +36478,7 @@ export WeaponDescriptor_M1_Abrams_CMD_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         55,
-        53,
+        65,
         80,
         1,
         -1,
@@ -36645,7 +36714,7 @@ export WeaponDescriptor_M1_Abrams_CMD_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -36661,7 +36730,7 @@ export WeaponDescriptor_M1_Abrams_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         55,
-        53,
+        65,
         80,
         1,
         -1,
@@ -36897,7 +36966,7 @@ export WeaponDescriptor_M1_Abrams_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -37314,7 +37383,7 @@ export WeaponDescriptor_M2A2_Bradley_IFV_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -37527,7 +37596,7 @@ export WeaponDescriptor_M2A2_Bradley_Leader_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -37740,7 +37809,7 @@ export WeaponDescriptor_M3A1_Bradley_CFV_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -37756,7 +37825,7 @@ export WeaponDescriptor_M48A2C_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         64,
-        80,
+        100,
         80,
         1,
         -1,
@@ -37950,7 +38019,7 @@ export WeaponDescriptor_M48A2C_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -38119,7 +38188,7 @@ export WeaponDescriptor_M48A2GA2_CMD_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -38288,7 +38357,7 @@ export WeaponDescriptor_M48A2GA2_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -38373,7 +38442,7 @@ export WeaponDescriptor_M551A1_TTS_Sheridan_CMD_US is TWeaponManagerModuleDescri
     Salves               = [
         20,
         10,
-        53,
+        65,
         1,
         -1,
         -1
@@ -38548,7 +38617,7 @@ export WeaponDescriptor_M551A1_TTS_Sheridan_CMD_US is TWeaponManagerModuleDescri
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -38565,7 +38634,7 @@ export WeaponDescriptor_M551A1_TTS_Sheridan_US is TWeaponManagerModuleDescriptor
     Salves               = [
         20,
         10,
-        53,
+        65,
         1,
         -1,
         -1
@@ -38740,7 +38809,7 @@ export WeaponDescriptor_M551A1_TTS_Sheridan_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -38756,7 +38825,7 @@ export WeaponDescriptor_M60A3_CMD_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         63,
-        53,
+        65,
         80,
         1,
         -1,
@@ -38951,7 +39020,7 @@ export WeaponDescriptor_M60A3_CMD_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -38967,7 +39036,7 @@ export WeaponDescriptor_M60A3_Patton_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         63,
-        53,
+        65,
         80,
         1,
         -1,
@@ -39162,7 +39231,7 @@ export WeaponDescriptor_M60A3_Patton_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -39178,7 +39247,7 @@ export WeaponDescriptor_M728_CEV_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         30,
-        53,
+        100,
         29,
         -1,
         -1,
@@ -39465,7 +39534,7 @@ export WeaponDescriptor_M998_Avenger_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         2,
-        50,
+        60,
         -1,
         -1,
         -1,
@@ -39665,7 +39734,7 @@ export WeaponDescriptor_MANPAD_Igla_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         6,
         -1,
         -1,
@@ -39755,7 +39824,7 @@ export WeaponDescriptor_MANPAD_Igla_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         6,
         -1,
         -1,
@@ -39845,7 +39914,7 @@ export WeaponDescriptor_MANPAD_Igla_VDV_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         6,
         -1,
         -1,
@@ -39935,7 +40004,7 @@ export WeaponDescriptor_MANPAD_Javelin_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        40,
+        52,
         6,
         -1,
         -1,
@@ -40025,7 +40094,7 @@ export WeaponDescriptor_MANPAD_Mistral_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         6,
         -1,
         -1,
@@ -40115,7 +40184,7 @@ export WeaponDescriptor_MANPAD_Mistral_para_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         6,
         -1,
         -1,
@@ -40295,7 +40364,7 @@ export WeaponDescriptor_MANPAD_Stinger_C_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         6,
         -1,
         -1,
@@ -40385,7 +40454,7 @@ export WeaponDescriptor_MANPAD_Stinger_C_para_US is TWeaponManagerModuleDescript
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         6,
         -1,
         -1,
@@ -40475,7 +40544,7 @@ export WeaponDescriptor_MANPAD_Strela_2M_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         6,
         -1,
         -1,
@@ -40565,7 +40634,7 @@ export WeaponDescriptor_MANPAD_Strela_2M_FJ_DDR is TWeaponManagerModuleDescripto
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         6,
         -1,
         -1,
@@ -40850,7 +40919,7 @@ export WeaponDescriptor_MCV_80_Warrior_MILAN_UK is TWeaponManagerModuleDescripto
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -41020,7 +41089,7 @@ export WeaponDescriptor_MCV_80_Warrior_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 1
@@ -41035,7 +41104,7 @@ export WeaponDescriptor_MFRW_RM70_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        4,
+        2,
         -1,
         -1,
         -1,
@@ -41103,7 +41172,7 @@ export WeaponDescriptor_MFRW_RM70_cluster_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        4,
+        2,
         -1,
         -1,
         -1,
@@ -41230,7 +41299,7 @@ export WeaponDescriptor_MP_RCL_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
+        130,
         6,
         -1,
         -1,
@@ -41344,7 +41413,7 @@ export WeaponDescriptor_MP_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         -1,
         -1,
         -1,
@@ -41403,8 +41472,8 @@ export WeaponDescriptor_MP_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        80,
+        104,
+        92,
         -1,
         -1,
         -1,
@@ -41830,7 +41899,7 @@ export WeaponDescriptor_MTLB_trans_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        24,
+        36,
         -1,
         -1,
         -1,
@@ -41898,7 +41967,7 @@ export WeaponDescriptor_MTLB_transp_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        12,
+        18,
         -1,
         -1,
         -1,
@@ -42161,7 +42230,7 @@ export WeaponDescriptor_Marder_1A2_MILAN_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -42331,7 +42400,7 @@ export WeaponDescriptor_Marder_1A2_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -42540,7 +42609,7 @@ export WeaponDescriptor_Marder_1A3_MILAN_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -42710,7 +42779,7 @@ export WeaponDescriptor_Marder_1A3_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -43771,8 +43840,8 @@ export WeaponDescriptor_MotRifles_BTR_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        160,
+        156,
+        184,
         6,
         -1,
         -1,
@@ -43892,8 +43961,8 @@ export WeaponDescriptor_MotRifles_BTR_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         6,
         -1,
         -1,
@@ -44013,7 +44082,7 @@ export WeaponDescriptor_MotRifles_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         4,
         -1,
         -1,
@@ -44103,7 +44172,7 @@ export WeaponDescriptor_MotRifles_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        104,
         4,
         -1,
         -1,
@@ -44193,8 +44262,8 @@ export WeaponDescriptor_MotRifles_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
-        160,
+        130,
+        184,
         6,
         -1,
         -1,
@@ -44314,8 +44383,8 @@ export WeaponDescriptor_MotRifles_HMG_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        240,
+        104,
+        276,
         4,
         -1,
         -1,
@@ -44435,8 +44504,8 @@ export WeaponDescriptor_MotRifles_HMG_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        240,
+        104,
+        276,
         4,
         -1,
         -1,
@@ -44556,8 +44625,8 @@ export WeaponDescriptor_MotRifles_Metis_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         4,
         -1,
         -1,
@@ -44677,8 +44746,8 @@ export WeaponDescriptor_MotRifles_Metis_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         6,
         -1,
         -1,
@@ -44798,8 +44867,8 @@ export WeaponDescriptor_MotRifles_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         6,
         -1,
         -1,
@@ -44919,7 +44988,7 @@ export WeaponDescriptor_MotSchutzen_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
+        182,
         6,
         6,
         -1,
@@ -45176,7 +45245,7 @@ export WeaponDescriptor_PSzH_IV_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        53,
+        65,
         28,
         -1,
         -1,
@@ -45693,8 +45762,8 @@ export WeaponDescriptor_Panzergrenadier_APC_RFA is TWeaponManagerModuleDescripto
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        80,
+        208,
+        92,
         6,
         -1,
         -1,
@@ -45814,7 +45883,7 @@ export WeaponDescriptor_Panzergrenadier_CMD_RFA is TWeaponManagerModuleDescripto
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
+        156,
         4,
         6,
         -1,
@@ -45935,8 +46004,8 @@ export WeaponDescriptor_Panzergrenadier_IFV_RFA is TWeaponManagerModuleDescripto
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        80,
+        104,
+        92,
         6,
         -1,
         -1,
@@ -46056,8 +46125,8 @@ export WeaponDescriptor_Para_CMD_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         -1,
         -1,
         -1,
@@ -46146,8 +46215,8 @@ export WeaponDescriptor_Para_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         6,
         -1,
         -1,
@@ -46267,8 +46336,8 @@ export WeaponDescriptor_Para_Legion_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         4,
         -1,
         -1,
@@ -46388,7 +46457,7 @@ export WeaponDescriptor_Para_Sapeurs_CMD_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
+        208,
         -1,
         -1,
         -1,
@@ -46447,8 +46516,8 @@ export WeaponDescriptor_Para_Sapeurs_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         5,
         -1,
         -1,
@@ -46568,8 +46637,8 @@ export WeaponDescriptor_Para_Sapeurs_Flam_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         12,
         -1,
         -1,
@@ -46689,8 +46758,8 @@ export WeaponDescriptor_Paratroopers_CMD_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
-        80,
+        130,
+        92,
         4,
         -1,
         -1,
@@ -46810,8 +46879,8 @@ export WeaponDescriptor_Paratroopers_MILAN_TA_UK is TWeaponManagerModuleDescript
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         6,
         -1,
         -1,
@@ -46931,8 +47000,8 @@ export WeaponDescriptor_Paratroopers_TA_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         4,
         -1,
         -1,
@@ -47052,8 +47121,8 @@ export WeaponDescriptor_PzGrenadier_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
-        80,
+        130,
+        92,
         6,
         -1,
         -1,
@@ -47266,7 +47335,7 @@ export WeaponDescriptor_RMP_UK is TWeaponManagerModuleDescriptor
     Salves               = [
         20,
         90,
-        80,
+        92,
         -1,
         -1,
         -1
@@ -47386,7 +47455,128 @@ export WeaponDescriptor_Ranger_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         80,
-        160,
+        184,
+        4,
+        -1,
+        -1,
+        -1
+    ]
+    HasMainSalvo = False
+    SalvoIsMainSalvo =
+    [
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+    ]
+    AlwaysOrientArmorTowardsThreat = False
+    TurretDescriptorList = [
+        TTurretInfanterieDescriptor
+        (
+            MountedWeaponDescriptorList = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_PM_M4_Carbine
+                    AnimateOnlyOneSoldier               = False
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_PM_M4_Carbine'
+                    HandheldEquipmentKey                = 'MeshAlternative_1'
+                    NbWeapons                           = 4
+                    SalvoStockIndex                     = 0
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_1'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_1'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_1", ]
+                )
+            ]
+            NbFX                        = 1
+            YulBoneOrdinal              = 1
+        ),
+        TTurretInfanterieDescriptor
+        (
+            MountedWeaponDescriptorList = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_SAW_M249_5_56mm
+                    AnimateOnlyOneSoldier               = False
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_SAW_M249_5_56mm'
+                    HandheldEquipmentKey                = 'MeshAlternative_2'
+                    NbWeapons                           = 2
+                    SalvoStockIndex                     = 1
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_2'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_2'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_2", ]
+                )
+            ]
+            NbFX                        = 1
+            YulBoneOrdinal              = 2
+        ),
+        TTurretInfanterieDescriptor
+        (
+            MountedWeaponDescriptorList = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_RocketInf_AT4_83mm
+                    AnimateOnlyOneSoldier               = True
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_RocketInf_AT4_83mm'
+                    HandheldEquipmentKey                = 'MeshAlternative_3'
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 2
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_3'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_3'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_3", ]
+                )
+            ]
+            NbFX                        = 1
+            YulBoneOrdinal              = 3
+        )
+    ]
+)
+export WeaponDescriptor_Ranger_tuto_US is TWeaponManagerModuleDescriptor
+(
+    DelayIdleAmmoSorting = DelayIdleAmmoSorting
+    DefaultHoldFireState = False
+    DefaultRiposteStance = False
+    Salves               = [
+        80,
+        184,
         4,
         -1,
         -1,
@@ -47596,8 +47786,8 @@ export WeaponDescriptor_Reserve_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        160,
+        156,
+        184,
         6,
         -1,
         -1,
@@ -47717,8 +47907,8 @@ export WeaponDescriptor_Reserve_Polizei_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         -1,
         -1,
         -1,
@@ -47808,8 +47998,8 @@ export WeaponDescriptor_Reserviste_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         60,
-        120,
-        80,
+        156,
+        92,
         -1,
         -1,
         -1
@@ -47928,8 +48118,8 @@ export WeaponDescriptor_Rifles_APILAS_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         4,
         -1,
         -1,
@@ -48049,8 +48239,8 @@ export WeaponDescriptor_Rifles_AT_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        160,
+        156,
+        184,
         4,
         -1,
         -1,
@@ -48170,7 +48360,7 @@ export WeaponDescriptor_Rifles_Aero_CMD_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
+        156,
         -1,
         -1,
         -1,
@@ -48229,8 +48419,8 @@ export WeaponDescriptor_Rifles_Aero_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         4,
         -1,
         -1,
@@ -48350,7 +48540,7 @@ export WeaponDescriptor_Rifles_CMD_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
+        156,
         -1,
         -1,
         -1,
@@ -48409,8 +48599,8 @@ export WeaponDescriptor_Rifles_CMD_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
-        80,
+        130,
+        92,
         4,
         -1,
         -1,
@@ -48530,8 +48720,8 @@ export WeaponDescriptor_Rifles_CMD_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        80,
+        208,
+        92,
         4,
         -1,
         -1,
@@ -48651,8 +48841,8 @@ export WeaponDescriptor_Rifles_Cavalry_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        240,
+        78,
+        276,
         4,
         -1,
         -1,
@@ -48772,8 +48962,8 @@ export WeaponDescriptor_Rifles_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         6,
         -1,
         -1,
@@ -48893,8 +49083,8 @@ export WeaponDescriptor_Rifles_HMG_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        240,
+        104,
+        276,
         4,
         -1,
         -1,
@@ -49014,8 +49204,8 @@ export WeaponDescriptor_Rifles_LAW_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        240,
+        208,
+        276,
         4,
         -1,
         -1,
@@ -49137,7 +49327,7 @@ export WeaponDescriptor_Rifles_RAF_UK is TWeaponManagerModuleDescriptor
     Salves               = [
         80,
         315,
-        80,
+        92,
         -1,
         -1,
         -1
@@ -49256,8 +49446,8 @@ export WeaponDescriptor_Rifles_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
-        160,
+        130,
+        184,
         4,
         -1,
         -1,
@@ -49377,8 +49567,8 @@ export WeaponDescriptor_Rifles_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        160,
-        240,
+        208,
+        276,
         6,
         -1,
         -1,
@@ -49498,8 +49688,8 @@ export WeaponDescriptor_Rifles_half_AT4_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        160,
+        104,
+        184,
         4,
         -1,
         -1,
@@ -49619,8 +49809,8 @@ export WeaponDescriptor_Rifles_half_CMD_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
-        160,
+        26,
+        184,
         4,
         -1,
         -1,
@@ -49740,8 +49930,8 @@ export WeaponDescriptor_Rifles_half_Dragon_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        160,
+        104,
+        184,
         6,
         -1,
         -1,
@@ -49861,8 +50051,8 @@ export WeaponDescriptor_Rifles_half_LAW_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        160,
+        104,
+        184,
         4,
         -1,
         -1,
@@ -50118,8 +50308,8 @@ export WeaponDescriptor_SAS_CMD_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         -1,
         -1,
         -1,
@@ -50208,8 +50398,8 @@ export WeaponDescriptor_SAS_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        160,
+        156,
+        184,
         5,
         -1,
         -1,
@@ -50329,7 +50519,7 @@ export WeaponDescriptor_SAS_Sniper_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         60,
         -1,
         -1,
@@ -50630,7 +50820,7 @@ export WeaponDescriptor_SPW_152K_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
+        90,
         -1,
         -1,
         -1,
@@ -50698,8 +50888,8 @@ export WeaponDescriptor_Sapeurs_CMD_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         -1,
         -1,
         -1,
@@ -50788,8 +50978,8 @@ export WeaponDescriptor_Sapeurs_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         5,
         -1,
         -1,
@@ -50910,7 +51100,7 @@ export WeaponDescriptor_Sapeurs_Flam_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         120,
-        80,
+        92,
         12,
         -1,
         -1,
@@ -51030,7 +51220,7 @@ export WeaponDescriptor_Saxon_CMD_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        15,
+        23,
         1,
         -1,
         -1,
@@ -51119,7 +51309,7 @@ export WeaponDescriptor_Saxon_CMD_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -51134,7 +51324,7 @@ export WeaponDescriptor_Saxon_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        15,
+        23,
         1,
         -1,
         -1,
@@ -51223,7 +51413,7 @@ export WeaponDescriptor_Saxon_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -51238,8 +51428,8 @@ export WeaponDescriptor_Scout_AT_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         4,
         -1,
         -1,
@@ -51359,9 +51549,9 @@ export WeaponDescriptor_Scout_Airmobile_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        160,
-        160,
+        104,
+        184,
+        184,
         -1,
         -1,
         -1
@@ -51570,7 +51760,7 @@ export WeaponDescriptor_Scout_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
+        130,
         -1,
         -1,
         -1,
@@ -51629,7 +51819,7 @@ export WeaponDescriptor_Scout_CMD_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
+        78,
         -1,
         -1,
         -1,
@@ -51688,8 +51878,8 @@ export WeaponDescriptor_Scout_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         4,
         -1,
         -1,
@@ -51809,8 +51999,8 @@ export WeaponDescriptor_Scout_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         6,
         -1,
         -1,
@@ -52172,8 +52362,8 @@ export WeaponDescriptor_Scout_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         6,
         -1,
         -1,
@@ -52293,8 +52483,8 @@ export WeaponDescriptor_Scout_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         4,
         -1,
         -1,
@@ -52415,7 +52605,7 @@ export WeaponDescriptor_Scout_TA_UK is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         60,
-        80,
+        92,
         -1,
         -1,
         -1,
@@ -52504,8 +52694,8 @@ export WeaponDescriptor_Scout_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         4,
         -1,
         -1,
@@ -52625,8 +52815,8 @@ export WeaponDescriptor_Scout_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         -1,
         -1,
         -1,
@@ -52715,8 +52905,8 @@ export WeaponDescriptor_Scout_VDV_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         4,
         -1,
         -1,
@@ -52836,8 +53026,8 @@ export WeaponDescriptor_Scout_para_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        60,
-        80,
+        78,
+        92,
         6,
         -1,
         -1,
@@ -52957,8 +53147,8 @@ export WeaponDescriptor_Security_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         -1,
         -1,
         -1,
@@ -53047,7 +53237,7 @@ export WeaponDescriptor_Security_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        220,
+        286,
         -1,
         -1,
         -1,
@@ -53196,7 +53386,7 @@ export WeaponDescriptor_Sniper_ESR_BEL is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         60,
         -1,
         -1,
@@ -53556,7 +53746,7 @@ export WeaponDescriptor_Sniper_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        20,
+        26,
         60,
         -1,
         -1,
@@ -53736,7 +53926,7 @@ export WeaponDescriptor_Sonderwagen_4_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        75,
+        112,
         -1,
         -1,
         -1,
@@ -54017,7 +54207,7 @@ export WeaponDescriptor_Spetsnaz_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         200,
-        160,
+        184,
         4,
         -1,
         -1,
@@ -54313,7 +54503,7 @@ export WeaponDescriptor_T55AM2B_DDR is TWeaponManagerModuleDescriptor
     Salves               = [
         43,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -54488,7 +54678,7 @@ export WeaponDescriptor_T55AM2B_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -54504,7 +54694,7 @@ export WeaponDescriptor_T55AM2_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         43,
-        53,
+        65,
         80,
         1,
         -1,
@@ -54698,7 +54888,7 @@ export WeaponDescriptor_T55AM2_CMD_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -54714,7 +54904,7 @@ export WeaponDescriptor_T55AM2_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         43,
-        53,
+        65,
         80,
         1,
         -1,
@@ -54908,7 +55098,7 @@ export WeaponDescriptor_T55AM2_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -54924,7 +55114,7 @@ export WeaponDescriptor_T55A_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         43,
-        53,
+        65,
         80,
         -1,
         -1,
@@ -55099,7 +55289,7 @@ export WeaponDescriptor_T55A_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         43,
-        53,
+        65,
         80,
         -1,
         -1,
@@ -55274,7 +55464,7 @@ export WeaponDescriptor_T55A_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         43,
-        53,
+        65,
         80,
         -1,
         -1,
@@ -55449,7 +55639,7 @@ export WeaponDescriptor_T55A_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         43,
-        53,
+        65,
         80,
         -1,
         -1,
@@ -55624,7 +55814,7 @@ export WeaponDescriptor_T62M1_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         40,
-        53,
+        65,
         45,
         1,
         -1,
@@ -55818,7 +56008,7 @@ export WeaponDescriptor_T62M1_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -55835,7 +56025,7 @@ export WeaponDescriptor_T62MV_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         34,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -56010,7 +56200,7 @@ export WeaponDescriptor_T62MV_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -56026,7 +56216,7 @@ export WeaponDescriptor_T62M_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         40,
-        53,
+        65,
         45,
         1,
         -1,
@@ -56220,7 +56410,7 @@ export WeaponDescriptor_T62M_CMD_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -56237,7 +56427,7 @@ export WeaponDescriptor_T62M_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         34,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -56412,7 +56602,7 @@ export WeaponDescriptor_T62M_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -56429,7 +56619,7 @@ export WeaponDescriptor_T64BV_CMD_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         1,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -56604,7 +56794,7 @@ export WeaponDescriptor_T64BV_CMD_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -56621,7 +56811,7 @@ export WeaponDescriptor_T64BV_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         2,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -56796,7 +56986,7 @@ export WeaponDescriptor_T64BV_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -56813,7 +57003,7 @@ export WeaponDescriptor_T64B_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         2,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -56988,7 +57178,7 @@ export WeaponDescriptor_T64B_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -57003,8 +57193,8 @@ export WeaponDescriptor_T72M1_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        2,
-        53,
+        1,
+        65,
         45,
         1,
         -1,
@@ -57198,7 +57388,7 @@ export WeaponDescriptor_T72M1_CMD_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -57214,7 +57404,7 @@ export WeaponDescriptor_T72M1_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         2,
-        53,
+        65,
         45,
         1,
         -1,
@@ -57408,7 +57598,7 @@ export WeaponDescriptor_T72M1_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -57424,7 +57614,7 @@ export WeaponDescriptor_T72M_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         1,
-        53,
+        65,
         45,
         1,
         -1,
@@ -57618,7 +57808,7 @@ export WeaponDescriptor_T72M_CMD_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -57634,7 +57824,7 @@ export WeaponDescriptor_T72M_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         2,
-        53,
+        65,
         45,
         1,
         -1,
@@ -57828,7 +58018,7 @@ export WeaponDescriptor_T72M_DDR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -57844,7 +58034,7 @@ export WeaponDescriptor_T72_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         2,
-        53,
+        65,
         45,
         -1,
         -1,
@@ -58020,7 +58210,7 @@ export WeaponDescriptor_T80BV_Beast_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         2,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -58195,7 +58385,7 @@ export WeaponDescriptor_T80BV_Beast_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -58211,7 +58401,7 @@ export WeaponDescriptor_T80BV_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         2,
-        53,
+        65,
         45,
         1,
         -1,
@@ -58399,7 +58589,7 @@ export WeaponDescriptor_T80BV_CMD_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -58416,7 +58606,7 @@ export WeaponDescriptor_T80BV_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         2,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -58591,7 +58781,7 @@ export WeaponDescriptor_T80BV_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -58607,7 +58797,7 @@ export WeaponDescriptor_T80B_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         2,
-        53,
+        65,
         45,
         1,
         -1,
@@ -58795,7 +58985,7 @@ export WeaponDescriptor_T80B_CMD_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -58812,7 +59002,7 @@ export WeaponDescriptor_T80B_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         2,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -58987,7 +59177,7 @@ export WeaponDescriptor_T80B_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -59004,7 +59194,7 @@ export WeaponDescriptor_T80UD_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         2,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -59179,7 +59369,7 @@ export WeaponDescriptor_T80UD_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -59196,7 +59386,7 @@ export WeaponDescriptor_T80U_CMD_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         2,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -59371,7 +59561,7 @@ export WeaponDescriptor_T80U_CMD_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -59388,7 +59578,7 @@ export WeaponDescriptor_T80U_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         2,
         6,
-        53,
+        65,
         1,
         -1,
         -1
@@ -59563,7 +59753,7 @@ export WeaponDescriptor_T80U_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_6'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_6'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
                 )
             ]
             NbFX                        = 2
@@ -59648,7 +59838,7 @@ export WeaponDescriptor_TO_55_DDR is TWeaponManagerModuleDescriptor
     Salves               = [
         21,
         5,
-        53,
+        65,
         -1,
         -1,
         -1
@@ -59822,7 +60012,7 @@ export WeaponDescriptor_TO_55_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         21,
         5,
-        53,
+        65,
         -1,
         -1,
         -1
@@ -59994,7 +60184,7 @@ export WeaponDescriptor_TPZ_Fuchs_1_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        15,
+        23,
         1,
         -1,
         -1,
@@ -60082,7 +60272,7 @@ export WeaponDescriptor_TPZ_Fuchs_1_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -60097,7 +60287,7 @@ export WeaponDescriptor_TPZ_Fuchs_CMD_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        15,
+        23,
         1,
         -1,
         -1,
@@ -60185,7 +60375,7 @@ export WeaponDescriptor_TPZ_Fuchs_CMD_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -60200,7 +60390,7 @@ export WeaponDescriptor_TPZ_Fuchs_MILAN_RFA is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        15,
+        23,
         5,
         1,
         -1,
@@ -60327,7 +60517,7 @@ export WeaponDescriptor_TPZ_Fuchs_MILAN_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -60390,7 +60580,7 @@ export WeaponDescriptor_TPZ_Fuchs_RASIT_RFA is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -60474,7 +60664,7 @@ export WeaponDescriptor_TUTO_M1025_Humvee_US is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -60664,8 +60854,8 @@ export WeaponDescriptor_Territorial_UK is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        140,
-        80,
+        182,
+        92,
         4,
         -1,
         -1,
@@ -61305,7 +61495,7 @@ export WeaponDescriptor_UAZ_469_Reco_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -61373,7 +61563,7 @@ export WeaponDescriptor_UAZ_469_Reco_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -61809,7 +61999,7 @@ export WeaponDescriptor_VAB_CMD_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -61877,7 +62067,7 @@ export WeaponDescriptor_VAB_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -62014,7 +62204,7 @@ export WeaponDescriptor_VAB_MILAN_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         4,
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -62256,7 +62446,7 @@ export WeaponDescriptor_VAB_T20_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         60,
-        29,
+        45,
         1,
         -1,
         -1,
@@ -62387,7 +62577,7 @@ export WeaponDescriptor_VAB_T20_FR is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_5'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_5'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
                 )
             ]
             NbFX                        = 2
@@ -62403,7 +62593,7 @@ export WeaponDescriptor_VBL_MILAN_FR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         4,
-        29,
+        45,
         -1,
         -1,
         -1,
@@ -62509,7 +62699,7 @@ export WeaponDescriptor_VBL_PC_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        29,
+        45,
         -1,
         -1,
         -1,
@@ -62577,7 +62767,7 @@ export WeaponDescriptor_VBL_Reco_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -62646,8 +62836,8 @@ export WeaponDescriptor_VDV_Afgantsy_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        160,
+        104,
+        184,
         100,
         -1,
         -1,
@@ -62768,7 +62958,7 @@ export WeaponDescriptor_VDV_CMD_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         80,
-        80,
+        92,
         3,
         -1,
         -1,
@@ -62888,8 +63078,8 @@ export WeaponDescriptor_VDV_HMG_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
-        240,
+        104,
+        276,
         4,
         -1,
         -1,
@@ -63009,8 +63199,8 @@ export WeaponDescriptor_VDV_Mech_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        100,
-        80,
+        130,
+        92,
         6,
         -1,
         -1,
@@ -63130,8 +63320,8 @@ export WeaponDescriptor_VDV_Metis_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         6,
         -1,
         -1,
@@ -63251,8 +63441,8 @@ export WeaponDescriptor_VDV_SOV is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        120,
-        80,
+        156,
+        92,
         6,
         -1,
         -1,
@@ -63441,7 +63631,7 @@ export WeaponDescriptor_VLRA_HMG_FR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        80,
+        100,
         -1,
         -1,
         -1,
@@ -64021,7 +64211,7 @@ export WeaponDescriptor_Wachregiment_CMD_DDR is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     Salves               = [
         60,
-        60,
+        78,
         6,
         -1,
         -1,
@@ -64141,8 +64331,8 @@ export WeaponDescriptor_Wachregiment_DDR is TWeaponManagerModuleDescriptor
     DefaultHoldFireState = False
     DefaultRiposteStance = False
     Salves               = [
-        180,
-        80,
+        234,
+        92,
         4,
         -1,
         -1,
@@ -66897,13 +67087,13 @@ export WeaponDescriptor_Lynx_AH_Mk1_UK is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_MMG_inf_MAG_7_62mm
+                    Ammunition                          = ~/Ammo_MMG_AANF1_7_62mm
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_MMG_inf_MAG_7_62mm'
+                    EffectTag                           = 'FireEffect_MMG_AANF1_7_62mm'
                     HandheldEquipmentKey                = 'MeshAlternative_1'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -66914,6 +67104,7 @@ export WeaponDescriptor_Lynx_AH_Mk1_UK is TWeaponManagerModuleDescriptor
                     SplashRadiusOffThickness            = -0.1
                     SplashRadiusOnColor                 = RGBA[0,0,0,0]
                     SplashRadiusOnThickness             = -0.1
+                    TirContinu                          = True
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_1'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_1'
                     WeaponShootDataPropertyName         = ["WeaponShootData_0_1", ]
@@ -71376,7 +71567,7 @@ export WeaponDescriptor_Alpha_Jet_A_clu_RFA is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((1400) * Metre)
-            FlyingSpeed                 = ((1560) * Metre)
+            FlyingSpeed                 = ((1466) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -71473,7 +71664,7 @@ export WeaponDescriptor_Alpha_Jet_A_he_RFA is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((1400) * Metre)
-            FlyingSpeed                 = ((1560) * Metre)
+            FlyingSpeed                 = ((1466) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -71570,7 +71761,7 @@ export WeaponDescriptor_Alpha_Jet_A_nplm_RFA is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((1400) * Metre)
-            FlyingSpeed                 = ((1560) * Metre)
+            FlyingSpeed                 = ((1466) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -71703,7 +71894,7 @@ export WeaponDescriptor_Alpha_Jet_A_rkt_RFA is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 1.3962634015954636
+            AngleRotationMax                        = 0.3490658503988659
             AngleRotationMaxPitch                   = 0.5235987755982988
             AngleRotationMinPitch                   = -0.5235987755982988
             MountedWeaponDescriptorList             = [
@@ -71902,7 +72093,7 @@ export WeaponDescriptor_F104G_Starfighter_HE_RFA is TWeaponManagerModuleDescript
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((4000) * Metre)
-            FlyingSpeed                 = ((3080) * Metre)
+            FlyingSpeed                 = ((2886) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -72061,7 +72252,7 @@ export WeaponDescriptor_F111E_Aardvark_CBU_US is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2255) * Metre)
+            FlyingSpeed                 = ((2119) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -72121,7 +72312,7 @@ export WeaponDescriptor_F111E_Aardvark_US is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2255) * Metre)
+            FlyingSpeed                 = ((2119) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -72181,7 +72372,7 @@ export WeaponDescriptor_F111E_Aardvark_napalm_US is TWeaponManagerModuleDescript
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2255) * Metre)
+            FlyingSpeed                 = ((2119) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -72239,7 +72430,7 @@ export WeaponDescriptor_F111F_Aardvark_CBU_US is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2420) * Metre)
+            FlyingSpeed                 = ((2273) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -72417,7 +72608,7 @@ export WeaponDescriptor_F111F_Aardvark_US is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2420) * Metre)
+            FlyingSpeed                 = ((2273) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -72475,7 +72666,7 @@ export WeaponDescriptor_F111F_Aardvark_napalm_US is TWeaponManagerModuleDescript
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2420) * Metre)
+            FlyingSpeed                 = ((2273) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -73314,7 +73505,7 @@ export WeaponDescriptor_F16E_CBU_US is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2200) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -73448,7 +73639,7 @@ export WeaponDescriptor_F16E_HE_US is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2200) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -73718,7 +73909,7 @@ export WeaponDescriptor_F16E_napalm_US is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2200) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -73988,7 +74179,7 @@ export WeaponDescriptor_F4E_Phantom_II_CBU_US is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -74122,7 +74313,7 @@ export WeaponDescriptor_F4E_Phantom_II_HE_US is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -74256,7 +74447,7 @@ export WeaponDescriptor_F4E_Phantom_II_napalm_US is TWeaponManagerModuleDescript
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -74588,7 +74779,7 @@ export WeaponDescriptor_F4F_Phantom_II_HE1_RFA is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -74722,7 +74913,7 @@ export WeaponDescriptor_F4F_Phantom_II_HE2_RFA is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -75248,7 +75439,7 @@ export WeaponDescriptor_G91_R3_Gina_HE_RFA is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((1400) * Metre)
-            FlyingSpeed                 = ((1650) * Metre)
+            FlyingSpeed                 = ((1833) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -75346,7 +75537,7 @@ export WeaponDescriptor_G91_R3_Gina_NPL_RFA is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((1400) * Metre)
-            FlyingSpeed                 = ((1650) * Metre)
+            FlyingSpeed                 = ((1833) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -75515,7 +75706,7 @@ export WeaponDescriptor_G91_R3_Gina_RKT_RFA is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 1.3962634015954636
+            AngleRotationMax                        = 0.3490658503988659
             AngleRotationMaxPitch                   = 0.5235987755982988
             AngleRotationMinPitch                   = -0.5235987755982988
             MountedWeaponDescriptorList             = [
@@ -75616,7 +75807,7 @@ export WeaponDescriptor_Harrier_CLU_UK is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((1527) * Metre)
+            FlyingSpeed                 = ((1604) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -75750,7 +75941,7 @@ export WeaponDescriptor_Harrier_HE1_UK is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((1527) * Metre)
+            FlyingSpeed                 = ((1604) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -75883,7 +76074,7 @@ export WeaponDescriptor_Harrier_HE2_UK is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((1527) * Metre)
+            FlyingSpeed                 = ((1604) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -76152,7 +76343,7 @@ export WeaponDescriptor_Harrier_RKT2_UK is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 1.3962634015954636
+            AngleRotationMax                        = 0.3490658503988659
             AngleRotationMaxPitch                   = 0.5235987755982988
             AngleRotationMinPitch                   = -0.5235987755982988
             MountedWeaponDescriptorList             = [
@@ -76451,7 +76642,7 @@ export WeaponDescriptor_Jaguar_CLU_UK is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2475) * Metre)
+            FlyingSpeed                 = ((2324) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -76585,7 +76776,7 @@ export WeaponDescriptor_Jaguar_HE1_UK is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2475) * Metre)
+            FlyingSpeed                 = ((2324) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -76719,7 +76910,7 @@ export WeaponDescriptor_Jaguar_HE2_UK is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2475) * Metre)
+            FlyingSpeed                 = ((2324) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -76853,7 +77044,7 @@ export WeaponDescriptor_Jaguar_HE_FR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2475) * Metre)
+            FlyingSpeed                 = ((2324) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -77122,7 +77313,7 @@ export WeaponDescriptor_Jaguar_RKT_UK is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 1.3962634015954636
+            AngleRotationMax                        = 0.3490658503988659
             AngleRotationMaxPitch                   = 0.5235987755982988
             AngleRotationMinPitch                   = -0.5235987755982988
             MountedWeaponDescriptorList             = [
@@ -77494,7 +77685,7 @@ export WeaponDescriptor_Jaguar_clu_FR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2475) * Metre)
+            FlyingSpeed                 = ((2324) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -77628,7 +77819,7 @@ export WeaponDescriptor_Jaguar_nplm_FR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2475) * Metre)
+            FlyingSpeed                 = ((2324) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -78133,7 +78324,7 @@ export WeaponDescriptor_MiG_21bis_HE_DDR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2750) * Metre)
+            FlyingSpeed                 = ((2583) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -78229,7 +78420,7 @@ export WeaponDescriptor_MiG_21bis_RKT2_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 1.3962634015954636
+            AngleRotationMax                        = 0.3490658503988659
             AngleRotationMaxPitch                   = 0.5235987755982988
             AngleRotationMinPitch                   = -0.5235987755982988
             MountedWeaponDescriptorList             = [
@@ -78565,7 +78756,7 @@ export WeaponDescriptor_MiG_23MF_DDR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3000) * Metre)
-            FlyingSpeed                 = ((2750) * Metre)
+            FlyingSpeed                 = ((2583) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -79219,7 +79410,7 @@ export WeaponDescriptor_MiG_25RBF_SOV is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2200) * Metre)
+            FlyingSpeed                 = ((2068) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -79628,7 +79819,7 @@ export WeaponDescriptor_MiG_27M_bombe_SOV is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2090) * Metre)
+            FlyingSpeed                 = ((1964) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -79751,7 +79942,7 @@ export WeaponDescriptor_MiG_27M_napalm_SOV is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2090) * Metre)
+            FlyingSpeed                 = ((1964) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -80740,7 +80931,7 @@ export WeaponDescriptor_Mirage_5_F_FR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2585) * Metre)
+            FlyingSpeed                 = ((2442) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -80873,7 +81064,7 @@ export WeaponDescriptor_Mirage_5_F_clu_FR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2585) * Metre)
+            FlyingSpeed                 = ((2442) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -80971,7 +81162,7 @@ export WeaponDescriptor_Mirage_5_F_nplm_FR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2585) * Metre)
+            FlyingSpeed                 = ((2442) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -81436,7 +81627,7 @@ export WeaponDescriptor_Mirage_IV_FR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2750) * Metre)
+            FlyingSpeed                 = ((2583) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -81530,7 +81721,7 @@ export WeaponDescriptor_Mirage_IV_SEAD_FR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((3500) * Metre)
-            FlyingSpeed                 = ((2750) * Metre)
+            FlyingSpeed                 = ((2583) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -81900,7 +82091,7 @@ export WeaponDescriptor_Su_22_DDR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -82431,7 +82622,7 @@ export WeaponDescriptor_Su_22_clu_DDR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -82565,7 +82756,7 @@ export WeaponDescriptor_Su_22_nplm_DDR is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2310) * Metre)
+            FlyingSpeed                 = ((2171) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -82821,7 +83012,7 @@ export WeaponDescriptor_Su_24M_SOV is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2420) * Metre)
+            FlyingSpeed                 = ((2273) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -82880,7 +83071,7 @@ export WeaponDescriptor_Su_24M_clu2_SOV is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2420) * Metre)
+            FlyingSpeed                 = ((2273) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -82939,7 +83130,7 @@ export WeaponDescriptor_Su_24M_clu_SOV is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2420) * Metre)
+            FlyingSpeed                 = ((2273) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -82998,7 +83189,7 @@ export WeaponDescriptor_Su_24M_nplm_SOV is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((2000) * Metre)
-            FlyingSpeed                 = ((2420) * Metre)
+            FlyingSpeed                 = ((2273) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -84031,7 +84222,7 @@ export WeaponDescriptor_Tornado_ADV_HE_UK is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((1400) * Metre)
-            FlyingSpeed                 = ((2750) * Metre)
+            FlyingSpeed                 = ((2583) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -84437,7 +84628,7 @@ export WeaponDescriptor_Tornado_ADV_clu_UK is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((1400) * Metre)
-            FlyingSpeed                 = ((2750) * Metre)
+            FlyingSpeed                 = ((2583) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -84707,7 +84898,7 @@ export WeaponDescriptor_Tornado_IDS_CLUS_RFA is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((1400) * Metre)
-            FlyingSpeed                 = ((2750) * Metre)
+            FlyingSpeed                 = ((2583) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -84841,7 +85032,7 @@ export WeaponDescriptor_Tornado_IDS_HE1_RFA is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((1400) * Metre)
-            FlyingSpeed                 = ((2750) * Metre)
+            FlyingSpeed                 = ((2583) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -85111,7 +85302,7 @@ export WeaponDescriptor_Tornado_IDS_RFA is TWeaponManagerModuleDescriptor
         TTurretBombardierDescriptor
         (
             FlyingAltitude              = ((1400) * Metre)
-            FlyingSpeed                 = ((2750) * Metre)
+            FlyingSpeed                 = ((2583) * Metre)
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
