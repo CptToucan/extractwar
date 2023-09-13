@@ -109,10 +109,6 @@ export default class NdfToJson extends Command {
     if (args.previousNdfFolder) {
       previousPatchData = await this.extractNdfData(args.previousNdfFolder);
 
-      const divisionDiff = diff(
-        previousPatchData.divisions,
-        currentPatchData.divisions
-      );
 
       const patchDiff: any[] = [];
 
@@ -137,7 +133,54 @@ export default class NdfToJson extends Command {
         }
       }
 
-      fs.writeFileSync('patch.json', JSON.stringify(patchDiff));
+      const divDiff: any[] = [];
+      for(const division of currentPatchData.divisions) {
+        const oldDivision = previousPatchData.divisions.find((d: any) => d.descriptor === division.descriptor);
+
+        const newPacks = division.packs;
+        const oldPacks = oldDivision.packs;
+
+        const divisionDiff: {
+          descriptor: string;
+          packDiff: any[];
+        } = {
+          descriptor: division.descriptor,
+          packDiff: []
+        };
+
+        for(const pack of newPacks) {
+          const oldPack = oldPacks.find((p: any) => p.packDescriptor === pack.packDescriptor);
+
+          if(oldPack) {
+            const packDiff = diff(oldPack, pack);
+
+            if(packDiff) {
+              divisionDiff.packDiff.push({
+                descriptor: pack.unitDescriptor,
+                pack: pack.packDescriptor,
+                diff: packDiff,
+              })
+            }
+          } else {
+            divisionDiff.packDiff.push({
+              descriptor: pack.unitDescriptor,
+              pack: pack.packDescriptor,
+              new: true,
+            })
+          }
+        }
+
+
+        divDiff.push(divisionDiff)
+      }
+
+
+      const combinedDiff = {
+        unitStats: patchDiff,
+        unitAvailability: divDiff
+      }
+      
+      fs.writeFileSync('patch.json', JSON.stringify(combinedDiff));
     }
 
     // create a stripped down version of the unit data that only contains the descriptorName and the id, as well as all the division data
@@ -203,12 +246,8 @@ export default class NdfToJson extends Command {
       ndfs.missile
     );
 
-    console.log((ndfs.deckSerializer[0] as NdfObject).attributes[3]);
-
     const divisionIds = (ndfs.deckSerializer[0] as NdfObject).attributes[0];
     const unitIds = (ndfs.deckSerializer[0] as NdfObject).attributes[2];
-
-    console.log(((divisionIds.value as any).value)[0].value as ParserTuple);
 
     const divisionIdTuples: ParserTuple[] = ((divisionIds.value as any).value);
     const unitIdTuples: ParserTuple[] = ((unitIds.value as any).value); 

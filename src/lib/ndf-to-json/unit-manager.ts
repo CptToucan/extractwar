@@ -223,7 +223,6 @@ export class UnitManager extends AbstractManager {
         )
       : undefined;
 
-    console.log(this.getValueFromSearch('LowAltitudeFlyingAltitude'));
     const flyingAltitude = this.getValueFromSearch('LowAltitudeFlyingAltitude')
       ? Math.round(
           NdfManager.parseNumberFromMetre(

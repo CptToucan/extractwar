@@ -64,7 +64,6 @@ export class NdfManager {
 
     for (const key in filesToRead) {
       if (Object.prototype.hasOwnProperty.call(filesToRead, key)) {
-        console.log(key);
         const annotatedDescriptor = this.extractToAnnotatedDescriptor(
           filesToRead[key]
         );
