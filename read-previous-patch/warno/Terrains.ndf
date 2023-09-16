@@ -11,7 +11,6 @@ export DefaultTerrain is TGameplayTerrain
     DissimulationModifierGroundGround = 0
     HeightInMeters = 0
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_DEF'
     Name = 'DefaultTerrain'
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
@@ -43,7 +42,6 @@ export ForetDense is TGameplayTerrain
     DissimulationModifierGroundGround = 24
     HeightInMeters = 11
     InflammabilityProbability = 0.8
-    LocalizationToken = 'TER_FOR_H'
     Name = 'ForetDense'
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 1
@@ -81,7 +79,6 @@ export ForetLegere is TGameplayTerrain
     DissimulationModifierGroundGround = 10
     HeightInMeters = 20
     InflammabilityProbability = 0.6
-    LocalizationToken = 'TER_FOR_L'
     Name = 'ForetLegere'
     SpeedModifierAllTerrainWheel = 0.45
     SpeedModifierBoats = 0
@@ -121,7 +118,6 @@ export PetitBatiment is TGameplayTerrain
     DissimulationModifierGroundGround = 10
     HeightInMeters = 8
     InflammabilityProbability = 0.2
-    LocalizationToken = 'TER_BUILD'
     Name = 'PetitBatiment'
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
@@ -160,7 +156,6 @@ export Batiment is TGameplayTerrain
     DissimulationModifierGroundGround = 10
     HeightInMeters = 8
     InflammabilityProbability = 0.2
-    LocalizationToken = 'TER_BUILD'
     Name = 'Batiment'
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
@@ -199,7 +194,6 @@ export Ruin is TGameplayTerrain
     DissimulationModifierGroundGround = 10
     HeightInMeters = 8
     InflammabilityProbability = 0.2
-    LocalizationToken = 'TER_BUILD'
     Name = 'Ruin'
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
@@ -247,7 +241,6 @@ export Tranchee is TGameplayTerrain
     DissimulationModifierGroundGround = 1
     HeightInMeters = 1
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_TRENCH'
     Name = 'Trench'
     SpeedModifierAllTerrainWheel = 0.9
     SpeedModifierInfantry = 1
@@ -293,7 +286,6 @@ export Barbeles is TGameplayTerrain
     DissimulationModifierGroundGround = 0
     HeightInMeters = 8
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_BWIRE'
     Name = 'TerrainBarbeles'
     SpeedModifierAllTerrainWheel = 0.25
     SpeedModifierInfantry = 0.25
@@ -339,7 +331,6 @@ export NidMitrailleuse is TGameplayTerrain
     DissimulationModifierGroundGround = 1
     HeightInMeters = 1
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_MGNEST'
     Name = 'GunnerNest'
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
@@ -365,7 +356,6 @@ export Bloqueur is TGameplayTerrain
     DissimulationModifierGroundGround = 0
     HeightInMeters = 0
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_BLQ0'
     Name = 'Bloqueur'
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
@@ -391,7 +381,6 @@ export StrategicForest is TGameplayTerrain
     DissimulationModifierGroundGround = 0
     HeightInMeters = 0
     InflammabilityProbability = 0.1
-    LocalizationToken = 'TER_CEREAL'
     Name = 'StrategicForest'
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierInfantry = 1
@@ -417,7 +406,6 @@ export StrategicPlain is TGameplayTerrain
     DissimulationModifierGroundGround = 0
     HeightInMeters = 0
     InflammabilityProbability = 0.1
-    LocalizationToken = 'TER_CEREAL'
     Name = 'StrategicPlain'
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierInfantry = 1
@@ -443,7 +431,6 @@ export StrategicSemiUrban is TGameplayTerrain
     DissimulationModifierGroundGround = 0
     HeightInMeters = 0
     InflammabilityProbability = 0.1
-    LocalizationToken = 'TER_CEREAL'
     Name = 'StrategicSemiUrban'
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierInfantry = 1
@@ -453,6 +440,31 @@ export StrategicSemiUrban is TGameplayTerrain
     SpeedModifierBoats = 0
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
     TerrainType = ~/ETerrainType/StrategicSemiUrban
+    WorldLayerActiveMask = 255
+    AuthorizeNearGroundFlying = true
+)
+export StrategicRiver is TGameplayTerrain
+(
+    BloqueAmphibie = false
+    BloqueAtterrissage = false
+    BloqueInfanterie = false
+    BloqueVehicule = false
+    BloqueVision = false
+    CriticalEffectProbability = 0
+    DebugColor = rgba[25, 25, 255, 255]
+    DissimulationModifierGroundAir = 0
+    DissimulationModifierGroundGround = 0
+    HeightInMeters = 0
+    InflammabilityProbability = 0.1
+    Name = 'StrategicRiver'
+    SpeedModifierAllTerrainWheel = 0.8
+    SpeedModifierInfantry = 1
+    SpeedModifierTrack = 0.9
+    StealthBonus = 1
+    //~~~~~~~~
+    SpeedModifierBoats = 0
+    DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
+    TerrainType = ~/ETerrainType/StrategicRiver
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
@@ -470,7 +482,6 @@ export EauPeuProfonde is TGameplayTerrain
     DissimulationModifierGroundGround = 0
     HeightInMeters = 0
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_WATE'
     Name = 'EauPeuProfonde'
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 0.8
@@ -517,7 +528,6 @@ export Urbain is TGameplayTerrain
     DissimulationModifierGroundGround = 40 //20
     HeightInMeters = 4//8
     InflammabilityProbability = 0.4
-    LocalizationToken = 'TER_URBN'
     Name = 'Urbain'
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
@@ -543,7 +553,6 @@ export Rocher is TGameplayTerrain
     DissimulationModifierGroundGround = 0
     HeightInMeters = 0
     InflammabilityProbability = 0.1
-    LocalizationToken = 'TER_ROCK'
     Name = 'Rocher'
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 1
@@ -569,7 +578,6 @@ export SmokeHeavy is TGameplayTerrain
     DissimulationModifierGroundGround = 50
     HeightInMeters = 25
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_SMOKEH'
     Name = 'HeavySmoke'
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
@@ -595,7 +603,6 @@ export SmokeLight is TGameplayTerrain
     DissimulationModifierGroundGround = 50
     HeightInMeters = 25
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_SMOKEL'
     Name = 'LightSmoke'
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
@@ -621,7 +628,6 @@ export SmokeMedium is TGameplayTerrain
     DissimulationModifierGroundGround = 50
     HeightInMeters = 25
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_SMOKEM'
     Name = 'MediumSmoke'
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
@@ -647,7 +653,6 @@ export EauProfonde is TGameplayTerrain
     DissimulationModifierGroundGround = 0
     HeightInMeters = 0
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_DEEP_W'
     Name = 'EauProfonde'
     SpeedModifierAllTerrainWheel = 0.3
     SpeedModifierInfantry = 0.8
@@ -673,7 +678,6 @@ export BloqueConstruction is TGameplayTerrain
     DissimulationModifierGroundGround = 0
     HeightInMeters = 0
     InflammabilityProbability = 0
-    LocalizationToken = 'TER_BLQCST'
     Name = 'BloqueConstruction'
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1

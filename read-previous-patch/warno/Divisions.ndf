@@ -941,7 +941,7 @@ Descriptor_Deck_Division_RFA_2_PzGrenadier_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_M110A2_Howz_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_M113A1G_supply_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_M113_PzMorser_RFA, 2),
-        (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_M270_MLRS_RFA, 2),
+        (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_M270_MLRS_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_M48A2C_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_M577_RFA, 3),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_MANPAD_Redeye_RFA, 3),
@@ -1035,7 +1035,7 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_M110A2_Howz_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_M113A1G_supply_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_M113_PzMorser_RFA, 2),
-        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_M270_MLRS_RFA, 2),
+        (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_M270_MLRS_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_M48A2C_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_M577_RFA, 3),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_MANPAD_Redeye_RFA, 3),
@@ -1496,6 +1496,108 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge is TDeckDivisionDescripto
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_VDV_Metis_SOV, 999),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_VDV_SOV, 999),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_ZSU_23_Shilka_Afghan_SOV, 999),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_SOV_35_AirAslt_Brig_multi
+    EmblemTexture     = "Texture_Division_Emblem_35th_VDV_Brigade"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "SOV"
+)
+Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge_IA is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{ae90e90d-af4b-4243-a84e-e50793efb7d1}
+    CfgName = 'SOV_35_AirAslt_Brig_challenge_IA'
+    DivisionName = 'MVXKWGESXW'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['HB', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{92f31483-4ad1-454f-9036-2278bba938fa}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'VEZMXYORKU'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_2S9_Nona_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_AT_D44_85mm_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_ATteam_Konkurs_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_ATteam_RCL_SPG9_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Atteam_Fagot_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Atteam_Konkurs_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BM21V_GradV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BMD_1_CMD_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_2_CMD_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_2_Konkurs_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_2_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_Strela_1_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BRM_1_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_DCA_ZU_23_2_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_DShV_CMD_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_DShV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_CMD_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_Flam_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_Scout_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_GAZ_66B_ZU_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_HMGteam_AGS17_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_HMGteam_NSV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_HMGteam_PKM_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Howz_D30_122mm_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_HvyScout_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Ka_50_AA_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Ka_50_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MANPAD_Igla_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MTLB_Vasilek_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_23ML_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_25BM_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_25RBF_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27K_LGB_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27M_bombe_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27M_napalm_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27M_rkt_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_29_AA_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24K_reco_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24VP_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24V_AA_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24V_AT_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24V_RKT_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_26_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_2_reco_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8K_CMD_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8R_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TV_s57_16_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TV_s57_32_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TV_s80_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TZ_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mortier_2B9_Vasilek_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mortier_2S12_120mm_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Scout_LRRP_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Scout_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Spetsnaz_CMD_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Spetsnaz_FireSupport_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Spetsnaz_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Su_25_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Su_25_clu_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_T64BV_CMD_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_T64BV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_T64B_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_AGL_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_CMD_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_Konkurs_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_SPG9_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_supply_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_CMD_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_HMG_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_Mech_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_Metis_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_SOV, 999),
+        (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_ZSU_23_Shilka_Afghan_SOV, 999),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_35_AirAslt_Brig_multi
@@ -2385,6 +2487,92 @@ Descriptor_Deck_Division_UK_2nd_Infantry_multi is TDeckDivisionDescriptor
     TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "UK"
 )
+Descriptor_Deck_Division_UK_Blues_Royals_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{aaf0bdf7-0edc-437f-b211-a8341d0f1dd6}
+    CfgName = 'UK_Blues_Royals_challenge'
+    DivisionName = 'MSVIEZBTGS'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['HB', 'UK', 'Allied', 'DC_PWR1']
+    UncensoredHintGUID = GUID:{c4ebada7-dab4-43da-b3e1-8595afe92ee1}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'WLLOBJSCYP'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_81mm_mortar_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_ATteam_Milan_1_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_ATteam_Milan_2_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_ATteam_Milan_2_para_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Bedford_MJ_4t_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_CH47D_Chinook_supply_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Challenger_1_Mk1_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Challenger_1_Mk1_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_DCA_Javelin_LML_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_DCA_Rapier_FSA_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Engineers_AT_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Engineers_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Engineers_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FH70_155mm_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV101_Scorpion_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV102_Striker_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV105_Sultan_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV107_Scimitar_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV4003_Centurion_AVRE_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV4201_Chieftain_Mk11_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV4201_Chieftain_Mk11_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV4201_Chieftain_Mk9_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV432_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV432_Mortar_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV433_Abbot_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV438_Swingfire_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV721_Fox_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Ferret_Mk2_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Gazelle_SNEB_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Gazelle_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Gun_Group_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_HMGteam_MAG_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Harrier_CLU_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Harrier_HE2_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Jaguar_HE2_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Jaguar_RKT_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_LRRP_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_LandRover_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_LandRover_MILAN_Para_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_LandRover_MILAN_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Lynx_AH_Mk1_TOW_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Lynx_AH_Mk7_I_TOW_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_M109A2_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_M113_GreenArcher_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_MANPAD_Javelin_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Paratroopers_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Paratroopers_MILAN_TA_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Paratroopers_TA_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_RMP_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Rifles_AT_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Rifles_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Rifles_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Scout_AT_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Scout_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Tornado_ADV_HE_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Tornado_ADV_SEAD_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Tornado_ADV_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Tornado_ADV_clu_UK, 999),
+        (~/Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Tracked_Rapier_UK, 999),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_UK_1st_Armoured_multi
+    EmblemTexture     = "Texture_Division_Emblem_default"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_default"
+    CountryId = "UK"
+)
 Descriptor_Deck_Division_US_11ACR_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{73e51c86-2d41-4fd7-818a-a8f5b288ab4b}
@@ -2798,8 +2986,8 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1HA_Abrams_US, 5),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_CMD_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_US, 6),
-        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_US, 2),
-        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_cluster_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_cluster_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A2_Bradley_Leader_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M35_supply_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M3A1_Bradley_CFV_US, 2),
@@ -3083,7 +3271,7 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1A1_Abrams_US, 4),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1_Abrams_CMD_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1_Abrams_US, 4),
-        (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M270_MLRS_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M270_MLRS_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M35_supply_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M3A1_Bradley_CFV_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M48_Chaparral_MIM72F_US, 3),

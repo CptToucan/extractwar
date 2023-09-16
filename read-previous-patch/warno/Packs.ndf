@@ -12109,6 +12109,894 @@ Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_HvyScout_SOV is TDeckPack
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_2S9_Nona_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{5c308b52-301c-4c10-98bf-62194d2ed3d2}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_2S9_Nona_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_2S9_Nona_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_AT_D44_85mm_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b46f674e-8360-46ff-a878-b2e241557510}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_AT_D44_85mm_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AT_D44_85mm_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_ATteam_Konkurs_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{692f776a-72cf-4140-8144-f4bbb1e97078}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_ATteam_Konkurs_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_Konkurs_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_ATteam_RCL_SPG9_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1f788d52-5b9b-4b82-a0c0-ad66bb54bb91}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_ATteam_RCL_SPG9_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_RCL_SPG9_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Atteam_Fagot_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{603b1b86-ffe8-4871-98a7-9fa2d096cdd4}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Atteam_Fagot_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Atteam_Fagot_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Atteam_Konkurs_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{4f1e5194-822b-400e-839e-058f340d989c}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Atteam_Konkurs_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Atteam_Konkurs_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BM21V_GradV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{9b34f064-7b0d-49a0-85e0-cdc55d3cb66e}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_BM21V_GradV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BM21V_GradV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BMD_1_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1fa6cde1-7055-4ee7-b6ec-570513aad977}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_BMD_1_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BMD_1_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_2_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c8373742-dff7-436b-8bd0-a38bc49fe799}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_2_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRDM_2_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_2_Konkurs_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d297ce50-03d7-40a0-8097-48b3c2670c04}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_2_Konkurs_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRDM_2_Konkurs_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_2_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{cbcd3e10-17af-4ece-a750-63553ffec501}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_2_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRDM_2_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_Strela_1_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e37ba371-45f3-405d-bd30-6a79e0f4f615}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_BRDM_Strela_1_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRDM_Strela_1_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_BRM_1_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ac2f4ce3-38a4-4c38-9507-ad8c1d4211c0}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_BRM_1_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRM_1_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_DCA_ZU_23_2_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{bb364019-406f-476b-87c5-d2c2c77ae6bd}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_DCA_ZU_23_2_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_DCA_ZU_23_2_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_DShV_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{bc94ef4d-aaf4-428f-94bd-93540dcbabf7}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_DShV_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_DShV_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_DShV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7cc9adfd-d4cf-4950-9b3d-9114d24f6f43}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_DShV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_DShV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_CMD_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{4a2ea072-4e3a-401f-b9d4-4f10d76b2a43}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_CMD_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_CMD_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_Flam_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{baeb8f93-22c5-4507-b96f-b79bc2f5b74d}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_Flam_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_Flam_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_Scout_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a2ccd9e9-c1e7-4815-b1da-8a4bf2c586fe}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_Scout_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_Scout_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c052cd98-42bf-4e87-aa5c-242315e7d4d6}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Engineers_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_GAZ_66B_ZU_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c475311d-3ac7-4cea-8d7a-55e3b684918e}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_GAZ_66B_ZU_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_GAZ_66B_ZU_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_HMGteam_AGS17_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{70464085-8eb0-4336-b053-29c6148849df}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_HMGteam_AGS17_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_HMGteam_AGS17_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_HMGteam_NSV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{803e3ff1-594a-4444-beea-5b699b5ccc99}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_HMGteam_NSV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_HMGteam_NSV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_HMGteam_PKM_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d1102d66-e754-436b-a5b2-0a954e43f4bd}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_HMGteam_PKM_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_HMGteam_PKM_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Howz_D30_122mm_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{62b1b00b-6897-4b3d-8a76-f8126774dc6a}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Howz_D30_122mm_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Howz_D30_122mm_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_HvyScout_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{9c7be2a1-c891-42b7-830a-dce5ab643b9d}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_HvyScout_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_HvyScout_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Ka_50_AA_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b650feb9-2c9c-4948-a996-997a50039de9}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Ka_50_AA_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Ka_50_AA_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Ka_50_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d9d1b5ea-6b3c-4913-aa0a-cfd2071707bf}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Ka_50_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Ka_50_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MANPAD_Igla_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b00197d7-e903-4d49-8dea-31daaf9c7590}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_MANPAD_Igla_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MANPAD_Igla_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MTLB_Vasilek_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{269ad10f-22a9-4186-933a-d0749177dbe1}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_MTLB_Vasilek_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MTLB_Vasilek_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_23ML_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{2b5ddca1-527b-413d-9884-0db4fd2808ef}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_23ML_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_23ML_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_25BM_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{761b886b-7c0c-47a5-bfd9-3b8370bfb74a}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_25BM_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_25BM_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_25RBF_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{738dce48-d4cf-4023-9cc6-70fa080a24e2}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_25RBF_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_25RBF_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27K_LGB_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{05d31118-c189-4b57-a675-c5473a794630}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27K_LGB_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_27K_LGB_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27M_bombe_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{740fcde5-97f9-496a-965a-d5084d39294c}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27M_bombe_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_27M_bombe_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27M_napalm_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7bccd7df-0d45-4621-97f5-c7f013515df3}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27M_napalm_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_27M_napalm_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27M_rkt_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{957fc506-cc1e-46ec-93bd-1188121567c4}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_27M_rkt_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_27M_rkt_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_29_AA_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1f72bbdc-057e-46c8-8010-e987ba8dfa9f}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_MiG_29_AA_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_29_AA_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24K_reco_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{191b851b-16bc-47f2-a8e7-196b5ac07706}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24K_reco_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24K_reco_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24VP_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{6e57c8b8-2833-428e-b26d-a369a0ba6cca}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24VP_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24VP_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24V_AA_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ab1ee554-77bc-43ee-a35f-e9b8d7f3a907}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24V_AA_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24V_AA_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24V_AT_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1afaa2e1-1c4c-470e-8652-7b67197d002e}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24V_AT_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24V_AT_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24V_RKT_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e7408128-e3b6-4a67-91a1-b631fb738c38}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_24V_RKT_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24V_RKT_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_26_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e3b641cd-afcc-4f15-a80c-c06585d17734}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_26_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_26_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_2_reco_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3b0c82be-36ca-49a3-b452-011392ff85b4}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_2_reco_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_2_reco_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8K_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ca61ce0d-a9c0-4e82-b610-361072a786de}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8K_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8K_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8R_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{65cd41ee-0b27-47c3-b9c2-664597512c44}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8R_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8R_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TV_s57_16_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{371b898a-d439-4ee8-95a2-1711e892bbb2}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TV_s57_16_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8TV_s57_16_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TV_s57_32_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c6eae73c-930c-4bf5-a6a8-d8ad8a5149e7}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TV_s57_32_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8TV_s57_32_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TV_s80_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d4bc3389-a5fc-4131-9ce7-6fa56831dd35}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TV_s80_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8TV_s80_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TZ_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c093efe4-29ee-4110-8a78-adcc3086a28b}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mi_8TZ_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8TZ_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mortier_2B9_Vasilek_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{03c40be6-2340-4cab-a5c0-c5b605266e2c}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mortier_2B9_Vasilek_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mortier_2B9_Vasilek_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Mortier_2S12_120mm_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3be7727e-0ead-449d-8e69-7f73998d7910}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Mortier_2S12_120mm_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mortier_2S12_120mm_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Scout_LRRP_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{cd129fd2-166c-443c-86b4-e1c19f309b0c}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Scout_LRRP_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Scout_LRRP_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Scout_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{88c23048-9bc4-489b-9f98-4c39702d2d9c}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Scout_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Scout_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Spetsnaz_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{37b62303-b246-4ac4-aaf7-88dbe666b20d}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Spetsnaz_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Spetsnaz_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Spetsnaz_FireSupport_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a826f24a-2652-4fe3-83c1-3e4c2e64bd1f}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Spetsnaz_FireSupport_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Spetsnaz_FireSupport_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Spetsnaz_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ce3830be-5d7c-4a46-b546-0dae0343ac8e}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Spetsnaz_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Spetsnaz_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Su_25_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{849bf2b6-4db8-41a9-a6e7-8345b666f7e2}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Su_25_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_25_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_Su_25_clu_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b023db22-2763-4b4c-89bf-37d304eddca3}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_Su_25_clu_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_25_clu_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_T64BV_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c44a5987-cf2c-435b-b30d-698c470f2696}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_T64BV_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T64BV_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_T64BV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f0b1880a-4e57-44a2-afe2-479f6f74b3fd}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_T64BV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T64BV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_T64B_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d9d87d73-3665-484d-a2ee-2e7014b99f4a}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_T64B_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T64B_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_AGL_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{90ef53a5-d4d0-4e07-b41b-ae861aa5e30c}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_AGL_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_UAZ_469_AGL_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_CMD_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a48d41ad-8321-4a67-9bae-42bef0e119ce}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_CMD_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_UAZ_469_CMD_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_Konkurs_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{055000ad-dc12-4045-bac2-b38525de4fc8}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_Konkurs_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_UAZ_469_Konkurs_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_SPG9_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{bd1e10a4-7bdc-4caf-a489-b6b1c82c34e2}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_SPG9_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_UAZ_469_SPG9_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_supply_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d3c6d8df-1d47-4daa-b2f0-770aa870e0e0}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_UAZ_469_supply_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_UAZ_469_supply_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{0c5b758f-328a-40fc-a5fc-2fa5905d61a7}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VDV_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_HMG_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{dadc8248-2dcc-4b8c-9902-07df3a098a3e}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_HMG_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VDV_HMG_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_Mech_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7f840184-5f60-4639-9605-a7a6a99fe128}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_Mech_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VDV_Mech_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_Metis_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3a65696f-4e54-40c4-a9ef-b388f1318616}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_Metis_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VDV_Metis_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c0482dbb-8bc0-430d-b524-48738595c590}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_VDV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_VDV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_IA_ZSU_23_Shilka_Afghan_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{39403aa8-00ce-4f1d-9119-7b720cb94d3e}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_challenge_IA_ZSU_23_Shilka_Afghan_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ZSU_23_Shilka_Afghan_SOV
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_challenge_Ka_50_AA_SOV is TDeckPackDescriptor
 (
     DescriptorId = GUID:{b8922d94-a78c-4cdf-a9f5-e1bfc7daaa5f}
@@ -20213,6 +21101,714 @@ Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Tracked_Rapier_UK is TDeckPackDes
 (
     DescriptorId = GUID:{0037f16f-82ea-4aa7-9870-4ba203fda4d0}
     CfgName = 'TOE_UK_2nd_Infantry_multi_Tracked_Rapier_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Tracked_Rapier_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_81mm_mortar_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d1f6dbe8-7a5e-4d09-90c0-586d841d5382}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_81mm_mortar_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_81mm_mortar_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_ATteam_Milan_1_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{abd13ac1-5c35-4f9e-b681-ef1dc6b897a1}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_ATteam_Milan_1_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_Milan_1_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_ATteam_Milan_2_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{9ec82a1b-8a61-4476-889c-5c1efedaa811}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_ATteam_Milan_2_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_Milan_2_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_ATteam_Milan_2_para_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{191152f3-b15f-460c-b7e0-fcbeeab8a821}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_ATteam_Milan_2_para_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_Milan_2_para_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Bedford_MJ_4t_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{caf5a077-103a-4de9-babf-f014a8c690bc}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Bedford_MJ_4t_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Bedford_MJ_4t_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_CH47D_Chinook_supply_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{08f18acc-09a2-42b6-9257-d9a8ccda6e50}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_CH47D_Chinook_supply_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_CH47D_Chinook_supply_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Challenger_1_Mk1_CMD_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{53dd7d29-dab9-4f31-a01c-ac95c261ee9a}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Challenger_1_Mk1_CMD_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Challenger_1_Mk1_CMD_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Challenger_1_Mk1_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{76c2c150-0017-43a2-a113-d117d5871ae7}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Challenger_1_Mk1_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Challenger_1_Mk1_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_DCA_Javelin_LML_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{6fbd67ec-9061-4d39-bfac-df412be7877c}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_DCA_Javelin_LML_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_DCA_Javelin_LML_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_DCA_Rapier_FSA_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f4a3219b-d4ab-46c2-b665-6f118a3ad847}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_DCA_Rapier_FSA_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_DCA_Rapier_FSA_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Engineers_AT_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c580c3b1-abc0-4f20-866d-5484b5fcf6d5}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Engineers_AT_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_AT_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Engineers_CMD_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c5258c7b-e309-40eb-8ab7-34b9c6db53ba}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Engineers_CMD_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_CMD_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Engineers_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{54519952-5bfd-4094-8e80-b184b062b308}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Engineers_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FH70_155mm_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1f8cf11d-84b5-47dc-a942-2581edfd100d}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FH70_155mm_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FH70_155mm_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV101_Scorpion_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{9db1c407-1616-43b2-806e-b624d978c76e}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV101_Scorpion_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV101_Scorpion_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV102_Striker_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b1c9d759-8adc-4fe6-877b-b157c7f17416}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV102_Striker_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV102_Striker_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV105_Sultan_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c31d10b1-adc1-4c7f-be13-bf0e201a28b1}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV105_Sultan_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV105_Sultan_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV107_Scimitar_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f1633158-48f4-4874-8b27-58d2733a8b2e}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV107_Scimitar_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV107_Scimitar_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV4003_Centurion_AVRE_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{995b86b9-a85b-4c6e-a3a6-f95cc77ae367}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV4003_Centurion_AVRE_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV4003_Centurion_AVRE_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV4201_Chieftain_Mk11_CMD_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{57649059-3e19-4ea1-9355-b3e94142603f}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV4201_Chieftain_Mk11_CMD_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV4201_Chieftain_Mk11_CMD_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV4201_Chieftain_Mk11_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e1467bdb-1b71-4b26-ad27-621972223b75}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV4201_Chieftain_Mk11_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV4201_Chieftain_Mk11_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV4201_Chieftain_Mk9_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{514b8371-eaa8-498f-827e-c3df6711d33d}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV4201_Chieftain_Mk9_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV4201_Chieftain_Mk9_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV432_CMD_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{598296c1-517f-4938-abd1-65102070938c}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV432_CMD_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV432_CMD_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV432_Mortar_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a66418b7-4816-4daf-9d6f-293c416c5f44}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV432_Mortar_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV432_Mortar_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV433_Abbot_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c6513bf7-e2c6-419d-af5a-db741dec9753}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV433_Abbot_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV433_Abbot_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV438_Swingfire_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{bf723b7c-8c4d-4163-9f87-bbd98a8542cc}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV438_Swingfire_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV438_Swingfire_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_FV721_Fox_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{66b8abf7-667c-4ee4-b6b0-391117066aee}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_FV721_Fox_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FV721_Fox_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Ferret_Mk2_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{29588913-46ad-46ec-935c-1fef3ac9577b}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Ferret_Mk2_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Ferret_Mk2_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Gazelle_SNEB_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b7851350-58b8-4f7c-9a35-fd56dff57de8}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Gazelle_SNEB_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Gazelle_SNEB_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Gazelle_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{902423f6-0268-47b0-bae5-04312ab1b660}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Gazelle_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Gazelle_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Gun_Group_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b3e0148a-cd10-4b99-b65f-bcee1cad1f23}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Gun_Group_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Gun_Group_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_HMGteam_MAG_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d9e19868-2e18-4684-912a-6c68e2f1018b}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_HMGteam_MAG_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_HMGteam_MAG_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Harrier_CLU_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c34b2adc-1d9e-430e-8e4e-b41c6918b3eb}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Harrier_CLU_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Harrier_CLU_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Harrier_HE2_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d2c75a5d-1bbf-4801-b5e2-04be1ea82fca}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Harrier_HE2_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Harrier_HE2_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Jaguar_HE2_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{00cd6bce-44e4-4c72-b603-2526bfa32ade}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Jaguar_HE2_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Jaguar_HE2_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Jaguar_RKT_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{df6a3ff5-436f-474e-9edd-8023e24ee7a1}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Jaguar_RKT_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Jaguar_RKT_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_LRRP_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3e3a3ba0-c286-4976-b7bf-49f57dc04844}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_LRRP_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_LRRP_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_LandRover_CMD_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{11001aea-9a5f-4a8d-919e-bff62e99c93b}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_LandRover_CMD_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_LandRover_CMD_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_LandRover_MILAN_Para_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{161d5781-0546-4ec7-912e-e857f0da9788}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_LandRover_MILAN_Para_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_LandRover_MILAN_Para_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_LandRover_MILAN_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{42b454c2-d244-45a0-8d66-7c33225d0294}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_LandRover_MILAN_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_LandRover_MILAN_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Lynx_AH_Mk1_TOW_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{773d0dba-6e9e-4e04-91b3-20e1f8ee838c}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Lynx_AH_Mk1_TOW_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Lynx_AH_Mk1_TOW_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Lynx_AH_Mk7_I_TOW_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{93aa020b-859f-4d1f-9af7-9ba464ddb7c8}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Lynx_AH_Mk7_I_TOW_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Lynx_AH_Mk7_I_TOW_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_M109A2_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{db9c5aa0-627b-4690-86cd-1f4569084e5b}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_M109A2_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_M109A2_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_M113_GreenArcher_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{019438e4-2311-4f53-a24a-331f6cdf03e8}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_M113_GreenArcher_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_M113_GreenArcher_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_MANPAD_Javelin_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e2c88ffe-e0f9-4a27-8676-fbed9266c7b7}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_MANPAD_Javelin_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MANPAD_Javelin_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Paratroopers_CMD_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b3a78f4d-ff6f-422e-8549-fbf09090ff70}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Paratroopers_CMD_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Paratroopers_CMD_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Paratroopers_MILAN_TA_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d4d3b68b-ed55-4fca-bdf0-d208fb43d2ef}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Paratroopers_MILAN_TA_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Paratroopers_MILAN_TA_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Paratroopers_TA_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{fa0cb81d-ea5d-4cf0-bc8e-7923b8bfba33}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Paratroopers_TA_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Paratroopers_TA_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_RMP_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{363fa5ad-c6aa-4362-ba1e-92e88ad0e9c1}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_RMP_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_RMP_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Rifles_AT_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{378d5238-5cb6-485e-99ca-af8a75131958}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Rifles_AT_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Rifles_AT_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Rifles_CMD_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{6e133f91-b3bf-4928-b9bf-06b420a8ecc0}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Rifles_CMD_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Rifles_CMD_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Rifles_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{caad1061-2158-4b6a-9810-20f504d896d5}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Rifles_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Rifles_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Scout_AT_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a1c3bf0e-aeb3-49b5-807c-544a0b42471e}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Scout_AT_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Scout_AT_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Scout_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e02f5c5d-a142-4a62-b3e3-1791b0d4616a}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Scout_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Scout_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Tornado_ADV_HE_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3c231e6a-9690-44c3-a27b-91f750cef320}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Tornado_ADV_HE_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Tornado_ADV_HE_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Tornado_ADV_SEAD_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{5e3f235e-6b6a-4d8d-ab69-0b2f42a891d1}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Tornado_ADV_SEAD_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Tornado_ADV_SEAD_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Tornado_ADV_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e9339c8a-f863-4026-bbe5-c7b16de6c241}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Tornado_ADV_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Tornado_ADV_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Tornado_ADV_clu_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e050b9af-5ca2-499f-9e92-30eeb7c051d0}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Tornado_ADV_clu_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Tornado_ADV_clu_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_Blues_Royals_challenge_Tracked_Rapier_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b35a7a30-086c-4716-9015-25c1f0c1848e}
+    CfgName = 'TOE_UK_Blues_Royals_challenge_Tracked_Rapier_UK'
     TransporterAndUnitsList =
     [
         TDeckTransporterAndUnitsDescriptor

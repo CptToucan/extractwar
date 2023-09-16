@@ -210,6 +210,7 @@ Constantes is TTunableConstante
 //---------------------------- Constantes Visibilite --------------------------------------//
 
     MultiplicateurDistancePourBonusDissimulation = 1.0 DIV Metre DIV 100.0 // = (Distance en Mètres RTS) / 100.f
+    RelativeScanningPosition = [0,0, 20 * Metre]
 
 //------------------------------ Constantes Vision ----------------------------------------//
 
@@ -587,7 +588,6 @@ WargameConstantes is TWargameTunableConstante
         (7000*Metre, 'Value_3'), //Normal
         (90000*Metre, 'Value_2'),  //Mediocre
         (10000*Metre, 'Value_1'),  //Bad
-
     ]
 
     PaliersDeDissimulation = MAP
