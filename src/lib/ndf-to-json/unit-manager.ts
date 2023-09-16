@@ -41,6 +41,7 @@ export enum ArmourToken {
   Infanterie = 'Infanterie',
   Vehicule = 'Vehicule',
   Helico = 'Helico',
+  Avion = 'Avion',
 }
 
 export type Unit = {
@@ -453,12 +454,12 @@ export class UnitManager extends AbstractManager {
       return 0;
     }
 
-    if ((armourType as unknown as ArmourToken) === ArmourToken.Helico) {
+    if ((armourType as unknown as ArmourToken) === ArmourToken.Helico || (armourType as unknown as ArmourToken) === ArmourToken.Avion) {
       const baseArmourValue = Number(armourStrength);
 
-      const helicoArmour = baseArmourValue - 1;
-      if (helicoArmour >= 1) {
-        return helicoArmour;
+      const airVehicleArmour = baseArmourValue - 1;
+      if (airVehicleArmour >= 1) {
+        return airVehicleArmour;
       }
 
       return 0.5;
