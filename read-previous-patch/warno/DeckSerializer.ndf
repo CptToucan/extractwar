@@ -3327,5 +3327,6 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_M1025_Humvee_scout_tuto_US, 1998),
         (Descriptor_Unit_M35_trans_tuto_US, 1999),
         (Descriptor_Unit_Ranger_tuto_US, 2000),
+        (Descriptor_Unit_HMGteam_M60_NG_US, 2022),
     ]
 )

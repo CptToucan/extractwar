@@ -89,6 +89,21 @@ MatrixCostName_US_9th_Mot_multi is MAP
    ( EDefaultFactories/defense,     [0,] ),//55cases 107pts...Coef 1,95
 ]
 
+MatrixCostName_US_24th_Inf_multi is MAP
+[
+   ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/reco,        [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 1, 1, 2, 3] ),//10;13
+   ( EDefaultFactories/tank,        [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15
+   ( EDefaultFactories/support,     [1, 1, 2, 3, 3, 3] ),//6;13    =ART
+   ( EDefaultFactories/at,          [1, 1, 2, 3, 3, 3] ),//6;13   =AA
+   ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/art,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/Helis,       [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/air,         [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/defense,     [0,] ),//55cases 107pts...Coef 1,95
+]
+
 MatrixCostName_US_82nd_Airborne_multi is MAP
 [
    ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3] ),//6;13
@@ -388,21 +403,6 @@ MatrixCostName_NATO_Garnison_Berlin_multi is MAP
 
 //--------------------- SOV -----------------------------------------
 
-MatrixCostName_SOV_79_Gds_Tank_multi is MAP
-[
-   ( EDefaultFactories/Logistic,    [1, 2, 3, 3] ),//4;9
-   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3] ),//7;14
-   ( EDefaultFactories/infanterie,  [1, 1, 1, 2, 3, 3, 3] ),//7;14
-   ( EDefaultFactories/tank,        [1, 1, 1, 1, 1, 1, 2, 3, 3] ),//9;14
-   ( EDefaultFactories/support,     [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15    =ART
-   ( EDefaultFactories/at,          [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15   =AA
-   ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
-   ( EDefaultFactories/art,         [0,] ),//0...DEPREC
-   ( EDefaultFactories/Helis,       [1, 1, 2, 3, 3, 3] ),//6;13
-   ( EDefaultFactories/air,         [1, 1, 2, 3, 3, 3] ),//6;13
-   ( EDefaultFactories/defense,     [0,] ),//55 cases 107 pts...Coef 1,95
-]
-
 MatrixCostName_SOV_25_Tank_multi is MAP
 [
    ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3, 3] ),//7;16
@@ -418,19 +418,19 @@ MatrixCostName_SOV_25_Tank_multi is MAP
    ( EDefaultFactories/defense,     [0,] ),//55 cases 107 pts...Coef 1,91
 ]
 
-MatrixCostName_SOV_79_Gds_Tank_challenge is MAP
+MatrixCostName_SOV_27_Gds_Rifle_multi is MAP
 [
-   ( EDefaultFactories/Logistic,    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
-   ( EDefaultFactories/reco,        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
-   ( EDefaultFactories/infanterie,  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
-   ( EDefaultFactories/tank,        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
-   ( EDefaultFactories/support,     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
-   ( EDefaultFactories/at,          [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
-   ( EDefaultFactories/dca,         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
-   ( EDefaultFactories/art,         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
-   ( EDefaultFactories/Helis,       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
-   ( EDefaultFactories/air,         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
-   ( EDefaultFactories/defense,     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/Logistic,    [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/reco,        [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 2, 3, 3] ),//9;14
+   ( EDefaultFactories/tank,        [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/support,     [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15    =ART
+   ( EDefaultFactories/at,          [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15   =AA
+   ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/art,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/Helis,       [1, 1, 2, 3] ),//4;7
+   ( EDefaultFactories/air,         [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/defense,     [0,] ),//55 cases 107 pts...Coef 1,91
 ]
 
 MatrixCostName_SOV_39_Gds_Rifle_multi is MAP
@@ -448,7 +448,37 @@ MatrixCostName_SOV_39_Gds_Rifle_multi is MAP
    ( EDefaultFactories/defense,     [0,] ),//55 cases 107 pts...Coef 1,95
 ]
 
-MatrixCostName_SOV_35_AirAslt_Brig_multi is MAP
+MatrixCostName_SOV_79_Gds_Tank_multi is MAP
+[
+   ( EDefaultFactories/Logistic,    [1, 2, 3, 3] ),//4;9
+   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/infanterie,  [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/tank,        [1, 1, 1, 1, 1, 1, 2, 3, 3] ),//9;14
+   ( EDefaultFactories/support,     [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15    =ART
+   ( EDefaultFactories/at,          [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15   =AA
+   ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/art,         [0,] ),//0...DEPREC
+   ( EDefaultFactories/Helis,       [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/air,         [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/defense,     [0,] ),//55 cases 107 pts...Coef 1,95
+]
+
+MatrixCostName_SOV_79_Gds_Tank_challenge is MAP
+[
+   ( EDefaultFactories/Logistic,    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/reco,        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/infanterie,  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/tank,        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/support,     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/at,          [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/dca,         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/art,         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/Helis,       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/air,         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+   ( EDefaultFactories/defense,     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ] ),
+]
+
+MatrixCostName_SOV_OMG_multi is MAP
 [
    ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3] ),//6;13
    ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3] ),//7;14
@@ -463,7 +493,7 @@ MatrixCostName_SOV_35_AirAslt_Brig_multi is MAP
    ( EDefaultFactories/defense,     [0, 0, 0, 0] ),//56 cases 104 pts coef 1,85
 ]
 
-MatrixCostName_SOV_OMG_multi is MAP
+MatrixCostName_SOV_35_AirAslt_Brig_multi is MAP
 [
    ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3] ),//6;13
    ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3, 3] ),//7;14

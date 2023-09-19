@@ -64,14 +64,14 @@ export ForetLegere is TGameplayTerrain
     CriticalEffectProbability = 0.025
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.75)]),
+            ("he", MAP [("infanterie",0.65)]),
             ("he_autocanon", MAP [("infanterie",0.65)]),
             ("superhe", MAP [("infanterie",0.65)]),
             ("balle", MAP [("infanterie",0.65)]),
             ("balledca", MAP [("infanterie",0.65)]),
-            ("howz", MAP [("infanterie",0.7)]),
-            ("howz_bombe", MAP [("infanterie",0.7)]),
-            ("fmballe", MAP [("infanterie",0.7)]),
+            ("howz", MAP [("infanterie",0.65)]),
+            ("howz_bombe", MAP [("infanterie",0.65)]),
+            ("fmballe", MAP [("infanterie",0.65)]),
             ("roquette_ap", MAP [("infanterie",0.65)]),
         ]
     DebugColor = rgba[70, 252, 70, 255]
@@ -102,16 +102,16 @@ export PetitBatiment is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.6)]),
-            ("he_autocanon", MAP [("infanterie",0.45)]),
-            ("superhe", MAP [("infanterie",0.45)]),
-            ("balle", MAP [("infanterie",0.4)]),
-            ("balledca", MAP [("infanterie",0.4)]),
-            ("howz", MAP [("infanterie",0.4)]),
-            ("howz_bombe", MAP [("infanterie",0.4)]),
-            ("fmballe", MAP [("infanterie",0.4)]),
-            ("cac", MAP [("infanterie",0.85)]),
-            ("roquette_ap", MAP [("infanterie",0.55)]),
+            ("he", MAP [("infanterie",0.5)]),
+            ("he_autocanon", MAP [("infanterie",0.5)]),
+            ("superhe", MAP [("infanterie",0.5)]),
+            ("balle", MAP [("infanterie",0.5)]),
+            ("balledca", MAP [("infanterie",0.5)]),
+            ("howz", MAP [("infanterie",0.5)]),
+            ("howz_bombe", MAP [("infanterie",0.5)]),
+            ("fmballe", MAP [("infanterie",0.5)]),
+            // ("cac", MAP [("infanterie",0.85)]),
+            ("roquette_ap", MAP [("infanterie",0.5)]),
         ]
     DebugColor = rgba[0, 0, 0, 255]
     DissimulationModifierGroundAir = 10.5
@@ -140,16 +140,16 @@ export Batiment is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.6)]),
-            ("he_autocanon", MAP [("infanterie",0.45)]),
-            ("superhe", MAP [("infanterie",0.45)]),
-            ("balle", MAP [("infanterie",0.4)]),
-            ("balledca", MAP [("infanterie",0.4)]),
-            ("howz", MAP [("infanterie",0.4)]),
-            ("howz_bombe", MAP [("infanterie",0.4)]),
-            ("fmballe", MAP [("infanterie",0.35)]),
-            ("cac", MAP [("infanterie",0.85)]),
-            ("roquette_ap", MAP [("infanterie",0.55)]),
+            ("he", MAP [("infanterie",0.5)]),
+            ("he_autocanon", MAP [("infanterie",0.5)]),
+            ("superhe", MAP [("infanterie",0.5)]),
+            ("balle", MAP [("infanterie",0.5)]),
+            ("balledca", MAP [("infanterie",0.5)]),
+            ("howz", MAP [("infanterie",0.5)]),
+            ("howz_bombe", MAP [("infanterie",0.5)]),
+            ("fmballe", MAP [("infanterie",0.5)]),
+            // ("cac", MAP [("infanterie",0.85)]),
+            ("roquette_ap", MAP [("infanterie",0.5)]),
         ]
     DebugColor = rgba[0, 0, 0, 255]
     DissimulationModifierGroundAir = 10.5
@@ -544,7 +544,7 @@ export Rocher is TGameplayTerrain
 (
     BloqueAmphibie = true
     BloqueAtterrissage = true
-    BloqueInfanterie = false
+    BloqueInfanterie = true
     BloqueVehicule = true
     BloqueVision = false
     CriticalEffectProbability = 0
@@ -654,9 +654,9 @@ export EauProfonde is TGameplayTerrain
     HeightInMeters = 0
     InflammabilityProbability = 0
     Name = 'EauProfonde'
-    SpeedModifierAllTerrainWheel = 0.3
+    SpeedModifierAllTerrainWheel = 0.375
     SpeedModifierInfantry = 0.8
-    SpeedModifierTrack = 0.3
+    SpeedModifierTrack = 0.375
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 1

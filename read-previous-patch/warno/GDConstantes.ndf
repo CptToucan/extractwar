@@ -97,7 +97,7 @@ Constantes is TTunableConstante
 
 //------------------------------ Constantes Gameplay --------------------------------------//
 
-    Persistance_Bruit = 15.0 * Seconde
+    Persistance_Bruit = 16.5 * Seconde
 
 //---------------------------- Constantes GameRules ---------------------------------------//
 
@@ -362,8 +362,8 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     ShootingAdjustmentAngleMax = 0.4 //20°
     SplashSurTirRate = true // Est-ce que les tirs ratés font des dégâts de splash ?
-    SplashRatioDamage = [0.35, 0.35, 0.20] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
-    SplashRatioDistance = [0.35, 0.35, 0.25] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
+    SplashRatioDamage = [0.35, 0.35, 0.25] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
+    SplashRatioDistance = [0.35, 0.35, 0.30] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
 
     MinBlindageForRoEMissiles = ArmorDescriptor_Blindage_2 // Blindage min pour la RoE Missiles
     TagAllowedForMissileRoE = "AllowedForMissileRoE"
