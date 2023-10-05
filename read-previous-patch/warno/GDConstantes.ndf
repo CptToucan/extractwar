@@ -610,10 +610,10 @@ WargameConstantes is TWargameTunableConstante
     PaliersDOptique = MAP
     [
         (42.45, 'Value_1'),
-        (63.68, 'Value_2'),
-        (84.9, 'Value_3'),
-        (127.35, 'Value_4'),
-        (191.03, 'Value_5'),
+        (70.75, 'Value_2'),
+        (90.9, 'Value_3'),
+        (130.35, 'Value_4'),
+        (193.02, 'Value_5'),
         (233.48, 'Value_6'),
     ]
 

@@ -138,7 +138,7 @@ export default class NdfToJson extends Command {
         const oldDivision = previousPatchData.divisions.find((d: any) => d.descriptor === division.descriptor);
 
         const newPacks = division.packs;
-        const oldPacks = oldDivision.packs;
+        const oldPacks = oldDivision?.packs || [];
 
         const divisionDiff: {
           descriptor: string;

@@ -865,7 +865,7 @@ Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RFA_5_Panzer_challenge
-    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
+    EmblemTexture     = "Texture_Division_Emblem_RFA_12_Panzer"
     StrategicLabelColor     = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = "Texture_Division_Type_armored"
@@ -1403,6 +1403,89 @@ Descriptor_Deck_Division_SOV_119IndTkBrig_multi is TDeckDivisionDescriptor
     TypeTexture       = "Texture_Division_Type_armored"
     CountryId = "SOV"
 )
+Descriptor_Deck_Division_SOV_27_Gds_Rifle_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{c2f0b0e1-b1df-4615-ba56-e9810c89bb00}
+    CfgName = 'SOV_27_Gds_Rifle_multi'
+    DivisionName = 'PFMPJNZAXB'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{14a02ddb-b68f-4400-a17e-0ed338220076}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'QTEOMZACJF'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_2S1_Gvozdika_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_2S23_Nona_SVK_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_2S3M1_Akatsiya_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_2S3M_Akatsiya_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_AT_2A45_SprutB_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_ATteam_KonkursM_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_ATteam_Konkurs_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BM21_Grad_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BMP_2_CMD_SOV, 3),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BRDM_2_Konkurs_M_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BRDM_2_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BRM_1_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BTR_80_CMD_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_DCA_ZU_23_2_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Engineers_CMD_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Engineers_Flam_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Engineers_Scout_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Engineers_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_FOB_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_FireSupport_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_HMGteam_AGS17_TTsko_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_HMGteam_NSV_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_HMGteam_PKM_TTsko_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Howz_2A36_Giatsint_B_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Howz_D30_122mm_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_HvyScout_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MANPAD_Igla_TTsko_SOV, 5),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MP_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MTLB_CMD_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MTLB_Strela10M3_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MTLB_supply_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MiG_23MLD_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MiG_27M_bombe_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MiG_27M_napalm_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MiG_29_AA2_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Mi_24K_reco_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Mi_24V_AA_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Mi_24V_AT_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Mi_24V_RKT_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Mortier_2S12_120mm_TTsko_SOV, 3),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MotRifles_BTR_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MotRifles_CMD_TTsko_SOV, 4),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MotRifles_HMG_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MotRifles_Metis_TTsko_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MotRifles_TTsko_SOV, 4),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Scout_Spetsnaz_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Scout_TTsko_SOV, 4),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Su_17M4_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Su_22_AT_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Su_25T_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_T80BV_CMD_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_T80BV_SOV, 4),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Tor_SOV, 3),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Tunguska_2K22_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Ural_4320_SOV, 2),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_SOV_27_Gds_Rifle_multi
+    EmblemTexture     = "Texture_Division_Emblem_SOV_27GvMSD"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "SOV"
+)
 Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{697d227f-a521-4a1a-ab72-5e3574ea68b9}
@@ -1938,6 +2021,7 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_AT_T12_Rapira_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_ATteam_Fagot_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_ATteam_Konkurs_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_ATteam_RCL_SPG9_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_BM21_Grad_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_BM27_Uragan_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_BMP_1_CMD_SOV, 3),
@@ -1951,7 +2035,6 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Engineers_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Engineers_Scout_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_FOB_SOV, 1),
-        (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_FireSupport_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Grenzer_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_HMGteam_AGS17_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_HMGteam_PKM_SOV, 2),
@@ -2568,7 +2651,7 @@ Descriptor_Deck_Division_UK_Blues_Royals_challenge is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_UK_1st_Armoured_multi
-    EmblemTexture     = "Texture_Division_Emblem_default"
+    EmblemTexture     = "Texture_Division_Emblem_UK_3rd_Armoured"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = "Texture_Division_Type_default"
     CountryId = "UK"
@@ -2744,6 +2827,102 @@ Descriptor_Deck_Division_US_11ACR_multi_HB is TDeckDivisionDescriptor
     StrategicLabelColor     = "Orange"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = "Texture_Division_Type_armoredRecon"
+    CountryId = "US"
+)
+Descriptor_Deck_Division_US_24th_Inf_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d0c2a4d9-6ace-4595-b505-a0998b59b974}
+    CfgName = 'US_24th_Inf_multi'
+    DivisionName = 'DGUURLVDNS'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{98c1272b-a897-4e98-99f5-a81763b0714a}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'HEFRKMJXZB'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_AH1F_Cobra_US, 4),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_AH1S_Cobra_US, 4),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_AH64_Apache_NG_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_ATteam_ITOW_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_ATteam_TOW2_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_ATteam_TOW_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_AeroRifles_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Engineer_CMD_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Engineers_Dragon_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Engineers_Flash_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Engineers_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F111F_Aardvark_CBU_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F15C_Eagle_AA2_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F15E_StrikeEagle_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F4E_Phantom_II_AA_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F4E_Phantom_II_HE_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F4E_Phantom_II_napalm_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F4_Wild_Weasel_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_FOB_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_HMGteam_M2HB_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_HMGteam_M60_NG_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_HMGteam_M60_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M106A2_HOWZ_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M109A2_HOWZ_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M109A2_NG_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M113A1_TOW_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M125_HOWZ_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M151A2_TOW_NG_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M151_MUTT_CMD_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M163_PIVADS_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M1IP_Abrams_CMD_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M1IP_Abrams_US, 3),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M1_Abrams_CMD_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M1_Abrams_NG_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M270_MLRS_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M2A1_Bradley_Leader_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M35_supply_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M3A1_Bradley_CFV_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M48_Chaparral_MIM72F_US, 3),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M548A2_supply_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M577_US, 3),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M728_CEV_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M901A1_ITW_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M901_TOW_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M981_FISTV_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MANPAD_Stinger_C_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MANPAD_Stinger_NG_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MP_CMD_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MP_Combat_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MP_RCL_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MP_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Mortier_107mm_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_OH58C_Scout_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_OH58D_Combat_Scout_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_OH58D_Kiowa_Warrior_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_OH58_CS_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_AT4_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_CMD_NG_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_CMD_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_Dragon_NG_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_Dragon_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_LAW_NG_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_LAW_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Scout_NG_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Scout_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Sniper_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_UH1A_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_UH1H_supply_US, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_US_24th_Inf_multi
+    EmblemTexture     = "Texture_Division_Emblem_24th_infantry_division"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "US"
 )
 Descriptor_Deck_Division_US_3rd_Arm_challenge is TDeckDivisionDescriptor
@@ -2988,7 +3167,7 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_US, 6),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_cluster_US, 2),
-        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A2_Bradley_Leader_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A1_Bradley_Leader_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M35_supply_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M3A1_Bradley_CFV_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M48_Chaparral_MIM72F_US, 3),

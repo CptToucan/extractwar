@@ -50336,7 +50336,7 @@ Ammo_RocketArt_9M55K5_300mm is TAmmunitionDescriptor
     TypeCategoryName                  = 'LTMWHXRDRX'
     Caliber                           = 'TQDXQDMIFZ'
     WeaponDescriptionToken            = ''
-    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    TraitsToken                       = [ 'STAT', 'cluster', 'IND', ]
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_MLRS
     Level                             = 3
@@ -50432,7 +50432,7 @@ Ammo_RocketArt_BM27_220mm is TAmmunitionDescriptor
     TypeCategoryName                  = 'LTMWHXRDRX'
     Caliber                           = '220mm'
     WeaponDescriptionToken            = ''
-    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    TraitsToken                       = [ 'STAT', 'cluster', 'IND', ]
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_MLRS
     Level                             = 3

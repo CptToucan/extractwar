@@ -93,10 +93,10 @@ MatrixCostName_US_24th_Inf_multi is MAP
 [
    ( EDefaultFactories/Logistic,    [1, 1, 2, 3, 3, 3] ),//6;13
    ( EDefaultFactories/reco,        [1, 1, 2, 3, 3, 3] ),//6;13
-   ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 1, 1, 2, 3] ),//10;13
+   ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 1, 1, 1, 2] ),//10;11
    ( EDefaultFactories/tank,        [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15
    ( EDefaultFactories/support,     [1, 1, 2, 3, 3, 3] ),//6;13    =ART
-   ( EDefaultFactories/at,          [1, 1, 2, 3, 3, 3] ),//6;13   =AA
+   ( EDefaultFactories/at,          [1, 2, 3, 3, 3, 3] ),//6;15   =AA
    ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
    ( EDefaultFactories/art,         [0,] ),//0...DEPREC
    ( EDefaultFactories/Helis,       [1, 1, 2, 3, 3, 3] ),//6;13
@@ -420,10 +420,10 @@ MatrixCostName_SOV_25_Tank_multi is MAP
 
 MatrixCostName_SOV_27_Gds_Rifle_multi is MAP
 [
-   ( EDefaultFactories/Logistic,    [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/Logistic,    [1, 1, 2, 2, 3, 3, 3] ),//7;16
    ( EDefaultFactories/reco,        [1, 1, 2, 3, 3, 3] ),//6;13
    ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 2, 3, 3] ),//9;14
-   ( EDefaultFactories/tank,        [1, 1, 2, 3, 3, 3] ),//6;13
+   ( EDefaultFactories/tank,        [1, 2, 2, 3, 3, 3] ),//6;13
    ( EDefaultFactories/support,     [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15    =ART
    ( EDefaultFactories/at,          [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15   =AA
    ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
