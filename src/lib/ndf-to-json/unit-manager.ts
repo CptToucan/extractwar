@@ -37,11 +37,11 @@ const infoPanelMap: NdfInfoPanelMap = {
 };
 
 export enum ArmourToken {
-  Blindage = 'Blindage',
-  Infanterie = 'Infanterie',
-  Vehicule = 'Vehicule',
-  Helico = 'Helico',
-  Avion = 'Avion',
+  Blindage = 'blindage',
+  Infanterie = 'infanterie',
+  Vehicule = 'vehicule',
+  Helico = 'helico',
+  Avion = 'avion',
 }
 
 export type Unit = {
@@ -342,11 +342,12 @@ export class UnitManager extends AbstractManager {
    * @returns armour values object
    */
   private extractArmourValues() {
-    const frontArmour = this.getValueFromSearch<string>('ArmorDescriptorFront');
-    const sideArmour = this.getValueFromSearch<string>('ArmorDescriptorSides');
-    const rearArmour = this.getValueFromSearch<string>('ArmorDescriptorRear');
-    const topArmour = this.getValueFromSearch<string>('ArmorDescriptorTop');
+    const frontArmour = this.getValueFromSearch<string>('ResistanceFront');
+    const sideArmour = this.getValueFromSearch<string>('ResistanceSides');
+    const rearArmour = this.getValueFromSearch<string>('ResistanceRear');
+    const topArmour = this.getValueFromSearch<string>('ResistanceTop');
 
+    console.log(frontArmour, sideArmour, rearArmour, topArmour)
     return {
       front: this.convertArmourTokenToNumber(frontArmour),
       side: this.convertArmourTokenToNumber(sideArmour),
@@ -440,6 +441,7 @@ export class UnitManager extends AbstractManager {
    * @returns number representing armour value
    */
   private convertArmourTokenToNumber(armourToken: string): number {
+    console.log(armourToken);
     const armourTokenTokens = armourToken.split('_');
     const armourType = armourTokenTokens[1];
     const armourStrength = armourTokenTokens[2];
@@ -453,6 +455,12 @@ export class UnitManager extends AbstractManager {
     if ((armourType as unknown as ArmourToken) === ArmourToken.Infanterie) {
       return 0;
     }
+
+    // infanterie
+    // blindage
+    // vehicule
+    // helico
+    // avion
 
     if ((armourType as unknown as ArmourToken) === ArmourToken.Helico || (armourType as unknown as ArmourToken) === ArmourToken.Avion) {
       const baseArmourValue = Number(armourStrength);

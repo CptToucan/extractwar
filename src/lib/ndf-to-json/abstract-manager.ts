@@ -17,6 +17,10 @@ export abstract class AbstractManager {
   }
 
   getValueFromSearch<T>(key: string): T {
+
+    console.log(NdfManager.extractValueFromSearchResult(
+      this.getFirstSearchResult(key)
+    ))
     return NdfManager.extractValueFromSearchResult(
       this.getFirstSearchResult(key)
     );
