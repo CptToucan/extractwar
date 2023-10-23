@@ -342,12 +342,39 @@ export class UnitManager extends AbstractManager {
    * @returns armour values object
    */
   private extractArmourValues() {
-    const frontArmour = this.getValueFromSearch<string>('ResistanceFront');
-    const sideArmour = this.getValueFromSearch<string>('ResistanceSides');
-    const rearArmour = this.getValueFromSearch<string>('ResistanceRear');
-    const topArmour = this.getValueFromSearch<string>('ResistanceTop');
 
-    console.log(frontArmour, sideArmour, rearArmour, topArmour)
+
+    // eslint-disable-next-line unicorn/consistent-function-scoping
+    const isLegacyArmourNdf = () => {
+      const result = this.getValueFromSearch<string>('ArmorDescriptorFront');
+
+      if(result !== undefined) {
+        return true;
+      }
+
+      return false;
+    }
+
+
+    if(isLegacyArmourNdf()) {
+      const frontArmour = this.getValueFromSearch<string>('ArmorDescriptorFront');
+      const sideArmour = this.getValueFromSearch<string>('ArmorDescriptorSides');
+      const rearArmour = this.getValueFromSearch<string>('ArmorDescriptorRear');
+      const topArmour = this.getValueFromSearch<string>('ArmorDescriptorTop');
+
+      return {
+        front: this.convertLegacyArmourTokenToNumber(frontArmour),
+        side: this.convertLegacyArmourTokenToNumber(sideArmour),
+        rear: this.convertLegacyArmourTokenToNumber(rearArmour),
+        top: this.convertLegacyArmourTokenToNumber(topArmour),
+      }
+    }
+
+    const frontArmour = this.getFirstSearchResult('ResistanceFront')?.value?.children[0]?.value?.value;
+    const sideArmour = this.getFirstSearchResult('ResistanceSides')?.value?.children[0]?.value?.value;
+    const rearArmour = this.getFirstSearchResult('ResistanceRear')?.value?.children[0]?.value?.value;
+    const topArmour = this.getFirstSearchResult('ResistanceTop')?.value?.children[0]?.value?.value;
+
     return {
       front: this.convertArmourTokenToNumber(frontArmour),
       side: this.convertArmourTokenToNumber(sideArmour),
@@ -440,16 +467,20 @@ export class UnitManager extends AbstractManager {
    * @param armourToken armour token from ndf value
    * @returns number representing armour value
    */
-  private convertArmourTokenToNumber(armourToken: string): number {
-    console.log(armourToken);
-    const armourTokenTokens = armourToken.split('_');
-    const armourType = armourTokenTokens[1];
-    const armourStrength = armourTokenTokens[2];
+  private convertArmourTokenToNumber(armourTokenString: string): number {
 
-    // If leger is returned, this is light armour and displays as >1 in Unit cards
-    if (armourStrength === 'leger') {
-      return 0.5;
-    }
+    
+    const armourTypeToken: string = armourTokenString.split(' ')[0];
+    const armourStrengthToken: string = armourTokenString.split(' ')[1];
+
+    const armourTypeTokenTokens = armourTypeToken.split('_');
+    const armourType = armourTypeTokenTokens[1];
+
+    const armourStrengthTokenTokens = armourStrengthToken.split("=");
+    const armourStrength = armourStrengthTokenTokens[1];
+
+
+    // const armourStrength = armourTokenTokens[2];
 
     // If infanterie, then this is 0 armour
     if ((armourType as unknown as ArmourToken) === ArmourToken.Infanterie) {
@@ -462,7 +493,43 @@ export class UnitManager extends AbstractManager {
     // helico
     // avion
 
-    if ((armourType as unknown as ArmourToken) === ArmourToken.Helico || (armourType as unknown as ArmourToken) === ArmourToken.Avion) {
+    
+    if ((armourType as unknown as ArmourToken) === ArmourToken.Helico || (armourType as unknown as ArmourToken) === ArmourToken.Avion || (armourType as unknown as ArmourToken) === ArmourToken.Vehicule) {
+      const baseArmourValue = Number(armourStrength);
+
+      const vehicleArmour = baseArmourValue - 1;
+      if (vehicleArmour >= 1) {
+        return vehicleArmour;
+      }
+
+      return 0.5;
+    }
+
+    if((armourType as unknown as ArmourToken) === ArmourToken.Blindage) {
+      return Number(armourStrength);
+    }
+
+    return Number(armourStrength);
+  }
+
+  private convertLegacyArmourTokenToNumber(armourToken: string): number {
+    const armourTokenTokens = armourToken.split('_');
+    const armourType = armourTokenTokens[1];
+    const armourStrength = armourTokenTokens[2];
+
+    
+
+    // If leger is returned, this is light armour and displays as >1 in Unit cards
+    if (armourStrength === 'leger') {
+      return 0.5;
+    }
+
+    // If infanterie, then this is 0 armour
+    if ((armourType.toLowerCase() as unknown as ArmourToken) === ArmourToken.Infanterie) {
+      return 0;
+    }
+
+    if ((armourType.toLowerCase() as unknown as ArmourToken) === ArmourToken.Helico || (armourType.toLowerCase() as unknown as ArmourToken) === ArmourToken.Avion || (armourType.toLowerCase() as unknown as ArmourToken) === ArmourToken.Vehicule) {
       const baseArmourValue = Number(armourStrength);
 
       const airVehicleArmour = baseArmourValue - 1;

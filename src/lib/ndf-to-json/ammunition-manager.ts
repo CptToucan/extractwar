@@ -96,7 +96,7 @@ type DamageDropOffMap = {
 };
 
 const DROP_OFF: DamageDropOffMap = {
-    // eslint-disable-next-line camelcase
+  // eslint-disable-next-line camelcase
   DamageTypeEvolutionOverRangeDescriptor_AP1_AC_Helo: 350,
   // eslint-disable-next-line camelcase
   DamageTypeEvolutionOverRangeDescriptor_AP1_1Km: 175,
@@ -135,11 +135,18 @@ export class AmmunitionManager extends AbstractManager {
     const name = this.prettifyAmmoDescriptorName(this.ndf.name);
     const descriptorName = this.ndf.name;
 
-    const textureId = (this.getValueFromSearch<string>('InterfaceWeaponTexture') || "").replaceAll("\"", '').replaceAll("Texture_Interface_Weapon_", "");
+    const textureId = (
+      this.getValueFromSearch<string>('InterfaceWeaponTexture') || ''
+    )
+      .replaceAll('"', '')
+      .replaceAll('Texture_Interface_Weapon_', '');
 
-    const traits = NdfManager.extractValuesFromSearchResult<ParserStringLiteral>(this.getFirstSearchResult('TraitsToken')).map((t: ParserStringLiteral) => {
-      return t.value.replaceAll("'", '');
-    });
+    const traits =
+      NdfManager.extractValuesFromSearchResult<ParserStringLiteral>(
+        this.getFirstSearchResult('TraitsToken')
+      ).map((t: ParserStringLiteral) => {
+        return t.value.replaceAll("'", '');
+      });
 
     const smokePath = this.getValueFromSearch<string>('SmokeDescriptor');
 
@@ -161,8 +168,10 @@ export class AmmunitionManager extends AbstractManager {
       missile = missileManager.parse();
     }
 
-    const heDamage = Number(Number(this.getValueFromSearch<string>('PhysicalDamages')).toFixed(4));
-  
+    const heDamage = Number(
+      Number(this.getValueFromSearch<string>('PhysicalDamages')).toFixed(4)
+    );
+
     const heDamageRadius = Math.round(
       NdfManager.parseNumberFromMetre(
         this.getValueFromSearch<string>('RadiusSplashPhysicalDamages')
@@ -206,7 +215,13 @@ export class AmmunitionManager extends AbstractManager {
         60
     );
 
-    const trueRateOfFire = Number((Number(salvoLength / ((salvoLength - 1) * timeBetweenSalvos + reloadTime)) * 60).toFixed(2));
+    const trueRateOfFire = Number(
+      (
+        Number(
+          salvoLength / ((salvoLength - 1) * timeBetweenSalvos + reloadTime)
+        ) * 60
+      ).toFixed(2)
+    );
     const supplyCostPerSalvo = Number(this.getValueFromSearch('SupplyCost'));
 
     const baseHitModifiers = this.extractBaseHitModifiers();
@@ -240,26 +255,31 @@ export class AmmunitionManager extends AbstractManager {
     const damageResult: ParserObject =
       this.getFirstSearchResult('TDamageTypeRTTI');
 
-    const damageFamily = (
-      damageResult?.children?.[0]?.value as ParserStringLiteral
-    )?.value;
-    const damageIndex = (
-      damageResult?.children?.[1]?.value as ParserStringLiteral
-    )?.value;
-    const piercingWeapon = this.getValueFromSearch('PiercingWeapon') === 'True';
+    function isLegacyAmmoDamages(damageResult: ParserObject) {
+      if (damageResult?.children?.[1] === undefined) {
+        return false;
+      }
 
-    const isKinetic = piercingWeapon && damageFamily === '"ap"';
-    const kineticAP = Math.round(
-      Number(damageIndex) - groundMaxRange / damageDropOff
-    ) + 1;
+      return true;
+    }
 
-    const heatAP = Number(damageIndex);
-
-    const kineticInstakillAtMaxRangeArmour =
-      kineticAP - KINETIC_AP_MAGIC_NUMBER;
-    const heatInstakillAtMaxRangeArmour = heatAP - HEAT_AP_MAGIC_NUMBER;
-
-    const penetration = isKinetic ? kineticAP : heatAP;
+    const {
+      isKinetic,
+      kineticInstakillAtMaxRangeArmour,
+      heatInstakillAtMaxRangeArmour,
+      damageFamily,
+      damageIndex,
+      piercingWeapon,
+      kineticAP,
+      heatAP,
+      penetration,
+    } = isLegacyAmmoDamages(damageResult)
+      ? this.extractLegacyAmmoDamages(
+          damageResult,
+          groundMaxRange,
+          damageDropOff
+        )
+      : this.extractAmmoDamages(damageResult, groundMaxRange, damageDropOff);
 
     const instaKillAtMaxRangeArmour = isKinetic
       ? kineticInstakillAtMaxRangeArmour
@@ -290,8 +310,12 @@ export class AmmunitionManager extends AbstractManager {
       supplyCostPerSalvo,
       staticAccuracy,
       movingAccuracy,
-      staticAccuracyOverDistance: distanceToTarget ? staticAccuracyOverDistance : undefined,
-      movingAccuracyOverDistance: distanceToTarget ? movingAccuracyOverDistance : undefined,
+      staticAccuracyOverDistance: distanceToTarget
+        ? staticAccuracyOverDistance
+        : undefined,
+      movingAccuracyOverDistance: distanceToTarget
+        ? movingAccuracyOverDistance
+        : undefined,
       distanceToTarget,
       damageDropOff,
       damageFamily,
@@ -305,10 +329,90 @@ export class AmmunitionManager extends AbstractManager {
       missile,
       smoke,
       traits,
-      textureId
+      textureId,
     };
 
     return ammo;
+  }
+
+  private extractAmmoDamages(
+    damageResult: ParserObject,
+    groundMaxRange: number,
+    damageDropOff: number
+  ) {
+    const damageFamily = (
+      damageResult?.children?.[0]?.value as ParserStringLiteral
+    )?.value?.split(' ')[0];
+
+    const damageIndex = (
+      damageResult?.children?.[0]?.value as ParserStringLiteral
+    )?.value
+      ?.split(' ')[1]
+      .split('=')[1];
+
+    const piercingWeapon = this.getValueFromSearch('PiercingWeapon') === 'True';
+
+    const isKinetic = piercingWeapon && damageFamily === 'DamageFamily_ap';
+
+    const kineticAP =
+      Math.round(Number(damageIndex) - groundMaxRange / damageDropOff) + 1;
+
+    const heatAP = Number(damageIndex);
+
+    const kineticInstakillAtMaxRangeArmour =
+      kineticAP - KINETIC_AP_MAGIC_NUMBER;
+    const heatInstakillAtMaxRangeArmour = heatAP - HEAT_AP_MAGIC_NUMBER;
+
+    const penetration = isKinetic ? kineticAP : heatAP;
+    return {
+      isKinetic,
+      kineticInstakillAtMaxRangeArmour,
+      heatInstakillAtMaxRangeArmour,
+      damageFamily,
+      damageIndex,
+      piercingWeapon,
+      kineticAP,
+      heatAP,
+      penetration,
+    };
+  }
+
+  private extractLegacyAmmoDamages(
+    damageResult: ParserObject,
+    groundMaxRange: number,
+    damageDropOff: number
+  ) {
+    const damageFamily = (
+      damageResult?.children?.[0]?.value as ParserStringLiteral
+    )?.value;
+    const damageIndex = (
+      damageResult?.children?.[1]?.value as ParserStringLiteral
+    )?.value;
+    const piercingWeapon = this.getValueFromSearch('PiercingWeapon') === 'True';
+
+    const isKinetic = piercingWeapon && damageFamily === '"ap"';
+    const kineticAP =
+      Math.round(Number(damageIndex) - groundMaxRange / damageDropOff) + 1;
+
+    const heatAP = Number(damageIndex);
+
+    const kineticInstakillAtMaxRangeArmour =
+      kineticAP - KINETIC_AP_MAGIC_NUMBER;
+    const heatInstakillAtMaxRangeArmour = heatAP - HEAT_AP_MAGIC_NUMBER;
+
+    const penetration = isKinetic ? kineticAP : heatAP;
+
+    return {
+      isKinetic,
+      kineticInstakillAtMaxRangeArmour,
+      heatInstakillAtMaxRangeArmour,
+      damageFamily,
+      damageIndex,
+      piercingWeapon,
+      kineticAP,
+      heatAP,
+      penetration,
+    };
   }
 
   /**
