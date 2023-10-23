@@ -36,6 +36,8 @@ export const DIVISION_NAMES: { [key: string]: string } = {
   Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi: 'Berliner Gruppierung',
   Descriptor_Deck_Division_SOV_119IndTkBrig_multi: '119-Y Odt. Tank. Polk',
   Descriptor_Deck_Division_US_11ACR_multi: '11th Arm. Cavalry Regt.',
+  Descriptor_Deck_Division_SOV_27_Gds_Rifle_multi: '27-Ya Gv. Motostrelk. Div.',
+  Descriptor_Deck_Division_US_24th_Inf_multi: '24th Infantry Division (Mech.)',
 };
 
 /**

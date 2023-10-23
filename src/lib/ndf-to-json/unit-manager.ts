@@ -420,10 +420,10 @@ export class UnitManager extends AbstractManager {
    */
   private getBombStrategy(): string | undefined {
     const diveBombResult = this.getFirstSearchResult(
-      'TDiveBombAttackStrategyDescriptor'
+      'DiveBombAttackStrategyDescriptor'
     );
     const normalBombResult = this.getFirstSearchResult(
-      'TBombAttackStrategyDescriptor'
+      'BombAttackStrategyDescriptor'
     );
 
     if (diveBombResult) {
