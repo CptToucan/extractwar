@@ -247,11 +247,11 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
 //---------------------------- Constantes Combat ------------------------------------------//
 
-    DistanceInfanterieEnnemiDectection = 200 * Metre
+    DistanceInfanterieEnnemiDetection = 200 * Metre
     DistanceRelaunchMouvementForMoveAndAttack = 1500 * Metre // Distance pour laquelle une unité en MoveAndAttackTarget doit relancer le mouvement si sa cible s'est déplacée de cette distance (diminuer cette valeur baisse la perf)
-    DistanceToAddToEnnemiDectectionForAAWeapon = 4000.0 * Metre
-    DistanceToAddToEnnemiDectectionForAntiProjectileWeapon = 0.0 * Metre // grosso merdo la porté max d'une arme anti-missile
-    DistanceToAddToEnnemiDectectionForOtherWeapon = 1000.0 * Metre
+    DistanceToAddToEnnemiDetectionForAAWeapon = 4000.0 * Metre
+    DistanceToAddToEnnemiDetectionForAntiProjectileWeapon = 0.0 * Metre // grosso merdo la porté max d'une arme anti-missile
+    DistanceToAddToEnnemiDetectionForOtherWeapon = 1000.0 * Metre
     DureeDeRevelationApresAttaque = 5.0
     FacteurMinTempsViseeReel = 0.75 // Le temps de visée réel est un random entre cette valeur et la valeur de temps de visee théorique située dans l'ODS
 
@@ -273,23 +273,15 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
 //---------------------------- Constantes District ----------------------------------------//
 
-    District_SeTeleporterAuPlusProcheMemeSiOnNePeutPasTirer = false
     FuirDistrictEnFeu = true
-    IgnorerLaVisibiliteDesCiblesLorsDuChoixDuPointDeTir = false
     MargePourLesTestsDeSortieDeDistrict = 16 * Metre
     DurationForLeavingDistrict = 3.0        // Durée de l'action de sortie de district.
     ModeDeRepartitionDuFeuContreLesDistricts = 0 // 0 : aucune unité ne prend de dégats, 1: une unite prend des degats, 2: toutes les unites prennent des degats
-    RandomiserLesPatrouillesDansLesDistricts = false
-    RefreshBestPlaceEveryNbSeconds = 5 // 1, Les unites dans les quartiers peuvent changer de points de tir tous les x secondes.
-    CheckDistrictBox = false
+    RefreshBestPlaceEveryNbSeconds = 5 // Les unites dans les quartiers peuvent changer de points de tir tous les x secondes.
 
 //---------------------------- Constantes Gameplay ----------------------------------------//
 
     TransformerAttackEnMoveSiPasDArmeAdaptee = false
-
-//--------------------------- Constantes GameRules ----------------------------------------//
-
-    InstantMergeMaxDistance = 2500 * Metre
 
 //---------------------------- Constantes GroupedMovement ---------------------------------//
 
@@ -352,14 +344,11 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     // Attention, le parametre OneSalveDesignatedShot n'est plus specifique a l'artillerie
     NbSalveDesignatedShot = -1 // -1 -> tir jusqu'a epuisement des munitions. 0 est indéfini, prévenir si il y en a besoin
 
-    NombreMaxWeaponTraits = 5
-
     ShootingAdjustmentAngleMax = 0.4 //20°
     SplashSurTirRate = true // Est-ce que les tirs ratés font des dégâts de splash ?
     SplashRatioDamage = [0.35, 0.35, 0.25] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
     SplashRatioDistance = [0.35, 0.35, 0.30] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
 
-    MinBlindageForRoEMissiles = ArmorDescriptor_Blindage_2 // Blindage min pour la RoE Missiles
     TagAllowedForMissileRoE = "AllowedForMissileRoE"
 
     // Lorsqu'un projectile explose sur un plan et fait des dégats de splash, on définit quels plans sont affectés

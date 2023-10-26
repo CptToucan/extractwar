@@ -1303,6 +1303,99 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
         ~/TargetDataModuleDescriptor,
     ]
 )
+export Descriptor_Missile_AA_R24MR_Vympel is TEntityDescriptor
+(
+    DescriptorId       = GUID:{00782c8a-78a0-43d5-a4e0-0549b0cd19a5}
+    ClassNameForDebug  = 'Missile_AA_R24MR_Vympel'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_AA_R24MR_Vympel",
+            ]
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_ProjectileFlying,
+            ]
+        ),
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            Depiction  = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R23R
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_gros )),
+                    ( ["fx_propulsion_off"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_gros )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+            ImpactReveal_TimeBeforeImpact = 0.0
+            ImpactReveal_TimeOfReveal     = 0.0
+            ImpactReveal_Radius           = 0.0
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeed        = 12000 * Metre
+                MaxAcceleration = 6000 * Metre
+                AutoGyr         = 1.5707963267948966
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeed        = 12000 * Metre
+                MaxAcceleration = 6000 * Metre
+                AutoGyr         = 1.3962634015954636
+            )
+            AscendantPhaseConfig = nil
+            RecedingPhaseConfig = nil
+            CruiseAltitude = 0.0 * Metre
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 8000
+            AngleMaxForRandomMouvUncontrollable = 6.0
+            RotationSpeedWhenUncontrollable = 30
+            TempsDemiTour = 0.1
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
+                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
+                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
+                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+            )
+            KillWhenDamagesReachMax = True
+            HitRollSize = 0.0
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
 export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
 (
     DescriptorId       = GUID:{0df09866-7f18-4c1b-a1ca-3ffebd551e41}
@@ -1330,7 +1423,7 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
         (
             Depiction  = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R27
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R23R
                 Actions = MAP[
                     ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_gros )),
                     ( ["fx_propulsion_off"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_gros )),
@@ -14063,15 +14156,15 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
         (
             DefaultConfig = TGuidedMissileMovementConfigDescriptor
             (
-                MaxSpeed        = 15000 * Metre
-                MaxAcceleration = 750 * Metre
+                MaxSpeed        = 30000 * Metre
+                MaxAcceleration = 4000 * Metre
                 AutoGyr         = 1.7453292519943295
             )
             UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
             (
-                MaxSpeed        = 15000 * Metre
-                MaxAcceleration = 750 * Metre
-                AutoGyr         = 0.4363323129985824
+                MaxSpeed        = 30000 * Metre
+                MaxAcceleration = 4000 * Metre
+                AutoGyr         = 0.17453292519943295
             )
             AscendantPhaseConfig = nil
             RecedingPhaseConfig = nil
@@ -14079,9 +14172,9 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
             TimeBetweenChaosUpdates = 0.1
-            RangeChaos = 2000
-            AngleMaxForRandomMouvUncontrollable = 2.5
-            RotationSpeedWhenUncontrollable = 15
+            RangeChaos = 1000
+            AngleMaxForRandomMouvUncontrollable = 1.5
+            RotationSpeedWhenUncontrollable = 10
             TempsDemiTour = 0.1
         ),
         TBaseDamageModuleDescriptor

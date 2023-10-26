@@ -174,12 +174,6 @@ Constantes is TTunableConstante
     TagRetraite                         = "Retraite" // tag utilisé pour determiner si l'on est en retraite ou non
     UtiliserMouvementRapideParDefaut    = false
 
-//---------------------------- Constantes Objectives -----------------------------------//
-
-    TimeNotificationObjectiveInSecond = 2.0
-    TimeDownloadObjectiveAnimationInSecond = 1.0
-    TimeAfterDownloadObjectiveInSecond = 0.5
-
 //----------------------------- Constantes Resale -----------------------------------------//
 
     ResalePriceRatio = 1.0

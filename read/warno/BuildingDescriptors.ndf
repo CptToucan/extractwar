@@ -54,10 +54,10 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             StunDamagesRegen = ~/Building_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                ArmorDescriptorTop = ArmorDescriptor_Batiment_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -240,10 +240,10 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             StunDamagesRegen = ~/Building_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                ArmorDescriptorTop = ArmorDescriptor_Batiment_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -426,10 +426,10 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             StunDamagesRegen = ~/Building_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                ArmorDescriptorTop = ArmorDescriptor_Batiment_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -612,10 +612,10 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             StunDamagesRegen = ~/Building_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                ArmorDescriptorTop = ArmorDescriptor_Batiment_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -798,10 +798,10 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             StunDamagesRegen = ~/Building_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                ArmorDescriptorTop = ArmorDescriptor_Batiment_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -984,10 +984,10 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             StunDamagesRegen = ~/Building_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                ArmorDescriptorTop = ArmorDescriptor_Batiment_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
