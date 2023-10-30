@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "@izohek/ndf-parser": "1.2.4",
-    "@izohek/warno-db": "0.7.6",
+    "@izohek/warno-db": "0.7.7",
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^2.0.1",
