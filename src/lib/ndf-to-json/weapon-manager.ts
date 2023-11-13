@@ -49,6 +49,10 @@ export type Weapon = {
   weaponName: string;
   piercingWeapon: boolean;
   imageTexture: string;
+  noiseMalus: number;
+  shotsBeforeMaxNoise: number;
+  dispersionAtMaxRange?: number;
+  dispersionAtMinRange?: number;
 };
 
 export type MountedWeaponWithTurret = MountedWeapon & Turret;
@@ -234,7 +238,11 @@ export class WeaponManager extends AbstractManager {
           turretRotationSpeed: firstWeapon.turretRotationSpeed,
           weaponName: firstWeapon.ammo.name,
           piercingWeapon: firstWeapon.ammo.piercingWeapon,
-          imageTexture: firstWeapon.ammo.textureId
+          imageTexture: firstWeapon.ammo.textureId,
+          noiseMalus: firstWeapon.ammo.noiseMalus,
+          shotsBeforeMaxNoise: firstWeapon.ammo.shotsBeforeMaxNoise,
+          dispersionAtMaxRange: firstWeapon.ammo.dispersionAtMaxRange,
+          dispersionAtMinRange: firstWeapon.ammo.dispersionAtMinRange,
         };
   
         /**

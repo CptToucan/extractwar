@@ -51,6 +51,10 @@ export type Ammo = {
   smoke: Smoke | undefined;
   traits: string[];
   textureId: string;
+  noiseMalus: number;
+  shotsBeforeMaxNoise: number;
+  dispersionAtMaxRange?: number;
+  dispersionAtMinRange?: number;
 };
 
 export interface AccuracyDataPointsForType {
@@ -285,6 +289,35 @@ export class AmmunitionManager extends AbstractManager {
       ? kineticInstakillAtMaxRangeArmour
       : heatInstakillAtMaxRangeArmour;
 
+    const noiseMalus = Number(
+      this.getValueFromSearch('NoiseDissimulationMalus')
+    );
+    const shotsBeforeMaxNoise = Number(
+      this.getValueFromSearch('ShotsBeforeMaxNoise')
+    );
+
+    const dispersionAtMaxRangeSearchResult = this.getValueFromSearch(
+      'DispersionAtMaxRange'
+    );
+
+    let dispersionAtMaxRange;
+
+    if (dispersionAtMaxRangeSearchResult) {
+      dispersionAtMaxRange = Number(NdfManager.parseNumberFromMetre(
+        dispersionAtMaxRangeSearchResult as string
+      ).toFixed(2));
+    }
+
+    const dispersionAtMinRangeSearchResult = this.getValueFromSearch(
+      'DispersionAtMinRange'
+    );
+    let dispersionAtMinRange;
+    if (dispersionAtMinRangeSearchResult) {
+      dispersionAtMinRange = Number(NdfManager.parseNumberFromMetre(
+        dispersionAtMinRangeSearchResult as string
+      ).toFixed(2));
+    }
+
     const ammo: Ammo = {
       name,
       minMaxCategory,
@@ -330,6 +363,10 @@ export class AmmunitionManager extends AbstractManager {
       smoke,
       traits,
       textureId,
+      noiseMalus,
+      shotsBeforeMaxNoise,
+      dispersionAtMaxRange,
+      dispersionAtMinRange,
     };
 
     return ammo;
