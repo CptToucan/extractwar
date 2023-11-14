@@ -12,12 +12,13 @@ export type MountedWeapon = {
 }
 
 export class MountedWeaponManager extends AbstractManager {
-  constructor(mountedWeaponDescriptor: NdfObject, mappedAmmo: MappedNdf, mappedSmoke: MappedNdf, mappedMissiles: MappedNdf, salvoMap: number[]) {
+  constructor(mountedWeaponDescriptor: NdfObject, mappedAmmo: MappedNdf, mappedSmoke: MappedNdf, mappedMissiles: MappedNdf, salvoMap: number[], bonusPrecision: number) {
     super(mountedWeaponDescriptor);
     this.mappedAmmo = mappedAmmo;
     this.mappedSmoke = mappedSmoke;
     this.mappedMissiles = mappedMissiles;
     this.salvoMap = salvoMap;
+    this.bonusPrecision = bonusPrecision;
 
   }
 
@@ -25,13 +26,14 @@ export class MountedWeaponManager extends AbstractManager {
   mappedSmoke: MappedNdf;
   mappedMissiles: MappedNdf;
   salvoMap: number[];
+  bonusPrecision: number;
 
   parse() {
     const showInterface = this.getValueFromSearch('ShowInInterface') === 'True';
     const ammunitionPath = this.getValueFromSearch<string>('Ammunition');
     const ammoDescriptorId = NdfManager.extractLastToken(ammunitionPath);
     const ammoDescriptor = this.mappedAmmo[ammoDescriptorId];
-    const ammunitionManager = new AmmunitionManager(ammoDescriptor as NdfObject, this.mappedSmoke, this.mappedMissiles, this.salvoMap);
+    const ammunitionManager = new AmmunitionManager(ammoDescriptor as NdfObject, this.mappedSmoke, this.mappedMissiles, this.salvoMap, this.bonusPrecision);
     const ammo = ammunitionManager.parse();
 
 

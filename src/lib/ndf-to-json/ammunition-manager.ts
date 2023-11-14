@@ -55,6 +55,12 @@ export type Ammo = {
   shotsBeforeMaxNoise: number;
   dispersionAtMaxRange?: number;
   dispersionAtMinRange?: number;
+  maxStaticAccuracy?: number;
+  maxMovingAccuracy?: number;
+  staticPrecisionBonusPerShot?: number;
+  movingPrecisionBonusPerShot?: number;
+  maxSuccessiveHitCount?: number;
+
 };
 
 export interface AccuracyDataPointsForType {
@@ -118,17 +124,20 @@ export class AmmunitionManager extends AbstractManager {
     ammunitionDescriptor: NdfObject,
     mappedSmoke: MappedNdf,
     mappedMissiles: MappedNdf,
-    salvoMap: number[]
+    salvoMap: number[],
+    bonusPrecision: number
   ) {
     super(ammunitionDescriptor);
     this.mappedSmoke = mappedSmoke;
     this.mappedMissiles = mappedMissiles;
     this.salvoMap = salvoMap;
+    this.bonusPrecision = bonusPrecision;
   }
 
   mappedSmoke: MappedNdf;
   mappedMissiles: MappedNdf;
   salvoMap: number[];
+  bonusPrecision: number;
 
   /**
    *  Parses the ammunition descriptor into a JSON object
@@ -303,9 +312,11 @@ export class AmmunitionManager extends AbstractManager {
     let dispersionAtMaxRange;
 
     if (dispersionAtMaxRangeSearchResult) {
-      dispersionAtMaxRange = Number(NdfManager.parseNumberFromMetre(
-        dispersionAtMaxRangeSearchResult as string
-      ).toFixed(2));
+      dispersionAtMaxRange = Number(
+        NdfManager.parseNumberFromMetre(
+          dispersionAtMaxRangeSearchResult as string
+        ).toFixed(2)
+      );
     }
 
     const dispersionAtMinRangeSearchResult = this.getValueFromSearch(
@@ -313,9 +324,52 @@ export class AmmunitionManager extends AbstractManager {
     );
     let dispersionAtMinRange;
     if (dispersionAtMinRangeSearchResult) {
-      dispersionAtMinRange = Number(NdfManager.parseNumberFromMetre(
-        dispersionAtMinRangeSearchResult as string
-      ).toFixed(2));
+      dispersionAtMinRange = Number(
+        NdfManager.parseNumberFromMetre(
+          dispersionAtMinRangeSearchResult as string
+        ).toFixed(2)
+      );
+    }
+
+    const hasSuccessiveShotBonus = Boolean(
+      this.getFirstSearchResult('HitModifierList')?.value?.values?.find(
+        (value: ParserObject) => {
+          return value.name === 'EDiceHitModifier/SuccesiveShots';
+        }
+      )
+    );
+
+    let maxStaticAccuracy;
+    let staticPrecisionBonusPerShot;
+    let maxMovingAccuracy;
+    let movingPrecisionBonusPerShot;
+    let maxSuccessiveHitCount;
+
+    if (hasSuccessiveShotBonus) {
+      const maxSuccessiveHitCountResult = this.getValueFromSearch(
+        'MaxSuccessiveHitCount'
+      );
+
+      if (maxSuccessiveHitCountResult) {
+        maxSuccessiveHitCount = Number(maxSuccessiveHitCountResult);
+        const { maxAccuracy: _maxStaticAccuracy, precisionBonusPerShot: _staticPrecisionBonusPerShot } =
+          calculateMaximumSuccessiveShotAccuracy(
+            staticAccuracy,
+            this.bonusPrecision,
+            maxSuccessiveHitCount
+          );
+        const { maxAccuracy: _maxMovingAccuracy, precisionBonusPerShot: _movingPrecisionBonusPerShot } =
+          calculateMaximumSuccessiveShotAccuracy(
+            movingAccuracy,
+            this.bonusPrecision,
+            maxSuccessiveHitCount
+          );
+
+        maxStaticAccuracy = _maxStaticAccuracy;
+        staticPrecisionBonusPerShot = _staticPrecisionBonusPerShot;
+        maxMovingAccuracy = _maxMovingAccuracy;
+        movingPrecisionBonusPerShot = _movingPrecisionBonusPerShot;
+      }
     }
 
     const ammo: Ammo = {
@@ -367,9 +421,26 @@ export class AmmunitionManager extends AbstractManager {
       shotsBeforeMaxNoise,
       dispersionAtMaxRange,
       dispersionAtMinRange,
+      maxMovingAccuracy,
+      movingPrecisionBonusPerShot,
+      maxStaticAccuracy,
+      staticPrecisionBonusPerShot,
+      maxSuccessiveHitCount
     };
 
     return ammo;
+
+    function calculateMaximumSuccessiveShotAccuracy(
+      baseAccuracy: number,
+      bonusPrecision: number,
+      maxSuccessiveHitCount: number
+    ) {
+      const precisionBonusPerShot = baseAccuracy * bonusPrecision;
+      const maxBonus = baseAccuracy * bonusPrecision * maxSuccessiveHitCount;
+      const maxAccuracy = Number((baseAccuracy + maxBonus).toFixed(2));
+
+      return { maxAccuracy, precisionBonusPerShot: Number(precisionBonusPerShot.toFixed(2)) };
+    }
   }
 
   private extractAmmoDamages(

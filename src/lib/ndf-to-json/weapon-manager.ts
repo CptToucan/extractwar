@@ -53,6 +53,11 @@ export type Weapon = {
   shotsBeforeMaxNoise: number;
   dispersionAtMaxRange?: number;
   dispersionAtMinRange?: number;
+  maxStaticAccuracy?: number;
+  maxMovingAccuracy?: number;
+  staticPrecisionBonusPerShot?: number;
+  movingPrecisionBonusPerShot?: number;
+  maxSuccessiveHitCount?: number;
 };
 
 export type MountedWeaponWithTurret = MountedWeapon & Turret;
@@ -70,17 +75,20 @@ export class WeaponManager extends AbstractManager {
     weaponDescriptor: NdfObject,
     mappedAmmo: MappedNdf,
     mappedSmoke: MappedNdf,
-    mappedMissiles: MappedNdf
+    mappedMissiles: MappedNdf,
+    bonusPrecision: number
   ) {
     super(weaponDescriptor);
     this.mappedAmmo = mappedAmmo;
     this.mappedSmoke = mappedSmoke;
     this.mappedMissiles = mappedMissiles;
+    this.bonusPrecision = bonusPrecision;
   }
 
   mappedAmmo: MappedNdf;
   mappedSmoke: MappedNdf;
   mappedMissiles: MappedNdf;
+  bonusPrecision: number;
 
   /**
    * Parses the weapon descriptor and returns the weapon data
@@ -155,7 +163,8 @@ export class WeaponManager extends AbstractManager {
             this.mappedAmmo,
             this.mappedSmoke,
             this.mappedMissiles,
-            salvoMap
+            salvoMap,
+            this.bonusPrecision
           );
           const mountedWeapon = mountedWeaponManager.parse();
           extractedMountedWeapons.push({...mountedWeapon, ...turret});
@@ -243,6 +252,11 @@ export class WeaponManager extends AbstractManager {
           shotsBeforeMaxNoise: firstWeapon.ammo.shotsBeforeMaxNoise,
           dispersionAtMaxRange: firstWeapon.ammo.dispersionAtMaxRange,
           dispersionAtMinRange: firstWeapon.ammo.dispersionAtMinRange,
+          maxStaticAccuracy: firstWeapon.ammo.maxStaticAccuracy,
+          maxMovingAccuracy: firstWeapon.ammo.maxMovingAccuracy,
+          staticPrecisionBonusPerShot: firstWeapon.ammo.staticPrecisionBonusPerShot,
+          movingPrecisionBonusPerShot: firstWeapon.ammo.movingPrecisionBonusPerShot,
+          maxSuccessiveHitCount: firstWeapon.ammo.maxSuccessiveHitCount,
         };
   
         /**

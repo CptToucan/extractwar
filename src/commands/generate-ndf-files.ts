@@ -20,7 +20,8 @@ export const EXTRACT_FILES = [
     'GameData/Gameplay/Terrains/Terrains.ndf',
     'GameData/Generated/Gameplay/Gfx/MissileDescriptors.ndf',
     'GameData/Generated/Gameplay/Gfx/SmokeDescriptor.ndf',
-    'GameData/Generated/Gameplay/Decks/DeckSerializer.ndf'
+    'GameData/Generated/Gameplay/Decks/DeckSerializer.ndf',
+    'GameData/Gameplay/Constantes/HitRollConstants.ndf'
 ]
 
 export default class GenerateNdfFiles extends Command {

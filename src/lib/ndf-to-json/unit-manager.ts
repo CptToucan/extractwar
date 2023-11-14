@@ -83,6 +83,7 @@ export type Unit = {
   maxRearmTime?: number;
   maxRepairTime?: number;
   isCommand?: boolean;
+  dangerousness?: number;
 };
 
 export type SpeedOnTerrain = {
@@ -107,7 +108,8 @@ export class UnitManager extends AbstractManager {
     mappedAmmo: MappedNdf,
     mappedSmoke: MappedNdf,
     mappedMissiles: MappedNdf,
-    unitIdMap: DescriptorIdMap
+    unitIdMap: DescriptorIdMap,
+    bonusPrecision: number
   ) {
     super(unitDescriptor);
     this.speedModifiers = speedModifiers;
@@ -116,6 +118,7 @@ export class UnitManager extends AbstractManager {
     this.mappedSmoke = mappedSmoke;
     this.mappedMissiles = mappedMissiles;
     this.unitIdMap = unitIdMap;
+    this.bonusPrecision = bonusPrecision;
   }
 
   speedModifiers: SpeedModifier[];
@@ -124,6 +127,7 @@ export class UnitManager extends AbstractManager {
   mappedSmoke: MappedNdf;
   mappedMissiles: MappedNdf;
   unitIdMap: DescriptorIdMap;
+  bonusPrecision: number;
 
   parse() {
     const descriptorName = this.ndf.name;
@@ -239,6 +243,14 @@ export class UnitManager extends AbstractManager {
       this.getFirstSearchResult('TSellModuleDescriptor')
     );
 
+    const dangerousnessResult = this.getValueFromSearch('Dangerousness');
+    let dangerousness;
+
+
+    if(dangerousnessResult) {
+      dangerousness = Number(dangerousnessResult)
+    }
+
     /**
      * Extract weapon data for the weapon descriptors associated to this descriptor by finding the weapon manager and then using  the weapon manager to extract the weapon data
      */
@@ -260,7 +272,8 @@ export class UnitManager extends AbstractManager {
           weaponManagerDescriptor,
           this.mappedAmmo,
           this.mappedSmoke,
-          this.mappedMissiles
+          this.mappedMissiles,
+          this.bonusPrecision
         );
         const { weapons: parsedWeapons, hasDefensiveSmoke: smoke } =
           weaponManager.parse();
@@ -332,6 +345,7 @@ export class UnitManager extends AbstractManager {
       maxRepairTime,
       maxRearmTime,
       isCommand,
+      dangerousness
     };
 
     return unit;

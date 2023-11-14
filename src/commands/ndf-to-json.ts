@@ -23,6 +23,7 @@ const NDF_FILES = Object.freeze({
   missile: 'MissileDescriptors.ndf',
   building: 'BuildingDescriptors.ndf',
   deckSerializer: 'DeckSerializer.ndf',
+  hitRollConstants: 'HitRollConstants.ndf',
 });
 
 export interface DescriptorIdMap {
@@ -232,6 +233,10 @@ export default class NdfToJson extends Command {
     const ndfManager = new NdfManager(ndfFilePathMap);
     const ndfs = await ndfManager.parse();
 
+
+    const bonusPrecisionResult = ndfs.hitRollConstants.find((h: any) => h.name === 'bonusPrecision') as any;
+    const bonusPrecision = Number(bonusPrecisionResult.attributes[0].value) / 100; // convert to decimal percentage
+
     /**
      * Mapping weapons and ammo out to be mapped by keys will save us many iterations when units need to find weapons, and weapons need to find ammo
      */
@@ -294,7 +299,8 @@ export default class NdfToJson extends Command {
           mappedAmmoDescriptors,
           mappedSmokeDescriptors,
           mappedMissileDescriptors,
-          unitIdMap
+          unitIdMap,
+          bonusPrecision
         );
         const unit = unitManager.parse();
 
@@ -319,7 +325,8 @@ export default class NdfToJson extends Command {
           mappedAmmoDescriptors,
           mappedSmokeDescriptors,
           mappedMissileDescriptors,
-          unitIdMap
+          unitIdMap,
+          bonusPrecision
         );
         const building = buildingManager.parse();
 
