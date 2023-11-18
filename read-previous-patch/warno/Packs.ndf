@@ -11797,6 +11797,918 @@ Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_Ural_4320_SOV is TDeckPackDescri
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_2K12_KUB_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{da949f58-1e1f-4eca-a265-a994b324ac8d}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_2K12_KUB_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_2K12_KUB_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_2S1_Gvozdika_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{aa198597-9ec7-4c85-8f5a-31652ad1e62a}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_2S1_Gvozdika_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_2S1_Gvozdika_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_2S3M_Akatsiya_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{08a7164a-eb97-4202-a3ef-b3f0a375f1e2}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_2S3M_Akatsiya_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_2S3M_Akatsiya_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_AT_T12_Rapira_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{496ea0bc-e3d1-4987-a162-927ecbe1e9d5}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_AT_T12_Rapira_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AT_T12_Rapira_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_ATteam_Fagot_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3fbd7195-2e97-4418-ae21-d3465e1e89d2}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_ATteam_Fagot_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_Fagot_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_ATteam_Konkurs_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3465d3bc-ae4e-408b-84f0-0b49be7e5ac3}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_ATteam_Konkurs_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_Konkurs_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BM21_Grad_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c3ab5961-8c05-4b34-8d82-cc227716b717}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_BM21_Grad_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BM21_Grad_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BM27_Uragan_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{891447bd-d08b-430f-9106-1a7a5fd11e3f}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_BM27_Uragan_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BM27_Uragan_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BMP_1_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{656387e8-777e-4e38-bac7-bc85f87d1b54}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_BMP_1_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BMP_1_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BRDM_2_Konkurs_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b071fa34-82c9-426d-94a1-eac4d00eeec2}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_BRDM_2_Konkurs_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRDM_2_Konkurs_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BRDM_2_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f49a3379-4ef3-4702-80e0-cff222eb7867}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_BRDM_2_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRDM_2_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BRDM_Strela_1_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c8f1a861-5bf2-4d5e-8a9f-2e4d6ef15417}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_BRDM_Strela_1_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRDM_Strela_1_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BRM_1_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{2ff90e23-c0c8-4389-a946-44dfcf8127bf}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_BRM_1_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRM_1_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BTR_60_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3d6cbc60-7469-497a-9773-8b5909e34b35}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_BTR_60_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BTR_60_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Engineers_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{6464dee0-463f-43c6-808b-082683771c0e}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Engineers_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Engineers_Flam_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{27748637-a45a-402f-8d36-b7124f6f1b93}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Engineers_Flam_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_Flam_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Engineers_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d64ad91a-9366-4171-8c06-4f35f6de266d}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Engineers_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Engineers_Scout_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{fe853027-02de-4035-9c08-04736dc59d1f}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Engineers_Scout_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_Scout_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_FireSupport_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{fe3438df-5e54-49c1-b658-2c91dfd768a3}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_FireSupport_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_FireSupport_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Grenzer_DDR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e03e5e55-0363-4bfd-88ae-5d2e1e6583f7}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Grenzer_DDR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Grenzer_DDR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_HMGteam_AGS17_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d0856b67-e213-44fd-bf69-fe6a400d6805}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_HMGteam_AGS17_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_HMGteam_AGS17_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_HMGteam_PKM_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e1b25de7-1e69-4606-9a57-e158f8370b80}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_HMGteam_PKM_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_HMGteam_PKM_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Howz_D20_152mm_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f0e518e4-ed55-4c0b-9a76-e7e2dd330acc}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Howz_D20_152mm_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Howz_D20_152mm_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Howz_D30_122mm_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d0fbe65a-8e65-4d12-8266-d8f43d2914fb}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Howz_D30_122mm_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Howz_D30_122mm_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_HvyScout_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{21ee3811-c10d-43f8-874b-471e95d2d967}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_HvyScout_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_HvyScout_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MANPAD_Igla_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3dd0c176-a63f-4bf1-8654-6a0faf9a50d3}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MANPAD_Igla_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MANPAD_Igla_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MTLB_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{64d7faab-67b6-4d99-bbaa-d4e071460501}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MTLB_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MTLB_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MTLB_Shturm_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{2e9c5999-88d2-4354-a0b9-e810ce4804d9}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MTLB_Shturm_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MTLB_Shturm_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MTLB_Strela10_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{62620a88-620c-4b81-a273-e495cad57791}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MTLB_Strela10_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MTLB_Strela10_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MTLB_Vasilek_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a06ecd9d-6e95-4827-b9a4-cd9d8972bc4b}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MTLB_Vasilek_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MTLB_Vasilek_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MTLB_supply_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{23d3831e-b128-4d1a-9ca1-3fbd885270ee}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MTLB_supply_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MTLB_supply_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MiG_23MF_DDR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{05099c85-320c-4d08-8692-9b30f2f270a5}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MiG_23MF_DDR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_23MF_DDR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MiG_23P_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d2de8f4e-0d2a-408f-86fb-a4a246f4e053}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MiG_23P_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_23P_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MiG_27K_LGB_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{5e1dc0d5-3cd9-45ec-9877-0b0269a9e6ff}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MiG_27K_LGB_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_27K_LGB_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_24K_reco_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e990f3c5-d347-4424-94b2-bb0b87e0fde4}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_24K_reco_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24K_reco_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_24VP_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3b0c34d9-95b9-4628-9e6c-277b18c558d8}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_24VP_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24VP_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_24V_AA_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{bcfa92cd-212e-48bd-8552-13cdf76fe638}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_24V_AA_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24V_AA_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_24V_AT_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f561a305-852b-4de9-a6da-aa1ac2aaf6ff}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_24V_AT_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24V_AT_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_24V_RKT_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{90ba2b62-7349-4070-a797-3cf909439883}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_24V_RKT_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24V_RKT_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_2_reco_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{5b2ba7aa-7b4e-46d3-b5dc-334079bc7600}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_2_reco_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_2_reco_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8K_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e576c21c-472a-44c7-b4a8-d485e04dc1ff}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_8K_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8K_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8R_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3c92fcf2-6b14-49cd-b331-59a9c427d676}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_8R_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8R_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8TV_s57_16_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{15a63445-396c-485a-8d54-0aaa213d5504}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_8TV_s57_16_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8TV_s57_16_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8TV_s57_32_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b200b58e-ce70-4e65-bb3e-d97632da548a}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_8TV_s57_32_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8TV_s57_32_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8TV_s80_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{026ac24a-4bc7-4f2f-be9b-335724e2a582}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_8TV_s80_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8TV_s80_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8TZ_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{2c6559ff-ce88-47db-b2bf-e3626f64de52}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mi_8TZ_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8TZ_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mortier_2S12_120mm_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{fad4a298-0d59-437b-afa7-f352b60dc2f3}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Mortier_2S12_120mm_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mortier_2S12_120mm_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MotRifles_BTR_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1ff31a9e-4604-4025-b7bf-5104117e6c1c}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MotRifles_BTR_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MotRifles_BTR_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MotRifles_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{9d01cddb-c83c-4e98-8950-643a9545c7b5}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MotRifles_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MotRifles_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MotRifles_HMG_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a91226e9-d5ae-4826-af41-500dee8c287e}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MotRifles_HMG_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MotRifles_HMG_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MotRifles_Metis_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c65f623d-7bc4-4fb3-b8de-3993fdc28dea}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MotRifles_Metis_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MotRifles_Metis_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MotRifles_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b5747fa1-6e51-4004-a51e-fa0c3bb0bd05}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_MotRifles_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MotRifles_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Osa_9K33M3_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{063e97f3-3f95-45e9-a354-fa92d2d3f342}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Osa_9K33M3_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Osa_9K33M3_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Scout_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{13e44182-204c-4113-906b-33e496889852}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Scout_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Scout_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_22_DDR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{df21c2da-2227-49e5-966f-990967ce7af2}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Su_22_DDR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_22_DDR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_24M_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e33e1142-dcf1-4a00-a529-15976fda01a4}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Su_24M_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_24M_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_24M_clu_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{41ad1f79-0d3f-45d7-a6ce-68b51105bf79}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Su_24M_clu_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_24M_clu_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_24M_nplm_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{84a35b6b-a22b-4418-8518-b9193add1f52}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Su_24M_nplm_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_24M_nplm_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_25_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c3b0c9cb-17a8-4300-9900-32ac5486a498}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Su_25_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_25_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_25_clu_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{14884fe2-1262-44ab-8547-140e30f74ff6}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Su_25_clu_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_25_clu_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_25_nplm_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{cf000df8-6798-47e9-9eef-05230e308f5d}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Su_25_nplm_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_25_nplm_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_25_rkt_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{96190be8-c822-4d76-b9a0-d60531a15053}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Su_25_rkt_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_25_rkt_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_27S_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{aa80ac55-be25-4202-97ee-d114b924cbe9}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Su_27S_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_27S_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T62M1_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e1960810-e6e0-4fab-a1a3-270ef2eea9f2}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_T62M1_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T62M1_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T62MV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{49b54a7b-50a5-435c-927d-a5374b864242}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_T62MV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T62MV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T62M_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1773ad6e-5bb3-4e37-a435-ed91496c2217}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_T62M_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T62M_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T62M_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{aa2bcc79-b251-4a79-aad0-63d3aaaa7983}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_T62M_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T62M_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T80BV_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{262ec84a-214c-4bbd-b435-e74d0374503c}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_T80BV_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T80BV_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T80BV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{19a1c989-8f2c-4321-9b3f-e3a26261c27e}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_T80BV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T80BV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T80B_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{de21b5c3-2e7b-4166-bed8-ebe574836c1b}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_T80B_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T80B_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T80B_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d9464c57-3516-4f1e-a8e3-0f4077789ec3}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_T80B_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T80B_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_TO_55_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{67d11db1-8c07-4b06-82f1-f3e9ba05244c}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_TO_55_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_TO_55_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_UAZ_469_AGL_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3ecf2e9e-cb3a-4ac7-9015-c673be706a2d}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_UAZ_469_AGL_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_UAZ_469_AGL_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_UAZ_469_SPG9_DDR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f9d62753-fbea-4ae7-836b-0d9075ebfde8}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_UAZ_469_SPG9_DDR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_UAZ_469_SPG9_DDR
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Ural_4320_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{57bb1122-04f3-452a-b74d-4aad03ff36b0}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_Ural_4320_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Ural_4320_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_ZSU_23_Shilka_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{4ea1199f-1d9b-41e8-9d2e-e0c472d841a1}
+    CfgName = 'TOE_SOV_27_Gds_Rifle_challenge_ZSU_23_Shilka_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ZSU_23_Shilka_SOV
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_2S1_Gvozdika_SOV is TDeckPackDescriptor
 (
     DescriptorId = GUID:{e0950c20-ffde-4e6b-8764-91ef7e482019}
@@ -14305,6 +15217,18 @@ Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BM21V_GradV_SOV is TDeckPackD
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_1K_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3c231bae-8820-4957-9558-8c67b4e1568a}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_multi_BMD_1K_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BMD_1K_CMD_SOV
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_1_CMD_SOV is TDeckPackDescriptor
 (
     DescriptorId = GUID:{4997f183-3d44-435f-a174-4f4f47c02678}
@@ -14326,6 +15250,18 @@ Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_1_Reostat_SOV is TDeckPac
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_BMD_1_Reostat_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_2_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{6fd33847-a7bd-4124-8f33-0c67aca77570}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_multi_BMD_2_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BMD_2_CMD_SOV
         ),
     ]
 )
@@ -17509,6 +18445,18 @@ Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MotRifles_Metis_SOV is TDeckPack
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MotRifles_RPG22_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{8e0724b7-555d-4dc5-841e-450a84b5b039}
+    CfgName = 'TOE_SOV_39_Gds_Rifle_multi_MotRifles_RPG22_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MotRifles_RPG22_SOV
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MotRifles_SOV is TDeckPackDescriptor
 (
     DescriptorId = GUID:{c671f1b6-e5e4-4270-af25-e6e5dfc2d3cb}
@@ -17789,6 +18737,318 @@ Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_ZSU_23_Shilka_SOV is TDeckPackDe
 (
     DescriptorId = GUID:{768341f6-8ad3-456a-9f40-4c72d1cb33ba}
     CfgName = 'TOE_SOV_39_Gds_Rifle_multi_ZSU_23_Shilka_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ZSU_23_Shilka_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_2S1_Gvozdika_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{0e063071-a58a-4e70-a4fc-e9684b001732}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_2S1_Gvozdika_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_2S1_Gvozdika_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_AT_T12_Rapira_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a85938dd-64fe-4d13-a30c-1098c165a4c4}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_AT_T12_Rapira_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AT_T12_Rapira_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_BMP_1_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{8198022d-c348-4706-a86f-2eb50b931965}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_BMP_1_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BMP_1_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_BRDM_2_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{04423f79-6224-491e-a220-f5bfcf204341}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_BRDM_2_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRDM_2_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_BRDM_Strela_1_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7c8cada4-61f0-4ef4-adee-fda826e5e7b9}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_BRDM_Strela_1_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BRDM_Strela_1_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Engineers_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{5db44116-31db-4bef-9567-b087aed05bb8}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_Engineers_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Engineers_Flam_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c9265414-cc3a-4fec-9c06-bbbf2294b8d0}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_Engineers_Flam_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_Flam_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Engineers_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ea8cb15b-7308-4321-9ed0-ba8ac45a75c7}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_Engineers_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Engineers_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_MANPAD_Igla_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{530e584e-a9a3-48c2-aade-7605bff244f9}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_MANPAD_Igla_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MANPAD_Igla_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_MTLB_Shturm_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{2d94acb6-b5d3-4360-a282-a10fea1627ad}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_MTLB_Shturm_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MTLB_Shturm_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_24V_AT_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{38c1f5a7-3fe3-4aa0-a56f-b4d364447030}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_24V_AT_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24V_AT_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_24V_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f6b95e44-e271-47ee-9668-a44187daed58}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_24V_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_24V_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_2_reco_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{76f49a93-ebe0-4fb4-8a98-8a9f9d1758c4}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_2_reco_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_2_reco_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_8K_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{e705bcc7-e875-4453-bbd5-bb8835d201f7}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_8K_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8K_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_8TV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7daeb2b6-84c9-4988-a3aa-04814376cc64}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_8TV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8TV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_8TV_s80_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c0848ad4-729a-45a3-ad60-e2f2ad388599}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_8TV_s80_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Mi_8TV_s80_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_MotRifles_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f60fea34-1602-4598-aa78-116c235747ac}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_MotRifles_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MotRifles_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_MotRifles_Metis_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{d34c3e29-b697-4a62-bb06-ba0efdd2f683}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_MotRifles_Metis_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MotRifles_Metis_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_MotRifles_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{82c8241c-2b1b-436b-b98b-201cccedf8a2}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_MotRifles_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MotRifles_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_T62MV_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{504193a6-4c6e-4e7a-8b24-5c1ab13540ee}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_T62MV_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T62MV_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_T80B_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{8f0a718a-8a81-4569-8d66-c5f556264f56}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_T80B_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T80B_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_T80B_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{268ef6c9-9df2-4eb0-81fd-d79953b296d2}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_T80B_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_T80B_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_TO_55_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{8ed90e18-c6f8-4bf2-afac-87e2081a37c2}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_TO_55_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_TO_55_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_UAZ_469_CMD_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{028dcba6-5177-4ded-93a8-49d0a1937b93}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_UAZ_469_CMD_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_UAZ_469_CMD_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Ural_4320_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{2ea27ec0-a0ea-49b8-8e2f-040d4dcedf75}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_Ural_4320_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Ural_4320_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_ZSU_23_Shilka_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{17e693d8-088a-487a-b355-2294f5548efb}
+    CfgName = 'TOE_SOV_57_GMRD_challenge_Sledgehammer_ZSU_23_Shilka_SOV'
     TransporterAndUnitsList =
     [
         TDeckTransporterAndUnitsDescriptor
@@ -20362,6 +21622,18 @@ Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Challenger_1_Mk1_UK is TDeckPackD
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_Challenger_1_Mk1_UK
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Challenger_1_Mk3_UK is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{69f44a21-836a-47f6-9300-3ca3e2831e7f}
+    CfgName = 'TOE_UK_1st_Armoured_multi_Challenger_1_Mk3_UK'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Challenger_1_Mk3_UK
         ),
     ]
 )
@@ -23701,6 +24973,18 @@ Descriptor_Deck_Pack_TOE_US_11ACR_multi_M3A1_Bradley_CFV_US is TDeckPackDescript
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_US_11ACR_multi_M3A2_Bradley_CFV_US is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1b3b8246-4a39-4eaf-988e-99e9b2b24035}
+    CfgName = 'TOE_US_11ACR_multi_M3A2_Bradley_CFV_US'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_M3A2_Bradley_CFV_US
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_US_11ACR_multi_M577_US is TDeckPackDescriptor
 (
     DescriptorId = GUID:{a4650e3f-6dd3-493c-9690-205651a536f8}
@@ -26703,13 +27987,25 @@ Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_cluster_US is TDeckPackDescr
 )
 Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A1_Bradley_Leader_US is TDeckPackDescriptor
 (
-    DescriptorId = GUID:{fcf7b11a-bdca-43cf-9b6f-5f7113645926}
+    DescriptorId = GUID:{088fdf3c-cc23-4e1a-a65b-c1a7f8e921e4}
     CfgName = 'TOE_US_3rd_Arm_multi_M2A1_Bradley_Leader_US'
     TransporterAndUnitsList =
     [
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_M2A1_Bradley_Leader_US
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A2_Bradley_Leader_US is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{a9158b7e-9cb6-45bb-8242-90ac14a67da1}
+    CfgName = 'TOE_US_3rd_Arm_multi_M2A2_Bradley_Leader_US'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_M2A2_Bradley_Leader_US
         ),
     ]
 )

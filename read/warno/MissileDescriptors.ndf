@@ -82,6 +82,7 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -175,6 +176,7 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -268,6 +270,7 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -361,6 +364,7 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -454,6 +458,7 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -547,6 +552,7 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -640,6 +646,7 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -733,6 +740,7 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -826,6 +834,7 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -919,6 +928,7 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1012,6 +1022,7 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1105,6 +1116,7 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1198,6 +1210,7 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1291,6 +1304,7 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1384,6 +1398,7 @@ export Descriptor_Missile_AA_R24MR_Vympel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1477,6 +1492,7 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1570,6 +1586,7 @@ export Descriptor_Missile_AA_R27R_Vympel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1663,6 +1680,7 @@ export Descriptor_Missile_AA_R33_Vympel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1756,6 +1774,7 @@ export Descriptor_Missile_AA_R37_Vympel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1849,6 +1868,7 @@ export Descriptor_Missile_AA_R3R is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1942,6 +1962,7 @@ export Descriptor_Missile_AA_R550_Magic is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2035,6 +2056,7 @@ export Descriptor_Missile_AA_R550_Magic_II is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2128,6 +2150,7 @@ export Descriptor_Missile_AA_R60_Vympel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2221,6 +2244,7 @@ export Descriptor_Missile_AA_R60_Vympel_helo is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2314,6 +2338,7 @@ export Descriptor_Missile_AA_R60M_Vympel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2407,6 +2432,7 @@ export Descriptor_Missile_AA_R73_Vympel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2500,6 +2526,7 @@ export Descriptor_Missile_AA_R77_Vympel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2593,6 +2620,7 @@ export Descriptor_Missile_AA_Skyflash is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2686,6 +2714,7 @@ export Descriptor_Missile_AA_Skyflash_SuperTEMP is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2778,6 +2807,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2870,6 +2900,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x12 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2962,6 +2993,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x16 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3054,6 +3086,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3146,6 +3179,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x16 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3238,6 +3272,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3330,6 +3365,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3422,6 +3458,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x6 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3514,6 +3551,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x8 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3606,6 +3644,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3698,6 +3737,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3790,6 +3830,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3894,6 +3935,7 @@ export Descriptor_Missile_AGM_AGM114A is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3998,6 +4040,7 @@ export Descriptor_Missile_AGM_AGM114A_x16 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4102,6 +4145,7 @@ export Descriptor_Missile_AGM_AGM114A_x2_salve is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4206,6 +4250,7 @@ export Descriptor_Missile_AGM_AGM114A_x2_sol is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4310,6 +4355,7 @@ export Descriptor_Missile_AGM_AGM114A_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4414,6 +4460,7 @@ export Descriptor_Missile_AGM_AGM114A_x8 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4506,6 +4553,7 @@ export Descriptor_Missile_AGM_AGM45_Shrike is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4598,6 +4646,7 @@ export Descriptor_Missile_AGM_AGM65B_Maverick is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4690,6 +4739,7 @@ export Descriptor_Missile_AGM_AGM65D_Maverick is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4782,6 +4832,7 @@ export Descriptor_Missile_AGM_AGM65E_Maverick is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4874,6 +4925,7 @@ export Descriptor_Missile_AGM_AGM88_HARM is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4966,6 +5018,7 @@ export Descriptor_Missile_AGM_AJ_168_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5058,6 +5111,7 @@ export Descriptor_Missile_AGM_ALARM is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5150,6 +5204,7 @@ export Descriptor_Missile_AGM_ARMAT is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5242,6 +5297,7 @@ export Descriptor_Missile_AGM_AS30 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5334,6 +5390,7 @@ export Descriptor_Missile_AGM_AS30L is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5426,6 +5483,7 @@ export Descriptor_Missile_AGM_AS37_Martel is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5518,6 +5576,7 @@ export Descriptor_Missile_AGM_AS37_Martel_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5610,6 +5669,7 @@ export Descriptor_Missile_AGM_BGM71_TOW_x8 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5702,6 +5762,7 @@ export Descriptor_Missile_AGM_BGM71C_ITOW_x8 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5794,6 +5855,7 @@ export Descriptor_Missile_AGM_HOT1 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5886,6 +5948,7 @@ export Descriptor_Missile_AGM_HOT1_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5978,6 +6041,7 @@ export Descriptor_Missile_AGM_HOT2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6070,6 +6134,7 @@ export Descriptor_Missile_AGM_HOT2_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6162,6 +6227,7 @@ export Descriptor_Missile_AGM_Kh23M is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6254,6 +6320,7 @@ export Descriptor_Missile_AGM_Kh25ML is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6346,6 +6413,7 @@ export Descriptor_Missile_AGM_Kh25MP is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6438,6 +6506,7 @@ export Descriptor_Missile_AGM_Kh25MPU is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6530,6 +6599,7 @@ export Descriptor_Missile_AGM_Kh28_X28 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6622,6 +6692,7 @@ export Descriptor_Missile_AGM_Kh29D is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6714,6 +6785,7 @@ export Descriptor_Missile_AGM_Kh29T is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6806,6 +6878,7 @@ export Descriptor_Missile_AGM_Kh31P is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6898,6 +6971,7 @@ export Descriptor_Missile_AGM_Kh58U is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6990,6 +7064,7 @@ export Descriptor_Missile_ATGM_9K111_Fagot is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7082,6 +7157,7 @@ export Descriptor_Missile_ATGM_9K121_Vikhr is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7174,6 +7250,7 @@ export Descriptor_Missile_ATGM_9M112_1_Kobra is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7266,6 +7343,7 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_BMP2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7358,6 +7436,7 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x5 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7450,6 +7529,7 @@ export Descriptor_Missile_ATGM_9M113_KonkursM is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7542,6 +7622,7 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7634,6 +7715,7 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late_x5 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7726,6 +7808,7 @@ export Descriptor_Missile_ATGM_9M114_Shturm_MTLB is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7818,6 +7901,7 @@ export Descriptor_Missile_ATGM_9M114M_KokonM is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7910,6 +7994,7 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8002,6 +8087,7 @@ export Descriptor_Missile_ATGM_9M117M_Arkan is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8094,6 +8180,7 @@ export Descriptor_Missile_ATGM_9M119M_Refleks is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8186,6 +8273,7 @@ export Descriptor_Missile_ATGM_9M119M_Svir is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8278,6 +8366,7 @@ export Descriptor_Missile_ATGM_9M128_Agona is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8370,6 +8459,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8462,6 +8552,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8554,6 +8645,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x6 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8646,6 +8738,7 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8738,6 +8831,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8830,6 +8924,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8922,6 +9017,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9014,6 +9110,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x8 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9106,6 +9203,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9198,6 +9296,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9290,6 +9389,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9382,6 +9482,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x8 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9474,6 +9575,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9566,6 +9668,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9658,6 +9761,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9750,6 +9854,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9842,6 +9947,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2A_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9934,6 +10040,7 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10026,6 +10133,7 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10118,6 +10226,7 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10210,6 +10319,7 @@ export Descriptor_Missile_ATGM_HOT2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10302,6 +10412,7 @@ export Descriptor_Missile_ATGM_HOT2_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10394,6 +10505,7 @@ export Descriptor_Missile_ATGM_HOT2_x3 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10486,6 +10598,7 @@ export Descriptor_Missile_ATGM_HOT2_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10578,6 +10691,7 @@ export Descriptor_Missile_ATGM_HOT2_x6 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10670,6 +10784,7 @@ export Descriptor_Missile_ATGM_MGM551C_Shillelagh is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10762,6 +10877,7 @@ export Descriptor_Missile_ATGM_MILAN is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10854,6 +10970,7 @@ export Descriptor_Missile_ATGM_MILAN_2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10946,6 +11063,7 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11038,6 +11156,7 @@ export Descriptor_Missile_ATGM_SS11_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11130,6 +11249,7 @@ export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11222,6 +11342,7 @@ export Descriptor_Missile_ATGM_Swingfire_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11314,6 +11435,7 @@ export Descriptor_Missile_ATGM_Swingfire_x5 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11406,6 +11528,7 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11499,6 +11622,7 @@ export Descriptor_Missile_Bomb_BGL_400_x1 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11592,6 +11716,7 @@ export Descriptor_Missile_Bomb_BGL_400_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11685,6 +11810,7 @@ export Descriptor_Missile_Bomb_CPU_123_x1 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11778,6 +11904,7 @@ export Descriptor_Missile_Bomb_CPU_123_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11871,6 +11998,7 @@ export Descriptor_Missile_Bomb_GBU_10_x1 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11964,6 +12092,7 @@ export Descriptor_Missile_Bomb_GBU_10_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12057,6 +12186,7 @@ export Descriptor_Missile_Bomb_GBU_12_x1 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12150,6 +12280,7 @@ export Descriptor_Missile_Bomb_GBU_12_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12243,6 +12374,7 @@ export Descriptor_Missile_Bomb_GBU_27_x1 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12336,6 +12468,7 @@ export Descriptor_Missile_Bomb_GBU_27_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12429,6 +12562,7 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x1 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12522,6 +12656,7 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12615,6 +12750,7 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x1 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12708,6 +12844,7 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12801,6 +12938,7 @@ export Descriptor_Missile_FakeRoquette_S_24 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12893,6 +13031,7 @@ export Descriptor_Missile_Javelin is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12986,6 +13125,7 @@ export Descriptor_Missile_Javelin_LML is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13078,6 +13218,7 @@ export Descriptor_Missile_M47_DRAGON is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13170,6 +13311,7 @@ export Descriptor_Missile_M47_DRAGON_II is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13263,6 +13405,7 @@ export Descriptor_Missile_MANPAD_Blowpipe is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13356,6 +13499,7 @@ export Descriptor_Missile_MANPAD_FIM43 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13449,6 +13593,7 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13542,6 +13687,7 @@ export Descriptor_Missile_MANPAD_FIM92_A is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13635,6 +13781,7 @@ export Descriptor_Missile_MANPAD_Javelin is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13728,6 +13875,7 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13820,6 +13968,7 @@ export Descriptor_Missile_MANPAD_igla is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13913,6 +14062,7 @@ export Descriptor_Missile_Mistral is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14006,6 +14156,7 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14099,6 +14250,7 @@ export Descriptor_Missile_SAM_9M311_Tunguska_x8 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14192,6 +14344,7 @@ export Descriptor_Missile_SAM_9M33 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14285,6 +14438,7 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14378,6 +14532,7 @@ export Descriptor_Missile_SAM_9M336_x3 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14471,6 +14626,7 @@ export Descriptor_Missile_SAM_9M33M2_x6 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14564,6 +14720,7 @@ export Descriptor_Missile_SAM_9M38M1_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14657,6 +14814,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14750,6 +14908,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14843,6 +15002,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14936,6 +15096,7 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15029,6 +15190,7 @@ export Descriptor_Missile_SAM_I_Hawk is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15122,6 +15284,7 @@ export Descriptor_Missile_SAM_I_Hawk_x3 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15215,6 +15378,7 @@ export Descriptor_Missile_SAM_Igla is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15308,6 +15472,7 @@ export Descriptor_Missile_SAM_Igla1M is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15401,6 +15566,7 @@ export Descriptor_Missile_SAM_IglaV is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15494,6 +15660,7 @@ export Descriptor_Missile_SAM_IglaV_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15587,6 +15754,7 @@ export Descriptor_Missile_SAM_MIM72A is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15680,6 +15848,7 @@ export Descriptor_Missile_SAM_MIM72F is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15773,6 +15942,7 @@ export Descriptor_Missile_SAM_MIM72G is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15866,6 +16036,7 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15959,6 +16130,7 @@ export Descriptor_Missile_SAM_RAPIER is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16052,6 +16224,7 @@ export Descriptor_Missile_SAM_RAPIER_DARKFIRE_x6 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16145,6 +16318,7 @@ export Descriptor_Missile_SAM_RAPIER_FSA_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16238,6 +16412,7 @@ export Descriptor_Missile_SAM_RAPIER_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16331,6 +16506,7 @@ export Descriptor_Missile_SAM_RAPIER_x8 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16424,6 +16600,7 @@ export Descriptor_Missile_SAM_ROLAND is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16517,6 +16694,7 @@ export Descriptor_Missile_SAM_ROLAND_1 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16610,6 +16788,7 @@ export Descriptor_Missile_SAM_ROLAND_1_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16703,6 +16882,7 @@ export Descriptor_Missile_SAM_ROLAND_2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16796,6 +16976,7 @@ export Descriptor_Missile_SAM_ROLAND_2_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16889,6 +17070,7 @@ export Descriptor_Missile_SAM_ROLAND_3 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16982,6 +17164,7 @@ export Descriptor_Missile_SAM_ROLAND_3_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17075,6 +17258,7 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17168,6 +17352,7 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17261,6 +17446,7 @@ export Descriptor_Missile_SAM_Strela10_x4_FASTA is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17354,6 +17540,7 @@ export Descriptor_Missile_SAM_Strela10M3_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17447,6 +17634,7 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17540,6 +17728,7 @@ export Descriptor_Missile_SAM_Strela2_x2 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17633,6 +17822,7 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0

@@ -78,10 +78,10 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -171,10 +171,10 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -264,10 +264,10 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -357,10 +357,10 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -450,10 +450,10 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -543,10 +543,10 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -636,10 +636,10 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -729,10 +729,10 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -822,10 +822,10 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -915,10 +915,10 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1008,10 +1008,10 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1101,10 +1101,10 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1194,10 +1194,10 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1287,10 +1287,10 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1380,10 +1380,10 @@ export Descriptor_Missile_AA_R24MR_Vympel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1473,10 +1473,10 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1566,10 +1566,10 @@ export Descriptor_Missile_AA_R27R_Vympel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1659,10 +1659,10 @@ export Descriptor_Missile_AA_R33_Vympel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1752,10 +1752,10 @@ export Descriptor_Missile_AA_R37_Vympel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1845,10 +1845,10 @@ export Descriptor_Missile_AA_R3R is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -1938,10 +1938,10 @@ export Descriptor_Missile_AA_R550_Magic is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2031,10 +2031,10 @@ export Descriptor_Missile_AA_R550_Magic_II is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2124,10 +2124,10 @@ export Descriptor_Missile_AA_R60_Vympel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2217,10 +2217,10 @@ export Descriptor_Missile_AA_R60_Vympel_helo is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2310,10 +2310,10 @@ export Descriptor_Missile_AA_R60M_Vympel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2403,10 +2403,10 @@ export Descriptor_Missile_AA_R73_Vympel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2496,10 +2496,10 @@ export Descriptor_Missile_AA_R77_Vympel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2589,10 +2589,10 @@ export Descriptor_Missile_AA_Skyflash is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2682,10 +2682,10 @@ export Descriptor_Missile_AA_Skyflash_SuperTEMP is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2774,10 +2774,10 @@ export Descriptor_Missile_AGM_9K121_Vikhr is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2866,10 +2866,10 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x12 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -2958,10 +2958,10 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x16 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3050,10 +3050,10 @@ export Descriptor_Missile_AGM_9M114M_KokonM is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3142,10 +3142,10 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x16 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3234,10 +3234,10 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3326,10 +3326,10 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3418,10 +3418,10 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x6 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3510,10 +3510,10 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x8 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3602,10 +3602,10 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3694,10 +3694,10 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3786,10 +3786,10 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3890,10 +3890,10 @@ export Descriptor_Missile_AGM_AGM114A is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -3994,10 +3994,10 @@ export Descriptor_Missile_AGM_AGM114A_x16 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4098,10 +4098,10 @@ export Descriptor_Missile_AGM_AGM114A_x2_salve is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4202,10 +4202,10 @@ export Descriptor_Missile_AGM_AGM114A_x2_sol is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4306,10 +4306,10 @@ export Descriptor_Missile_AGM_AGM114A_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4410,10 +4410,10 @@ export Descriptor_Missile_AGM_AGM114A_x8 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4502,10 +4502,10 @@ export Descriptor_Missile_AGM_AGM45_Shrike is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4594,10 +4594,10 @@ export Descriptor_Missile_AGM_AGM65B_Maverick is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4686,10 +4686,10 @@ export Descriptor_Missile_AGM_AGM65D_Maverick is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4778,10 +4778,10 @@ export Descriptor_Missile_AGM_AGM65E_Maverick is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4870,10 +4870,10 @@ export Descriptor_Missile_AGM_AGM88_HARM is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -4962,10 +4962,10 @@ export Descriptor_Missile_AGM_AJ_168_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5054,10 +5054,10 @@ export Descriptor_Missile_AGM_ALARM is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5146,10 +5146,10 @@ export Descriptor_Missile_AGM_ARMAT is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5238,10 +5238,10 @@ export Descriptor_Missile_AGM_AS30 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5330,10 +5330,10 @@ export Descriptor_Missile_AGM_AS30L is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5422,10 +5422,10 @@ export Descriptor_Missile_AGM_AS37_Martel is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5514,10 +5514,10 @@ export Descriptor_Missile_AGM_AS37_Martel_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5606,10 +5606,10 @@ export Descriptor_Missile_AGM_BGM71_TOW_x8 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5698,10 +5698,10 @@ export Descriptor_Missile_AGM_BGM71C_ITOW_x8 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5790,10 +5790,10 @@ export Descriptor_Missile_AGM_HOT1 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5882,10 +5882,10 @@ export Descriptor_Missile_AGM_HOT1_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -5974,10 +5974,10 @@ export Descriptor_Missile_AGM_HOT2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6066,10 +6066,10 @@ export Descriptor_Missile_AGM_HOT2_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6158,10 +6158,10 @@ export Descriptor_Missile_AGM_Kh23M is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6250,10 +6250,102 @@ export Descriptor_Missile_AGM_Kh25ML is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+            )
+            KillWhenDamagesReachMax = True
+            HitRollSize = 0.0
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_AGM_Kh25MP is TEntityDescriptor
+(
+    DescriptorId       = GUID:{1b13c3c3-fbb2-43ea-82dd-25a69f9a5a76}
+    ClassNameForDebug  = 'Missile_AGM_Kh25MP'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_AGM_Kh25MP",
+            ]
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_ProjectileFlying,
+            ]
+        ),
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            Depiction  = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kh_25MP
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_AGM_gros )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+            ImpactReveal_TimeBeforeImpact = 0.0
+            ImpactReveal_TimeOfReveal     = 0.0
+            ImpactReveal_Radius           = 0.0
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeed        = 8000 * Metre
+                MaxAcceleration = 4000 * Metre
+                AutoGyr         = 0.5235987755982988
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeed        = 8000 * Metre
+                MaxAcceleration = 4000 * Metre
+                AutoGyr         = 1.7453292519943295
+            )
+            AscendantPhaseConfig = nil
+            RecedingPhaseConfig = nil
+            CruiseAltitude = 0.0 * Metre
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 1600
+            AngleMaxForRandomMouvUncontrollable = 6.0
+            RotationSpeedWhenUncontrollable = 30
+            TempsDemiTour = 0.1
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6342,10 +6434,10 @@ export Descriptor_Missile_AGM_Kh25MPU is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6434,10 +6526,10 @@ export Descriptor_Missile_AGM_Kh28_X28 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6526,10 +6618,10 @@ export Descriptor_Missile_AGM_Kh29D is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6618,10 +6710,10 @@ export Descriptor_Missile_AGM_Kh29T is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6710,10 +6802,10 @@ export Descriptor_Missile_AGM_Kh31P is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6802,10 +6894,10 @@ export Descriptor_Missile_AGM_Kh58U is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6894,10 +6986,10 @@ export Descriptor_Missile_ATGM_9K111_Fagot is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -6986,10 +7078,10 @@ export Descriptor_Missile_ATGM_9K121_Vikhr is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7078,10 +7170,10 @@ export Descriptor_Missile_ATGM_9M112_1_Kobra is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7170,10 +7262,10 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_BMP2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7262,10 +7354,10 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x5 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7354,10 +7446,10 @@ export Descriptor_Missile_ATGM_9M113_KonkursM is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7446,10 +7538,10 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7538,10 +7630,10 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late_x5 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7630,10 +7722,10 @@ export Descriptor_Missile_ATGM_9M114_Shturm_MTLB is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7722,10 +7814,10 @@ export Descriptor_Missile_ATGM_9M114M_KokonM is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7814,10 +7906,10 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7906,10 +7998,10 @@ export Descriptor_Missile_ATGM_9M117M_Arkan is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -7998,10 +8090,10 @@ export Descriptor_Missile_ATGM_9M119M_Refleks is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8090,10 +8182,10 @@ export Descriptor_Missile_ATGM_9M119M_Svir is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8182,10 +8274,10 @@ export Descriptor_Missile_ATGM_9M128_Agona is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8274,10 +8366,10 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8366,10 +8458,10 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8458,10 +8550,10 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x6 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8550,10 +8642,10 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8642,10 +8734,10 @@ export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8734,10 +8826,10 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8826,10 +8918,10 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -8918,10 +9010,10 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x8 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9010,10 +9102,10 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9102,10 +9194,10 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9194,10 +9286,10 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9286,10 +9378,10 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x8 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9378,10 +9470,10 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9470,10 +9562,10 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9562,10 +9654,10 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9654,10 +9746,10 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9746,10 +9838,10 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2A_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9838,10 +9930,10 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -9930,10 +10022,10 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10022,10 +10114,10 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10114,10 +10206,10 @@ export Descriptor_Missile_ATGM_HOT2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10206,10 +10298,10 @@ export Descriptor_Missile_ATGM_HOT2_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10298,10 +10390,10 @@ export Descriptor_Missile_ATGM_HOT2_x3 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10390,10 +10482,10 @@ export Descriptor_Missile_ATGM_HOT2_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10482,10 +10574,10 @@ export Descriptor_Missile_ATGM_HOT2_x6 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10574,10 +10666,10 @@ export Descriptor_Missile_ATGM_MGM551C_Shillelagh is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10666,10 +10758,10 @@ export Descriptor_Missile_ATGM_MILAN is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10758,10 +10850,10 @@ export Descriptor_Missile_ATGM_MILAN_2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10850,10 +10942,10 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -10942,10 +11034,10 @@ export Descriptor_Missile_ATGM_SS11_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11034,10 +11126,10 @@ export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11126,10 +11218,10 @@ export Descriptor_Missile_ATGM_Swingfire_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11218,10 +11310,10 @@ export Descriptor_Missile_ATGM_Swingfire_x5 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11310,10 +11402,10 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11403,10 +11495,10 @@ export Descriptor_Missile_Bomb_BGL_400_x1 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11496,10 +11588,10 @@ export Descriptor_Missile_Bomb_BGL_400_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11589,10 +11681,10 @@ export Descriptor_Missile_Bomb_CPU_123_x1 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11682,10 +11774,10 @@ export Descriptor_Missile_Bomb_CPU_123_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11775,10 +11867,10 @@ export Descriptor_Missile_Bomb_GBU_10_x1 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11868,10 +11960,10 @@ export Descriptor_Missile_Bomb_GBU_10_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -11961,10 +12053,10 @@ export Descriptor_Missile_Bomb_GBU_12_x1 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12054,10 +12146,10 @@ export Descriptor_Missile_Bomb_GBU_12_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12147,10 +12239,10 @@ export Descriptor_Missile_Bomb_GBU_27_x1 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12240,10 +12332,10 @@ export Descriptor_Missile_Bomb_GBU_27_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12333,10 +12425,10 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x1 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12426,10 +12518,10 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12519,10 +12611,10 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x1 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12612,10 +12704,10 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12705,10 +12797,10 @@ export Descriptor_Missile_FakeRoquette_S_24 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12797,10 +12889,10 @@ export Descriptor_Missile_Javelin is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12890,10 +12982,10 @@ export Descriptor_Missile_Javelin_LML is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -12982,10 +13074,10 @@ export Descriptor_Missile_M47_DRAGON is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13074,10 +13166,10 @@ export Descriptor_Missile_M47_DRAGON_II is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13167,10 +13259,10 @@ export Descriptor_Missile_MANPAD_Blowpipe is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13260,10 +13352,10 @@ export Descriptor_Missile_MANPAD_FIM43 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13353,10 +13445,10 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13446,10 +13538,10 @@ export Descriptor_Missile_MANPAD_FIM92_A is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13539,10 +13631,10 @@ export Descriptor_Missile_MANPAD_Javelin is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13632,10 +13724,10 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13724,10 +13816,10 @@ export Descriptor_Missile_MANPAD_igla is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13817,10 +13909,10 @@ export Descriptor_Missile_Mistral is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -13910,10 +14002,10 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14003,10 +14095,10 @@ export Descriptor_Missile_SAM_9M311_Tunguska_x8 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14096,10 +14188,10 @@ export Descriptor_Missile_SAM_9M33 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14189,10 +14281,10 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14282,10 +14374,10 @@ export Descriptor_Missile_SAM_9M336_x3 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14375,10 +14467,10 @@ export Descriptor_Missile_SAM_9M33M2_x6 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14468,10 +14560,10 @@ export Descriptor_Missile_SAM_9M38M1_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14561,10 +14653,10 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14654,10 +14746,10 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14747,10 +14839,10 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14840,10 +14932,10 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -14933,10 +15025,10 @@ export Descriptor_Missile_SAM_I_Hawk is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15026,10 +15118,10 @@ export Descriptor_Missile_SAM_I_Hawk_x3 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15119,10 +15211,10 @@ export Descriptor_Missile_SAM_Igla is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15212,10 +15304,10 @@ export Descriptor_Missile_SAM_Igla1M is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15305,10 +15397,10 @@ export Descriptor_Missile_SAM_IglaV is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15398,10 +15490,10 @@ export Descriptor_Missile_SAM_IglaV_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15491,10 +15583,10 @@ export Descriptor_Missile_SAM_MIM72A is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15584,10 +15676,10 @@ export Descriptor_Missile_SAM_MIM72F is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15677,10 +15769,10 @@ export Descriptor_Missile_SAM_MIM72G is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15770,10 +15862,10 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15863,10 +15955,10 @@ export Descriptor_Missile_SAM_RAPIER is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -15956,10 +16048,10 @@ export Descriptor_Missile_SAM_RAPIER_DARKFIRE_x6 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16049,10 +16141,10 @@ export Descriptor_Missile_SAM_RAPIER_FSA_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16142,10 +16234,10 @@ export Descriptor_Missile_SAM_RAPIER_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16235,10 +16327,10 @@ export Descriptor_Missile_SAM_RAPIER_x8 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16328,10 +16420,10 @@ export Descriptor_Missile_SAM_ROLAND is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16421,10 +16513,10 @@ export Descriptor_Missile_SAM_ROLAND_1 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16514,10 +16606,10 @@ export Descriptor_Missile_SAM_ROLAND_1_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16607,10 +16699,10 @@ export Descriptor_Missile_SAM_ROLAND_2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16700,10 +16792,10 @@ export Descriptor_Missile_SAM_ROLAND_2_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16793,10 +16885,10 @@ export Descriptor_Missile_SAM_ROLAND_3 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16886,10 +16978,10 @@ export Descriptor_Missile_SAM_ROLAND_3_x2 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -16979,10 +17071,10 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17072,10 +17164,10 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17165,10 +17257,10 @@ export Descriptor_Missile_SAM_Strela10_x4_FASTA is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17258,10 +17350,10 @@ export Descriptor_Missile_SAM_Strela10M3_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17351,10 +17443,103 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+            )
+            KillWhenDamagesReachMax = True
+            HitRollSize = 0.0
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_SAM_Strela2_x2 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{2295d787-c8c6-4f2f-b666-d78ab82ccd7b}
+    ClassNameForDebug  = 'Missile_SAM_Strela2_x2'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_SAM_Strela2_x2",
+            ]
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_ProjectileFlying,
+            ]
+        ),
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            Depiction  = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_petit )),
+                    ( ["fx_propulsion_off"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_moyen )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+            ImpactReveal_TimeBeforeImpact = 0.0
+            ImpactReveal_TimeOfReveal     = 0.0
+            ImpactReveal_Radius           = 0.0
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeed        = 15000 * Metre
+                MaxAcceleration = 8000 * Metre
+                AutoGyr         = 1.7453292519943295
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeed        = 15000 * Metre
+                MaxAcceleration = 8000 * Metre
+                AutoGyr         = 0.4363323129985824
+            )
+            AscendantPhaseConfig = nil
+            RecedingPhaseConfig = nil
+            CruiseAltitude = 0.0 * Metre
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 1000
+            AngleMaxForRandomMouvUncontrollable = 2.5
+            RotationSpeedWhenUncontrollable = 15
+            TempsDemiTour = 0.1
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0
@@ -17444,10 +17629,10 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
             StunDamagesRegen = ~/Missile_StunDamagesRegen
             BlindageProperties = TBlindageProperties
             (
-                ArmorDescriptorFront = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorSides = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorRear = ArmorDescriptor_Vehicule_1
-                ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
             )
             KillWhenDamagesReachMax = True
             HitRollSize = 0.0

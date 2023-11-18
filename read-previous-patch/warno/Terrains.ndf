@@ -33,9 +33,9 @@ export ForetDense is TGameplayTerrain
     CriticalEffectProbability = 0.05
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.6)]),
-            ("fmballe", MAP [("infanterie",0.5)]),
-            ("balledca", MAP [("infanterie",0.5)]),
+            (DamageFamily_he, MAP [(ResistanceFamily_infanterie,0.6)]),
+            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.5)]),
         ]
     DebugColor = rgba[2, 106, 2, 255]
     DissimulationModifierGroundAir = 20
@@ -64,15 +64,15 @@ export ForetLegere is TGameplayTerrain
     CriticalEffectProbability = 0.025
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.65)]),
-            ("he_autocanon", MAP [("infanterie",0.65)]),
-            ("superhe", MAP [("infanterie",0.65)]),
-            ("balle", MAP [("infanterie",0.65)]),
-            ("balledca", MAP [("infanterie",0.65)]),
-            ("howz", MAP [("infanterie",0.65)]),
-            ("howz_bombe", MAP [("infanterie",0.65)]),
-            ("fmballe", MAP [("infanterie",0.65)]),
-            ("roquette_ap", MAP [("infanterie",0.65)]),
+            (DamageFamily_he, MAP [(ResistanceFamily_infanterie,0.65)]),
+            (DamageFamily_he_autocanon, MAP [(ResistanceFamily_infanterie,0.65)]),
+            (DamageFamily_superhe, MAP [(ResistanceFamily_infanterie,0.65)]),
+            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.65)]),
+            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.65)]),
+            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.65)]),
+            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.65)]),
+            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.65)]),
+            (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.65)]),
         ]
     DebugColor = rgba[70, 252, 70, 255]
     DissimulationModifierGroundAir = 12
@@ -102,16 +102,16 @@ export PetitBatiment is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.5)]),
-            ("he_autocanon", MAP [("infanterie",0.5)]),
-            ("superhe", MAP [("infanterie",0.5)]),
-            ("balle", MAP [("infanterie",0.5)]),
-            ("balledca", MAP [("infanterie",0.5)]),
-            ("howz", MAP [("infanterie",0.5)]),
-            ("howz_bombe", MAP [("infanterie",0.5)]),
-            ("fmballe", MAP [("infanterie",0.5)]),
-            // ("cac", MAP [("infanterie",0.85)]),
-            ("roquette_ap", MAP [("infanterie",0.5)]),
+            (DamageFamily_he, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_he_autocanon, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_superhe, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.5)]),
+            // (DamageFamily_cac, MAP [(ResistanceFamily_infanterie,0.85)]),
+            (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.5)]),
         ]
     DebugColor = rgba[0, 0, 0, 255]
     DissimulationModifierGroundAir = 10.5
@@ -140,16 +140,16 @@ export Batiment is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.5)]),
-            ("he_autocanon", MAP [("infanterie",0.5)]),
-            ("superhe", MAP [("infanterie",0.5)]),
-            ("balle", MAP [("infanterie",0.5)]),
-            ("balledca", MAP [("infanterie",0.5)]),
-            ("howz", MAP [("infanterie",0.5)]),
-            ("howz_bombe", MAP [("infanterie",0.5)]),
-            ("fmballe", MAP [("infanterie",0.5)]),
-            // ("cac", MAP [("infanterie",0.85)]),
-            ("roquette_ap", MAP [("infanterie",0.5)]),
+            (DamageFamily_he, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_he_autocanon, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_superhe, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.5)]),
+            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.5)]),
+            // (DamageFamily_cac, MAP [(ResistanceFamily_infanterie,0.85)]),
+            (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.5)]),
         ]
     DebugColor = rgba[0, 0, 0, 255]
     DissimulationModifierGroundAir = 10.5
@@ -178,16 +178,16 @@ export Ruin is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            ("he", MAP [("infanterie",0.60)]),
-            ("he_autocanon", MAP [("infanterie",0.45)]),
-            ("superhe", MAP [("infanterie",0.45)]),
-            ("balle", MAP [("infanterie",0.50)]),
-            ("balledca", MAP [("infanterie",0.50)]),
-            ("howz", MAP [("infanterie",0.35)]),
-            ("howz_bombe", MAP [("infanterie",0.35)]),
-            ("cac", MAP [("infanterie",0.85)]),
-            ("fmballe", MAP [("infanterie",0.35)]),
-            ("roquette_ap", MAP [("infanterie",0.55)]),
+            (DamageFamily_he, MAP [(ResistanceFamily_infanterie,0.60)]),
+            (DamageFamily_he_autocanon, MAP [(ResistanceFamily_infanterie,0.45)]),
+            (DamageFamily_superhe, MAP [(ResistanceFamily_infanterie,0.45)]),
+            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.50)]),
+            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.50)]),
+            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.35)]),
+            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.35)]),
+            (DamageFamily_cac, MAP [(ResistanceFamily_infanterie,0.85)]),
+            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.35)]),
+            (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.55)]),
         ]
     DebugColor = rgba[0, 6, 200, 255]
     DissimulationModifierGroundAir = 10.5
@@ -218,19 +218,19 @@ export Tranchee is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance = MAP [
         (
-            "balle",
+            DamageFamily_balle,
             MAP [
                 (
-                    "infanterie",
+                    ResistanceFamily_infanterie,
                     0.3
                 ),
             ]
         ),
         (
-            "he",
+            DamageFamily_he,
             MAP [
                 (
-                    "infanterie",
+                    ResistanceFamily_infanterie,
                     0.1
                 ),
             ]
@@ -263,19 +263,19 @@ export Barbeles is TGameplayTerrain
     CriticalEffectProbability = 0.6
         DamageModifierPerFamilyAndResistance = MAP [
         (
-            "balle",
+            DamageFamily_balle,
             MAP [
                 (
-                    "infanterie",
+                    ResistanceFamily_infanterie,
                     1.5
                 ),
             ]
         ),
         (
-            "he",
+            DamageFamily_he,
             MAP [
                 (
-                    "infanterie",
+                    ResistanceFamily_infanterie,
                     1.5
                 ),
             ]
@@ -308,19 +308,19 @@ export NidMitrailleuse is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance = MAP [
         (
-            "balle",
+            DamageFamily_balle,
             MAP [
                 (
-                    "infanterie",
+                    ResistanceFamily_infanterie,
                     0.8
                 ),
             ]
         ),
         (
-            "he",
+            DamageFamily_he,
             MAP [
                 (
-                    "infanterie",
+                    ResistanceFamily_infanterie,
                     0.5
                 ),
             ]
@@ -443,6 +443,31 @@ export StrategicSemiUrban is TGameplayTerrain
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
+export StrategicUrban is TGameplayTerrain
+(
+    BloqueAmphibie = false
+    BloqueAtterrissage = false
+    BloqueInfanterie = false
+    BloqueVehicule = false
+    BloqueVision = false
+    CriticalEffectProbability = 0
+    DebugColor = rgba[128, 128, 25, 255]
+    DissimulationModifierGroundAir = 0
+    DissimulationModifierGroundGround = 0
+    HeightInMeters = 0
+    InflammabilityProbability = 0.1
+    Name = 'StrategicUrban'
+    SpeedModifierAllTerrainWheel = 0.8
+    SpeedModifierInfantry = 1
+    SpeedModifierTrack = 0.9
+    StealthBonus = 1
+    //~~~~~~~~
+    SpeedModifierBoats = 0
+    DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
+    TerrainType = ~/ETerrainType/StrategicUrban
+    WorldLayerActiveMask = 255
+    AuthorizeNearGroundFlying = true
+)
 export StrategicRiver is TGameplayTerrain
 (
     BloqueAmphibie = false
@@ -505,19 +530,19 @@ export Urbain is TGameplayTerrain
     CriticalEffectProbability = 0.05
     DamageModifierPerFamilyAndResistance = MAP [
         (
-            "balle",
+            DamageFamily_balle,
             MAP [
                 (
-                    "infanterie",
+                    ResistanceFamily_infanterie,
                     0.8
                 ),
             ]
         ),
         (
-            "he",
+            DamageFamily_he,
             MAP [
                 (
-                    "infanterie",
+                    ResistanceFamily_infanterie,
                     0.8
                 ),
             ]
