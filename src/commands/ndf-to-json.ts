@@ -1,9 +1,13 @@
 import { search } from '@izohek/ndf-parser';
-import { NdfConstant, NdfObject, ParserTuple } from '@izohek/ndf-parser/dist/src/types';
+import {
+  NdfConstant,
+  NdfObject,
+  ParserTuple,
+} from '@izohek/ndf-parser/dist/src/types';
 import { Command } from '@oclif/core';
 import { NdfFilePathMap, NdfManager } from '../lib/ndf-to-json/ndf-manager';
 import { Unit, UnitManager } from '../lib/ndf-to-json/unit-manager';
-import { isNdfObject } from '../lib/ndf-to-json/utils';
+import { extractValuesFromFile, isNdfObject } from '../lib/ndf-to-json/utils';
 import parseDivisionData from '../lib/parse/divisions';
 import { diff } from 'json-diff';
 
@@ -24,6 +28,7 @@ const NDF_FILES = Object.freeze({
   building: 'BuildingDescriptors.ndf',
   deckSerializer: 'DeckSerializer.ndf',
   hitRollConstants: 'HitRollConstants.ndf',
+  damageResistance: 'DamageResistance.ndf',
 });
 
 export interface DescriptorIdMap {
@@ -35,6 +40,11 @@ interface UnitData {
   units: Unit[];
   divisions: any;
 }
+
+export type FamilyIndexTuple = {
+  family: string;
+  maxIndex: number;
+};
 
 export type SpeedModifier = {
   name: string;
@@ -79,6 +89,14 @@ const replaceNaNwithNull = (obj: any) => {
   }
 };
 
+export type TerrainResistance = {
+  damageFamily: any;
+  resistances: {
+    type: any;
+    value: number;
+  }[];
+};
+
 export default class NdfToJson extends Command {
   static description =
     'reads ndf files, outputs WarYes compatible datastructures';
@@ -101,15 +119,16 @@ export default class NdfToJson extends Command {
     const { args } = await this.parse(NdfToJson);
     this.log('Extracting unit data from ndf files');
 
-    const currentPatchData: UnitData = await this.extractNdfData(
-      args.inputNdfFolder
-    );
+    const { unitData: currentPatchData, damageTableData } =
+      await this.extractNdfData(args.inputNdfFolder);
 
     let previousPatchData: UnitData;
 
     if (args.previousNdfFolder) {
-      previousPatchData = await this.extractNdfData(args.previousNdfFolder);
-
+      const { unitData: _previousPatchData } = await this.extractNdfData(
+        args.previousNdfFolder
+      );
+      previousPatchData = _previousPatchData;
 
       const patchDiff: any[] = [];
 
@@ -135,8 +154,10 @@ export default class NdfToJson extends Command {
       }
 
       const divDiff: any[] = [];
-      for(const division of currentPatchData.divisions) {
-        const oldDivision = previousPatchData.divisions.find((d: any) => d.descriptor === division.descriptor);
+      for (const division of currentPatchData.divisions) {
+        const oldDivision = previousPatchData.divisions.find(
+          (d: any) => d.descriptor === division.descriptor
+        );
 
         const newPacks = division.packs;
         const oldPacks = oldDivision?.packs || [];
@@ -146,41 +167,41 @@ export default class NdfToJson extends Command {
           packDiff: any[];
         } = {
           descriptor: division.descriptor,
-          packDiff: []
+          packDiff: [],
         };
 
-        for(const pack of newPacks) {
-          const oldPack = oldPacks.find((p: any) => p.packDescriptor === pack.packDescriptor);
+        for (const pack of newPacks) {
+          const oldPack = oldPacks.find(
+            (p: any) => p.packDescriptor === pack.packDescriptor
+          );
 
-          if(oldPack) {
+          if (oldPack) {
             const packDiff = diff(oldPack, pack);
 
-            if(packDiff) {
+            if (packDiff) {
               divisionDiff.packDiff.push({
                 descriptor: pack.unitDescriptor,
                 pack: pack.packDescriptor,
                 diff: packDiff,
-              })
+              });
             }
           } else {
             divisionDiff.packDiff.push({
               descriptor: pack.unitDescriptor,
               pack: pack.packDescriptor,
               new: true,
-            })
+            });
           }
         }
 
-
-        divDiff.push(divisionDiff)
+        divDiff.push(divisionDiff);
       }
-
 
       const combinedDiff = {
         unitStats: patchDiff,
-        unitAvailability: divDiff
-      }
-      
+        unitAvailability: divDiff,
+      };
+
       fs.writeFileSync('patch.json', JSON.stringify(combinedDiff));
     }
 
@@ -191,7 +212,6 @@ export default class NdfToJson extends Command {
 
     let unitIndex = 0;
     for (const unit of duplicatedCurrentPatchData.units) {
-
       duplicatedCurrentPatchData.units[unitIndex] = {
         descriptorName: unit.descriptorName,
         id: unit.id,
@@ -202,7 +222,7 @@ export default class NdfToJson extends Command {
       unitIndex++;
     }
 
-    // create map of unitDescriptor 
+    // create map of unitDescriptor
     const strippedUnitDescriptorMap: { [key: string]: any } = {};
     for (const unit of duplicatedCurrentPatchData.units) {
       strippedUnitDescriptorMap[unit.descriptorName] = unit;
@@ -217,10 +237,20 @@ export default class NdfToJson extends Command {
       })
     );
 
+    fs.writeFileSync('damageTable.json', JSON.stringify(damageTableData));
+
     this.log(`Done! 🎉 File written to ${args.outputFile}`);
   }
 
-  private async extractNdfData(readDirectory: string) {
+  private async extractNdfData(readDirectory: string): Promise<{
+    unitData: UnitData;
+    damageTableData: {
+      resistanceFamilyWithIndexes: FamilyIndexTuple[];
+      damageFamilyWithIndexes: FamilyIndexTuple[];
+      damageTable: number[][];
+      terrainResistances: {name: string, damageFamilies: TerrainResistance[]}[]
+    };
+  }> {
     const ndfFilePathMap: NdfFilePathMap = {};
     // eslint-disable-next-line guard-for-in
     for (const key in NDF_FILES) {
@@ -230,12 +260,47 @@ export default class NdfToJson extends Command {
       );
     }
 
+    const filePath = path.join(readDirectory, NDF_FILES.damageResistance);
+
+    const damageTable = extractValuesFromFile(filePath) || [];
+
     const ndfManager = new NdfManager(ndfFilePathMap);
     const ndfs = await ndfManager.parse();
 
+    const resistanceFamilyStrings: string[] = (
+      ndfs.damageResistance?.[0] as any
+    )?.attributes[0].value?.values.map((v: any) => v.children[0]?.value?.value);
+    const damageFamilyStrings: string[] = (
+      ndfs.damageResistance?.[0] as any
+    )?.attributes[1].value?.values.map((v: any) => v.children[0]?.value?.value);
 
-    const bonusPrecisionResult = ndfs.hitRollConstants.find((h: any) => h.name === 'bonusPrecision') as any;
-    const bonusPrecision = Number(bonusPrecisionResult.attributes[0].value) / 100; // convert to decimal percentage
+    const terrainResistances = this.extractTerrainResistances(ndfs.terrain);
+
+    const resistanceFamilyWithIndexes: FamilyIndexTuple[] = [];
+    for (const resistanceFamilyString of resistanceFamilyStrings) {
+      resistanceFamilyWithIndexes.push(
+        getFamilyAndIndexFromFamilyDefinition(
+          resistanceFamilyString,
+          'ResistanceFamily_'
+        )
+      );
+    }
+
+    const damageFamilyWithIndexes: FamilyIndexTuple[] = [];
+    for (const damageFamilyString of damageFamilyStrings) {
+      damageFamilyWithIndexes.push(
+        getFamilyAndIndexFromFamilyDefinition(
+          damageFamilyString,
+          'DamageFamily_'
+        )
+      );
+    }
+
+    const bonusPrecisionResult = ndfs.hitRollConstants.find(
+      (h: any) => h.name === 'bonusPrecision'
+    ) as any;
+    const bonusPrecision =
+      Number(bonusPrecisionResult.attributes[0].value) / 100; // convert to decimal percentage
 
     /**
      * Mapping weapons and ammo out to be mapped by keys will save us many iterations when units need to find weapons, and weapons need to find ammo
@@ -254,20 +319,22 @@ export default class NdfToJson extends Command {
     const divisionIds = (ndfs.deckSerializer[0] as NdfObject).attributes[0];
     const unitIds = (ndfs.deckSerializer[0] as NdfObject).attributes[2];
 
-    const divisionIdTuples: ParserTuple[] = ((divisionIds.value as any).value);
-    const unitIdTuples: ParserTuple[] = ((unitIds.value as any).value); 
+    const divisionIdTuples: ParserTuple[] = (divisionIds.value as any).value;
+    const unitIdTuples: ParserTuple[] = (unitIds.value as any).value;
 
-    const divisionIdMap: DescriptorIdMap = {}; 
+    const divisionIdMap: DescriptorIdMap = {};
     const unitIdMap: DescriptorIdMap = {};
 
-    for(const divisionIdTuple of divisionIdTuples) {
-      const divisionDescriptor = `${NdfManager.extractNameFromTuple(divisionIdTuple)}`;
+    for (const divisionIdTuple of divisionIdTuples) {
+      const divisionDescriptor = `${NdfManager.extractNameFromTuple(
+        divisionIdTuple
+      )}`;
       const divisionId = NdfManager.extractValueFromTuple(divisionIdTuple);
 
       divisionIdMap[divisionDescriptor] = Number(divisionId);
     }
 
-    for(const unitIdTuple of unitIdTuples) {
+    for (const unitIdTuple of unitIdTuples) {
       const unitDescriptor = `${NdfManager.extractNameFromTuple(unitIdTuple)}`;
       const unitId = NdfManager.extractValueFromTuple(unitIdTuple);
 
@@ -275,8 +342,6 @@ export default class NdfToJson extends Command {
     }
 
     const speedModifiers = this.extractSpeedModifiers(ndfs.terrain);
-
-
 
     const outputJson: UnitData = {
       version: undefined,
@@ -337,7 +402,15 @@ export default class NdfToJson extends Command {
 
     this.log('Data parsed. Writing to file...');
 
-    return outputJson;
+    return {
+      unitData: outputJson,
+      damageTableData: {
+        damageFamilyWithIndexes,
+        resistanceFamilyWithIndexes,
+        damageTable,
+        terrainResistances,
+      },
+    };
   }
 
   /**
@@ -398,6 +471,63 @@ export default class NdfToJson extends Command {
     return speedModifiers;
   }
 
+  private extractTerrainResistances(terrains: (NdfObject | NdfConstant)[]): {name: string, damageFamilies: TerrainResistance[]}[] {
+    const validTerrains = [
+      { descriptorName: 'ForetLegere', name: 'forest' },
+      { descriptorName: 'Batiment', name: 'building' },
+      { descriptorName: 'Ruin', name: 'ruins' },
+    ];
+
+    const terrainResistances: {name: string, damageFamilies: TerrainResistance[]}[] = [];
+
+    for (const terrainDescriptor of terrains) {
+      if (isNdfObject(terrainDescriptor)) {
+        const terrain = validTerrains.find(
+          (terrain) => terrain.descriptorName === terrainDescriptor.name
+        );
+
+        if (terrain) {
+
+          const resistancesForDamageFamilies = []
+          const searchResult = search(
+            terrainDescriptor,
+            'DamageModifierPerFamilyAndResistance'
+          );
+          const damageModifierPerFamilyAndResistances =
+            searchResult[0].value.value;
+
+          for (const dmg of damageModifierPerFamilyAndResistances) {
+            const damageFamily = dmg.value[0].value.slice(
+              'DamageFamily_'.length
+            );
+            const resistanceFamilies = dmg.value[1].values;
+
+            const resistances = [];
+            for (let i = 0; i < resistanceFamilies.length; i += 2) {
+              const resistanceFamily = resistanceFamilies[i].name.slice(
+                'ResistanceFamily_'.length
+              );
+              const resistanceValue = Number(resistanceFamilies[i + 1].value);
+              resistances.push({
+                type: resistanceFamily,
+                value: resistanceValue,
+              });
+            }
+
+            resistancesForDamageFamilies.push({ damageFamily, resistances });
+          }
+
+          terrainResistances.push({
+            name: terrain.descriptorName,
+            damageFamilies: resistancesForDamageFamilies
+          });
+        }
+      }
+    }
+
+    return terrainResistances;
+  }
+
   private divisionsForUnit(unit: Unit, divisions: any[]) {
     const nationalityDivisions = divisions?.filter(
       (division) => division.alliance === unit.unitType.nationality
@@ -411,4 +541,15 @@ export default class NdfToJson extends Command {
       })
       .map((division) => division.descriptor);
   }
+}
+function getFamilyAndIndexFromFamilyDefinition(
+  damageResistanceString: string,
+  stringPrefix: string
+) {
+  const tokens = damageResistanceString.split(' ');
+  const family = tokens[0].slice(stringPrefix.length);
+  const indexTokens = tokens[1].split('=');
+  const maxIndex = Number(indexTokens[1]);
+
+  return { family, maxIndex };
 }

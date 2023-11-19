@@ -42,6 +42,7 @@ export type Ammo = {
   damageFamily: string;
   damageIndex: string;
   piercingWeapon: boolean;
+  tandemCharge: boolean;
   isKinetic: boolean;
   kineticAP: number;
   heatAP: number;
@@ -60,6 +61,8 @@ export type Ammo = {
   staticPrecisionBonusPerShot?: number;
   movingPrecisionBonusPerShot?: number;
   maxSuccessiveHitCount?: number;
+  damageType?: string;
+  damageDropOffToken: string;
 
 };
 
@@ -115,6 +118,9 @@ const DROP_OFF: DamageDropOffMap = {
   // eslint-disable-next-line camelcase
   DamageTypeEvolutionOverRangeDescriptor_DCA: 700,
 };
+
+
+
 
 const HEAT_AP_MAGIC_NUMBER = 14;
 const KINETIC_AP_MAGIC_NUMBER = 18;
@@ -283,6 +289,7 @@ export class AmmunitionManager extends AbstractManager {
       damageFamily,
       damageIndex,
       piercingWeapon,
+      tandemCharge,
       kineticAP,
       heatAP,
       penetration,
@@ -408,6 +415,7 @@ export class AmmunitionManager extends AbstractManager {
       damageFamily,
       damageIndex,
       piercingWeapon,
+      tandemCharge,
       isKinetic,
       kineticAP,
       heatAP,
@@ -425,7 +433,8 @@ export class AmmunitionManager extends AbstractManager {
       movingPrecisionBonusPerShot,
       maxStaticAccuracy,
       staticPrecisionBonusPerShot,
-      maxSuccessiveHitCount
+      maxSuccessiveHitCount,
+      damageDropOffToken,
     };
 
     return ammo;
@@ -448,9 +457,11 @@ export class AmmunitionManager extends AbstractManager {
     groundMaxRange: number,
     damageDropOff: number
   ) {
-    const damageFamily = (
+    const rawDamageFamily = (
       damageResult?.children?.[0]?.value as ParserStringLiteral
     )?.value?.split(' ')[0];
+
+    
 
     const damageIndex = (
       damageResult?.children?.[0]?.value as ParserStringLiteral
@@ -458,9 +469,12 @@ export class AmmunitionManager extends AbstractManager {
       ?.split(' ')[1]
       .split('=')[1];
 
+    const damageFamilyName = rawDamageFamily.slice("DamageFamily_".length);
     const piercingWeapon = this.getValueFromSearch('PiercingWeapon') === 'True';
+    const tandemCharge = this.getValueFromSearch('TandemCharge') === 'True';
+    const isKinetic = piercingWeapon && damageFamilyName === 'ap';
 
-    const isKinetic = piercingWeapon && damageFamily === 'DamageFamily_ap';
+    const damageFamily = `${damageFamilyName}-${damageIndex}`;
 
     const kineticAP =
       Math.round(Number(damageIndex) - groundMaxRange / damageDropOff) + 1;
@@ -479,6 +493,7 @@ export class AmmunitionManager extends AbstractManager {
       damageFamily,
       damageIndex,
       piercingWeapon,
+      tandemCharge,
       kineticAP,
       heatAP,
       penetration,
@@ -517,6 +532,7 @@ export class AmmunitionManager extends AbstractManager {
       damageFamily,
       damageIndex,
       piercingWeapon,
+      tandemCharge: false,
       kineticAP,
       heatAP,
       penetration,

@@ -58,6 +58,10 @@ export type Weapon = {
   staticPrecisionBonusPerShot?: number;
   movingPrecisionBonusPerShot?: number;
   maxSuccessiveHitCount?: number;
+  tandemCharges: boolean[];
+  damageFamilies: string[];
+  damageDropOffs: number[];
+  damageDropOffTokens: string[];
 };
 
 export type MountedWeaponWithTurret = MountedWeapon & Turret;
@@ -257,14 +261,23 @@ export class WeaponManager extends AbstractManager {
           staticPrecisionBonusPerShot: firstWeapon.ammo.staticPrecisionBonusPerShot,
           movingPrecisionBonusPerShot: firstWeapon.ammo.movingPrecisionBonusPerShot,
           maxSuccessiveHitCount: firstWeapon.ammo.maxSuccessiveHitCount,
+          damageFamilies: [firstWeapon.ammo.damageFamily],
+          damageDropOffs: [firstWeapon.ammo.damageDropOff],
+          damageDropOffTokens: [firstWeapon.ammo.damageDropOffToken],
+          tandemCharges: [firstWeapon.ammo.tandemCharge],
         };
-  
+
         /**
          * Loop through all the weapons that have the same salvo index and merge the data
          */
         for (let i = 1; i < weaponsForSalvoIndex.length; i++) {
           const mountedWeapon = weaponsForSalvoIndex[i];
           const ammoDescriptorName = mountedWeapon.ammo.descriptorName;
+
+          mergedWeapon.damageFamilies.push(mountedWeapon.ammo.damageFamily);
+          mergedWeapon.damageDropOffs.push(mountedWeapon.ammo.damageDropOff);
+          mergedWeapon.damageDropOffTokens.push(mountedWeapon.ammo.damageDropOffToken);
+          mergedWeapon.tandemCharges.push(mountedWeapon.ammo.tandemCharge);
 
           if(ammoDescriptorName ===  mergedWeapon.ammoDescriptorName) {
             mergedWeapon.numberOfWeapons += mountedWeapon.numberOfWeapons;

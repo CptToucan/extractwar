@@ -57,6 +57,10 @@ export type Unit = {
   sideArmor: number;
   rearArmor: number;
   topArmor: number;
+  frontArmorType: string;
+  sideArmorType: string;
+  rearArmorType: string;
+  topArmorType: string;
   maxDamage: number;
   speed: number;
   speedsForTerrains?: SpeedOnTerrain[];
@@ -84,6 +88,9 @@ export type Unit = {
   maxRepairTime?: number;
   isCommand?: boolean;
   dangerousness?: number;
+  movementType: MovementType;
+  occupiableTerrains: string[];
+  era: boolean;
 };
 
 export type SpeedOnTerrain = {
@@ -96,6 +103,12 @@ export type UnitType = {
   motherCountry: string;
   formation: string;
 };
+
+export enum MovementType {
+  LAND = 'land',
+  HELICOPTER = 'helicopter',
+  PLANE = 'plane',
+}
 
 /**
  * Responsible for extracting properties for units
@@ -163,6 +176,8 @@ export class UnitManager extends AbstractManager {
 
     const factoryDescriptor = this.getValueFromSearch<string>('Factory');
     const armourValues = this.extractArmourValues();
+    const era = this.getValueFromSearch<string>('ExplosiveReactiveArmor') === "True";
+
     const maxDamage =
       Number(this.getValueFromSearch<string>('MaxPhysicalDamages')) ||
       Number(this.getValueFromSearch<string>('MaxDamages'));
@@ -246,10 +261,13 @@ export class UnitManager extends AbstractManager {
     const dangerousnessResult = this.getValueFromSearch('Dangerousness');
     let dangerousness;
 
-
-    if(dangerousnessResult) {
-      dangerousness = Number(dangerousnessResult)
+    if (dangerousnessResult) {
+      dangerousness = Number(dangerousnessResult);
     }
+
+    const movementType = this.getMovementType();
+
+    const occupiableTerrains = this.getOccupiableTerrains();
 
     /**
      * Extract weapon data for the weapon descriptors associated to this descriptor by finding the weapon manager and then using  the weapon manager to extract the weapon data
@@ -315,10 +333,14 @@ export class UnitManager extends AbstractManager {
       commandPoints,
       infoPanelType,
       factoryDescriptor,
-      frontArmor: armourValues.front,
-      sideArmor: armourValues.side,
-      rearArmor: armourValues.rear,
-      topArmor: armourValues.top,
+      frontArmor: armourValues.front[1],
+      sideArmor: armourValues.side[1],
+      rearArmor: armourValues.rear[1],
+      topArmor: armourValues.top[1],
+      frontArmorType: armourValues.front[0],
+      sideArmorType: armourValues.side[0],
+      rearArmorType: armourValues.rear[0],
+      topArmorType: armourValues.top[0],
       maxDamage,
       speed,
       speedsForTerrains,
@@ -345,7 +367,10 @@ export class UnitManager extends AbstractManager {
       maxRepairTime,
       maxRearmTime,
       isCommand,
-      dangerousness
+      dangerousness,
+      movementType,
+      occupiableTerrains,
+      era
     };
 
     return unit;
@@ -356,23 +381,24 @@ export class UnitManager extends AbstractManager {
    * @returns armour values object
    */
   private extractArmourValues() {
-
-
     // eslint-disable-next-line unicorn/consistent-function-scoping
     const isLegacyArmourNdf = () => {
       const result = this.getValueFromSearch<string>('ArmorDescriptorFront');
 
-      if(result !== undefined) {
+      if (result !== undefined) {
         return true;
       }
 
       return false;
-    }
+    };
 
-
-    if(isLegacyArmourNdf()) {
-      const frontArmour = this.getValueFromSearch<string>('ArmorDescriptorFront');
-      const sideArmour = this.getValueFromSearch<string>('ArmorDescriptorSides');
+    if (isLegacyArmourNdf()) {
+      const frontArmour = this.getValueFromSearch<string>(
+        'ArmorDescriptorFront'
+      );
+      const sideArmour = this.getValueFromSearch<string>(
+        'ArmorDescriptorSides'
+      );
       const rearArmour = this.getValueFromSearch<string>('ArmorDescriptorRear');
       const topArmour = this.getValueFromSearch<string>('ArmorDescriptorTop');
 
@@ -381,20 +407,51 @@ export class UnitManager extends AbstractManager {
         side: this.convertLegacyArmourTokenToNumber(sideArmour),
         rear: this.convertLegacyArmourTokenToNumber(rearArmour),
         top: this.convertLegacyArmourTokenToNumber(topArmour),
-      }
+      };
     }
 
-    const frontArmour = this.getFirstSearchResult('ResistanceFront')?.value?.children[0]?.value?.value;
-    const sideArmour = this.getFirstSearchResult('ResistanceSides')?.value?.children[0]?.value?.value;
-    const rearArmour = this.getFirstSearchResult('ResistanceRear')?.value?.children[0]?.value?.value;
-    const topArmour = this.getFirstSearchResult('ResistanceTop')?.value?.children[0]?.value?.value;
+    const frontArmour =
+      this.getFirstSearchResult('ResistanceFront')?.value?.children[0]?.value
+        ?.value;
+    const sideArmour =
+      this.getFirstSearchResult('ResistanceSides')?.value?.children[0]?.value
+        ?.value;
+    const rearArmour =
+      this.getFirstSearchResult('ResistanceRear')?.value?.children[0]?.value
+        ?.value;
+    const topArmour =
+      this.getFirstSearchResult('ResistanceTop')?.value?.children[0]?.value
+        ?.value;
 
     return {
-      front: this.convertArmourTokenToNumber(frontArmour),
-      side: this.convertArmourTokenToNumber(sideArmour),
-      rear: this.convertArmourTokenToNumber(rearArmour),
-      top: this.convertArmourTokenToNumber(topArmour),
+      front: this.getArmourTypeAndStrength(frontArmour),
+      side: this.getArmourTypeAndStrength(sideArmour),
+      rear: this.getArmourTypeAndStrength(rearArmour),
+      top: this.getArmourTypeAndStrength(topArmour),
     };
+  }
+
+  getOccupiableTerrains(): string[] {
+    const garrisonableTerrains = this.getFirstSearchResult('TerrainList');
+    const valuesAsString =
+      garrisonableTerrains?.value?.values?.[0].value?.trim();
+    const valuesAsArray = valuesAsString?.split(', ');
+    const tidiedUpValues = valuesAsArray?.map((value: string) => {
+      const valueTokens = value.split('/');
+
+      // take last token and remove any ,
+      const lastToken = valueTokens[valueTokens.length - 1].replace(',', '');
+      return lastToken;
+    });
+
+
+    // remove "Tranchee", "NidMitrailleuse", "ForetDense"
+    return (tidiedUpValues || [])?.filter(
+      (value: string) =>
+        value !== 'Tranchee' &&
+        value !== 'NidMitrailleuse' &&
+        value !== 'ForetDense'
+    );
   }
 
   /**
@@ -481,80 +538,86 @@ export class UnitManager extends AbstractManager {
    * @param armourToken armour token from ndf value
    * @returns number representing armour value
    */
-  private convertArmourTokenToNumber(armourTokenString: string): number {
-
-    
+  private getArmourTypeAndStrength(
+    armourTokenString: string
+  ): [string, number] {
     const armourTypeToken: string = armourTokenString.split(' ')[0];
     const armourStrengthToken: string = armourTokenString.split(' ')[1];
 
     const armourTypeTokenTokens = armourTypeToken.split('_');
     const armourType = armourTypeTokenTokens[1];
 
-    const armourStrengthTokenTokens = armourStrengthToken.split("=");
+    const armourStrengthTokenTokens = armourStrengthToken.split('=');
     const armourStrength = armourStrengthTokenTokens[1];
-
 
     // const armourStrength = armourTokenTokens[2];
 
     // If infanterie, then this is 0 armour
     if ((armourType as unknown as ArmourToken) === ArmourToken.Infanterie) {
-      return 0;
+      return [`${armourType}-${armourStrength}`, 0];
     }
 
-    // infanterie
-    // blindage
-    // vehicule
-    // helico
-    // avion
-
-    
-    if ((armourType as unknown as ArmourToken) === ArmourToken.Helico || (armourType as unknown as ArmourToken) === ArmourToken.Avion || (armourType as unknown as ArmourToken) === ArmourToken.Vehicule) {
+    if (
+      (armourType as unknown as ArmourToken) === ArmourToken.Helico ||
+      (armourType as unknown as ArmourToken) === ArmourToken.Avion ||
+      (armourType as unknown as ArmourToken) === ArmourToken.Vehicule
+    ) {
       const baseArmourValue = Number(armourStrength);
 
       const vehicleArmour = baseArmourValue - 1;
       if (vehicleArmour >= 1) {
-        return vehicleArmour;
+        return [`${armourType}-${armourStrength}`, vehicleArmour];
       }
 
-      return 0.5;
+      return [`${armourType}-${armourStrength}`, 0.5];
     }
 
-    if((armourType as unknown as ArmourToken) === ArmourToken.Blindage) {
-      return Number(armourStrength);
+    if ((armourType as unknown as ArmourToken) === ArmourToken.Blindage) {
+      return [`${armourType}-${armourStrength}`, Number(armourStrength)];
     }
 
-    return Number(armourStrength);
+    return [`${armourType}-${armourStrength}`, Number(armourStrength)];
   }
 
-  private convertLegacyArmourTokenToNumber(armourToken: string): number {
+  private convertLegacyArmourTokenToNumber(
+    armourToken: string
+  ): [string, number] {
     const armourTokenTokens = armourToken.split('_');
     const armourType = armourTokenTokens[1];
     const armourStrength = armourTokenTokens[2];
 
-    
-
     // If leger is returned, this is light armour and displays as >1 in Unit cards
     if (armourStrength === 'leger') {
-      return 0.5;
+      return [armourType, 0.5];
     }
 
     // If infanterie, then this is 0 armour
-    if ((armourType.toLowerCase() as unknown as ArmourToken) === ArmourToken.Infanterie) {
-      return 0;
+    if (
+      (armourType.toLowerCase() as unknown as ArmourToken) ===
+      ArmourToken.Infanterie
+    ) {
+      return [armourType, 0];
     }
 
-    if ((armourType.toLowerCase() as unknown as ArmourToken) === ArmourToken.Helico || (armourType.toLowerCase() as unknown as ArmourToken) === ArmourToken.Avion || (armourType.toLowerCase() as unknown as ArmourToken) === ArmourToken.Vehicule) {
+    if (
+      (armourType.toLowerCase() as unknown as ArmourToken) ===
+        ArmourToken.Helico ||
+      (armourType.toLowerCase() as unknown as ArmourToken) ===
+        ArmourToken.Avion ||
+      (armourType.toLowerCase() as unknown as ArmourToken) ===
+        ArmourToken.Vehicule
+    ) {
       const baseArmourValue = Number(armourStrength);
 
       const airVehicleArmour = baseArmourValue - 1;
       if (airVehicleArmour >= 1) {
-        return airVehicleArmour;
+        return [armourType, airVehicleArmour];
       }
 
-      return 0.5;
+      return [armourType, 0.5];
     }
 
-    return Number(armourStrength);
+    return [armourType, Number(armourStrength)];
   }
 
   /**
@@ -588,6 +651,27 @@ export class UnitManager extends AbstractManager {
     }
 
     return unitType;
+  }
+
+  private getMovementType(): MovementType {
+    const isLandMovement = this.getFirstSearchResult('LandMovement');
+    const isAirplaneMovement = this.getFirstSearchResult('AirplaneMovement');
+    const isHelicopterMovement =
+      this.getFirstSearchResult('HelicopterMovement');
+
+    if (isLandMovement) {
+      return MovementType.LAND;
+    }
+
+    if (isAirplaneMovement) {
+      return MovementType.PLANE;
+    }
+
+    if (isHelicopterMovement) {
+      return MovementType.HELICOPTER;
+    }
+
+    return MovementType.LAND;
   }
 
   /**
