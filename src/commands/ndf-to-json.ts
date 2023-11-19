@@ -29,6 +29,7 @@ const NDF_FILES = Object.freeze({
   deckSerializer: 'DeckSerializer.ndf',
   hitRollConstants: 'HitRollConstants.ndf',
   damageResistance: 'DamageResistance.ndf',
+  weaponConstants: 'WeaponConstantes.ndf',
 });
 
 export interface DescriptorIdMap {
@@ -248,7 +249,15 @@ export default class NdfToJson extends Command {
       resistanceFamilyWithIndexes: FamilyIndexTuple[];
       damageFamilyWithIndexes: FamilyIndexTuple[];
       damageTable: number[][];
-      terrainResistances: {name: string, damageFamilies: TerrainResistance[]}[]
+      terrainResistances: {name: string, damageFamilies: TerrainResistance[]}[],
+      defaultSuppressDamage: FamilyIndexTuple,
+      suppressionDamageExceptions: {
+        exception: string,
+        suppression: FamilyIndexTuple
+      }[], armorToignoreForDamageFamilies: {
+        damageFamily: string,
+        resistances: string[]
+      }[]
     };
   }> {
     const ndfFilePathMap: NdfFilePathMap = {};
@@ -302,6 +311,51 @@ export default class NdfToJson extends Command {
     const bonusPrecision =
       Number(bonusPrecisionResult.attributes[0].value) / 100; // convert to decimal percentage
 
+    const defaultSuppressResult = search(ndfs.weaponConstants[0], "DefaultSuppressDamage");
+
+
+    const rawDefaultSuppressDamage = defaultSuppressResult[0]?.value?.children?.[0]?.value?.value;
+    const defaultSuppressDamage = getFamilyAndIndexFromFamilyDefinition(rawDefaultSuppressDamage, "DamageFamily_");
+
+    const suppressDamagePerFamilyResult = search(ndfs.weaponConstants[0], "SuppressDamagePerFamily");
+    const rawDefaultSuppressDamagePerFamilyTuples = suppressDamagePerFamilyResult[0]?.value?.value;
+   
+    const suppressionDamageExceptions = [];
+    for(const suppressTuple of rawDefaultSuppressDamagePerFamilyTuples) {
+
+      const damageExceptionFamily = suppressTuple.value[0].value.slice("DamageFamily_".length) as string;;
+      const suppressionFamily = getFamilyAndIndexFromFamilyDefinition(suppressTuple.value[1]?.children?.[0]?.value?.value, "DamageFamily_");
+
+      suppressionDamageExceptions.push({
+        exception: damageExceptionFamily,
+        suppression: suppressionFamily
+      })
+    }
+
+
+    const blindagesToIgnoreResult = search(ndfs.weaponConstants[0], "BlindagesToIgnoreForDamageFamilies")[0].value.value;
+
+    const armorToignoreForDamageFamilies = [];
+
+    
+    for(const blindageTuple of blindagesToIgnoreResult) {
+      const damageFamily = blindageTuple.value[0]?.value?.slice("DamageFamily_".length) as string;
+
+      const resistancesForDamageFamily: string[] = [];
+
+      for(const rawResistance of blindageTuple.value[1].values) {
+        resistancesForDamageFamily.push(rawResistance.name.slice("ResistanceFamily_".length));
+      }
+
+      armorToignoreForDamageFamilies.push({
+        damageFamily,
+        resistances: resistancesForDamageFamily
+      })
+    }
+    
+
+    console.log(defaultSuppressDamage, suppressionDamageExceptions, armorToignoreForDamageFamilies);
+    debugger;
     /**
      * Mapping weapons and ammo out to be mapped by keys will save us many iterations when units need to find weapons, and weapons need to find ammo
      */
@@ -409,6 +463,7 @@ export default class NdfToJson extends Command {
         resistanceFamilyWithIndexes,
         damageTable,
         terrainResistances,
+        defaultSuppressDamage, suppressionDamageExceptions, armorToignoreForDamageFamilies
       },
     };
   }
@@ -545,7 +600,7 @@ export default class NdfToJson extends Command {
 function getFamilyAndIndexFromFamilyDefinition(
   damageResistanceString: string,
   stringPrefix: string
-) {
+): FamilyIndexTuple {
   const tokens = damageResistanceString.split(' ');
   const family = tokens[0].slice(stringPrefix.length);
   const indexTokens = tokens[1].split('=');
