@@ -73,12 +73,10 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
             UnitIsStealth        = False
-            HideFromDebug        = False
         ),
         TScannerConfigurationDescriptor
         (
             OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            DoesNotCountInScannerAbsoluteMaxRange = False
             PorteeVisionTBA = ((0.0) * Metre)
             PorteeVisionFOW = ((0.0) * Metre)
             DetectionTBA = ((10000) * Metre)
@@ -90,9 +88,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
-            SpecializedOpticalStrengths = MAP [
-            ]
-            IgnoreObstacles = MAP []
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -260,12 +255,10 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
             UnitIsStealth        = False
-            HideFromDebug        = False
         ),
         TScannerConfigurationDescriptor
         (
             OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            DoesNotCountInScannerAbsoluteMaxRange = False
             PorteeVisionTBA = ((0.0) * Metre)
             PorteeVisionFOW = ((0.0) * Metre)
             DetectionTBA = ((10000) * Metre)
@@ -277,9 +270,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
-            SpecializedOpticalStrengths = MAP [
-            ]
-            IgnoreObstacles = MAP []
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -447,12 +437,10 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
             UnitIsStealth        = False
-            HideFromDebug        = False
         ),
         TScannerConfigurationDescriptor
         (
             OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            DoesNotCountInScannerAbsoluteMaxRange = False
             PorteeVisionTBA = ((0.0) * Metre)
             PorteeVisionFOW = ((0.0) * Metre)
             DetectionTBA = ((10000) * Metre)
@@ -464,9 +452,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
-            SpecializedOpticalStrengths = MAP [
-            ]
-            IgnoreObstacles = MAP []
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -634,12 +619,10 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
             UnitIsStealth        = False
-            HideFromDebug        = False
         ),
         TScannerConfigurationDescriptor
         (
             OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            DoesNotCountInScannerAbsoluteMaxRange = False
             PorteeVisionTBA = ((0.0) * Metre)
             PorteeVisionFOW = ((0.0) * Metre)
             DetectionTBA = ((10000) * Metre)
@@ -651,9 +634,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
-            SpecializedOpticalStrengths = MAP [
-            ]
-            IgnoreObstacles = MAP []
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -821,12 +801,10 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
             UnitIsStealth        = False
-            HideFromDebug        = False
         ),
         TScannerConfigurationDescriptor
         (
             OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            DoesNotCountInScannerAbsoluteMaxRange = False
             PorteeVisionTBA = ((0.0) * Metre)
             PorteeVisionFOW = ((0.0) * Metre)
             DetectionTBA = ((10000) * Metre)
@@ -838,9 +816,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
-            SpecializedOpticalStrengths = MAP [
-            ]
-            IgnoreObstacles = MAP []
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1008,12 +983,10 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
             UnitIsStealth        = False
-            HideFromDebug        = False
         ),
         TScannerConfigurationDescriptor
         (
             OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            DoesNotCountInScannerAbsoluteMaxRange = False
             PorteeVisionTBA = ((0.0) * Metre)
             PorteeVisionFOW = ((0.0) * Metre)
             DetectionTBA = ((10000) * Metre)
@@ -1025,9 +998,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
-            SpecializedOpticalStrengths = MAP [
-            ]
-            IgnoreObstacles = MAP []
         ),
         TReverseScannerWithIdentificationDescriptor
         (

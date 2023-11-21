@@ -306,6 +306,11 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     MoteurHelicos_TempsDemarrage = 4 * Seconde  // 1
     MultiplicateurConsommationUnitesArretees = 0.0 // Entre 0 et 1
 
+//---------------------------- Constantes TandemCharge / ExplosiveReactiveArmor ---------------------------------------//
+    // Bonus des charges tandem contre les armures réactives
+    TandemModifierValue = 1.0
+    TandemModifierType = ModifierType_Additionnel
+
 //--------------------------- Constantes SpreadOrder --------------------------------------//
 
     SpreadDistanceUnit = 750 * Metre // Distance de dispersion d'une unique compagnie
