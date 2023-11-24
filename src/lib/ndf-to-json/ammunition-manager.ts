@@ -63,6 +63,7 @@ export type Ammo = {
   maxSuccessiveHitCount?: number;
   damageType?: string;
   damageDropOffToken: string;
+  numberOfSimultaneousProjectiles: number;
 
 };
 
@@ -204,6 +205,10 @@ export class AmmunitionManager extends AbstractManager {
       NdfManager.parseNumberFromMetre(
         this.getValueFromSearch<string>('RadiusSplashSuppressDamages')
       )
+    );
+
+    const numberOfSimultaneousProjectiles = Number(
+       this.getValueFromSearch<string>('NbrProjectilesSimultanes')
     );
 
     const firesLeftToRight =
@@ -379,6 +384,10 @@ export class AmmunitionManager extends AbstractManager {
       }
     }
 
+    const flightTimeForSpeed = Number(this.getValueFromSearch("FlightTimeForSpeed"));
+    const distanceForSpeed = NdfManager.parseNumberFromMetre(this.getValueFromSearch("DistanceForSpeed"));
+    console.log(flightTimeForSpeed, distanceForSpeed);
+
     const ammo: Ammo = {
       name,
       minMaxCategory,
@@ -435,6 +444,8 @@ export class AmmunitionManager extends AbstractManager {
       staticPrecisionBonusPerShot,
       maxSuccessiveHitCount,
       damageDropOffToken,
+      numberOfSimultaneousProjectiles,
+      projectileSpeed
     };
 
     return ammo;

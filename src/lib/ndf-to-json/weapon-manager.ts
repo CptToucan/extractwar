@@ -39,6 +39,7 @@ export type Weapon = {
   staticAccuracyScaling?: AccuracyDataPointsForType;
   supplyCost: number;
   suppress: number;
+  suppressDamages: number[];
   suppressDamagesRadius: number;
   timeBetweenSalvos: number;
   totalHeDamage: number;
@@ -62,6 +63,7 @@ export type Weapon = {
   damageFamilies: string[];
   damageDropOffs: number[];
   damageDropOffTokens: string[];
+  numberOfSimultaneousProjectiles: number[];
 };
 
 export type MountedWeaponWithTurret = MountedWeapon & Turret;
@@ -242,6 +244,7 @@ export class WeaponManager extends AbstractManager {
           staticAccuracyScaling: firstWeapon.ammo.staticAccuracyOverDistance,
           supplyCost: supplyCost,
           suppress: firstWeapon.ammo.suppress,
+          suppressDamages: [firstWeapon.ammo.suppress],
           suppressDamagesRadius: firstWeapon.ammo.suppressDamagesRadius,
           timeBetweenSalvos: firstWeapon.ammo.timeBetweenSalvos,
           totalHeDamage: totalHeDamage,
@@ -265,6 +268,7 @@ export class WeaponManager extends AbstractManager {
           damageDropOffs: [firstWeapon.ammo.damageDropOff],
           damageDropOffTokens: [firstWeapon.ammo.damageDropOffToken],
           tandemCharges: [firstWeapon.ammo.tandemCharge],
+          numberOfSimultaneousProjectiles: [firstWeapon.ammo.numberOfSimultaneousProjectiles],
         };
 
         /**
@@ -278,6 +282,8 @@ export class WeaponManager extends AbstractManager {
           mergedWeapon.damageDropOffs.push(mountedWeapon.ammo.damageDropOff);
           mergedWeapon.damageDropOffTokens.push(mountedWeapon.ammo.damageDropOffToken);
           mergedWeapon.tandemCharges.push(mountedWeapon.ammo.tandemCharge);
+          mergedWeapon.suppressDamages.push(mountedWeapon.ammo.suppress);
+          mergedWeapon.numberOfSimultaneousProjectiles.push(mountedWeapon.ammo.numberOfSimultaneousProjectiles);
 
           if(ammoDescriptorName ===  mergedWeapon.ammoDescriptorName) {
             mergedWeapon.numberOfWeapons += mountedWeapon.numberOfWeapons;
