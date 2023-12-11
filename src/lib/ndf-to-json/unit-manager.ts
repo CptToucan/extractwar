@@ -196,7 +196,7 @@ export class UnitManager extends AbstractManager {
     }
 
 
-    const isSpecialForces = this.getValueFromSearch('ExperienceLevelsPackDescriptor') === "~/ExperienceLevelsPackDescriptor_XP_pack_SF";
+    const isSpecialForces = (this.getValueFromSearch<string>('ExperienceLevelsPackDescriptor') || "")?.includes("~/ExperienceLevelsPackDescriptor_XP_pack_SF");
 
 
     try {

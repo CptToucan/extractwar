@@ -384,10 +384,6 @@ export class AmmunitionManager extends AbstractManager {
       }
     }
 
-    const flightTimeForSpeed = Number(this.getValueFromSearch("FlightTimeForSpeed"));
-    const distanceForSpeed = NdfManager.parseNumberFromMetre(this.getValueFromSearch("DistanceForSpeed"));
-    console.log(flightTimeForSpeed, distanceForSpeed);
-
     const ammo: Ammo = {
       name,
       minMaxCategory,
@@ -445,7 +441,6 @@ export class AmmunitionManager extends AbstractManager {
       maxSuccessiveHitCount,
       damageDropOffToken,
       numberOfSimultaneousProjectiles,
-      projectileSpeed
     };
 
     return ammo;
