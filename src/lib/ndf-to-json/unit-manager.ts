@@ -92,6 +92,7 @@ export type Unit = {
   occupiableTerrains: string[];
   era: boolean;
   isSpecialForces: boolean;
+  xpBonuses: string;
 };
 
 export type SpeedOnTerrain = {
@@ -195,9 +196,8 @@ export class UnitManager extends AbstractManager {
       speed = 0;
     }
 
-
     const isSpecialForces = (this.getValueFromSearch<string>('ExperienceLevelsPackDescriptor') || "")?.includes("~/ExperienceLevelsPackDescriptor_XP_pack_SF");
-
+    const xpBonuses = this.getValueFromSearch<string>('ExperienceLevelsPackDescriptor').slice("~/".length);
 
     try {
       speed = Math.round(
@@ -376,7 +376,8 @@ export class UnitManager extends AbstractManager {
       movementType,
       occupiableTerrains,
       era,
-      isSpecialForces
+      isSpecialForces,
+      xpBonuses
     };
 
     return unit;

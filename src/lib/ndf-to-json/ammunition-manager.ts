@@ -81,23 +81,23 @@ export type AccuracyDataPoint = {
 const ACCURACY_BONUS_OVER_RANGE = [
   {
     maxRangeDistanceMultiplier: 0.05,
-    accuracyMultiplier: 1000,
+    accuracyMultiplier: 300,
   },
   {
     maxRangeDistanceMultiplier: 0.17,
-    accuracyMultiplier: 100,
+    accuracyMultiplier: 70,
   },
   {
     maxRangeDistanceMultiplier: 0.33,
-    accuracyMultiplier: 75,
-  },
-  {
-    maxRangeDistanceMultiplier: 0.5,
     accuracyMultiplier: 50,
   },
   {
+    maxRangeDistanceMultiplier: 0.5,
+    accuracyMultiplier: 30,
+  },
+  {
     maxRangeDistanceMultiplier: 0.67,
-    accuracyMultiplier: 25,
+    accuracyMultiplier: 15,
   },
   {
     maxRangeDistanceMultiplier: 1,
