@@ -9,7 +9,7 @@ export default function parseDivisionRules(data: any) {
             division: item[0].value.replace('~/', ''),
             unitRules: (unitRules.values).map( (ur: any) => {
                 return {
-                    unitDescriptor: (ur.children.find( (u: any) => u.name === 'UnitDescriptor' )?.value).value.replace('~/', ''),
+                    unitDescriptor: (ur.children.find( (u: any) => u.name === 'UnitDescriptor' )?.value).value.replace('$/GFX/Unit/', ''),
                     availableTransportList: extractTransportList(ur),
                     availableWithoutTransport: JSON.parse((ur.children.find( (u: any) => u.name === 'AvailableWithoutTransport' )?.value).value.toLowerCase()),
                     numberOfUnitsInPack: parseInt((ur.children.find( (u: any) => u.name === 'NumberOfUnitInPack' )?.value).value),
