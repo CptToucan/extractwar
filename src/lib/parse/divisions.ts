@@ -137,11 +137,11 @@ function combineUnitRulesAndPacks(
       return dp.descriptor === packDef.name;
     });
 
-    const packUnit = search(packDefinition, 'UnitDescriptor')[0].value.value;
-
+    const packUnit = search(packDefinition, 'UnitDescriptor')[0].value.value?.replace("$/GFX/Unit/", "") // || search(packDefinition, 'CfgName')[0].value.value?.replace("$/GFX/Unit/", "");
     return {
       packDescriptor: dp.descriptor.replace('~/', ''),
       ...unitRules.find((ur: any) => {
+        debugger;
         return ur.unitDescriptor === packUnit;
       }),
       numberOfCards: dp.count,

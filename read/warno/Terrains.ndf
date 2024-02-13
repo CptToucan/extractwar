@@ -15,8 +15,7 @@ export DefaultTerrain is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/Default
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -44,8 +43,7 @@ export ForetDense is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0
-    StealthBonus = 6
-    //~~~~~~~~
+    ConcealmentBonus = 6
     TerrainType = ~/ETerrainType/ForetDense
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = false
@@ -76,12 +74,10 @@ export ForetLegere is TGameplayTerrain
     HeightInMeters = 20
     InflammabilityProbability = 0.6
     Name = 'ForetLegere'
-    SpeedModifierAllTerrainWheel = 0.45
+    SpeedModifierAllTerrainWheel = 0.40
     SpeedModifierInfantry = 0.75
-    SpeedModifierTrack = 0.55
-    StealthBonus = 2.50
-    //~~~~~~~~
-
+    SpeedModifierTrack = 0.50
+    ConcealmentBonus = 2.50
     TerrainType = ~/ETerrainType/ForetLegere
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = false
@@ -116,8 +112,7 @@ export PetitBatiment is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    StealthBonus = 3.75
-    //~~~~~~~~
+    ConcealmentBonus = 3.75
     TerrainType = ~/ETerrainType/PetitBatiment
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -152,8 +147,7 @@ export Batiment is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    StealthBonus = 3.75
-    //~~~~~~~~
+    ConcealmentBonus = 3.75
     TerrainType = ~/ETerrainType/Batiment
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -188,8 +182,7 @@ export Ruin is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    StealthBonus = 3.75
-    //~~~~~~~~
+    ConcealmentBonus = 3.75
     TerrainType = ~/ETerrainType/Ruin
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -212,8 +205,7 @@ export Bloqueur is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/Bloqueur
     WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
@@ -235,8 +227,7 @@ export StrategicForest is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0.9
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/StrategicForest
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -258,8 +249,7 @@ export StrategicPlain is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0.9
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/StrategicPlain
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -281,8 +271,7 @@ export StrategicSemiUrban is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0.9
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/StrategicSemiUrban
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -304,8 +293,7 @@ export StrategicUrban is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0.9
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/StrategicUrban
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -327,8 +315,7 @@ export StrategicRiver is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0.8
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0.9
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/StrategicRiver
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -351,56 +338,12 @@ export EauPeuProfonde is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 0.8
     SpeedModifierTrack = 0.3
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/EauPeuProfonde
     WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
 )
 
-export Urbain is TGameplayTerrain
-(
-    BloqueAmphibie = false
-    BloqueAtterrissage = true
-    BloqueInfanterie = false
-    BloqueVehicule = false
-    BloqueVision = false
-    CriticalEffectProbability = 0.05
-    DamageModifierPerFamilyAndResistance = MAP [
-        (
-            DamageFamily_balle,
-            MAP [
-                (
-                    ResistanceFamily_infanterie,
-                    0.8
-                ),
-            ]
-        ),
-        (
-            DamageFamily_he,
-            MAP [
-                (
-                    ResistanceFamily_infanterie,
-                    0.8
-                ),
-            ]
-        ),
-    ]
-    DebugColor = rgba[200, 170, 170, 255]
-    DissimulationModifierGroundAir = 40 //20
-    DissimulationModifierGroundGround = 40 //20
-    HeightInMeters = 4//8
-    InflammabilityProbability = 0.4
-    Name = 'Urbain'
-    SpeedModifierAllTerrainWheel = 1
-    SpeedModifierInfantry = 1
-    SpeedModifierTrack = 1
-    StealthBonus = 4 //7
-    //~~~~~~~~
-    TerrainType = ~/ETerrainType/Urbain
-    WorldLayerActiveMask = 255
-    AuthorizeNearGroundFlying = true
-)
 export Rocher is TGameplayTerrain
 (
     BloqueAmphibie = true
@@ -418,8 +361,7 @@ export Rocher is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/Rocher
     WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
@@ -441,8 +383,7 @@ export SmokeHeavy is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    StealthBonus = 5
-    //~~~~~~~~
+    ConcealmentBonus = 5
     TerrainType = ~/ETerrainType/HeavySmoke
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -464,8 +405,7 @@ export SmokeLight is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    StealthBonus = 4
-    //~~~~~~~~
+    ConcealmentBonus = 4
     TerrainType = ~/ETerrainType/LightSmoke
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -487,8 +427,7 @@ export SmokeMedium is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    StealthBonus = 4.5
-    //~~~~~~~~
+    ConcealmentBonus = 4.5
     TerrainType = ~/ETerrainType/MediumSmoke
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -510,8 +449,7 @@ export EauProfonde is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0.375
     SpeedModifierInfantry = 0.8
     SpeedModifierTrack = 0.375
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/EauProfonde
     WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
@@ -533,8 +471,7 @@ export BloqueConstruction is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 1
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 1
-    StealthBonus = 1
-    //~~~~~~~~
+    ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/BloqueConstruction
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true

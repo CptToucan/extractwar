@@ -26,7 +26,8 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM_120_Amraam
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_120_Amraam
                 Actions = MAP[
@@ -56,7 +57,7 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -120,7 +121,8 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM132_ASRAAM
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM132_ASRAAM
                 Actions = MAP[
@@ -150,7 +152,7 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -214,7 +216,8 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM7
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM7
                 Actions = MAP[
@@ -244,7 +247,7 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -308,7 +311,8 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM7
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM7
                 Actions = MAP[
@@ -338,7 +342,7 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -402,7 +406,8 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
                 Actions = MAP[
@@ -432,7 +437,7 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
                 AutoGyr         = 1.0471975511965976
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -496,7 +501,8 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SideWinder
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
                 Actions = MAP[
@@ -526,7 +532,7 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -590,7 +596,8 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SideWinder
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
                 Actions = MAP[
@@ -620,7 +627,7 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -684,7 +691,8 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SideWinder
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
                 Actions = MAP[
@@ -714,7 +722,7 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -778,7 +786,8 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SideWinder
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
                 Actions = MAP[
@@ -808,7 +817,7 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -872,7 +881,8 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Matra_R530
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Matra_R530
                 Actions = MAP[
@@ -902,7 +912,7 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
                 AutoGyr         = 1.0471975511965976
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -966,7 +976,8 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Matra_Super_530D
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Matra_Super_530D
                 Actions = MAP[
@@ -996,7 +1007,7 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -1060,7 +1071,8 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Matra_Super_530D
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Matra_Super_530D
                 Actions = MAP[
@@ -1090,7 +1102,7 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -1154,7 +1166,8 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
                 Actions = MAP[
@@ -1184,7 +1197,7 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
                 AutoGyr         = 1.0471975511965976
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -1248,7 +1261,8 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R23R
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R23R
                 Actions = MAP[
@@ -1278,7 +1292,7 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -1342,7 +1356,8 @@ export Descriptor_Missile_AA_R24MR_Vympel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R23R
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R23R
                 Actions = MAP[
@@ -1372,7 +1387,7 @@ export Descriptor_Missile_AA_R24MR_Vympel is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -1436,7 +1451,8 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R23R
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R23R
                 Actions = MAP[
@@ -1466,7 +1482,7 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -1530,7 +1546,8 @@ export Descriptor_Missile_AA_R27R_Vympel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R27ER
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R27ER
                 Actions = MAP[
@@ -1560,7 +1577,7 @@ export Descriptor_Missile_AA_R27R_Vympel is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -1624,7 +1641,8 @@ export Descriptor_Missile_AA_R33_Vympel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R33
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R33
                 Actions = MAP[
@@ -1654,7 +1672,7 @@ export Descriptor_Missile_AA_R33_Vympel is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -1718,7 +1736,8 @@ export Descriptor_Missile_AA_R37_Vympel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R33
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R33
                 Actions = MAP[
@@ -1748,7 +1767,7 @@ export Descriptor_Missile_AA_R37_Vympel is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -1812,7 +1831,8 @@ export Descriptor_Missile_AA_R3R is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SideWinder
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
                 Actions = MAP[
@@ -1842,7 +1862,7 @@ export Descriptor_Missile_AA_R3R is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -1906,7 +1926,8 @@ export Descriptor_Missile_AA_R550_Magic is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Matra_R550_Magic
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Matra_R550_Magic
                 Actions = MAP[
@@ -1936,7 +1957,7 @@ export Descriptor_Missile_AA_R550_Magic is TEntityDescriptor
                 AutoGyr         = 1.0471975511965976
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2000,7 +2021,8 @@ export Descriptor_Missile_AA_R550_Magic_II is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Matra_R550_Magic_II
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Matra_R550_Magic_II
                 Actions = MAP[
@@ -2030,7 +2052,7 @@ export Descriptor_Missile_AA_R550_Magic_II is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2094,7 +2116,8 @@ export Descriptor_Missile_AA_R60_Vympel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
                 Actions = MAP[
@@ -2124,7 +2147,7 @@ export Descriptor_Missile_AA_R60_Vympel is TEntityDescriptor
                 AutoGyr         = 1.0471975511965976
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2188,7 +2211,8 @@ export Descriptor_Missile_AA_R60_Vympel_helo is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
                 Actions = MAP[
@@ -2218,7 +2242,7 @@ export Descriptor_Missile_AA_R60_Vympel_helo is TEntityDescriptor
                 AutoGyr         = 1.0471975511965976
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2282,7 +2306,8 @@ export Descriptor_Missile_AA_R60M_Vympel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
                 Actions = MAP[
@@ -2312,7 +2337,7 @@ export Descriptor_Missile_AA_R60M_Vympel is TEntityDescriptor
                 AutoGyr         = 1.0471975511965976
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2376,7 +2401,8 @@ export Descriptor_Missile_AA_R73_Vympel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R73
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R73
                 Actions = MAP[
@@ -2406,7 +2432,7 @@ export Descriptor_Missile_AA_R73_Vympel is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2470,7 +2496,8 @@ export Descriptor_Missile_AA_R77_Vympel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R77
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R77
                 Actions = MAP[
@@ -2500,7 +2527,7 @@ export Descriptor_Missile_AA_R77_Vympel is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2564,7 +2591,8 @@ export Descriptor_Missile_AA_Skyflash is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Skyflash
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Skyflash
                 Actions = MAP[
@@ -2594,7 +2622,7 @@ export Descriptor_Missile_AA_Skyflash is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2658,7 +2686,8 @@ export Descriptor_Missile_AA_Skyflash_SuperTEMP is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Skyflash
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Skyflash
                 Actions = MAP[
@@ -2688,7 +2717,7 @@ export Descriptor_Missile_AA_Skyflash_SuperTEMP is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2752,7 +2781,8 @@ export Descriptor_Missile_AGM_9K121_Vikhr is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Shturm
                 Actions = MAP[
@@ -2781,7 +2811,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr is TEntityDescriptor
                 AutoGyr         = 0.8726646259971648
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2845,7 +2875,8 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x12 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Shturm
                 Actions = MAP[
@@ -2874,7 +2905,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x12 is TEntityDescriptor
                 AutoGyr         = 0.8726646259971648
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -2938,7 +2969,8 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x16 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Shturm
                 Actions = MAP[
@@ -2967,7 +2999,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x16 is TEntityDescriptor
                 AutoGyr         = 0.8726646259971648
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -3031,7 +3063,8 @@ export Descriptor_Missile_AGM_9M114M_KokonM is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -3060,7 +3093,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -3124,7 +3157,8 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x16 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -3153,7 +3187,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x16 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -3217,7 +3251,8 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -3246,7 +3281,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -3310,7 +3345,8 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -3339,7 +3375,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x4 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -3403,7 +3439,8 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x6 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -3432,7 +3469,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x6 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -3496,7 +3533,8 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -3525,7 +3563,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x8 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -3589,7 +3627,8 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Malyutka
                 Actions = MAP[
@@ -3618,7 +3657,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
             TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
@@ -3682,7 +3721,8 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Malyutka
                 Actions = MAP[
@@ -3711,7 +3751,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
             TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
@@ -3775,7 +3815,8 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Malyutka
                 Actions = MAP[
@@ -3804,7 +3845,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
             TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
@@ -3868,7 +3909,8 @@ export Descriptor_Missile_AGM_AGM114A is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Hellfire
                 Actions = MAP[
@@ -3904,7 +3946,7 @@ export Descriptor_Missile_AGM_AGM114A is TEntityDescriptor
                 AutoGyr         = 0.5235987755982988
             )
 
-            RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
+            TerminalPhaseConfig = TGuidedMissileMovementConfigDescriptor
             (
                 MaxSpeed        = 1500 * Metre
                 MaxAcceleration = 3000 * Metre
@@ -3973,7 +4015,8 @@ export Descriptor_Missile_AGM_AGM114A_x16 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Hellfire
                 Actions = MAP[
@@ -4009,7 +4052,7 @@ export Descriptor_Missile_AGM_AGM114A_x16 is TEntityDescriptor
                 AutoGyr         = 0.5235987755982988
             )
 
-            RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
+            TerminalPhaseConfig = TGuidedMissileMovementConfigDescriptor
             (
                 MaxSpeed        = 1500 * Metre
                 MaxAcceleration = 3000 * Metre
@@ -4078,7 +4121,8 @@ export Descriptor_Missile_AGM_AGM114A_x2_salve is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Hellfire
                 Actions = MAP[
@@ -4114,7 +4158,7 @@ export Descriptor_Missile_AGM_AGM114A_x2_salve is TEntityDescriptor
                 AutoGyr         = 0.5235987755982988
             )
 
-            RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
+            TerminalPhaseConfig = TGuidedMissileMovementConfigDescriptor
             (
                 MaxSpeed        = 1500 * Metre
                 MaxAcceleration = 3000 * Metre
@@ -4183,7 +4227,8 @@ export Descriptor_Missile_AGM_AGM114A_x2_sol is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Hellfire
                 Actions = MAP[
@@ -4219,7 +4264,7 @@ export Descriptor_Missile_AGM_AGM114A_x2_sol is TEntityDescriptor
                 AutoGyr         = 0.5235987755982988
             )
 
-            RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
+            TerminalPhaseConfig = TGuidedMissileMovementConfigDescriptor
             (
                 MaxSpeed        = 1500 * Metre
                 MaxAcceleration = 3000 * Metre
@@ -4288,7 +4333,8 @@ export Descriptor_Missile_AGM_AGM114A_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Hellfire
                 Actions = MAP[
@@ -4324,7 +4370,7 @@ export Descriptor_Missile_AGM_AGM114A_x4 is TEntityDescriptor
                 AutoGyr         = 0.5235987755982988
             )
 
-            RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
+            TerminalPhaseConfig = TGuidedMissileMovementConfigDescriptor
             (
                 MaxSpeed        = 1500 * Metre
                 MaxAcceleration = 3000 * Metre
@@ -4393,7 +4439,8 @@ export Descriptor_Missile_AGM_AGM114A_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Hellfire
                 Actions = MAP[
@@ -4429,7 +4476,7 @@ export Descriptor_Missile_AGM_AGM114A_x8 is TEntityDescriptor
                 AutoGyr         = 0.5235987755982988
             )
 
-            RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
+            TerminalPhaseConfig = TGuidedMissileMovementConfigDescriptor
             (
                 MaxSpeed        = 1500 * Metre
                 MaxAcceleration = 3000 * Metre
@@ -4498,7 +4545,8 @@ export Descriptor_Missile_AGM_AGM45_Shrike is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AGM_45_Shrike
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AGM_45_Shrike
                 Actions = MAP[
@@ -4527,7 +4575,7 @@ export Descriptor_Missile_AGM_AGM45_Shrike is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -4591,7 +4639,8 @@ export Descriptor_Missile_AGM_AGM65B_Maverick is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Maverick
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Maverick
                 Actions = MAP[
@@ -4620,7 +4669,7 @@ export Descriptor_Missile_AGM_AGM65B_Maverick is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -4684,7 +4733,8 @@ export Descriptor_Missile_AGM_AGM65D_Maverick is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Maverick
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Maverick
                 Actions = MAP[
@@ -4713,7 +4763,7 @@ export Descriptor_Missile_AGM_AGM65D_Maverick is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -4777,7 +4827,8 @@ export Descriptor_Missile_AGM_AGM65E_Maverick is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Maverick
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Maverick
                 Actions = MAP[
@@ -4806,7 +4857,7 @@ export Descriptor_Missile_AGM_AGM65E_Maverick is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -4870,7 +4921,8 @@ export Descriptor_Missile_AGM_AGM88_HARM is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AGM88_Harm
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AGM88_Harm
                 Actions = MAP[
@@ -4899,7 +4951,7 @@ export Descriptor_Missile_AGM_AGM88_HARM is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -4963,7 +5015,8 @@ export Descriptor_Missile_AGM_AJ_168_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
                 Actions = MAP[
@@ -4992,7 +5045,7 @@ export Descriptor_Missile_AGM_AJ_168_x2 is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5056,7 +5109,8 @@ export Descriptor_Missile_AGM_ALARM is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AGM88_Harm
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AGM88_Harm
                 Actions = MAP[
@@ -5085,7 +5139,7 @@ export Descriptor_Missile_AGM_ALARM is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5149,7 +5203,8 @@ export Descriptor_Missile_AGM_ARMAT is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
                 Actions = MAP[
@@ -5178,7 +5233,7 @@ export Descriptor_Missile_AGM_ARMAT is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5242,7 +5297,8 @@ export Descriptor_Missile_AGM_AS30 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS_30
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AS_30
                 Actions = MAP[
@@ -5271,7 +5327,7 @@ export Descriptor_Missile_AGM_AS30 is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5335,7 +5391,8 @@ export Descriptor_Missile_AGM_AS30L is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS_30L
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AS_30L
                 Actions = MAP[
@@ -5364,7 +5421,7 @@ export Descriptor_Missile_AGM_AS30L is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5428,7 +5485,8 @@ export Descriptor_Missile_AGM_AS37_Martel is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
                 Actions = MAP[
@@ -5457,7 +5515,7 @@ export Descriptor_Missile_AGM_AS37_Martel is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5521,7 +5579,8 @@ export Descriptor_Missile_AGM_AS37_Martel_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
                 Actions = MAP[
@@ -5550,7 +5609,7 @@ export Descriptor_Missile_AGM_AS37_Martel_x2 is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5614,7 +5673,8 @@ export Descriptor_Missile_AGM_BGM71_TOW_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -5643,7 +5703,7 @@ export Descriptor_Missile_AGM_BGM71_TOW_x8 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5707,7 +5767,8 @@ export Descriptor_Missile_AGM_BGM71C_ITOW_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -5736,7 +5797,7 @@ export Descriptor_Missile_AGM_BGM71C_ITOW_x8 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5800,7 +5861,8 @@ export Descriptor_Missile_AGM_HOT1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -5829,7 +5891,7 @@ export Descriptor_Missile_AGM_HOT1 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5893,7 +5955,8 @@ export Descriptor_Missile_AGM_HOT1_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -5922,7 +5985,7 @@ export Descriptor_Missile_AGM_HOT1_x4 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -5986,7 +6049,8 @@ export Descriptor_Missile_AGM_HOT2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -6015,7 +6079,7 @@ export Descriptor_Missile_AGM_HOT2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -6079,7 +6143,8 @@ export Descriptor_Missile_AGM_HOT2_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -6108,7 +6173,7 @@ export Descriptor_Missile_AGM_HOT2_x4 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -6172,7 +6237,8 @@ export Descriptor_Missile_AGM_Kh23M is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_23
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kh_23
                 Actions = MAP[
@@ -6201,7 +6267,7 @@ export Descriptor_Missile_AGM_Kh23M is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -6265,7 +6331,8 @@ export Descriptor_Missile_AGM_Kh25ML is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_25
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kh_25
                 Actions = MAP[
@@ -6294,7 +6361,7 @@ export Descriptor_Missile_AGM_Kh25ML is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -6358,7 +6425,8 @@ export Descriptor_Missile_AGM_Kh25MP is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_25MP
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kh_25MP
                 Actions = MAP[
@@ -6387,7 +6455,7 @@ export Descriptor_Missile_AGM_Kh25MP is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -6451,7 +6519,8 @@ export Descriptor_Missile_AGM_Kh25MPU is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_25MP
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kh_25MP
                 Actions = MAP[
@@ -6480,7 +6549,7 @@ export Descriptor_Missile_AGM_Kh25MPU is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -6544,7 +6613,8 @@ export Descriptor_Missile_AGM_Kh28_X28 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_28
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kh_28
                 Actions = MAP[
@@ -6573,7 +6643,7 @@ export Descriptor_Missile_AGM_Kh28_X28 is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -6637,7 +6707,8 @@ export Descriptor_Missile_AGM_Kh29D is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_29L
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kh_29L
                 Actions = MAP[
@@ -6666,7 +6737,7 @@ export Descriptor_Missile_AGM_Kh29D is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -6730,7 +6801,8 @@ export Descriptor_Missile_AGM_Kh29T is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_29L
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kh_29L
                 Actions = MAP[
@@ -6759,7 +6831,7 @@ export Descriptor_Missile_AGM_Kh29T is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -6823,7 +6895,8 @@ export Descriptor_Missile_AGM_Kh31P is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_31
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kh_31
                 Actions = MAP[
@@ -6852,7 +6925,7 @@ export Descriptor_Missile_AGM_Kh31P is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -6916,7 +6989,8 @@ export Descriptor_Missile_AGM_Kh58U is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_58
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kh_58
                 Actions = MAP[
@@ -6945,7 +7019,7 @@ export Descriptor_Missile_AGM_Kh58U is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7009,7 +7083,8 @@ export Descriptor_Missile_ATGM_9K111_Fagot is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -7038,7 +7113,7 @@ export Descriptor_Missile_ATGM_9K111_Fagot is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7102,7 +7177,8 @@ export Descriptor_Missile_ATGM_9K121_Vikhr is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Shturm
                 Actions = MAP[
@@ -7131,7 +7207,7 @@ export Descriptor_Missile_ATGM_9K121_Vikhr is TEntityDescriptor
                 AutoGyr         = 0.8726646259971648
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7195,7 +7271,8 @@ export Descriptor_Missile_ATGM_9M112_1_Kobra is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Drakon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Drakon
                 Actions = MAP[
@@ -7224,7 +7301,7 @@ export Descriptor_Missile_ATGM_9M112_1_Kobra is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7288,7 +7365,8 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_BMP2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -7317,7 +7395,7 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_BMP2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7381,7 +7459,8 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x5 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -7410,7 +7489,7 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x5 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7474,7 +7553,8 @@ export Descriptor_Missile_ATGM_9M113_KonkursM is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -7503,7 +7583,7 @@ export Descriptor_Missile_ATGM_9M113_KonkursM is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7567,7 +7647,8 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -7596,7 +7677,7 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7660,7 +7741,8 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late_x5 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -7689,7 +7771,7 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late_x5 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7753,7 +7835,8 @@ export Descriptor_Missile_ATGM_9M114_Shturm_MTLB is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Shturm
                 Actions = MAP[
@@ -7782,7 +7865,7 @@ export Descriptor_Missile_ATGM_9M114_Shturm_MTLB is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7846,7 +7929,8 @@ export Descriptor_Missile_ATGM_9M114M_KokonM is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -7875,7 +7959,7 @@ export Descriptor_Missile_ATGM_9M114M_KokonM is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -7939,7 +8023,8 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Drakon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Drakon
                 Actions = MAP[
@@ -7968,7 +8053,7 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
                 AutoGyr         = 0.8726646259971648
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -8032,7 +8117,8 @@ export Descriptor_Missile_ATGM_9M117M_Arkan is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Drakon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Drakon
                 Actions = MAP[
@@ -8061,7 +8147,7 @@ export Descriptor_Missile_ATGM_9M117M_Arkan is TEntityDescriptor
                 AutoGyr         = 0.8726646259971648
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -8125,7 +8211,8 @@ export Descriptor_Missile_ATGM_9M119M_Refleks is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Drakon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Drakon
                 Actions = MAP[
@@ -8154,7 +8241,7 @@ export Descriptor_Missile_ATGM_9M119M_Refleks is TEntityDescriptor
                 AutoGyr         = 0.8726646259971648
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -8218,7 +8305,8 @@ export Descriptor_Missile_ATGM_9M119M_Svir is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Drakon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Drakon
                 Actions = MAP[
@@ -8247,7 +8335,7 @@ export Descriptor_Missile_ATGM_9M119M_Svir is TEntityDescriptor
                 AutoGyr         = 0.8726646259971648
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -8311,7 +8399,8 @@ export Descriptor_Missile_ATGM_9M128_Agona is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Drakon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Drakon
                 Actions = MAP[
@@ -8340,7 +8429,7 @@ export Descriptor_Missile_ATGM_9M128_Agona is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -8404,7 +8493,8 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Malyutka
                 Actions = MAP[
@@ -8433,7 +8523,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
             TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
@@ -8497,7 +8587,8 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Malyutka
                 Actions = MAP[
@@ -8526,7 +8617,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x4 is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
             TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
@@ -8590,7 +8681,8 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x6 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Malyutka
                 Actions = MAP[
@@ -8619,7 +8711,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x6 is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
             TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
@@ -8683,7 +8775,8 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Konkurs
                 Actions = MAP[
@@ -8712,7 +8805,7 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -8776,7 +8869,8 @@ export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -8805,7 +8899,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -8869,7 +8963,8 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -8898,7 +8993,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -8962,7 +9057,8 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -8991,7 +9087,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x4 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9055,7 +9151,8 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -9084,7 +9181,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x8 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9148,7 +9245,8 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -9177,7 +9275,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9241,7 +9339,8 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -9270,7 +9369,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9334,7 +9433,8 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -9363,7 +9463,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x4 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9427,7 +9527,8 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -9456,7 +9557,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x8 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9520,7 +9621,8 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -9549,7 +9651,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9613,7 +9715,8 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -9642,7 +9745,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9706,7 +9809,8 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -9735,7 +9839,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x4 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9799,7 +9903,8 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -9828,7 +9933,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9892,7 +9997,8 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2A_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
                 Actions = MAP[
@@ -9921,7 +10027,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2A_x2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -9985,7 +10091,8 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -10014,7 +10121,7 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -10078,7 +10185,8 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -10107,7 +10215,7 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -10171,7 +10279,8 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -10200,7 +10309,7 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -10264,7 +10373,8 @@ export Descriptor_Missile_ATGM_HOT2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -10293,7 +10403,7 @@ export Descriptor_Missile_ATGM_HOT2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -10357,7 +10467,8 @@ export Descriptor_Missile_ATGM_HOT2_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -10386,7 +10497,7 @@ export Descriptor_Missile_ATGM_HOT2_x2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -10450,7 +10561,8 @@ export Descriptor_Missile_ATGM_HOT2_x3 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -10479,7 +10591,7 @@ export Descriptor_Missile_ATGM_HOT2_x3 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -10543,7 +10655,8 @@ export Descriptor_Missile_ATGM_HOT2_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -10572,7 +10685,7 @@ export Descriptor_Missile_ATGM_HOT2_x4 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -10636,7 +10749,8 @@ export Descriptor_Missile_ATGM_HOT2_x6 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_HOT
                 Actions = MAP[
@@ -10665,7 +10779,7 @@ export Descriptor_Missile_ATGM_HOT2_x6 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -10729,7 +10843,8 @@ export Descriptor_Missile_ATGM_MGM551C_Shillelagh is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shillelagh
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Shillelagh
                 Actions = MAP[
@@ -10758,7 +10873,7 @@ export Descriptor_Missile_ATGM_MGM551C_Shillelagh is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -10822,7 +10937,8 @@ export Descriptor_Missile_ATGM_MILAN is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Milan
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Milan
                 Actions = MAP[
@@ -10851,7 +10967,7 @@ export Descriptor_Missile_ATGM_MILAN is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -10915,7 +11031,8 @@ export Descriptor_Missile_ATGM_MILAN_2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Milan
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Milan
                 Actions = MAP[
@@ -10944,7 +11061,7 @@ export Descriptor_Missile_ATGM_MILAN_2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -11008,7 +11125,8 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Milan
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Milan
                 Actions = MAP[
@@ -11037,7 +11155,7 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -11101,7 +11219,8 @@ export Descriptor_Missile_ATGM_SS11_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SS_11
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SS_11
                 Actions = MAP[
@@ -11130,7 +11249,7 @@ export Descriptor_Missile_ATGM_SS11_x4 is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
             TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
@@ -11194,7 +11313,8 @@ export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_M47dragon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_M47dragon
                 Actions = MAP[
@@ -11223,7 +11343,7 @@ export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -11287,7 +11407,8 @@ export Descriptor_Missile_ATGM_Swingfire_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_M47dragon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_M47dragon
                 Actions = MAP[
@@ -11316,7 +11437,7 @@ export Descriptor_Missile_ATGM_Swingfire_x2 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -11380,7 +11501,8 @@ export Descriptor_Missile_ATGM_Swingfire_x5 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_M47dragon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_M47dragon
                 Actions = MAP[
@@ -11409,7 +11531,7 @@ export Descriptor_Missile_ATGM_Swingfire_x5 is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -11473,7 +11595,8 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Metis
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Metis
                 Actions = MAP[
@@ -11502,7 +11625,7 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
                 AutoGyr         = 1.3962634015954636
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -11566,7 +11689,8 @@ export Descriptor_Missile_Bomb_BGL_400_x1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU10
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU10
                 Actions = MAP[
@@ -11596,7 +11720,7 @@ export Descriptor_Missile_Bomb_BGL_400_x1 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -11660,7 +11784,8 @@ export Descriptor_Missile_Bomb_BGL_400_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU10
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU10
                 Actions = MAP[
@@ -11690,7 +11815,7 @@ export Descriptor_Missile_Bomb_BGL_400_x2 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -11754,7 +11879,8 @@ export Descriptor_Missile_Bomb_CPU_123_x1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_CPU123
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_CPU123
                 Actions = MAP[
@@ -11784,7 +11910,7 @@ export Descriptor_Missile_Bomb_CPU_123_x1 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -11848,7 +11974,8 @@ export Descriptor_Missile_Bomb_CPU_123_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_CPU123
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_CPU123
                 Actions = MAP[
@@ -11878,7 +12005,7 @@ export Descriptor_Missile_Bomb_CPU_123_x2 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -11942,7 +12069,8 @@ export Descriptor_Missile_Bomb_GBU_10_x1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU10
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU10
                 Actions = MAP[
@@ -11972,7 +12100,7 @@ export Descriptor_Missile_Bomb_GBU_10_x1 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12036,7 +12164,8 @@ export Descriptor_Missile_Bomb_GBU_10_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU10
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU10
                 Actions = MAP[
@@ -12066,7 +12195,7 @@ export Descriptor_Missile_Bomb_GBU_10_x2 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12130,7 +12259,8 @@ export Descriptor_Missile_Bomb_GBU_12_x1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU12
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU12
                 Actions = MAP[
@@ -12160,7 +12290,7 @@ export Descriptor_Missile_Bomb_GBU_12_x1 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12224,7 +12354,8 @@ export Descriptor_Missile_Bomb_GBU_12_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU12
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU12
                 Actions = MAP[
@@ -12254,7 +12385,7 @@ export Descriptor_Missile_Bomb_GBU_12_x2 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12318,7 +12449,8 @@ export Descriptor_Missile_Bomb_GBU_27_x1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU24
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU24
                 Actions = MAP[
@@ -12348,7 +12480,7 @@ export Descriptor_Missile_Bomb_GBU_27_x1 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12412,7 +12544,8 @@ export Descriptor_Missile_Bomb_GBU_27_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU24
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU24
                 Actions = MAP[
@@ -12442,7 +12575,7 @@ export Descriptor_Missile_Bomb_GBU_27_x2 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12506,7 +12639,8 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
                 Actions = MAP[
@@ -12536,7 +12670,7 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x1 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12600,7 +12734,8 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
                 Actions = MAP[
@@ -12630,7 +12765,7 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x2 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12694,7 +12829,8 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
                 Actions = MAP[
@@ -12724,7 +12860,7 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x1 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12788,7 +12924,8 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
                 Actions = MAP[
@@ -12818,7 +12955,7 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x2 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12882,7 +13019,8 @@ export Descriptor_Missile_FakeRoquette_S_24 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_S_24_240mm
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_S_24_240mm
                 Actions = MAP[
@@ -12912,7 +13050,7 @@ export Descriptor_Missile_FakeRoquette_S_24 is TEntityDescriptor
                 AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -12975,7 +13113,8 @@ export Descriptor_Missile_Javelin is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -13005,7 +13144,7 @@ export Descriptor_Missile_Javelin is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -13069,7 +13208,8 @@ export Descriptor_Missile_Javelin_LML is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -13099,7 +13239,7 @@ export Descriptor_Missile_Javelin_LML is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -13163,7 +13303,8 @@ export Descriptor_Missile_M47_DRAGON is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_M47dragon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_M47dragon
                 Actions = MAP[
@@ -13192,7 +13333,7 @@ export Descriptor_Missile_M47_DRAGON is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
             TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
@@ -13256,7 +13397,8 @@ export Descriptor_Missile_M47_DRAGON_II is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_M47dragon
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_M47dragon
                 Actions = MAP[
@@ -13285,7 +13427,7 @@ export Descriptor_Missile_M47_DRAGON_II is TEntityDescriptor
                 AutoGyr         = 1.7453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
             TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
@@ -13349,7 +13491,8 @@ export Descriptor_Missile_MANPAD_Blowpipe is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -13379,7 +13522,7 @@ export Descriptor_Missile_MANPAD_Blowpipe is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -13443,7 +13586,8 @@ export Descriptor_Missile_MANPAD_FIM43 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -13473,7 +13617,7 @@ export Descriptor_Missile_MANPAD_FIM43 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -13537,7 +13681,8 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -13567,7 +13712,7 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -13631,7 +13776,8 @@ export Descriptor_Missile_MANPAD_FIM92_A is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -13661,7 +13807,7 @@ export Descriptor_Missile_MANPAD_FIM92_A is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -13725,7 +13871,8 @@ export Descriptor_Missile_MANPAD_Javelin is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -13755,7 +13902,7 @@ export Descriptor_Missile_MANPAD_Javelin is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -13819,7 +13966,8 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -13849,7 +13997,7 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -13913,7 +14061,8 @@ export Descriptor_Missile_MANPAD_igla is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -13942,7 +14091,7 @@ export Descriptor_Missile_MANPAD_igla is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14006,7 +14155,8 @@ export Descriptor_Missile_Mistral is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -14036,7 +14186,7 @@ export Descriptor_Missile_Mistral is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14100,7 +14250,8 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -14130,7 +14281,7 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14194,7 +14345,8 @@ export Descriptor_Missile_SAM_9M311_Tunguska_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tunguska
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tunguska
                 Actions = MAP[
@@ -14224,7 +14376,7 @@ export Descriptor_Missile_SAM_9M311_Tunguska_x8 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14288,7 +14440,8 @@ export Descriptor_Missile_SAM_9M33 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tunguska
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tunguska
                 Actions = MAP[
@@ -14318,7 +14471,7 @@ export Descriptor_Missile_SAM_9M33 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14382,7 +14535,8 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tunguska
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tunguska
                 Actions = MAP[
@@ -14412,7 +14566,7 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
                 AutoGyr         = 0.17453292519943295
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14476,7 +14630,8 @@ export Descriptor_Missile_SAM_9M336_x3 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kub
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kub
                 Actions = MAP[
@@ -14506,7 +14661,7 @@ export Descriptor_Missile_SAM_9M336_x3 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14570,7 +14725,8 @@ export Descriptor_Missile_SAM_9M33M2_x6 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tunguska
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tunguska
                 Actions = MAP[
@@ -14600,7 +14756,7 @@ export Descriptor_Missile_SAM_9M33M2_x6 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14664,7 +14820,8 @@ export Descriptor_Missile_SAM_9M38M1_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kub
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Kub
                 Actions = MAP[
@@ -14694,7 +14851,7 @@ export Descriptor_Missile_SAM_9M38M1_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14758,7 +14915,8 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -14788,7 +14946,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14852,7 +15010,8 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -14882,7 +15041,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -14946,7 +15105,8 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -14976,7 +15136,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15040,7 +15200,8 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -15070,7 +15231,7 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15134,7 +15295,8 @@ export Descriptor_Missile_SAM_I_Hawk is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_MIM_72F
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_MIM_72F
                 Actions = MAP[
@@ -15164,7 +15326,7 @@ export Descriptor_Missile_SAM_I_Hawk is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15228,7 +15390,8 @@ export Descriptor_Missile_SAM_I_Hawk_x3 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_MIM23_I_Hawk
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_MIM23_I_Hawk
                 Actions = MAP[
@@ -15258,7 +15421,7 @@ export Descriptor_Missile_SAM_I_Hawk_x3 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15322,7 +15485,8 @@ export Descriptor_Missile_SAM_Igla is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -15352,7 +15516,7 @@ export Descriptor_Missile_SAM_Igla is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15416,7 +15580,8 @@ export Descriptor_Missile_SAM_Igla1M is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -15446,7 +15611,7 @@ export Descriptor_Missile_SAM_Igla1M is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15510,7 +15675,8 @@ export Descriptor_Missile_SAM_IglaV is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -15540,7 +15706,7 @@ export Descriptor_Missile_SAM_IglaV is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15604,7 +15770,8 @@ export Descriptor_Missile_SAM_IglaV_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -15634,7 +15801,7 @@ export Descriptor_Missile_SAM_IglaV_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15698,7 +15865,8 @@ export Descriptor_Missile_SAM_MIM72A is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_MIM_72F
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_MIM_72F
                 Actions = MAP[
@@ -15728,7 +15896,7 @@ export Descriptor_Missile_SAM_MIM72A is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15792,7 +15960,8 @@ export Descriptor_Missile_SAM_MIM72F is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_MIM_72F
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_MIM_72F
                 Actions = MAP[
@@ -15822,7 +15991,7 @@ export Descriptor_Missile_SAM_MIM72F is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15886,7 +16055,8 @@ export Descriptor_Missile_SAM_MIM72G is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_MIM_72F
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_MIM_72F
                 Actions = MAP[
@@ -15916,7 +16086,7 @@ export Descriptor_Missile_SAM_MIM72G is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -15980,7 +16150,8 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
@@ -16010,7 +16181,7 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -16074,7 +16245,8 @@ export Descriptor_Missile_SAM_RAPIER is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Rapier
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Rapier
                 Actions = MAP[
@@ -16104,7 +16276,7 @@ export Descriptor_Missile_SAM_RAPIER is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -16168,7 +16340,8 @@ export Descriptor_Missile_SAM_RAPIER_DARKFIRE_x6 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Rapier
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Rapier
                 Actions = MAP[
@@ -16198,7 +16371,7 @@ export Descriptor_Missile_SAM_RAPIER_DARKFIRE_x6 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -16262,7 +16435,8 @@ export Descriptor_Missile_SAM_RAPIER_FSA_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Rapier
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Rapier
                 Actions = MAP[
@@ -16292,7 +16466,7 @@ export Descriptor_Missile_SAM_RAPIER_FSA_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -16356,7 +16530,8 @@ export Descriptor_Missile_SAM_RAPIER_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Rapier
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Rapier
                 Actions = MAP[
@@ -16386,7 +16561,7 @@ export Descriptor_Missile_SAM_RAPIER_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -16450,7 +16625,8 @@ export Descriptor_Missile_SAM_RAPIER_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Rapier
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Rapier
                 Actions = MAP[
@@ -16480,7 +16656,7 @@ export Descriptor_Missile_SAM_RAPIER_x8 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -16544,7 +16720,8 @@ export Descriptor_Missile_SAM_ROLAND is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_ROLAND
                 Actions = MAP[
@@ -16574,7 +16751,7 @@ export Descriptor_Missile_SAM_ROLAND is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -16638,7 +16815,8 @@ export Descriptor_Missile_SAM_ROLAND_1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_ROLAND
                 Actions = MAP[
@@ -16668,7 +16846,7 @@ export Descriptor_Missile_SAM_ROLAND_1 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -16732,7 +16910,8 @@ export Descriptor_Missile_SAM_ROLAND_1_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_ROLAND
                 Actions = MAP[
@@ -16762,7 +16941,7 @@ export Descriptor_Missile_SAM_ROLAND_1_x2 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -16826,7 +17005,8 @@ export Descriptor_Missile_SAM_ROLAND_2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_ROLAND
                 Actions = MAP[
@@ -16856,7 +17036,7 @@ export Descriptor_Missile_SAM_ROLAND_2 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -16920,7 +17100,8 @@ export Descriptor_Missile_SAM_ROLAND_2_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_ROLAND
                 Actions = MAP[
@@ -16950,7 +17131,7 @@ export Descriptor_Missile_SAM_ROLAND_2_x2 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -17014,7 +17195,8 @@ export Descriptor_Missile_SAM_ROLAND_3 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_ROLAND
                 Actions = MAP[
@@ -17044,7 +17226,7 @@ export Descriptor_Missile_SAM_ROLAND_3 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -17108,7 +17290,8 @@ export Descriptor_Missile_SAM_ROLAND_3_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_ROLAND
                 Actions = MAP[
@@ -17138,7 +17321,7 @@ export Descriptor_Missile_SAM_ROLAND_3_x2 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -17202,7 +17385,8 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -17232,7 +17416,7 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -17296,7 +17480,8 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -17326,7 +17511,7 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -17390,7 +17575,8 @@ export Descriptor_Missile_SAM_Strela10_x4_FASTA is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -17420,7 +17606,7 @@ export Descriptor_Missile_SAM_Strela10_x4_FASTA is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -17484,7 +17670,8 @@ export Descriptor_Missile_SAM_Strela10M3_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -17514,7 +17701,7 @@ export Descriptor_Missile_SAM_Strela10M3_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -17578,7 +17765,8 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -17608,7 +17796,7 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -17672,7 +17860,8 @@ export Descriptor_Missile_SAM_Strela2_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -17702,7 +17891,7 @@ export Descriptor_Missile_SAM_Strela2_x2 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
@@ -17766,7 +17955,8 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            Depiction  = Template_DescriptorMissileBase
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            Depiction     = Template_DescriptorMissileBase
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
                 Actions = MAP[
@@ -17796,7 +17986,7 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
                 AutoGyr         = 0.4363323129985824
             )
             AscendantPhaseConfig = nil
-            RecedingPhaseConfig = nil
+            TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
             TimeMaxBetweenRandomMoveWhenUncontrollable = 2
             TimeMinBetweenRandomMoveWhenUncontrollable = 1.0

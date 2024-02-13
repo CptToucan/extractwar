@@ -1,32 +1,24 @@
 // Ne pas éditer, ce fichier est auto-généré !
 
 
-export Descriptor_Unit_FOB_DDR is TEntityDescriptor
+export Descriptor_Unit_FOB_BEL is TEntityDescriptor
 (
-    DescriptorId       = GUID:{77799f4b-f37d-4fa2-87e7-b9d682ac2604}
-    ClassNameForDebug  = 'Building_FOB_DDR'
+    DescriptorId       = GUID:{3f958f6c-ccf9-49d8-90e1-67efbcc746f1}
+    ClassNameForDebug  = 'Building_FOB_BEL'
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            MotherCountry                    = 'DDR'
-            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'BEL'
+            Nationalite                      = ENationalite/Allied
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
-        TFlagsModuleDescriptor
-        (
-            InitialFlagSet =
-            [
-                Flag_Batiment,
-                Flag_Detectable,
-                Flag_LdDetectable,
-            ]
-        ),
+        ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
         ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
             CanWinExperience = False
             ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
@@ -34,7 +26,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ~/FOBBuildingModuleDescriptor,
         TSupplyModuleDescriptor
         (
-            SupplyDescriptor   = ~/StandardSupply
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
             SupplyCapacity     = 16000.0
             SupplyPriority     = 0
         ),
@@ -72,7 +64,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
-            UnitIsStealth        = False
         ),
         TScannerConfigurationDescriptor
         (
@@ -84,7 +75,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             PorteeIdentification = 0.0
             OpticalStrength = 0.0
             OpticalStrengthAltitude = 40
-            UnitDetectStealthUnit = False
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
@@ -95,7 +85,177 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             (
                 IdentifyBaseProbability     = 1.0
                 TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
+                (
+                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
+                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
+                    Exposant                                 = DefaultExposant
+                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
+                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
+                    ExposantEnMouvement                      = DefaultExposantEnMouvement
+                )
+            )
+        ),
+        ApparenceModel is BuildingApparenceModelModuleDescriptor
+        (
+            BlackHoleIdentifier = "FOB_BEL"
+            SymbolName = 'FOB_Nato_03'
+        ),
+        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_BEL ),
+        TIAStratModuleDescriptor
+        (
+            DatabaseId = 0
+            GameplayBehavior = EGameplayBehavior/Nothing
+        ),
+        ~/IAStratZoneIndexModuleDescriptor,
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/UnitStateEngineCompanyModuleDescriptor,
+        ~/UnitStateEngineModuleDescriptor,
+        TProductionModuleDescriptor
+        (
+            Factory            = EDefaultFactories/Logistic
+            ProductionTime     = -1
+            ProductionRessourcesNeeded = MAP [
+                ($/GFX/Resources/Resource_CommandPoints, 235),
+            ]
+        ),
+        ~/EffectApplierModuleDescriptor,
+        TTacticalLabelModuleDescriptor
+        (
+            UnitName                   = 'BFCFNEMWNZ'
+            IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_fob",
+                    "Texture_fob"
+                ]
+            )
+            UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_NATO_Unidentified",
+                    "Texture_NATO_Unidentified"
+                ]
+            )
+            PositionHeightOffset = 1000.0
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_FOB_BEL
+        ),
+        ~/OrderDisplayModuleDescriptor,
+        ~/GroupableUnitModuleSelector,
+        ~/PackSignauxModuleDescriptor,
+        TUnitUIModuleDescriptor
+        (
+            UnitRole = 'tank_A'
+            SpecialtiesList = [
+                'supply',
+            ]
+            NameToken = 'BFCFNEMWNZ'
+            InfoPanelConfigurationToken = 'Default'
+            TypeSpecificToken = ''
+            GenerateName = true
+            MenuIconTexture = 'Texture_RTS_H_fob'
+            ButtonTexture = 'Texture_Button_Unit_FOB_BEL'
+            CountryTexture = 'CommonTexture_MotherCountryFlag_BEL'
+            TypeStrategicCount = ETypeStrategicCount/NotCounted
+        ),
+    ]
+)
+export Descriptor_Unit_FOB_DDR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{77799f4b-f37d-4fa2-87e7-b9d682ac2604}
+    ClassNameForDebug  = 'Building_FOB_DDR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            MotherCountry                    = 'DDR'
+            Nationalite                      = ENationalite/Axis
+        ),
+        ~/BuildingDescriptorTagsModuleDescriptor,
+        ~/BuildingFlagsModuleDescriptor,
+        ~/BuildingPositionModuleDescriptor,
+        ~/InflammableModuleDescriptorUnit,
+        ~/LinkTeamModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = False
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        ~/FOBBuildingModuleDescriptor,
+        TSupplyModuleDescriptor
+        (
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
+            SupplyCapacity     = 16000.0
+            SupplyPriority     = 0
+        ),
+        ~/CapturableModuleDescriptor,
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 10
+            MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+            MaxStunDamages = ~/Building_MaxStunDamages
+            PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+            SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+            StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Building_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollSize = 0.0
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        ~/TargetCoordinatorModuleSelector,
+        TVisibilityModuleDescriptor
+        (
+            AutoRevealType       = EAutoRevealType/AutoRevealAllies
+            UnitConcealmentBonus = 1.0
+            VisionUnitType       = EVisionUnitType/AlwaysOnGround
+        ),
+        TScannerConfigurationDescriptor
+        (
+            OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
+            PorteeVisionTBA = ((0.0) * Metre)
+            PorteeVisionFOW = ((0.0) * Metre)
+            DetectionTBA = ((10000) * Metre)
+            PorteeVision = ((10000) * Metre)
+            PorteeIdentification = 0.0
+            OpticalStrength = 0.0
+            OpticalStrengthAltitude = 40
+            SpecializedDetections = MAP [
+                ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
+            ]
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 1.0
+                TimeBetweenEachIdentifyRoll = 1.0
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
                 DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
                 (
                     MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
@@ -128,7 +288,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 235),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -145,7 +305,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
                     "Texture_fob"
                 ]
             )
-            DefaultSpecialtyToken      = "tank_A"
             UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -174,7 +333,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             NameToken = 'FOBGER'
             InfoPanelConfigurationToken = 'Default'
             TypeSpecificToken = ''
-            IsAce = False
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_DDR'
@@ -194,21 +352,13 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             Nationalite                      = ENationalite/Allied
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
-        TFlagsModuleDescriptor
-        (
-            InitialFlagSet =
-            [
-                Flag_Batiment,
-                Flag_Detectable,
-                Flag_LdDetectable,
-            ]
-        ),
+        ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
         ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
             CanWinExperience = False
             ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
@@ -216,7 +366,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ~/FOBBuildingModuleDescriptor,
         TSupplyModuleDescriptor
         (
-            SupplyDescriptor   = ~/StandardSupply
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
             SupplyCapacity     = 16000.0
             SupplyPriority     = 0
         ),
@@ -254,7 +404,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
-            UnitIsStealth        = False
         ),
         TScannerConfigurationDescriptor
         (
@@ -266,7 +415,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             PorteeIdentification = 0.0
             OpticalStrength = 0.0
             OpticalStrengthAltitude = 40
-            UnitDetectStealthUnit = False
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
@@ -277,7 +425,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             (
                 IdentifyBaseProbability     = 1.0
                 TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
                 DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
                 (
                     MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
@@ -310,7 +458,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 235),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -327,7 +475,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
                     "Texture_fob"
                 ]
             )
-            DefaultSpecialtyToken      = "tank_A"
             UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -356,7 +503,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             NameToken = 'FOBFRA'
             InfoPanelConfigurationToken = 'Default'
             TypeSpecificToken = ''
-            IsAce = False
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_FR'
@@ -376,21 +522,13 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             Nationalite                      = ENationalite/Allied
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
-        TFlagsModuleDescriptor
-        (
-            InitialFlagSet =
-            [
-                Flag_Batiment,
-                Flag_Detectable,
-                Flag_LdDetectable,
-            ]
-        ),
+        ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
         ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
             CanWinExperience = False
             ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
@@ -398,7 +536,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ~/FOBBuildingModuleDescriptor,
         TSupplyModuleDescriptor
         (
-            SupplyDescriptor   = ~/StandardSupply
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
             SupplyCapacity     = 16000.0
             SupplyPriority     = 0
         ),
@@ -436,7 +574,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
-            UnitIsStealth        = False
         ),
         TScannerConfigurationDescriptor
         (
@@ -448,7 +585,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             PorteeIdentification = 0.0
             OpticalStrength = 0.0
             OpticalStrengthAltitude = 40
-            UnitDetectStealthUnit = False
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
@@ -459,7 +595,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             (
                 IdentifyBaseProbability     = 1.0
                 TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
                 DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
                 (
                     MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
@@ -492,7 +628,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 235),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -509,7 +645,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
                     "Texture_fob"
                 ]
             )
-            DefaultSpecialtyToken      = "tank_A"
             UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -538,7 +673,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             NameToken = 'FOBGER'
             InfoPanelConfigurationToken = 'Default'
             TypeSpecificToken = ''
-            IsAce = False
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_RFA'
@@ -558,21 +692,13 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             Nationalite                      = ENationalite/Axis
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
-        TFlagsModuleDescriptor
-        (
-            InitialFlagSet =
-            [
-                Flag_Batiment,
-                Flag_Detectable,
-                Flag_LdDetectable,
-            ]
-        ),
+        ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
         ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
             CanWinExperience = False
             ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
@@ -580,7 +706,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ~/FOBBuildingModuleDescriptor,
         TSupplyModuleDescriptor
         (
-            SupplyDescriptor   = ~/StandardSupply
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
             SupplyCapacity     = 16000.0
             SupplyPriority     = 0
         ),
@@ -618,7 +744,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
-            UnitIsStealth        = False
         ),
         TScannerConfigurationDescriptor
         (
@@ -630,7 +755,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             PorteeIdentification = 0.0
             OpticalStrength = 0.0
             OpticalStrengthAltitude = 40
-            UnitDetectStealthUnit = False
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
@@ -641,7 +765,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             (
                 IdentifyBaseProbability     = 1.0
                 TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
                 DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
                 (
                     MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
@@ -674,7 +798,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 235),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -691,7 +815,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
                     "Texture_fob"
                 ]
             )
-            DefaultSpecialtyToken      = "tank_A"
             UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -720,7 +843,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             NameToken = 'FOBSOV'
             InfoPanelConfigurationToken = 'Default'
             TypeSpecificToken = ''
-            IsAce = False
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_SOV'
@@ -740,21 +862,13 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             Nationalite                      = ENationalite/Allied
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
-        TFlagsModuleDescriptor
-        (
-            InitialFlagSet =
-            [
-                Flag_Batiment,
-                Flag_Detectable,
-                Flag_LdDetectable,
-            ]
-        ),
+        ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
         ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
             CanWinExperience = False
             ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
@@ -762,7 +876,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ~/FOBBuildingModuleDescriptor,
         TSupplyModuleDescriptor
         (
-            SupplyDescriptor   = ~/StandardSupply
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
             SupplyCapacity     = 16000.0
             SupplyPriority     = 0
         ),
@@ -800,7 +914,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
-            UnitIsStealth        = False
         ),
         TScannerConfigurationDescriptor
         (
@@ -812,7 +925,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             PorteeIdentification = 0.0
             OpticalStrength = 0.0
             OpticalStrengthAltitude = 40
-            UnitDetectStealthUnit = False
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
@@ -823,7 +935,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             (
                 IdentifyBaseProbability     = 1.0
                 TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
                 DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
                 (
                     MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
@@ -856,7 +968,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 235),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -873,7 +985,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
                     "Texture_fob"
                 ]
             )
-            DefaultSpecialtyToken      = "tank_A"
             UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -902,7 +1013,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             NameToken = 'FOBUSUK'
             InfoPanelConfigurationToken = 'Default'
             TypeSpecificToken = ''
-            IsAce = False
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_UK'
@@ -922,21 +1032,13 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             Nationalite                      = ENationalite/Allied
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
-        TFlagsModuleDescriptor
-        (
-            InitialFlagSet =
-            [
-                Flag_Batiment,
-                Flag_Detectable,
-                Flag_LdDetectable,
-            ]
-        ),
+        ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
         ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
             CanWinExperience = False
             ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
@@ -944,7 +1046,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ~/FOBBuildingModuleDescriptor,
         TSupplyModuleDescriptor
         (
-            SupplyDescriptor   = ~/StandardSupply
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
             SupplyCapacity     = 16000.0
             SupplyPriority     = 0
         ),
@@ -982,7 +1084,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
-            UnitIsStealth        = False
         ),
         TScannerConfigurationDescriptor
         (
@@ -994,7 +1095,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             PorteeIdentification = 0.0
             OpticalStrength = 0.0
             OpticalStrengthAltitude = 40
-            UnitDetectStealthUnit = False
             SpecializedDetections = MAP [
                 ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
             ]
@@ -1005,7 +1105,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             (
                 IdentifyBaseProbability     = 1.0
                 TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
                 DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
                 (
                     MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
@@ -1038,7 +1138,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 235),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -1055,7 +1155,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
                     "Texture_fob"
                 ]
             )
-            DefaultSpecialtyToken      = "tank_A"
             UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -1084,7 +1183,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             NameToken = 'FOBUSUK'
             InfoPanelConfigurationToken = 'Default'
             TypeSpecificToken = ''
-            IsAce = False
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_US'

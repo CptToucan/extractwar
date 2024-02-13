@@ -25,9 +25,9 @@ export Descriptor_Smoke_Fumi105mm is TEntityDescriptor
         TSmokeModuleDescriptor
         (
             Altitude       = ((250) * Metre)
-            TimeToLive     = ((70) * Seconde)
+            TimeToLive     = ((60) * Seconde)
             Radius         = ((250) * Metre)
-            Terrain        = ~/SmokeMedium
+            Terrain        = $/GFX/Terrains/SmokeMedium
         ),
     ]
 )
@@ -55,9 +55,9 @@ export Descriptor_Smoke_Fumi107mm is TEntityDescriptor
         TSmokeModuleDescriptor
         (
             Altitude       = ((250) * Metre)
-            TimeToLive     = ((70) * Seconde)
+            TimeToLive     = ((60) * Seconde)
             Radius         = ((250) * Metre)
-            Terrain        = ~/SmokeMedium
+            Terrain        = $/GFX/Terrains/SmokeMedium
         ),
     ]
 )
@@ -85,9 +85,39 @@ export Descriptor_Smoke_Fumi120mm is TEntityDescriptor
         TSmokeModuleDescriptor
         (
             Altitude       = ((300) * Metre)
-            TimeToLive     = ((70) * Seconde)
+            TimeToLive     = ((60) * Seconde)
             Radius         = ((300) * Metre)
-            Terrain        = ~/SmokeMedium
+            Terrain        = $/GFX/Terrains/SmokeMedium
+        ),
+    ]
+)
+export Descriptor_Smoke_Fumi120mm_mortier is TEntityDescriptor
+(
+    World        = WorldIndices_Smokes
+    DescriptorId       = GUID:{cdb0f2c0-dc16-4584-8192-e4debf9dbd7a}
+    ClassNameForDebug  = 'Smoke_Fumi120mm_mortier'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        ~/EmptyTagsModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        ~/SmokePositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            ReferenceMesh  = $/GFX/DepictionResources/Rien
+            Depiction  = Template_DescriptorSmoke_Depiction
+            (
+                Radius  = 300 * Metre
+                Height  = 300 * Metre
+                Density = 0.5
+            )
+            DefaultVisibility  = True
+        ),
+        TSmokeModuleDescriptor
+        (
+            Altitude       = ((300) * Metre)
+            TimeToLive     = ((45) * Seconde)
+            Radius         = ((300) * Metre)
+            Terrain        = $/GFX/Terrains/SmokeMedium
         ),
     ]
 )
@@ -115,9 +145,9 @@ export Descriptor_Smoke_Fumi122mm is TEntityDescriptor
         TSmokeModuleDescriptor
         (
             Altitude       = ((300) * Metre)
-            TimeToLive     = ((70) * Seconde)
+            TimeToLive     = ((60) * Seconde)
             Radius         = ((300) * Metre)
-            Terrain        = ~/SmokeMedium
+            Terrain        = $/GFX/Terrains/SmokeMedium
         ),
     ]
 )
@@ -145,9 +175,9 @@ export Descriptor_Smoke_Fumi152mm is TEntityDescriptor
         TSmokeModuleDescriptor
         (
             Altitude       = ((350) * Metre)
-            TimeToLive     = ((70) * Seconde)
+            TimeToLive     = ((60) * Seconde)
             Radius         = ((350) * Metre)
-            Terrain        = ~/SmokeHeavy
+            Terrain        = $/GFX/Terrains/SmokeHeavy
         ),
     ]
 )
@@ -175,9 +205,9 @@ export Descriptor_Smoke_Fumi155mm is TEntityDescriptor
         TSmokeModuleDescriptor
         (
             Altitude       = ((350) * Metre)
-            TimeToLive     = ((70) * Seconde)
+            TimeToLive     = ((60) * Seconde)
             Radius         = ((350) * Metre)
-            Terrain        = ~/SmokeHeavy
+            Terrain        = $/GFX/Terrains/SmokeHeavy
         ),
     ]
 )
@@ -205,9 +235,9 @@ export Descriptor_Smoke_Fumi203mm is TEntityDescriptor
         TSmokeModuleDescriptor
         (
             Altitude       = ((350) * Metre)
-            TimeToLive     = ((70) * Seconde)
+            TimeToLive     = ((60) * Seconde)
             Radius         = ((500) * Metre)
-            Terrain        = ~/SmokeHeavy
+            Terrain        = $/GFX/Terrains/SmokeHeavy
         ),
     ]
 )
@@ -235,9 +265,9 @@ export Descriptor_Smoke_Fumi60mm is TEntityDescriptor
         TSmokeModuleDescriptor
         (
             Altitude       = ((150) * Metre)
-            TimeToLive     = ((70) * Seconde)
+            TimeToLive     = ((60) * Seconde)
             Radius         = ((150) * Metre)
-            Terrain        = ~/SmokeLight
+            Terrain        = $/GFX/Terrains/SmokeLight
         ),
     ]
 )
@@ -265,9 +295,9 @@ export Descriptor_Smoke_Fumi81mm is TEntityDescriptor
         TSmokeModuleDescriptor
         (
             Altitude       = ((200) * Metre)
-            TimeToLive     = ((70) * Seconde)
+            TimeToLive     = ((45) * Seconde)
             Radius         = ((200) * Metre)
-            Terrain        = ~/SmokeLight
+            Terrain        = $/GFX/Terrains/SmokeLight
         ),
     ]
 )
@@ -297,7 +327,7 @@ export Descriptor_Smoke_FumiBombe is TEntityDescriptor
             Altitude       = ((350) * Metre)
             TimeToLive     = ((100) * Seconde)
             Radius         = ((400) * Metre)
-            Terrain        = ~/SmokeHeavy
+            Terrain        = $/GFX/Terrains/SmokeHeavy
         ),
     ]
 )
@@ -375,7 +405,7 @@ export Descriptor_Smoke_FumiTest1 is TEntityDescriptor
             Altitude       = ((350) * Metre)
             TimeToLive     = ((70) * Seconde)
             Radius         = ((10) * Metre)
-            Terrain        = ~/SmokeLight
+            Terrain        = $/GFX/Terrains/SmokeLight
         ),
     ]
 )
@@ -405,7 +435,7 @@ export Descriptor_Smoke_Fumi_smoke_grenade is TEntityDescriptor
             Altitude       = ((150) * Metre)
             TimeToLive     = ((20) * Seconde)
             Radius         = ((150) * Metre)
-            Terrain        = ~/SmokeLight
+            Terrain        = $/GFX/Terrains/SmokeLight
         ),
     ]
 )

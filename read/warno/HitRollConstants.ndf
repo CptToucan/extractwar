@@ -54,11 +54,11 @@ export HitRollParams is TRollParameters
     InterpolateRangeTable = true
     RangeModifiersTable =
     [
-        (0.05, 1000),
-        (0.17, 100),
-        (0.33, 75),
-        (0.50, 50),
-        (0.67, 25),
+        (0.05, 300),
+        (0.17, 70),
+        (0.33, 50),
+        (0.50, 30),
+        (0.67, 15),
         (1.00, 0),
         (9999, 0)  // Au cas où on vise au delà de la portée pour certains calculs pas de bonus de precision
     ]

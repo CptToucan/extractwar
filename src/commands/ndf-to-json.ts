@@ -353,9 +353,6 @@ export default class NdfToJson extends Command {
       })
     }
     
-
-    console.log(defaultSuppressDamage, suppressionDamageExceptions, armorToignoreForDamageFamilies);
-    debugger;
     /**
      * Mapping weapons and ammo out to be mapped by keys will save us many iterations when units need to find weapons, and weapons need to find ammo
      */

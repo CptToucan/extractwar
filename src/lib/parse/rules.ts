@@ -36,6 +36,19 @@ function extractTransportList(data: any) {
         (u: any) => u.name === 'AvailableTransportList' 
     )?.value;
 
+        if(rawDataFromNdf) {
+            debugger;
+        }
+
+        // new descriptors start with $/GFX
+    if(rawDataFromNdf?.values?.[0]?.name === "$/GFX") {
+        const descriptorNames: string[] = [];
+        for(let i = 1; i < rawDataFromNdf.values.length; i = i + 2) {
+            descriptorNames.push(rawDataFromNdf.values[i].name.split("/")[1]);
+        }
+        return descriptorNames;
+    } 
+
     if (rawDataFromNdf?.values) {
         return rawDataFromNdf.values[0].value?.split(",").map((i: any) => i.trim().replace('~/', ''));
     }
