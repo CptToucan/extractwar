@@ -386,7 +386,7 @@ export default class NdfToJson extends Command {
     }
 
     for (const unitIdTuple of unitIdTuples) {
-      const unitDescriptor = `${NdfManager.extractNameFromTuple(unitIdTuple)}`;
+      const unitDescriptor = `${NdfManager.extractNameFromTuple(unitIdTuple)}`.replace("$/GFX/Unit/", "") ;
       const unitId = NdfManager.extractValueFromTuple(unitIdTuple);
 
       unitIdMap[unitDescriptor] = Number(unitId) + 1;

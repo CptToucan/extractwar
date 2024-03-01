@@ -35,11 +35,6 @@ function extractTransportList(data: any) {
     const rawDataFromNdf = data.children.find( 
         (u: any) => u.name === 'AvailableTransportList' 
     )?.value;
-
-        if(rawDataFromNdf) {
-            debugger;
-        }
-
         // new descriptors start with $/GFX
     if(rawDataFromNdf?.values?.[0]?.name === "$/GFX") {
         const descriptorNames: string[] = [];

@@ -141,7 +141,6 @@ function combineUnitRulesAndPacks(
     return {
       packDescriptor: dp.descriptor.replace('~/', ''),
       ...unitRules.find((ur: any) => {
-        debugger;
         return ur.unitDescriptor === packUnit;
       }),
       numberOfCards: dp.count,
