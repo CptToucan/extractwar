@@ -181,7 +181,7 @@ export class AmmunitionManager extends AbstractManager {
     const missilePath = this.getValueFromSearch<string>('MissileDescriptor');
 
     let missile;
-    if (missilePath !== 'nil') {
+    if (missilePath !== 'nil' && missilePath !== undefined) {
       const missileDescriptorId = NdfManager.extractLastToken(missilePath);
       const missileDescriptor = this.mappedMissiles[missileDescriptorId];
       const missileManager = new MissileManager(missileDescriptor as NdfObject);

@@ -7,6 +7,7 @@ const os = require('os');
 
 export const EXTRACT_FILES = [
     'GameData/Generated/Gameplay/Gfx/Ammunition.ndf',
+    'GameData/Generated/Gameplay/Gfx/AmmunitionMissiles.ndf',
     'GameData/Generated/Gameplay/Gfx/DamageResistance.ndf',
     'GameData/Generated/Gameplay/Gfx/DamageStairTypeEvolutionOverRangeDescriptor.ndf',
     'GameData/Generated/Gameplay/Decks/DivisionCostMatrix.ndf',

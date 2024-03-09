@@ -64,10 +64,17 @@ export class NdfManager {
 
     for (const key in filesToRead) {
       if (Object.prototype.hasOwnProperty.call(filesToRead, key)) {
-        const annotatedDescriptor = this.extractToAnnotatedDescriptor(
-          filesToRead[key]
-        );
-        jsonDescriptors[key] = annotatedDescriptor;
+        if(fs.existsSync(filesToRead[key])) {
+          const annotatedDescriptor = this.extractToAnnotatedDescriptor(
+            filesToRead[key]
+          );
+          jsonDescriptors[key] = annotatedDescriptor;
+        }
+
+        else {
+          jsonDescriptors[key] = [];
+        }
+
       }
     }
 
@@ -80,6 +87,8 @@ export class NdfManager {
    * @returns a JSON formatted ndf
    */
   extractToAnnotatedDescriptor(filePath: string): (NdfObject | NdfConstant)[] {
+
+
     const buffer: string = fs.readFileSync(filePath);
     const descriptorNdf = buffer.toString();
     const parser = new NdfParser(descriptorNdf);
