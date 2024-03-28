@@ -118,7 +118,7 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                ($/GFX/Resources/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 175),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -147,13 +147,14 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
             )
             PositionHeightOffset = 1000.0
         ),
-        TOrderableModuleDescriptor
-        (
-            UnlockableOrders = ~/Descriptor_OrderAvailability_FOB_BEL
-        ),
+        ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
+            TUnitUpkeepModuleDescriptor
+            (
+                UpkeepPercentage = 0.0
+            ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -162,12 +163,11 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
             ]
             NameToken = 'BFCFNEMWNZ'
             InfoPanelConfigurationToken = 'Default'
-            TypeSpecificToken = ''
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_BEL'
             CountryTexture = 'CommonTexture_MotherCountryFlag_BEL'
-            TypeStrategicCount = ETypeStrategicCount/NotCounted
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
 )
@@ -288,7 +288,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                ($/GFX/Resources/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 175),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -317,13 +317,14 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             )
             PositionHeightOffset = 1000.0
         ),
-        TOrderableModuleDescriptor
-        (
-            UnlockableOrders = ~/Descriptor_OrderAvailability_FOB_DDR
-        ),
+        ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
+            TUnitUpkeepModuleDescriptor
+            (
+                UpkeepPercentage = 0.0
+            ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -332,12 +333,11 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             ]
             NameToken = 'FOBGER'
             InfoPanelConfigurationToken = 'Default'
-            TypeSpecificToken = ''
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_DDR'
             CountryTexture = 'CommonTexture_MotherCountryFlag_DDR'
-            TypeStrategicCount = ETypeStrategicCount/NotCounted
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
 )
@@ -458,7 +458,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                ($/GFX/Resources/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 175),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -487,13 +487,14 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             )
             PositionHeightOffset = 1000.0
         ),
-        TOrderableModuleDescriptor
-        (
-            UnlockableOrders = ~/Descriptor_OrderAvailability_FOB_FR
-        ),
+        ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
+            TUnitUpkeepModuleDescriptor
+            (
+                UpkeepPercentage = 0.0
+            ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -502,12 +503,11 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             ]
             NameToken = 'FOBFRA'
             InfoPanelConfigurationToken = 'Default'
-            TypeSpecificToken = ''
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_FR'
             CountryTexture = 'CommonTexture_MotherCountryFlag_FR'
-            TypeStrategicCount = ETypeStrategicCount/NotCounted
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
 )
@@ -628,7 +628,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                ($/GFX/Resources/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 175),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -657,13 +657,14 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             )
             PositionHeightOffset = 1000.0
         ),
-        TOrderableModuleDescriptor
-        (
-            UnlockableOrders = ~/Descriptor_OrderAvailability_FOB_RFA
-        ),
+        ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
+            TUnitUpkeepModuleDescriptor
+            (
+                UpkeepPercentage = 0.0
+            ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -672,12 +673,11 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             ]
             NameToken = 'FOBGER'
             InfoPanelConfigurationToken = 'Default'
-            TypeSpecificToken = ''
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_RFA'
             CountryTexture = 'CommonTexture_MotherCountryFlag_RFA'
-            TypeStrategicCount = ETypeStrategicCount/NotCounted
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
 )
@@ -798,7 +798,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                ($/GFX/Resources/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 175),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -827,13 +827,14 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             )
             PositionHeightOffset = 1000.0
         ),
-        TOrderableModuleDescriptor
-        (
-            UnlockableOrders = ~/Descriptor_OrderAvailability_FOB_SOV
-        ),
+        ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
+            TUnitUpkeepModuleDescriptor
+            (
+                UpkeepPercentage = 0.0
+            ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -842,12 +843,11 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             ]
             NameToken = 'FOBSOV'
             InfoPanelConfigurationToken = 'Default'
-            TypeSpecificToken = ''
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_SOV'
             CountryTexture = 'CommonTexture_MotherCountryFlag_SOV'
-            TypeStrategicCount = ETypeStrategicCount/NotCounted
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
 )
@@ -968,7 +968,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                ($/GFX/Resources/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 175),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -997,13 +997,14 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             )
             PositionHeightOffset = 1000.0
         ),
-        TOrderableModuleDescriptor
-        (
-            UnlockableOrders = ~/Descriptor_OrderAvailability_FOB_UK
-        ),
+        ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
+            TUnitUpkeepModuleDescriptor
+            (
+                UpkeepPercentage = 0.0
+            ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -1012,12 +1013,11 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             ]
             NameToken = 'FOBUSUK'
             InfoPanelConfigurationToken = 'Default'
-            TypeSpecificToken = ''
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_UK'
             CountryTexture = 'CommonTexture_MotherCountryFlag_UK'
-            TypeStrategicCount = ETypeStrategicCount/NotCounted
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
 )
@@ -1138,7 +1138,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             Factory            = EDefaultFactories/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
-                ($/GFX/Resources/Resource_CommandPoints, 235),
+                ($/GFX/Resources/Resource_CommandPoints, 175),
             ]
         ),
         ~/EffectApplierModuleDescriptor,
@@ -1167,13 +1167,14 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             )
             PositionHeightOffset = 1000.0
         ),
-        TOrderableModuleDescriptor
-        (
-            UnlockableOrders = ~/Descriptor_OrderAvailability_FOB_US
-        ),
+        ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
+            TUnitUpkeepModuleDescriptor
+            (
+                UpkeepPercentage = 0.0
+            ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -1182,12 +1183,11 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             ]
             NameToken = 'FOBUSUK'
             InfoPanelConfigurationToken = 'Default'
-            TypeSpecificToken = ''
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_US'
             CountryTexture = 'CommonTexture_MotherCountryFlag_US'
-            TypeStrategicCount = ETypeStrategicCount/NotCounted
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
 )

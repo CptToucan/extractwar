@@ -324,11 +324,10 @@ export class AmmunitionManager extends AbstractManager {
     let dispersionAtMaxRange;
 
     if (dispersionAtMaxRangeSearchResult) {
-      dispersionAtMaxRange = Number(
+      dispersionAtMaxRange = Number(Number(Number(
         NdfManager.parseNumberFromMetre(
           dispersionAtMaxRangeSearchResult as string
-        ).toFixed(2)
-      );
+        ) / 10).toFixed(2)));
     }
 
     const dispersionAtMinRangeSearchResult = this.getValueFromSearch(
@@ -336,11 +335,8 @@ export class AmmunitionManager extends AbstractManager {
     );
     let dispersionAtMinRange;
     if (dispersionAtMinRangeSearchResult) {
-      dispersionAtMinRange = Number(
-        NdfManager.parseNumberFromMetre(
-          dispersionAtMinRangeSearchResult as string
-        ).toFixed(2)
-      );
+      dispersionAtMinRange = 
+      Number(Number(Number(NdfManager.parseNumberFromMetre(dispersionAtMinRangeSearchResult as string) / 10)).toFixed(2));
     }
 
     const hasSuccessiveShotBonus = Boolean(

@@ -67,6 +67,7 @@ Constantes is TTunableConstante
     ReductionDegatsSuppressDansVehicule = 0.50 // Pourcentage des dégats de suppress reçuts par un véhicule appliqués aux unités transportées
     TimerRechercheDeCibleRiposte = -1
     TagRadioArtillerie = "Radio"
+    TagRadioJammed = "RadioJammed"
     PorteeRadioArtillerie = 6000 * Metre //7500
     EfficiencyShotSearchDistanceTolerance = 100.0
 
@@ -94,13 +95,13 @@ Constantes is TTunableConstante
 
 //------------------------------ Constantes Gameplay --------------------------------------//
 
-    Persistance_Bruit = 16.5 * Seconde
+    Persistance_Bruit = 16.5
 
 //---------------------------- Constantes GameRules ---------------------------------------//
 
     DefaultAIDifficultyForPlayerReplacement = IADifficulty/Normal
 
-    SuddenDeathTime = 5 * 60 * Seconde
+    SuddenDeathTime = 5 * 60
     MinimumNumberOfUnitToStayInGameWithoutCmdOrProductionInDestructionMode = 5
 
     TagControleZone = "InfmapCommander"
@@ -156,7 +157,7 @@ Constantes is TTunableConstante
 
 //----------------------------- Constantes Mouvement --------------------------------------//
 
-    AngleArrierePourMarcheArriere       = 120 * Degre
+    AngleArrierePourMarcheArriereEnDegre = 120
     DistancePourDeclencherMarcheArriere = 2000 * Metre   // 1500
     ForcerMarcheAvantPourAttaquer       = true
     LargeurRoute                        = 60 * Metre // les trajectoires des véhicules sont décalées de 0.5 * LargeurRoute d'un côté ou de l'autre
@@ -183,10 +184,6 @@ Constantes is TTunableConstante
 
     DeploymentDuration = 0.0
     WithdrawalDuration = 0.0
-
-//------------------------- Constantes Tourelles ----------------------------------//
-
-    VerificationPortee = false
 
 //------------------------- Constantes Unités hors carte ----------------------------------//
 
@@ -286,8 +283,8 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
 //---------------------------- Constantes Mouvement ---------------------------------------//
 
-    MoteurHelicos_TempsArret = 8 * Seconde  // 4
-    MoteurHelicos_TempsDemarrage = 4 * Seconde  // 1
+    MoteurHelicos_TempsArret = 8
+    MoteurHelicos_TempsDemarrage = 4
     MultiplicateurConsommationUnitesArretees = 0.0 // Entre 0 et 1
 
 //---------------------------- Constantes TandemCharge / ExplosiveReactiveArmor ---------------------------------------//
@@ -437,12 +434,14 @@ WargameConstantes is TWargameTunableConstante
         4000,//4000 par défaut, 2400 (45mn) en limité
     ]
 
+    CoeffMoneyMaxIfUsingUpkeep = 1.5
+
 //-------------------------- Constantes Economy -----------------------------------------//
 
     BaseIncome = MAP
     [
         (CombatRule/NotSpecified,   0),
-        (CombatRule/CaptureTheFlag, 260),
+        (CombatRule/Conquest,       260),
         (CombatRule/Destruction,    4),
     ]
     DefaultIncomeMultiplierIndex    = 3 // normal
@@ -451,7 +450,7 @@ WargameConstantes is TWargameTunableConstante
     TimeBeforeEarningCommandPoints = MAP
     [
         (CombatRule/NotSpecified,   60.0),
-        (CombatRule/CaptureTheFlag, 60.0),
+        (CombatRule/Conquest,       60.0),
         (CombatRule/Destruction,     4.0),
     ]
 
@@ -507,6 +506,13 @@ WargameConstantes is TWargameTunableConstante
         (IADifficulty/PlusDifficile,    0),
     ]
 
+    // Reduction du coût d'entretien des unités
+    UpkeepReductionByIADifficulty = MAP
+    [
+        (IADifficulty/TresDifficile, 0.25),
+        (IADifficulty/PlusDifficile, 0.5),
+    ]
+
 //------------------------ Constantes IAStratWargame ------------------------------------//
 
     // Surrender de l'IA Strat
@@ -519,10 +525,7 @@ WargameConstantes is TWargameTunableConstante
 
     MaxNbMergedUnitsInGroup = 4 // Nombre maximum d'unites dans un groupe merge
 
-    MultiplicateurMetreRTSVersVitesseTactiquePourAvions = 0.45 div 1.0 // 0.45 div 1.0 est le ratio réaliste
-    MultiplicateurMetreRTSVersVitesseTactiquePourInfantrie = 0.45 div 1.0
-    MultiplicateurMetreRTSVersVitesseTactiquePourVehicule = 0.45 div 1.0
-    MultiplicateurDegresParSecondesPourVitesseDeRotation = 1.0
+    MultiplicateurMetreRTSVersVitesseTactiquePourTout = 0.45
     NomDAffichageDesUnitesNonIdentifiees = "UNIDNM"
 
     // Facteur utilisé pour la transformation des Plating et APValue pour l'affichage en mm dans l'UI
@@ -636,6 +639,14 @@ WargameConstantes is TWargameTunableConstante
         (3000, [3000, 4000, 5000, 6000, 8000, 0]),
         //(6000, [5000, 5500, 6000, 6500, 7000, 0]),
     ]
+
+    UpkeepPercentAvailableSettings =
+    [
+        0,
+        5,
+        7
+    ]
+    UpkeepPercentDefaultSetting = 0
 
 //---------------------------- Constantes Mouvement -------------------------------------//
 

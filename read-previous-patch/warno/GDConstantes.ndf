@@ -76,14 +76,11 @@ Constantes is TTunableConstante
      //   les particulent qui tombent hors de la map.
     LaunchDeathAmmoOutmap = false
 
-    // Facteur de securite a appliquer sur le splash physique dans le calcul de la dispersion. Ne pas descendre trop bas, sinon on se prend des dégats en mouvement
-    FacteurSecuriteSplashPhysique = 1 // 1.75
-
     StunEffectDuration = 4.0
 
 //----------------------------- Constantes Commander -----------------------------------------//
 
-    CommanderEffect = ~/UnitEffect_Gain_un_niveau_XP
+    CommanderEffect = $/GFX/EffectCapacity/UnitEffect_Gain_un_niveau_XP
 
     CommanderRadiusEffectByLevel =
     [
@@ -115,7 +112,6 @@ Constantes is TTunableConstante
 //------------------------- Constantes GestionFormation -----------------------------------//
 
     DistanceCoherence = 5000 * Metre
-    DistanceCoherenceAvion = 20000 * Metre
 
 //-------------------------- Constantes Helicopters --------------------------------------//
     // Angle max avec la direction (0,0,1) EN DEGRES -- DOIT ETRE > 0 (sinon je pense que ça va être la daube) -- VOIR AVEC UN DEV POUR CHANGER LA VALEUR C'EST TRES SENSIBLE !!!
@@ -149,7 +145,6 @@ Constantes is TTunableConstante
         GhostBlends = [1, 0.1]
     )
 
-    NbMaxProductionsEtRecherchesSimultanees = 0
 //---------------------------- Constantes Lobby -------------------------------------------//
 
     // 0 is No Time Limit
@@ -164,14 +159,12 @@ Constantes is TTunableConstante
     AngleArrierePourMarcheArriere       = 120 * Degre
     DistancePourDeclencherMarcheArriere = 2000 * Metre   // 1500
     ForcerMarcheAvantPourAttaquer       = true
-    ForcerMarcheAvantPourUnloadAtPosition = true
     LargeurRoute                        = 60 * Metre // les trajectoires des véhicules sont décalées de 0.5 * LargeurRoute d'un côté ou de l'autre
     ToleranceLargeurRoutePourMouvementsRapidesShiftes = 2 // multiplicateur de LargeurRoute pour vérifier si la destination d'un movefast est sur la route
     DecalageDepuisLeCentreDansCouloir   = 10 * Metre // décalage des waypoints des unités par rapport au milieu du couloir quand une unité en traverse un
     RapprocherFormationsSelonObstacles  = false
     RotationLignesDInfanterie           = false // définit si les soldats d'une unité d'infanterie s'orientent comme des véhicules (pour les lignes d'infanterie)
     TagDecrochage                       = "Retraite"  // tag utilisé pour determiner si on affiche l'etiquette decrochage pendant la retraite
-    TagRetraite                         = "Retraite" // tag utilisé pour determiner si l'on est en retraite ou non
     UtiliserMouvementRapideParDefaut    = false
 
 //----------------------------- Constantes Resale -----------------------------------------//
@@ -208,15 +201,7 @@ Constantes is TTunableConstante
 
 //------------------------------ Constantes Vision ----------------------------------------//
 
-    ConsidereUniteStealthSurTerrainAvecDissimulation = true
-
-//------------------------------- Constantes Economy --------------------------------------//
-    RoundToNearestDigit = MAP // Toutes les valeurs d'économie seront arrondies à ce nombre près
-    [
-        (~/Resource_CommandPoints, 1),
-        (~/Resource_StrategicPoints, 1),
-        (~/Resource_Tickets, 1),
-    ]
+    ConsidereUniteConcealmentSurTerrainAvecDissimulation = true
 )
 
 //------------------------------ Constantes Victoire --------------------------------------//
@@ -476,16 +461,6 @@ WargameConstantes is TWargameTunableConstante
                     (20,    0.3)  // à partir de 20 joueurs, 30% de délai pour l'income
                 ]
 
-    BreakthroughDefenderIncomeMultiplier = 1.00 // Multiplicateur pour le defenseur de l'income
-    BreakthroughAttackerIncomeMultiplier = 1.50 // Multiplicateur pour l'attaquant  de l'income
-    BreakthroughDefenderStartMoneyMultiplier = 1.00 // Multiplicateur pour le defenseur de l'argent initial.
-    BreakthroughAttackerStartMoneyMultiplier = 1.00 // Multiplicateur pour l'attaquant  de l'argent initial.
-
-    BreakthroughDefenderIncomeMultiplierForDestructionMode = 1.00 // Multiplicateur pour le defenseur de l'income
-    BreakthroughAttackerIncomeMultiplierForDestructionMode = 1.00 // Multiplicateur pour l'attaquant  de l'income
-    BreakthroughDefenderStartMoneyMultiplierForDestructionMode = 0.666 // Multiplicateur pour le defenseur de l'argent initial.
-    BreakthroughAttackerStartMoneyMultiplierForDestructionMode = 2.00 // Multiplicateur pour l'attaquant  de l'argent initial.
-
 //--------------------------- Constantes Destruction ---------------------------------------//
 
     DefaultIncomeMultiplierIndexInDestructionMode = 3 // medium
@@ -610,16 +585,16 @@ WargameConstantes is TWargameTunableConstante
     TempsAttenteAffichageIconeConflitQuartier = 0.5 // Permet de temporiser l'affichage de l'icône de conflit dans un quartier le temps que les étiquettes se placent
     ValeurMinAffichageBarMoralLabel = 0 // compris entre 0 et 1
     ValeurMaxBarMoralLabel = 1 // compris entre 0 et 1
-    ValeurMinimumCoverLeger = 4 // Terrain stealth bonus
-    ValeurMinimumCoverMoyen = 7.5 // Terrain stealth bonus
-    ValeurMinimumCoverTresLeger = 10 // Unit stealth bonus
+    ValeurMinimumCoverLeger = 4 // Terrain concealment bonus
+    ValeurMinimumCoverMoyen = 7.5 // Terrain concealment bonus
+    ValeurMinimumCoverTresLeger = 10 // Unit concealment bonus
 
-    ValeurOptionTailleNewLabelMinimal = 0.45*1.4
-    ValeurOptionTailleNewLabelVerySmall = 0.55*1.4
-    ValeurOptionTailleNewLabelSmall = 0.63*1.4
-    ValeurOptionTailleNewLabelNormal = 0.7*1.4
-    ValeurOptionTailleNewLabelLarge = 0.88*1.4
-    ValeurOptionTailleNewLabelVeryLarge = 1.0*1.4
+    ValeurOptionTailleNewLabelMinimal = 0.63
+    ValeurOptionTailleNewLabelVerySmall = 0.77
+    ValeurOptionTailleNewLabelSmall = 0.88
+    ValeurOptionTailleNewLabelNormal = 1.0
+    ValeurOptionTailleNewLabelLarge = 1.23
+    ValeurOptionTailleNewLabelVeryLarge = 1.4
 
 
 //------------------------ Constantes Lobby ---------------------------------------//
