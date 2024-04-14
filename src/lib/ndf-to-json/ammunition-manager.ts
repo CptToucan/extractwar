@@ -64,7 +64,6 @@ export type Ammo = {
   damageType?: string;
   damageDropOffToken: string;
   numberOfSimultaneousProjectiles: number;
-
 };
 
 export interface AccuracyDataPointsForType {
@@ -119,9 +118,6 @@ const DROP_OFF: DamageDropOffMap = {
   // eslint-disable-next-line camelcase
   DamageTypeEvolutionOverRangeDescriptor_DCA: 700,
 };
-
-
-
 
 const HEAT_AP_MAGIC_NUMBER = 14;
 const KINETIC_AP_MAGIC_NUMBER = 18;
@@ -208,20 +204,51 @@ export class AmmunitionManager extends AbstractManager {
     );
 
     const numberOfSimultaneousProjectiles = Number(
-       this.getValueFromSearch<string>('NbrProjectilesSimultanes')
+      this.getValueFromSearch<string>('NbrProjectilesSimultanes')
     );
 
     const firesLeftToRight =
       this.getValueFromSearch('DispersionWithoutSorting') === 'True';
 
-    const groundMaxRange = this.getRange('PorteeMaximale');
-    const groundMinRange = this.getRange('PorteeMinimale');
+    let groundMaxRange,
+      groundMinRange,
+      heliMaxRange,
+      heliMinRange,
+      planeMaxRange,
+      planeMinRange;
 
-    const heliMaxRange = this.getRange('PorteeMaximaleTBA');
-    const heliMinRange = this.getRange('PorteeMinimaleTBA');
 
-    const planeMaxRange = this.getRange('PorteeMaximaleHA');
-    const planeMinRange = this.getRange('PorteeMinimaleHA');
+    // Check if the weapon has the new range attributes
+    // Ground range
+    if (this.getFirstSearchResult('PorteeMaximaleGRU')) {
+      groundMaxRange = this.getRange('PorteeMaximaleGRU');
+      groundMinRange = this.getRange('PorteeMinimaleGRU');
+    }
+    // If not, use the legacy range attributes
+    else {
+      groundMaxRange = this.getLegacyRange('PorteeMaximale');
+      groundMinRange = this.getLegacyRange('PorteeMinimale');
+    }
+
+    // Helicopter range
+    if (this.getFirstSearchResult('PorteeMaximaleTBAGRU')) {
+      heliMaxRange = this.getRange('PorteeMaximaleTBAGRU');
+      heliMinRange = this.getRange('PorteeMinimaleTBAGRU');
+    }
+    else {
+      heliMaxRange = this.getLegacyRange('PorteeMaximaleTBA');
+      heliMinRange = this.getLegacyRange('PorteeMinimaleTBA');
+    }
+
+    // Plane range
+    if (this.getFirstSearchResult('PorteeMaximaleHAGRU')) {
+      planeMaxRange = this.getRange('PorteeMaximaleHAGRU');
+      planeMinRange = this.getRange('PorteeMinimaleHAGRU');
+    }
+    else {
+      planeMaxRange = this.getLegacyRange('PorteeMaximaleHA');
+      planeMinRange = this.getLegacyRange('PorteeMinimaleHA');
+    }
 
     const aimingTime = Number(this.getValueFromSearch('TempsDeVisee'));
     const reloadTime = Number(this.getValueFromSearch('TempsEntreDeuxSalves'));
@@ -268,9 +295,18 @@ export class AmmunitionManager extends AbstractManager {
         planeMaxRange
       );
 
-    const distanceToTarget = Boolean(
-      this.getFirstSearchResult('EDiceHitModifier/DistanceToTarget')
-    );
+      let distanceToTarget = false;
+      if(this.getFirstSearchResult('HitModifierList')) {
+        distanceToTarget = Boolean(
+          this.getFirstSearchResult('EDiceHitModifier/DistanceToTarget')
+        );
+      }
+      else {
+        distanceToTarget = Boolean(
+          this.getFirstSearchResult('DistanceToTarget')
+        );
+      }
+
 
     const damageDropOffToken = NdfManager.extractLastToken(
       this.getValueFromSearch('DamageTypeEvolutionOverRangeDescriptor')
@@ -324,10 +360,15 @@ export class AmmunitionManager extends AbstractManager {
     let dispersionAtMaxRange;
 
     if (dispersionAtMaxRangeSearchResult) {
-      dispersionAtMaxRange = Number(Number(Number(
-        NdfManager.parseNumberFromMetre(
-          dispersionAtMaxRangeSearchResult as string
-        ) / 10).toFixed(2)));
+      dispersionAtMaxRange = Number(
+        Number(
+          Number(
+            NdfManager.parseNumberFromMetre(
+              dispersionAtMaxRangeSearchResult as string
+            ) / 10
+          ).toFixed(2)
+        )
+      );
     }
 
     const dispersionAtMinRangeSearchResult = this.getValueFromSearch(
@@ -335,17 +376,18 @@ export class AmmunitionManager extends AbstractManager {
     );
     let dispersionAtMinRange;
     if (dispersionAtMinRangeSearchResult) {
-      dispersionAtMinRange = 
-      Number(Number(Number(NdfManager.parseNumberFromMetre(dispersionAtMinRangeSearchResult as string) / 10)).toFixed(2));
+      dispersionAtMinRange = Number(
+        Number(
+          Number(
+            NdfManager.parseNumberFromMetre(
+              dispersionAtMinRangeSearchResult as string
+            ) / 10
+          )
+        ).toFixed(2)
+      );
     }
 
-    const hasSuccessiveShotBonus = Boolean(
-      this.getFirstSearchResult('HitModifierList')?.value?.values?.find(
-        (value: ParserObject) => {
-          return value.name === 'EDiceHitModifier/SuccesiveShots';
-        }
-      )
-    );
+    const hasSuccessiveShotBonus = true;
 
     let maxStaticAccuracy;
     let staticPrecisionBonusPerShot;
@@ -360,18 +402,22 @@ export class AmmunitionManager extends AbstractManager {
 
       if (maxSuccessiveHitCountResult) {
         maxSuccessiveHitCount = Number(maxSuccessiveHitCountResult);
-        const { maxAccuracy: _maxStaticAccuracy, precisionBonusPerShot: _staticPrecisionBonusPerShot } =
-          calculateMaximumSuccessiveShotAccuracy(
-            staticAccuracy,
-            this.bonusPrecision,
-            maxSuccessiveHitCount
-          );
-        const { maxAccuracy: _maxMovingAccuracy, precisionBonusPerShot: _movingPrecisionBonusPerShot } =
-          calculateMaximumSuccessiveShotAccuracy(
-            movingAccuracy,
-            this.bonusPrecision,
-            maxSuccessiveHitCount
-          );
+        const {
+          maxAccuracy: _maxStaticAccuracy,
+          precisionBonusPerShot: _staticPrecisionBonusPerShot,
+        } = calculateMaximumSuccessiveShotAccuracy(
+          staticAccuracy,
+          this.bonusPrecision,
+          maxSuccessiveHitCount
+        );
+        const {
+          maxAccuracy: _maxMovingAccuracy,
+          precisionBonusPerShot: _movingPrecisionBonusPerShot,
+        } = calculateMaximumSuccessiveShotAccuracy(
+          movingAccuracy,
+          this.bonusPrecision,
+          maxSuccessiveHitCount
+        );
 
         maxStaticAccuracy = _maxStaticAccuracy;
         staticPrecisionBonusPerShot = _staticPrecisionBonusPerShot;
@@ -450,7 +496,10 @@ export class AmmunitionManager extends AbstractManager {
       const maxBonus = baseAccuracy * bonusPrecision * maxSuccessiveHitCount;
       const maxAccuracy = Number((baseAccuracy + maxBonus).toFixed(2));
 
-      return { maxAccuracy, precisionBonusPerShot: Number(precisionBonusPerShot.toFixed(2)) };
+      return {
+        maxAccuracy,
+        precisionBonusPerShot: Number(precisionBonusPerShot.toFixed(2)),
+      };
     }
   }
 
@@ -463,15 +512,13 @@ export class AmmunitionManager extends AbstractManager {
       damageResult?.children?.[0]?.value as ParserStringLiteral
     )?.value?.split(' ')[0];
 
-    
-
     const damageIndex = (
       damageResult?.children?.[0]?.value as ParserStringLiteral
     )?.value
       ?.split(' ')[1]
       .split('=')[1];
 
-    const damageFamilyName = rawDamageFamily.slice("DamageFamily_".length);
+    const damageFamilyName = rawDamageFamily.slice('DamageFamily_'.length);
     const piercingWeapon = this.getValueFromSearch('PiercingWeapon') === 'True';
     const tandemCharge = this.getValueFromSearch('TandemCharge') === 'True';
     const isKinetic = piercingWeapon && damageFamilyName === 'ap';
@@ -655,7 +702,7 @@ export class AmmunitionManager extends AbstractManager {
    * @param rangeAttribute  The attribute to search for
    * @returns The range of the weapon
    */
-  getRange(rangeAttribute: string): number {
+  getLegacyRange(rangeAttribute: string): number {
     const searchResult = this.getFirstSearchResult(rangeAttribute);
     if (searchResult) {
       return Math.round(
@@ -664,6 +711,17 @@ export class AmmunitionManager extends AbstractManager {
             NdfManager.extractValueFromSearchResult(searchResult)
           )
         )
+      );
+    }
+
+    return 0;
+  }
+
+  getRange(rangeAttribute: string): number {
+    const searchResult = this.getFirstSearchResult(rangeAttribute);
+    if (searchResult) {
+      return Math.round(
+        Number(NdfManager.extractValueFromSearchResult(searchResult))
       );
     }
 

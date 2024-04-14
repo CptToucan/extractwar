@@ -178,7 +178,8 @@ export class UnitManager extends AbstractManager {
 
     const factoryDescriptor = this.getValueFromSearch<string>('Factory');
     const armourValues = this.extractArmourValues();
-    const era = this.getValueFromSearch<string>('ExplosiveReactiveArmor') === "True";
+    const era =
+      this.getValueFromSearch<string>('ExplosiveReactiveArmor') === 'True';
 
     const maxDamage =
       Number(this.getValueFromSearch<string>('MaxPhysicalDamages')) ||
@@ -186,25 +187,27 @@ export class UnitManager extends AbstractManager {
 
     let speed: number;
 
-    try {
-      speed = Math.round(
-        NdfManager.parseSpeedNumberFromMetre(
-          this.getValueFromSearch('MaxSpeed')
-        )
-      );
-    } catch {
-      speed = 0;
+    if(this.getFirstSearchResult('MaxSpeedInKmph')) {
+      speed = this.getSpeed('MaxSpeedInKmph');
+    }
+    else {
+      speed = this.getLegacyMaxSpeed('MaxSpeed');
     }
 
-    const isSpecialForces = (this.getValueFromSearch<string>('ExperienceLevelsPackDescriptor') || "")?.includes("~/ExperienceLevelsPackDescriptor_XP_pack_SF");
-    const xpBonuses = this.getValueFromSearch<string>('ExperienceLevelsPackDescriptor').slice("~/".length);
 
-    try {
-      speed = Math.round(
-        NdfManager.parseSpeedNumberFromMetre(this.getValueFromSearch('Speed'))
-      );
-    } catch {
-      console.log('Could not parse speed, using MaxSpeed');
+    const isSpecialForces = (
+      this.getValueFromSearch<string>('ExperienceLevelsPackDescriptor') || ''
+    )?.includes('~/ExperienceLevelsPackDescriptor_XP_pack_SF');
+    const xpBonuses = this.getValueFromSearch<string>(
+      'ExperienceLevelsPackDescriptor'
+    ).slice('~/'.length);
+
+
+    if(this.getFirstSearchResult('SpeedInKmph')) {
+      speed = this.getSpeed('SpeedInKmph');
+    }
+    else {
+      speed = this.getLegacyMaxSpeed('Speed');
     }
 
     const unitMoveTypeValue = this.getValueFromSearch<string>('UnitMovingType');
@@ -216,7 +219,14 @@ export class UnitManager extends AbstractManager {
       );
     }
 
-    const roadSpeed = Math.round(this.getValueFromSearch('RealRoadSpeed'));
+    let roadSpeed; 
+    if(this.getFirstSearchResult('DisplayRoadSpeedInKmph')) {
+      roadSpeed = Math.round(this.getValueFromSearch('DisplayRoadSpeedInKmph'));
+    }
+    else {
+      roadSpeed = Math.round(this.getValueFromSearch('RealRoadSpeed'));
+    }
+
     const rotationTime = Number(this.getValueFromSearch('TempsDemiTour'));
     const optics = Number(this.getValueFromSearch('OpticalStrength'));
     const airOptics = Number(
@@ -377,10 +387,34 @@ export class UnitManager extends AbstractManager {
       occupiableTerrains,
       era,
       isSpecialForces,
-      xpBonuses
+      xpBonuses,
     };
 
     return unit;
+  }
+
+  private getLegacyMaxSpeed(speedToken: string) {
+    let speed;
+    try {
+      speed = Math.round(
+        NdfManager.parseSpeedNumberFromMetre(
+          this.getValueFromSearch(speedToken)
+        )
+      );
+    } catch {
+      speed = 0;
+    }
+    return speed;
+  }
+
+  private getSpeed(speedToken: string) {
+    let speed;
+    try {
+      speed = Number(this.getValueFromSearch(speedToken));
+    } catch {
+      speed = 0;
+    }
+    return speed;
   }
 
   /**
@@ -450,7 +484,6 @@ export class UnitManager extends AbstractManager {
       const lastToken = valueTokens[valueTokens.length - 1].replace(',', '');
       return lastToken;
     });
-
 
     // remove "Tranchee", "NidMitrailleuse", "ForetDense"
     return (tidiedUpValues || [])?.filter(
