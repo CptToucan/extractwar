@@ -234,12 +234,17 @@ export class UnitManager extends AbstractManager {
     );
     const bombStrategy = this.getBombStrategy();
     const stealth = Number(this.getValueFromSearch('UnitConcealmentBonus'));
-    const deploymentShift = this.getValueFromSearch<string | undefined>(
-      'DeploymentShift'
-    );
-    const advancedDeployment = deploymentShift
-      ? Math.round(NdfManager.parseNumberFromMetre(deploymentShift))
-      : 0;
+
+    let advancedDeployment = 0;
+    if(this.getFirstSearchResult('DeploymentShiftGRU')) {
+      const deploymentShift = Number(this.getValueFromSearch<string | undefined>('DeploymentShiftGRU')) || 0;
+      advancedDeployment = Math.round(deploymentShift);
+    }
+    else {
+      const deploymentShift = this.getValueFromSearch<string | undefined>('DeploymentShift') || "0";
+      advancedDeployment = Math.round(NdfManager.parseNumberFromMetre(deploymentShift) || 0);
+    }
+
     const fuel = Number(this.getValueFromSearch('FuelCapacity'));
     const fuelMove = Number(this.getValueFromSearch('FuelMoveDuration'));
     const supply = Number(this.getValueFromSearch('SupplyCapacity'));

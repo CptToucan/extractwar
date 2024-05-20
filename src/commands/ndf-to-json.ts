@@ -23,6 +23,7 @@ const NDF_FILES = Object.freeze({
   divisions: 'Divisions.ndf',
   costMatrix: 'DivisionCostMatrix.ndf',
   packs: 'Packs.ndf',
+  divisionPacks: 'DivisionPacks.ndf',
   terrain: 'Terrains.ndf',
   smoke: 'SmokeDescriptor.ndf',
   missile: 'MissileDescriptors.ndf',
@@ -404,7 +405,7 @@ export default class NdfToJson extends Command {
     );
 
     const divisionIds = (ndfs.deckSerializer[0] as NdfObject).attributes[0];
-    const unitIds = (ndfs.deckSerializer[0] as NdfObject).attributes[2];
+    const unitIds = (ndfs.deckSerializer[0] as NdfObject).attributes[1];
 
     const divisionIdTuples: ParserTuple[] = (divisionIds.value as any).value;
     const unitIdTuples: ParserTuple[] = (unitIds.value as any).value;
@@ -432,13 +433,19 @@ export default class NdfToJson extends Command {
 
     const speedModifiers = this.extractSpeedModifiers(ndfs.terrain);
 
+    let packs = ndfs.packs;
+
+    if (ndfs.packs.length === 0) {
+      packs = ndfs.divisionPacks;
+    }
+
     const outputJson: UnitData = {
       version: undefined,
       units: [] as Unit[],
       divisions: parseDivisionData({
         division: ndfs.divisions,
         rules: ndfs.rules,
-        packs: ndfs.packs,
+        packs: packs,
         costMatrix: ndfs.costMatrix,
         divisionIdMap: divisionIdMap,
       }),

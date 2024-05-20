@@ -138,7 +138,15 @@ function combineUnitRulesAndPacks(
       return dp.descriptor === packDef.name;
     });
 
-    const packUnit = search(packDefinition, 'UnitDescriptor')[0].value.value?.replace("$/GFX/Unit/", "") // || search(packDefinition, 'CfgName')[0].value.value?.replace("$/GFX/Unit/", "");
+    let packUnit: string;
+    if(packDefinition.attributes[0].value.value) {
+      packUnit = packDefinition.attributes[0].value.value.replace("$/GFX/Unit/", "");
+    }
+    else {
+      // legacy path
+      packUnit = search(packDefinition, 'UnitDescriptor')[0].value.value?.replace("$/GFX/Unit/", "")
+    }
+
     return {
       packDescriptor: dp.descriptor.replace('~/', ''),
       ...unitRules.find((ur: any) => {

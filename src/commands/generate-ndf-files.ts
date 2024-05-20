@@ -24,6 +24,7 @@ export const EXTRACT_FILES = [
     'GameData/Generated/Gameplay/Decks/DeckSerializer.ndf',
     'GameData/Gameplay/Constantes/HitRollConstants.ndf',
     'GameData/Gameplay/Constantes/WeaponConstantes.ndf',
+    'GameData/Generated/Gameplay/Decks/DivisionPacks.ndf',
 ]
 
 export default class GenerateNdfFiles extends Command {

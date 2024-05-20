@@ -10,7 +10,4 @@ fi
 
 ./bin/dev generate-ndf-toucan ./read/warno ./read-previous-patch/warno --modDir ../../warno-ndf-data/warno
 ./bin/dev ndf-to-json ./read/warno warno.json ./read-previous-patch/warno
-./bin/dev upload-firebase-bundle warno.json warno/units-and-divisions.json
-./bin/dev upload-firebase-bundle warno.json.stripped warno/units-and-divisions-stripped.json
-./bin/dev upload-firebase-bundle damageTable.json warno/damageTable.json
-./bin/dev add-patch-to-firebase "$patch_name" patch.json
+zip -r "$patch_name.zip" patch.json damageTable.json warno.json
