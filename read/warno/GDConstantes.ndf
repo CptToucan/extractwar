@@ -99,6 +99,10 @@ Constantes is TTunableConstante
 
 //---------------------------- Constantes GameRules ---------------------------------------//
 
+    // Convention qui determine quelle alliance est l'alliance attaquante, lorsque le mode de jeu s'y prete.
+    // Si, au debut d'une partie, l'alliance attaquante n'est pas celle indiquee ici, alors il faudra sans doute ajuster les points de spawn
+    BaseAttackingAllianceNum = 0
+
     DefaultAIDifficultyForPlayerReplacement = IADifficulty/Normal
 
     SuddenDeathTime = 5 * 60
@@ -150,6 +154,7 @@ Constantes is TTunableConstante
 
     // 0 is No Time Limit
     TimeLimitTable = [20, 30, 40, 60, 0]
+    DefaultTimeLimitInMinutes = 40
 
 //----------------------------- Constantes Missile --------------------------------------//
 
@@ -223,10 +228,6 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     // /!\ MERCI DE RESPECTER L'ORDRE ALPHABETIQUE !
     // Par catégories puis par constante.
 
-//---------------------------- Constantes Affichage ---------------------------------------//
-
-    MultiplicateurMetreRTSVersDistanceFeedbackTactique = MultiplicateurMetreRTSVersDistanceFeedbackTactique
-
 //---------------------------- Constantes Combat ------------------------------------------//
 
     DistanceInfanterieEnnemiDetection = 200 * Metre
@@ -289,7 +290,7 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
 //---------------------------- Constantes TandemCharge / ExplosiveReactiveArmor ---------------------------------------//
     // Bonus des charges tandem contre les armures réactives
-    TandemModifierValue = 1.0
+    TandemModifierValue = 2.0
     TandemModifierType = ModifierType_Additionnel
 
 //--------------------------- Constantes SpreadOrder --------------------------------------//
@@ -525,7 +526,6 @@ WargameConstantes is TWargameTunableConstante
 
     MaxNbMergedUnitsInGroup = 4 // Nombre maximum d'unites dans un groupe merge
 
-    MultiplicateurMetreRTSVersVitesseTactiquePourTout = 0.45
     NomDAffichageDesUnitesNonIdentifiees = "UNIDNM"
 
     // Facteur utilisé pour la transformation des Plating et APValue pour l'affichage en mm dans l'UI
@@ -652,13 +652,6 @@ WargameConstantes is TWargameTunableConstante
 
     AmphibiousSpawnLandSeaRatio = 1.5 // >=0, ponderation arbitraire pour determiner si une amphibie spawne au spawn marin ou terrestre (=1:elle prendra le plus proche a vol d'oiseau ; <1:elle preferera le marin, >1:elle preferera le terrestre)
     InfantryTrenchDepth = 7 * Metre //9 * Metre //11.5 * Metre
-
-//------------------------- Constantes Supply -------------------------------------------//
-
-    RatioSupplyHealth = 0.1 // En dessous ce ce ratio de vie, l'unité entrera dans la boucle de ravitaillement
-    RatioSupplyToStartAMission = 0.4 // Valeur en dessous de laquelle les unités ne sont pas ajouté dans les missions (valable pour tous les type de ravitaillement contrairement aux variables au dessus)
-    SupplyFuelForBoat = false
-    SupplyHealthForBoat = false
 
 //------------------------------ Constantes Tactic --------------------------------------//
 

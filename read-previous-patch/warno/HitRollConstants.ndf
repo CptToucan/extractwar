@@ -80,12 +80,7 @@ export HitRollParams is TRollParameters
     ]
     // Note : un autre modificateur entre en compte. Ce modificateur est défini dans l'ODS des paliers de dégâts de suppression.
 
-    // Coefficient de dispersion max - Ce coefficient est utilisé pour augmenter artificiellement la dispersion.
-    // Pour les missiles, on utilise un coffiecient beaucoup plus faible, mais juste supérieur à 0 pour éviter de skipper les calculs, car sinon ça fait n'imp et on a vraiment l'impression que le tireur fait exprès de rater...
-    MaxDispersionCoefficient = 10 // pourquoi 10 ... là est tout le mystère
-    MaxDispersionCoefficientForMissiles = 0.1
-
-    // defini si on utilise les ecm des avions pour réduire les chances de toucher.
+    // defini si on utilise les ECM des avions pour réduire les chances de toucher.
     UseECMToReduceHitChance = true
 
     // défini quel sera le minimum, cad qu'on prend le max entre BaseHitChance - ECM et MinimalHitChanceWithECM
