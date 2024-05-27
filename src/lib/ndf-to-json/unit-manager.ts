@@ -187,13 +187,11 @@ export class UnitManager extends AbstractManager {
 
     let speed: number;
 
-    if(this.getFirstSearchResult('MaxSpeedInKmph')) {
+    if (this.getFirstSearchResult('MaxSpeedInKmph')) {
       speed = this.getSpeed('MaxSpeedInKmph');
-    }
-    else {
+    } else {
       speed = this.getLegacyMaxSpeed('MaxSpeed');
     }
-
 
     const isSpecialForces = (
       this.getValueFromSearch<string>('ExperienceLevelsPackDescriptor') || ''
@@ -202,12 +200,15 @@ export class UnitManager extends AbstractManager {
       'ExperienceLevelsPackDescriptor'
     ).slice('~/'.length);
 
-
-    if(this.getFirstSearchResult('SpeedInKmph')) {
-      speed = this.getSpeed('SpeedInKmph');
-    }
-    else {
-      speed = this.getLegacyMaxSpeed('Speed');
+    if (
+      this.getFirstSearchResult('SpeedInKmph') ||
+      this.getLegacyMaxSpeed('Speed')
+    ) {
+      if (this.getFirstSearchResult('SpeedInKmph')) {
+        speed = this.getSpeed('SpeedInKmph');
+      } else {
+        speed = this.getLegacyMaxSpeed('Speed');
+      }
     }
 
     const unitMoveTypeValue = this.getValueFromSearch<string>('UnitMovingType');
@@ -219,11 +220,10 @@ export class UnitManager extends AbstractManager {
       );
     }
 
-    let roadSpeed; 
-    if(this.getFirstSearchResult('DisplayRoadSpeedInKmph')) {
+    let roadSpeed;
+    if (this.getFirstSearchResult('DisplayRoadSpeedInKmph')) {
       roadSpeed = Math.round(this.getValueFromSearch('DisplayRoadSpeedInKmph'));
-    }
-    else {
+    } else {
       roadSpeed = Math.round(this.getValueFromSearch('RealRoadSpeed'));
     }
 
@@ -236,13 +236,18 @@ export class UnitManager extends AbstractManager {
     const stealth = Number(this.getValueFromSearch('UnitConcealmentBonus'));
 
     let advancedDeployment = 0;
-    if(this.getFirstSearchResult('DeploymentShiftGRU')) {
-      const deploymentShift = Number(this.getValueFromSearch<string | undefined>('DeploymentShiftGRU')) || 0;
+    if (this.getFirstSearchResult('DeploymentShiftGRU')) {
+      const deploymentShift =
+        Number(
+          this.getValueFromSearch<string | undefined>('DeploymentShiftGRU')
+        ) || 0;
       advancedDeployment = Math.round(deploymentShift);
-    }
-    else {
-      const deploymentShift = this.getValueFromSearch<string | undefined>('DeploymentShift') || "0";
-      advancedDeployment = Math.round(NdfManager.parseNumberFromMetre(deploymentShift) || 0);
+    } else {
+      const deploymentShift =
+        this.getValueFromSearch<string | undefined>('DeploymentShift') || '0';
+      advancedDeployment = Math.round(
+        NdfManager.parseNumberFromMetre(deploymentShift) || 0
+      );
     }
 
     const fuel = Number(this.getValueFromSearch('FuelCapacity'));

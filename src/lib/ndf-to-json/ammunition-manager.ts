@@ -365,7 +365,7 @@ export class AmmunitionManager extends AbstractManager {
           Number(
             NdfManager.parseNumberFromMetre(
               dispersionAtMaxRangeSearchResult as string
-            ) / 10
+            )
           ).toFixed(2)
         )
       );
@@ -381,7 +381,7 @@ export class AmmunitionManager extends AbstractManager {
           Number(
             NdfManager.parseNumberFromMetre(
               dispersionAtMinRangeSearchResult as string
-            ) / 10
+            )
           )
         ).toFixed(2)
       );
