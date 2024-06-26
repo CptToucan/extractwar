@@ -38,7 +38,10 @@ export const DIVISION_NAMES: { [key: string]: string } = {
   Descriptor_Deck_Division_US_11ACR_multi: '11th Arm. Cavalry Regt.',
   Descriptor_Deck_Division_SOV_27_Gds_Rifle_multi: '27-Ya Gv. Motostrelk. Div.',
   Descriptor_Deck_Division_US_24th_Inf_multi: '24th Infantry Division (Mech.)',
-  Descriptor_Deck_Division_SOV_6IndMSBrig_multi: '6-ya Og Motostrelk. Brig.'
+  Descriptor_Deck_Division_SOV_6IndMSBrig_multi: '6-ya Og Motostrelk. Brig.',
+  Descriptor_Deck_Division_SOV_56_AirAslt_Brig_multi: '56-Ya OG Desantno-Shturmovaya Brig.',
+  Descriptor_Deck_Division_US_101st_Airmobile_multi: '101st Airborne Division (Air Assault)',
+
 };
 
 /**
@@ -99,15 +102,15 @@ function extractDivisionDetails(division: any) {
   return {
     descriptor: search(division, 'name'),
     alliance: search(division, 'DivisionNationalite')[0].value.value,
-    country: search(division, 'CountryId')[0].value.value.replaceAll('"', ''),
+    country: search(division, 'CountryId')[0]?.value?.value?.replaceAll('"', ''),
     tags: search(division, 'DivisionTags')[0].value.values.map((t: any) =>
       t.value.replaceAll("'", '')
     ),
     maxActivationPoints: Number.parseInt(
-      search(division, 'MaxActivationPoints')[0].value.value
+      search(division, 'MaxActivationPoints')[0]?.value?.value
     , 10),
-    costMatrix: search(division, 'CostMatrix')[0].value.value,
-    packList: search(division, 'PackList')[0].value.value.map((p: any) => {
+    costMatrix: search(division, 'CostMatrix')[0]?.value?.value || [],
+    packList: search(division, 'PackList')[0]?.value?.value?.map((p: any) => {
       return {
         descriptor: p.value[0].value.replace('~/', ''),
         count: Number.parseInt(p.value[1].value, 10),
