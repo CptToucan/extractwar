@@ -65,20 +65,7 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
-        TScannerConfigurationDescriptor
-        (
-            OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            PorteeVisionTBA = ((0.0) * Metre)
-            PorteeVisionFOW = ((0.0) * Metre)
-            DetectionTBA = ((10000) * Metre)
-            PorteeVision = ((10000) * Metre)
-            PorteeIdentification = 0.0
-            OpticalStrength = 0.0
-            OpticalStrengthAltitude = 40
-            SpecializedDetections = MAP [
-                ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
-            ]
-        ),
+        ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
             VisibilityRollRule = TModernWarfareVisibilityRollRule
@@ -102,7 +89,7 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
             BlackHoleIdentifier = "FOB_BEL"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_BEL ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_BEL ),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -151,10 +138,7 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
-            TUnitUpkeepModuleDescriptor
-            (
-                UpkeepPercentage = 0.0
-            ),
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -235,20 +219,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
-        TScannerConfigurationDescriptor
-        (
-            OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            PorteeVisionTBA = ((0.0) * Metre)
-            PorteeVisionFOW = ((0.0) * Metre)
-            DetectionTBA = ((10000) * Metre)
-            PorteeVision = ((10000) * Metre)
-            PorteeIdentification = 0.0
-            OpticalStrength = 0.0
-            OpticalStrengthAltitude = 40
-            SpecializedDetections = MAP [
-                ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
-            ]
-        ),
+        ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
             VisibilityRollRule = TModernWarfareVisibilityRollRule
@@ -272,7 +243,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             BlackHoleIdentifier = "FOB_DDR"
             SymbolName = 'FOB_Pact_03'
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_DDR ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_DDR ),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -321,10 +292,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
-            TUnitUpkeepModuleDescriptor
-            (
-                UpkeepPercentage = 0.0
-            ),
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -405,20 +373,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
-        TScannerConfigurationDescriptor
-        (
-            OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            PorteeVisionTBA = ((0.0) * Metre)
-            PorteeVisionFOW = ((0.0) * Metre)
-            DetectionTBA = ((10000) * Metre)
-            PorteeVision = ((10000) * Metre)
-            PorteeIdentification = 0.0
-            OpticalStrength = 0.0
-            OpticalStrengthAltitude = 40
-            SpecializedDetections = MAP [
-                ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
-            ]
-        ),
+        ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
             VisibilityRollRule = TModernWarfareVisibilityRollRule
@@ -442,7 +397,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             BlackHoleIdentifier = "FOB_FR"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_FR ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_FR ),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -491,10 +446,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
-            TUnitUpkeepModuleDescriptor
-            (
-                UpkeepPercentage = 0.0
-            ),
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -575,20 +527,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
-        TScannerConfigurationDescriptor
-        (
-            OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            PorteeVisionTBA = ((0.0) * Metre)
-            PorteeVisionFOW = ((0.0) * Metre)
-            DetectionTBA = ((10000) * Metre)
-            PorteeVision = ((10000) * Metre)
-            PorteeIdentification = 0.0
-            OpticalStrength = 0.0
-            OpticalStrengthAltitude = 40
-            SpecializedDetections = MAP [
-                ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
-            ]
-        ),
+        ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
             VisibilityRollRule = TModernWarfareVisibilityRollRule
@@ -612,7 +551,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             BlackHoleIdentifier = "FOB_RFA"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_RFA ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_RFA ),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -661,10 +600,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
-            TUnitUpkeepModuleDescriptor
-            (
-                UpkeepPercentage = 0.0
-            ),
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -745,20 +681,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
-        TScannerConfigurationDescriptor
-        (
-            OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            PorteeVisionTBA = ((0.0) * Metre)
-            PorteeVisionFOW = ((0.0) * Metre)
-            DetectionTBA = ((10000) * Metre)
-            PorteeVision = ((10000) * Metre)
-            PorteeIdentification = 0.0
-            OpticalStrength = 0.0
-            OpticalStrengthAltitude = 40
-            SpecializedDetections = MAP [
-                ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
-            ]
-        ),
+        ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
             VisibilityRollRule = TModernWarfareVisibilityRollRule
@@ -782,7 +705,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             BlackHoleIdentifier = "FOB_SOV"
             SymbolName = 'FOB_Pact_03'
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_SOV ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_SOV ),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -831,10 +754,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
-            TUnitUpkeepModuleDescriptor
-            (
-                UpkeepPercentage = 0.0
-            ),
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -915,20 +835,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
-        TScannerConfigurationDescriptor
-        (
-            OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            PorteeVisionTBA = ((0.0) * Metre)
-            PorteeVisionFOW = ((0.0) * Metre)
-            DetectionTBA = ((10000) * Metre)
-            PorteeVision = ((10000) * Metre)
-            PorteeIdentification = 0.0
-            OpticalStrength = 0.0
-            OpticalStrengthAltitude = 40
-            SpecializedDetections = MAP [
-                ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
-            ]
-        ),
+        ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
             VisibilityRollRule = TModernWarfareVisibilityRollRule
@@ -952,7 +859,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             BlackHoleIdentifier = "FOB_UK"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_UK ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_UK ),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -1001,10 +908,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
-            TUnitUpkeepModuleDescriptor
-            (
-                UpkeepPercentage = 0.0
-            ),
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'
@@ -1085,20 +989,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
-        TScannerConfigurationDescriptor
-        (
-            OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-            PorteeVisionTBA = ((0.0) * Metre)
-            PorteeVisionFOW = ((0.0) * Metre)
-            DetectionTBA = ((10000) * Metre)
-            PorteeVision = ((10000) * Metre)
-            PorteeIdentification = 0.0
-            OpticalStrength = 0.0
-            OpticalStrengthAltitude = 40
-            SpecializedDetections = MAP [
-                ( EVisionUnitType/AlwaysInHighAltitude, 10000.0 * Metre ),
-            ]
-        ),
+        ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
             VisibilityRollRule = TModernWarfareVisibilityRollRule
@@ -1122,7 +1013,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             BlackHoleIdentifier = "FOB_US"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_US ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_US ),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -1171,10 +1062,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleSelector,
         ~/PackSignauxModuleDescriptor,
-            TUnitUpkeepModuleDescriptor
-            (
-                UpkeepPercentage = 0.0
-            ),
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
             UnitRole = 'tank_A'

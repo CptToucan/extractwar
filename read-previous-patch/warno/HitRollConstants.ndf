@@ -1,10 +1,9 @@
-// Fichier écrit à la main
 private bonusPrecision is 3
-// spec: WARGAMENORMANDIE-285
+
 export HitRollParams is TRollParameters
 (
-    // Common
-    DistanceTolerance = 20000 * Metre //Distance parcouru par la cible entre deux tirs successifs au delà de laquelle on considère que l'unité à bougé
+    // Distance parcouru par la cible entre deux tirs successifs au delà de laquelle on considère que l'unité a bougé
+    DistanceTolerance = 20000 * Metre
 
     // Modificateur_Ratio_ArmeArmure
     // Cette valeur permet de régler à partir de quel niveau d'armure un canon commence à avoir une
@@ -12,41 +11,12 @@ export HitRollParams is TRollParameters
     // Appliqué uniquement sur le Pierce
     ModificateurArmeArmure = 1
 
-    ///////////////////////
-    // Début dice params //
-    ///////////////////////
-    // Success if roll > RollSuccessThreshold - modifiersum
-    DiceParametersMap = MAP
+    // Success if roll > DiceNumberFaces - modifiersum
+    DicesNumberFaces =
     [
-        (
-            ERoll/Hit,
-            TDiceParameters
-            (   // 2d6
-                DiceCount = 1
-                DiceType = 100
-                RollSuccessThreshold = 100
-            )
-        ),
-        (
-            ERoll/Pierce,
-            TDiceParameters
-            (   // 2d6
-                DiceCount = 1
-                DiceType = 1
-                RollSuccessThreshold = 1
-            )
-        ),
-        (
-            // Pas de modificateurs
-            // le lancer est donc toujours <= 12 donc on ne crit jamais.
-            ERoll/Critic,
-            TDiceParameters
-            (   // 2d6
-                DiceCount = 1
-                DiceType = 100
-                RollSuccessThreshold = 100
-            )
-        ),
+        100,    // ERoll/Hit
+        1,      // ERoll/Pierce
+        100,    // ERoll/Critic
     ]
 
     // Uniquement sur Hit
@@ -88,8 +58,4 @@ export HitRollParams is TRollParameters
 
     // pour l'instant on part du principe qu'on est entre -0.6 et 0.0. Si on change cette valeur, merci de prévenir un dev, il faut que l'exporteur soit updaté aussi
     MinimalECMValue = -0.6
-
-    /////////////////////
-    // Fin dice params //
-    /////////////////////
 )

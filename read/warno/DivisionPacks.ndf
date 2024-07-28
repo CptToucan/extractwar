@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par DivisionPacksFileWriter
 
 
 Descriptor_Deck_Pack_2K12_KUB_DDR is DeckPackDescriptor
@@ -56,6 +56,11 @@ Descriptor_Deck_Pack_2S9_Nona_SOV is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_2S9_Nona_SOV
 )
 
+Descriptor_Deck_Pack_81mm_mortar_Aero_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_81mm_mortar_Aero_US
+)
+
 Descriptor_Deck_Pack_81mm_mortar_UK is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_81mm_mortar_UK
@@ -101,6 +106,11 @@ Descriptor_Deck_Pack_AH1S_Cobra_US is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_AH1S_Cobra_US
 )
 
+Descriptor_Deck_Pack_AH64_Apache_ATAS_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_AH64_Apache_ATAS_US
+)
+
 Descriptor_Deck_Pack_AH64_Apache_NG_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_AH64_Apache_NG_US
@@ -124,6 +134,11 @@ Descriptor_Deck_Pack_AH64_Apache_emp2_US is DeckPackDescriptor
 Descriptor_Deck_Pack_AH6C_Little_Bird_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_AH6C_Little_Bird_US
+)
+
+Descriptor_Deck_Pack_AH6G_Little_Bird_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_AH6G_Little_Bird_US
 )
 
 Descriptor_Deck_Pack_AML_60_FR is DeckPackDescriptor
@@ -346,6 +361,11 @@ Descriptor_Deck_Pack_ATteam_RCL_SPG9_DDR is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_ATteam_RCL_SPG9_DDR
 )
 
+Descriptor_Deck_Pack_ATteam_RCL_SPG9_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_ATteam_RCL_SPG9_DShV_SOV
+)
+
 Descriptor_Deck_Pack_ATteam_RCL_SPG9_FJ_DDR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_ATteam_RCL_SPG9_FJ_DDR
@@ -359,6 +379,11 @@ Descriptor_Deck_Pack_ATteam_RCL_SPG9_SOV is DeckPackDescriptor
 Descriptor_Deck_Pack_ATteam_RCL_SPG9_VDV_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_ATteam_RCL_SPG9_VDV_SOV
+)
+
+Descriptor_Deck_Pack_ATteam_TOW2_Aero_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_ATteam_TOW2_Aero_US
 )
 
 Descriptor_Deck_Pack_ATteam_TOW2_US is DeckPackDescriptor
@@ -376,14 +401,54 @@ Descriptor_Deck_Pack_ATteam_TOW_US is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_ATteam_TOW_US
 )
 
+Descriptor_Deck_Pack_AeroEngineer_CMD_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_AeroEngineer_CMD_US
+)
+
+Descriptor_Deck_Pack_AeroEngineers_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_AeroEngineers_US
+)
+
+Descriptor_Deck_Pack_AeroRifles_AB_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_AeroRifles_AB_US
+)
+
+Descriptor_Deck_Pack_AeroRifles_AT4_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_AeroRifles_AT4_US
+)
+
 Descriptor_Deck_Pack_AeroRifles_CMD_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_AeroRifles_CMD_US
 )
 
+Descriptor_Deck_Pack_AeroRifles_Dragon_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_AeroRifles_Dragon_US
+)
+
 Descriptor_Deck_Pack_AeroRifles_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_AeroRifles_US
+)
+
+Descriptor_Deck_Pack_Aero_half_AT4_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Aero_half_AT4_US
+)
+
+Descriptor_Deck_Pack_Aero_half_CMD_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Aero_half_CMD_US
+)
+
+Descriptor_Deck_Pack_Aero_half_Dragon_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Aero_half_Dragon_US
 )
 
 Descriptor_Deck_Pack_Airborne_CMD_US is DeckPackDescriptor
@@ -511,9 +576,19 @@ Descriptor_Deck_Pack_Alvis_Stalwart_UK is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Alvis_Stalwart_UK
 )
 
+Descriptor_Deck_Pack_Atteam_Fagot_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Atteam_Fagot_DShV_SOV
+)
+
 Descriptor_Deck_Pack_Atteam_Fagot_VDV_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Atteam_Fagot_VDV_SOV
+)
+
+Descriptor_Deck_Pack_Atteam_Konkurs_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Atteam_Konkurs_DShV_SOV
 )
 
 Descriptor_Deck_Pack_Atteam_Konkurs_VDV_SOV is DeckPackDescriptor
@@ -661,6 +736,11 @@ Descriptor_Deck_Pack_BTR_50_CMD_DDR is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_BTR_50_CMD_DDR
 )
 
+Descriptor_Deck_Pack_BTR_60_CHAIKA_CMD_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_BTR_60_CHAIKA_CMD_SOV
+)
+
 Descriptor_Deck_Pack_BTR_60_CMD_DDR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_BTR_60_CMD_DDR
@@ -786,6 +866,11 @@ Descriptor_Deck_Pack_DCA_Javelin_LML_UK is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_DCA_Javelin_LML_UK
 )
 
+Descriptor_Deck_Pack_DCA_M167A2_Vulcan_20mm_Aero_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_Aero_US
+)
+
 Descriptor_Deck_Pack_DCA_M167_Vulcan_20mm_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_DCA_M167_Vulcan_20mm_US
@@ -821,14 +906,44 @@ Descriptor_Deck_Pack_DCA_ZU_23_2_TTsko_SOV is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_DCA_ZU_23_2_TTsko_SOV
 )
 
+Descriptor_Deck_Pack_DShV_Afgantsy_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_DShV_Afgantsy_SOV
+)
+
 Descriptor_Deck_Pack_DShV_CMD_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_DShV_CMD_SOV
 )
 
+Descriptor_Deck_Pack_DShV_HMG_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_DShV_HMG_SOV
+)
+
+Descriptor_Deck_Pack_DShV_Hvy_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_DShV_Hvy_SOV
+)
+
+Descriptor_Deck_Pack_DShV_Metis_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_DShV_Metis_SOV
+)
+
+Descriptor_Deck_Pack_DShV_RPG16_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_DShV_RPG16_SOV
+)
+
 Descriptor_Deck_Pack_DShV_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_DShV_SOV
+)
+
+Descriptor_Deck_Pack_DeltaForce_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_DeltaForce_US
 )
 
 Descriptor_Deck_Pack_EF111_Raven_US is DeckPackDescriptor
@@ -886,6 +1001,11 @@ Descriptor_Deck_Pack_Engineers_CMD_DDR is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Engineers_CMD_DDR
 )
 
+Descriptor_Deck_Pack_Engineers_CMD_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Engineers_CMD_DShV_SOV
+)
+
 Descriptor_Deck_Pack_Engineers_CMD_RFA is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Engineers_CMD_RFA
@@ -916,6 +1036,11 @@ Descriptor_Deck_Pack_Engineers_DDR is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Engineers_DDR
 )
 
+Descriptor_Deck_Pack_Engineers_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Engineers_DShV_SOV
+)
+
 Descriptor_Deck_Pack_Engineers_Dragon_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Engineers_Dragon_US
@@ -924,6 +1049,11 @@ Descriptor_Deck_Pack_Engineers_Dragon_US is DeckPackDescriptor
 Descriptor_Deck_Pack_Engineers_Flam_DDR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Engineers_Flam_DDR
+)
+
+Descriptor_Deck_Pack_Engineers_Flam_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Engineers_Flam_DShV_SOV
 )
 
 Descriptor_Deck_Pack_Engineers_Flam_RFA is DeckPackDescriptor
@@ -1426,6 +1556,11 @@ Descriptor_Deck_Pack_GAZ_66_supply_SOV is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_GAZ_66_supply_SOV
 )
 
+Descriptor_Deck_Pack_Gama_Goat_supply_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Gama_Goat_supply_US
+)
+
 Descriptor_Deck_Pack_Gazelle_20mm_FR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Gazelle_20mm_FR
@@ -1489,6 +1624,11 @@ Descriptor_Deck_Pack_GreenBerets_CMD_US is DeckPackDescriptor
 Descriptor_Deck_Pack_GreenBerets_MP5_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_GreenBerets_MP5_US
+)
+
+Descriptor_Deck_Pack_GreenBerets_ODA_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_GreenBerets_ODA_US
 )
 
 Descriptor_Deck_Pack_GreenBerets_US is DeckPackDescriptor
@@ -1556,6 +1696,11 @@ Descriptor_Deck_Pack_HMGteam_AGS17_DDR is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_HMGteam_AGS17_DDR
 )
 
+Descriptor_Deck_Pack_HMGteam_AGS17_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_HMGteam_AGS17_DShV_SOV
+)
+
 Descriptor_Deck_Pack_HMGteam_AGS17_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_HMGteam_AGS17_SOV
@@ -1576,6 +1721,11 @@ Descriptor_Deck_Pack_HMGteam_M2HB_AB_US is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_HMGteam_M2HB_AB_US
 )
 
+Descriptor_Deck_Pack_HMGteam_M2HB_Aero_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_HMGteam_M2HB_Aero_US
+)
+
 Descriptor_Deck_Pack_HMGteam_M2HB_FR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_HMGteam_M2HB_FR
@@ -1594,6 +1744,11 @@ Descriptor_Deck_Pack_HMGteam_M2HB_para_FR is DeckPackDescriptor
 Descriptor_Deck_Pack_HMGteam_M60_AB_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_HMGteam_M60_AB_US
+)
+
+Descriptor_Deck_Pack_HMGteam_M60_Aero_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_HMGteam_M60_Aero_US
 )
 
 Descriptor_Deck_Pack_HMGteam_M60_NG_US is DeckPackDescriptor
@@ -1629,6 +1784,11 @@ Descriptor_Deck_Pack_HMGteam_Mk19_AB_US is DeckPackDescriptor
 Descriptor_Deck_Pack_HMGteam_NSV_DDR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_HMGteam_NSV_DDR
+)
+
+Descriptor_Deck_Pack_HMGteam_NSV_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_HMGteam_NSV_DShV_SOV
 )
 
 Descriptor_Deck_Pack_HMGteam_NSV_SOV is DeckPackDescriptor
@@ -1966,6 +2126,11 @@ Descriptor_Deck_Pack_LAV_25_M1047_US_US is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_LAV_25_M1047_US_US
 )
 
+Descriptor_Deck_Pack_LRRP_Aero_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_LRRP_Aero_US
+)
+
 Descriptor_Deck_Pack_LRRP_FR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_LRRP_FR
@@ -1979,6 +2144,16 @@ Descriptor_Deck_Pack_LRRP_UK is DeckPackDescriptor
 Descriptor_Deck_Pack_LRRP_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_LRRP_US
+)
+
+Descriptor_Deck_Pack_LUAZ_967M_Fagot_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_LUAZ_967M_Fagot_SOV
+)
+
+Descriptor_Deck_Pack_LUAZ_967M_SPG9_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_LUAZ_967M_SPG9_SOV
 )
 
 Descriptor_Deck_Pack_LandRover_CMD_UK is DeckPackDescriptor
@@ -2286,6 +2461,21 @@ Descriptor_Deck_Pack_M270_MLRS_cluster_US is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_M270_MLRS_cluster_US
 )
 
+Descriptor_Deck_Pack_M274_Mule_ITOW_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_M274_Mule_ITOW_US
+)
+
+Descriptor_Deck_Pack_M274_Mule_RCL_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_M274_Mule_RCL_US
+)
+
+Descriptor_Deck_Pack_M274_Mule_supply_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_M274_Mule_supply_US
+)
+
 Descriptor_Deck_Pack_M2A1_Bradley_Leader_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_M2A1_Bradley_Leader_US
@@ -2406,6 +2596,11 @@ Descriptor_Deck_Pack_MANPAD_Igla_DDR is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_MANPAD_Igla_DDR
 )
 
+Descriptor_Deck_Pack_MANPAD_Igla_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_MANPAD_Igla_DShV_SOV
+)
+
 Descriptor_Deck_Pack_MANPAD_Igla_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_MANPAD_Igla_SOV
@@ -2439,6 +2634,11 @@ Descriptor_Deck_Pack_MANPAD_Mistral_para_FR is DeckPackDescriptor
 Descriptor_Deck_Pack_MANPAD_Redeye_RFA is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_MANPAD_Redeye_RFA
+)
+
+Descriptor_Deck_Pack_MANPAD_Stinger_C_Aero_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_MANPAD_Stinger_C_Aero_US
 )
 
 Descriptor_Deck_Pack_MANPAD_Stinger_C_US is DeckPackDescriptor
@@ -2479,6 +2679,11 @@ Descriptor_Deck_Pack_MCV_80_Warrior_CMD_UK is DeckPackDescriptor
 Descriptor_Deck_Pack_MFRW_RM70_DDR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_MFRW_RM70_DDR
+)
+
+Descriptor_Deck_Pack_MH_60A_DAP_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_MH_60A_DAP_US
 )
 
 Descriptor_Deck_Pack_MP_CMD_US is DeckPackDescriptor
@@ -2676,6 +2881,16 @@ Descriptor_Deck_Pack_MiG_25RBF_SOV is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_MiG_25RBF_SOV
 )
 
+Descriptor_Deck_Pack_MiG_27K_AT1_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_MiG_27K_AT1_SOV
+)
+
+Descriptor_Deck_Pack_MiG_27K_AT2_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_MiG_27K_AT2_SOV
+)
+
 Descriptor_Deck_Pack_MiG_27K_LGB_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_MiG_27K_LGB_SOV
@@ -2756,6 +2971,11 @@ Descriptor_Deck_Pack_Mi_24K_reco_SOV is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Mi_24K_reco_SOV
 )
 
+Descriptor_Deck_Pack_Mi_24P_AA_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Mi_24P_AA_SOV
+)
+
 Descriptor_Deck_Pack_Mi_24P_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Mi_24P_SOV
@@ -2821,6 +3041,11 @@ Descriptor_Deck_Pack_Mi_2_rocket_DDR is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Mi_2_rocket_DDR
 )
 
+Descriptor_Deck_Pack_Mi_6_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Mi_6_SOV
+)
+
 Descriptor_Deck_Pack_Mi_8K_CMD_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Mi_8K_CMD_SOV
@@ -2829,6 +3054,11 @@ Descriptor_Deck_Pack_Mi_8K_CMD_SOV is DeckPackDescriptor
 Descriptor_Deck_Pack_Mi_8MTPI_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Mi_8MTPI_SOV
+)
+
+Descriptor_Deck_Pack_Mi_8PPA_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Mi_8PPA_SOV
 )
 
 Descriptor_Deck_Pack_Mi_8R_SOV is DeckPackDescriptor
@@ -2956,6 +3186,11 @@ Descriptor_Deck_Pack_Mirage_IV_SEAD_FR is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Mirage_IV_SEAD_FR
 )
 
+Descriptor_Deck_Pack_Mortier_107mm_Aero_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Mortier_107mm_Aero_US
+)
+
 Descriptor_Deck_Pack_Mortier_107mm_Airborne_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Mortier_107mm_Airborne_US
@@ -2966,6 +3201,21 @@ Descriptor_Deck_Pack_Mortier_107mm_US is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Mortier_107mm_US
 )
 
+Descriptor_Deck_Pack_Mortier_240mm_M240_Cluster_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Mortier_240mm_M240_Cluster_SOV
+)
+
+Descriptor_Deck_Pack_Mortier_240mm_M240_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Mortier_240mm_M240_SOV
+)
+
+Descriptor_Deck_Pack_Mortier_2B14_82mm_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Mortier_2B14_82mm_DShV_SOV
+)
+
 Descriptor_Deck_Pack_Mortier_2B9_Vasilek_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Mortier_2B9_Vasilek_SOV
@@ -2974,6 +3224,11 @@ Descriptor_Deck_Pack_Mortier_2B9_Vasilek_SOV is DeckPackDescriptor
 Descriptor_Deck_Pack_Mortier_2B9_Vasilek_nonPara_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Mortier_2B9_Vasilek_nonPara_SOV
+)
+
+Descriptor_Deck_Pack_Mortier_2S12_120mm_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Mortier_2S12_120mm_DShV_SOV
 )
 
 Descriptor_Deck_Pack_Mortier_2S12_120mm_SOV is DeckPackDescriptor
@@ -3486,6 +3741,11 @@ Descriptor_Deck_Pack_Scout_AT_UK is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Scout_AT_UK
 )
 
+Descriptor_Deck_Pack_Scout_Aero_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Scout_Aero_US
+)
+
 Descriptor_Deck_Pack_Scout_Airmobile_UK is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Scout_Airmobile_UK
@@ -3499,6 +3759,11 @@ Descriptor_Deck_Pack_Scout_BEL is DeckPackDescriptor
 Descriptor_Deck_Pack_Scout_DDR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Scout_DDR
+)
+
+Descriptor_Deck_Pack_Scout_DShV_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Scout_DShV_SOV
 )
 
 Descriptor_Deck_Pack_Scout_FR is DeckPackDescriptor
@@ -3534,6 +3799,11 @@ Descriptor_Deck_Pack_Scout_RFA is DeckPackDescriptor
 Descriptor_Deck_Pack_Scout_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Scout_SOV
+)
+
+Descriptor_Deck_Pack_Scout_SpetsnazGRU_Stinger_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Scout_SpetsnazGRU_Stinger_SOV
 )
 
 Descriptor_Deck_Pack_Scout_Spetsnaz_SOV is DeckPackDescriptor
@@ -3584,6 +3854,11 @@ Descriptor_Deck_Pack_Security_DDR is DeckPackDescriptor
 Descriptor_Deck_Pack_Security_RFA is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_Security_RFA
+)
+
+Descriptor_Deck_Pack_Security_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Security_SOV
 )
 
 Descriptor_Deck_Pack_Security_UK is DeckPackDescriptor
@@ -3794,6 +4069,21 @@ Descriptor_Deck_Pack_T55A_DDR is DeckPackDescriptor
 Descriptor_Deck_Pack_T62M1_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_T62M1_SOV
+)
+
+Descriptor_Deck_Pack_T62MD1_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_T62MD1_SOV
+)
+
+Descriptor_Deck_Pack_T62MD_CMD_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_T62MD_CMD_SOV
+)
+
+Descriptor_Deck_Pack_T62MD_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_T62MD_SOV
 )
 
 Descriptor_Deck_Pack_T62MV_SOV is DeckPackDescriptor
@@ -4081,6 +4371,16 @@ Descriptor_Deck_Pack_Ural_4320_SOV is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Ural_4320_SOV
 )
 
+Descriptor_Deck_Pack_Ural_4320_ZPU_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Ural_4320_ZPU_SOV
+)
+
+Descriptor_Deck_Pack_Ural_4320_ZU_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Ural_4320_ZU_SOV
+)
+
 Descriptor_Deck_Pack_VAB_CMD_FR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_VAB_CMD_FR
@@ -4229,6 +4529,11 @@ Descriptor_Deck_Pack_ZSU_23_Shilka_DDR is DeckPackDescriptor
 Descriptor_Deck_Pack_ZSU_23_Shilka_SOV is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_ZSU_23_Shilka_SOV
+)
+
+Descriptor_Deck_Pack_ZSU_23_Shilka_reco_SOV is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_ZSU_23_Shilka_reco_SOV
 )
 
 Descriptor_Deck_Pack_ZSU_57_2_DDR is DeckPackDescriptor

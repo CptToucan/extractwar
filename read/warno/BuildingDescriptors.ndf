@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par BuildingDescriptorFileWriter_Specific
 
 
 export Descriptor_Unit_FOB_BEL is TEntityDescriptor
@@ -53,7 +53,6 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -61,7 +60,6 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         ~/TargetCoordinatorModuleSelector,
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
@@ -111,7 +109,6 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         ~/EffectApplierModuleDescriptor,
         TTacticalLabelModuleDescriptor
         (
-            UnitName                   = 'BFCFNEMWNZ'
             IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -146,7 +143,7 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
                 'supply',
             ]
             NameToken = 'BFCFNEMWNZ'
-            InfoPanelConfigurationToken = 'Default'
+            InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_BEL'
@@ -207,7 +204,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -215,7 +211,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ~/TargetCoordinatorModuleSelector,
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
@@ -265,7 +260,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ~/EffectApplierModuleDescriptor,
         TTacticalLabelModuleDescriptor
         (
-            UnitName                   = 'FOBGER'
             IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -300,7 +294,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
                 'supply',
             ]
             NameToken = 'FOBGER'
-            InfoPanelConfigurationToken = 'Default'
+            InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_DDR'
@@ -361,7 +355,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -369,7 +362,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ~/TargetCoordinatorModuleSelector,
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
@@ -419,7 +411,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ~/EffectApplierModuleDescriptor,
         TTacticalLabelModuleDescriptor
         (
-            UnitName                   = 'FOBFRA'
             IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -454,7 +445,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
                 'supply',
             ]
             NameToken = 'FOBFRA'
-            InfoPanelConfigurationToken = 'Default'
+            InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_FR'
@@ -515,7 +506,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -523,7 +513,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ~/TargetCoordinatorModuleSelector,
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
@@ -573,7 +562,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ~/EffectApplierModuleDescriptor,
         TTacticalLabelModuleDescriptor
         (
-            UnitName                   = 'FOBGER'
             IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -608,7 +596,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
                 'supply',
             ]
             NameToken = 'FOBGER'
-            InfoPanelConfigurationToken = 'Default'
+            InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_RFA'
@@ -669,7 +657,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -677,7 +664,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ~/TargetCoordinatorModuleSelector,
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
@@ -727,7 +713,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ~/EffectApplierModuleDescriptor,
         TTacticalLabelModuleDescriptor
         (
-            UnitName                   = 'FOBSOV'
             IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -762,7 +747,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
                 'supply',
             ]
             NameToken = 'FOBSOV'
-            InfoPanelConfigurationToken = 'Default'
+            InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_SOV'
@@ -823,7 +808,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -831,7 +815,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ~/TargetCoordinatorModuleSelector,
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
@@ -881,7 +864,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ~/EffectApplierModuleDescriptor,
         TTacticalLabelModuleDescriptor
         (
-            UnitName                   = 'FOBUSUK'
             IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -916,7 +898,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
                 'supply',
             ]
             NameToken = 'FOBUSUK'
-            InfoPanelConfigurationToken = 'Default'
+            InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_UK'
@@ -977,7 +959,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -985,7 +966,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ~/TargetCoordinatorModuleSelector,
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
@@ -1035,7 +1015,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ~/EffectApplierModuleDescriptor,
         TTacticalLabelModuleDescriptor
         (
-            UnitName                   = 'FOBUSUK'
             IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
             (
                 CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -1070,7 +1049,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
                 'supply',
             ]
             NameToken = 'FOBUSUK'
-            InfoPanelConfigurationToken = 'Default'
+            InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_US'

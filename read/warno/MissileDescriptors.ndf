@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par MissileDescriptorFileWriter_Specific
 
 
 export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
@@ -81,7 +81,6 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -171,7 +170,6 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -255,7 +253,6 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -339,7 +336,6 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -429,7 +425,6 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -519,7 +514,6 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -609,7 +603,6 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -699,7 +692,6 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -789,7 +781,6 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -873,7 +864,6 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -957,7 +947,6 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1041,7 +1030,6 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1131,7 +1119,6 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1215,7 +1202,6 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1299,7 +1285,6 @@ export Descriptor_Missile_AA_R24MR_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1383,7 +1368,6 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1467,7 +1451,6 @@ export Descriptor_Missile_AA_R27ER_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1551,7 +1534,6 @@ export Descriptor_Missile_AA_R27R_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1635,7 +1617,6 @@ export Descriptor_Missile_AA_R27T_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1719,7 +1700,6 @@ export Descriptor_Missile_AA_R33_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1803,7 +1783,6 @@ export Descriptor_Missile_AA_R37_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1893,7 +1872,6 @@ export Descriptor_Missile_AA_R3R is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -1983,7 +1961,6 @@ export Descriptor_Missile_AA_R550_Magic is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2073,7 +2050,6 @@ export Descriptor_Missile_AA_R550_Magic_II is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2163,7 +2139,6 @@ export Descriptor_Missile_AA_R60_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2253,7 +2228,6 @@ export Descriptor_Missile_AA_R60_Vympel_helo is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2343,7 +2317,6 @@ export Descriptor_Missile_AA_R60M_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2433,7 +2406,6 @@ export Descriptor_Missile_AA_R60M_Vympel_helo is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2523,7 +2495,6 @@ export Descriptor_Missile_AA_R73_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2613,7 +2584,6 @@ export Descriptor_Missile_AA_R77_Vympel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2697,7 +2667,6 @@ export Descriptor_Missile_AA_Skyflash is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2781,7 +2750,6 @@ export Descriptor_Missile_AA_Skyflash_SuperTEMP is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2864,7 +2832,6 @@ export Descriptor_Missile_AGM_9K121_Vikhr is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -2947,7 +2914,6 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x12 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3030,7 +2996,6 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x16 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3113,7 +3078,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3196,7 +3160,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x16 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3279,7 +3242,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3362,7 +3324,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3445,7 +3406,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x6 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3528,7 +3488,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3611,7 +3570,6 @@ export Descriptor_Missile_AGM_9M14_MalyutkaP_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3694,7 +3652,6 @@ export Descriptor_Missile_AGM_9M14_MalyutkaP_x6 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3722,10 +3679,10 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Falanga
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Malyutka
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Falanga
                 Actions = MAP[
                     ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation2 )),
                 ]
@@ -3777,7 +3734,6 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3805,10 +3761,10 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Falanga
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Malyutka
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Falanga
                 Actions = MAP[
                     ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation2 )),
                 ]
@@ -3860,7 +3816,6 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -3888,10 +3843,10 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Falanga
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Malyutka
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Falanga
                 Actions = MAP[
                     ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation2 )),
                 ]
@@ -3943,7 +3898,6 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4038,7 +3992,6 @@ export Descriptor_Missile_AGM_AGM114A is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4133,7 +4086,6 @@ export Descriptor_Missile_AGM_AGM114A_x16 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4228,7 +4180,6 @@ export Descriptor_Missile_AGM_AGM114A_x2_salve is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4323,7 +4274,6 @@ export Descriptor_Missile_AGM_AGM114A_x2_sol is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4418,7 +4368,6 @@ export Descriptor_Missile_AGM_AGM114A_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4513,7 +4462,6 @@ export Descriptor_Missile_AGM_AGM114A_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4596,7 +4544,6 @@ export Descriptor_Missile_AGM_AGM45_Shrike is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4679,7 +4626,6 @@ export Descriptor_Missile_AGM_AGM65B_Maverick is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4762,7 +4708,6 @@ export Descriptor_Missile_AGM_AGM65D_Maverick is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4845,7 +4790,6 @@ export Descriptor_Missile_AGM_AGM65E_Maverick is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -4928,7 +4872,6 @@ export Descriptor_Missile_AGM_AGM88_HARM is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5011,7 +4954,6 @@ export Descriptor_Missile_AGM_AJ_168_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5094,7 +5036,6 @@ export Descriptor_Missile_AGM_ALARM is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5177,7 +5118,6 @@ export Descriptor_Missile_AGM_ARMAT is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5260,7 +5200,6 @@ export Descriptor_Missile_AGM_AS30 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5343,7 +5282,6 @@ export Descriptor_Missile_AGM_AS30L is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5426,7 +5364,6 @@ export Descriptor_Missile_AGM_AS37_Martel is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5509,7 +5446,6 @@ export Descriptor_Missile_AGM_AS37_Martel_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5592,7 +5528,6 @@ export Descriptor_Missile_AGM_BGM71_TOW_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5675,7 +5610,6 @@ export Descriptor_Missile_AGM_BGM71C_FITOW_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5758,7 +5692,6 @@ export Descriptor_Missile_AGM_BGM71C_ITOW_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5841,7 +5774,6 @@ export Descriptor_Missile_AGM_BGM71D_TOW_2_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -5924,7 +5856,6 @@ export Descriptor_Missile_AGM_BGM71D_TOW_2_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6007,7 +5938,6 @@ export Descriptor_Missile_AGM_HOT1 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6090,7 +6020,6 @@ export Descriptor_Missile_AGM_HOT1_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6173,7 +6102,6 @@ export Descriptor_Missile_AGM_HOT1_x6 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6256,7 +6184,6 @@ export Descriptor_Missile_AGM_HOT2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6339,7 +6266,6 @@ export Descriptor_Missile_AGM_HOT2_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6422,7 +6348,6 @@ export Descriptor_Missile_AGM_HOT2_x6 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6505,7 +6430,6 @@ export Descriptor_Missile_AGM_Kh23M is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6588,7 +6512,6 @@ export Descriptor_Missile_AGM_Kh25ML is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6671,7 +6594,6 @@ export Descriptor_Missile_AGM_Kh25MP is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6754,7 +6676,6 @@ export Descriptor_Missile_AGM_Kh25MPU is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6837,7 +6758,6 @@ export Descriptor_Missile_AGM_Kh28_X28 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -6920,7 +6840,6 @@ export Descriptor_Missile_AGM_Kh29D is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7003,7 +6922,6 @@ export Descriptor_Missile_AGM_Kh29L is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7086,7 +7004,6 @@ export Descriptor_Missile_AGM_Kh29T is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7169,7 +7086,6 @@ export Descriptor_Missile_AGM_Kh31P is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7252,7 +7168,6 @@ export Descriptor_Missile_AGM_Kh58U is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7335,7 +7250,6 @@ export Descriptor_Missile_AGM_SS11_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7418,7 +7332,6 @@ export Descriptor_Missile_ATGM_9K111_Fagot is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7501,7 +7414,6 @@ export Descriptor_Missile_ATGM_9K111M_Fagot_M is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7584,7 +7496,6 @@ export Descriptor_Missile_ATGM_9K121_Vikhr is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7667,7 +7578,6 @@ export Descriptor_Missile_ATGM_9M112_1_Kobra is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7750,7 +7660,6 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_BMP2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7833,7 +7742,6 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x5 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7916,7 +7824,6 @@ export Descriptor_Missile_ATGM_9M113_KonkursM is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -7999,7 +7906,6 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8082,7 +7988,6 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late_x5 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8165,7 +8070,6 @@ export Descriptor_Missile_ATGM_9M114_Shturm_MTLB is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8248,7 +8152,6 @@ export Descriptor_Missile_ATGM_9M114M_KokonM is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8331,7 +8234,6 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8414,7 +8316,6 @@ export Descriptor_Missile_ATGM_9M117M_Arkan is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8497,7 +8398,6 @@ export Descriptor_Missile_ATGM_9M119M_Refleks is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8580,7 +8480,6 @@ export Descriptor_Missile_ATGM_9M119M_Svir is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8663,7 +8562,6 @@ export Descriptor_Missile_ATGM_9M128_Agona is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8746,7 +8644,6 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8829,7 +8726,6 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8912,7 +8808,6 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x6 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -8995,7 +8890,6 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9078,7 +8972,6 @@ export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9161,7 +9054,6 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9244,7 +9136,6 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9327,7 +9218,6 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9410,7 +9300,6 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9493,7 +9382,6 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9576,7 +9464,6 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9659,7 +9546,6 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9742,7 +9628,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9825,7 +9710,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9908,7 +9792,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -9991,7 +9874,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10074,7 +9956,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2A_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10157,7 +10038,6 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10240,7 +10120,6 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10323,7 +10202,6 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10406,7 +10284,6 @@ export Descriptor_Missile_ATGM_HOT2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10489,7 +10366,6 @@ export Descriptor_Missile_ATGM_HOT2_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10572,7 +10448,6 @@ export Descriptor_Missile_ATGM_HOT2_x3 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10655,7 +10530,6 @@ export Descriptor_Missile_ATGM_HOT2_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10738,7 +10612,6 @@ export Descriptor_Missile_ATGM_HOT2_x6 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10821,7 +10694,6 @@ export Descriptor_Missile_ATGM_MGM551C_Shillelagh is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10904,7 +10776,6 @@ export Descriptor_Missile_ATGM_MILAN is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -10987,7 +10858,6 @@ export Descriptor_Missile_ATGM_MILAN_2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11070,7 +10940,6 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11153,7 +11022,6 @@ export Descriptor_Missile_ATGM_SS11_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11236,7 +11104,6 @@ export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11319,7 +11186,6 @@ export Descriptor_Missile_ATGM_Swingfire_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11402,7 +11268,6 @@ export Descriptor_Missile_ATGM_Swingfire_x5 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11485,7 +11350,88 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_ATGM_Eryx is TEntityDescriptor
+(
+    DescriptorId       = GUID:{e623bb9f-31d9-4879-8fe5-bd4fb1d0e29f}
+    ClassNameForDebug  = 'Missile_ATGM_Eryx'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_ATGM_Eryx",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Metis
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Metis
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation2 )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeed        = 1210 * Metre
+                MaxAcceleration = 750 * Metre
+                AutoGyr         = 1.3962634015954636
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeed        = 1210 * Metre
+                MaxAcceleration = 750 * Metre
+                AutoGyr         = 0.17453292519943295
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitude = 0.0 * Metre
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
+            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 1250
+            AngleMaxForRandomMouvUncontrollable = 0.01
+            RotationSpeedWhenUncontrollable = 1
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11569,7 +11515,6 @@ export Descriptor_Missile_Bomb_BGL_400_x1 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11653,7 +11598,6 @@ export Descriptor_Missile_Bomb_BGL_400_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11737,7 +11681,6 @@ export Descriptor_Missile_Bomb_CPU_123_x1 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11821,7 +11764,6 @@ export Descriptor_Missile_Bomb_CPU_123_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11905,7 +11847,6 @@ export Descriptor_Missile_Bomb_GBU_10_x1 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -11989,7 +11930,6 @@ export Descriptor_Missile_Bomb_GBU_10_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12073,7 +12013,6 @@ export Descriptor_Missile_Bomb_GBU_12_x1 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12157,7 +12096,6 @@ export Descriptor_Missile_Bomb_GBU_12_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12241,7 +12179,6 @@ export Descriptor_Missile_Bomb_GBU_27_x1 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12325,7 +12262,6 @@ export Descriptor_Missile_Bomb_GBU_27_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12409,7 +12345,6 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x1 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12493,7 +12428,89 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_Bomb_KAB_1500L_x1 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{a517bfe5-3a03-4a37-919c-e0e6ae2adbdb}
+    ClassNameForDebug  = 'Missile_Bomb_KAB_1500L_x1'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_Bomb_KAB_1500L_x1",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_fake_missile_bombe_guidee )),
+                    ( ["fx_propulsion_off"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_fake_missile_bombe_guidee_off )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeed        = 2000 * Metre
+                MaxAcceleration = 1000 * Metre
+                AutoGyr         = 0.3490658503988659
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeed        = 2000 * Metre
+                MaxAcceleration = 1000 * Metre
+                AutoGyr         = 0.017453292519943295
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitude = 0.0 * Metre
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 1.0
+            RangeChaos = 500
+            AngleMaxForRandomMouvUncontrollable = 1.0
+            RotationSpeedWhenUncontrollable = 1
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 30
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12577,7 +12594,6 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x1 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12661,7 +12677,6 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12671,17 +12686,17 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x2 is TEntityDescriptor
         ~/TargetDataModuleDescriptor,
     ]
 )
-export Descriptor_Missile_Eryx is TEntityDescriptor
+export Descriptor_Missile_Bomb_KAB_500L_x1 is TEntityDescriptor
 (
-    DescriptorId       = GUID:{572275a2-7ba3-4536-9e28-4c9c2dfac5d5}
-    ClassNameForDebug  = 'Missile_Eryx'
+    DescriptorId       = GUID:{c9fb751e-f5e5-4d0a-ad11-0190d342462d}
+    ClassNameForDebug  = 'Missile_Bomb_KAB_500L_x1'
     ModulesDescriptors = [
         ~/SimpleTypeUnitModuleDescriptor,
         TTagsModuleDescriptor
         (
             TagSet = [
                 "MISSILE",
-                "MISSILE_Eryx",
+                "MISSILE_Bomb_KAB_500L_x1",
             ]
         ),
         ~/MissileFlagsModuleDescriptor,
@@ -12689,12 +12704,13 @@ export Descriptor_Missile_Eryx is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_M47dragon
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_M47dragon
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
                 Actions = MAP[
-                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation1 )),
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_fake_missile_bombe_guidee )),
+                    ( ["fx_propulsion_off"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_fake_missile_bombe_guidee_off )),
                 ]
             )
         ),
@@ -12705,29 +12721,29 @@ export Descriptor_Missile_Eryx is TEntityDescriptor
         (
             DefaultConfig = TGuidedMissileMovementConfigDescriptor
             (
-                MaxSpeed        = 880 * Metre
-                MaxAcceleration = 500 * Metre
-                AutoGyr         = 1.7453292519943295
+                MaxSpeed        = 2000 * Metre
+                MaxAcceleration = 1000 * Metre
+                AutoGyr         = 0.3490658503988659
             )
             UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
             (
-                MaxSpeed        = 880 * Metre
-                MaxAcceleration = 500 * Metre
-                AutoGyr         = 0.2617993877991494
+                MaxSpeed        = 2000 * Metre
+                MaxAcceleration = 1000 * Metre
+                AutoGyr         = 0.017453292519943295
             )
             AscendantPhaseConfig = nil
             TerminalPhaseConfig = nil
             CruiseAltitude = 0.0 * Metre
-            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
-            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
-            TimeBetweenChaosUpdates = 0.1
-            RangeChaos = 2000
-            AngleMaxForRandomMouvUncontrollable = 0.02
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 1.0
+            RangeChaos = 500
+            AngleMaxForRandomMouvUncontrollable = 1.0
             RotationSpeedWhenUncontrollable = 1
         ),
         TBaseDamageModuleDescriptor
         (
-            MaxPhysicalDamages = 2
+            MaxPhysicalDamages = 30
             MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
             MaxStunDamages = ~/Missile_MaxStunDamages
         ),
@@ -12744,7 +12760,6 @@ export Descriptor_Missile_Eryx is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12834,7 +12849,6 @@ export Descriptor_Missile_FakeRoquette_S_24 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -12923,7 +12937,6 @@ export Descriptor_Missile_FakeRoquette_S_24_helo is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13013,7 +13026,6 @@ export Descriptor_Missile_Javelin is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13104,7 +13116,6 @@ export Descriptor_Missile_Javelin_LML is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13187,7 +13198,6 @@ export Descriptor_Missile_M47_DRAGON is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13270,7 +13280,6 @@ export Descriptor_Missile_M47_DRAGON_II is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13361,7 +13370,6 @@ export Descriptor_Missile_MANPAD_Blowpipe is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13452,7 +13460,6 @@ export Descriptor_Missile_MANPAD_FIM43 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13543,7 +13550,6 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13634,7 +13640,6 @@ export Descriptor_Missile_MANPAD_FIM92_A is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13725,7 +13730,6 @@ export Descriptor_Missile_MANPAD_Javelin is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13816,7 +13820,6 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13907,7 +13910,6 @@ export Descriptor_Missile_MANPAD_igla is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -13998,7 +14000,6 @@ export Descriptor_Missile_Mistral is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14089,7 +14090,6 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14179,7 +14179,6 @@ export Descriptor_Missile_SAM_9M311_Tunguska_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14269,7 +14268,6 @@ export Descriptor_Missile_SAM_9M33 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14353,7 +14351,6 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14443,7 +14440,6 @@ export Descriptor_Missile_SAM_9M336_x3 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14533,7 +14529,6 @@ export Descriptor_Missile_SAM_9M33M2_x6 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14623,7 +14618,6 @@ export Descriptor_Missile_SAM_9M38M1_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14713,7 +14707,6 @@ export Descriptor_Missile_SAM_Aspide_1A_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14804,7 +14797,6 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14895,7 +14887,6 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -14986,7 +14977,6 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15077,7 +15067,6 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15168,7 +15157,6 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15258,7 +15246,6 @@ export Descriptor_Missile_SAM_I_Hawk is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15348,7 +15335,6 @@ export Descriptor_Missile_SAM_I_Hawk_x3 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15439,7 +15425,6 @@ export Descriptor_Missile_SAM_Igla is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15530,7 +15515,6 @@ export Descriptor_Missile_SAM_Igla1M is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15621,7 +15605,6 @@ export Descriptor_Missile_SAM_IglaV is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15712,7 +15695,6 @@ export Descriptor_Missile_SAM_IglaV_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15802,7 +15784,6 @@ export Descriptor_Missile_SAM_MIM72A is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15892,7 +15873,6 @@ export Descriptor_Missile_SAM_MIM72F is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -15982,7 +15962,6 @@ export Descriptor_Missile_SAM_MIM72G is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16073,7 +16052,6 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16163,7 +16141,6 @@ export Descriptor_Missile_SAM_RAPIER is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16253,7 +16230,6 @@ export Descriptor_Missile_SAM_RAPIER_DARKFIRE_x6 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16343,7 +16319,6 @@ export Descriptor_Missile_SAM_RAPIER_FSA_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16433,7 +16408,6 @@ export Descriptor_Missile_SAM_RAPIER_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16523,7 +16497,6 @@ export Descriptor_Missile_SAM_RAPIER_x8 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16613,7 +16586,6 @@ export Descriptor_Missile_SAM_ROLAND is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16703,7 +16675,6 @@ export Descriptor_Missile_SAM_ROLAND_1 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16793,7 +16764,6 @@ export Descriptor_Missile_SAM_ROLAND_1_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16883,7 +16853,6 @@ export Descriptor_Missile_SAM_ROLAND_2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -16973,7 +16942,6 @@ export Descriptor_Missile_SAM_ROLAND_2_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -17063,7 +17031,6 @@ export Descriptor_Missile_SAM_ROLAND_3 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -17153,7 +17120,6 @@ export Descriptor_Missile_SAM_ROLAND_3_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -17244,7 +17210,6 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -17335,7 +17300,6 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -17426,7 +17390,6 @@ export Descriptor_Missile_SAM_Strela10_x4_FASTA is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -17517,7 +17480,6 @@ export Descriptor_Missile_SAM_Strela10M3_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -17608,7 +17570,6 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -17699,7 +17660,6 @@ export Descriptor_Missile_SAM_Strela2_x2 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False
@@ -17790,7 +17750,6 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 0.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = False

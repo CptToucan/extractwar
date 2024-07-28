@@ -66,7 +66,7 @@ export ForetLegere is TGameplayTerrain
             (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.65)]),
             (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.65)]),
             (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.65)]),
-            (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.65)]),
+            // (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.65)]),
         ]
     DebugColor = rgba[70, 252, 70, 255]
     DissimulationModifierGroundAir = 12
@@ -101,7 +101,7 @@ export PetitBatiment is TGameplayTerrain
             (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.5)]),
             (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.5)]),
             // (DamageFamily_cac, MAP [(ResistanceFamily_infanterie,0.85)]),
-            (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.5)]),
+            // (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.5)]),
         ]
     DebugColor = rgba[0, 0, 0, 255]
     DissimulationModifierGroundAir = 10.5
@@ -112,7 +112,7 @@ export PetitBatiment is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    ConcealmentBonus = 3.75
+    ConcealmentBonus = 3.50
     TerrainType = ~/ETerrainType/PetitBatiment
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -136,7 +136,7 @@ export Batiment is TGameplayTerrain
             (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.5)]),
             (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.5)]),
             // (DamageFamily_cac, MAP [(ResistanceFamily_infanterie,0.85)]),
-            (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.5)]),
+            // (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.5)]),
         ]
     DebugColor = rgba[0, 0, 0, 255]
     DissimulationModifierGroundAir = 10.5
@@ -147,7 +147,7 @@ export Batiment is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    ConcealmentBonus = 3.75
+    ConcealmentBonus = 3.50
     TerrainType = ~/ETerrainType/Batiment
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
@@ -162,16 +162,16 @@ export Ruin is TGameplayTerrain
     CriticalEffectProbability = 0
     DamageModifierPerFamilyAndResistance =
     MAP [
-            (DamageFamily_he, MAP [(ResistanceFamily_infanterie,0.60)]),
-            (DamageFamily_he_autocanon, MAP [(ResistanceFamily_infanterie,0.45)]),
-            (DamageFamily_superhe, MAP [(ResistanceFamily_infanterie,0.45)]),
-            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.50)]),
-            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.50)]),
-            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.35)]),
-            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.35)]),
-            (DamageFamily_cac, MAP [(ResistanceFamily_infanterie,0.85)]),
-            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.35)]),
-            (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.55)]),
+            (DamageFamily_he, MAP [(ResistanceFamily_infanterie,0.55)]),
+            (DamageFamily_he_autocanon, MAP [(ResistanceFamily_infanterie,0.55)]),
+            (DamageFamily_superhe, MAP [(ResistanceFamily_infanterie,0.55)]),
+            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.55)]),
+            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.55)]),
+            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.55)]),
+            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.55)]),
+            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.55)]),
+            // (DamageFamily_cac, MAP [(ResistanceFamily_infanterie,0.85)]),
+            // (DamageFamily_roquette_ap, MAP [(ResistanceFamily_infanterie,0.55)]),
         ]
     DebugColor = rgba[0, 6, 200, 255]
     DissimulationModifierGroundAir = 10.5
@@ -182,7 +182,7 @@ export Ruin is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    ConcealmentBonus = 3.75
+    ConcealmentBonus = 2.50
     TerrainType = ~/ETerrainType/Ruin
     WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
