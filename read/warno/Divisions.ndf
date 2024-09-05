@@ -179,6 +179,7 @@ Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Bedford_MJ_4t_UK, 1),
         (~/Descriptor_Deck_Pack_DCA_53T2_20mm_FR, 1),
         (~/Descriptor_Deck_Pack_DCA_Javelin_LML_UK, 1),
+        (~/Descriptor_Deck_Pack_DCA_Rapier_UK, 1),
         (~/Descriptor_Deck_Pack_Engineer_CMD_US, 1),
         (~/Descriptor_Deck_Pack_Engineers_CMD_UK, 1),
         (~/Descriptor_Deck_Pack_Engineers_Dragon_US, 1),
@@ -227,7 +228,7 @@ Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_MANPAD_Mistral_FR, 1),
         (~/Descriptor_Deck_Pack_MANPAD_Stinger_C_US, 1),
         (~/Descriptor_Deck_Pack_MP_US, 1),
-        (~/Descriptor_Deck_Pack_Mirage_IV_FR, 2),
+        (~/Descriptor_Deck_Pack_Mirage_IV_FR, 1),
         (~/Descriptor_Deck_Pack_Mirage_IV_SEAD_FR, 1),
         (~/Descriptor_Deck_Pack_Mortier_MORT61_120mm_FR, 1),
         (~/Descriptor_Deck_Pack_RCL_L6_Wombat_UK, 1),
@@ -545,6 +546,95 @@ Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi is TDeckDivisionDescriptor
     TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "DDR"
 )
+Descriptor_Deck_Division_RDA_Rugen_Gruppierung is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{8fb7a4b4-1fab-461d-bb09-a94320ba22f7}
+    CfgName = 'RDA_Rugen_Gruppierung'
+    DivisionName = 'PKOEWMXLJF'
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'infantryReg', 'DC_PWR2']
+    DescriptionHintTitleToken = 'MTGLPEEASU'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_2K11_KRUG_DDR, 2),
+        (~/Descriptor_Deck_Pack_AT_vz52_85mm_DDR, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Fagot_DDR, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Konkurs_DDR, 1),
+        (~/Descriptor_Deck_Pack_ATteam_RCL_SPG9_DDR, 1),
+        (~/Descriptor_Deck_Pack_BRDM_Malyu_P_DDR, 2),
+        (~/Descriptor_Deck_Pack_BTR_50_MRF_DDR, 2),
+        (~/Descriptor_Deck_Pack_BTR_60_CHAIKA_CMD_DDR, 1),
+        (~/Descriptor_Deck_Pack_DCA_AZP_S60_DDR, 2),
+        (~/Descriptor_Deck_Pack_DCA_FASTA_4_DDR, 1),
+        (~/Descriptor_Deck_Pack_DCA_KS19_100mm_DDR, 1),
+        (~/Descriptor_Deck_Pack_DCA_ZU_23_2_DDR, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Naval_CMD_DDR, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Naval_DDR, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Naval_Flam_DDR, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Naval_Scout_DDR, 1),
+        (~/Descriptor_Deck_Pack_FOB_DDR, 1),
+        (~/Descriptor_Deck_Pack_Grenzer_DDR, 3),
+        (~/Descriptor_Deck_Pack_HMGteam_AGS17_DDR, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_PKM_DDR, 2),
+        (~/Descriptor_Deck_Pack_Howz_D30_122mm_DDR, 2),
+        (~/Descriptor_Deck_Pack_Howz_M46_130mm_DDR, 2),
+        (~/Descriptor_Deck_Pack_KSK18_DDR, 1),
+        (~/Descriptor_Deck_Pack_L39ZO_CLU_DDR, 1),
+        (~/Descriptor_Deck_Pack_L39ZO_HE1_DDR, 1),
+        (~/Descriptor_Deck_Pack_LO_1800_FASTA_4_DDR, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Strela_2M_DDR, 2),
+        (~/Descriptor_Deck_Pack_MP_DDR, 1),
+        (~/Descriptor_Deck_Pack_MTLB_supply_DDR, 2),
+        (~/Descriptor_Deck_Pack_MiG_17PF_POL, 1),
+        (~/Descriptor_Deck_Pack_MiG_23BN_KMGU_DDR, 1),
+        (~/Descriptor_Deck_Pack_MiG_23ML_DDR, 2),
+        (~/Descriptor_Deck_Pack_Mi_14PL_AT_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_14PL_recon_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_CMD_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_rocket_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_8TB_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_8TB_reco_Marine_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mortier_PM43_120mm_DDR, 2),
+        (~/Descriptor_Deck_Pack_MotRifles_BTR_DDR, 3),
+        (~/Descriptor_Deck_Pack_MotRifles_CMD_DDR, 2),
+        (~/Descriptor_Deck_Pack_MotRifles_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_MotRifles_POL, 2),
+        (~/Descriptor_Deck_Pack_MotRifles_SVD_DDR, 1),
+        (~/Descriptor_Deck_Pack_MotRifles_SVD_POL, 1),
+        (~/Descriptor_Deck_Pack_MotSchutzen_DDR, 1),
+        (~/Descriptor_Deck_Pack_PT76B_DDR, 1),
+        (~/Descriptor_Deck_Pack_PTS_M_supply_DDR, 1),
+        (~/Descriptor_Deck_Pack_Reserve_CMD_DDR, 1),
+        (~/Descriptor_Deck_Pack_Reserve_DDR, 2),
+        (~/Descriptor_Deck_Pack_Reserve_HMG_DDR, 1),
+        (~/Descriptor_Deck_Pack_Scout_DDR, 1),
+        (~/Descriptor_Deck_Pack_Scout_Reserve_DDR, 2),
+        (~/Descriptor_Deck_Pack_Security_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_17_cluster_POL, 1),
+        (~/Descriptor_Deck_Pack_Su_22_AT2_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_22_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_22_HE2_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_22_RKT_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_22_clu_DDR, 1),
+        (~/Descriptor_Deck_Pack_T55AM_Merida_POL, 1),
+        (~/Descriptor_Deck_Pack_T55A_CMD_DDR, 1),
+        (~/Descriptor_Deck_Pack_T55A_DDR, 2),
+        (~/Descriptor_Deck_Pack_T72_DDR, 1),
+        (~/Descriptor_Deck_Pack_UAZ_469_CMD_DDR, 2),
+        (~/Descriptor_Deck_Pack_UAZ_469_SPG9_DDR, 1),
+        (~/Descriptor_Deck_Pack_Ural_4320_DDR, 2),
+        (~/Descriptor_Deck_Pack_Volkspolizei_DDR, 1),
+        (~/Descriptor_Deck_Pack_W50_LA_A_25mm_DDR, 1),
+        (~/Descriptor_Deck_Pack_ZSU_23_Shilka_DDR, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_RDA_Rugen_Gruppierung
+    EmblemTexture     = "Texture_Division_Emblem_RDA_Rugen_Gruppierung"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "DDR"
+)
 Descriptor_Deck_Division_RFA_2_PzGrenadier_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{15fa50e1-7534-4f5c-ae1c-afd4098c6ce2}
@@ -679,7 +769,7 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Leopard_1A1_RFA, 1),
         (~/Descriptor_Deck_Pack_Leopard_1A5_CMD_RFA, 2),
         (~/Descriptor_Deck_Pack_Leopard_1A5_RFA, 1),
-        (~/Descriptor_Deck_Pack_Leopard_2A3_CMD_RFA, 3),
+        (~/Descriptor_Deck_Pack_Leopard_2A3_CMD_RFA, 2),
         (~/Descriptor_Deck_Pack_Leopard_2A3_RFA, 5),
         (~/Descriptor_Deck_Pack_Leopard_2A4_RFA, 2),
         (~/Descriptor_Deck_Pack_Luchs_A1_RFA, 2),
@@ -1108,9 +1198,9 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Su_24M_SOV, 1),
         (~/Descriptor_Deck_Pack_Su_24M_clu_SOV, 1),
         (~/Descriptor_Deck_Pack_Su_24M_nplm_SOV, 1),
-        (~/Descriptor_Deck_Pack_Su_25_SOV, 2),
-        (~/Descriptor_Deck_Pack_Su_25_clu_SOV, 2),
-        (~/Descriptor_Deck_Pack_Su_25_nplm_SOV, 2),
+        (~/Descriptor_Deck_Pack_Su_25_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_25_clu_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_25_nplm_SOV, 1),
         (~/Descriptor_Deck_Pack_Su_25_rkt_SOV, 1),
         (~/Descriptor_Deck_Pack_Su_27S_SOV, 1),
         (~/Descriptor_Deck_Pack_T80BV_CMD_SOV, 1),
@@ -1352,10 +1442,10 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Su_24M_SOV, 1),
         (~/Descriptor_Deck_Pack_Su_24M_clu2_SOV, 1),
         (~/Descriptor_Deck_Pack_Su_24M_nplm_SOV, 1),
-        (~/Descriptor_Deck_Pack_Su_25_SOV, 2),
-        (~/Descriptor_Deck_Pack_Su_25_clu_SOV, 2),
-        (~/Descriptor_Deck_Pack_Su_25_he_SOV, 2),
-        (~/Descriptor_Deck_Pack_Su_25_nplm_SOV, 2),
+        (~/Descriptor_Deck_Pack_Su_25_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_25_clu_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_25_he_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_25_nplm_SOV, 1),
         (~/Descriptor_Deck_Pack_Su_25_rkt_SOV, 1),
         (~/Descriptor_Deck_Pack_T80BV_Beast_SOV, 2),
         (~/Descriptor_Deck_Pack_T80BV_CMD_SOV, 2),
@@ -1418,8 +1508,6 @@ Descriptor_Deck_Division_UK_1st_Armoured_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Gazelle_UK, 1),
         (~/Descriptor_Deck_Pack_Gun_Group_UK, 2),
         (~/Descriptor_Deck_Pack_HMGteam_MAG_UK, 2),
-        (~/Descriptor_Deck_Pack_Harrier_CLU_UK, 1),
-        (~/Descriptor_Deck_Pack_Harrier_HE2_UK, 1),
         (~/Descriptor_Deck_Pack_Jaguar_HE2_UK, 1),
         (~/Descriptor_Deck_Pack_Jaguar_RKT_UK, 1),
         (~/Descriptor_Deck_Pack_LRRP_UK, 1),
@@ -1573,7 +1661,7 @@ Descriptor_Deck_Division_US_101st_Airmobile_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_EF111_Raven_US, 1),
         (~/Descriptor_Deck_Pack_EH60A_EW_US, 1),
         (~/Descriptor_Deck_Pack_F111F_Aardvark_US, 1),
-        (~/Descriptor_Deck_Pack_F15C_Eagle_AA2_US, 1),
+        (~/Descriptor_Deck_Pack_F15C_Eagle_AA2_US, 2),
         (~/Descriptor_Deck_Pack_F4E_Phantom_II_AA_US, 1),
         (~/Descriptor_Deck_Pack_F4E_Phantom_II_HE_US, 1),
         (~/Descriptor_Deck_Pack_F4E_Phantom_II_napalm_US, 1),
@@ -1625,9 +1713,9 @@ Descriptor_Deck_Division_US_11ACR_multi is TDeckDivisionDescriptor
     DescriptionHintTitleToken = 'AJSWBANTOA'
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_ATGM_US, 2),
+        (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_ATGM_US, 1),
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_Rkt_US, 1),
-        (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 2),
+        (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 1),
         (~/Descriptor_Deck_Pack_AH1F_CNITE_US, 2),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 2),
         (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 4),
@@ -1775,6 +1863,86 @@ Descriptor_Deck_Division_US_24th_Inf_multi is TDeckDivisionDescriptor
     TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "US"
 )
+Descriptor_Deck_Division_US_35th_Inf_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{12587ec5-8ee5-4c0d-bb5e-103b741c4f14}
+    CfgName = 'US_35th_Inf_multi'
+    DivisionName = 'EUQUXKDWZK'
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
+    DescriptionHintTitleToken = 'LNXOPMIBHC'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_81mm_mortar_NG_US, 1),
+        (~/Descriptor_Deck_Pack_A37B_Dragonfly_HE_US, 1),
+        (~/Descriptor_Deck_Pack_A37B_Dragonfly_NPLM_US, 1),
+        (~/Descriptor_Deck_Pack_A37B_Dragonfly_US, 1),
+        (~/Descriptor_Deck_Pack_AH1E_Cobra_US, 1),
+        (~/Descriptor_Deck_Pack_AH1F_Cobra_NG_US, 2),
+        (~/Descriptor_Deck_Pack_ATteam_ITOW_NG_US, 1),
+        (~/Descriptor_Deck_Pack_ATteam_RCL_M40A1_NG_US, 1),
+        (~/Descriptor_Deck_Pack_ATteam_TOW_US, 1),
+        (~/Descriptor_Deck_Pack_DCA_I_Hawk_US, 2),
+        (~/Descriptor_Deck_Pack_DCA_XMIM_115A_Roland_US, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_CBU_US, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_LGB2_US, 2),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_napalm_US, 1),
+        (~/Descriptor_Deck_Pack_F16E_AA2_US, 2),
+        (~/Descriptor_Deck_Pack_F16E_AGM_US, 1),
+        (~/Descriptor_Deck_Pack_F4E_Phantom_II_AT_US, 1),
+        (~/Descriptor_Deck_Pack_F4_Wild_Weasel_US, 1),
+        (~/Descriptor_Deck_Pack_FOB_US, 1),
+        (~/Descriptor_Deck_Pack_Gama_Goat_supply_US, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_M2HB_NG_US, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_M60_NG_US, 3),
+        (~/Descriptor_Deck_Pack_HvyScout_NG_Dragon_US, 2),
+        (~/Descriptor_Deck_Pack_HvyScout_NG_US, 1),
+        (~/Descriptor_Deck_Pack_LRRP_CEWI_US, 1),
+        (~/Descriptor_Deck_Pack_M106A2_Howz_NG_US, 2),
+        (~/Descriptor_Deck_Pack_M109A2_NG_US, 3),
+        (~/Descriptor_Deck_Pack_M110A2_Howz_NG_US, 2),
+        (~/Descriptor_Deck_Pack_M113A2_TOW_US, 2),
+        (~/Descriptor_Deck_Pack_M125_HOWZ_NG_US, 1),
+        (~/Descriptor_Deck_Pack_M151A2_TOW_NG_US, 1),
+        (~/Descriptor_Deck_Pack_M151_MUTT_CMD_US, 1),
+        (~/Descriptor_Deck_Pack_M42_Duster_US, 1),
+        (~/Descriptor_Deck_Pack_M577_US, 3),
+        (~/Descriptor_Deck_Pack_M60A1_RISE_Passive_CMD_US, 2),
+        (~/Descriptor_Deck_Pack_M60A1_RISE_Passive_US, 3),
+        (~/Descriptor_Deck_Pack_M60A1_RISE_Passive_reco_US, 1),
+        (~/Descriptor_Deck_Pack_M60A3_CMD_US, 1),
+        (~/Descriptor_Deck_Pack_M60A3_ERA_Patton_US, 1),
+        (~/Descriptor_Deck_Pack_M60A3_Patton_NG_US, 1),
+        (~/Descriptor_Deck_Pack_M728_CEV_NG_US, 1),
+        (~/Descriptor_Deck_Pack_M812_supply_US, 2),
+        (~/Descriptor_Deck_Pack_MANPAD_Redeye_US, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Stinger_NG_US, 2),
+        (~/Descriptor_Deck_Pack_MP_RCL_US, 1),
+        (~/Descriptor_Deck_Pack_MP_US, 1),
+        (~/Descriptor_Deck_Pack_Mortier_107mm_NG_US, 2),
+        (~/Descriptor_Deck_Pack_NatGuard_CMD_US, 3),
+        (~/Descriptor_Deck_Pack_NatGuard_Dragon_US, 3),
+        (~/Descriptor_Deck_Pack_NatGuard_Engineers_CMD_US, 1),
+        (~/Descriptor_Deck_Pack_NatGuard_Engineers_Flam_US, 1),
+        (~/Descriptor_Deck_Pack_NatGuard_Engineers_M67_US, 2),
+        (~/Descriptor_Deck_Pack_NatGuard_Engineers_US, 1),
+        (~/Descriptor_Deck_Pack_NatGuard_LAW_US, 2),
+        (~/Descriptor_Deck_Pack_NatGuard_M67_US, 1),
+        (~/Descriptor_Deck_Pack_OH58A_reco_NG_US, 1),
+        (~/Descriptor_Deck_Pack_Scout_NG_US, 2),
+        (~/Descriptor_Deck_Pack_UH1M_gunship_US, 1),
+        (~/Descriptor_Deck_Pack_UH60A_CO_US, 1),
+        (~/Descriptor_Deck_Pack_UH60A_Supply_US, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_US_35th_Inf_multi
+    EmblemTexture     = "Texture_Division_Emblem_US_35th_infantry_division"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "US"
+)
 Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{462b0cc2-0952-47d9-baf9-ad3af39c68a9}
@@ -1788,13 +1956,11 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
     [
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 4),
         (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 3),
-        (~/Descriptor_Deck_Pack_AH64_Apache_US, 4),
-        (~/Descriptor_Deck_Pack_AH64_Apache_emp1_US, 4),
-        (~/Descriptor_Deck_Pack_AH64_Apache_emp2_US, 2),
+        (~/Descriptor_Deck_Pack_AH64_Apache_emp1_US, 5),
+        (~/Descriptor_Deck_Pack_AH64_Apache_emp2_US, 5),
         (~/Descriptor_Deck_Pack_ATteam_ITOW_US, 1),
         (~/Descriptor_Deck_Pack_ATteam_TOW2_US, 2),
         (~/Descriptor_Deck_Pack_AeroRifles_US, 1),
-        (~/Descriptor_Deck_Pack_EH60A_EW_US, 1),
         (~/Descriptor_Deck_Pack_Engineer_CMD_US, 1),
         (~/Descriptor_Deck_Pack_Engineers_Dragon_US, 1),
         (~/Descriptor_Deck_Pack_Engineers_Flash_US, 1),
@@ -1943,8 +2109,8 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
     DescriptionHintTitleToken = 'ECGMWQOEZA'
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_ATGM_US, 2),
-        (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 2),
+        (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_ATGM_US, 1),
+        (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 1),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 4),
         (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 4),
         (~/Descriptor_Deck_Pack_ATteam_ITOW_US, 1),
@@ -2120,6 +2286,7 @@ Descriptor_Deck_Division_BEL_10PtserBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"
     StrategicLabelColor     = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_10Wing_solo is TDeckDivisionDescriptor
 (
@@ -2131,6 +2298,7 @@ Descriptor_Deck_Division_BEL_10Wing_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_12BrigInf_solo is TDeckDivisionDescriptor
 (
@@ -2142,6 +2310,7 @@ Descriptor_Deck_Division_BEL_12BrigInf_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_1e_Infanterie"
     StrategicLabelColor     = "division_BE_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_16de_PtserDiv_solo is TDeckDivisionDescriptor
 (
@@ -2153,6 +2322,7 @@ Descriptor_Deck_Division_BEL_16de_PtserDiv_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"
     StrategicLabelColor     = "division_BE_Boar_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_17BrigBlind_solo is TDeckDivisionDescriptor
 (
@@ -2164,17 +2334,19 @@ Descriptor_Deck_Division_BEL_17BrigBlind_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"
     StrategicLabelColor     = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_1DivInfanterie_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{5c139241-80b6-4fe6-ae66-248830c36b16}
     CfgName = 'BEL_1DivInfanterie_solo'
-    DivisionName = 'MBQYAXBVME'
+    DivisionName = 'IJZDSAJYMF'
     DivisionNationalite = ENationalite/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_1e_Infanterie"
     StrategicLabelColor     = "division_BE_Boar_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_1PtserInfBrig_solo is TDeckDivisionDescriptor
 (
@@ -2186,6 +2358,7 @@ Descriptor_Deck_Division_BEL_1PtserInfBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_1e_Infanterie"
     StrategicLabelColor     = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_1Wing_solo is TDeckDivisionDescriptor
 (
@@ -2197,6 +2370,7 @@ Descriptor_Deck_Division_BEL_1Wing_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_2Wing_solo is TDeckDivisionDescriptor
 (
@@ -2208,6 +2382,7 @@ Descriptor_Deck_Division_BEL_2Wing_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_3Wing_solo is TDeckDivisionDescriptor
 (
@@ -2219,6 +2394,7 @@ Descriptor_Deck_Division_BEL_3Wing_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_4PtserBrig_solo is TDeckDivisionDescriptor
 (
@@ -2230,6 +2406,7 @@ Descriptor_Deck_Division_BEL_4PtserBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"
     StrategicLabelColor     = "division_BE_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_7BrigInfBlind_solo is TDeckDivisionDescriptor
 (
@@ -2241,6 +2418,7 @@ Descriptor_Deck_Division_BEL_7BrigInfBlind_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_1e_Infanterie"
     StrategicLabelColor     = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_9Wing_solo is TDeckDivisionDescriptor
 (
@@ -2252,6 +2430,7 @@ Descriptor_Deck_Division_BEL_9Wing_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_BEL_BAF_solo is TDeckDivisionDescriptor
 (
@@ -2263,6 +2442,7 @@ Descriptor_Deck_Division_BEL_BAF_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_NATO_32ADG_solo is TDeckDivisionDescriptor
 (
@@ -2274,6 +2454,7 @@ Descriptor_Deck_Division_NATO_32ADG_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_NATO_CENTAG_solo is TDeckDivisionDescriptor
 (
@@ -2285,6 +2466,7 @@ Descriptor_Deck_Division_NATO_CENTAG_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_flag_us"
     StrategicLabelColor     = "corps_otan"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RDA_10MSD_solo is TDeckDivisionDescriptor
 (
@@ -2296,6 +2478,7 @@ Descriptor_Deck_Division_RDA_10MSD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_DDR_GroundForces_SansFond"
     StrategicLabelColor     = "division_DDR_11"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RDA_11MSD_solo is TDeckDivisionDescriptor
 (
@@ -2307,6 +2490,7 @@ Descriptor_Deck_Division_RDA_11MSD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_DDR_GroundForces_SansFond"
     StrategicLabelColor     = "division_DDR_11"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RDA_17MSD_solo is TDeckDivisionDescriptor
 (
@@ -2318,6 +2502,7 @@ Descriptor_Deck_Division_RDA_17MSD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_DDR_GroundForces_SansFond"
     StrategicLabelColor     = "division_DDR_11"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RDA_4MSD_solo is TDeckDivisionDescriptor
 (
@@ -2329,6 +2514,7 @@ Descriptor_Deck_Division_RDA_4MSD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
     StrategicLabelColor     = "division_DDR_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RDA_7PzD_solo is TDeckDivisionDescriptor
 (
@@ -2340,6 +2526,7 @@ Descriptor_Deck_Division_RDA_7PzD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_7_Panzerdivision_DDR"
     StrategicLabelColor     = "division_DDR_7"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RDA_ArtRgt3_solo is TDeckDivisionDescriptor
 (
@@ -2351,6 +2538,7 @@ Descriptor_Deck_Division_RDA_ArtRgt3_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RDA_MB_III"
     StrategicLabelColor     = "division_DDR_hq"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RDA_ArtRgt40_solo is TDeckDivisionDescriptor
 (
@@ -2362,6 +2550,7 @@ Descriptor_Deck_Division_RDA_ArtRgt40_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RDA_MB_III"
     StrategicLabelColor     = "division_DDR_hq"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RDA_LStR40_solo is TDeckDivisionDescriptor
 (
@@ -2373,6 +2562,7 @@ Descriptor_Deck_Division_RDA_LStR40_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RDA_LStR40"
     StrategicLabelColor     = "division_DDR_kassel_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RDA_MBDIII_solo is TDeckDivisionDescriptor
 (
@@ -2384,6 +2574,7 @@ Descriptor_Deck_Division_RDA_MBDIII_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RDA_MB_III"
     StrategicLabelColor     = "division_DDR_hq"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_12PzD_solo is TDeckDivisionDescriptor
 (
@@ -2395,6 +2586,7 @@ Descriptor_Deck_Division_RFA_12PzD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_12_Panzer"
     StrategicLabelColor     = "division_RFA_5"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_26AB_solo is TDeckDivisionDescriptor
 (
@@ -2406,6 +2598,7 @@ Descriptor_Deck_Division_RFA_26AB_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_26LLB"
     StrategicLabelColor     = "division_RFA_4"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_2LwDiv_solo is TDeckDivisionDescriptor
 (
@@ -2417,6 +2610,7 @@ Descriptor_Deck_Division_RFA_2LwDiv_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_Luftwaffe"
     StrategicLabelColor     = "division_RFA_air_kassel_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_2PzGrD_solo is TDeckDivisionDescriptor
 (
@@ -2428,6 +2622,7 @@ Descriptor_Deck_Division_RFA_2PzGrD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_2_PzGrenDivision_RFA"
     StrategicLabelColor     = "division_RFA_kassel_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_3EngBrig_solo is TDeckDivisionDescriptor
 (
@@ -2439,6 +2634,7 @@ Descriptor_Deck_Division_RFA_3EngBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_III_Korps"
     StrategicLabelColor     = "division_RFA_kdo"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_3FlakBrig_solo is TDeckDivisionDescriptor
 (
@@ -2450,6 +2646,7 @@ Descriptor_Deck_Division_RFA_3FlakBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_III_Korps"
     StrategicLabelColor     = "division_RFA_kdo"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_3HFG_solo is TDeckDivisionDescriptor
 (
@@ -2461,6 +2658,7 @@ Descriptor_Deck_Division_RFA_3HFG_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_III_Korps"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_3Korps_solo is TDeckDivisionDescriptor
 (
@@ -2472,6 +2670,7 @@ Descriptor_Deck_Division_RFA_3Korps_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_III_Korps"
     StrategicLabelColor     = "division_RFA_kdo"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_54Brig_solo is TDeckDivisionDescriptor
 (
@@ -2483,6 +2682,7 @@ Descriptor_Deck_Division_RFA_54Brig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_kdo"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_5PzD_solo is TDeckDivisionDescriptor
 (
@@ -2494,6 +2694,7 @@ Descriptor_Deck_Division_RFA_5PzD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_64Brig_solo is TDeckDivisionDescriptor
 (
@@ -2505,6 +2706,7 @@ Descriptor_Deck_Division_RFA_64Brig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_kdo"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_74PioRgt_solo is TDeckDivisionDescriptor
 (
@@ -2516,6 +2718,7 @@ Descriptor_Deck_Division_RFA_74PioRgt_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_FlakRakRgt14_solo is TDeckDivisionDescriptor
 (
@@ -2527,6 +2730,7 @@ Descriptor_Deck_Division_RFA_FlakRakRgt14_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_default"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_FlakRakRgt3_solo is TDeckDivisionDescriptor
 (
@@ -2538,6 +2742,7 @@ Descriptor_Deck_Division_RFA_FlakRakRgt3_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_default"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_FlakRakRgt4_solo is TDeckDivisionDescriptor
 (
@@ -2549,6 +2754,7 @@ Descriptor_Deck_Division_RFA_FlakRakRgt4_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_default"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_FlakRakRgt6_solo is TDeckDivisionDescriptor
 (
@@ -2560,6 +2766,7 @@ Descriptor_Deck_Division_RFA_FlakRakRgt6_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_default"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_Heimat71_solo is TDeckDivisionDescriptor
 (
@@ -2571,6 +2778,7 @@ Descriptor_Deck_Division_RFA_Heimat71_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_Heimat84_solo is TDeckDivisionDescriptor
 (
@@ -2582,6 +2790,7 @@ Descriptor_Deck_Division_RFA_Heimat84_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_Heimat94_solo is TDeckDivisionDescriptor
 (
@@ -2593,6 +2802,7 @@ Descriptor_Deck_Division_RFA_Heimat94_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_Luftwaffe_solo is TDeckDivisionDescriptor
 (
@@ -2604,6 +2814,7 @@ Descriptor_Deck_Division_RFA_Luftwaffe_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_Luftwaffe"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_TK_Nord_solo is TDeckDivisionDescriptor
 (
@@ -2615,6 +2826,7 @@ Descriptor_Deck_Division_RFA_TK_Nord_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_TK_Nord_solo_30 is TDeckDivisionDescriptor
 (
@@ -2626,6 +2838,7 @@ Descriptor_Deck_Division_RFA_TK_Nord_solo_30 is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_TK_Sud_solo is TDeckDivisionDescriptor
 (
@@ -2637,6 +2850,7 @@ Descriptor_Deck_Division_RFA_TK_Sud_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_VBK_41_solo is TDeckDivisionDescriptor
 (
@@ -2648,6 +2862,7 @@ Descriptor_Deck_Division_RFA_VBK_41_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_VBK_42_solo is TDeckDivisionDescriptor
 (
@@ -2659,6 +2874,7 @@ Descriptor_Deck_Division_RFA_VBK_42_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_VBK_43_solo is TDeckDivisionDescriptor
 (
@@ -2670,6 +2886,7 @@ Descriptor_Deck_Division_RFA_VBK_43_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_VBK_44_solo is TDeckDivisionDescriptor
 (
@@ -2681,6 +2898,7 @@ Descriptor_Deck_Division_RFA_VBK_44_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_violet_sombre"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_VBK_45_solo is TDeckDivisionDescriptor
 (
@@ -2692,6 +2910,7 @@ Descriptor_Deck_Division_RFA_VBK_45_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_VBK_46_solo is TDeckDivisionDescriptor
 (
@@ -2703,6 +2922,7 @@ Descriptor_Deck_Division_RFA_VBK_46_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_VBK_47_solo is TDeckDivisionDescriptor
 (
@@ -2714,6 +2934,7 @@ Descriptor_Deck_Division_RFA_VBK_47_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_105ADIB_solo is TDeckDivisionDescriptor
 (
@@ -2725,6 +2946,7 @@ Descriptor_Deck_Division_SOV_105ADIB_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_119IndTkBrig_solo is TDeckDivisionDescriptor
 (
@@ -2736,6 +2958,7 @@ Descriptor_Deck_Division_SOV_119IndTkBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_119OdtTP"
     StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_11GTkD_solo is TDeckDivisionDescriptor
 (
@@ -2747,6 +2970,7 @@ Descriptor_Deck_Division_SOV_11GTkD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision_boar_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_11ORAP_solo is TDeckDivisionDescriptor
 (
@@ -2758,6 +2982,7 @@ Descriptor_Deck_Division_SOV_11ORAP_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_125ADIB_solo is TDeckDivisionDescriptor
 (
@@ -2769,6 +2994,7 @@ Descriptor_Deck_Division_SOV_125ADIB_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_126IAD_solo is TDeckDivisionDescriptor
 (
@@ -2780,6 +3006,7 @@ Descriptor_Deck_Division_SOV_126IAD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_16GvIAD_solo is TDeckDivisionDescriptor
 (
@@ -2791,6 +3018,7 @@ Descriptor_Deck_Division_SOV_16GvIAD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_1GTA_SAM_Brig_solo is TDeckDivisionDescriptor
 (
@@ -2802,6 +3030,7 @@ Descriptor_Deck_Division_SOV_1GTA_SAM_Brig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_1GTA_solo is TDeckDivisionDescriptor
 (
@@ -2813,6 +3042,7 @@ Descriptor_Deck_Division_SOV_1GTA_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_1LVD_solo is TDeckDivisionDescriptor
 (
@@ -2824,6 +3054,7 @@ Descriptor_Deck_Division_SOV_1LVD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_20GMRD_solo is TDeckDivisionDescriptor
 (
@@ -2835,6 +3066,7 @@ Descriptor_Deck_Division_SOV_20GMRD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision_kassel_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_27GMRD_solo is TDeckDivisionDescriptor
 (
@@ -2846,6 +3078,7 @@ Descriptor_Deck_Division_SOV_27GMRD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_27GvMSD"
     StrategicLabelColor     = "SovDivision_boar_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_294ORAP_solo is TDeckDivisionDescriptor
 (
@@ -2857,6 +3090,7 @@ Descriptor_Deck_Division_SOV_294ORAP_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_308ArtBr_solo is TDeckDivisionDescriptor
 (
@@ -2868,6 +3102,7 @@ Descriptor_Deck_Division_SOV_308ArtBr_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_34ArtDiv_solo is TDeckDivisionDescriptor
 (
@@ -2879,6 +3114,7 @@ Descriptor_Deck_Division_SOV_34ArtDiv_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_357OCHAP_solo is TDeckDivisionDescriptor
 (
@@ -2890,6 +3126,7 @@ Descriptor_Deck_Division_SOV_357OCHAP_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_35GvDSHB_solo is TDeckDivisionDescriptor
 (
@@ -2901,6 +3138,7 @@ Descriptor_Deck_Division_SOV_35GvDSHB_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_35th_VDV_Brigade"
     StrategicLabelColor     = "SovDivision_kassel_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_368OCHAP_solo is TDeckDivisionDescriptor
 (
@@ -2912,6 +3150,7 @@ Descriptor_Deck_Division_SOV_368OCHAP_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_390ArtBr_solo is TDeckDivisionDescriptor
 (
@@ -2923,6 +3162,7 @@ Descriptor_Deck_Division_SOV_390ArtBr_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_39GMRD_solo is TDeckDivisionDescriptor
 (
@@ -2934,6 +3174,7 @@ Descriptor_Deck_Division_SOV_39GMRD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_39th_gmsd"
     StrategicLabelColor     = "SovDivision1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_3FrontUkr_solo is TDeckDivisionDescriptor
 (
@@ -2945,6 +3186,7 @@ Descriptor_Deck_Division_SOV_3FrontUkr_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "Vert"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_57GMRD_solo is TDeckDivisionDescriptor
 (
@@ -2956,6 +3198,7 @@ Descriptor_Deck_Division_SOV_57GMRD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_Blazon57th_gtd"
     StrategicLabelColor     = "SovDivision3"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_6GvIAD_solo is TDeckDivisionDescriptor
 (
@@ -2967,6 +3210,7 @@ Descriptor_Deck_Division_SOV_6GvIAD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_79GTkD_solo is TDeckDivisionDescriptor
 (
@@ -2978,6 +3222,7 @@ Descriptor_Deck_Division_SOV_79GTkD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
     StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_8GA_SAM_Brig_solo is TDeckDivisionDescriptor
 (
@@ -2989,6 +3234,7 @@ Descriptor_Deck_Division_SOV_8GA_SAM_Brig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_8GA_solo is TDeckDivisionDescriptor
 (
@@ -3000,6 +3246,7 @@ Descriptor_Deck_Division_SOV_8GA_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_931ORAP_solo is TDeckDivisionDescriptor
 (
@@ -3011,6 +3258,7 @@ Descriptor_Deck_Division_SOV_931ORAP_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_9TkD_solo is TDeckDivisionDescriptor
 (
@@ -3022,6 +3270,7 @@ Descriptor_Deck_Division_SOV_9TkD_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision_kassel_3"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_WGF_solo is TDeckDivisionDescriptor
 (
@@ -3033,6 +3282,7 @@ Descriptor_Deck_Division_SOV_WGF_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_flag_soviet"
     StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_UK_2ATAF_solo is TDeckDivisionDescriptor
 (
@@ -3044,6 +3294,7 @@ Descriptor_Deck_Division_UK_2ATAF_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
     StrategicLabelColor     = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_UK_NORTHAG_solo is TDeckDivisionDescriptor
 (
@@ -3055,6 +3306,7 @@ Descriptor_Deck_Division_UK_NORTHAG_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_UK_BAOR"
     StrategicLabelColor     = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_UK_RAFG_solo is TDeckDivisionDescriptor
 (
@@ -3066,6 +3318,7 @@ Descriptor_Deck_Division_UK_RAFG_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
     StrategicLabelColor     = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_UK_RAF_Bruggen_solo is TDeckDivisionDescriptor
 (
@@ -3075,8 +3328,9 @@ Descriptor_Deck_Division_UK_RAF_Bruggen_solo is TDeckDivisionDescriptor
     DivisionNationalite = ENationalite/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
-    StrategicLabelColor     = "BlancEquipe"
+    StrategicLabelColor     = "division_UK_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_UK_RAF_Gutersloh_solo is TDeckDivisionDescriptor
 (
@@ -3088,6 +3342,7 @@ Descriptor_Deck_Division_UK_RAF_Gutersloh_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
     StrategicLabelColor     = "division_UK_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_UK_RAF_Laarbruch_solo is TDeckDivisionDescriptor
 (
@@ -3097,8 +3352,9 @@ Descriptor_Deck_Division_UK_RAF_Laarbruch_solo is TDeckDivisionDescriptor
     DivisionNationalite = ENationalite/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
-    StrategicLabelColor     = "BlancEquipe"
+    StrategicLabelColor     = "division_UK_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_UK_RAF_Wildenrath_solo is TDeckDivisionDescriptor
 (
@@ -3108,8 +3364,9 @@ Descriptor_Deck_Division_UK_RAF_Wildenrath_solo is TDeckDivisionDescriptor
     DivisionNationalite = ENationalite/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
-    StrategicLabelColor     = "BlancEquipe"
+    StrategicLabelColor     = "division_UK_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_10TFW_solo is TDeckDivisionDescriptor
 (
@@ -3121,6 +3378,7 @@ Descriptor_Deck_Division_US_10TFW_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_11ACR_solo is TDeckDivisionDescriptor
 (
@@ -3132,6 +3390,7 @@ Descriptor_Deck_Division_US_11ACR_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_11ACR"
     StrategicLabelColor     = "division_US_6"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_11AviaBrig_solo is TDeckDivisionDescriptor
 (
@@ -3143,6 +3402,7 @@ Descriptor_Deck_Division_US_11AviaBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_12AviaGroup_solo is TDeckDivisionDescriptor
 (
@@ -3154,6 +3414,7 @@ Descriptor_Deck_Division_US_12AviaGroup_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_130Eng_solo is TDeckDivisionDescriptor
 (
@@ -3165,6 +3426,7 @@ Descriptor_Deck_Division_US_130Eng_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "corps_otan"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_14MPBrig_solo is TDeckDivisionDescriptor
 (
@@ -3176,6 +3438,7 @@ Descriptor_Deck_Division_US_14MPBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_17ABCorps_solo is TDeckDivisionDescriptor
 (
@@ -3187,6 +3450,7 @@ Descriptor_Deck_Division_US_17ABCorps_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_XVII_Corps"
     StrategicLabelColor     = "corps_otan"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_17AF_solo is TDeckDivisionDescriptor
 (
@@ -3198,6 +3462,7 @@ Descriptor_Deck_Division_US_17AF_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_17ArtBrig_solo is TDeckDivisionDescriptor
 (
@@ -3209,6 +3474,7 @@ Descriptor_Deck_Division_US_17ArtBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_18Eng_solo is TDeckDivisionDescriptor
 (
@@ -3220,6 +3486,7 @@ Descriptor_Deck_Division_US_18Eng_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_flag_us"
     StrategicLabelColor     = "corps_otan"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_18MPBrig_solo is TDeckDivisionDescriptor
 (
@@ -3231,6 +3498,7 @@ Descriptor_Deck_Division_US_18MPBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_194ArmBrig_solo is TDeckDivisionDescriptor
 (
@@ -3242,6 +3510,7 @@ Descriptor_Deck_Division_US_194ArmBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_194th_Armored_Brigade"
     StrategicLabelColor     = "corps_otan"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_197MechBrig_solo is TDeckDivisionDescriptor
 (
@@ -3253,6 +3522,7 @@ Descriptor_Deck_Division_US_197MechBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_197th_Mechanized_Brigade"
     StrategicLabelColor     = "corps_otan"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_1Arm_solo is TDeckDivisionDescriptor
 (
@@ -3264,6 +3534,7 @@ Descriptor_Deck_Division_US_1Arm_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_1st_Armored_Division"
     StrategicLabelColor     = "division_US_4"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_20TFW_solo is TDeckDivisionDescriptor
 (
@@ -3275,6 +3546,7 @@ Descriptor_Deck_Division_US_20TFW_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_210ArtBrig_solo is TDeckDivisionDescriptor
 (
@@ -3286,6 +3558,7 @@ Descriptor_Deck_Division_US_210ArtBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_2ACR_solo is TDeckDivisionDescriptor
 (
@@ -3297,6 +3570,7 @@ Descriptor_Deck_Division_US_2ACR_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "division_US_6"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_36TFW_solo is TDeckDivisionDescriptor
 (
@@ -3308,6 +3582,7 @@ Descriptor_Deck_Division_US_36TFW_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_3AF_solo is TDeckDivisionDescriptor
 (
@@ -3319,6 +3594,7 @@ Descriptor_Deck_Division_US_3AF_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_3Arm_solo is TDeckDivisionDescriptor
 (
@@ -3330,6 +3606,7 @@ Descriptor_Deck_Division_US_3Arm_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
     StrategicLabelColor     = "division_US_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_3Inf_solo is TDeckDivisionDescriptor
 (
@@ -3341,6 +3618,7 @@ Descriptor_Deck_Division_US_3Inf_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_3rd_infantry_division"
     StrategicLabelColor     = "division_US_3"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_3rd_Arm_solo is TDeckDivisionDescriptor
 (
@@ -3352,6 +3630,7 @@ Descriptor_Deck_Division_US_3rd_Arm_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_41FABrig_solo is TDeckDivisionDescriptor
 (
@@ -3363,6 +3642,7 @@ Descriptor_Deck_Division_US_41FABrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_42FABrig_solo is TDeckDivisionDescriptor
 (
@@ -3374,6 +3654,7 @@ Descriptor_Deck_Division_US_42FABrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_48TFW_solo is TDeckDivisionDescriptor
 (
@@ -3385,6 +3666,7 @@ Descriptor_Deck_Division_US_48TFW_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_4ATAF_solo is TDeckDivisionDescriptor
 (
@@ -3396,6 +3678,7 @@ Descriptor_Deck_Division_US_4ATAF_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_50TFW_solo is TDeckDivisionDescriptor
 (
@@ -3407,6 +3690,7 @@ Descriptor_Deck_Division_US_50TFW_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_52TFW_solo is TDeckDivisionDescriptor
 (
@@ -3418,6 +3702,7 @@ Descriptor_Deck_Division_US_52TFW_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_5Corps_solo is TDeckDivisionDescriptor
 (
@@ -3429,6 +3714,7 @@ Descriptor_Deck_Division_US_5Corps_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "corps_otan"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_72ArtBrig_solo is TDeckDivisionDescriptor
 (
@@ -3440,6 +3726,7 @@ Descriptor_Deck_Division_US_72ArtBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_7Corps_solo is TDeckDivisionDescriptor
 (
@@ -3451,6 +3738,7 @@ Descriptor_Deck_Division_US_7Corps_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "corps_otan"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_7Eng_solo is TDeckDivisionDescriptor
 (
@@ -3462,6 +3750,7 @@ Descriptor_Deck_Division_US_7Eng_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "corps_otan"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_81TFW_solo is TDeckDivisionDescriptor
 (
@@ -3473,6 +3762,7 @@ Descriptor_Deck_Division_US_81TFW_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_82AB_solo is TDeckDivisionDescriptor
 (
@@ -3484,6 +3774,7 @@ Descriptor_Deck_Division_US_82AB_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_82nd_airborne"
     StrategicLabelColor     = "division_US_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_86TFW_solo is TDeckDivisionDescriptor
 (
@@ -3495,6 +3786,7 @@ Descriptor_Deck_Division_US_86TFW_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_8Inf_solo is TDeckDivisionDescriptor
 (
@@ -3506,6 +3798,7 @@ Descriptor_Deck_Division_US_8Inf_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_8th_infantry_division"
     StrategicLabelColor     = "division_US_8th"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_BEL_1BEC_solo is TDeckDivisionDescriptor
 (
@@ -3517,6 +3810,7 @@ Descriptor_Deck_Division_US_BEL_1BEC_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_1_Corps"
     StrategicLabelColor     = "division_BE_kassel_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_BEL_COMRECCE_solo is TDeckDivisionDescriptor
 (
@@ -3528,6 +3822,7 @@ Descriptor_Deck_Division_US_BEL_COMRECCE_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_BEL_1_Corps"
     StrategicLabelColor     = "division_BE_Boar_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_CENTAG_solo is TDeckDivisionDescriptor
 (
@@ -3539,6 +3834,7 @@ Descriptor_Deck_Division_US_CENTAG_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_flag_us"
     StrategicLabelColor     = "corps_otan"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_UK_1BrC_solo is TDeckDivisionDescriptor
 (
@@ -3550,6 +3846,7 @@ Descriptor_Deck_Division_US_UK_1BrC_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_UK_1_Corps"
     StrategicLabelColor     = "division_UK_corps"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_UK_33ArmBrig_solo is TDeckDivisionDescriptor
 (
@@ -3561,6 +3858,7 @@ Descriptor_Deck_Division_US_UK_33ArmBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_UK_3rd_Armoured"
     StrategicLabelColor     = "division_UK_boar_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_UK_3ArmDiv_solo is TDeckDivisionDescriptor
 (
@@ -3572,6 +3870,7 @@ Descriptor_Deck_Division_US_UK_3ArmDiv_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_UK_3rd_Armoured"
     StrategicLabelColor     = "division_UK_boar_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_UK_6ArmBrig_solo is TDeckDivisionDescriptor
 (
@@ -3583,6 +3882,7 @@ Descriptor_Deck_Division_US_UK_6ArmBrig_solo is TDeckDivisionDescriptor
     EmblemTexture     = "Texture_Division_Emblem_UK_3rd_Armoured"
     StrategicLabelColor     = "division_UK_boar_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 
 Descriptor_Deck_Division_FR_7e_Blindee_challenge is TDeckDivisionDescriptor
@@ -3656,6 +3956,7 @@ Descriptor_Deck_Division_FR_7e_Blindee_challenge is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_FR_7eDB"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RDA_11MSD_challenge is TDeckDivisionDescriptor
 (
@@ -3743,6 +4044,7 @@ Descriptor_Deck_Division_RDA_11MSD_challenge is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_DDR_GroundForces_SansFond"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA is TDeckDivisionDescriptor
 (
@@ -3819,6 +4121,7 @@ Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_RFA_12_Panzer"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge is TDeckDivisionDescriptor
 (
@@ -3894,6 +4197,7 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge_IA is TDeckDivisionDescriptor
 (
@@ -3969,6 +4273,7 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge_IA is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_27_Gds_Rifle_challenge is TDeckDivisionDescriptor
 (
@@ -4060,6 +4365,7 @@ Descriptor_Deck_Division_SOV_27_Gds_Rifle_challenge is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_SOV_27GvMSD"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge is TDeckDivisionDescriptor
 (
@@ -4149,6 +4455,7 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge is TDeckDivisionDescripto
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_35th_VDV_Brigade"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge_IA is TDeckDivisionDescriptor
 (
@@ -4238,6 +4545,7 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge_IA is TDeckDivisionDescri
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_35th_VDV_Brigade"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge is TDeckDivisionDescriptor
 (
@@ -4325,6 +4633,7 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_39th_gmsd"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge_IA is TDeckDivisionDescriptor
 (
@@ -4412,6 +4721,7 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge_IA is TDeckDivisionDescripto
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_39th_gmsd"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_57_GMRD_challenge_Sledgehammer is TDeckDivisionDescriptor
 (
@@ -4453,6 +4763,7 @@ Descriptor_Deck_Division_SOV_57_GMRD_challenge_Sledgehammer is TDeckDivisionDesc
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_Blazon57th_gtd"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge is TDeckDivisionDescriptor
 (
@@ -4539,6 +4850,7 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge_IA is TDeckDivisionDescriptor
 (
@@ -4627,6 +4939,7 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge_IA is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_UK_Blues_Royals_challenge is TDeckDivisionDescriptor
 (
@@ -4701,6 +5014,7 @@ Descriptor_Deck_Division_UK_Blues_Royals_challenge is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_UK_3rd_Armoured"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_11ACR_multi_HB is TDeckDivisionDescriptor
 (
@@ -4780,6 +5094,7 @@ Descriptor_Deck_Division_US_11ACR_multi_HB is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_11ACR"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_3rd_Arm_challenge is TDeckDivisionDescriptor
 (
@@ -4859,6 +5174,7 @@ Descriptor_Deck_Division_US_3rd_Arm_challenge is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_3rd_Arm_challenge_IA is TDeckDivisionDescriptor
 (
@@ -4938,6 +5254,7 @@ Descriptor_Deck_Division_US_3rd_Arm_challenge_IA is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
 Descriptor_Deck_Division_US_8th_Inf_challenge_IA is TDeckDivisionDescriptor
 (
@@ -5024,4 +5341,5 @@ Descriptor_Deck_Division_US_8th_Inf_challenge_IA is TDeckDivisionDescriptor
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_8th_infantry_division"
     PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
 )
