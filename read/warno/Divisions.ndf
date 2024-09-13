@@ -589,7 +589,7 @@ Descriptor_Deck_Division_RDA_Rugen_Gruppierung is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_MiG_17PF_POL, 1),
         (~/Descriptor_Deck_Pack_MiG_23BN_KMGU_DDR, 1),
         (~/Descriptor_Deck_Pack_MiG_23ML_DDR, 2),
-        (~/Descriptor_Deck_Pack_Mi_14PL_AT_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_14PL_AT_DDR, 2),
         (~/Descriptor_Deck_Pack_Mi_14PL_recon_DDR, 1),
         (~/Descriptor_Deck_Pack_Mi_2_CMD_DDR, 1),
         (~/Descriptor_Deck_Pack_Mi_2_rocket_DDR, 1),
@@ -2316,7 +2316,7 @@ Descriptor_Deck_Division_BEL_16de_PtserDiv_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{ab0b3fe3-2977-4982-9bc8-fd0f00953cf6}
     CfgName = 'BEL_16de_PtserDiv_solo'
-    DivisionName = 'DCPLBIYTNN'
+    DivisionName = 'HWCKRNBHGQ'
     DivisionNationalite = ENationalite/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"

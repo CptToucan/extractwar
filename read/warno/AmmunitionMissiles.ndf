@@ -13715,7 +13715,7 @@ Ammo_SAM_9M8M3_x2 is TAmmunitionDescriptor
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 660 * Metre
+    RadiusSplashPhysicalDamages       = 450 * Metre
     PhysicalDamages                   = 13.0
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 810 * Metre
