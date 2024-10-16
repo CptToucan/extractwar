@@ -255,26 +255,34 @@ export class UnitManager extends AbstractManager {
     const supply = Number(this.getValueFromSearch('SupplyCapacity'));
     const ecm = Number(this.getValueFromSearch('HitRollECM'));
 
-    /**
-     * Parse the agility radius from the descriptor and parse the number from the metre string when the value is present
-     */
-    const agilityRadius = this.getValueFromSearch<string | undefined>(
-      'AgilityRadius'
-    )
-      ? Math.round(
-          NdfManager.parseNumberFromMetre(
-            this.getValueFromSearch('AgilityRadius')
-          )
-        )
-      : undefined;
+    let agilityRadius: number | undefined;
 
-    const flyingAltitude = this.getValueFromSearch('LowAltitudeFlyingAltitude')
-      ? Math.round(
-          NdfManager.parseNumberFromMetre(
-            this.getValueFromSearch('LowAltitudeFlyingAltitude')
-          )
-        )
-      : undefined;
+    if (this.getFirstSearchResult('AgilityRadiusGRU')) {
+      agilityRadius = Number(this.getValueFromSearch('AgilityRadiusGRU'));
+    } else {
+      const agilityRadiusSearchResult =
+        this.getValueFromSearch('AgilityRadius');
+
+      if (agilityRadiusSearchResult) {
+        agilityRadius = Math.round(
+          NdfManager.parseNumberFromMetre(agilityRadiusSearchResult as string)
+        );
+      }
+    }
+
+    let flyingAltitude: number | undefined;
+
+    if (this.getFirstSearchResult('AltitudeGRU')) {
+      flyingAltitude = Number(this.getValueFromSearch('AltitudeGRU'));
+    } else {
+      const flyingAltitudeSearchResult = this.getValueFromSearch('Altitude');
+
+      if (flyingAltitudeSearchResult) {
+        flyingAltitude = Math.round(
+          NdfManager.parseNumberFromMetre(flyingAltitudeSearchResult as string)
+        );
+      }
+    }
 
     const travelTime =
       Number(this.getValueFromSearch('TravelDuration')) || null;

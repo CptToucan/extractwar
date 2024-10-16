@@ -14,7 +14,6 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
-        ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
@@ -165,7 +164,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
-        ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
@@ -316,7 +314,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
-        ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
@@ -467,7 +464,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
-        ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
@@ -618,7 +614,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
-        ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
@@ -769,7 +764,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
-        ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (
@@ -920,7 +914,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
         ~/BuildingPositionModuleDescriptor,
-        ~/InflammableModuleDescriptorUnit,
         ~/LinkTeamModuleDescriptor,
         TExperienceModuleDescriptor
         (

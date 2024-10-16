@@ -3,7 +3,7 @@ private bonusPrecision is 3
 export HitRollParams is TRollParameters
 (
     // Distance parcouru par la cible entre deux tirs successifs au delà de laquelle on considère que l'unité a bougé
-    DistanceTolerance = 20000 * Metre
+    DistanceToleranceGRU = 7067
 
     // Chance to pierce if weaponPenetrationLevel > armorLevel - PiercingThresholdBias
     PiercingThresholdBias = 1

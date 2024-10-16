@@ -188,20 +188,39 @@ export class AmmunitionManager extends AbstractManager {
       Number(this.getValueFromSearch<string>('PhysicalDamages')).toFixed(4)
     );
 
-    const heDamageRadius = Math.round(
-      NdfManager.parseNumberFromMetre(
-        this.getValueFromSearch<string>('RadiusSplashPhysicalDamages')
-      )
-    );
+    let heDamageRadius;
+
+    if (this.getFirstSearchResult('RadiusSplashPhysicalDamagesGRU')) {
+      heDamageRadius = Number(
+        this.getValueFromSearch<string>('RadiusSplashPhysicalDamagesGRU')
+      );
+    } else {
+      heDamageRadius = Math.round(
+        NdfManager.parseNumberFromMetre(
+          this.getValueFromSearch<string>('RadiusSplashPhysicalDamages')
+        )
+      );
+    }
 
     const minMaxCategory = this.getValueFromSearch<string>('MinMaxCategory');
 
     const suppress = Number(this.getValueFromSearch<string>('SuppressDamages'));
-    const suppressDamagesRadius = Math.round(
-      NdfManager.parseNumberFromMetre(
-        this.getValueFromSearch<string>('RadiusSplashSuppressDamages')
-      )
-    );
+
+    let suppressDamagesRadius
+    
+    if(this.getFirstSearchResult('RadiusSplashSuppressDamagesGRU')) {
+      suppressDamagesRadius = Number(
+        this.getValueFromSearch<string>('RadiusSplashSuppressDamagesGRU')
+      );
+    }
+    else {
+      suppressDamagesRadius = Math.round(
+        NdfManager.parseNumberFromMetre(
+          this.getValueFromSearch<string>('RadiusSplashSuppressDamages')
+        )
+      );
+
+    }
 
     const numberOfSimultaneousProjectiles = Number(
       this.getValueFromSearch<string>('NbrProjectilesSimultanes')
@@ -216,7 +235,6 @@ export class AmmunitionManager extends AbstractManager {
       heliMinRange,
       planeMaxRange,
       planeMinRange;
-
 
     // Check if the weapon has the new range attributes
     // Ground range
@@ -234,8 +252,7 @@ export class AmmunitionManager extends AbstractManager {
     if (this.getFirstSearchResult('PorteeMaximaleTBAGRU')) {
       heliMaxRange = this.getRange('PorteeMaximaleTBAGRU');
       heliMinRange = this.getRange('PorteeMinimaleTBAGRU');
-    }
-    else {
+    } else {
       heliMaxRange = this.getLegacyRange('PorteeMaximaleTBA');
       heliMinRange = this.getLegacyRange('PorteeMinimaleTBA');
     }
@@ -244,8 +261,7 @@ export class AmmunitionManager extends AbstractManager {
     if (this.getFirstSearchResult('PorteeMaximaleHAGRU')) {
       planeMaxRange = this.getRange('PorteeMaximaleHAGRU');
       planeMinRange = this.getRange('PorteeMinimaleHAGRU');
-    }
-    else {
+    } else {
       planeMaxRange = this.getLegacyRange('PorteeMaximaleHA');
       planeMinRange = this.getLegacyRange('PorteeMinimaleHA');
     }
@@ -295,18 +311,14 @@ export class AmmunitionManager extends AbstractManager {
         planeMaxRange
       );
 
-      let distanceToTarget = false;
-      if(this.getFirstSearchResult('HitModifierList')) {
-        distanceToTarget = Boolean(
-          this.getFirstSearchResult('EDiceHitModifier/DistanceToTarget')
-        );
-      }
-      else {
-        distanceToTarget = Boolean(
-          this.getFirstSearchResult('DistanceToTarget')
-        );
-      }
-
+    let distanceToTarget = false;
+    if (this.getFirstSearchResult('HitModifierList')) {
+      distanceToTarget = Boolean(
+        this.getFirstSearchResult('EDiceHitModifier/DistanceToTarget')
+      );
+    } else {
+      distanceToTarget = Boolean(this.getFirstSearchResult('DistanceToTarget'));
+    }
 
     const damageDropOffToken = NdfManager.extractLastToken(
       this.getValueFromSearch('DamageTypeEvolutionOverRangeDescriptor')
@@ -353,39 +365,56 @@ export class AmmunitionManager extends AbstractManager {
       this.getValueFromSearch('ShotsBeforeMaxNoise')
     );
 
-    const dispersionAtMaxRangeSearchResult = this.getValueFromSearch(
-      'DispersionAtMaxRange'
-    );
+
 
     let dispersionAtMaxRange;
 
-    if (dispersionAtMaxRangeSearchResult) {
-      dispersionAtMaxRange = Number(
-        Number(
-          Number(
-            NdfManager.parseNumberFromMetre(
-              dispersionAtMaxRangeSearchResult as string
-            )
-          ).toFixed(2)
-        )
+    if (this.getFirstSearchResult('DispersionAtMaxRangeGRU')) {
+      dispersionAtMaxRange = Number(this.getValueFromSearch('DispersionAtMaxRangeGRU'));
+    } else {
+      const dispersionAtMaxRangeSearchResult = this.getValueFromSearch(
+        'DispersionAtMaxRange'
       );
+
+      if (dispersionAtMaxRangeSearchResult) {
+        dispersionAtMaxRange = Number(
+          Number(
+            Number(
+              NdfManager.parseNumberFromMetre(
+                dispersionAtMaxRangeSearchResult as string
+              )
+            ).toFixed(2)
+          )
+        );
+      }
+  
     }
 
-    const dispersionAtMinRangeSearchResult = this.getValueFromSearch(
-      'DispersionAtMinRange'
-    );
+   
+
     let dispersionAtMinRange;
-    if (dispersionAtMinRangeSearchResult) {
-      dispersionAtMinRange = Number(
-        Number(
-          Number(
-            NdfManager.parseNumberFromMetre(
-              dispersionAtMinRangeSearchResult as string
-            )
-          )
-        ).toFixed(2)
+
+    if (this.getFirstSearchResult('DispersionAtMinRangeGRU')) {
+      dispersionAtMinRange = Number(this.getValueFromSearch('DispersionAtMinRangeGRU'));
+    } else {
+      const dispersionAtMinRangeSearchResult = this.getValueFromSearch(
+        'DispersionAtMinRange'
       );
+
+      if (dispersionAtMinRangeSearchResult) {
+        dispersionAtMinRange = Number(
+          Number(
+            Number(
+              NdfManager.parseNumberFromMetre(
+                dispersionAtMinRangeSearchResult as string
+              )
+            ).toFixed(2)
+          )
+        );
+      }
+  
     }
+
 
     const hasSuccessiveShotBonus = true;
 

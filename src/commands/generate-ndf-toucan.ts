@@ -29,6 +29,7 @@ export default class GenerateNdfToucan extends Command {
     const outDir = args.outDir;
     const backupDir = args.backupDir;
 
+    
     // clear read-previous-patch directory
     if (fs.existsSync(backupDir)) {
       fs.rmdirSync(backupDir, { recursive: true });
@@ -38,6 +39,7 @@ export default class GenerateNdfToucan extends Command {
     if (fs.existsSync(outDir)) {
       fs.renameSync(outDir, backupDir);
     }
+    
 
     // create read directory
     fs.mkdirSync(outDir, { recursive: true });

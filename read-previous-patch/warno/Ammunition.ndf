@@ -24576,7 +24576,7 @@ Ammo_Gatling_m134_7_62mm is TAmmunitionDescriptor
     RadiusSplashSuppressDamages       = 7 * Metre
     SuppressDamages                   = 30.0
     AllowSuppressDamageWhenNoImpact                = False
-    DisplaySalveAccuracy              = True
+    DisplaySalveAccuracy              = False
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
@@ -24593,8 +24593,8 @@ Ammo_Gatling_m134_7_62mm is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 4),
-            (EBaseHitValueModifier/Moving, 2),
+            (EBaseHitValueModifier/Idling, 35),
+            (EBaseHitValueModifier/Moving, 35),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
         DistanceToTarget = True
@@ -24657,7 +24657,7 @@ Ammo_Gatling_m134_7_62mm_x2 is TAmmunitionDescriptor
     RadiusSplashSuppressDamages       = 7 * Metre
     SuppressDamages                   = 30.0
     AllowSuppressDamageWhenNoImpact                = False
-    DisplaySalveAccuracy              = True
+    DisplaySalveAccuracy              = False
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
@@ -24674,8 +24674,8 @@ Ammo_Gatling_m134_7_62mm_x2 is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 4),
-            (EBaseHitValueModifier/Moving, 2),
+            (EBaseHitValueModifier/Idling, 35),
+            (EBaseHitValueModifier/Moving, 35),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
         DistanceToTarget = True
@@ -27439,13 +27439,13 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 183 * Metre
-    PhysicalDamages                   = 2.074
+    PhysicalDamages                   = 2.2814
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 281 * Metre
     SuppressDamages                   = 159.0
@@ -27473,7 +27473,7 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 49.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -27516,13 +27516,13 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -27550,7 +27550,7 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 49.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -27593,13 +27593,13 @@ Ammo_Howz_Canon_2A36_SP_152mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 28250
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 228 * Metre
-    PhysicalDamages                   = 3.04
+    PhysicalDamages                   = 3.344
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 350 * Metre
     SuppressDamages                   = 209.0
@@ -27627,7 +27627,7 @@ Ammo_Howz_Canon_2A36_SP_152mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 25.0
+    TempsDeVisee                      = 22.5
     TempsEntreDeuxSalves              = 55.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -27746,13 +27746,13 @@ Ammo_Howz_Canon_2A36_SP_152mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 28250
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -27780,7 +27780,7 @@ Ammo_Howz_Canon_2A36_SP_152mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 25.0
+    TempsDeVisee                      = 22.5
     TempsEntreDeuxSalves              = 55.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -27823,13 +27823,13 @@ Ammo_Howz_Canon_2A36_towed_152mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 28250
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -27857,7 +27857,7 @@ Ammo_Howz_Canon_2A36_towed_152mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -27900,13 +27900,13 @@ Ammo_Howz_Canon_2A36_towed_152mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 28250
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -27934,7 +27934,7 @@ Ammo_Howz_Canon_2A36_towed_152mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -27977,13 +27977,13 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 38850
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 304 * Metre
-    PhysicalDamages                   = 4.466
+    PhysicalDamages                   = 4.912599999999999
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 467 * Metre
     SuppressDamages                   = 264.0
@@ -28011,7 +28011,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 40.0
+    TempsDeVisee                      = 31.5
     TempsEntreDeuxSalves              = 81.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28054,13 +28054,13 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 38850
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -28088,7 +28088,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 40.0
+    TempsDeVisee                      = 31.5
     TempsEntreDeuxSalves              = 81.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28131,13 +28131,13 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 38850
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 304 * Metre
-    PhysicalDamages                   = 4.466
+    PhysicalDamages                   = 4.912599999999999
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 467 * Metre
     SuppressDamages                   = 264.0
@@ -28165,7 +28165,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 40.0
+    TempsDeVisee                      = 31.5
     TempsEntreDeuxSalves              = 81.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28208,13 +28208,13 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 38850
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -28242,7 +28242,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 40.0
+    TempsDeVisee                      = 31.5
     TempsEntreDeuxSalves              = 81.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28285,13 +28285,13 @@ Ammo_Howz_Canon_2A51_Howitzer_120mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 8800
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.5
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 183 * Metre
-    PhysicalDamages                   = 2.074
+    PhysicalDamages                   = 2.2814
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 281 * Metre
     SuppressDamages                   = 159.0
@@ -28319,7 +28319,7 @@ Ammo_Howz_Canon_2A51_Howitzer_120mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 48.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28362,13 +28362,13 @@ Ammo_Howz_Canon_2A51_Howitzer_120mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 8800
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.5
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -28396,7 +28396,7 @@ Ammo_Howz_Canon_2A51_Howitzer_120mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 48.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28439,13 +28439,13 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 8800
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.5
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 183 * Metre
-    PhysicalDamages                   = 2.074
+    PhysicalDamages                   = 2.2814
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 281 * Metre
     SuppressDamages                   = 159.0
@@ -28473,7 +28473,7 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 48.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28516,13 +28516,13 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 8800
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.5
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -28550,7 +28550,7 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 48.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28593,13 +28593,13 @@ Ammo_Howz_Canon_2A64_152mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 228 * Metre
-    PhysicalDamages                   = 3.04
+    PhysicalDamages                   = 3.344
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 350 * Metre
     SuppressDamages                   = 209.0
@@ -28627,7 +28627,7 @@ Ammo_Howz_Canon_2A64_152mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 25.0
+    TempsDeVisee                      = 22.5
     TempsEntreDeuxSalves              = 55.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28746,13 +28746,13 @@ Ammo_Howz_Canon_2A64_152mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -28780,7 +28780,7 @@ Ammo_Howz_Canon_2A64_152mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 25.0
+    TempsDeVisee                      = 22.5
     TempsEntreDeuxSalves              = 55.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28899,13 +28899,13 @@ Ammo_Howz_Canon_2A65_towed_152mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 228 * Metre
-    PhysicalDamages                   = 3.04
+    PhysicalDamages                   = 3.344
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 350 * Metre
     SuppressDamages                   = 209.0
@@ -28933,7 +28933,7 @@ Ammo_Howz_Canon_2A65_towed_152mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -28976,13 +28976,13 @@ Ammo_Howz_Canon_2A65_towed_152mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -29010,7 +29010,7 @@ Ammo_Howz_Canon_2A65_towed_152mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29053,13 +29053,13 @@ Ammo_Howz_Canon_2B16_NONA_K_120mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 8800
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.5
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 183 * Metre
-    PhysicalDamages                   = 2.074
+    PhysicalDamages                   = 2.2814
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 281 * Metre
     SuppressDamages                   = 159.0
@@ -29087,7 +29087,7 @@ Ammo_Howz_Canon_2B16_NONA_K_120mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 48.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29130,13 +29130,13 @@ Ammo_Howz_Canon_2B16_NONA_K_120mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 8800
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.5
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -29164,7 +29164,7 @@ Ammo_Howz_Canon_2B16_NONA_K_120mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 48.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29207,13 +29207,13 @@ Ammo_Howz_Canon_A19_Howitzer_122mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 183 * Metre
-    PhysicalDamages                   = 2.074
+    PhysicalDamages                   = 2.2814
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 281 * Metre
     SuppressDamages                   = 159.0
@@ -29241,7 +29241,7 @@ Ammo_Howz_Canon_A19_Howitzer_122mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 49.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29360,13 +29360,13 @@ Ammo_Howz_Canon_A19_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -29394,7 +29394,7 @@ Ammo_Howz_Canon_A19_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 49.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29437,13 +29437,13 @@ Ammo_Howz_Canon_D20_Howitzer_152mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -29471,7 +29471,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29514,13 +29514,13 @@ Ammo_Howz_Canon_D20_Howitzer_152mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -29548,7 +29548,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29591,13 +29591,13 @@ Ammo_Howz_Canon_D20_towed_152mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -29625,7 +29625,7 @@ Ammo_Howz_Canon_D20_towed_152mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29743,13 +29743,13 @@ Ammo_Howz_Canon_D20_towed_152mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -29777,7 +29777,7 @@ Ammo_Howz_Canon_D20_towed_152mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29820,13 +29820,13 @@ Ammo_Howz_Canon_D22_Howitzer_152mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 228 * Metre
-    PhysicalDamages                   = 3.04
+    PhysicalDamages                   = 3.344
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 350 * Metre
     SuppressDamages                   = 209.0
@@ -29854,7 +29854,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29897,13 +29897,13 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 228 * Metre
-    PhysicalDamages                   = 3.04
+    PhysicalDamages                   = 3.344
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 350 * Metre
     SuppressDamages                   = 209.0
@@ -29931,7 +29931,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -29974,13 +29974,13 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -30008,7 +30008,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30057,7 +30057,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_guided is TAmmunitionDescriptor
     CorrectedShotDispersionMultiplier = 0.25
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 228 * Metre
-    PhysicalDamages                   = 3.04
+    PhysicalDamages                   = 3.344
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 350 * Metre
     SuppressDamages                   = 209.0
@@ -30085,7 +30085,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_guided is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30134,7 +30134,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_guided_SMOKE is TAmmunitionDescriptor
     CorrectedShotDispersionMultiplier = 0.25
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -30162,7 +30162,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_guided_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30205,13 +30205,13 @@ Ammo_Howz_Canon_D30_Howitzer_122mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 183 * Metre
-    PhysicalDamages                   = 2.074
+    PhysicalDamages                   = 2.2814
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 281 * Metre
     SuppressDamages                   = 159.0
@@ -30239,7 +30239,7 @@ Ammo_Howz_Canon_D30_Howitzer_122mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 49.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30282,13 +30282,13 @@ Ammo_Howz_Canon_D30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -30316,7 +30316,7 @@ Ammo_Howz_Canon_D30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 49.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30359,13 +30359,13 @@ Ammo_Howz_Canon_DANA_SP_152mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 228 * Metre
-    PhysicalDamages                   = 3.04
+    PhysicalDamages                   = 3.344
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 350 * Metre
     SuppressDamages                   = 209.0
@@ -30393,7 +30393,7 @@ Ammo_Howz_Canon_DANA_SP_152mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30511,13 +30511,13 @@ Ammo_Howz_Canon_DANA_SP_152mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -30545,7 +30545,7 @@ Ammo_Howz_Canon_DANA_SP_152mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 29.0
+    TempsDeVisee                      = 26.1
     TempsEntreDeuxSalves              = 60.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30588,13 +30588,13 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -30622,7 +30622,7 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 26.0
+    TempsDeVisee                      = 23.4
     TempsEntreDeuxSalves              = 53.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30665,13 +30665,13 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -30699,7 +30699,7 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 26.0
+    TempsDeVisee                      = 23.4
     TempsEntreDeuxSalves              = 53.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30742,13 +30742,13 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -30776,7 +30776,7 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30819,13 +30819,13 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -30853,7 +30853,7 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -30896,13 +30896,13 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -30930,7 +30930,7 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 25.0
+    TempsDeVisee                      = 22.5
     TempsEntreDeuxSalves              = 55.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31049,13 +31049,13 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -31083,7 +31083,7 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 25.0
+    TempsDeVisee                      = 22.5
     TempsEntreDeuxSalves              = 55.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31126,13 +31126,13 @@ Ammo_Howz_Canon_L13A1__Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -31160,7 +31160,7 @@ Ammo_Howz_Canon_L13A1__Howitzer_105mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 21.0
+    TempsDeVisee                      = 18.9
     TempsEntreDeuxSalves              = 42.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31203,13 +31203,13 @@ Ammo_Howz_Canon_L13A1_Howitzer_105mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 160 * Metre
-    PhysicalDamages                   = 1.712
+    PhysicalDamages                   = 1.8832
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 246 * Metre
     SuppressDamages                   = 128.0
@@ -31237,7 +31237,7 @@ Ammo_Howz_Canon_L13A1_Howitzer_105mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 21.0
+    TempsDeVisee                      = 18.9
     TempsEntreDeuxSalves              = 42.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31280,13 +31280,13 @@ Ammo_Howz_Canon_M101_Howitzer_105mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 10575
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 160 * Metre
-    PhysicalDamages                   = 1.712
+    PhysicalDamages                   = 1.8832
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 246 * Metre
     SuppressDamages                   = 128.0
@@ -31314,7 +31314,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 21.0
+    TempsDeVisee                      = 18.9
     TempsEntreDeuxSalves              = 42.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31357,13 +31357,13 @@ Ammo_Howz_Canon_M101_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 10575
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -31391,7 +31391,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 21.0
+    TempsDeVisee                      = 18.9
     TempsEntreDeuxSalves              = 42.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31434,13 +31434,13 @@ Ammo_Howz_Canon_M102_Howitzer_105mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 160 * Metre
-    PhysicalDamages                   = 1.712
+    PhysicalDamages                   = 1.8832
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 246 * Metre
     SuppressDamages                   = 128.0
@@ -31468,7 +31468,7 @@ Ammo_Howz_Canon_M102_Howitzer_105mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 21.0
+    TempsDeVisee                      = 18.9
     TempsEntreDeuxSalves              = 42.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31511,13 +31511,13 @@ Ammo_Howz_Canon_M102_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -31545,7 +31545,7 @@ Ammo_Howz_Canon_M102_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 21.0
+    TempsDeVisee                      = 18.9
     TempsEntreDeuxSalves              = 42.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31588,13 +31588,13 @@ Ammo_Howz_Canon_M103_SP_105mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 10575
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 160 * Metre
-    PhysicalDamages                   = 1.712
+    PhysicalDamages                   = 1.8832
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 246 * Metre
     SuppressDamages                   = 128.0
@@ -31622,7 +31622,7 @@ Ammo_Howz_Canon_M103_SP_105mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 21.0
+    TempsDeVisee                      = 18.9
     TempsEntreDeuxSalves              = 42.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31741,13 +31741,13 @@ Ammo_Howz_Canon_M103_SP_105mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 10575
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -31775,7 +31775,7 @@ Ammo_Howz_Canon_M103_SP_105mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 21.0
+    TempsDeVisee                      = 18.9
     TempsEntreDeuxSalves              = 42.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31818,13 +31818,13 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 35300
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 248 * Metre
-    PhysicalDamages                   = 3.465
+    PhysicalDamages                   = 3.8115000000000006
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 379 * Metre
     SuppressDamages                   = 236.0
@@ -31852,7 +31852,7 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 35.0
+    TempsDeVisee                      = 31.5
     TempsEntreDeuxSalves              = 70.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31895,13 +31895,13 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 35300
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -31929,7 +31929,7 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 35.0
+    TempsDeVisee                      = 31.5
     TempsEntreDeuxSalves              = 70.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -31972,13 +31972,13 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -32006,7 +32006,7 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 26.0
+    TempsDeVisee                      = 23.4
     TempsEntreDeuxSalves              = 53.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32125,13 +32125,13 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -32159,7 +32159,7 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32202,13 +32202,13 @@ Ammo_Howz_Canon_M114_Howitzer_155mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -32236,7 +32236,7 @@ Ammo_Howz_Canon_M114_Howitzer_155mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32355,13 +32355,13 @@ Ammo_Howz_Canon_M114_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -32389,7 +32389,7 @@ Ammo_Howz_Canon_M114_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32432,13 +32432,13 @@ Ammo_Howz_Canon_M115_towed_203mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 304 * Metre
-    PhysicalDamages                   = 4.466
+    PhysicalDamages                   = 4.912599999999999
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 467 * Metre
     SuppressDamages                   = 264.0
@@ -32466,7 +32466,7 @@ Ammo_Howz_Canon_M115_towed_203mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 40.0
+    TempsDeVisee                      = 31.5
     TempsEntreDeuxSalves              = 81.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32585,13 +32585,13 @@ Ammo_Howz_Canon_M115_towed_203mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -32619,7 +32619,7 @@ Ammo_Howz_Canon_M115_towed_203mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 40.0
+    TempsDeVisee                      = 31.5
     TempsEntreDeuxSalves              = 81.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32662,13 +32662,13 @@ Ammo_Howz_Canon_M118_Howitzer_105mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 160 * Metre
-    PhysicalDamages                   = 1.712
+    PhysicalDamages                   = 1.8832
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 246 * Metre
     SuppressDamages                   = 128.0
@@ -32696,7 +32696,7 @@ Ammo_Howz_Canon_M118_Howitzer_105mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 21.0
+    TempsDeVisee                      = 18.9
     TempsEntreDeuxSalves              = 42.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32739,13 +32739,13 @@ Ammo_Howz_Canon_M118_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -32773,7 +32773,7 @@ Ammo_Howz_Canon_M118_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 21.0
+    TempsDeVisee                      = 18.9
     TempsEntreDeuxSalves              = 42.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32816,13 +32816,13 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 21175
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -32850,7 +32850,7 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32893,13 +32893,13 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 21175
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -32927,7 +32927,7 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32970,13 +32970,13 @@ Ammo_Howz_Canon_M198_Howitzer_155mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -33004,7 +33004,7 @@ Ammo_Howz_Canon_M198_Howitzer_155mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33047,13 +33047,13 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -33081,7 +33081,7 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33130,7 +33130,7 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_guided is TAmmunitionDescriptor
     CorrectedShotDispersionMultiplier = 0.25
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -33158,7 +33158,7 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_guided is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33207,7 +33207,7 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_guided_SMOKE is TAmmunitionDescriptor
     CorrectedShotDispersionMultiplier = 0.25
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -33235,7 +33235,7 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_guided_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33278,13 +33278,13 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 304 * Metre
-    PhysicalDamages                   = 4.466
+    PhysicalDamages                   = 4.912599999999999
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 467 * Metre
     SuppressDamages                   = 264.0
@@ -33312,7 +33312,7 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 40.0
+    TempsDeVisee                      = 31.5
     TempsEntreDeuxSalves              = 81.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33355,13 +33355,13 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -33389,7 +33389,7 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 40.0
+    TempsDeVisee                      = 31.5
     TempsEntreDeuxSalves              = 81.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33432,7 +33432,7 @@ Ammo_Howz_Canon_M240_SP_240mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 9625
     PorteeMinimaleGRU                 = 1367
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -33465,7 +33465,7 @@ Ammo_Howz_Canon_M240_SP_240mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 30.0
+    TempsDeVisee                      = 24.0
     TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33508,7 +33508,7 @@ Ammo_Howz_Canon_M240_SP_240mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 9625
     PorteeMinimaleGRU                 = 1367
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -33541,7 +33541,7 @@ Ammo_Howz_Canon_M240_SP_240mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 30.0
+    TempsDeVisee                      = 24.0
     TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33584,13 +33584,13 @@ Ammo_Howz_Canon_M30_Howitzer_122mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 12350
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 183 * Metre
-    PhysicalDamages                   = 2.074
+    PhysicalDamages                   = 2.2814
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 281 * Metre
     SuppressDamages                   = 159.0
@@ -33618,7 +33618,7 @@ Ammo_Howz_Canon_M30_Howitzer_122mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 49.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33737,13 +33737,13 @@ Ammo_Howz_Canon_M30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 12350
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -33771,7 +33771,7 @@ Ammo_Howz_Canon_M30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 24.0
+    TempsDeVisee                      = 21.6
     TempsEntreDeuxSalves              = 49.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33814,13 +33814,13 @@ Ammo_Howz_Canon_M46_Howitzer_130mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 28250
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 195 * Metre
-    PhysicalDamages                   = 2.34
+    PhysicalDamages                   = 2.574
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 299 * Metre
     SuppressDamages                   = 172.0
@@ -33848,7 +33848,7 @@ Ammo_Howz_Canon_M46_Howitzer_130mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 26.0
+    TempsDeVisee                      = 23.4
     TempsEntreDeuxSalves              = 53.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33891,13 +33891,13 @@ Ammo_Howz_Canon_M46_Howitzer_130mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 28250
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -33925,7 +33925,7 @@ Ammo_Howz_Canon_M46_Howitzer_130mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 26.0
+    TempsDeVisee                      = 23.4
     TempsEntreDeuxSalves              = 53.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -33968,13 +33968,13 @@ Ammo_Howz_Canon_M50_155mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -34002,7 +34002,7 @@ Ammo_Howz_Canon_M50_155mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -34045,13 +34045,13 @@ Ammo_Howz_Canon_M50_155mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -34079,7 +34079,7 @@ Ammo_Howz_Canon_M50_155mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -34122,13 +34122,13 @@ Ammo_Howz_Canon_TRF1_155mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 232 * Metre
-    PhysicalDamages                   = 3.1
+    PhysicalDamages                   = 3.41
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 356 * Metre
     SuppressDamages                   = 213.0
@@ -34156,7 +34156,7 @@ Ammo_Howz_Canon_TRF1_155mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -34199,13 +34199,13 @@ Ammo_Howz_Canon_TRF1_155mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 24700
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -34233,7 +34233,7 @@ Ammo_Howz_Canon_TRF1_155mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 31.0
+    TempsDeVisee                      = 27.9
     TempsEntreDeuxSalves              = 62.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -34276,13 +34276,13 @@ Ammo_Howz_Canon_ZiS3_Howitzer_76mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 114 * Metre
-    PhysicalDamages                   = 1.102
+    PhysicalDamages                   = 1.2122
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 201 * Metre
     SuppressDamages                   = 91.0
@@ -34310,7 +34310,7 @@ Ammo_Howz_Canon_ZiS3_Howitzer_76mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 15.0
+    TempsDeVisee                      = 13.5
     TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -34353,13 +34353,13 @@ Ammo_Howz_Canon_ZiS3_Howitzer_76mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -34387,7 +34387,7 @@ Ammo_Howz_Canon_ZiS3_Howitzer_76mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 15.0
+    TempsDeVisee                      = 13.5
     TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -34886,13 +34886,13 @@ Ammo_M185_155mm_NUKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 21175
     PorteeMinimaleGRU                 = 1800
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((800) * Metre)
+    DispersionAtMaxRange              = ((900) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 800 * Metre
-    PhysicalDamages                   = 102.4
+    PhysicalDamages                   = 112.64000000000001
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 3200 * Metre
     SuppressDamages                   = 800.0
@@ -34920,7 +34920,7 @@ Ammo_M185_155mm_NUKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 26.0
+    TempsDeVisee                      = 23.4
     TempsEntreDeuxSalves              = 54.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -34964,8 +34964,8 @@ Ammo_MLRS_140mm_towed is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 10575
     PorteeMinimaleGRU                 = 1943
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 172 * Metre
@@ -38918,7 +38918,7 @@ Ammo_Mortier_2B14_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -38951,7 +38951,7 @@ Ammo_Mortier_2B14_82mm_SMOKE_TOWED is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -38994,7 +38994,7 @@ Ammo_Mortier_2B14_82mm_TOWED is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39027,7 +39027,7 @@ Ammo_Mortier_2B14_82mm_TOWED is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39070,7 +39070,7 @@ Ammo_Mortier_2S12_120mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39103,7 +39103,7 @@ Ammo_Mortier_2S12_120mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 16.0
+    TempsDeVisee                      = 12.8
     TempsEntreDeuxSalves              = 12.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39146,7 +39146,7 @@ Ammo_Mortier_2S12_120mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39179,7 +39179,7 @@ Ammo_Mortier_2S12_120mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39222,7 +39222,7 @@ Ammo_Mortier_60mm_longue_portee is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4225
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39255,7 +39255,7 @@ Ammo_Mortier_60mm_longue_portee is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39297,7 +39297,7 @@ Ammo_Mortier_81mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39330,7 +39330,7 @@ Ammo_Mortier_81mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39373,7 +39373,7 @@ Ammo_Mortier_81mm_61C is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39406,7 +39406,7 @@ Ammo_Mortier_81mm_61C is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39449,7 +39449,7 @@ Ammo_Mortier_81mm_61C_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39482,7 +39482,159 @@ Ammo_Mortier_81mm_61C_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
+    TempsEntreDeuxSalves              = 5.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 5
+    SupplyCost                        = 5.0
+    NbSalvosShootOnPosition           = 2
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 5
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_81mm_mortar"
+    SmokeDescriptor                   = $/GFX/Weapon/Descriptor_Smoke_Fumi81mm
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    FlightTimeForSpeed                    = 15.0
+    DistanceForSpeed                      = 13938.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Mortier_81mm_MO81_61C_towed is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{2611ac8d-627b-4e81-a9fe-c096b26d5562}
+    Name                              = 'HHUGAYSCFV'
+    TypeCategoryName                  = 'HYUWZSIKYW'
+    Caliber                           = 'VTYBQBGFPC'
+    WeaponDescriptionToken            = 'YWFMBNSXOW'
+    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Mortier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = [ 'MortierM30107Mm' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 3.0
+    TempsEntreDeuxFx                  = 3.0
+    PorteeMaximaleGRU                 = 4925
+    PorteeMinimaleGRU                 = 1202
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((1000) * Metre)
+    DispersionAtMinRange              = ((200) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 146 * Metre
+    PhysicalDamages                   = 0.9963000000000001
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 219 * Metre
+    SuppressDamages                   = 103.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    MaximalSpeed                      = 0.0
+    ShotWithoutPhysics                = False
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{331e200d-3e9f-4de0-afa6-4dc52569ced7}
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 0),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    TempsDeVisee                      = 9.2
+    TempsEntreDeuxSalves              = 8.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 5
+    SupplyCost                        = 40.0
+    NbSalvosShootOnPosition           = 2
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 5
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_81mm_mortar"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.2
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    FlightTimeForSpeed                    = 15.0
+    DistanceForSpeed                      = 13938.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Mortier_81mm_MO81_61C_towed_SMOKE is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{264b0d67-5518-4895-a419-f9fc56818388}
+    Name                              = 'EMDMBCMHDJ'
+    TypeCategoryName                  = 'HYUWZSIKYW'
+    Caliber                           = 'VTYBQBGFPC'
+    WeaponDescriptionToken            = 'YWFMBNSXOW'
+    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Mortier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_he Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = [ 'MortierM30107MmSmoke' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 3.0
+    TempsEntreDeuxFx                  = 3.0
+    PorteeMaximaleGRU                 = 4925
+    PorteeMinimaleGRU                 = 1202
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((1000) * Metre)
+    DispersionAtMinRange              = ((200) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 5 * Metre
+    PhysicalDamages                   = 0.12
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 1 * Metre
+    SuppressDamages                   = 7.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    MaximalSpeed                      = 0.0
+    ShotWithoutPhysics                = False
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{56e13108-7f72-4223-83a3-2d502b75cd98}
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 0),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39525,7 +39677,7 @@ Ammo_Mortier_81mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39558,7 +39710,7 @@ Ammo_Mortier_81mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39601,7 +39753,7 @@ Ammo_Mortier_81mm_SMOKE_TOWED is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39634,7 +39786,7 @@ Ammo_Mortier_81mm_SMOKE_TOWED is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39677,7 +39829,7 @@ Ammo_Mortier_81mm_TOWED is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39710,7 +39862,7 @@ Ammo_Mortier_81mm_TOWED is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39753,7 +39905,7 @@ Ammo_Mortier_81mm_towed_61C is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39786,7 +39938,7 @@ Ammo_Mortier_81mm_towed_61C is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39829,7 +39981,7 @@ Ammo_Mortier_81mm_towed_61C_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39862,7 +40014,7 @@ Ammo_Mortier_81mm_towed_61C_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39905,7 +40057,7 @@ Ammo_Mortier_L16_82mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -39938,7 +40090,7 @@ Ammo_Mortier_L16_82mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -39981,7 +40133,7 @@ Ammo_Mortier_L16_82mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40014,7 +40166,7 @@ Ammo_Mortier_L16_82mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40057,7 +40209,7 @@ Ammo_Mortier_M240_240mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 9625
     PorteeMinimaleGRU                 = 1367
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40090,7 +40242,7 @@ Ammo_Mortier_M240_240mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 30.0
+    TempsDeVisee                      = 24.0
     TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40133,7 +40285,7 @@ Ammo_Mortier_M240_240mm_EXT is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 18000
     PorteeMinimaleGRU                 = 1367
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40166,7 +40318,7 @@ Ammo_Mortier_M240_240mm_EXT is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 30.0
+    TempsDeVisee                      = 24.0
     TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40209,7 +40361,7 @@ Ammo_Mortier_M240_240mm_EXT_Cluster is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 18000
     PorteeMinimaleGRU                 = 1367
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40245,7 +40397,7 @@ Ammo_Mortier_M240_240mm_EXT_Cluster is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 30.0
+    TempsDeVisee                      = 24.0
     TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40288,7 +40440,7 @@ Ammo_Mortier_M240_240mm_EXT_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 18000
     PorteeMinimaleGRU                 = 1367
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40321,7 +40473,7 @@ Ammo_Mortier_M240_240mm_EXT_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 30.0
+    TempsDeVisee                      = 24.0
     TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40364,7 +40516,7 @@ Ammo_Mortier_M240_240mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 9625
     PorteeMinimaleGRU                 = 1367
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40397,7 +40549,7 @@ Ammo_Mortier_M240_240mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 30.0
+    TempsDeVisee                      = 24.0
     TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40440,7 +40592,7 @@ Ammo_Mortier_M252_81mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40473,7 +40625,7 @@ Ammo_Mortier_M252_81mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40516,7 +40668,7 @@ Ammo_Mortier_M252_81mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40549,7 +40701,7 @@ Ammo_Mortier_M252_81mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40592,7 +40744,7 @@ Ammo_Mortier_M29_81mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40625,7 +40777,7 @@ Ammo_Mortier_M29_81mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40668,7 +40820,7 @@ Ammo_Mortier_M29_81mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40701,7 +40853,7 @@ Ammo_Mortier_M29_81mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40744,7 +40896,7 @@ Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40777,7 +40929,7 @@ Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 14.0
+    TempsDeVisee                      = 11.2
     TempsEntreDeuxSalves              = 10.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40820,7 +40972,7 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40853,7 +41005,7 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40895,7 +41047,7 @@ Ammo_Mortier_M40_towed_107mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -40928,7 +41080,7 @@ Ammo_Mortier_M40_towed_107mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -40970,7 +41122,7 @@ Ammo_Mortier_M40_tower_107mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41003,7 +41155,7 @@ Ammo_Mortier_M40_tower_107mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 14.0
+    TempsDeVisee                      = 11.2
     TempsEntreDeuxSalves              = 10.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41046,7 +41198,7 @@ Ammo_Mortier_M43_160mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41079,7 +41231,7 @@ Ammo_Mortier_M43_160mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 16.0
+    TempsDeVisee                      = 12.8
     TempsEntreDeuxSalves              = 12.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41122,7 +41274,7 @@ Ammo_Mortier_M43_160mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41155,7 +41307,7 @@ Ammo_Mortier_M43_160mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41198,7 +41350,7 @@ Ammo_Mortier_M43_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41231,7 +41383,7 @@ Ammo_Mortier_M43_82mm_SMOKE_TOWED is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41274,7 +41426,7 @@ Ammo_Mortier_M43_82mm_TOWED is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41307,7 +41459,7 @@ Ammo_Mortier_M43_82mm_TOWED is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41350,7 +41502,7 @@ Ammo_Mortier_PM41_82mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41383,7 +41535,7 @@ Ammo_Mortier_PM41_82mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41425,7 +41577,7 @@ Ammo_Mortier_PM43_120mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41458,7 +41610,7 @@ Ammo_Mortier_PM43_120mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 20.0
+    TempsDeVisee                      = 16.0
     TempsEntreDeuxSalves              = 12.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41501,7 +41653,7 @@ Ammo_Mortier_PM43_120mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41534,7 +41686,7 @@ Ammo_Mortier_PM43_120mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41577,7 +41729,7 @@ Ammo_Mortier_RT61_120mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41610,7 +41762,7 @@ Ammo_Mortier_RT61_120mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 16.0
+    TempsDeVisee                      = 12.8
     TempsEntreDeuxSalves              = 12.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41653,7 +41805,7 @@ Ammo_Mortier_RT61_120mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41686,7 +41838,7 @@ Ammo_Mortier_RT61_120mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41729,7 +41881,7 @@ Ammo_Mortier_RT61_towed_120mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41762,7 +41914,7 @@ Ammo_Mortier_RT61_towed_120mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 16.0
+    TempsDeVisee                      = 12.8
     TempsEntreDeuxSalves              = 12.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41805,7 +41957,7 @@ Ammo_Mortier_RT61_towed_120mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5625
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41838,7 +41990,7 @@ Ammo_Mortier_RT61_towed_120mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41881,7 +42033,7 @@ Ammo_Mortier_Tampella_120mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5275
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41914,7 +42066,7 @@ Ammo_Mortier_Tampella_120mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 16.0
+    TempsDeVisee                      = 12.8
     TempsEntreDeuxSalves              = 12.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -41957,7 +42109,7 @@ Ammo_Mortier_Tampella_120mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5275
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -41990,7 +42142,7 @@ Ammo_Mortier_Tampella_120mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -42033,7 +42185,7 @@ Ammo_Mortier_Tampella_towed_120mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5275
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -42066,7 +42218,7 @@ Ammo_Mortier_Tampella_towed_120mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 16.0
+    TempsDeVisee                      = 12.8
     TempsEntreDeuxSalves              = 12.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -42109,7 +42261,7 @@ Ammo_Mortier_Tampella_towed_120mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 5275
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -42142,7 +42294,7 @@ Ammo_Mortier_Tampella_towed_120mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -42335,7 +42487,7 @@ Ammo_Mortier_Vasilek_indirect_82mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -42368,7 +42520,7 @@ Ammo_Mortier_Vasilek_indirect_82mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 10.0
+    TempsDeVisee                      = 8.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -42411,7 +42563,7 @@ Ammo_Mortier_Vasilek_indirect_82mm_towed is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 4925
     PorteeMinimaleGRU                 = 1202
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -42444,7 +42596,7 @@ Ammo_Mortier_Vasilek_indirect_82mm_towed is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 10.0
+    TempsDeVisee                      = 8.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -42487,7 +42639,7 @@ Ammo_Mortier_M1_81mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 3500
     PorteeMinimaleGRU                 = 901
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -42520,7 +42672,7 @@ Ammo_Mortier_M1_81mm is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 11.5
+    TempsDeVisee                      = 9.2
     TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -42563,7 +42715,7 @@ Ammo_Mortier_M1_81mm_SMOKE is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 3500
     PorteeMinimaleGRU                 = 901
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1150) * Metre)
+    DispersionAtMaxRange              = ((1000) * Metre)
     DispersionAtMinRange              = ((200) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -42596,7 +42748,7 @@ Ammo_Mortier_M1_81mm_SMOKE is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 5.0
+    TempsDeVisee                      = 4.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -46183,7 +46335,7 @@ Ammo_RocketAir_Hydra_70mm_SMOKE_x14 is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -46260,7 +46412,7 @@ Ammo_RocketAir_Hydra_70mm_avion_SMOKE_x14 is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.132
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0
@@ -48793,8 +48945,8 @@ Ammo_RocketArt_9M27F_HE_220mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 49450
     PorteeMinimaleGRU                 = 9894
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 462 * Metre
@@ -48870,8 +49022,8 @@ Ammo_RocketArt_9M27K_CLU_HE_220mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 49450
     PorteeMinimaleGRU                 = 9894
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 0 * Metre
@@ -48947,8 +49099,8 @@ Ammo_RocketArt_9M27S_NPLM_220mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 49450
     PorteeMinimaleGRU                 = 9894
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 0 * Metre
@@ -49025,8 +49177,8 @@ Ammo_RocketArt_9M55K5_300mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 52975
     PorteeMinimaleGRU                 = 10601
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 471 * Metre
@@ -49104,8 +49256,8 @@ Ammo_RocketArt_BM27_220mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 35300
     PorteeMinimaleGRU                 = 7067
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 0 * Metre
@@ -49182,8 +49334,8 @@ Ammo_RocketArt_LARS_110mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 15875
     PorteeMinimaleGRU                 = 3180
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 289 * Metre
@@ -49259,8 +49411,8 @@ Ammo_RocketArt_LARS_110mm_cluster is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 15875
     PorteeMinimaleGRU                 = 3180
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 254 * Metre
@@ -49338,8 +49490,8 @@ Ammo_RocketArt_M21OF_122mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 3534
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 320 * Metre
@@ -49415,8 +49567,8 @@ Ammo_RocketArt_M21OF_122mm_cluster is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 3534
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 282 * Metre
@@ -49494,8 +49646,8 @@ Ammo_RocketArt_M21OF_122mm_napalm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 3534
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 320 * Metre
@@ -49574,8 +49726,8 @@ Ammo_RocketArt_M21OF_122mm_x12 is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 17650
     PorteeMinimaleGRU                 = 3534
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 320 * Metre
@@ -49651,15 +49803,15 @@ Ammo_RocketArt_M24F_240mm_x12 is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 14100
     PorteeMinimaleGRU                 = 2827
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 477 * Metre
-    PhysicalDamages                   = 2.27
+    RadiusSplashPhysicalDamages       = 504 * Metre
+    PhysicalDamages                   = 2.4
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 560 * Metre
-    SuppressDamages                   = 306.0
+    RadiusSplashSuppressDamages       = 592 * Metre
+    SuppressDamages                   = 324.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = True
     TirIndirect                       = True
@@ -49728,8 +49880,8 @@ Ammo_RocketArt_M26_227mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 42375
     PorteeMinimaleGRU                 = 8481
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 477 * Metre
@@ -49805,8 +49957,8 @@ Ammo_RocketArt_M26_227mm_Cluster is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 42375
     PorteeMinimaleGRU                 = 8481
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 422 * Metre
@@ -50038,8 +50190,8 @@ Ammo_RocketArt_Shmel_136mm_x2 is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 42375
     PorteeMinimaleGRU                 = 8481
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 400 * Metre
@@ -50115,8 +50267,8 @@ Ammo_RocketArt_thermobaric_220mm is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 3500
     PorteeMinimaleGRU                 = 707
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 0 * Metre
@@ -50193,8 +50345,8 @@ Ammo_RocketArt_thermobaric_220mm_x30 is TAmmunitionDescriptor
     PorteeMaximaleGRU                 = 3500
     PorteeMinimaleGRU                 = 707
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((500) * Metre)
+    DispersionAtMaxRange              = ((1200) * Metre)
+    DispersionAtMinRange              = ((600) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 462 * Metre

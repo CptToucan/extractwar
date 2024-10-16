@@ -150,6 +150,7 @@ export class WeaponManager extends AbstractManager {
           mountedWeaponsSearch
         );
 
+
       
 
       /**
@@ -196,6 +197,8 @@ export class WeaponManager extends AbstractManager {
      * Loop through all the salvo indexes and merge the weapons that have the same salvo index
      * The merged weapon is then added to the weapons array
      */
+
+    console.log(salvoMap, filteredSalvoMap, shownMountedWeapons)
     for (
       let salvoIndex = 0;
       salvoIndex < filteredSalvoMap.length;

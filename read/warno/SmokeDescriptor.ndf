@@ -16,17 +16,17 @@ export Descriptor_Smoke_Fumi105mm is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 250 * Metre
-                Height  = 250 * Metre
+                Radius  = 88 * 26 * 2.83
+                Height  = 88 * 26 * 2.83
                 Density = 0.5
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((250) * Metre)
+            AltitudeGRU       = 88
             TimeToLive     = 60
-            Radius         = ((250) * Metre)
+            RadiusGRU         = 88
             Terrain        = $/GFX/Terrains/SmokeMedium
         ),
     ]
@@ -46,17 +46,17 @@ export Descriptor_Smoke_Fumi107mm is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 250 * Metre
-                Height  = 250 * Metre
+                Radius  = 88 * 26 * 2.83
+                Height  = 88 * 26 * 2.83
                 Density = 0.5
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((250) * Metre)
+            AltitudeGRU       = 88
             TimeToLive     = 60
-            Radius         = ((250) * Metre)
+            RadiusGRU         = 88
             Terrain        = $/GFX/Terrains/SmokeMedium
         ),
     ]
@@ -76,17 +76,17 @@ export Descriptor_Smoke_Fumi120mm is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 300 * Metre
-                Height  = 300 * Metre
+                Radius  = 106 * 26 * 2.83
+                Height  = 106 * 26 * 2.83
                 Density = 0.5
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((300) * Metre)
+            AltitudeGRU       = 106
             TimeToLive     = 60
-            Radius         = ((300) * Metre)
+            RadiusGRU         = 106
             Terrain        = $/GFX/Terrains/SmokeMedium
         ),
     ]
@@ -106,17 +106,17 @@ export Descriptor_Smoke_Fumi120mm_mortier is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 300 * Metre
-                Height  = 300 * Metre
+                Radius  = 106 * 26 * 2.83
+                Height  = 106 * 26 * 2.83
                 Density = 0.5
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((300) * Metre)
+            AltitudeGRU       = 106
             TimeToLive     = 45
-            Radius         = ((300) * Metre)
+            RadiusGRU         = 106
             Terrain        = $/GFX/Terrains/SmokeMedium
         ),
     ]
@@ -136,17 +136,17 @@ export Descriptor_Smoke_Fumi122mm is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 300 * Metre
-                Height  = 300 * Metre
+                Radius  = 106 * 26 * 2.83
+                Height  = 106 * 26 * 2.83
                 Density = 0.5
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((300) * Metre)
+            AltitudeGRU       = 106
             TimeToLive     = 60
-            Radius         = ((300) * Metre)
+            RadiusGRU         = 106
             Terrain        = $/GFX/Terrains/SmokeMedium
         ),
     ]
@@ -166,17 +166,17 @@ export Descriptor_Smoke_Fumi152mm is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 350 * Metre
-                Height  = 350 * Metre
+                Radius  = 124 * 26 * 2.83
+                Height  = 124 * 26 * 2.83
                 Density = 1.0
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((350) * Metre)
+            AltitudeGRU       = 124
             TimeToLive     = 60
-            Radius         = ((350) * Metre)
+            RadiusGRU         = 124
             Terrain        = $/GFX/Terrains/SmokeHeavy
         ),
     ]
@@ -196,17 +196,17 @@ export Descriptor_Smoke_Fumi155mm is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 350 * Metre
-                Height  = 350 * Metre
+                Radius  = 124 * 26 * 2.83
+                Height  = 124 * 26 * 2.83
                 Density = 1.0
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((350) * Metre)
+            AltitudeGRU       = 124
             TimeToLive     = 60
-            Radius         = ((350) * Metre)
+            RadiusGRU         = 124
             Terrain        = $/GFX/Terrains/SmokeHeavy
         ),
     ]
@@ -226,17 +226,17 @@ export Descriptor_Smoke_Fumi203mm is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 500 * Metre
-                Height  = 350 * Metre
+                Radius  = 177 * 26 * 2.83
+                Height  = 124 * 26 * 2.83
                 Density = 1.0
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((350) * Metre)
+            AltitudeGRU       = 124
             TimeToLive     = 60
-            Radius         = ((500) * Metre)
+            RadiusGRU         = 177
             Terrain        = $/GFX/Terrains/SmokeHeavy
         ),
     ]
@@ -256,17 +256,17 @@ export Descriptor_Smoke_Fumi60mm is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 150 * Metre
-                Height  = 150 * Metre
+                Radius  = 53 * 26 * 2.83
+                Height  = 53 * 26 * 2.83
                 Density = 0.1
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((150) * Metre)
+            AltitudeGRU       = 53
             TimeToLive     = 60
-            Radius         = ((150) * Metre)
+            RadiusGRU         = 53
             Terrain        = $/GFX/Terrains/SmokeLight
         ),
     ]
@@ -286,17 +286,17 @@ export Descriptor_Smoke_Fumi81mm is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 200 * Metre
-                Height  = 200 * Metre
+                Radius  = 71 * 26 * 2.83
+                Height  = 71 * 26 * 2.83
                 Density = 0.1
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((200) * Metre)
+            AltitudeGRU       = 71
             TimeToLive     = 45
-            Radius         = ((200) * Metre)
+            RadiusGRU         = 71
             Terrain        = $/GFX/Terrains/SmokeLight
         ),
     ]
@@ -316,17 +316,17 @@ export Descriptor_Smoke_FumiBombe is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 400 * Metre
-                Height  = 350 * Metre
+                Radius  = 141 * 26 * 2.83
+                Height  = 124 * 26 * 2.83
                 Density = 1.0
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((350) * Metre)
+            AltitudeGRU       = 124
             TimeToLive     = 100
-            Radius         = ((400) * Metre)
+            RadiusGRU         = 141
             Terrain        = $/GFX/Terrains/SmokeHeavy
         ),
     ]
@@ -394,17 +394,17 @@ export Descriptor_Smoke_FumiTest1 is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 10 * Metre
-                Height  = 350 * Metre
+                Radius  = 4 * 26 * 2.83
+                Height  = 124 * 26 * 2.83
                 Density = 0.1
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((350) * Metre)
+            AltitudeGRU       = 124
             TimeToLive     = 70
-            Radius         = ((10) * Metre)
+            RadiusGRU         = 4
             Terrain        = $/GFX/Terrains/SmokeLight
         ),
     ]
@@ -424,17 +424,17 @@ export Descriptor_Smoke_Fumi_smoke_grenade is TEntityDescriptor
             ReferenceMesh  = $/GFX/DepictionResources/Rien
             Depiction  = Template_DescriptorSmoke_Depiction
             (
-                Radius  = 150 * Metre
-                Height  = 150 * Metre
+                Radius  = 53 * 26 * 2.83
+                Height  = 53 * 26 * 2.83
                 Density = 0.1
             )
             DefaultVisibility  = True
         ),
         TSmokeModuleDescriptor
         (
-            Altitude       = ((150) * Metre)
+            AltitudeGRU       = 53
             TimeToLive     = 20
-            Radius         = ((150) * Metre)
+            RadiusGRU         = 53
             Terrain        = $/GFX/Terrains/SmokeLight
         ),
     ]
