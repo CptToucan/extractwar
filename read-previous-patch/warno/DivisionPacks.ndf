@@ -1351,6 +1351,11 @@ Descriptor_Deck_Pack_F16E_SEAD_US is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_F16E_SEAD_US
 )
 
+Descriptor_Deck_Pack_F16E_TER_HE_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_F16E_TER_HE_US
+)
+
 Descriptor_Deck_Pack_F16E_napalm_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_F16E_napalm_US

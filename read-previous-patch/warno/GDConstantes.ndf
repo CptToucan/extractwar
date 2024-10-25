@@ -32,10 +32,10 @@ Constantes is TTunableConstante
 
 //------------------------ Constantes AutomaticBehavior ----------------------------------//
 
-    AutoCover_DistanceMaxEntreLesChecksDeTerrains = 60 * Metre //100 * Metre // distance entre les échantillonnages de terrain pour savoir si on fait un autocover.
+    AutoCover_DistanceMaxEntreLesChecksDeTerrainsGRU = 21 // distance entre les échantillonnages de terrain pour savoir si on fait un autocover.
     AutoCover_TagEmpechantLAutocover = "Infanterie_Cowering"
-    MaxPullDistance = 1000 * Metre
-    MaxPullDistanceForAirplane = 50000 * Metre
+    MaxPullDistanceGRU = 353
+    MaxPullDistanceForAirplaneGRU = 17667
     TagBloquantLeMoveAndAttack = "Bloque_MoveAndAttack" // Lorsque ce tag est levé, l'unité stoppe son move and attaque, et le reprend lorsque le tag est supprimé
     TempsEnSecondesEntreDeuxSmokeAutomatiques = 1
     AutoSmokeQuandRatioPvInferieurA = 1.0
@@ -45,13 +45,13 @@ Constantes is TTunableConstante
 
 //----------------------------- Constantes Avion -----------------------------------------//
 
-    AltitudeVol = 3000 * Metre
+    AltitudeVolGRU = 1060
     CadavreOffsetMax = 0.3  // 0.33
     CadavreOffsetMin = 0.1 // 0.18
 
 //--------------------------- Constantes Bâtiments ---------------------------------------//
 
-    UnitPositionVerticalOffsetFromRoof = 60*Metre
+    UnitPositionVerticalOffsetFromRoofGRU = 21
 
 //------------------------------ Constantes Color -----------------------------------------//
 
@@ -68,7 +68,7 @@ Constantes is TTunableConstante
     TimerRechercheDeCibleRiposte = -1
     TagRadioArtillerie = "Radio"
     TagRadioJammed = "RadioJammed"
-    PorteeRadioArtillerie = 6000 * Metre //7500
+    PorteeRadioArtillerieGRU = 2120
     EfficiencyShotSearchDistanceTolerance = 100.0
 
     PerteDeSuppressParPointDeVieEntierPerdu = 0.0
@@ -83,11 +83,11 @@ Constantes is TTunableConstante
 
     CommanderEffect = $/GFX/EffectCapacity/UnitEffect_Gain_un_niveau_XP
 
-    CommanderRadiusEffectByLevel =
+    CommanderRadiusEffectByLevelGRU =
     [
-        1200 * Metre,
-        1600 * Metre,
-        1800 * Metre,
+        424,
+        565,
+        636,
     ]
 
 //------------------------------ Constantes Corridors ------------------------------------//
@@ -116,7 +116,7 @@ Constantes is TTunableConstante
 
 //------------------------- Constantes GestionFormation -----------------------------------//
 
-    DistanceCoherence = 5000 * Metre
+    DistanceCoherenceGRU = 1766
 
 //-------------------------- Constantes Helicopters --------------------------------------//
     // Angle max avec la direction (0,0,1) EN DEGRES -- DOIT ETRE > 0 (sinon je pense que ça va être la daube) -- VOIR AVEC UN DEV POUR CHANGER LA VALEUR C'EST TRES SENSIBLE !!!
@@ -134,7 +134,6 @@ Constantes is TTunableConstante
 
 //-------------------------- Constantes Infantry --------------------------------------//
 // nombre de soldat dans l'affichage des pions de Steelman
-    DefaultNbSoldiers = 1
     ShowroomOffsetBetweenLines = 518.0
     ShowroomOffsetBetweenSoldiers = 500.0
     ShowroomNumberOfLines = 2
@@ -163,11 +162,11 @@ Constantes is TTunableConstante
 //----------------------------- Constantes Mouvement --------------------------------------//
 
     AngleArrierePourMarcheArriereEnDegre = 120
-    DistancePourDeclencherMarcheArriere = 2000 * Metre   // 1500
+    DistancePourDeclencherMarcheArriereGRU = 706
     ForcerMarcheAvantPourAttaquer       = true
-    LargeurRoute                        = 60 * Metre // les trajectoires des véhicules sont décalées de 0.5 * LargeurRoute d'un côté ou de l'autre
+    LargeurRouteGRU                        = 21 // les trajectoires des véhicules sont décalées de 0.5 * LargeurRoute d'un côté ou de l'autre
     ToleranceLargeurRoutePourMouvementsRapidesShiftes = 2 // multiplicateur de LargeurRoute pour vérifier si la destination d'un movefast est sur la route
-    DecalageDepuisLeCentreDansCouloir   = 10 * Metre // décalage des waypoints des unités par rapport au milieu du couloir quand une unité en traverse un
+    DecalageDepuisLeCentreDansCouloirGRU   = 3 // décalage des waypoints des unités par rapport au milieu du couloir quand une unité en traverse un
     RapprocherFormationsSelonObstacles  = false
     RotationLignesDInfanterie           = false // définit si les soldats d'une unité d'infanterie s'orientent comme des véhicules (pour les lignes d'infanterie)
     TagDecrochage                       = "Retraite"  // tag utilisé pour determiner si on affiche l'etiquette decrochage pendant la retraite
@@ -176,7 +175,7 @@ Constantes is TTunableConstante
 //----------------------------- Constantes Resale -----------------------------------------//
 
     ResalePriceRatio = 1.0
-    ResaleDistance = 250.0 * Metre
+    ResaleDistanceGRU = 88
     CooldownBeforeKillInSeconds = 2 // secondes
 
 //----------------------------- Constantes Selection -----------------------------------------//
@@ -198,8 +197,8 @@ Constantes is TTunableConstante
 
 //---------------------------- Constantes Visibilite --------------------------------------//
 
-    MultiplicateurDistancePourBonusDissimulation = 1.0 DIV Metre DIV 100.0 // = (Distance en Mètres RTS) / 100.f
-    RelativeScanningPosition = [0,0, 20 * Metre]
+    MultiplicateurDistancePourBonusDissimulationGRU = 0.00052 DIV 100.0 // = (Distance en GRU) / 100.f
+    RelativeScanningPositionGRU = [0, 0, 7]
 
 //------------------------------ Constantes Vision ----------------------------------------//
 
@@ -230,21 +229,21 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
 //---------------------------- Constantes Combat ------------------------------------------//
 
-    DistanceInfanterieEnnemiDetection = 200 * Metre
-    DistanceRelaunchMouvementForMoveAndAttack = 1500 * Metre // Distance pour laquelle une unité en MoveAndAttackTarget doit relancer le mouvement si sa cible s'est déplacée de cette distance (diminuer cette valeur baisse la perf)
-    DistanceToAddToEnnemiDetectionForAAWeapon = 4000.0 * Metre
-    DistanceToAddToEnnemiDetectionForAntiProjectileWeapon = 0.0 * Metre // grosso merdo la porté max d'une arme anti-missile
-    DistanceToAddToEnnemiDetectionForOtherWeapon = 1000.0 * Metre
+    DistanceInfanterieEnnemiDetectionGRU = 70
+    DistanceRelaunchMouvementForMoveAndAttackGRU = 530 // Distance pour laquelle une unité en MoveAndAttackTarget doit relancer le mouvement si sa cible s'est déplacée de cette distance (diminuer cette valeur baisse la perf)
+    DistanceToAddToEnnemiDetectionForAAWeaponGRU = 1413
+    DistanceToAddToEnnemiDetectionForAntiProjectileWeaponGRU = 0 // grosso merdo la porté max d'une arme anti-missile
+    DistanceToAddToEnnemiDetectionForOtherWeaponGRU = 353
     DureeDeRevelationApresAttaque = 5.0
     FacteurMinTempsViseeReel = 0.75 // Le temps de visée réel est un random entre cette valeur et la valeur de temps de visee théorique située dans l'ODS
 
     // Portee Min pour considerer qu'une arme est une artillerie. Les unités ne cherche pas a fuire les armes considéré comme des artilleries
-    PorteeMinArmeEstConsidereCommeArtillerie = 6500.0 * Metre // 6000
+    PorteeMinArmeEstConsidereCommeArtillerieGRU = 2296
 
     // Nombre de points de suppression récupérés par seconde. Multiplié par "<TypeUnite>_SuppressDamagesRegenRatioList" dans DamageModules.ndf.
     RegenStressParSeconde = 0.5
 
-    // Une unité ne sera ravitaillée que si elle n'a pas reçut #SeuilStressPourRegen# durant les dernières #TempsSansStressPourRegen# secondes.
+    // Une unité ne sera ravitaillée que si elle n'a pas reçu #SeuilStressPourRegen# durant les dernières #TempsSansStressPourRegen# secondes.
     TempsSansStressPourRegen = 10 // 10 secondes
 
     TempsSansTirNiDamagePourPasserHorsCombat = 30 // 1, passage à 2 pour limiter bug graphique
@@ -257,7 +256,7 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 //---------------------------- Constantes District ----------------------------------------//
 
     FuirDistrictEnFeu = true
-    MargePourLesTestsDeSortieDeDistrict = 16 * Metre
+    MargePourLesTestsDeSortieDeDistrictLBU = 2
     DurationForLeavingDistrict = 3.0        // Durée de l'action de sortie de district.
     RefreshBestPlaceEveryNbSeconds = 5 // Les unites dans les quartiers peuvent changer de points de tir tous les x secondes.
 
@@ -267,7 +266,7 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
 //---------------------------- Constantes GroupedMovement ---------------------------------//
 
-    ClustersDimensionMax = 1000 * Metre     // Taille des clusters d'unités pour le choix d'une route commune pour les mouvements de groupe.
+    ClustersDimensionMaxGRU = 353     // Taille des clusters d'unités pour le choix d'une route commune pour les mouvements de groupe.
 
 //------------------------ Constantes IAStratModernWarfare --------------------------------//
 
@@ -295,8 +294,8 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
 //--------------------------- Constantes SpreadOrder --------------------------------------//
 
-    SpreadDistanceUnit = 750 * Metre // Distance de dispersion d'une unique compagnie
-    SpreadDistanceGroup = 2250 * Metre // Distance de dispersion d'une selection multiple d'unité
+    SpreadDistanceUnitGRU = 265 // Distance de dispersion d'une unique compagnie
+    SpreadDistanceGroupGRU = 795 // Distance de dispersion d'une selection multiple d'unité
 
 //----------------------------- Constantes Supply -----------------------------------------//
 
@@ -312,8 +311,8 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     ArtilleryDispersionTargetNotVisible = 1 // 2 Dispersion du tireur (artillerie) quand la cible n'est pas visible (attaque sur position ou unité)
 
     // http://dl.uncw.edu/digilib/mathematics/algebra/mat111hb/functions/equations/equations.html
-    DistanceFriendlyFire = 1 * Metre  // distance entre un ennemi et un allié en dessous de laquelle une tourelle ne tire pas (1000)
-    DistanceMinFleeFire = 50 * Metre // Distance minimal d'éloignement d'une unité dans les flammes (en plus du radius de l'unité)
+    DistanceFriendlyFireGRU = 1  // distance entre un ennemi et un allié en dessous de laquelle une tourelle ne tire pas (1000)
+    DistanceMinFleeFireGRU = 17 // Distance minimal d'éloignement d'une unité dans les flammes (en plus du radius de l'unité)
 
     FrontSideAngleInDeg = 60
     RearSideAngleInDeg = 120
@@ -516,14 +515,14 @@ WargameConstantes is TWargameTunableConstante
     // Facteur utilisé pour la transformation des Plating et APValue pour l'affichage en mm dans l'UI
     PlatingAndApDisplayFactor = 1 //10 pour du mm
 
-    PaliersDAgilite = MAP
+    PaliersDAgiliteGRU = MAP
     [
-        (2000 *Metre, 'Value_6'),//Exceptional
-        (4000*Metre, 'Value_5'),//Very good
-        (6000*Metre, 'Value_4'), //Good
-        (7000*Metre, 'Value_3'), //Normal
-        (90000*Metre, 'Value_2'),  //Mediocre
-        (10000*Metre, 'Value_1'),  //Bad
+        (706,   'Value_6'), //Exceptional
+        (1413,  'Value_5'), //Very good
+        (2120,  'Value_4'), //Good
+        (2473,  'Value_3'), //Normal
+        (31802, 'Value_2'), //Mediocre
+        (3533,  'Value_1'), //Bad
     ]
 
     PaliersDeDissimulation = MAP
@@ -636,7 +635,7 @@ WargameConstantes is TWargameTunableConstante
 //---------------------------- Constantes Mouvement -------------------------------------//
 
     AmphibiousSpawnLandSeaRatio = 1.5 // >=0, ponderation arbitraire pour determiner si une amphibie spawne au spawn marin ou terrestre (=1:elle prendra le plus proche a vol d'oiseau ; <1:elle preferera le marin, >1:elle preferera le terrestre)
-    InfantryTrenchDepth = 7 * Metre //9 * Metre //11.5 * Metre
+    InfantryTrenchDepthGRU = 2
 
 //------------------------------ Constantes Tactic --------------------------------------//
 

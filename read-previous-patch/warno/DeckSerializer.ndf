@@ -1207,7 +1207,6 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_MotRifles_RPG22_SOV, 2056),
         ($/GFX/Unit/Descriptor_Unit_Alfa_Group_SOV, 2057),
         ($/GFX/Unit/Descriptor_Unit_F16A_CBU_BEL, 2058),
-        ($/GFX/Unit/Descriptor_Unit_MiG_23MF_SOV, 2066),
         ($/GFX/Unit/Descriptor_Unit_Reserve_CMD_DDR, 2070),
         ($/GFX/Unit/Descriptor_Unit_Reserve_HMG_DDR, 2071),
         ($/GFX/Unit/Descriptor_Unit_T54B_CMD_DDR, 2072),
@@ -1353,7 +1352,6 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_M274_Mule_RCL_US, 2320),
         ($/GFX/Unit/Descriptor_Unit_M274_Mule_supply_US, 2321),
         ($/GFX/Unit/Descriptor_Unit_Mortier_240mm_M240_Cluster_SOV, 2322),
-        ($/GFX/Unit/Descriptor_Unit_Mi_24P_TCH, 2323),
         ($/GFX/Unit/Descriptor_Unit_BTR_152A_DDR, 2326),
         ($/GFX/Unit/Descriptor_Unit_DCA_KS19_100mm_DDR, 2327),
         ($/GFX/Unit/Descriptor_Unit_M113A2_TOW_US, 2328),
@@ -1409,5 +1407,8 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_Su_17_cluster_POL, 2427),
         ($/GFX/Unit/Descriptor_Unit_Su_22_HE2_DDR, 2428),
         ($/GFX/Unit/Descriptor_Unit_F16E_TER_HE_US, 2432),
+        ($/GFX/Unit/Descriptor_Unit_Reserviste_FAMAS_FR, 2495),
+        ($/GFX/Unit/Descriptor_Unit_LandRover_WOMBAT_Gurkhas_UK, 2502),
+        ($/GFX/Unit/Descriptor_Unit_Scout_Spetsnaz_VDV_SOV, 2507),
     ]
 )
