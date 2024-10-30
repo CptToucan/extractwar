@@ -42,7 +42,9 @@ export const DIVISION_NAMES: { [key: string]: string } = {
   Descriptor_Deck_Division_SOV_56_AirAslt_Brig_multi: '56-Ya OG Desantno-Shturmovaya Brig.',
   Descriptor_Deck_Division_US_101st_Airmobile_multi: '101st Airborne Division (Air Assault)',
   Descriptor_Deck_Division_US_35th_Inf_multi: '35th Infantry Division (Mech.)',
-  Descriptor_Deck_Division_RDA_Rugen_Gruppierung: 'Rugener Gruppierung'
+  Descriptor_Deck_Division_RDA_Rugen_Gruppierung: 'Rugener Gruppierung',
+  Descriptor_Deck_Division_FR_152e_Infanterie_multi: '152E Division D\'Infanterie',
+  Descriptor_Deck_Division_SOV_76_VDV_multi: '76-Ya Gv. Tank. Div.',
 
 };
 

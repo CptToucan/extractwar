@@ -79,6 +79,86 @@ Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
     TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "FR"
 )
+Descriptor_Deck_Division_FR_152e_Infanterie_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{adb9f240-782d-44d1-bb70-20f2736182de}
+    CfgName = 'FR_152e_Infanterie_multi'
+    DivisionName = 'YHHSJATYLU'
+    DivisionPowerClassification = 'DC_PWR3'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'FR', 'Allied', 'infantryReg', 'DC_PWR3']
+    DescriptionHintTitleToken = 'AEINBNGLTE'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_AML_60_FR, 1),
+        (~/Descriptor_Deck_Pack_AML_90_CMD_FR, 2),
+        (~/Descriptor_Deck_Pack_AML_90_FR, 2),
+        (~/Descriptor_Deck_Pack_AML_90_Reserve_FR, 3),
+        (~/Descriptor_Deck_Pack_AMX_13_90mm_FR, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_1_FR, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_FR, 1),
+        (~/Descriptor_Deck_Pack_ATteam_RCL_M40A1_FR, 1),
+        (~/Descriptor_Deck_Pack_Alouette_III_SS11_FR, 1),
+        (~/Descriptor_Deck_Pack_Alouette_II_CMD_FR, 1),
+        (~/Descriptor_Deck_Pack_Alpha_Jet_E_FR, 1),
+        (~/Descriptor_Deck_Pack_Alpha_Jet_E_NPLM_FR, 1),
+        (~/Descriptor_Deck_Pack_CM170_Magister_FR, 1),
+        (~/Descriptor_Deck_Pack_CM170_Magister_SS11_FR, 1),
+        (~/Descriptor_Deck_Pack_Commandos_Air_FR, 2),
+        (~/Descriptor_Deck_Pack_Crotale_FR, 2),
+        (~/Descriptor_Deck_Pack_DCA_53T2_20mm_FR, 1),
+        (~/Descriptor_Deck_Pack_DCA_76T2_20mm_CPA_FR, 1),
+        (~/Descriptor_Deck_Pack_DCA_Bofors_L60_FR, 2),
+        (~/Descriptor_Deck_Pack_EBR_90mm_FR, 2),
+        (~/Descriptor_Deck_Pack_Ecureuil_20mm_FR, 1),
+        (~/Descriptor_Deck_Pack_Ecureuil_reco_FR, 1),
+        (~/Descriptor_Deck_Pack_F8P_Crusader_AA2_FR, 1),
+        (~/Descriptor_Deck_Pack_F8P_Crusader_FR, 1),
+        (~/Descriptor_Deck_Pack_FOB_FR, 1),
+        (~/Descriptor_Deck_Pack_Gendarmerie_Air_FR, 2),
+        (~/Descriptor_Deck_Pack_Gendarmerie_FR, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_AANF1_FR, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_AANF1_Reserve_FR, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_M2HB_RIMa_FR, 1),
+        (~/Descriptor_Deck_Pack_Howz_M101_105mm_FR, 2),
+        (~/Descriptor_Deck_Pack_M201_CMD_FR, 1),
+        (~/Descriptor_Deck_Pack_M201_MILAN_FR, 2),
+        (~/Descriptor_Deck_Pack_MANPAD_Mistral_FR, 1),
+        (~/Descriptor_Deck_Pack_Mirage_III_E_FR, 2),
+        (~/Descriptor_Deck_Pack_Mortier_81mm_FR, 2),
+        (~/Descriptor_Deck_Pack_Mortier_MORT61_120mm_FR, 1),
+        (~/Descriptor_Deck_Pack_Obusier_155mm_mle1950_FR, 2),
+        (~/Descriptor_Deck_Pack_Puma_Pirate_FR, 1),
+        (~/Descriptor_Deck_Pack_Reserviste_CMD_FR, 2),
+        (~/Descriptor_Deck_Pack_Reserviste_FAMAS_FR, 2),
+        (~/Descriptor_Deck_Pack_Reserviste_FR, 2),
+        (~/Descriptor_Deck_Pack_Rifles_RIMa_APILAS_FR, 1),
+        (~/Descriptor_Deck_Pack_Rifles_RIMa_CMD_FR, 1),
+        (~/Descriptor_Deck_Pack_Rifles_RIMa_FR, 1),
+        (~/Descriptor_Deck_Pack_Sapeurs_CMD_FR, 1),
+        (~/Descriptor_Deck_Pack_Sapeurs_FR, 1),
+        (~/Descriptor_Deck_Pack_Sapeurs_Flam_FR, 1),
+        (~/Descriptor_Deck_Pack_Scout_RIMa_FR, 1),
+        (~/Descriptor_Deck_Pack_Scout_Reserviste_FR, 2),
+        (~/Descriptor_Deck_Pack_Sniper_RIMa_FR, 1),
+        (~/Descriptor_Deck_Pack_Super_Etendard_AT_FR, 1),
+        (~/Descriptor_Deck_Pack_Super_Etendard_CLU_FR, 1),
+        (~/Descriptor_Deck_Pack_Super_Etendard_FR, 2),
+        (~/Descriptor_Deck_Pack_Super_Etendard_HE_FR, 1),
+        (~/Descriptor_Deck_Pack_TRM_10000_supply_FR, 1),
+        (~/Descriptor_Deck_Pack_TRM_2000_20mm_FR, 1),
+        (~/Descriptor_Deck_Pack_TRM_2000_supply_FR, 2),
+        (~/Descriptor_Deck_Pack_VAB_CMD_FR, 2),
+        (~/Descriptor_Deck_Pack_VAB_HOT_FR, 2),
+        (~/Descriptor_Deck_Pack_VLTT_P4_MILAN_FR, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_FR_152e_Infanterie_multi
+    EmblemTexture     = "Texture_Division_Emblem_FR_152eID"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "FR"
+)
 Descriptor_Deck_Division_FR_5e_Blindee_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{3eea10f1-c482-46f2-a747-f49879749d82}
@@ -132,7 +212,8 @@ Descriptor_Deck_Division_FR_5e_Blindee_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Reserviste_FR, 1),
         (~/Descriptor_Deck_Pack_Rifles_APILAS_FR, 1),
         (~/Descriptor_Deck_Pack_Rifles_CMD_FR, 2),
-        (~/Descriptor_Deck_Pack_Rifles_FR, 6),
+        (~/Descriptor_Deck_Pack_Rifles_DMR_FR, 3),
+        (~/Descriptor_Deck_Pack_Rifles_FR, 2),
         (~/Descriptor_Deck_Pack_Roland_2_FR, 1),
         (~/Descriptor_Deck_Pack_Roland_3_FR, 1),
         (~/Descriptor_Deck_Pack_Sapeurs_CMD_FR, 1),
@@ -315,11 +396,11 @@ Descriptor_Deck_Division_RDA_4_MSD_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_MP_DDR, 1),
         (~/Descriptor_Deck_Pack_MTLB_Strela10_DDR, 1),
         (~/Descriptor_Deck_Pack_MTLB_supply_DDR, 2),
-        (~/Descriptor_Deck_Pack_MiG_21PFM_AA_DDR, 2),
-        (~/Descriptor_Deck_Pack_MiG_21bis_AA2_DDR, 2),
+        (~/Descriptor_Deck_Pack_MiG_21PFM_AA_DDR, 1),
+        (~/Descriptor_Deck_Pack_MiG_21bis_AA2_DDR, 1),
         (~/Descriptor_Deck_Pack_MiG_21bis_HE_DDR, 1),
-        (~/Descriptor_Deck_Pack_MiG_23BN_AT2_DDR, 2),
-        (~/Descriptor_Deck_Pack_MiG_23BN_AT_DDR, 2),
+        (~/Descriptor_Deck_Pack_MiG_23BN_AT2_DDR, 1),
+        (~/Descriptor_Deck_Pack_MiG_23BN_AT_DDR, 1),
         (~/Descriptor_Deck_Pack_MiG_23BN_CLU_DDR, 1),
         (~/Descriptor_Deck_Pack_MiG_23BN_DDR, 1),
         (~/Descriptor_Deck_Pack_MiG_23BN_RKT_DDR, 1),
@@ -412,10 +493,10 @@ Descriptor_Deck_Division_RDA_7_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_MiG_23BN_AT_DDR, 2),
         (~/Descriptor_Deck_Pack_MiG_23MF_DDR, 1),
         (~/Descriptor_Deck_Pack_MiG_23ML_DDR, 2),
-        (~/Descriptor_Deck_Pack_Mi_24D_s5_AT_DDR, 2),
+        (~/Descriptor_Deck_Pack_Mi_24D_s5_AT_DDR, 1),
         (~/Descriptor_Deck_Pack_Mi_24P_s8_AT_DDR, 2),
         (~/Descriptor_Deck_Pack_Mi_2_reco_DDR, 1),
-        (~/Descriptor_Deck_Pack_Mi_8TV_DDR, 2),
+        (~/Descriptor_Deck_Pack_Mi_8TV_DDR, 1),
         (~/Descriptor_Deck_Pack_Mi_8TV_UPK_DDR, 1),
         (~/Descriptor_Deck_Pack_Mi_8TV_s57_32_DDR, 1),
         (~/Descriptor_Deck_Pack_Mortier_PM43_120mm_DDR, 3),
@@ -494,7 +575,7 @@ Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_MP_Combat_SOV, 1),
         (~/Descriptor_Deck_Pack_MP_DDR, 1),
         (~/Descriptor_Deck_Pack_MTLB_supply_DDR, 1),
-        (~/Descriptor_Deck_Pack_MiG_21bis_HE_DDR, 2),
+        (~/Descriptor_Deck_Pack_MiG_21bis_HE_DDR, 1),
         (~/Descriptor_Deck_Pack_MiG_21bis_RKT2_DDR, 1),
         (~/Descriptor_Deck_Pack_MiG_23BN_AT_DDR, 1),
         (~/Descriptor_Deck_Pack_MiG_23MF_AA_DDR, 2),
@@ -786,8 +867,8 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Mortier_Tampella_120mm_RFA, 2),
         (~/Descriptor_Deck_Pack_Panzergrenadier_APC_RFA, 2),
         (~/Descriptor_Deck_Pack_Panzergrenadier_CMD_RFA, 2),
-        (~/Descriptor_Deck_Pack_Panzergrenadier_IFV_RFA, 5),
-        (~/Descriptor_Deck_Pack_PzGrenadier_RFA, 1),
+        (~/Descriptor_Deck_Pack_Panzergrenadier_IFV_RFA, 4),
+        (~/Descriptor_Deck_Pack_PzGrenadier_RFA, 2),
         (~/Descriptor_Deck_Pack_Scout_RFA, 3),
         (~/Descriptor_Deck_Pack_Security_RFA, 1),
         (~/Descriptor_Deck_Pack_TPZ_Fuchs_CMD_RFA, 1),
@@ -855,10 +936,8 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Howz_M101_105mm_RFA, 2),
         (~/Descriptor_Deck_Pack_Iltis_MILAN_RFA, 2),
         (~/Descriptor_Deck_Pack_Iltis_RFA, 1),
-        (~/Descriptor_Deck_Pack_Jager_Aufk_RFA, 3),
         (~/Descriptor_Deck_Pack_Jager_CMD_RFA, 2),
-        (~/Descriptor_Deck_Pack_Jager_Carl_RFA, 1),
-        (~/Descriptor_Deck_Pack_Jager_RFA, 2),
+        (~/Descriptor_Deck_Pack_Jager_RFA, 3),
         (~/Descriptor_Deck_Pack_Jager_noAT_RFA, 1),
         (~/Descriptor_Deck_Pack_KanJagdPanzer_RFA, 1),
         (~/Descriptor_Deck_Pack_M110A2_HOWZ_US, 2),
@@ -1113,7 +1192,7 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_VDV_Afgantsy_SOV, 1),
         (~/Descriptor_Deck_Pack_VDV_CMD_SOV, 4),
         (~/Descriptor_Deck_Pack_VDV_HMG_SOV, 2),
-        (~/Descriptor_Deck_Pack_VDV_Mech_SOV, 2),
+        (~/Descriptor_Deck_Pack_VDV_Mech_SOV, 3),
         (~/Descriptor_Deck_Pack_VDV_Metis_SOV, 2),
         (~/Descriptor_Deck_Pack_VDV_SOV, 4),
         (~/Descriptor_Deck_Pack_ZSU_23_Shilka_Afghan_SOV, 1),
@@ -1379,6 +1458,75 @@ Descriptor_Deck_Division_SOV_6IndMSBrig_multi is TDeckDivisionDescriptor
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_6IndMSBrig_multi
     EmblemTexture     = "Texture_Division_Emblem_SOV_6OdtMSB"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "SOV"
+)
+Descriptor_Deck_Division_SOV_76_VDV_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{e9691c93-e51b-4587-9529-159ab6e225f0}
+    CfgName = 'SOV_76_VDV_multi'
+    DivisionName = 'HOVSLMGDMN'
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
+    DescriptionHintTitleToken = 'CRUYREPWFR'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_2S9_Nona_SOV, 3),
+        (~/Descriptor_Deck_Pack_ATteam_RCL_SPG9_VDV_SOV, 1),
+        (~/Descriptor_Deck_Pack_Atteam_Fagot_VDV_SOV, 1),
+        (~/Descriptor_Deck_Pack_Atteam_Konkurs_VDV_SOV, 2),
+        (~/Descriptor_Deck_Pack_BM21V_GradV_SOV, 2),
+        (~/Descriptor_Deck_Pack_BMD_1_CMD_SOV, 1),
+        (~/Descriptor_Deck_Pack_BMD_1_Reostat_SOV, 1),
+        (~/Descriptor_Deck_Pack_BMD_2_CMD_SOV, 1),
+        (~/Descriptor_Deck_Pack_BMD_3_SOV, 3),
+        (~/Descriptor_Deck_Pack_BMD_3_reco_SOV, 1),
+        (~/Descriptor_Deck_Pack_BRDM_2_Konkurs_SOV, 2),
+        (~/Descriptor_Deck_Pack_BRDM_2_SOV, 1),
+        (~/Descriptor_Deck_Pack_BRDM_Strela_1_SOV, 1),
+        (~/Descriptor_Deck_Pack_DCA_ZU_23_2_SOV, 1),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_VDV_SOV, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Flam_VDV_SOV, 2),
+        (~/Descriptor_Deck_Pack_Engineers_VDV_SOV, 1),
+        (~/Descriptor_Deck_Pack_GAZ_66B_ZU_SOV, 1),
+        (~/Descriptor_Deck_Pack_GAZ_66_supply_SOV, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_AGS17_VDV_SOV, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_NSV_6U6_VDV_SOV, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_PKM_VDV_SOV, 2),
+        (~/Descriptor_Deck_Pack_LUAZ_967M_CMD_VDV_SOV, 1),
+        (~/Descriptor_Deck_Pack_LUAZ_967M_Fagot_VDV_SOV, 2),
+        (~/Descriptor_Deck_Pack_LUAZ_967M_SPG9_VDV_SOV, 1),
+        (~/Descriptor_Deck_Pack_LUAZ_967M_supply_SOV, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Igla_VDV_SOV, 2),
+        (~/Descriptor_Deck_Pack_MiG_31_AA1_SOV, 1),
+        (~/Descriptor_Deck_Pack_MiG_31_AA2_SOV, 1),
+        (~/Descriptor_Deck_Pack_Mortier_2B14_82mm_VDV_SOV, 2),
+        (~/Descriptor_Deck_Pack_Mortier_2B9_Vasilek_SOV, 1),
+        (~/Descriptor_Deck_Pack_Pchela_1T_SOV, 1),
+        (~/Descriptor_Deck_Pack_Scout_LRRP_SOV, 1),
+        (~/Descriptor_Deck_Pack_Scout_SIGINT_SOV, 1),
+        (~/Descriptor_Deck_Pack_Scout_Spetsnaz_VDV_SOV, 1),
+        (~/Descriptor_Deck_Pack_Scout_VDV_SOV, 3),
+        (~/Descriptor_Deck_Pack_Spetsnaz_Vympel_SOV, 2),
+        (~/Descriptor_Deck_Pack_Su_24MP_EW_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_24MP_SEAD2_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_AT1_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_AT2_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_LGB2_SOV, 2),
+        (~/Descriptor_Deck_Pack_Su_24M_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_thermo_SOV, 1),
+        (~/Descriptor_Deck_Pack_VDV_CMD_SOV, 4),
+        (~/Descriptor_Deck_Pack_VDV_Combine_SOV, 1),
+        (~/Descriptor_Deck_Pack_VDV_HMG_SOV, 2),
+        (~/Descriptor_Deck_Pack_VDV_Mech_SOV, 4),
+        (~/Descriptor_Deck_Pack_VDV_Metis_SOV, 2),
+        (~/Descriptor_Deck_Pack_VDV_SOV, 2),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_SOV_76_VDV_multi
+    EmblemTexture     = "Texture_Division_Emblem_SOV_76th_VDV"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "SOV"
