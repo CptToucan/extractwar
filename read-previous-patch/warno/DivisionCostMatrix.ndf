@@ -27,6 +27,19 @@ MatrixCostName_FR_11e_Para_multi is MAP
     (EDefaultFactories/Tanks, [1, 1, 2, 2, 3, 3]),
 ]
 
+MatrixCostName_FR_152e_Infanterie_multi is MAP
+[
+    (EDefaultFactories/Art, [1, 2, 2, 3, 3, 3]),
+    (EDefaultFactories/DCA, [1, 1, 1, 2, 2, 3, 3, 3]),
+    (EDefaultFactories/Defense, [0]),
+    (EDefaultFactories/Helis, [1, 2, 3]),
+    (EDefaultFactories/Infantry, [1, 1, 1, 1, 1, 1, 1, 1, 2, 3]),
+    (EDefaultFactories/Logistic, [1, 1, 1, 1, 2, 3, 3, 3]),
+    (EDefaultFactories/Planes, [1, 1, 1, 2, 3, 3, 3]),
+    (EDefaultFactories/Recons, [1, 1, 1, 2, 3, 3, 3]),
+    (EDefaultFactories/Tanks, [1, 1, 2, 2, 3, 3]),
+]
+
 MatrixCostName_FR_5e_Blindee_multi is MAP
 [
     (EDefaultFactories/Art, [1, 1, 1, 1, 2, 3, 3]),
@@ -220,6 +233,19 @@ MatrixCostName_SOV_6IndMSBrig_multi is MAP
     (EDefaultFactories/Planes, [1, 1, 1, 2, 2, 3, 3]),
     (EDefaultFactories/Recons, [1, 2, 2, 3, 3]),
     (EDefaultFactories/Tanks, [1, 1, 2, 2, 2, 3, 3]),
+]
+
+MatrixCostName_SOV_76_VDV_multi is MAP
+[
+    (EDefaultFactories/Art, [1, 1, 1, 1, 2, 3, 3]),
+    (EDefaultFactories/DCA, [1, 1, 2, 2, 3, 3]),
+    (EDefaultFactories/Defense, []),
+    (EDefaultFactories/Helis, []),
+    (EDefaultFactories/Infantry, [1, 1, 1, 1, 1, 1, 1, 1, 2, 2]),
+    (EDefaultFactories/Logistic, [1, 1, 2, 3, 3, 3]),
+    (EDefaultFactories/Planes, [1, 1, 1, 1, 2, 2, 3, 3, 3]),
+    (EDefaultFactories/Recons, [1, 1, 1, 1, 2, 2, 3, 3, 3]),
+    (EDefaultFactories/Tanks, [1, 1, 2, 2, 3, 3]),
 ]
 
 MatrixCostName_SOV_79_Gds_Tank_multi is MAP

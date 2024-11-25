@@ -108,7 +108,6 @@ Constantes is TTunableConstante
     SuddenDeathTime = 5 * 60
     MinimumNumberOfUnitToStayInGameWithoutCmdOrProductionInDestructionMode = 5
 
-    TagControleZone = "InfmapCommander"
     DureeDeploiementControleZone = 0.2
     DureeRetraitControleZone = 0.2
 
@@ -170,7 +169,6 @@ Constantes is TTunableConstante
     RapprocherFormationsSelonObstacles  = false
     RotationLignesDInfanterie           = false // définit si les soldats d'une unité d'infanterie s'orientent comme des véhicules (pour les lignes d'infanterie)
     TagDecrochage                       = "Retraite"  // tag utilisé pour determiner si on affiche l'etiquette decrochage pendant la retraite
-    UtiliserMouvementRapideParDefaut    = false
 
 //----------------------------- Constantes Resale -----------------------------------------//
 
@@ -197,7 +195,7 @@ Constantes is TTunableConstante
 
 //---------------------------- Constantes Visibilite --------------------------------------//
 
-    MultiplicateurDistancePourBonusDissimulationGRU = 0.00052 DIV 100.0 // = (Distance en GRU) / 100.f
+    MultiplicateurDistancePourBonusDissimulationGRU = 0.00052 div 100.0 // = (Distance en GRU) / 100.f
     RelativeScanningPositionGRU = [0, 0, 7]
 
 //------------------------------ Constantes Vision ----------------------------------------//
@@ -209,9 +207,9 @@ Constantes is TTunableConstante
 
 TacticVictoryLevelConstantes is TVictoryLevelConstantes
 (
-    PalierVictoireMineure = 0.05   // Ratio entre le score du vainqueur et le deuxieme meilleur score
-    PalierVictoireMajeure = 0.55  // Ratio entre le score du vainqueur et le deuxieme meilleur score
-    PalierVictoireTotale = 0.75   // Ratio entre le score du vainqueur et le deuxieme meilleur score
+    MinorVictoryLimit = 0.05  // Ratio entre le score du vainqueur et le deuxieme meilleur score
+    MajorVictoryLimit = 0.55  // Ratio entre le score du vainqueur et le deuxieme meilleur score
+    TotalVictoryLimit = 0.75  // Ratio entre le score du vainqueur et le deuxieme meilleur score
 )
 
 //---------------------------------------------------------------------------------------//
@@ -641,8 +639,8 @@ WargameConstantes is TWargameTunableConstante
 
     // ATTENTION NE SONT PRISES QUE SI ON NE TROUVE PAS SON BONHEUR DANS LE DECK
     //---- Set OTAN, PACT
-    CommandUnitToSpawnForNation = [ nil, nil ]
-    CommandUnitToSpawnOverWaterForNation = [ nil, nil ]
+    CommandUnitToSpawnForCoalition = [ nil, nil ]
+    CommandUnitToSpawnOverWaterForCoalition = [ nil, nil ]
 
     //Order Token bloqué lorsque que l'unité est sans essence
     OrderBlockedWhenOutOfFuel = ["Move", "SmartMove", "QuickMove", "FastMoveAndAttack", "Spread", "Reverse", "ChangeAltitude",

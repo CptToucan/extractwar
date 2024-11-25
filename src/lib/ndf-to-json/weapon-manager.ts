@@ -198,7 +198,7 @@ export class WeaponManager extends AbstractManager {
      * The merged weapon is then added to the weapons array
      */
 
-    console.log(salvoMap, filteredSalvoMap, shownMountedWeapons)
+
     for (
       let salvoIndex = 0;
       salvoIndex < filteredSalvoMap.length;

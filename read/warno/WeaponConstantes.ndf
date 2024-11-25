@@ -4,7 +4,6 @@ export WeaponConstantes is TWeaponConstantsDescriptor
     //------------------------------------- Constantes --------------------------------------//
     //---------------------------------------------------------------------------------------//
 
-    DefaultStressMultiplier = 1.0
     StressMultiplierPerDamageFamily = MAP
     [
         (
@@ -53,7 +52,6 @@ export WeaponConstantes is TWeaponConstantsDescriptor
         (ResistanceFamily_infanterie, EImpactSurface/Ground),
     ]
 
-    DefaultMimeticProjectile = EImpactProjectile/Bullet
     DamageTypeToMimeticProjectile = MAP
     [
         (DamageFamily_ap, EImpactProjectile/APShell),

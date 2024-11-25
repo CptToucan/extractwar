@@ -105,7 +105,7 @@ export default function parseDivisionData(data: DivisionInputData) {
 function extractDivisionDetails(division: any) {
   return {
     descriptor: search(division, 'name'),
-    alliance: search(division, 'DivisionNationalite')[0].value.value,
+    alliance: search(division, 'DivisionCoalition')[0]?.value?.value ? search(division, 'DivisionCoalition')[0]?.value?.value : search(division, 'DivisionNationalite')[0].value.value,
     country: search(division, 'CountryId')[0]?.value?.value?.replaceAll('"', ''),
     tags: search(division, 'DivisionTags')[0].value.values.map((t: any) =>
       t.value.replaceAll("'", '')
