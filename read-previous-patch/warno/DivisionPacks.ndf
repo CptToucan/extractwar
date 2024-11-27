@@ -136,9 +136,9 @@ Descriptor_Deck_Pack_AH1F_HeavyHog_US is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_AH1F_HeavyHog_US
 )
 
-Descriptor_Deck_Pack_AH1S_Cobra_US is DeckPackDescriptor
+Descriptor_Deck_Pack_AH1F_Hog_US is DeckPackDescriptor
 (
-    Unit = $/GFX/Unit/Descriptor_Unit_AH1S_Cobra_US
+    Unit = $/GFX/Unit/Descriptor_Unit_AH1F_Hog_US
 )
 
 Descriptor_Deck_Pack_AH64_Apache_ATAS_US is DeckPackDescriptor

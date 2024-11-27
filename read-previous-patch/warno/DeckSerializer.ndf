@@ -212,7 +212,7 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_M901_TOW_US, 40),
         ($/GFX/Unit/Descriptor_Unit_AH1E_Cobra_US, 42),
         ($/GFX/Unit/Descriptor_Unit_AH1F_Cobra_US, 43),
-        ($/GFX/Unit/Descriptor_Unit_AH1S_Cobra_US, 45),
+        ($/GFX/Unit/Descriptor_Unit_AH1F_Hog_US, 45),
         ($/GFX/Unit/Descriptor_Unit_AH64_Apache_US, 46),
         ($/GFX/Unit/Descriptor_Unit_AH6C_Little_Bird_US, 47),
         ($/GFX/Unit/Descriptor_Unit_CH47_Chinook_US, 48),
@@ -1411,7 +1411,6 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_M201_FR, 2377),
         ($/GFX/Unit/Descriptor_Unit_M201_MG_FR, 2378),
         ($/GFX/Unit/Descriptor_Unit_M201_MILAN_FR, 2379),
-        ($/GFX/Unit/Descriptor_Unit_SVO_TCH, 2386),
         ($/GFX/Unit/Descriptor_Unit_Commandos_Air_FR, 2390),
         ($/GFX/Unit/Descriptor_Unit_GreenBerets_ODA_US, 2396),
         ($/GFX/Unit/Descriptor_Unit_AeroRifles_AB_US, 2397),
@@ -1479,5 +1478,7 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_Scout_Spetsnaz_VDV_SOV, 2507),
         ($/GFX/Unit/Descriptor_Unit_VAB_Reserve_FR, 2509),
         ($/GFX/Unit/Descriptor_Unit_F8P_Crusader_AA2_FR, 2511),
+        ($/GFX/Unit/Descriptor_Unit_Mi_4AV_130mm_TCH, 2651),
+        ($/GFX/Unit/Descriptor_Unit_Pathfinder_NG_US, 2710),
     ]
 )

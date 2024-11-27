@@ -7,7 +7,7 @@ Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
     CfgName = 'FR_11e_Para_multi'
     DivisionName = 'PPYRYDDJRK'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'FR', 'Allied', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'PPYRYDDJRK'
     PackList = MAP
@@ -85,7 +85,7 @@ Descriptor_Deck_Division_FR_152e_Infanterie_multi is TDeckDivisionDescriptor
     CfgName = 'FR_152e_Infanterie_multi'
     DivisionName = 'YHHSJATYLU'
     DivisionPowerClassification = 'DC_PWR3'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'FR', 'Allied', 'infantryReg', 'DC_PWR3']
     DescriptionHintTitleToken = 'AEINBNGLTE'
     PackList = MAP
@@ -165,7 +165,7 @@ Descriptor_Deck_Division_FR_5e_Blindee_multi is TDeckDivisionDescriptor
     CfgName = 'FR_5e_Blindee_multi'
     DivisionName = 'MVUBDSQMBB'
     DivisionPowerClassification = 'DC_PWR1'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'FR', 'Allied', 'armored', 'DC_PWR1']
     DescriptionHintTitleToken = 'MVUBDSQMBB'
     PackList = MAP
@@ -212,7 +212,7 @@ Descriptor_Deck_Division_FR_5e_Blindee_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Reserviste_FR, 1),
         (~/Descriptor_Deck_Pack_Rifles_APILAS_FR, 1),
         (~/Descriptor_Deck_Pack_Rifles_CMD_FR, 2),
-        (~/Descriptor_Deck_Pack_Rifles_DMR_FR, 3),
+        (~/Descriptor_Deck_Pack_Rifles_DMR_FR, 2),
         (~/Descriptor_Deck_Pack_Rifles_FR, 2),
         (~/Descriptor_Deck_Pack_Roland_2_FR, 1),
         (~/Descriptor_Deck_Pack_Roland_3_FR, 1),
@@ -244,7 +244,7 @@ Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
     CfgName = 'NATO_Garnison_Berlin_multi'
     DivisionName = 'EYKCGOHKBG'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'UK', 'Allied', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'EYKCGOHKBG'
     PackList = MAP
@@ -351,7 +351,7 @@ Descriptor_Deck_Division_RDA_4_MSD_multi is TDeckDivisionDescriptor
     CfgName = 'RDA_4_MSD_multi'
     DivisionName = 'XPXHEQABVZ'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'XPXHEQABVZ'
     PackList = MAP
@@ -454,7 +454,7 @@ Descriptor_Deck_Division_RDA_7_Panzer_multi is TDeckDivisionDescriptor
     CfgName = 'RDA_7_Panzer_multi'
     DivisionName = 'NIZAYXAMPN'
     DivisionPowerClassification = 'DC_PWR1'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'armored', 'DC_PWR1']
     DescriptionHintTitleToken = 'NIZAYXAMPN'
     PackList = MAP
@@ -537,7 +537,7 @@ Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi is TDeckDivisionDescriptor
     CfgName = 'RDA_KdA_Bezirk_Erfurt_multi'
     DivisionName = 'OVYVCMLGYY'
     DivisionPowerClassification = 'DC_PWR3'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'infantryReg', 'DC_PWR3']
     DescriptionHintTitleToken = 'OVYVCMLGYY'
     PackList = MAP
@@ -633,7 +633,7 @@ Descriptor_Deck_Division_RDA_Rugen_Gruppierung is TDeckDivisionDescriptor
     CfgName = 'RDA_Rugen_Gruppierung'
     DivisionName = 'PKOEWMXLJF'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'MTGLPEEASU'
     PackList = MAP
@@ -722,7 +722,7 @@ Descriptor_Deck_Division_RFA_2_PzGrenadier_multi is TDeckDivisionDescriptor
     CfgName = 'RFA_2_PzGrenadier_multi'
     DivisionName = 'XKYVHEFNED'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'RFA', 'Allied', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'XKYVHEFNED'
     PackList = MAP
@@ -813,7 +813,7 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
     CfgName = 'RFA_5_Panzer_multi'
     DivisionName = 'WOEQADLOKM'
     DivisionPowerClassification = 'DC_PWR1'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'RFA', 'Allied', 'armored', 'DC_PWR1']
     DescriptionHintTitleToken = 'WOEQADLOKM'
     PackList = MAP
@@ -830,7 +830,7 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Engineers_Flam_RFA, 1),
         (~/Descriptor_Deck_Pack_Engineers_RFA, 1),
         (~/Descriptor_Deck_Pack_F4F_Phantom_II_AA_RFA, 2),
-        (~/Descriptor_Deck_Pack_F4F_Phantom_II_AT_RFA, 2),
+        (~/Descriptor_Deck_Pack_F4F_Phantom_II_AT_RFA, 1),
         (~/Descriptor_Deck_Pack_F4F_Phantom_II_HE1_RFA, 1),
         (~/Descriptor_Deck_Pack_F4F_Phantom_II_RKT2_RFA, 1),
         (~/Descriptor_Deck_Pack_FH70_155mm_RFA, 2),
@@ -891,7 +891,7 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi is TDeckDivisionDescriptor
     CfgName = 'RFA_TerrKdo_Sud_multi'
     DivisionName = 'BIHXAJRCJA'
     DivisionPowerClassification = 'DC_PWR3'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'RFA', 'Allied', 'infantryReg', 'DC_PWR3']
     DescriptionHintTitleToken = 'BIHXAJRCJA'
     PackList = MAP
@@ -975,7 +975,7 @@ Descriptor_Deck_Division_SOV_119IndTkBrig_multi is TDeckDivisionDescriptor
     CfgName = 'SOV_119IndTkBrig_multi'
     DivisionName = 'QGUHEAAYWW'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'armored', 'DC_PWR2']
     DescriptionHintTitleToken = 'QGUHEAAYWW'
     PackList = MAP
@@ -1040,7 +1040,7 @@ Descriptor_Deck_Division_SOV_27_Gds_Rifle_multi is TDeckDivisionDescriptor
     CfgName = 'SOV_27_Gds_Rifle_multi'
     DivisionName = 'PFMPJNZAXB'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'QTEOMZACJF'
     PackList = MAP
@@ -1114,7 +1114,7 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi is TDeckDivisionDescriptor
     CfgName = 'SOV_35_AirAslt_Brig_multi'
     DivisionName = 'PFEYNGDKVR'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'PFEYNGDKVR'
     PackList = MAP
@@ -1210,7 +1210,7 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
     CfgName = 'SOV_39_Gds_Rifle_multi'
     DivisionName = 'QBSDOMYDBX'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'QBSDOMYDBX'
     PackList = MAP
@@ -1304,7 +1304,7 @@ Descriptor_Deck_Division_SOV_56_AirAslt_Brig_multi is TDeckDivisionDescriptor
     CfgName = 'SOV_56_AirAslt_Brig_multi'
     DivisionName = 'OJZIMECUCU'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'SGEEXVOOPI'
     PackList = MAP
@@ -1390,7 +1390,7 @@ Descriptor_Deck_Division_SOV_6IndMSBrig_multi is TDeckDivisionDescriptor
     CfgName = 'SOV_6IndMSBrig_multi'
     DivisionName = 'VKPNQYHZZN'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'DVUAMGKBXK'
     PackList = MAP
@@ -1468,7 +1468,7 @@ Descriptor_Deck_Division_SOV_76_VDV_multi is TDeckDivisionDescriptor
     CfgName = 'SOV_76_VDV_multi'
     DivisionName = 'HOVSLMGDMN'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'CRUYREPWFR'
     PackList = MAP
@@ -1490,7 +1490,7 @@ Descriptor_Deck_Division_SOV_76_VDV_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Engineers_CMD_VDV_SOV, 1),
         (~/Descriptor_Deck_Pack_Engineers_Flam_VDV_SOV, 2),
         (~/Descriptor_Deck_Pack_Engineers_VDV_SOV, 1),
-        (~/Descriptor_Deck_Pack_GAZ_66B_ZU_SOV, 1),
+        (~/Descriptor_Deck_Pack_GAZ_66B_ZU_SOV, 2),
         (~/Descriptor_Deck_Pack_GAZ_66_supply_SOV, 2),
         (~/Descriptor_Deck_Pack_HMGteam_AGS17_VDV_SOV, 2),
         (~/Descriptor_Deck_Pack_HMGteam_NSV_6U6_VDV_SOV, 2),
@@ -1537,7 +1537,7 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_multi is TDeckDivisionDescriptor
     CfgName = 'SOV_79_Gds_Tank_multi'
     DivisionName = 'ABQKCQLERY'
     DivisionPowerClassification = 'DC_PWR1'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'armored', 'DC_PWR1']
     DescriptionHintTitleToken = 'ABQKCQLERY'
     PackList = MAP
@@ -1618,7 +1618,7 @@ Descriptor_Deck_Division_UK_1st_Armoured_multi is TDeckDivisionDescriptor
     CfgName = 'UK_1st_Armoured_multi'
     DivisionName = 'YPUIEGDPJD'
     DivisionPowerClassification = 'DC_PWR1'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'UK', 'Allied', 'armored', 'DC_PWR1']
     DescriptionHintTitleToken = 'YPUIEGDPJD'
     PackList = MAP
@@ -1695,7 +1695,7 @@ Descriptor_Deck_Division_UK_2nd_Infantry_multi is TDeckDivisionDescriptor
     CfgName = 'UK_2nd_Infantry_multi'
     DivisionName = 'RSIUYDSXND'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'UK', 'Allied', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'RSIUYDSXND'
     PackList = MAP
@@ -1778,7 +1778,7 @@ Descriptor_Deck_Division_US_101st_Airmobile_multi is TDeckDivisionDescriptor
     CfgName = 'US_101st_Airmobile_multi'
     DivisionName = 'VLZCYKIFPB'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'XSZZQFMIYD'
     PackList = MAP
@@ -1786,7 +1786,7 @@ Descriptor_Deck_Division_US_101st_Airmobile_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_81mm_mortar_Aero_US, 2),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 2),
         (~/Descriptor_Deck_Pack_AH1F_HeavyHog_US, 1),
-        (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 2),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 2),
         (~/Descriptor_Deck_Pack_AH64_Apache_ATAS_US, 2),
         (~/Descriptor_Deck_Pack_AH64_Apache_US, 2),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp1_US, 2),
@@ -1856,7 +1856,7 @@ Descriptor_Deck_Division_US_11ACR_multi is TDeckDivisionDescriptor
     CfgName = 'US_11ACR_multi'
     DivisionName = 'AJSWBANTOA'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'US', 'Allied', 'armoredRecon', 'DC_PWR2']
     DescriptionHintTitleToken = 'AJSWBANTOA'
     PackList = MAP
@@ -1866,7 +1866,7 @@ Descriptor_Deck_Division_US_11ACR_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 1),
         (~/Descriptor_Deck_Pack_AH1F_CNITE_US, 2),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 2),
-        (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 4),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 4),
         (~/Descriptor_Deck_Pack_ATteam_Milan_2_RFA, 1),
         (~/Descriptor_Deck_Pack_AeroRifles_US, 1),
         (~/Descriptor_Deck_Pack_BGS_RFA, 1),
@@ -1932,13 +1932,13 @@ Descriptor_Deck_Division_US_24th_Inf_multi is TDeckDivisionDescriptor
     CfgName = 'US_24th_Inf_multi'
     DivisionName = 'DGUURLVDNS'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'HEFRKMJXZB'
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 4),
-        (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 4),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 4),
         (~/Descriptor_Deck_Pack_AH64_Apache_NG_US, 2),
         (~/Descriptor_Deck_Pack_ATteam_ITOW_US, 1),
         (~/Descriptor_Deck_Pack_ATteam_TOW2_US, 1),
@@ -2018,7 +2018,7 @@ Descriptor_Deck_Division_US_35th_Inf_multi is TDeckDivisionDescriptor
     CfgName = 'US_35th_Inf_multi'
     DivisionName = 'EUQUXKDWZK'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'LNXOPMIBHC'
     PackList = MAP
@@ -2098,13 +2098,13 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
     CfgName = 'US_3rd_Arm_multi'
     DivisionName = 'RSEACNWCQI'
     DivisionPowerClassification = 'DC_PWR1'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'US', 'Allied', 'armored', 'DC_PWR1']
     DescriptionHintTitleToken = 'RSEACNWCQI'
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 4),
-        (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 3),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 3),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp1_US, 5),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp2_US, 5),
         (~/Descriptor_Deck_Pack_ATteam_ITOW_US, 1),
@@ -2176,7 +2176,7 @@ Descriptor_Deck_Division_US_82nd_Airborne_multi is TDeckDivisionDescriptor
     CfgName = 'US_82nd_Airborne_multi'
     DivisionName = 'TATZFZUVYM'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'TATZFZUVYM'
     PackList = MAP
@@ -2185,7 +2185,7 @@ Descriptor_Deck_Division_US_82nd_Airborne_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_AH1F_ATAS_US, 2),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 4),
         (~/Descriptor_Deck_Pack_AH1F_HeavyHog_US, 2),
-        (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 2),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 2),
         (~/Descriptor_Deck_Pack_AH64_Apache_US, 2),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp1_US, 1),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp2_US, 2),
@@ -2253,7 +2253,7 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
     CfgName = 'US_8th_Inf_multi'
     DivisionName = 'ECGMWQOEZA'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'ECGMWQOEZA'
     PackList = MAP
@@ -2261,7 +2261,7 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_ATGM_US, 1),
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 1),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 4),
-        (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 4),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 4),
         (~/Descriptor_Deck_Pack_ATteam_ITOW_US, 1),
         (~/Descriptor_Deck_Pack_ATteam_TOW2_US, 2),
         (~/Descriptor_Deck_Pack_AeroRifles_US, 1),
@@ -2337,7 +2337,7 @@ Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
     CfgName = 'WP_Unternehmen_Zentrum_multi'
     DivisionName = 'CHKSNFWOEZ'
     DivisionPowerClassification = 'DC_PWR2'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'infantryReg', 'DC_PWR2']
     DescriptionHintTitleToken = 'CHKSNFWOEZ'
     PackList = MAP
@@ -2429,7 +2429,7 @@ Descriptor_Deck_Division_BEL_10PtserBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{72f129df-d345-4f5c-b487-2dd212186f94}
     CfgName = 'BEL_10PtserBrig_solo'
     DivisionName = 'DTNMQBUQTC'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"
     StrategicLabelColor     = "BlancEquipe"
@@ -2441,7 +2441,7 @@ Descriptor_Deck_Division_BEL_10Wing_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{83245b8b-859b-4cf3-83ff-0882975cec68}
     CfgName = 'BEL_10Wing_solo'
     DivisionName = 'NQFNHFVZRL'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
@@ -2453,7 +2453,7 @@ Descriptor_Deck_Division_BEL_12BrigInf_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{5e403750-c0c2-47aa-9804-1cdfdab14bef}
     CfgName = 'BEL_12BrigInf_solo'
     DivisionName = 'AQCDISWEEA'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_1e_Infanterie"
     StrategicLabelColor     = "division_BE_air"
@@ -2465,7 +2465,7 @@ Descriptor_Deck_Division_BEL_16de_PtserDiv_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{ab0b3fe3-2977-4982-9bc8-fd0f00953cf6}
     CfgName = 'BEL_16de_PtserDiv_solo'
     DivisionName = 'HWCKRNBHGQ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"
     StrategicLabelColor     = "division_BE_Boar_2"
@@ -2477,7 +2477,7 @@ Descriptor_Deck_Division_BEL_17BrigBlind_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{7afa3f90-2af9-4069-a1c2-6e89a0391085}
     CfgName = 'BEL_17BrigBlind_solo'
     DivisionName = 'BQXKOGZJOB'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"
     StrategicLabelColor     = "BlancEquipe"
@@ -2489,7 +2489,7 @@ Descriptor_Deck_Division_BEL_1DivInfanterie_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{5c139241-80b6-4fe6-ae66-248830c36b16}
     CfgName = 'BEL_1DivInfanterie_solo'
     DivisionName = 'IJZDSAJYMF'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_1e_Infanterie"
     StrategicLabelColor     = "division_BE_Boar_1"
@@ -2501,7 +2501,7 @@ Descriptor_Deck_Division_BEL_1PtserInfBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{a9a31e7b-2489-4218-ac63-d6d602801683}
     CfgName = 'BEL_1PtserInfBrig_solo'
     DivisionName = 'HVTIECLPHD'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_1e_Infanterie"
     StrategicLabelColor     = "BlancEquipe"
@@ -2513,7 +2513,7 @@ Descriptor_Deck_Division_BEL_1Wing_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{2698f8f1-8207-40f3-8f31-b25307a6314a}
     CfgName = 'BEL_1Wing_solo'
     DivisionName = 'RPEDYNISZM'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
@@ -2525,7 +2525,7 @@ Descriptor_Deck_Division_BEL_2Wing_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{037fed5c-2047-4067-9895-6e108d5fe3b1}
     CfgName = 'BEL_2Wing_solo'
     DivisionName = 'ACCLMCNNMU'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
@@ -2537,7 +2537,7 @@ Descriptor_Deck_Division_BEL_3Wing_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{4364acdb-7fa2-4dac-9a93-a3f9f7739a72}
     CfgName = 'BEL_3Wing_solo'
     DivisionName = 'GSJNHUIYCT'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
@@ -2549,7 +2549,7 @@ Descriptor_Deck_Division_BEL_4PtserBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{825945d8-7c2d-4c2c-84dc-69346b8de961}
     CfgName = 'BEL_4PtserBrig_solo'
     DivisionName = 'LGVADKMAFW'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"
     StrategicLabelColor     = "division_BE_air"
@@ -2561,7 +2561,7 @@ Descriptor_Deck_Division_BEL_7BrigInfBlind_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{a56e3348-421e-4bfd-b917-f8807ae70c8a}
     CfgName = 'BEL_7BrigInfBlind_solo'
     DivisionName = 'DKCHAOPGKW'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_1e_Infanterie"
     StrategicLabelColor     = "BlancEquipe"
@@ -2573,7 +2573,7 @@ Descriptor_Deck_Division_BEL_9Wing_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{f420d626-d0f9-4196-8101-1cf79a7f5b32}
     CfgName = 'BEL_9Wing_solo'
     DivisionName = 'OYSSDXPNZZ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
@@ -2585,7 +2585,7 @@ Descriptor_Deck_Division_BEL_BAF_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{00752745-6c24-458b-ba47-466a046bf25b}
     CfgName = 'BEL_BAF_solo'
     DivisionName = 'UCVXXLOUBF'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_Air_Force"
     StrategicLabelColor     = "division_BE_air"
@@ -2597,7 +2597,7 @@ Descriptor_Deck_Division_NATO_32ADG_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{8ba0faee-fc50-49ef-97f3-ac79a1652a7a}
     CfgName = 'NATO_32ADG_solo'
     DivisionName = 'TJRVFXGQDQ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
     StrategicLabelColor     = "H2_bleu_2"
@@ -2609,7 +2609,7 @@ Descriptor_Deck_Division_NATO_CENTAG_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{9094d5a8-80f4-4baa-85c1-cfeb44e1f612}
     CfgName = 'NATO_CENTAG_solo'
     DivisionName = 'SSUSFSRKEO'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_flag_us"
     StrategicLabelColor     = "corps_otan"
@@ -2621,7 +2621,7 @@ Descriptor_Deck_Division_RDA_10MSD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{1fe621f0-d1b4-4655-b3c1-abf8294b6a34}
     CfgName = 'RDA_10MSD_solo'
     DivisionName = 'CUEWTCIFNK'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_DDR_GroundForces_SansFond"
     StrategicLabelColor     = "division_DDR_11"
@@ -2633,7 +2633,7 @@ Descriptor_Deck_Division_RDA_11MSD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{b09825ee-0d71-415a-aeac-f28b83072739}
     CfgName = 'RDA_11MSD_solo'
     DivisionName = 'VIHBYIAHTG'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_DDR_GroundForces_SansFond"
     StrategicLabelColor     = "division_DDR_11"
@@ -2645,7 +2645,7 @@ Descriptor_Deck_Division_RDA_17MSD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{2a167fc2-23ed-47f7-9b17-22ffcac608a2}
     CfgName = 'RDA_17MSD_solo'
     DivisionName = 'HFMCQDUSQA'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_DDR_GroundForces_SansFond"
     StrategicLabelColor     = "division_DDR_11"
@@ -2657,7 +2657,7 @@ Descriptor_Deck_Division_RDA_4MSD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{745beef0-62d6-46d3-8d78-383e26c97194}
     CfgName = 'RDA_4MSD_solo'
     DivisionName = 'WKYGGWDXIQ'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
     StrategicLabelColor     = "division_DDR_1"
@@ -2669,7 +2669,7 @@ Descriptor_Deck_Division_RDA_7PzD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{bff44c3a-b9c5-4a9a-b722-9a6c98942f2c}
     CfgName = 'RDA_7PzD_solo'
     DivisionName = 'UJMWGQIZDB'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_7_Panzerdivision_DDR"
     StrategicLabelColor     = "division_DDR_7"
@@ -2681,7 +2681,7 @@ Descriptor_Deck_Division_RDA_ArtRgt3_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{199e80db-81f3-428f-a614-9a6e44ca75d8}
     CfgName = 'RDA_ArtRgt3_solo'
     DivisionName = 'VWRVQKNFEL'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_RDA_MB_III"
     StrategicLabelColor     = "division_DDR_hq"
@@ -2693,7 +2693,7 @@ Descriptor_Deck_Division_RDA_ArtRgt40_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{4a41ed05-f2f2-4df9-8aae-19b1d02072d3}
     CfgName = 'RDA_ArtRgt40_solo'
     DivisionName = 'ZVJPHODORW'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_RDA_MB_III"
     StrategicLabelColor     = "division_DDR_hq"
@@ -2705,7 +2705,7 @@ Descriptor_Deck_Division_RDA_LStR40_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{a97ab573-cef5-45e3-aadd-795c84b57246}
     CfgName = 'RDA_LStR40_solo'
     DivisionName = 'WURNOJAGAT'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_RDA_LStR40"
     StrategicLabelColor     = "division_DDR_kassel_1"
@@ -2717,7 +2717,7 @@ Descriptor_Deck_Division_RDA_MBDIII_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{a1581958-0b79-4b73-9f3c-8903eea5ab68}
     CfgName = 'RDA_MBDIII_solo'
     DivisionName = 'KOGFRBNZHG'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_RDA_MB_III"
     StrategicLabelColor     = "division_DDR_hq"
@@ -2729,7 +2729,7 @@ Descriptor_Deck_Division_RFA_12PzD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{29d67efc-2772-44f2-a812-1a32e0932a69}
     CfgName = 'RFA_12PzD_solo'
     DivisionName = 'BFHCIUHWQJ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_12_Panzer"
     StrategicLabelColor     = "division_RFA_5"
@@ -2741,7 +2741,7 @@ Descriptor_Deck_Division_RFA_26AB_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{c1293e88-ff58-4cc1-a1bf-0ca1a06e44db}
     CfgName = 'RFA_26AB_solo'
     DivisionName = 'VZRWVXGGRI'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_26LLB"
     StrategicLabelColor     = "division_RFA_4"
@@ -2753,7 +2753,7 @@ Descriptor_Deck_Division_RFA_2LwDiv_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{e765a513-f63f-4b58-b5e2-23280b5060a8}
     CfgName = 'RFA_2LwDiv_solo'
     DivisionName = 'SHMXFYGRWE'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_Luftwaffe"
     StrategicLabelColor     = "division_RFA_air_kassel_1"
@@ -2765,7 +2765,7 @@ Descriptor_Deck_Division_RFA_2PzGrD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{6efc1536-e20e-434c-81cf-26cdab0bade4}
     CfgName = 'RFA_2PzGrD_solo'
     DivisionName = 'XKYVHEFNED'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_2_PzGrenDivision_RFA"
     StrategicLabelColor     = "division_RFA_kassel_1"
@@ -2777,7 +2777,7 @@ Descriptor_Deck_Division_RFA_3EngBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{159ba176-f696-4bd7-831d-0cfdb544810f}
     CfgName = 'RFA_3EngBrig_solo'
     DivisionName = 'WCMKOZAWFU'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_III_Korps"
     StrategicLabelColor     = "division_RFA_kdo"
@@ -2789,7 +2789,7 @@ Descriptor_Deck_Division_RFA_3FlakBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{a7da83be-d8b5-4d37-8230-ecb53a30adcd}
     CfgName = 'RFA_3FlakBrig_solo'
     DivisionName = 'POSMNWFHJY'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_III_Korps"
     StrategicLabelColor     = "division_RFA_kdo"
@@ -2801,7 +2801,7 @@ Descriptor_Deck_Division_RFA_3HFG_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{99014316-8d98-46fa-85b4-2b3a2ad9c018}
     CfgName = 'RFA_3HFG_solo'
     DivisionName = 'HTXKTCYTUO'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_III_Korps"
     StrategicLabelColor     = "division_RFA_2"
@@ -2813,7 +2813,7 @@ Descriptor_Deck_Division_RFA_3Korps_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{2a159301-60c9-4ec6-a2da-d2cb903c5e56}
     CfgName = 'RFA_3Korps_solo'
     DivisionName = 'NXNQFFTQWE'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_III_Korps"
     StrategicLabelColor     = "division_RFA_kdo"
@@ -2825,7 +2825,7 @@ Descriptor_Deck_Division_RFA_54Brig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{4e7b2dc7-4969-4e19-b073-b16e763ebd27}
     CfgName = 'RFA_54Brig_solo'
     DivisionName = 'XFNPQTAXXH'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_kdo"
@@ -2837,7 +2837,7 @@ Descriptor_Deck_Division_RFA_5PzD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{9b7c3ae2-4fca-4eda-97b3-b69896ab6ffe}
     CfgName = 'RFA_5PzD_solo'
     DivisionName = 'LKSVNPCUYG'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
     StrategicLabelColor     = "division_RFA_2"
@@ -2849,7 +2849,7 @@ Descriptor_Deck_Division_RFA_64Brig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{e8b74c1b-83e2-46af-8562-7e9e8eb47c44}
     CfgName = 'RFA_64Brig_solo'
     DivisionName = 'QAYHWXLBRP'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_kdo"
@@ -2861,7 +2861,7 @@ Descriptor_Deck_Division_RFA_74PioRgt_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{9b1778d5-dea5-4e9c-b0c6-f0e511f80af6}
     CfgName = 'RFA_74PioRgt_solo'
     DivisionName = 'PPHRFSJBZP'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
@@ -2873,7 +2873,7 @@ Descriptor_Deck_Division_RFA_FlakRakRgt14_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{6856b3a3-91a6-4283-aba7-8eceb9642c1e}
     CfgName = 'RFA_FlakRakRgt14_solo'
     DivisionName = 'WJIWZEREHI'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_default"
     StrategicLabelColor     = "division_RFA_2"
@@ -2885,7 +2885,7 @@ Descriptor_Deck_Division_RFA_FlakRakRgt3_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{5f5712b4-54aa-4f95-b424-e0183dfdf831}
     CfgName = 'RFA_FlakRakRgt3_solo'
     DivisionName = 'RYHEICFCRL'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_default"
     StrategicLabelColor     = "division_RFA_2"
@@ -2897,7 +2897,7 @@ Descriptor_Deck_Division_RFA_FlakRakRgt4_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{7fbf7a15-65cf-4e5c-af92-ba9db3e298f2}
     CfgName = 'RFA_FlakRakRgt4_solo'
     DivisionName = 'AGBQFAGBHU'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_default"
     StrategicLabelColor     = "division_RFA_2"
@@ -2909,7 +2909,7 @@ Descriptor_Deck_Division_RFA_FlakRakRgt6_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{afd09fdb-a302-42a8-9327-d23a8261ac16}
     CfgName = 'RFA_FlakRakRgt6_solo'
     DivisionName = 'MEITBYLAKO'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_default"
     StrategicLabelColor     = "division_RFA_2"
@@ -2921,7 +2921,7 @@ Descriptor_Deck_Division_RFA_Heimat71_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{d8188d3f-2c8e-4b7e-a2e8-e3debcdb5362}
     CfgName = 'RFA_Heimat71_solo'
     DivisionName = 'LTMLXRICID'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
@@ -2933,7 +2933,7 @@ Descriptor_Deck_Division_RFA_Heimat84_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{528ade22-382b-4c6b-82cd-daf2982c0acd}
     CfgName = 'RFA_Heimat84_solo'
     DivisionName = 'NHKOOQHRRZ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
@@ -2945,7 +2945,7 @@ Descriptor_Deck_Division_RFA_Heimat94_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{94d44a57-14ab-4e22-aaad-fcf3ade840c6}
     CfgName = 'RFA_Heimat94_solo'
     DivisionName = 'YPXMWNQODK'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
@@ -2957,7 +2957,7 @@ Descriptor_Deck_Division_RFA_Luftwaffe_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{4e4912ad-251e-436c-b481-6e6fc30754fa}
     CfgName = 'RFA_Luftwaffe_solo'
     DivisionName = 'QERCZGUPTN'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_Luftwaffe"
     StrategicLabelColor     = "division_RFA_2"
@@ -2969,7 +2969,7 @@ Descriptor_Deck_Division_RFA_TK_Nord_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{3d72bbf2-e81c-4bfc-a8fb-e96514a1c18a}
     CfgName = 'RFA_TK_Nord_solo'
     DivisionName = 'SRNIPMIGYA'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_kassel_1"
@@ -2981,7 +2981,7 @@ Descriptor_Deck_Division_RFA_TK_Nord_solo_30 is TDeckDivisionDescriptor
     DescriptorId = GUID:{c25fda23-c397-4d9f-9bc7-aa3c27f298b1}
     CfgName = 'RFA_TK_Nord_solo_30'
     DivisionName = 'SRNIPMIGYA'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_kassel_1"
@@ -2993,7 +2993,7 @@ Descriptor_Deck_Division_RFA_TK_Sud_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{27b1422e-33bb-4d99-921d-cdce835cbd81}
     CfgName = 'RFA_TK_Sud_solo'
     DivisionName = 'EQJNLVYMVL'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
@@ -3005,7 +3005,7 @@ Descriptor_Deck_Division_RFA_VBK_41_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{71436814-2a05-40f5-83dd-8b6dcb487b66}
     CfgName = 'RFA_VBK_41_solo'
     DivisionName = 'SDTDGFUTEL'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
@@ -3017,7 +3017,7 @@ Descriptor_Deck_Division_RFA_VBK_42_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{c57fffa9-d518-4d05-a16d-f61e0a583c58}
     CfgName = 'RFA_VBK_42_solo'
     DivisionName = 'QTJLQWWZPJ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
@@ -3029,7 +3029,7 @@ Descriptor_Deck_Division_RFA_VBK_43_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{85c9fcbe-f479-4a67-8ee6-d643f0eafddf}
     CfgName = 'RFA_VBK_43_solo'
     DivisionName = 'AUZXMJPIPI'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
@@ -3041,7 +3041,7 @@ Descriptor_Deck_Division_RFA_VBK_44_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{5433d34b-a97d-45a4-a8f3-6dd5217f537e}
     CfgName = 'RFA_VBK_44_solo'
     DivisionName = 'WRYDHVWUFR'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_violet_sombre"
@@ -3053,7 +3053,7 @@ Descriptor_Deck_Division_RFA_VBK_45_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{bf98bf02-a37b-4cf1-903a-da1774fbfc41}
     CfgName = 'RFA_VBK_45_solo'
     DivisionName = 'TXJSUWVGLD'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_1"
@@ -3065,7 +3065,7 @@ Descriptor_Deck_Division_RFA_VBK_46_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{7c1f8493-14f5-4e7b-b94a-887e6b02587d}
     CfgName = 'RFA_VBK_46_solo'
     DivisionName = 'KUAJNYEVQX'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
@@ -3077,7 +3077,7 @@ Descriptor_Deck_Division_RFA_VBK_47_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{bf6c1448-20ad-4580-80d1-295bca688298}
     CfgName = 'RFA_VBK_47_solo'
     DivisionName = 'PLDWPZVFDV'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
     StrategicLabelColor     = "division_RFA_2"
@@ -3089,7 +3089,7 @@ Descriptor_Deck_Division_SOV_105ADIB_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{24ee19a9-23a2-4c95-9ac9-50baa12b2607}
     CfgName = 'SOV_105ADIB_solo'
     DivisionName = 'YZQRQUWKHE'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3101,7 +3101,7 @@ Descriptor_Deck_Division_SOV_119IndTkBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{5aed016f-d0ba-4bb2-9c94-d8d84f944fad}
     CfgName = 'SOV_119IndTkBrig_solo'
     DivisionName = 'QGUHEAAYWW'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_119OdtTP"
     StrategicLabelColor     = "SovDivision2"
@@ -3113,7 +3113,7 @@ Descriptor_Deck_Division_SOV_11GTkD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{fd40abbe-26c5-49e4-9bc6-fb75c88a82ac}
     CfgName = 'SOV_11GTkD_solo'
     DivisionName = 'XMQYPCOXKV'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision_boar_1"
@@ -3125,7 +3125,7 @@ Descriptor_Deck_Division_SOV_11ORAP_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{dab3cd2c-b1c8-4d1f-aa83-173118f0960d}
     CfgName = 'SOV_11ORAP_solo'
     DivisionName = 'GAFYKHWDVX'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3137,7 +3137,7 @@ Descriptor_Deck_Division_SOV_125ADIB_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{91ff1793-59f0-4bd7-97a6-7b2763643173}
     CfgName = 'SOV_125ADIB_solo'
     DivisionName = 'LBFRPMYQQL'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3149,7 +3149,7 @@ Descriptor_Deck_Division_SOV_126IAD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{cf58a287-3b47-4c4b-a27c-69b97dd7d635}
     CfgName = 'SOV_126IAD_solo'
     DivisionName = 'GCCUEIHHKG'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3161,7 +3161,7 @@ Descriptor_Deck_Division_SOV_16GvIAD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{0147a489-6838-4839-9db3-207948b35132}
     CfgName = 'SOV_16GvIAD_solo'
     DivisionName = 'AFJWXFWHID'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3173,7 +3173,7 @@ Descriptor_Deck_Division_SOV_1GTA_SAM_Brig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{d1a3a5a9-5146-423d-be9b-0ff07db5fc2a}
     CfgName = 'SOV_1GTA_SAM_Brig_solo'
     DivisionName = 'NFWANBEEGH'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
@@ -3185,7 +3185,7 @@ Descriptor_Deck_Division_SOV_1GTA_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{0cf10d82-fee7-4dd7-bb4a-4240b374f279}
     CfgName = 'SOV_1GTA_solo'
     DivisionName = 'JGEKAKPDYF'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
@@ -3197,7 +3197,7 @@ Descriptor_Deck_Division_SOV_1LVD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{9e370ec5-cbfa-4fd7-9081-fff8dd8c83ca}
     CfgName = 'SOV_1LVD_solo'
     DivisionName = 'EBECBWLJER'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3209,7 +3209,7 @@ Descriptor_Deck_Division_SOV_20GMRD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{474ea3f0-2388-4ae8-8145-f98bc38a4b31}
     CfgName = 'SOV_20GMRD_solo'
     DivisionName = 'HKQRLEJVQX'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision_kassel_2"
@@ -3221,7 +3221,7 @@ Descriptor_Deck_Division_SOV_27GMRD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{c4e983d5-b2e3-4df0-9b77-23813fcc94ee}
     CfgName = 'SOV_27GMRD_solo'
     DivisionName = 'DIDKXPCIFL'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_27GvMSD"
     StrategicLabelColor     = "SovDivision_boar_1"
@@ -3233,7 +3233,7 @@ Descriptor_Deck_Division_SOV_294ORAP_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{27bdccc7-58ad-44e7-8008-4e7db88f5167}
     CfgName = 'SOV_294ORAP_solo'
     DivisionName = 'ZADWXNWCXK'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3245,7 +3245,7 @@ Descriptor_Deck_Division_SOV_308ArtBr_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{81bac9d6-7bdd-4869-9cbd-e9449c7baf20}
     CfgName = 'SOV_308ArtBr_solo'
     DivisionName = 'BEGLGQZKJN'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
@@ -3257,7 +3257,7 @@ Descriptor_Deck_Division_SOV_34ArtDiv_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{1d4fd8e8-dd6f-4261-84da-c6e74051488f}
     CfgName = 'SOV_34ArtDiv_solo'
     DivisionName = 'IAQCIDWWAN'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
@@ -3269,7 +3269,7 @@ Descriptor_Deck_Division_SOV_357OCHAP_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{d1a3c219-f38e-423a-8a8f-241cb685e13a}
     CfgName = 'SOV_357OCHAP_solo'
     DivisionName = 'CLBSQAABHG'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3281,7 +3281,7 @@ Descriptor_Deck_Division_SOV_35GvDSHB_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{2f12deda-2290-4c93-95f4-a572dff66f3a}
     CfgName = 'SOV_35GvDSHB_solo'
     DivisionName = 'YMFLAGHXMM'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_35th_VDV_Brigade"
     StrategicLabelColor     = "SovDivision_kassel_1"
@@ -3293,7 +3293,7 @@ Descriptor_Deck_Division_SOV_368OCHAP_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{2aecd89e-b84d-40ae-ba64-09bcabf14865}
     CfgName = 'SOV_368OCHAP_solo'
     DivisionName = 'BABJKBKYAG'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3305,7 +3305,7 @@ Descriptor_Deck_Division_SOV_390ArtBr_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{a73457cc-518d-4bbb-a84b-e65e1e0f8881}
     CfgName = 'SOV_390ArtBr_solo'
     DivisionName = 'JCKEGESFSQ'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
@@ -3317,7 +3317,7 @@ Descriptor_Deck_Division_SOV_39GMRD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{bcd773f9-ac51-4ee0-b1ac-a0c5917383d7}
     CfgName = 'SOV_39GMRD_solo'
     DivisionName = 'YVLMVYSOCN'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_39th_gmsd"
     StrategicLabelColor     = "SovDivision1"
@@ -3329,7 +3329,7 @@ Descriptor_Deck_Division_SOV_3FrontUkr_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{fa605841-872d-460e-a486-b173733bd6c3}
     CfgName = 'SOV_3FrontUkr_solo'
     DivisionName = 'DPZFNAINUO'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "Vert"
@@ -3341,7 +3341,7 @@ Descriptor_Deck_Division_SOV_57GMRD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{16cd5ce0-8e54-43e6-b42f-f7f428b8ada8}
     CfgName = 'SOV_57GMRD_solo'
     DivisionName = 'CXOLPZKDDB'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_Blazon57th_gtd"
     StrategicLabelColor     = "SovDivision3"
@@ -3353,7 +3353,7 @@ Descriptor_Deck_Division_SOV_6GvIAD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{7c4fe8e9-d029-4d06-b3b1-3d453cadc870}
     CfgName = 'SOV_6GvIAD_solo'
     DivisionName = 'PCERLWWWMI'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3365,7 +3365,7 @@ Descriptor_Deck_Division_SOV_79GTkD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{3870239d-265d-4d9c-8db1-27f355ba378a}
     CfgName = 'SOV_79GTkD_solo'
     DivisionName = 'TANGJJSVLC'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
     StrategicLabelColor     = "SovDivision2"
@@ -3377,7 +3377,7 @@ Descriptor_Deck_Division_SOV_8GA_SAM_Brig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{11ce534b-a7d9-46ec-9087-c65ec1cead8a}
     CfgName = 'SOV_8GA_SAM_Brig_solo'
     DivisionName = 'XJTAWJBJGT'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
@@ -3389,7 +3389,7 @@ Descriptor_Deck_Division_SOV_8GA_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{86ce956f-7014-4add-a288-f5cee367a392}
     CfgName = 'SOV_8GA_solo'
     DivisionName = 'JVORBKCZCQ'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision2"
@@ -3401,7 +3401,7 @@ Descriptor_Deck_Division_SOV_931ORAP_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{2fcca32f-75af-46b6-bc3b-a8fdb32ba386}
     CfgName = 'SOV_931ORAP_solo'
     DivisionName = 'OJCVUVYNHK'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
@@ -3413,7 +3413,7 @@ Descriptor_Deck_Division_SOV_9TkD_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{03580d44-74b2-41dd-ad79-b741eed3c8c1}
     CfgName = 'SOV_9TkD_solo'
     DivisionName = 'GNIFXKTHNO'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision_kassel_3"
@@ -3425,7 +3425,7 @@ Descriptor_Deck_Division_SOV_WGF_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{255cac74-83bf-41ba-bd06-f44cccf9ad0c}
     CfgName = 'SOV_WGF_solo'
     DivisionName = 'HVWPWZYUMW'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_flag_soviet"
     StrategicLabelColor     = "SovDivision2"
@@ -3437,7 +3437,7 @@ Descriptor_Deck_Division_UK_2ATAF_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{50c0f14f-acc8-4d4e-923a-ee65d4e2b4cd}
     CfgName = 'UK_2ATAF_solo'
     DivisionName = 'FJPGXBJJHP'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
     StrategicLabelColor     = "division_UK_corps"
@@ -3449,7 +3449,7 @@ Descriptor_Deck_Division_UK_NORTHAG_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{de9e5aca-aac1-4118-88f7-67174f3224db}
     CfgName = 'UK_NORTHAG_solo'
     DivisionName = 'CXCRBGXKQG'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_BAOR"
     StrategicLabelColor     = "division_UK_air"
@@ -3461,7 +3461,7 @@ Descriptor_Deck_Division_UK_RAFG_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{e8c159ad-b3c7-45a9-a78f-c3935a3341d0}
     CfgName = 'UK_RAFG_solo'
     DivisionName = 'MZONZDXLPW'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
     StrategicLabelColor     = "division_UK_air"
@@ -3473,7 +3473,7 @@ Descriptor_Deck_Division_UK_RAF_Bruggen_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{fc3a14f1-817b-44a7-81bc-171519ff5cf6}
     CfgName = 'UK_RAF_Bruggen_solo'
     DivisionName = 'FOWWAHLVMF'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
     StrategicLabelColor     = "division_UK_air"
@@ -3485,7 +3485,7 @@ Descriptor_Deck_Division_UK_RAF_Gutersloh_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{7d675b7e-84e9-499b-9422-c08585740e04}
     CfgName = 'UK_RAF_Gutersloh_solo'
     DivisionName = 'RYRVTKNPAV'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
     StrategicLabelColor     = "division_UK_air"
@@ -3497,7 +3497,7 @@ Descriptor_Deck_Division_UK_RAF_Laarbruch_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{b61eb340-5901-415f-bcb0-56767d149acf}
     CfgName = 'UK_RAF_Laarbruch_solo'
     DivisionName = 'BFMMTTTZXB'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
     StrategicLabelColor     = "division_UK_air"
@@ -3509,7 +3509,7 @@ Descriptor_Deck_Division_UK_RAF_Wildenrath_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{420a0e93-259f-42c6-ae05-8198573a0de4}
     CfgName = 'UK_RAF_Wildenrath_solo'
     DivisionName = 'AUBZYRMSFQ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
     StrategicLabelColor     = "division_UK_air"
@@ -3521,7 +3521,7 @@ Descriptor_Deck_Division_US_10TFW_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{8add8e26-08ab-404d-bb51-9ee48704fd6e}
     CfgName = 'US_10TFW_solo'
     DivisionName = 'QOWCXNHSTP'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
@@ -3533,7 +3533,7 @@ Descriptor_Deck_Division_US_11ACR_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{7d61c6a2-67b8-497e-b1d2-6dd4738f7fe6}
     CfgName = 'US_11ACR_solo'
     DivisionName = 'AJSWBANTOA'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_11ACR"
     StrategicLabelColor     = "division_US_6"
@@ -3545,7 +3545,7 @@ Descriptor_Deck_Division_US_11AviaBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{0d9383ce-b215-4e61-8922-5929bdb3c10c}
     CfgName = 'US_11AviaBrig_solo'
     DivisionName = 'ZBTYQDKGDQ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3557,7 +3557,7 @@ Descriptor_Deck_Division_US_12AviaGroup_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{112c2573-9516-463f-bac0-40973d24d99a}
     CfgName = 'US_12AviaGroup_solo'
     DivisionName = 'OJWMXBRPQJ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3569,7 +3569,7 @@ Descriptor_Deck_Division_US_130Eng_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{e1c99c46-e52c-4c5c-b582-8433957f9364}
     CfgName = 'US_130Eng_solo'
     DivisionName = 'BGKQWCFSDP'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "corps_otan"
@@ -3581,7 +3581,7 @@ Descriptor_Deck_Division_US_14MPBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{abea9354-0999-451a-a806-e65b6104c770}
     CfgName = 'US_14MPBrig_solo'
     DivisionName = 'QBDIBHTMDV'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3593,7 +3593,7 @@ Descriptor_Deck_Division_US_17ABCorps_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{915f2151-e927-4b16-9a63-b43c0f8d4bd2}
     CfgName = 'US_17ABCorps_solo'
     DivisionName = 'CZSQNXGGTS'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_XVII_Corps"
     StrategicLabelColor     = "corps_otan"
@@ -3605,7 +3605,7 @@ Descriptor_Deck_Division_US_17AF_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{55a8f071-b420-4df8-9ac5-a7967de6d1d5}
     CfgName = 'US_17AF_solo'
     DivisionName = 'QIKUVABKDH'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3617,7 +3617,7 @@ Descriptor_Deck_Division_US_17ArtBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{a0048cf3-c6ed-48b7-93c6-d4bf787d2d0b}
     CfgName = 'US_17ArtBrig_solo'
     DivisionName = 'BPCQDIABSJ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3629,7 +3629,7 @@ Descriptor_Deck_Division_US_18Eng_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{944b81cf-d8f3-499f-ad0d-2509499eafc0}
     CfgName = 'US_18Eng_solo'
     DivisionName = 'HZFHDVBEKR'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_flag_us"
     StrategicLabelColor     = "corps_otan"
@@ -3641,7 +3641,7 @@ Descriptor_Deck_Division_US_18MPBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{b108a262-ec1b-4224-b5f0-c2258233d626}
     CfgName = 'US_18MPBrig_solo'
     DivisionName = 'NXSAJFPRZN'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3653,7 +3653,7 @@ Descriptor_Deck_Division_US_194ArmBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{3d115f8e-ce7b-4357-8f40-d9f1b382017c}
     CfgName = 'US_194ArmBrig_solo'
     DivisionName = 'RQYMEKQIKU'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_194th_Armored_Brigade"
     StrategicLabelColor     = "corps_otan"
@@ -3665,7 +3665,7 @@ Descriptor_Deck_Division_US_197MechBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{98c109a9-49e5-4503-adbb-e9f691e1f013}
     CfgName = 'US_197MechBrig_solo'
     DivisionName = 'STYBNFYSZO'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_197th_Mechanized_Brigade"
     StrategicLabelColor     = "corps_otan"
@@ -3677,7 +3677,7 @@ Descriptor_Deck_Division_US_1Arm_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{97df0a5e-b768-4da6-8002-6d93bf592276}
     CfgName = 'US_1Arm_solo'
     DivisionName = 'PRTCDCACMB'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_1st_Armored_Division"
     StrategicLabelColor     = "division_US_4"
@@ -3689,7 +3689,7 @@ Descriptor_Deck_Division_US_20TFW_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{2292035c-8c52-4a0c-9ccd-2d69514c5a97}
     CfgName = 'US_20TFW_solo'
     DivisionName = 'NMXKEWXSXC'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
@@ -3701,7 +3701,7 @@ Descriptor_Deck_Division_US_210ArtBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{3ddd13ed-0526-4b92-9b88-402a016bb01d}
     CfgName = 'US_210ArtBrig_solo'
     DivisionName = 'HFPUEYYLWJ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3713,7 +3713,7 @@ Descriptor_Deck_Division_US_2ACR_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{42ff0a6e-5c8a-4ca9-9bd2-214175c18211}
     CfgName = 'US_2ACR_solo'
     DivisionName = 'BAHLYMAFMD'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "division_US_6"
@@ -3725,7 +3725,7 @@ Descriptor_Deck_Division_US_36TFW_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{580b903e-9d5e-4383-8752-ff19b9d56bad}
     CfgName = 'US_36TFW_solo'
     DivisionName = 'YUJKFMIJOF'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
@@ -3737,7 +3737,7 @@ Descriptor_Deck_Division_US_3AF_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{9bc863f7-4f49-4cf9-896f-05ae098544f6}
     CfgName = 'US_3AF_solo'
     DivisionName = 'LAFILSKGDX'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3749,7 +3749,7 @@ Descriptor_Deck_Division_US_3Arm_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{e3541154-22c4-4d2b-bfff-ed2715c15341}
     CfgName = 'US_3Arm_solo'
     DivisionName = 'RSEACNWCQI'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
     StrategicLabelColor     = "division_US_2"
@@ -3761,7 +3761,7 @@ Descriptor_Deck_Division_US_3Inf_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{ca37d83b-ee58-4b12-b38f-7f69a56e46e4}
     CfgName = 'US_3Inf_solo'
     DivisionName = 'GXVZANBEUY'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_3rd_infantry_division"
     StrategicLabelColor     = "division_US_3"
@@ -3773,7 +3773,7 @@ Descriptor_Deck_Division_US_3rd_Arm_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{26f0b49e-2ad7-42f3-b0bd-958492fff5b4}
     CfgName = 'US_3rd_Arm_solo'
     DivisionName = 'RSEACNWCQI'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3785,7 +3785,7 @@ Descriptor_Deck_Division_US_41FABrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{430ea825-bd13-4f35-b525-4dc6de375709}
     CfgName = 'US_41FABrig_solo'
     DivisionName = 'KXDHOZGFIO'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3797,7 +3797,7 @@ Descriptor_Deck_Division_US_42FABrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{60cbb9ff-9c5f-44a7-9136-97877bff8b10}
     CfgName = 'US_42FABrig_solo'
     DivisionName = 'APWHVTICZW'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3809,7 +3809,7 @@ Descriptor_Deck_Division_US_48TFW_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{f8257fe9-7a6b-4891-831b-23b980429422}
     CfgName = 'US_48TFW_solo'
     DivisionName = 'PCOYCDRMXA'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
@@ -3821,7 +3821,7 @@ Descriptor_Deck_Division_US_4ATAF_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{a170388e-5741-4f7a-b915-a2fa2e962a90}
     CfgName = 'US_4ATAF_solo'
     DivisionName = 'XAZRSRXGOP'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3833,7 +3833,7 @@ Descriptor_Deck_Division_US_50TFW_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{ad0f89b7-829c-4daf-a62f-525aec9cc6b4}
     CfgName = 'US_50TFW_solo'
     DivisionName = 'QOVRQVZAOI'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
@@ -3845,7 +3845,7 @@ Descriptor_Deck_Division_US_52TFW_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{c265593a-2c66-4ebd-8370-6bb804615cf6}
     CfgName = 'US_52TFW_solo'
     DivisionName = 'SSVYVMHOZM'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
@@ -3857,7 +3857,7 @@ Descriptor_Deck_Division_US_5Corps_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{74b627d4-927b-4ca7-b2ff-5660cf5009a1}
     CfgName = 'US_5Corps_solo'
     DivisionName = 'XIFVCZXVJC'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_V_Corps"
     StrategicLabelColor     = "corps_otan"
@@ -3869,7 +3869,7 @@ Descriptor_Deck_Division_US_72ArtBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{00b277bd-aa16-4616-a5d5-55889ec52a5f}
     CfgName = 'US_72ArtBrig_solo'
     DivisionName = 'RBNPNWZIMF'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "H2_bleu_2"
@@ -3881,7 +3881,7 @@ Descriptor_Deck_Division_US_7Corps_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{507168ec-b9db-48a9-bc60-001780ba657b}
     CfgName = 'US_7Corps_solo'
     DivisionName = 'JNWISSLMCA'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "corps_otan"
@@ -3893,7 +3893,7 @@ Descriptor_Deck_Division_US_7Eng_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{3dc2b50b-48d1-48d2-84ba-e9aad27ae141}
     CfgName = 'US_7Eng_solo'
     DivisionName = 'ESGVHRWUCP'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_VII_Corps"
     StrategicLabelColor     = "corps_otan"
@@ -3905,7 +3905,7 @@ Descriptor_Deck_Division_US_81TFW_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{2c5c6b4c-4797-44c0-9afa-017373f23287}
     CfgName = 'US_81TFW_solo'
     DivisionName = 'MQOZMVGKHB'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
@@ -3917,7 +3917,7 @@ Descriptor_Deck_Division_US_82AB_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{e95fcb80-85ba-4e50-9e2c-7d99847e860d}
     CfgName = 'US_82AB_solo'
     DivisionName = 'AWINESUMIZ'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_82nd_airborne"
     StrategicLabelColor     = "division_US_1"
@@ -3929,7 +3929,7 @@ Descriptor_Deck_Division_US_86TFW_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{dfbcb2e6-e1af-4165-999b-449e629c6bc7}
     CfgName = 'US_86TFW_solo'
     DivisionName = 'VWMNPXFNRP'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_US_AirForce"
     StrategicLabelColor     = "division_US_air"
@@ -3941,7 +3941,7 @@ Descriptor_Deck_Division_US_8Inf_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{6137fd07-18bc-4d26-a1fe-01ca7ad10eae}
     CfgName = 'US_8Inf_solo'
     DivisionName = 'PFWJUTBNGI'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_8th_infantry_division"
     StrategicLabelColor     = "division_US_8th"
@@ -3953,7 +3953,7 @@ Descriptor_Deck_Division_US_BEL_1BEC_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{deacbb5c-5867-42ad-af87-6af7993f2473}
     CfgName = 'US_BEL_1BEC_solo'
     DivisionName = 'CXRQZNZYVC'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_1_Corps"
     StrategicLabelColor     = "division_BE_kassel_1"
@@ -3965,7 +3965,7 @@ Descriptor_Deck_Division_US_BEL_COMRECCE_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{923b33a1-617c-4a03-a131-bfb8082610d1}
     CfgName = 'US_BEL_COMRECCE_solo'
     DivisionName = 'MINGNQHLTO'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_BEL_1_Corps"
     StrategicLabelColor     = "division_BE_Boar_2"
@@ -3977,7 +3977,7 @@ Descriptor_Deck_Division_US_CENTAG_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{a35b46b4-46e7-45b4-b058-9ef8c792a1e5}
     CfgName = 'US_CENTAG_solo'
     DivisionName = 'COBTUEBJOK'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_flag_us"
     StrategicLabelColor     = "corps_otan"
@@ -3989,7 +3989,7 @@ Descriptor_Deck_Division_US_UK_1BrC_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{67c0dc15-fc2b-44e5-868a-a86f02977b93}
     CfgName = 'US_UK_1BrC_solo'
     DivisionName = 'YOWBMGVFWE'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_1_Corps"
     StrategicLabelColor     = "division_UK_corps"
@@ -4001,7 +4001,7 @@ Descriptor_Deck_Division_US_UK_33ArmBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{bc4ed516-a4a8-41ca-8b2d-7a25f093f1df}
     CfgName = 'US_UK_33ArmBrig_solo'
     DivisionName = 'BRFWUEGMRN'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_3rd_Armoured"
     StrategicLabelColor     = "division_UK_boar_1"
@@ -4013,7 +4013,7 @@ Descriptor_Deck_Division_US_UK_3ArmDiv_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{1ad98f56-7fad-4867-b3ff-d33aaa37b41d}
     CfgName = 'US_UK_3ArmDiv_solo'
     DivisionName = 'GYPOTPNSDB'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_3rd_Armoured"
     StrategicLabelColor     = "division_UK_boar_1"
@@ -4025,7 +4025,7 @@ Descriptor_Deck_Division_US_UK_6ArmBrig_solo is TDeckDivisionDescriptor
     DescriptorId = GUID:{740ab5e5-932b-49cb-a046-41425ba6f520}
     CfgName = 'US_UK_6ArmBrig_solo'
     DivisionName = 'KMMAQOBPDS'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_3rd_Armoured"
     StrategicLabelColor     = "division_UK_boar_1"
@@ -4038,7 +4038,7 @@ Descriptor_Deck_Division_FR_7e_Blindee_challenge is TDeckDivisionDescriptor
     DescriptorId = GUID:{1d6de536-94b6-48ad-97ae-70ab8dc37745}
     CfgName = 'FR_7e_Blindee_challenge'
     DivisionName = 'OUTIKXRJRP'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['HB', 'Allied']
     PackList = MAP
     [
@@ -4111,7 +4111,7 @@ Descriptor_Deck_Division_RDA_11MSD_challenge is TDeckDivisionDescriptor
     DescriptorId = GUID:{35dba35c-2786-4948-a5f1-d28ff86083df}
     CfgName = 'RDA_11MSD_challenge'
     DivisionName = 'VIHBYIAHTG'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['HB', 'Axis']
     PackList = MAP
     [
@@ -4199,7 +4199,7 @@ Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA is TDeckDivisionDescriptor
     DescriptorId = GUID:{72097316-df8b-4eae-b2ee-3d79bc9cc92d}
     CfgName = 'RFA_12_Panzer_challenge_IA'
     DivisionName = 'VXPQKUCQRK'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['HB', 'Allied']
     PackList = MAP
     [
@@ -4276,7 +4276,7 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge is TDeckDivisionDescriptor
     DescriptorId = GUID:{1567ee5a-42bf-4200-b5a2-8c14d8a133b6}
     CfgName = 'RFA_TerrKdo_Sud_challenge'
     DivisionName = 'BIHXAJRCJA'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['HB', 'Allied']
     PackList = MAP
     [
@@ -4352,7 +4352,7 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge_IA is TDeckDivisionDescriptor
     DescriptorId = GUID:{9097d474-782a-4c11-b4c6-15fd2b772b14}
     CfgName = 'RFA_TerrKdo_Sud_challenge_IA'
     DivisionName = 'MAGHLFUQBV'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['HB', 'Allied']
     PackList = MAP
     [
@@ -4428,7 +4428,7 @@ Descriptor_Deck_Division_SOV_27_Gds_Rifle_challenge is TDeckDivisionDescriptor
     DescriptorId = GUID:{92231eaa-b44f-4ab7-802d-b45019295bb9}
     CfgName = 'SOV_27_Gds_Rifle_challenge'
     DivisionName = 'PFMPJNZAXB'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['HB', 'Axis']
     PackList = MAP
     [
@@ -4520,7 +4520,7 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge is TDeckDivisionDescripto
     DescriptorId = GUID:{697d227f-a521-4a1a-ab72-5e3574ea68b9}
     CfgName = 'SOV_35_AirAslt_Brig_challenge'
     DivisionName = 'PFEYNGDKVR'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['HB', 'Axis']
     PackList = MAP
     [
@@ -4610,7 +4610,7 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge_IA is TDeckDivisionDescri
     DescriptorId = GUID:{ae90e90d-af4b-4243-a84e-e50793efb7d1}
     CfgName = 'SOV_35_AirAslt_Brig_challenge_IA'
     DivisionName = 'MVXKWGESXW'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['HB', 'Axis']
     PackList = MAP
     [
@@ -4700,7 +4700,7 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge is TDeckDivisionDescriptor
     DescriptorId = GUID:{4ccf9ab4-2032-4397-a22f-dc92a1f2a103}
     CfgName = 'SOV_39_Gds_Rifle_challenge'
     DivisionName = 'WHXBXIENCF'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['HB', 'Axis']
     PackList = MAP
     [
@@ -4788,7 +4788,7 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge_IA is TDeckDivisionDescripto
     DescriptorId = GUID:{d9ab1525-cae6-43af-93aa-6d92ec51d98b}
     CfgName = 'SOV_39_Gds_Rifle_challenge_IA'
     DivisionName = 'IILRZVSFBI'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['HB', 'Axis']
     PackList = MAP
     [
@@ -4876,7 +4876,7 @@ Descriptor_Deck_Division_SOV_57_GMRD_challenge_Sledgehammer is TDeckDivisionDesc
     DescriptorId = GUID:{7ebffbc2-7b74-411c-8e2a-9c29bfd16398}
     CfgName = 'SOV_57_GMRD_challenge_Sledgehammer'
     DivisionName = 'JLEMTCILBD'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['HB', 'Axis']
     PackList = MAP
     [
@@ -4918,7 +4918,7 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge is TDeckDivisionDescriptor
     DescriptorId = GUID:{c834463e-332f-439e-a31b-aff27f56a094}
     CfgName = 'SOV_79_Gds_Tank_challenge'
     DivisionName = 'ABQKCQLERY'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['HB', 'Axis']
     PackList = MAP
     [
@@ -5005,7 +5005,7 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge_IA is TDeckDivisionDescriptor
     DescriptorId = GUID:{98961e02-b376-4f6b-8401-65edacc06686}
     CfgName = 'SOV_79_Gds_Tank_challenge_IA'
     DivisionName = 'LYTQXPNMTG'
-    DivisionNationalite = ENationalite/Axis
+    DivisionCoalition = ECoalition/Axis
     DivisionTags = ['HB', 'Axis']
     PackList = MAP
     [
@@ -5094,7 +5094,7 @@ Descriptor_Deck_Division_UK_Blues_Royals_challenge is TDeckDivisionDescriptor
     DescriptorId = GUID:{aaf0bdf7-0edc-437f-b211-a8341d0f1dd6}
     CfgName = 'UK_Blues_Royals_challenge'
     DivisionName = 'MSVIEZBTGS'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['HB', 'Allied']
     PackList = MAP
     [
@@ -5169,14 +5169,14 @@ Descriptor_Deck_Division_US_11ACR_multi_HB is TDeckDivisionDescriptor
     DescriptorId = GUID:{07128cc1-4137-4b06-bec4-384c6530872f}
     CfgName = 'US_11ACR_multi_HB'
     DivisionName = 'GKSQUEBHOA'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['HB', 'Allied']
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_ATGM_US, 100),
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 100),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 100),
-        (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 100),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 100),
         (~/Descriptor_Deck_Pack_AH64_Apache_US, 100),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp1_US, 100),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp2_US, 100),
@@ -5249,14 +5249,14 @@ Descriptor_Deck_Division_US_3rd_Arm_challenge is TDeckDivisionDescriptor
     DescriptorId = GUID:{b85095ba-e95f-471e-a356-889908febadb}
     CfgName = 'US_3rd_Arm_challenge'
     DivisionName = 'RSEACNWCQI'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['HB', 'Allied']
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_ATGM_US, 999),
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 999),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 999),
-        (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 999),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 999),
         (~/Descriptor_Deck_Pack_AH64_Apache_US, 999),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp1_US, 999),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp2_US, 999),
@@ -5329,14 +5329,14 @@ Descriptor_Deck_Division_US_3rd_Arm_challenge_IA is TDeckDivisionDescriptor
     DescriptorId = GUID:{a4140d45-ea2c-4004-894d-b861eb26417b}
     CfgName = 'US_3rd_Arm_challenge_IA'
     DivisionName = 'BYQIIEPKDR'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['HB', 'Allied']
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_ATGM_US, 999),
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 999),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 999),
-        (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 999),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 999),
         (~/Descriptor_Deck_Pack_AH64_Apache_US, 999),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp1_US, 999),
         (~/Descriptor_Deck_Pack_AH64_Apache_emp2_US, 999),
@@ -5409,14 +5409,14 @@ Descriptor_Deck_Division_US_8th_Inf_challenge_IA is TDeckDivisionDescriptor
     DescriptorId = GUID:{ff002aab-955c-4b12-8608-10882ab2e264}
     CfgName = 'US_8th_Inf_challenge_IA'
     DivisionName = 'ECGMWQOEZA'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['HB', 'Allied']
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_ATGM_US, 999),
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 999),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 999),
-        (~/Descriptor_Deck_Pack_AH1S_Cobra_US, 999),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 999),
         (~/Descriptor_Deck_Pack_ATteam_ITOW_US, 999),
         (~/Descriptor_Deck_Pack_ATteam_Milan_1_RFA, 999),
         (~/Descriptor_Deck_Pack_ATteam_TOW2_US, 999),
