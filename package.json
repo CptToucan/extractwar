@@ -23,7 +23,7 @@
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^2.0.1",
     "chalk": "^4.1.2",
-    "cli-ux": "^6.0.5",
+    "cli-ux": "^6.0.9",
     "eslint-config-prettier": "^8.5.0",
     "firebase-admin": "^11.5.0",
     "json-diff": "^1.0.3",
