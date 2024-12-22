@@ -632,11 +632,7 @@ export default class NdfToJson extends Command {
   }
 
   private divisionsForUnit(unit: Unit, divisions: any[]) {
-    const nationalityDivisions = divisions?.filter(
-      (division) => division.alliance === unit.unitType.nationality
-    );
-
-    return nationalityDivisions
+    return divisions
       ?.filter((division) => {
         return division.packs.find(
           (pack: any) => pack.unitDescriptor === unit.descriptorName

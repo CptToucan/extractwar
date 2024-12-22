@@ -2364,7 +2364,7 @@ Ammo_AA_R98MR is TAmmunitionDescriptor
         [
             (EBaseHitValueModifier/Base, 0.0),
             (EBaseHitValueModifier/Idling, 55),
-            (EBaseHitValueModifier/Moving, 60),
+            (EBaseHitValueModifier/Moving, 55),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
     )
@@ -2435,7 +2435,7 @@ Ammo_AA_R98MT is TAmmunitionDescriptor
         [
             (EBaseHitValueModifier/Base, 0.0),
             (EBaseHitValueModifier/Idling, 50),
-            (EBaseHitValueModifier/Moving, 55),
+            (EBaseHitValueModifier/Moving, 50),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
     )
@@ -2882,8 +2882,8 @@ Ammo_AGM_9K121_Vikhr_x16_avion is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 1.0
-    TempsEntreDeuxSalves              = 5.0
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 1.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -6527,6 +6527,7 @@ Ammo_AGM_Kh25MP is TAmmunitionDescriptor
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_AGM_Kh25MP"
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9875,6 +9876,82 @@ Ammo_ATGM_BGM71D_TOW_2_x8 is TAmmunitionDescriptor
     MissileTimeBetweenCorrections = 1.0
     MissileDescriptor             = ~/Descriptor_Missile_ATGM_BGM71D_TOW_2_x8
 )
+Ammo_ATGM_BGM71D_TOW_2A is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{7f9d61d0-5ecc-46dc-a0e0-5e82a410775d}
+    Name                              = 'YGIRMVNBSW'
+    TypeCategoryName                  = 'JTOYRAARTS'
+    Caliber                           = 'AFPUXFVNKD'
+    WeaponDescriptionToken            = 'CRYXRQVTBJ'
+    TraitsToken                       = [ 'STAT', 'manual', 'TANDEM', ]
+    WeaponCursorType                  = Weapon_Cursor_GroundMissile
+    MinMaxCategory                    = MinMax_ATGM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=25)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MissileATGMGen2' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 1.0
+    TempsEntreDeuxFx                  = 1.0
+    PorteeMaximaleGRU                 = 2625
+    PorteeMinimaleGRU                 = 353
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionAtMaxRangeGRU              = 18
+    DispersionAtMinRangeGRU              = 16
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 2
+    PhysicalDamages                   = 1.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 46
+    SuppressDamages                   = 275.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 427
+    MaxAccelerationGRU                = 265
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{aa1a5fcb-cce3-4d25-b8df-defc08023c83}
+        BaseCriticModifier = 0
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 65),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    MaxSuccessiveHitCount             = 3
+    TempsDeVisee                      = 2.2
+    TempsEntreDeuxSalves              = 8.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 1
+    SupplyCost                        = 30
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 1
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    TandemCharge                      = True
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_ATGM_BGM71D_TOW_2A
+)
 Ammo_ATGM_BGM71D_TOW_2A_x2 is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{ee0c2d0c-20cb-4c56-ae45-3ff3edf2da47}
@@ -11248,7 +11325,7 @@ Ammo_Bomb_BGL_400_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11295,7 +11372,7 @@ Ammo_Bomb_BGL_400_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -11324,7 +11401,7 @@ Ammo_Bomb_BGL_400_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11371,7 +11448,7 @@ Ammo_Bomb_BGL_400_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -11400,7 +11477,7 @@ Ammo_Bomb_CPU_123_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11447,7 +11524,7 @@ Ammo_Bomb_CPU_123_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -11476,7 +11553,7 @@ Ammo_Bomb_CPU_123_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11523,7 +11600,7 @@ Ammo_Bomb_CPU_123_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -11552,7 +11629,7 @@ Ammo_Bomb_GBU_10_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11599,7 +11676,7 @@ Ammo_Bomb_GBU_10_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -11628,7 +11705,7 @@ Ammo_Bomb_GBU_10_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11675,7 +11752,7 @@ Ammo_Bomb_GBU_10_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -11704,7 +11781,7 @@ Ammo_Bomb_GBU_12_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11751,7 +11828,7 @@ Ammo_Bomb_GBU_12_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -11780,7 +11857,7 @@ Ammo_Bomb_GBU_12_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11827,7 +11904,7 @@ Ammo_Bomb_GBU_12_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -11856,7 +11933,7 @@ Ammo_Bomb_GBU_27_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11903,7 +11980,7 @@ Ammo_Bomb_GBU_27_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -11932,7 +12009,7 @@ Ammo_Bomb_GBU_27_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11979,7 +12056,7 @@ Ammo_Bomb_GBU_27_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -12008,7 +12085,7 @@ Ammo_Bomb_KAB_1500Kr_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12055,7 +12132,7 @@ Ammo_Bomb_KAB_1500Kr_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -12084,7 +12161,7 @@ Ammo_Bomb_KAB_1500Kr_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12131,7 +12208,7 @@ Ammo_Bomb_KAB_1500Kr_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -12160,7 +12237,7 @@ Ammo_Bomb_KAB_1500L_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12207,7 +12284,7 @@ Ammo_Bomb_KAB_1500L_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -12236,7 +12313,7 @@ Ammo_Bomb_KAB_1500L_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12283,7 +12360,7 @@ Ammo_Bomb_KAB_1500L_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -12312,7 +12389,7 @@ Ammo_Bomb_KAB_1500L_x3 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12359,7 +12436,7 @@ Ammo_Bomb_KAB_1500L_x3 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 3
@@ -12388,7 +12465,7 @@ Ammo_Bomb_KAB_500Kr_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12435,7 +12512,7 @@ Ammo_Bomb_KAB_500Kr_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -12464,7 +12541,7 @@ Ammo_Bomb_KAB_500Kr_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12511,7 +12588,7 @@ Ammo_Bomb_KAB_500Kr_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -12540,7 +12617,7 @@ Ammo_Bomb_KAB_500L_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12587,7 +12664,7 @@ Ammo_Bomb_KAB_500L_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -12616,7 +12693,7 @@ Ammo_Bomb_KAB_500L_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12663,7 +12740,7 @@ Ammo_Bomb_KAB_500L_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -12671,7 +12748,7 @@ Ammo_Bomb_KAB_500L_x2 is TAmmunitionDescriptor
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
-    NbrProjectilesSimultanes          = 1
+    NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_500Kr"
     SmokeDescriptor                   = nil
@@ -12692,7 +12769,7 @@ Ammo_Bomb_KAB_500L_x4 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12739,7 +12816,7 @@ Ammo_Bomb_KAB_500L_x4 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -13066,7 +13143,7 @@ Ammo_M47_DRAGON is TAmmunitionDescriptor
     DescriptorId                      = GUID:{0efbf94f-618b-4096-af91-90ceb2843b53}
     Name                              = 'M47Dragon'
     TypeCategoryName                  = 'JTOYRAARTS'
-    Caliber                           = 'DYWANQFOQP'
+    Caliber                           = 'CZMBGCUTSD'
     WeaponDescriptionToken            = 'CRYXRQVTBJ'
     TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
@@ -13142,7 +13219,7 @@ Ammo_M47_DRAGON_Bipied is TAmmunitionDescriptor
     DescriptorId                      = GUID:{27476593-8bff-44b9-a194-531ad21df91b}
     Name                              = 'M47Dragon'
     TypeCategoryName                  = 'JTOYRAARTS'
-    Caliber                           = 'DYWANQFOQP'
+    Caliber                           = 'CZMBGCUTSD'
     WeaponDescriptionToken            = 'CRYXRQVTBJ'
     TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
@@ -13184,7 +13261,7 @@ Ammo_M47_DRAGON_Bipied is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 55),
+            (EBaseHitValueModifier/Idling, 60),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
@@ -13218,7 +13295,7 @@ Ammo_M47_DRAGON_II is TAmmunitionDescriptor
     DescriptorId                      = GUID:{6f970602-5a78-4fb3-92f7-79dbb3ade93d}
     Name                              = 'LVQOSNYLLT'
     TypeCategoryName                  = 'JTOYRAARTS'
-    Caliber                           = 'DYWANQFOQP'
+    Caliber                           = 'CZMBGCUTSD'
     WeaponDescriptionToken            = 'CRYXRQVTBJ'
     TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
@@ -16502,7 +16579,7 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
     TypeCategoryName                  = 'RGUHEGFUDW'
     Caliber                           = 'AFUPSCGVHW'
     WeaponDescriptionToken            = 'WIPELYEGTV'
-    TraitsToken                       = [ 'STAT', 'F&F', ]
+    TraitsToken                       = [ 'STAT', 'manual', ]
     WeaponCursorType                  = Weapon_Cursor_AirMissile
     MinMaxCategory                    = MinMax_SAM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
@@ -16512,7 +16589,7 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
     TempsEntreDeuxTirs                = 4.0
     TempsEntreDeuxFx                  = 4.0
     PorteeMaximaleTBAGRU              = 2825
-    PorteeMaximaleHAGRU               = 2650
+    PorteeMaximaleHAGRU               = 3525
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -16532,7 +16609,6 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
     FluidFriction                     = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-    IsFireAndForget                   = True
     TargetOnlyOneUnitInDistrict       = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -16541,7 +16617,7 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 45),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
@@ -16577,7 +16653,7 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'RGUHEGFUDW'
     Caliber                           = 'AFUPSCGVHW'
     WeaponDescriptionToken            = 'WIPELYEGTV'
-    TraitsToken                       = [ 'STAT', 'F&F', ]
+    TraitsToken                       = [ 'STAT', 'manual', ]
     WeaponCursorType                  = Weapon_Cursor_AirMissile
     MinMaxCategory                    = MinMax_SAM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
@@ -16587,7 +16663,7 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
     TempsEntreDeuxTirs                = 4.0
     TempsEntreDeuxFx                  = 4.0
     PorteeMaximaleTBAGRU              = 2825
-    PorteeMaximaleHAGRU               = 2650
+    PorteeMaximaleHAGRU               = 3525
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -16607,7 +16683,6 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
     FluidFriction                     = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-    IsFireAndForget                   = True
     TargetOnlyOneUnitInDistrict       = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -16616,7 +16691,7 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 45),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
@@ -16652,7 +16727,7 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'RGUHEGFUDW'
     Caliber                           = 'AFUPSCGVHW'
     WeaponDescriptionToken            = 'WIPELYEGTV'
-    TraitsToken                       = [ 'STAT', 'F&F', ]
+    TraitsToken                       = [ 'STAT', 'manual', ]
     WeaponCursorType                  = Weapon_Cursor_AirMissile
     MinMaxCategory                    = MinMax_SAM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
@@ -16662,7 +16737,7 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
     TempsEntreDeuxTirs                = 4.0
     TempsEntreDeuxFx                  = 4.0
     PorteeMaximaleTBAGRU              = 2825
-    PorteeMaximaleHAGRU               = 2650
+    PorteeMaximaleHAGRU               = 3525
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -16682,7 +16757,6 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
     FluidFriction                     = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-    IsFireAndForget                   = True
     TargetOnlyOneUnitInDistrict       = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -16691,7 +16765,7 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 45),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]

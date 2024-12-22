@@ -235,7 +235,7 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     DureeDeRevelationApresAttaque = 5.0
     FacteurMinTempsViseeReel = 0.75 // Le temps de visée réel est un random entre cette valeur et la valeur de temps de visee théorique située dans l'ODS
 
-    // Portee Min pour considerer qu'une arme est une artillerie. Les unités ne cherche pas a fuire les armes considéré comme des artilleries
+    // Portee Min pour considerer qu'une arme est une artillerie. Les unités ne cherche pas a fuir les armes considéré comme des artilleries
     PorteeMinArmeEstConsidereCommeArtillerieGRU = 2296
 
     // Nombre de points de suppression récupérés par seconde. Multiplié par "<TypeUnite>_SuppressDamagesRegenRatioList" dans DamageModules.ndf.

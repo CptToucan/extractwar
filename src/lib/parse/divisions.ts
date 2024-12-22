@@ -44,7 +44,22 @@ export const DIVISION_NAMES: { [key: string]: string } = {
   Descriptor_Deck_Division_US_35th_Inf_multi: '35th Infantry Division (Mech.)',
   Descriptor_Deck_Division_RDA_Rugen_Gruppierung: 'Rugener Gruppierung',
   Descriptor_Deck_Division_FR_152e_Infanterie_multi: '152E Division D\'Infanterie',
-  Descriptor_Deck_Division_SOV_76_VDV_multi: '76-Ya Gv. Tank. Div.',
+  Descriptor_Deck_Division_SOV_76_VDV_multi: '76-Ya Gv. Vozdushno-Desantnaya Div.',
+
+  Descriptor_Deck_Division_BEL_16e_Mecanisee_multi: '16DE Pantserdivision',
+  Descriptor_Deck_Division_NL_4e_Divisie_multi: '4E Divisie',
+  Descriptor_Deck_Division_UK_4th_Armoured_multi: '4th Armoured Division',
+  Descriptor_Deck_Division_UK_5th_Airborne_Brigade_multi: 'MNAD',
+  Descriptor_Deck_Division_US_9th_Mot_multi: '9th Infantry Division (Mot.)',
+  Descriptor_Deck_Division_POL_20_Pancerna_multi: '20 Dywizja Pancerna',
+  Descriptor_Deck_Division_POL_4_Zmechanizowana_multi: '4 Dyw. Zmechanizowana',
+  Descriptor_Deck_Division_POL_Korpus_Desantowy_multi: 'Korpus Desantowy',
+  Descriptor_Deck_Division_RDA_9_Panzer_multi: '9. Panzerdivision',
+  Descriptor_Deck_Division_SOV_25_Tank_multi: '25-Ya Tank. Div',
+
+
+
+
 
 };
 

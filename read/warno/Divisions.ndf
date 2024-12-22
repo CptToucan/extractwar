@@ -1,6 +1,84 @@
 // Ne pas éditer, ce fichier est généré par DivisionFileWriter
 
 
+Descriptor_Deck_Division_BEL_16e_Mecanisee_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{7265322a-3993-4b09-9f2c-d775bcc7e14e}
+    CfgName = 'BEL_16e_Mecanisee_multi'
+    DivisionName = 'DCPLBIYTNN'
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['DEFAULT', 'BEL', 'Allied', 'armored', 'DC_PWR1']
+    DescriptionHintTitleToken = 'DCPLBIYTNN'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_A109BA_TOW_BEL, 1),
+        (~/Descriptor_Deck_Pack_A109BA_TOW_twin_BEL, 1),
+        (~/Descriptor_Deck_Pack_AIFV_B_CMD_BEL, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_1_BEL, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_BEL, 1),
+        (~/Descriptor_Deck_Pack_Alouette_II_reco_BEL, 1),
+        (~/Descriptor_Deck_Pack_DCA_M167_Vulcan_20mm_BEL, 2),
+        (~/Descriptor_Deck_Pack_Engineers_AT_BEL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_BEL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_BEL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Flam_BEL, 1),
+        (~/Descriptor_Deck_Pack_Epervier_BEL, 1),
+        (~/Descriptor_Deck_Pack_F16A_AA_BEL, 3),
+        (~/Descriptor_Deck_Pack_F16A_CBU_BEL, 1),
+        (~/Descriptor_Deck_Pack_FOB_BEL, 1),
+        (~/Descriptor_Deck_Pack_FV101_Scorpion_BEL, 1),
+        (~/Descriptor_Deck_Pack_FV102_Striker_BEL, 1),
+        (~/Descriptor_Deck_Pack_FV105_Sultan_BEL, 1),
+        (~/Descriptor_Deck_Pack_FV107_Scimitar_BEL, 1),
+        (~/Descriptor_Deck_Pack_Gepard_1A2_BEL, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_M2HB_BEL, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_M2HB_LUX, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_MAG_BEL, 2),
+        (~/Descriptor_Deck_Pack_Howz_L118_105mm_LUX, 1),
+        (~/Descriptor_Deck_Pack_Iltis_CMD_BEL, 1),
+        (~/Descriptor_Deck_Pack_Iltis_MILAN_BEL, 2),
+        (~/Descriptor_Deck_Pack_KanJagdPanzer_BEL, 1),
+        (~/Descriptor_Deck_Pack_LRRP_BEL, 1),
+        (~/Descriptor_Deck_Pack_Leopard_1A5_BEL, 1),
+        (~/Descriptor_Deck_Pack_Leopard_1A5_CMD_BEL, 1),
+        (~/Descriptor_Deck_Pack_Leopard_1BE_BEL, 3),
+        (~/Descriptor_Deck_Pack_Leopard_1BE_CMD_BEL, 2),
+        (~/Descriptor_Deck_Pack_LightRifles_CMD_LUX, 1),
+        (~/Descriptor_Deck_Pack_LightRifles_LUX, 1),
+        (~/Descriptor_Deck_Pack_M1025_Humvee_CMD_LUX, 1),
+        (~/Descriptor_Deck_Pack_M1025_Humvee_TOW_LUX, 1),
+        (~/Descriptor_Deck_Pack_M109A2_BEL, 2),
+        (~/Descriptor_Deck_Pack_M113A1B_Radar_BEL, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Mistral_BEL, 1),
+        (~/Descriptor_Deck_Pack_MAN_Z311_BEL, 2),
+        (~/Descriptor_Deck_Pack_MAN_Z311_Mi50_BEL, 1),
+        (~/Descriptor_Deck_Pack_MP_BEL, 1),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_AT_BEL, 1),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_CMD_BEL, 3),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_MG_BEL, 3),
+        (~/Descriptor_Deck_Pack_Mirage_5_BA_BEL, 1),
+        (~/Descriptor_Deck_Pack_Mirage_5_BA_CLU_BEL, 1),
+        (~/Descriptor_Deck_Pack_Mirage_5_BA_MIRSIP_BEL, 1),
+        (~/Descriptor_Deck_Pack_Mirage_5_BA_NPLM_BEL, 1),
+        (~/Descriptor_Deck_Pack_Mirage_5_BA_RKT_BEL, 1),
+        (~/Descriptor_Deck_Pack_Mortier_107mm_BEL, 2),
+        (~/Descriptor_Deck_Pack_Mortier_81mm_BEL, 2),
+        (~/Descriptor_Deck_Pack_Mortier_81mm_LUX, 1),
+        (~/Descriptor_Deck_Pack_Reserve_BEL, 3),
+        (~/Descriptor_Deck_Pack_Scout_AT_BEL, 2),
+        (~/Descriptor_Deck_Pack_Scout_BEL, 3),
+        (~/Descriptor_Deck_Pack_Scout_LUX, 1),
+        (~/Descriptor_Deck_Pack_Sniper_ESR_BEL, 1),
+        (~/Descriptor_Deck_Pack_Volvo_N10_supply_BEL, 2),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_BEL_16e_Mecanisee_multi
+    EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "BEL"
+)
 Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{beaeddc6-2819-4025-b72f-9448e16b39ec}
@@ -345,6 +423,308 @@ Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
     TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "UK"
 )
+Descriptor_Deck_Division_NL_4e_Divisie_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{87f7b86f-6455-403f-ba2b-415030226d6b}
+    CfgName = 'NL_4e_Divisie_multi'
+    DivisionName = 'MRBOKCBPXP'
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['DEFAULT', 'NL', 'Allied', 'armored', 'DC_PWR1']
+    DescriptionHintTitleToken = 'FUYMSLGESC'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_AIFV_B_CMD_NL, 3),
+        (~/Descriptor_Deck_Pack_AIFV_B_Cargo_NL, 2),
+        (~/Descriptor_Deck_Pack_AIFV_B_Radar_NL, 1),
+        (~/Descriptor_Deck_Pack_AIFV_B_TOW_NL, 2),
+        (~/Descriptor_Deck_Pack_ATteam_TOW2_NL, 2),
+        (~/Descriptor_Deck_Pack_Bo_105_CB_NL, 1),
+        (~/Descriptor_Deck_Pack_DAF_YA_4400_supply_NL, 2),
+        (~/Descriptor_Deck_Pack_DCA_Bofors_upgrade_NL, 2),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_NL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_NL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Scout_NL, 1),
+        (~/Descriptor_Deck_Pack_F16A_AA_NL, 2),
+        (~/Descriptor_Deck_Pack_F16A_CLU_NL, 1),
+        (~/Descriptor_Deck_Pack_F16A_HE_NL, 1),
+        (~/Descriptor_Deck_Pack_F5A_FreedomFighter_AA_NL, 1),
+        (~/Descriptor_Deck_Pack_F5A_FreedomFighter_NL, 1),
+        (~/Descriptor_Deck_Pack_F5A_FreedomFighter_RKT_NL, 1),
+        (~/Descriptor_Deck_Pack_FOB_NL, 1),
+        (~/Descriptor_Deck_Pack_Gepard_1A2_NL, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_M2HB_NL, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_MAG_NL, 2),
+        (~/Descriptor_Deck_Pack_Howz_M114_155mm_NL, 3),
+        (~/Descriptor_Deck_Pack_LRRP_NL, 1),
+        (~/Descriptor_Deck_Pack_Leopard_1A1_NL, 1),
+        (~/Descriptor_Deck_Pack_Leopard_2A4B_CMD_NL, 3),
+        (~/Descriptor_Deck_Pack_Leopard_2A4B_NL, 3),
+        (~/Descriptor_Deck_Pack_Leopard_2A4_NL, 1),
+        (~/Descriptor_Deck_Pack_M109A2_NL, 2),
+        (~/Descriptor_Deck_Pack_M110A2_HOWZ_NL, 2),
+        (~/Descriptor_Deck_Pack_M113_CV_25mm_NL, 2),
+        (~/Descriptor_Deck_Pack_M577_NL, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Stinger_C_NL, 5),
+        (~/Descriptor_Deck_Pack_MP_NL, 1),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_CMD_NL, 3),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_Carl_NL, 4),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_Dragon_NL, 1),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_M72_LAW_NL, 1),
+        (~/Descriptor_Deck_Pack_Mortier_MORT61_120mm_NL, 3),
+        (~/Descriptor_Deck_Pack_Reserve_NL, 2),
+        (~/Descriptor_Deck_Pack_Scout_AT_NL, 1),
+        (~/Descriptor_Deck_Pack_Scout_NL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_NL_4e_Divisie_multi
+    EmblemTexture     = "Texture_Division_Emblem_NL_4e_Divisie"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "NL"
+)
+Descriptor_Deck_Division_POL_20_Pancerna_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{a13936c6-b279-4430-b456-93d953339572}
+    CfgName = 'POL_20_Pancerna_multi'
+    DivisionName = 'EGPXSAYCXO'
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['DEFAULT', 'POL', 'Axis', 'armored', 'DC_PWR1']
+    DescriptionHintTitleToken = 'EGPXSAYCXO'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_2K12_KUB_POL, 2),
+        (~/Descriptor_Deck_Pack_2S1_POL, 3),
+        (~/Descriptor_Deck_Pack_ATteam_RCL_SPG9_POL, 1),
+        (~/Descriptor_Deck_Pack_Atteam_Fagot_POL, 1),
+        (~/Descriptor_Deck_Pack_BM21_Grad_POL, 2),
+        (~/Descriptor_Deck_Pack_BMP_1_CMD_POL, 2),
+        (~/Descriptor_Deck_Pack_BRDM_2_CMD_R5_POL, 2),
+        (~/Descriptor_Deck_Pack_BRDM_2_Malyu_P_POL, 2),
+        (~/Descriptor_Deck_Pack_BRDM_2_POL, 2),
+        (~/Descriptor_Deck_Pack_BRM_1_POL, 2),
+        (~/Descriptor_Deck_Pack_DANA_POL, 3),
+        (~/Descriptor_Deck_Pack_DCA_ZUR_23_2S_JOD_POL, 1),
+        (~/Descriptor_Deck_Pack_DCA_ZU_23_2_POL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_POL, 2),
+        (~/Descriptor_Deck_Pack_Engineers_Flam_POL, 2),
+        (~/Descriptor_Deck_Pack_Engineers_POL, 2),
+        (~/Descriptor_Deck_Pack_Engineers_Scout_POL, 1),
+        (~/Descriptor_Deck_Pack_FOB_POL, 1),
+        (~/Descriptor_Deck_Pack_GAZ_66_POL, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_PKM_POL, 2),
+        (~/Descriptor_Deck_Pack_HvyScout_POL, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Strela_2M_POL, 2),
+        (~/Descriptor_Deck_Pack_MTLB_Strela10_POL, 1),
+        (~/Descriptor_Deck_Pack_MiG_21bis_AA_POL, 1),
+        (~/Descriptor_Deck_Pack_MiG_21bis_HE_POL, 1),
+        (~/Descriptor_Deck_Pack_MiG_21bis_POL, 1),
+        (~/Descriptor_Deck_Pack_MiG_21bis_RKT2_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_24D_POL, 2),
+        (~/Descriptor_Deck_Pack_Mi_24D_s8_AT_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_ATGM_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_gunship_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_8_supply_POL, 1),
+        (~/Descriptor_Deck_Pack_Mortier_PM43_120mm_POL, 2),
+        (~/Descriptor_Deck_Pack_MotRifles_CMD_POL, 4),
+        (~/Descriptor_Deck_Pack_MotRifles_POL, 4),
+        (~/Descriptor_Deck_Pack_MotRifles_SVD_POL, 2),
+        (~/Descriptor_Deck_Pack_Scout_LRRP_POL, 1),
+        (~/Descriptor_Deck_Pack_Scout_POL, 2),
+        (~/Descriptor_Deck_Pack_Scout_SF_POL, 1),
+        (~/Descriptor_Deck_Pack_Star_266_supply_POL, 2),
+        (~/Descriptor_Deck_Pack_Su_22_AT_POL, 2),
+        (~/Descriptor_Deck_Pack_Su_22_RKT_POL, 1),
+        (~/Descriptor_Deck_Pack_T55AS_POL, 1),
+        (~/Descriptor_Deck_Pack_T55A_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_T55A_POL, 1),
+        (~/Descriptor_Deck_Pack_T72M1_CMD_POL, 2),
+        (~/Descriptor_Deck_Pack_T72M1_POL, 2),
+        (~/Descriptor_Deck_Pack_T72M1_Wilk_POL, 1),
+        (~/Descriptor_Deck_Pack_T72M_CMD_POL, 2),
+        (~/Descriptor_Deck_Pack_T72M_POL, 2),
+        (~/Descriptor_Deck_Pack_WSW_POL, 1),
+        (~/Descriptor_Deck_Pack_ZSU_23_Shilka_POL, 2),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_POL_20_Pancerna_multi
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "POL"
+)
+Descriptor_Deck_Division_POL_4_Zmechanizowana_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{2b303d19-27e5-4a2c-8e3e-e497328bbba8}
+    CfgName = 'POL_4_Zmechanizowana_multi'
+    DivisionName = 'ZYGJBHWQHW'
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['DEFAULT', 'POL', 'Axis', 'armored', 'DC_PWR1']
+    DescriptionHintTitleToken = 'ZYGJBHWQHW'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_AT_D48_85mm_POL, 1),
+        (~/Descriptor_Deck_Pack_ATteam_RCL_SPG9_POL, 1),
+        (~/Descriptor_Deck_Pack_Atteam_Fagot_POL, 1),
+        (~/Descriptor_Deck_Pack_BM21_Grad_POL, 2),
+        (~/Descriptor_Deck_Pack_BMP_1_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_BRDM_1_PSNR1_POL, 1),
+        (~/Descriptor_Deck_Pack_BRDM_2_Konkurs_POL, 1),
+        (~/Descriptor_Deck_Pack_BRDM_2_Malyu_P_POL, 2),
+        (~/Descriptor_Deck_Pack_BRDM_2_POL, 2),
+        (~/Descriptor_Deck_Pack_BRDM_Strela_1_POL, 1),
+        (~/Descriptor_Deck_Pack_Commandos_POL, 1),
+        (~/Descriptor_Deck_Pack_DCA_AZP_S60_POL, 1),
+        (~/Descriptor_Deck_Pack_DCA_ZUR_23_2S_JOD_POL, 1),
+        (~/Descriptor_Deck_Pack_DCA_ZU_23_2_POL, 2),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Flam_POL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_POL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Scout_POL, 1),
+        (~/Descriptor_Deck_Pack_FOB_POL, 1),
+        (~/Descriptor_Deck_Pack_GAZ_66_POL, 2),
+        (~/Descriptor_Deck_Pack_Groupe_AT_POL, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_PKM_POL, 2),
+        (~/Descriptor_Deck_Pack_Hibneryt_KG_POL, 1),
+        (~/Descriptor_Deck_Pack_Hibneryt_POL, 1),
+        (~/Descriptor_Deck_Pack_Howz_M30_122mm_POL, 2),
+        (~/Descriptor_Deck_Pack_Howz_ML20_152mm_POL, 2),
+        (~/Descriptor_Deck_Pack_HvyScout_POL, 1),
+        (~/Descriptor_Deck_Pack_KrAZ_255B_supply_POL, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Strela_2M_POL, 2),
+        (~/Descriptor_Deck_Pack_MiG_23MF_AA2_POL, 1),
+        (~/Descriptor_Deck_Pack_MiG_23MF_AA_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_24D_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_24D_s8_AT_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_24V_POL, 2),
+        (~/Descriptor_Deck_Pack_Mi_2Ro_reco_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_AA_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_ATGM_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_gunship_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_rocket_POL, 1),
+        (~/Descriptor_Deck_Pack_Mortier_PM43_120mm_POL, 2),
+        (~/Descriptor_Deck_Pack_MotRifles_CMD_POL, 2),
+        (~/Descriptor_Deck_Pack_MotRifles_POL, 2),
+        (~/Descriptor_Deck_Pack_MotRifles_SVD_POL, 1),
+        (~/Descriptor_Deck_Pack_OT_64_SKOT_CMD_POL, 2),
+        (~/Descriptor_Deck_Pack_Osa_9K33M3_POL, 3),
+        (~/Descriptor_Deck_Pack_RM70_85_POL, 1),
+        (~/Descriptor_Deck_Pack_Rifles_CMD_POL, 4),
+        (~/Descriptor_Deck_Pack_Rifles_HMG_POL, 2),
+        (~/Descriptor_Deck_Pack_Rifles_POL, 4),
+        (~/Descriptor_Deck_Pack_Scout_POL, 2),
+        (~/Descriptor_Deck_Pack_Scout_SF_POL, 1),
+        (~/Descriptor_Deck_Pack_Su_22_AT_POL, 1),
+        (~/Descriptor_Deck_Pack_Su_22_POL, 1),
+        (~/Descriptor_Deck_Pack_Su_22_clu_POL, 1),
+        (~/Descriptor_Deck_Pack_T55AMS_Merida_POL, 1),
+        (~/Descriptor_Deck_Pack_T55AM_Merida_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_T55AM_Merida_POL, 2),
+        (~/Descriptor_Deck_Pack_T55AS_POL, 2),
+        (~/Descriptor_Deck_Pack_T55A_CMD_POL, 2),
+        (~/Descriptor_Deck_Pack_T55A_POL, 3),
+        (~/Descriptor_Deck_Pack_UAZ_469_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_UAZ_469_Fagot_POL, 2),
+        (~/Descriptor_Deck_Pack_WSW_POL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_POL_4_Zmechanizowana_multi
+    EmblemTexture     = "Texture_Division_Emblem_POL_4_ZMech"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "POL"
+)
+Descriptor_Deck_Division_POL_Korpus_Desantowy_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{1d182660-9f0c-47b0-a90d-bc857ab4d032}
+    CfgName = 'POL_Korpus_Desantowy_multi'
+    DivisionName = 'CZOHUXQNCE'
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['DEFAULT', 'POL', 'Axis', 'infantryReg', 'DC_PWR1']
+    DescriptionHintTitleToken = 'CZOHUXQNCE'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_2S1M_POL, 1),
+        (~/Descriptor_Deck_Pack_2S7_Pion_POL, 2),
+        (~/Descriptor_Deck_Pack_ASU_85_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_ASU_85_POL, 2),
+        (~/Descriptor_Deck_Pack_ATteam_RCL_SPG9_Para_POL, 1),
+        (~/Descriptor_Deck_Pack_Atteam_Fagot_POL, 1),
+        (~/Descriptor_Deck_Pack_Atteam_Fagot_Para_POL, 1),
+        (~/Descriptor_Deck_Pack_BAV_485_Supply_POL, 2),
+        (~/Descriptor_Deck_Pack_BM21_Grad_POL, 2),
+        (~/Descriptor_Deck_Pack_BRDM_2_CMD_R5_POL, 1),
+        (~/Descriptor_Deck_Pack_BRDM_2_Malyu_P_POL, 1),
+        (~/Descriptor_Deck_Pack_BRDM_2_POL, 2),
+        (~/Descriptor_Deck_Pack_Commandos_Para_POL, 1),
+        (~/Descriptor_Deck_Pack_DCA_ZUR_23_2S_JOD_Para_POL, 1),
+        (~/Descriptor_Deck_Pack_DCA_ZU_23_2_Para_POL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_paras_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_paras_Flam_POL, 1),
+        (~/Descriptor_Deck_Pack_Engineers_paras_POL, 2),
+        (~/Descriptor_Deck_Pack_Groupe_AT_Para_POL, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_PKM_Naval_POL, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_PKM_para_POL, 2),
+        (~/Descriptor_Deck_Pack_Hibneryt_KG_POL, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Strela_2M_POL, 2),
+        (~/Descriptor_Deck_Pack_MANPAD_Strela_2M_Para_POL, 2),
+        (~/Descriptor_Deck_Pack_MLRS_WP_8z_POL, 1),
+        (~/Descriptor_Deck_Pack_MiG_21bis_AA_POL, 1),
+        (~/Descriptor_Deck_Pack_MiG_29_AA2_POL, 1),
+        (~/Descriptor_Deck_Pack_MiG_29_AA_POL, 2),
+        (~/Descriptor_Deck_Pack_Mi_24D_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_24D_s8_AT_POL, 1),
+        (~/Descriptor_Deck_Pack_Mi_24V_POL, 2),
+        (~/Descriptor_Deck_Pack_Mi_6_POL, 1),
+        (~/Descriptor_Deck_Pack_Mortier_2B9_Vasilek_Para_POL, 2),
+        (~/Descriptor_Deck_Pack_Mortier_2S12_120mm_POL, 3),
+        (~/Descriptor_Deck_Pack_Mortier_M43_82mm_POL, 3),
+        (~/Descriptor_Deck_Pack_Naval_Engineers_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_Naval_Engineers_Flam_POL, 1),
+        (~/Descriptor_Deck_Pack_Naval_Engineers_POL, 2),
+        (~/Descriptor_Deck_Pack_Naval_Rifle_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_Naval_Rifle_POL, 4),
+        (~/Descriptor_Deck_Pack_OT_62_TOPAS_R3M_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_PT76B_CMD_Naval_POL, 1),
+        (~/Descriptor_Deck_Pack_PT76B_Naval_POL, 1),
+        (~/Descriptor_Deck_Pack_PT76B_tank_Naval_POL, 2),
+        (~/Descriptor_Deck_Pack_PTS_M_supply_POL, 1),
+        (~/Descriptor_Deck_Pack_Para_CMD_POL, 3),
+        (~/Descriptor_Deck_Pack_Para_HMG_POL, 1),
+        (~/Descriptor_Deck_Pack_Para_Metis_POL, 1),
+        (~/Descriptor_Deck_Pack_Para_POL, 3),
+        (~/Descriptor_Deck_Pack_Para_Security_POL, 1),
+        (~/Descriptor_Deck_Pack_Scout_LRRP_Para_POL, 1),
+        (~/Descriptor_Deck_Pack_Scout_para_POL, 2),
+        (~/Descriptor_Deck_Pack_Sniper_paras_POL, 1),
+        (~/Descriptor_Deck_Pack_Su_22_AT_POL, 1),
+        (~/Descriptor_Deck_Pack_Su_22_RKT2_POL, 1),
+        (~/Descriptor_Deck_Pack_Su_22_RKT_POL, 1),
+        (~/Descriptor_Deck_Pack_Su_22_SEAD_POL, 1),
+        (~/Descriptor_Deck_Pack_Su_22_clu_POL, 1),
+        (~/Descriptor_Deck_Pack_Su_22_nplm_POL, 1),
+        (~/Descriptor_Deck_Pack_T55AS_POL, 1),
+        (~/Descriptor_Deck_Pack_T55A_CMD_POL, 1),
+        (~/Descriptor_Deck_Pack_T55A_POL, 1),
+        (~/Descriptor_Deck_Pack_UAZ_469_CMD_Para_POL, 2),
+        (~/Descriptor_Deck_Pack_UAZ_469_Fagot_Para_POL, 2),
+        (~/Descriptor_Deck_Pack_UAZ_469_SPG9_Para_POL, 1),
+        (~/Descriptor_Deck_Pack_UAZ_469_supply_Para_POL, 1),
+        (~/Descriptor_Deck_Pack_W3RR_Procjon_POL, 1),
+        (~/Descriptor_Deck_Pack_W3W_Sokol_AA_POL, 2),
+        (~/Descriptor_Deck_Pack_W3W_Sokol_RKT_POL, 2),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_POL_Korpus_Desantowy_multi
+    EmblemTexture     = "Texture_Division_Emblem_POL_Korpus_Desantowy"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "POL"
+)
 Descriptor_Deck_Division_RDA_4_MSD_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{97b5d7d2-0a51-461e-b97e-617dd6892858}
@@ -527,6 +907,73 @@ Descriptor_Deck_Division_RDA_7_Panzer_multi is TDeckDivisionDescriptor
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RDA_7_Panzer_multi
     EmblemTexture     = "Texture_Division_Emblem_7_Panzerdivision_DDR"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "DDR"
+)
+Descriptor_Deck_Division_RDA_9_Panzer_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{3ea1f70e-119a-4dcc-b533-f462a9980686}
+    CfgName = 'RDA_9_Panzer_multi'
+    DivisionName = 'SXATWWYSVI'
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'armored', 'DC_PWR1']
+    DescriptionHintTitleToken = 'SXATWWYSVI'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_2K12_KUB_DDR, 2),
+        (~/Descriptor_Deck_Pack_2S1_DDR, 2),
+        (~/Descriptor_Deck_Pack_2S3_DDR, 2),
+        (~/Descriptor_Deck_Pack_ATteam_Fagot_DDR, 1),
+        (~/Descriptor_Deck_Pack_BMP_1_CMD_DDR, 3),
+        (~/Descriptor_Deck_Pack_BRDM_2_CMD_DDR, 2),
+        (~/Descriptor_Deck_Pack_BRDM_2_DDR, 2),
+        (~/Descriptor_Deck_Pack_BRDM_Malyu_P_DDR, 1),
+        (~/Descriptor_Deck_Pack_BRM_1_DDR, 2),
+        (~/Descriptor_Deck_Pack_BTR_60_CHAIKA_CMD_DDR, 1),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_DDR, 1),
+        (~/Descriptor_Deck_Pack_Engineers_DDR, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Flam_DDR, 1),
+        (~/Descriptor_Deck_Pack_FOB_DDR, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_AGS17_DDR, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_PKM_DDR, 2),
+        (~/Descriptor_Deck_Pack_HvyScout_DDR, 2),
+        (~/Descriptor_Deck_Pack_MANPAD_Igla_DDR, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Strela_2M_DDR, 2),
+        (~/Descriptor_Deck_Pack_MFRW_RM70_DDR, 1),
+        (~/Descriptor_Deck_Pack_MTLB_Shturm_DDR, 1),
+        (~/Descriptor_Deck_Pack_MTLB_Strela10_DDR, 2),
+        (~/Descriptor_Deck_Pack_MiG_23MF_AA_DDR, 1),
+        (~/Descriptor_Deck_Pack_MiG_23ML_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_24D_s5_AT_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_24P_s8_AT2_DDR, 2),
+        (~/Descriptor_Deck_Pack_Mi_2_gunship_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_reco_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_2_rocket_DDR, 1),
+        (~/Descriptor_Deck_Pack_Mi_8PPA_SOV, 1),
+        (~/Descriptor_Deck_Pack_Mortier_PM43_120mm_DDR, 3),
+        (~/Descriptor_Deck_Pack_MotRifles_CMD_DDR, 4),
+        (~/Descriptor_Deck_Pack_MotRifles_DDR, 4),
+        (~/Descriptor_Deck_Pack_MotRifles_RPG27_DDR, 2),
+        (~/Descriptor_Deck_Pack_RM70_85_DDR, 1),
+        (~/Descriptor_Deck_Pack_Scout_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_22_AT_DDR, 2),
+        (~/Descriptor_Deck_Pack_Su_22_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_22_RKT_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_22_clu_DDR, 1),
+        (~/Descriptor_Deck_Pack_T72M1_CMD_DDR, 1),
+        (~/Descriptor_Deck_Pack_T72M1_DDR, 3),
+        (~/Descriptor_Deck_Pack_T72MUV2_DDR, 3),
+        (~/Descriptor_Deck_Pack_T72M_CMD_DDR, 2),
+        (~/Descriptor_Deck_Pack_T72S_DDR, 1),
+        (~/Descriptor_Deck_Pack_T815_supply_DDR, 2),
+        (~/Descriptor_Deck_Pack_Ural_4320_DDR, 1),
+        (~/Descriptor_Deck_Pack_ZSU_23_Shilka_DDR, 2),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_RDA_9_Panzer_multi
+    EmblemTexture     = "Texture_Division_Emblem_RDA__9_Panzer"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = "Texture_Division_Type_armored"
     CountryId = "DDR"
@@ -1030,6 +1477,79 @@ Descriptor_Deck_Division_SOV_119IndTkBrig_multi is TDeckDivisionDescriptor
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_119IndTkBrig_multi
     EmblemTexture     = "Texture_Division_Emblem_SOV_119OdtTP"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "SOV"
+)
+Descriptor_Deck_Division_SOV_25_Tank_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d82bb5a9-6360-4e01-ba86-d1f14a051ca6}
+    CfgName = 'SOV_25_Tank_multi'
+    DivisionName = 'UGKDOPAYTF'
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'armored', 'DC_PWR1']
+    DescriptionHintTitleToken = 'AFSKFYGENE'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_2K12_KUB_SOV, 2),
+        (~/Descriptor_Deck_Pack_2S19_MstaS_SOV, 2),
+        (~/Descriptor_Deck_Pack_2S1_Gvozdika_SOV, 4),
+        (~/Descriptor_Deck_Pack_2S3M_Akatsiya_SOV, 2),
+        (~/Descriptor_Deck_Pack_2S5_GiatsintS_SOV, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Konkurs_SOV, 1),
+        (~/Descriptor_Deck_Pack_BM21_Grad_SOV, 2),
+        (~/Descriptor_Deck_Pack_BMP_1_CMD_SOV, 2),
+        (~/Descriptor_Deck_Pack_BMP_2_CMD_SOV, 1),
+        (~/Descriptor_Deck_Pack_BRDM_2_SOV, 2),
+        (~/Descriptor_Deck_Pack_BRM_1_SOV, 1),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_SOV, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Flam_SOV, 1),
+        (~/Descriptor_Deck_Pack_Engineers_SOV, 1),
+        (~/Descriptor_Deck_Pack_FOB_SOV, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_AGS17_SOV, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_NSV_SOV, 1),
+        (~/Descriptor_Deck_Pack_HvyScout_SOV, 2),
+        (~/Descriptor_Deck_Pack_KrAZ_255B_supply_SOV, 2),
+        (~/Descriptor_Deck_Pack_MANPAD_Igla_SOV, 1),
+        (~/Descriptor_Deck_Pack_MP_SOV, 1),
+        (~/Descriptor_Deck_Pack_MTLB_Strela10_SOV, 2),
+        (~/Descriptor_Deck_Pack_MiG_27K_SEAD_SOV, 1),
+        (~/Descriptor_Deck_Pack_MiG_29_AA_SOV, 2),
+        (~/Descriptor_Deck_Pack_Mi_24K_reco_SOV, 2),
+        (~/Descriptor_Deck_Pack_Mi_24V_AA_SOV, 1),
+        (~/Descriptor_Deck_Pack_Mi_24V_AT_SOV, 2),
+        (~/Descriptor_Deck_Pack_Mi_24V_RKT2_SOV, 1),
+        (~/Descriptor_Deck_Pack_Mi_24V_RKT_SOV, 1),
+        (~/Descriptor_Deck_Pack_Mi_8K_CMD_SOV, 1),
+        (~/Descriptor_Deck_Pack_Mi_8TV_PodGatling_PodAGL_SOV, 1),
+        (~/Descriptor_Deck_Pack_Mi_8TV_SOV, 2),
+        (~/Descriptor_Deck_Pack_Mi_8TZ_SOV, 1),
+        (~/Descriptor_Deck_Pack_Mortier_2S12_120mm_SOV, 3),
+        (~/Descriptor_Deck_Pack_MotRifles_CMD_SOV, 2),
+        (~/Descriptor_Deck_Pack_MotRifles_HMG_SOV, 1),
+        (~/Descriptor_Deck_Pack_MotRifles_SOV, 3),
+        (~/Descriptor_Deck_Pack_Pchela_1T_SOV, 1),
+        (~/Descriptor_Deck_Pack_Scout_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_25_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_25_he_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_25_rkt2_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_25_rkt_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_27S_SOV, 2),
+        (~/Descriptor_Deck_Pack_T64A_SOV, 1),
+        (~/Descriptor_Deck_Pack_T64B1_SOV, 1),
+        (~/Descriptor_Deck_Pack_T64B1_reco_SOV, 1),
+        (~/Descriptor_Deck_Pack_T64BV1_SOV, 2),
+        (~/Descriptor_Deck_Pack_T64BV_CMD_SOV, 2),
+        (~/Descriptor_Deck_Pack_T64BV_SOV, 3),
+        (~/Descriptor_Deck_Pack_T64B_CMD_SOV, 1),
+        (~/Descriptor_Deck_Pack_T64B_SOV, 2),
+        (~/Descriptor_Deck_Pack_Ural_4320_SOV, 1),
+        (~/Descriptor_Deck_Pack_ZSU_23_Shilka_SOV, 2),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_SOV_25_Tank_multi
+    EmblemTexture     = "Texture_Division_Emblem_SOV_25th_TD"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = "Texture_Division_Type_armored"
     CountryId = "SOV"
@@ -1772,6 +2292,181 @@ Descriptor_Deck_Division_UK_2nd_Infantry_multi is TDeckDivisionDescriptor
     TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "UK"
 )
+Descriptor_Deck_Division_UK_4th_Armoured_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{823c2671-564c-4b82-af1c-26de7afcbe0e}
+    CfgName = 'UK_4th_Armoured_multi'
+    DivisionName = 'PFQAMEYXCU'
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['DEFAULT', 'UK', 'Allied', 'armored', 'DC_PWR1']
+    DescriptionHintTitleToken = 'PFQAMEYXCU'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_81mm_mortar_UK, 1),
+        (~/Descriptor_Deck_Pack_AEC_Militant_UK, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_1_UK, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_UK, 1),
+        (~/Descriptor_Deck_Pack_Alvis_Stalwart_UK, 1),
+        (~/Descriptor_Deck_Pack_CH47D_Chinook_supply_UK, 1),
+        (~/Descriptor_Deck_Pack_Centurion_AVRE_105_UK, 1),
+        (~/Descriptor_Deck_Pack_DCA_Javelin_LML_UK, 1),
+        (~/Descriptor_Deck_Pack_DCA_Rapier_Darkfire_UK, 2),
+        (~/Descriptor_Deck_Pack_DCA_Rapier_UK, 1),
+        (~/Descriptor_Deck_Pack_Engineers_AT_UK, 1),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_UK, 1),
+        (~/Descriptor_Deck_Pack_Engineers_UK, 2),
+        (~/Descriptor_Deck_Pack_F4_Phantom_AA_F3_UK, 2),
+        (~/Descriptor_Deck_Pack_F4_Phantom_GR2_HE_UK, 1),
+        (~/Descriptor_Deck_Pack_F4_Phantom_GR2_UK, 1),
+        (~/Descriptor_Deck_Pack_FH70_155mm_UK, 2),
+        (~/Descriptor_Deck_Pack_FOB_UK, 1),
+        (~/Descriptor_Deck_Pack_FV101_Scorpion_UK, 2),
+        (~/Descriptor_Deck_Pack_FV102_Striker_UK, 1),
+        (~/Descriptor_Deck_Pack_FV103_Spartan_GSR_UK, 1),
+        (~/Descriptor_Deck_Pack_FV105_Sultan_UK, 1),
+        (~/Descriptor_Deck_Pack_FV107_Scimitar_UK, 1),
+        (~/Descriptor_Deck_Pack_FV4003_Centurion_AVRE_ROMOR_UK, 2),
+        (~/Descriptor_Deck_Pack_FV4201_Chieftain_Mk11_CMD_UK, 3),
+        (~/Descriptor_Deck_Pack_FV4201_Chieftain_Mk11_UK, 3),
+        (~/Descriptor_Deck_Pack_FV4201_Chieftain_Mk6_UK, 1),
+        (~/Descriptor_Deck_Pack_FV4201_Chieftain_Mk9_UK, 2),
+        (~/Descriptor_Deck_Pack_FV432_CMD_UK, 2),
+        (~/Descriptor_Deck_Pack_FV432_Mortar_UK, 2),
+        (~/Descriptor_Deck_Pack_FV432_supply_UK, 1),
+        (~/Descriptor_Deck_Pack_FV433_Abbot_UK, 2),
+        (~/Descriptor_Deck_Pack_FV438_Swingfire_UK, 1),
+        (~/Descriptor_Deck_Pack_FV721_Fox_UK, 2),
+        (~/Descriptor_Deck_Pack_Ferret_Mk2_UK, 1),
+        (~/Descriptor_Deck_Pack_Gazelle_SNEB_reco_UK, 1),
+        (~/Descriptor_Deck_Pack_Gun_Group_UK, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_MAG_UK, 2),
+        (~/Descriptor_Deck_Pack_Jaguar_CLU_UK, 1),
+        (~/Descriptor_Deck_Pack_Jaguar_RKT_UK, 1),
+        (~/Descriptor_Deck_Pack_Jaguar_overwing_UK, 2),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk1_TOW_UK, 1),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk7_Chancellor_UK, 1),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk7_I_TOW_UK, 2),
+        (~/Descriptor_Deck_Pack_M107A2_175mm_UK, 2),
+        (~/Descriptor_Deck_Pack_MANPAD_Javelin_UK, 2),
+        (~/Descriptor_Deck_Pack_RCL_L6_Wombat_UK, 1),
+        (~/Descriptor_Deck_Pack_RMP_UK, 1),
+        (~/Descriptor_Deck_Pack_Rifles_AT_UK, 2),
+        (~/Descriptor_Deck_Pack_Rifles_CMD_UK, 3),
+        (~/Descriptor_Deck_Pack_Rifles_Mot_UK, 2),
+        (~/Descriptor_Deck_Pack_Saxon_CMD_UK, 1),
+        (~/Descriptor_Deck_Pack_Scout_Motorized_UK, 1),
+        (~/Descriptor_Deck_Pack_Scout_UK, 1),
+        (~/Descriptor_Deck_Pack_Sniper_UK, 1),
+        (~/Descriptor_Deck_Pack_Territorial_CMD_UK, 1),
+        (~/Descriptor_Deck_Pack_Territorial_UK, 2),
+        (~/Descriptor_Deck_Pack_Tracked_Rapier_UK, 2),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_UK_4th_Armoured_multi
+    EmblemTexture     = "Texture_Division_Emblem_UK_4th_Armoured"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "UK"
+)
+Descriptor_Deck_Division_UK_5th_Airborne_Brigade_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{fb6db100-d944-44d9-8c6f-df6b54a05d36}
+    CfgName = 'UK_5th_Airborne_Brigade_multi'
+    DivisionName = 'PWMGFMXLIK'
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['DEFAULT', 'UK', 'Allied', 'infantryReg', 'DC_PWR2']
+    DescriptionHintTitleToken = 'GOMSACYMBS'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_81mm_mortar_CLU_UK, 1),
+        (~/Descriptor_Deck_Pack_81mm_mortar_Para_UK, 1),
+        (~/Descriptor_Deck_Pack_AT_Group_Gurkhas_UK, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_1_para_BEL, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_UK, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_para_RFA, 1),
+        (~/Descriptor_Deck_Pack_Atteam_Dragon_Marines_NL, 1),
+        (~/Descriptor_Deck_Pack_Bo_105_PAH_1A1_RFA, 1),
+        (~/Descriptor_Deck_Pack_Bo_105_PAH_1_RFA, 1),
+        (~/Descriptor_Deck_Pack_Buccaneer_S2B_ATGM_UK, 1),
+        (~/Descriptor_Deck_Pack_Buccaneer_S2B_GBU_UK, 2),
+        (~/Descriptor_Deck_Pack_Buccaneer_S2B_HE_UK, 1),
+        (~/Descriptor_Deck_Pack_Buccaneer_S2B_SEAD_UK, 1),
+        (~/Descriptor_Deck_Pack_CH53G_RFA, 1),
+        (~/Descriptor_Deck_Pack_DCA_M167_Vulcan_para_20mm_BEL, 1),
+        (~/Descriptor_Deck_Pack_DCA_Oerlikon_GDF_002_35mm_UK, 1),
+        (~/Descriptor_Deck_Pack_DCA_Rapier_Darkfire_UK, 1),
+        (~/Descriptor_Deck_Pack_F16A_AA2_NL, 1),
+        (~/Descriptor_Deck_Pack_F4F_Phantom_II_AA_RFA, 1),
+        (~/Descriptor_Deck_Pack_F5A_FreedomFighter_CLU_NL, 1),
+        (~/Descriptor_Deck_Pack_FV101_Scorpion_UK, 1),
+        (~/Descriptor_Deck_Pack_FV101_Scorpion_para_BEL, 1),
+        (~/Descriptor_Deck_Pack_FV102_Striker_UK, 1),
+        (~/Descriptor_Deck_Pack_FV105_Sultan_BEL, 1),
+        (~/Descriptor_Deck_Pack_FV105_Sultan_UK, 1),
+        (~/Descriptor_Deck_Pack_FV107_Scimitar_UK, 1),
+        (~/Descriptor_Deck_Pack_FV107_Scimitar_para_BEL, 1),
+        (~/Descriptor_Deck_Pack_Fallschirm_Engineers_RFA, 1),
+        (~/Descriptor_Deck_Pack_Fallschirm_RFA, 2),
+        (~/Descriptor_Deck_Pack_Fallschirmjager_CMD_RFA, 1),
+        (~/Descriptor_Deck_Pack_Fallschirmjager_Scout_RFA, 1),
+        (~/Descriptor_Deck_Pack_Faun_Kraka_20mm_RFA, 1),
+        (~/Descriptor_Deck_Pack_Faun_Kraka_Log_RFA, 1),
+        (~/Descriptor_Deck_Pack_Faun_Kraka_TOW_RFA, 2),
+        (~/Descriptor_Deck_Pack_Gazelle_UK, 1),
+        (~/Descriptor_Deck_Pack_Gun_Group_Paras_UK, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_M2HB_para_UK, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_MAG_para_BEL, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_MAG_para_UK, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_MG3_FJ_RFA, 2),
+        (~/Descriptor_Deck_Pack_Howz_L118_105mm_UK, 2),
+        (~/Descriptor_Deck_Pack_Howz_M101_105mm_para_BEL, 2),
+        (~/Descriptor_Deck_Pack_Iltis_para_CMD_BEL, 1),
+        (~/Descriptor_Deck_Pack_Iltis_para_CMD_RFA, 1),
+        (~/Descriptor_Deck_Pack_LSV_M2HB_UK, 1),
+        (~/Descriptor_Deck_Pack_LSV_MILAN_UK, 1),
+        (~/Descriptor_Deck_Pack_LandRover_WOMBAT_Gurkhas_UK, 1),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk1_TOW_UK, 1),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk7_I_TOW_UK, 2),
+        (~/Descriptor_Deck_Pack_MANPAD_Javelin_UK, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Mistral_para_BEL, 1),
+        (~/Descriptor_Deck_Pack_Marines_NL, 1),
+        (~/Descriptor_Deck_Pack_Mirage_5_BA_BEL, 1),
+        (~/Descriptor_Deck_Pack_Mirage_5_BA_RKT_BEL, 1),
+        (~/Descriptor_Deck_Pack_Mortier_107mm_para_BEL, 2),
+        (~/Descriptor_Deck_Pack_Mortier_Tampella_120mm_para_RFA, 2),
+        (~/Descriptor_Deck_Pack_ParaCmdo_AT_BEL, 2),
+        (~/Descriptor_Deck_Pack_ParaCmdo_BEL, 1),
+        (~/Descriptor_Deck_Pack_ParaCmdo_CMD_BEL, 1),
+        (~/Descriptor_Deck_Pack_ParaCmdo_Pionier_BEL, 1),
+        (~/Descriptor_Deck_Pack_Paratroopers_CMD_UK, 1),
+        (~/Descriptor_Deck_Pack_Paratroopers_Engineers_CMD_UK, 1),
+        (~/Descriptor_Deck_Pack_Paratroopers_Engineers_UK, 1),
+        (~/Descriptor_Deck_Pack_Paratroopers_UK, 2),
+        (~/Descriptor_Deck_Pack_Pathfinders_UK, 1),
+        (~/Descriptor_Deck_Pack_Rifles_Gurkhas_CMD_UK, 2),
+        (~/Descriptor_Deck_Pack_Rifles_Gurkhas_UK, 2),
+        (~/Descriptor_Deck_Pack_Rover_101FC_supply_UK, 1),
+        (~/Descriptor_Deck_Pack_Scout_ParaCmdo_BEL, 1),
+        (~/Descriptor_Deck_Pack_Scout_ParaCmdo_Mech_BEL, 1),
+        (~/Descriptor_Deck_Pack_Scout_Para_UK, 1),
+        (~/Descriptor_Deck_Pack_Sniper_UK, 1),
+        (~/Descriptor_Deck_Pack_Supacat_ATMP_Javelin_LML_UK, 1),
+        (~/Descriptor_Deck_Pack_Supacat_ATMP_MILAN_UK, 2),
+        (~/Descriptor_Deck_Pack_Supacat_ATMP_supply_UK, 1),
+        (~/Descriptor_Deck_Pack_Unimog_U1350L_supply_BEL, 1),
+        (~/Descriptor_Deck_Pack_Westland_Scout_SS11_UK, 1),
+        (~/Descriptor_Deck_Pack_Wiesel_20mm_RFA, 1),
+        (~/Descriptor_Deck_Pack_Wiesel_TOW_RFA, 2),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_UK_5th_Airborne_Brigade_multi
+    EmblemTexture     = "Texture_Division_Emblem_UK_5th_Airborne"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "UK"
+)
 Descriptor_Deck_Division_US_101st_Airmobile_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{e2a36cd8-ec00-4d1b-bba4-4a5ce94860bb}
@@ -2331,6 +3026,93 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
     TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "US"
 )
+Descriptor_Deck_Division_US_9th_Mot_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{6b4ecebb-ed2d-473a-92c0-1acb4b719103}
+    CfgName = 'US_9th_Mot_multi'
+    DivisionName = 'RYTYXPJEGM'
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
+    DescriptionHintTitleToken = 'RYTYXPJEGM'
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 2),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 2),
+        (~/Descriptor_Deck_Pack_ATteam_ITOW_US, 1),
+        (~/Descriptor_Deck_Pack_ATteam_TOW2A_US, 2),
+        (~/Descriptor_Deck_Pack_ATteam_TOW_US, 1),
+        (~/Descriptor_Deck_Pack_CUCV_Hellfire_US, 1),
+        (~/Descriptor_Deck_Pack_CUCV_US, 2),
+        (~/Descriptor_Deck_Pack_DCA_M167A2_Vulcan_20mm_US, 2),
+        (~/Descriptor_Deck_Pack_DCA_XM85_Chaparral_US, 2),
+        (~/Descriptor_Deck_Pack_Engineer_CMD_US, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Dragon_US, 1),
+        (~/Descriptor_Deck_Pack_Engineers_Flash_US, 1),
+        (~/Descriptor_Deck_Pack_Engineers_US, 1),
+        (~/Descriptor_Deck_Pack_F15C_Eagle_AA2_US, 2),
+        (~/Descriptor_Deck_Pack_F16E_AA2_US, 1),
+        (~/Descriptor_Deck_Pack_F16E_HE_US, 1),
+        (~/Descriptor_Deck_Pack_F16E_SEAD_US, 1),
+        (~/Descriptor_Deck_Pack_F16E_TER_CLU_US, 1),
+        (~/Descriptor_Deck_Pack_F16E_TER_HE_US, 1),
+        (~/Descriptor_Deck_Pack_FA16_CAS_US, 1),
+        (~/Descriptor_Deck_Pack_FAV_AGL_US, 1),
+        (~/Descriptor_Deck_Pack_FAV_HMG_US, 1),
+        (~/Descriptor_Deck_Pack_FAV_TOW_US, 1),
+        (~/Descriptor_Deck_Pack_FOB_US, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_M2HB_US, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_M60_NG_US, 1),
+        (~/Descriptor_Deck_Pack_HMGteam_M60_US, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_Mk19_US, 1),
+        (~/Descriptor_Deck_Pack_Howz_M102_105mm_US, 2),
+        (~/Descriptor_Deck_Pack_Howz_M198_155mm_Copperhead_US, 2),
+        (~/Descriptor_Deck_Pack_Howz_M198_155mm_US, 2),
+        (~/Descriptor_Deck_Pack_JOH_58C_US, 1),
+        (~/Descriptor_Deck_Pack_LRRP_CEWI_US, 1),
+        (~/Descriptor_Deck_Pack_LRRP_FOLT_US, 2),
+        (~/Descriptor_Deck_Pack_LightRifles_CMD_US, 2),
+        (~/Descriptor_Deck_Pack_LightRifles_Dragon_US, 2),
+        (~/Descriptor_Deck_Pack_LightRifles_LAW_US, 3),
+        (~/Descriptor_Deck_Pack_M1025_Humvee_CMD_US, 2),
+        (~/Descriptor_Deck_Pack_M1025_Humvee_GVLLD_US, 2),
+        (~/Descriptor_Deck_Pack_M1025_Humvee_TOW_US, 2),
+        (~/Descriptor_Deck_Pack_M106A2_Howz_NG_US, 1),
+        (~/Descriptor_Deck_Pack_M109A2_NG_US, 2),
+        (~/Descriptor_Deck_Pack_M113A2_TOW_US, 1),
+        (~/Descriptor_Deck_Pack_M125_HOWZ_NG_US, 1),
+        (~/Descriptor_Deck_Pack_M270_MLRS_cluster_US, 2),
+        (~/Descriptor_Deck_Pack_M35_supply_US, 1),
+        (~/Descriptor_Deck_Pack_M577_US, 1),
+        (~/Descriptor_Deck_Pack_M60A1_AVLM_US, 2),
+        (~/Descriptor_Deck_Pack_M60A3_CMD_US, 2),
+        (~/Descriptor_Deck_Pack_M60A3_Patton_NG_US, 2),
+        (~/Descriptor_Deck_Pack_M60A3_Patton_US, 1),
+        (~/Descriptor_Deck_Pack_M998_Avenger_nonPara_US, 2),
+        (~/Descriptor_Deck_Pack_MANPAD_Stinger_C_US, 3),
+        (~/Descriptor_Deck_Pack_MANPAD_Stinger_NG_US, 1),
+        (~/Descriptor_Deck_Pack_MP_RCL_US, 1),
+        (~/Descriptor_Deck_Pack_MP_US, 1),
+        (~/Descriptor_Deck_Pack_MQM_105_Aquila_US, 1),
+        (~/Descriptor_Deck_Pack_Mortier_107mm_US, 2),
+        (~/Descriptor_Deck_Pack_NatGuard_CMD_US, 1),
+        (~/Descriptor_Deck_Pack_NatGuard_Dragon_US, 1),
+        (~/Descriptor_Deck_Pack_NatGuard_LAW_US, 1),
+        (~/Descriptor_Deck_Pack_OH58C_Scout_US, 2),
+        (~/Descriptor_Deck_Pack_OH58D_Combat_Scout_US, 1),
+        (~/Descriptor_Deck_Pack_Scout_NG_US, 2),
+        (~/Descriptor_Deck_Pack_Scout_US, 3),
+        (~/Descriptor_Deck_Pack_Sniper_M82_US, 1),
+        (~/Descriptor_Deck_Pack_UH60A_CO_US, 1),
+        (~/Descriptor_Deck_Pack_UH60A_Supply_US, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_US_9th_Mot_multi
+    EmblemTexture     = "Texture_Division_Emblem_US_9th_Motorized"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "US"
+)
 Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{4d41c309-2758-4f06-8995-2a3d07e56474}
@@ -2616,6 +3398,366 @@ Descriptor_Deck_Division_NATO_CENTAG_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_NL_1Div_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{7366cbe4-2007-4daf-b1b6-f9811fda84e6}
+    CfgName = 'NL_1Div_solo'
+    DivisionName = 'DBYNGRSHOC'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_NL_4e_Divisie"
+    StrategicLabelColor     = "division_NL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_NL_1LK_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{f02413e8-8616-4ae8-96cc-1cddf01e42cc}
+    CfgName = 'NL_1LK_solo'
+    DivisionName = 'TKPXWLNVCG'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_NL_4e_Divisie"
+    StrategicLabelColor     = "division_NL_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_NL_4Div_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d538774c-20d1-41ce-ada9-3936dc6afb67}
+    CfgName = 'NL_4Div_solo'
+    DivisionName = 'MRBOKCBPXP'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_NL_4e_Divisie"
+    StrategicLabelColor     = "division_NL_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_NL_5Div_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{0bae6ef1-bdf1-4503-83cd-6e8251a2bd2c}
+    CfgName = 'NL_5Div_solo'
+    DivisionName = 'NYBZOPZDST'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_NL_4e_Divisie"
+    StrategicLabelColor     = "division_NL_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_NL_CLKA_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{b8695b79-6000-408e-b1c0-b185ffc71f0c}
+    CfgName = 'NL_CLKA_solo'
+    DivisionName = 'INCNCOSXQE'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_NL_4e_Divisie"
+    StrategicLabelColor     = "division_NL_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_10MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{65bc3a4e-80e7-4995-8a76-161a9a5df7ef}
+    CfgName = 'POL_10MSD_solo'
+    DivisionName = 'RIQLNYTBHG'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_11TkD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{853e4a10-05b9-407c-bfb5-0f4466b5bca6}
+    CfgName = 'POL_11TkD_solo'
+    DivisionName = 'NOVGSEAZZR'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_12MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{096301d8-55f6-4ed2-a38f-715180a3de89}
+    CfgName = 'POL_12MSD_solo'
+    DivisionName = 'SPPVUGHCVH'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_15MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{66a3ce51-f948-43e6-b2e1-092eb75baf78}
+    CfgName = 'POL_15MSD_solo'
+    DivisionName = 'TQFYOEIPLP'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_16MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{7cc0a6d4-01ba-4f36-8eb6-093feceadf3e}
+    CfgName = 'POL_16MSD_solo'
+    DivisionName = 'WXWLGURWUX'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_1Armia_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{7bd51261-d25b-4767-83a1-e8acc8a645fc}
+    CfgName = 'POL_1Armia_solo'
+    DivisionName = 'OTXYLCTVRH'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_20TkD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{cca5f33a-4f46-4ced-aaaa-247bd013d43f}
+    CfgName = 'POL_20TkD_solo'
+    DivisionName = 'EGPXSAYCXO'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_23ArtGr_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{4d696c99-2eba-432c-a6aa-a53f14a5dbe0}
+    CfgName = 'POL_23ArtGr_solo'
+    DivisionName = 'RQFANWIXRN'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_24ArtGr_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{697598dd-f40c-4bea-9cbf-6a2901d0aed3}
+    CfgName = 'POL_24ArtGr_solo'
+    DivisionName = 'WKOKVVSDOZ'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_2Armia_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{67f9585f-c807-4f98-b674-7c8f7daf0cf5}
+    CfgName = 'POL_2Armia_solo'
+    DivisionName = 'OKHYSASGMM'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_2MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{bb6df8ca-0d18-439b-84c4-fb2b3f6e67b6}
+    CfgName = 'POL_2MSD_solo'
+    DivisionName = 'LMXEXFRVYJ'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_30RMD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d88f69fd-1847-4032-95f5-01960e7a5990}
+    CfgName = 'POL_30RMD_solo'
+    DivisionName = 'MTEHADENDP'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_3_DLMB_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{09aa50b0-638c-4750-8c7a-598486ca7884}
+    CfgName = 'POL_3_DLMB_solo'
+    DivisionName = 'QAFHCYROEI'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_4MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{2c70acb3-5cd7-467c-8bec-c713fd0af0ea}
+    CfgName = 'POL_4MSD_solo'
+    DivisionName = 'JPGSSGIHHN'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_5ArtGr_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{edd42b53-f806-4eee-8d13-028692183db8}
+    CfgName = 'POL_5ArtGr_solo'
+    DivisionName = 'DBLFBJNJMP'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_5TkD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{2d1a0cde-f8d6-4f9e-bef2-597c39518108}
+    CfgName = 'POL_5TkD_solo'
+    DivisionName = 'EXEFNUFAYO'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_61SAMBrig_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{b78669c6-27c0-495d-ab3a-62799d7d9fe4}
+    CfgName = 'POL_61SAMBrig_solo'
+    DivisionName = 'VFDWDVGFLR'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_6AirBrig_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{fab6f5fa-4ff0-4549-a0cd-cfc4cd43a973}
+    CfgName = 'POL_6AirBrig_solo'
+    DivisionName = 'XKNLFKIZGQ'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_6ArtGr_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{cfa3a46a-868f-4e3b-9989-e142e2008586}
+    CfgName = 'POL_6ArtGr_solo'
+    DivisionName = 'QUANLMLBFX'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_7ArtGr_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d04bc57f-317b-40f7-bf8a-24f7093e25ae}
+    CfgName = 'POL_7ArtGr_solo'
+    DivisionName = 'AIITRYYOBF'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_7NavalBrig_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{ab5f1d03-7a15-42b0-a94a-4ca28aea4612}
+    CfgName = 'POL_7NavalBrig_solo'
+    DivisionName = 'DIYVSUJTZC'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_8ArtGr_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{4920c600-c734-4d7d-ba6f-c025282f16e6}
+    CfgName = 'POL_8ArtGr_solo'
+    DivisionName = 'MFTHYAFPKR'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_8MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{84548d26-1dd8-4e45-888b-42898a27d548}
+    CfgName = 'POL_8MSD_solo'
+    DivisionName = 'KEAOQOBUTH'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_DesantK_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{1a193e58-d15c-4042-8acd-9d905c8b0e31}
+    CfgName = 'POL_DesantK_solo'
+    DivisionName = 'MUYAMIWFVR'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_LWP_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{2c9636b0-2ede-49e9-9fc7-d94f03628f00}
+    CfgName = 'POL_LWP_solo'
+    DivisionName = 'UJABTWUSMV'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    StrategicLabelColor     = "division_POL_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_RDA_10MSD_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{1fe621f0-d1b4-4655-b3c1-abf8294b6a34}
@@ -2640,6 +3782,18 @@ Descriptor_Deck_Division_RDA_11MSD_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_RDA_15ResPzR_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{3709e8a9-9552-47ce-bdcb-80cb827f371c}
+    CfgName = 'RDA_15ResPzR_solo'
+    DivisionName = 'TIDKVZHKFD'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
+    StrategicLabelColor     = "division_DDR_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_RDA_17MSD_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{2a167fc2-23ed-47f7-9b17-22ffcac608a2}
@@ -2652,11 +3806,83 @@ Descriptor_Deck_Division_RDA_17MSD_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_RDA_19MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{2f9269e2-b11a-462b-a940-2d278aa1f639}
+    CfgName = 'RDA_19MSD_solo'
+    DivisionName = 'SOZSQRHTUP'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_DDR_19_MSD"
+    StrategicLabelColor     = "division_DDR_hq"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RDA_1MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{703d339b-c754-4549-890b-fa11bb16a630}
+    CfgName = 'RDA_1MSD_solo'
+    DivisionName = 'DZTTOSCXCV'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
+    StrategicLabelColor     = "division_DDR_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RDA_20MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{32699ea0-be0b-4359-815e-67e97c576cc9}
+    CfgName = 'RDA_20MSD_solo'
+    DivisionName = 'AZZCODQNFN'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_20_MSD_DDR"
+    StrategicLabelColor     = "division_DDR_20"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RDA_25MSR_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{eee52363-3e75-4121-a0e9-e6cebff3e753}
+    CfgName = 'RDA_25MSR_solo'
+    DivisionName = 'AMASYORJLT'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
+    StrategicLabelColor     = "division_DDR_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_RDA_4MSD_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{745beef0-62d6-46d3-8d78-383e26c97194}
     CfgName = 'RDA_4MSD_solo'
     DivisionName = 'WKYGGWDXIQ'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
+    StrategicLabelColor     = "division_DDR_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RDA_5ArtBrig_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{e39dfd84-f68b-4535-9e51-04f919607a6c}
+    CfgName = 'RDA_5ArtBrig_solo'
+    DivisionName = 'NVGFNTOKVC'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
+    StrategicLabelColor     = "division_DDR_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RDA_5GEWR_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{c6aab06a-303c-4b19-978a-8639bf4ddb0b}
+    CfgName = 'RDA_5GEWR_solo'
+    DivisionName = 'WKHJDSOXDM'
     DivisionCoalition = ECoalition/Axis
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
@@ -2673,6 +3899,30 @@ Descriptor_Deck_Division_RDA_7PzD_solo is TDeckDivisionDescriptor
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_7_Panzerdivision_DDR"
     StrategicLabelColor     = "division_DDR_7"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RDA_8MSD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{653f2387-50d6-4de6-b06b-83714a7d1527}
+    CfgName = 'RDA_8MSD_solo'
+    DivisionName = 'ATNHPRZBUA'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_DDR_8_MSD"
+    StrategicLabelColor     = "division_DDR_8"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RDA_9PzD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{3a7fb8a1-51be-491b-96de-0bae8577bff0}
+    CfgName = 'RDA_9PzD_solo'
+    DivisionName = 'BTMJHETUOU'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_DDR_9_PzD"
+    StrategicLabelColor     = "division_DDR_9"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -2724,6 +3974,30 @@ Descriptor_Deck_Division_RDA_MBDIII_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_RDA_MBDV_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{812dc38e-1dad-4234-a1ee-79ae68276ced}
+    CfgName = 'RDA_MBDV_solo'
+    DivisionName = 'WKYGGWDXIQ'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
+    StrategicLabelColor     = "division_DDR_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RFA_11PzGrD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{90c90d75-4eca-4176-95ad-7a6150554377}
+    CfgName = 'RFA_11PzGrD_solo'
+    DivisionName = 'OGRDRQFQOG'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
+    StrategicLabelColor     = "division_RFA_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_RFA_12PzD_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{29d67efc-2772-44f2-a812-1a32e0932a69}
@@ -2733,6 +4007,42 @@ Descriptor_Deck_Division_RFA_12PzD_solo is TDeckDivisionDescriptor
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_12_Panzer"
     StrategicLabelColor     = "division_RFA_5"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RFA_1Korps_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{18562b6a-4d2f-4d5b-a9fb-fa5517f7881f}
+    CfgName = 'RFA_1Korps_solo'
+    DivisionName = 'ZUFYSTIZQW'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
+    StrategicLabelColor     = "division_RFA_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RFA_1PioKommando_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{575eebca-47ae-4f8c-b9e2-4e1efe76d3f2}
+    CfgName = 'RFA_1PioKommando_solo'
+    DivisionName = 'UMPVBDYXCY'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
+    StrategicLabelColor     = "division_RFA_kassel_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RFA_1PzD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{760665d7-35ec-4c9c-ad6f-68a4efce3ff4}
+    CfgName = 'RFA_1PzD_solo'
+    DivisionName = 'ZUIJYUBKPY'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
+    StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -2820,6 +4130,18 @@ Descriptor_Deck_Division_RFA_3Korps_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_RFA_3PzD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{3c0f629c-c34d-4666-b42d-1d4ce6a03a1a}
+    CfgName = 'RFA_3PzD_solo'
+    DivisionName = 'MINOBGNNQN'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
+    StrategicLabelColor     = "division_RFA_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_RFA_54Brig_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{4e7b2dc7-4969-4e19-b073-b16e763ebd27}
@@ -2864,6 +4186,30 @@ Descriptor_Deck_Division_RFA_74PioRgt_solo is TDeckDivisionDescriptor
     DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
+    StrategicLabelColor     = "division_RFA_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RFA_7PzD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{6325c679-6582-49e6-bc8f-c704111a382c}
+    CfgName = 'RFA_7PzD_solo'
+    DivisionName = 'WUDSACQWCO'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
+    StrategicLabelColor     = "division_RFA_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_RFA_FlaKdo1_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{95f6d65b-47ae-42fb-888d-dcb249fb0a28}
+    CfgName = 'RFA_FlaKdo1_solo'
+    DivisionName = 'SHOPGELWAY'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
     StrategicLabelColor     = "division_RFA_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
@@ -3096,6 +4442,30 @@ Descriptor_Deck_Division_SOV_105ADIB_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_SOV_10GTkD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{e8780c96-4924-4e04-b2b3-7b23d526001d}
+    CfgName = 'SOV_10GTkD_solo'
+    DivisionName = 'SXJRJLZBUU'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision_kassel_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_115TkInde_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{6d38a45b-f3f1-4eb5-8199-af50141c7439}
+    CfgName = 'SOV_115TkInde_solo'
+    DivisionName = 'PKHOCERPIW'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_SOV_119IndTkBrig_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{5aed016f-d0ba-4bb2-9c94-d8d84f944fad}
@@ -3156,6 +4526,54 @@ Descriptor_Deck_Division_SOV_126IAD_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_SOV_12GTkD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{478d55b6-2a7d-40e1-84a3-c15091a2fc6c}
+    CfgName = 'SOV_12GTkD_solo'
+    DivisionName = 'DFHBGEUXHW'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_138TkInde_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{9d4abf0a-749a-4fca-824a-8234adad1429}
+    CfgName = 'SOV_138TkInde_solo'
+    DivisionName = 'UQMSVYKMIO'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_145TkInde_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{be65eabf-0dfb-4f92-b15a-9ea0a6196ac4}
+    CfgName = 'SOV_145TkInde_solo'
+    DivisionName = 'COBHYHAZNB'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_16GTkD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{1b8a95f3-f37f-4f5d-a062-942986cb970e}
+    CfgName = 'SOV_16GTkD_solo'
+    DivisionName = 'NWNEUMQHLF'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_SOV_16GvIAD_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{0147a489-6838-4839-9db3-207948b35132}
@@ -3204,6 +4622,18 @@ Descriptor_Deck_Division_SOV_1LVD_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_SOV_207MRD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{447e100d-4745-4d5c-971d-d0c64c0b8084}
+    CfgName = 'SOV_207MRD_solo'
+    DivisionName = 'RCUXZYXOTD'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_SOV_20GMRD_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{474ea3f0-2388-4ae8-8145-f98bc38a4b31}
@@ -3213,6 +4643,30 @@ Descriptor_Deck_Division_SOV_20GMRD_solo is TDeckDivisionDescriptor
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision_kassel_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_21MRD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{c4af1c75-588f-4a44-94f0-a22f07aa8029}
+    CfgName = 'SOV_21MRD_solo'
+    DivisionName = 'UEGUTODADY'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_221TkInde_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{6d7aa39d-f457-440f-bf1a-76530f84d1ca}
+    CfgName = 'SOV_221TkInde_solo'
+    DivisionName = 'EVJFJYDIXI'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -3228,6 +4682,18 @@ Descriptor_Deck_Division_SOV_27GMRD_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_SOV_290ArtBrig_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{f94ae8bd-1c70-4963-8bb5-68537e5c16fb}
+    CfgName = 'SOV_290ArtBrig_solo'
+    DivisionName = 'IDADXAUEHZ'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_SOV_294ORAP_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{27bdccc7-58ad-44e7-8008-4e7db88f5167}
@@ -3237,6 +4703,18 @@ Descriptor_Deck_Division_SOV_294ORAP_solo is TDeckDivisionDescriptor
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
     StrategicLabelColor     = "SovDivision_air"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_2GTA_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{160e977c-9bcc-45ab-8c66-0cc7e7550200}
+    CfgName = 'SOV_2GTA_solo'
+    DivisionName = 'KLGKHIPTLF'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -3300,6 +4778,18 @@ Descriptor_Deck_Division_SOV_368OCHAP_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_SOV_385ArtBrig_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{3fecd0d9-f73b-4f7d-99e4-9c57199fc9a9}
+    CfgName = 'SOV_385ArtBrig_solo'
+    DivisionName = 'JCKEGESFSQ'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_SOV_390ArtBr_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{a73457cc-518d-4bbb-a84b-e65e1e0f8881}
@@ -3324,6 +4814,18 @@ Descriptor_Deck_Division_SOV_39GMRD_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_SOV_3A_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{c67a956f-f757-4913-9d24-8f35ad331398}
+    CfgName = 'SOV_3A_solo'
+    DivisionName = 'JQEMAWSOOB'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_SOV_3FrontUkr_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{fa605841-872d-460e-a486-b173733bd6c3}
@@ -3336,6 +4838,42 @@ Descriptor_Deck_Division_SOV_3FrontUkr_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_SOV_3LVD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{9cc1212e-e774-4736-badf-2483ebbff55c}
+    CfgName = 'SOV_3LVD_solo'
+    DivisionName = 'UQCTRBWSWG'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_SOV_AirForce"
+    StrategicLabelColor     = "SovDivision_air"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_46SAMBrig_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{a75fbc82-e9e9-4c0e-87b2-8bab13c744d4}
+    CfgName = 'SOV_46SAMBrig_solo'
+    DivisionName = 'VPQKVRDDWT'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_47GTkD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{27711816-8d8e-4e58-997a-46e7dc4e89e1}
+    CfgName = 'SOV_47GTkD_solo'
+    DivisionName = 'UZSEOTPZYB'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_SOV_57GMRD_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{16cd5ce0-8e54-43e6-b42f-f7f428b8ada8}
@@ -3345,6 +4883,18 @@ Descriptor_Deck_Division_SOV_57GMRD_solo is TDeckDivisionDescriptor
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_Blazon57th_gtd"
     StrategicLabelColor     = "SovDivision3"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_61SAMBrig_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{cf36f5ff-cbfb-458e-a3a0-d0e43e7a69d4}
+    CfgName = 'SOV_61SAMBrig_solo'
+    DivisionName = 'JJXSZSZODB'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -3369,6 +4919,18 @@ Descriptor_Deck_Division_SOV_79GTkD_solo is TDeckDivisionDescriptor
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
     StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_7GTkD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{46a9679d-49d9-401b-812a-f47ffad5d03a}
+    CfgName = 'SOV_7GTkD_solo'
+    DivisionName = 'HGPGDUUVOQ'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision_boar_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -3408,6 +4970,18 @@ Descriptor_Deck_Division_SOV_931ORAP_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_SOV_94GMRD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{209c1128-e8fa-474d-bdc1-b82292b7a071}
+    CfgName = 'SOV_94GMRD_solo'
+    DivisionName = 'EMWRLJXZXG'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_SOV_9TkD_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{03580d44-74b2-41dd-ad79-b741eed3c8c1}
@@ -3417,6 +4991,18 @@ Descriptor_Deck_Division_SOV_9TkD_solo is TDeckDivisionDescriptor
     DivisionTags = ['STRAT', 'Axis']
     EmblemTexture     = "Texture_Division_Emblem_SOV_defaut"
     StrategicLabelColor     = "SovDivision_kassel_3"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_NGF_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{57de2b1c-2a6c-4814-81b3-44662de50322}
+    CfgName = 'SOV_NGF_solo'
+    DivisionName = 'HSQNSLSYKC'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['STRAT', 'Axis']
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "SovDivision2"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -3432,6 +5018,30 @@ Descriptor_Deck_Division_SOV_WGF_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_UK_1ArmDiv_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{1129f48e-9b44-4c8d-8f87-e3161937f5cd}
+    CfgName = 'UK_1ArmDiv_solo'
+    DivisionName = 'YPUIEGDPJD'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_UK_1st_Armoured"
+    StrategicLabelColor     = "division_UK_boar_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_UK_1BrC_solo_30 is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{a878b549-c55a-42d3-8f25-566220ea06aa}
+    CfgName = 'UK_1BrC_solo_30'
+    DivisionName = 'YOWBMGVFWE'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_UK_1_Corps"
+    StrategicLabelColor     = "division_UK_air"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_UK_2ATAF_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{50c0f14f-acc8-4d4e-923a-ee65d4e2b4cd}
@@ -3440,6 +5050,42 @@ Descriptor_Deck_Division_UK_2ATAF_solo is TDeckDivisionDescriptor
     DivisionCoalition = ECoalition/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
+    StrategicLabelColor     = "division_UK_corps"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_UK_2InfDiv_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{18411278-a861-4d6e-94a4-f8584613e72e}
+    CfgName = 'UK_2InfDiv_solo'
+    DivisionName = 'HDQPSYLNXS'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_UK_2nd_Infantry"
+    StrategicLabelColor     = "division_UK_boar_1"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_UK_4ArmDiv_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{3fd4beb5-2cf3-464a-808a-0ab009f2a40b}
+    CfgName = 'UK_4ArmDiv_solo'
+    DivisionName = 'LCVRURPXLV'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_UK_4th_Armoured"
+    StrategicLabelColor     = "division_UK_corps"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_UK_MNAD_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{53215730-b6a3-4f2c-879c-2d29de2aa926}
+    CfgName = 'UK_MNAD_solo'
+    DivisionName = 'WHOHCKMOET'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_UK_1st_Armoured"
     StrategicLabelColor     = "division_UK_corps"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
@@ -3720,6 +5366,18 @@ Descriptor_Deck_Division_US_2ACR_solo is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_US_2Arm_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{c75d90f0-1cff-4df7-8dcf-94465f08d37f}
+    CfgName = 'US_2Arm_solo'
+    DivisionName = 'RPZVLOJMAT'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
+    StrategicLabelColor     = "H2_bleu_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_US_36TFW_solo is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{580b903e-9d5e-4383-8752-ff19b9d56bad}
@@ -3753,6 +5411,18 @@ Descriptor_Deck_Division_US_3Arm_solo is TDeckDivisionDescriptor
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
     StrategicLabelColor     = "division_US_2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_US_3Corps_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{1504d743-bb40-4492-a048-3667f6d6878a}
+    CfgName = 'US_3Corps_solo'
+    DivisionName = 'ZTKHWWMFHP'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['STRAT', 'Allied']
+    EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
+    StrategicLabelColor     = "H2_bleu_2"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -4033,6 +5703,57 @@ Descriptor_Deck_Division_US_UK_6ArmBrig_solo is TDeckDivisionDescriptor
     TypeTexture       = ""
 )
 
+Descriptor_Deck_Division_BEL_1BEC_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{0f232540-0d3b-42ae-9257-08dc5ed528f5}
+    CfgName = 'BEL_1BEC_challenge'
+    DivisionName = 'ZVXSHDXJZE'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['HB', 'Allied']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_ParaCmdo_CMD_BEL, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_BEL_1_Corps"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_DDR_20MSD_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{ec4e6c8f-03d3-43a9-96cc-7749caea3fa8}
+    CfgName = 'DDR_20MSD_challenge'
+    DivisionName = 'SANJZXSUTI'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['HB', 'Axis']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_BTR_60_CMD_DDR, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_20_MSD_DDR"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_DDR_23_MSB_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d5111f64-085e-47f0-b39f-3b5c0a51321e}
+    CfgName = 'DDR_23_MSB_challenge'
+    DivisionName = 'RSLOTCIYSH'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['HB', 'Axis']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_2K11_KRUG_DDR, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_DDR_GroundForces_SansFond"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_FR_7e_Blindee_challenge is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{1d6de536-94b6-48ad-97ae-70ab8dc37745}
@@ -4103,6 +5824,168 @@ Descriptor_Deck_Division_FR_7e_Blindee_challenge is TDeckDivisionDescriptor
     MaxActivationPoints = 9999
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_FR_7eDB"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_NL_4e_Divisie_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d75c132d-4a24-4463-a69e-a1d74d3ea8c4}
+    CfgName = 'NL_4e_Divisie_challenge'
+    DivisionName = 'EWOIOHQJJT'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['HB', 'Allied']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 999),
+        (~/Descriptor_Deck_Pack_AH1F_Hog_US, 999),
+        (~/Descriptor_Deck_Pack_AIFV_B_CMD_NL, 999),
+        (~/Descriptor_Deck_Pack_AIFV_B_Cargo_NL, 999),
+        (~/Descriptor_Deck_Pack_AIFV_B_Radar_NL, 999),
+        (~/Descriptor_Deck_Pack_AIFV_B_TOW_NL, 999),
+        (~/Descriptor_Deck_Pack_ATteam_TOW2_NL, 999),
+        (~/Descriptor_Deck_Pack_Bo_105_CB_NL, 999),
+        (~/Descriptor_Deck_Pack_Bo_105_PAH_1A1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Bo_105_PAH_1_RFA, 999),
+        (~/Descriptor_Deck_Pack_DAF_YA_4400_supply_NL, 999),
+        (~/Descriptor_Deck_Pack_DAF_YHZ_2300_NL, 999),
+        (~/Descriptor_Deck_Pack_DCA_Bofors_upgrade_NL, 999),
+        (~/Descriptor_Deck_Pack_EH60A_EW_US, 999),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_NL, 999),
+        (~/Descriptor_Deck_Pack_Engineers_NL, 999),
+        (~/Descriptor_Deck_Pack_Engineers_Scout_NL, 999),
+        (~/Descriptor_Deck_Pack_F16A_AA_NL, 999),
+        (~/Descriptor_Deck_Pack_F16A_CLU_NL, 999),
+        (~/Descriptor_Deck_Pack_F16A_HE_NL, 999),
+        (~/Descriptor_Deck_Pack_F5A_FreedomFighter_AA_NL, 999),
+        (~/Descriptor_Deck_Pack_F5A_FreedomFighter_NL, 999),
+        (~/Descriptor_Deck_Pack_F5A_FreedomFighter_NPLM_NL, 999),
+        (~/Descriptor_Deck_Pack_F5A_FreedomFighter_RKT_NL, 999),
+        (~/Descriptor_Deck_Pack_FOB_NL, 999),
+        (~/Descriptor_Deck_Pack_Gepard_1A2_NL, 999),
+        (~/Descriptor_Deck_Pack_HMGteam_M2HB_NL, 999),
+        (~/Descriptor_Deck_Pack_HMGteam_MAG_NL, 999),
+        (~/Descriptor_Deck_Pack_Howz_M114_39_155mm_NL, 999),
+        (~/Descriptor_Deck_Pack_LandRover_CMD_NL, 999),
+        (~/Descriptor_Deck_Pack_Leopard_1A1_NL, 999),
+        (~/Descriptor_Deck_Pack_Leopard_2A4_CMD_NL, 999),
+        (~/Descriptor_Deck_Pack_Leopard_2A4_NL, 999),
+        (~/Descriptor_Deck_Pack_M106A2_Mortar_NL, 999),
+        (~/Descriptor_Deck_Pack_M113_CV_25mm_NL, 999),
+        (~/Descriptor_Deck_Pack_M577_NL, 999),
+        (~/Descriptor_Deck_Pack_MANPAD_Stinger_C_NL, 999),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_CMD_NL, 999),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_Carl_NL, 999),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_Dragon_NL, 999),
+        (~/Descriptor_Deck_Pack_Mech_Rifles_M72_LAW_NL, 999),
+        (~/Descriptor_Deck_Pack_Mortier_MORT61_120mm_NL, 999),
+        (~/Descriptor_Deck_Pack_OH58C_CMD_US, 999),
+        (~/Descriptor_Deck_Pack_OH58D_Combat_Scout_US, 999),
+        (~/Descriptor_Deck_Pack_OH58D_Kiowa_Warrior_US, 999),
+        (~/Descriptor_Deck_Pack_Reserve_NL, 999),
+        (~/Descriptor_Deck_Pack_Scout_AT_NL, 999),
+        (~/Descriptor_Deck_Pack_Scout_NL, 999),
+        (~/Descriptor_Deck_Pack_Scout_US, 999),
+        (~/Descriptor_Deck_Pack_UH60A_CO_US, 999),
+        (~/Descriptor_Deck_Pack_UH60A_Supply_US, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_NL_4e_Divisie"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_11TkD_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{f9358daa-ca30-4709-bafd-2b20df30b06a}
+    CfgName = 'POL_11TkD_challenge'
+    DivisionName = ''
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['HB', 'Axis']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Atteam_Fagot_POL, 99),
+        (~/Descriptor_Deck_Pack_BMP_1_CMD_POL, 2),
+        (~/Descriptor_Deck_Pack_BRDM_2_Malyu_P_POL, 2),
+        (~/Descriptor_Deck_Pack_BRDM_2_POL, 2),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_POL, 99),
+        (~/Descriptor_Deck_Pack_Engineers_Flam_POL, 99),
+        (~/Descriptor_Deck_Pack_Engineers_POL, 99),
+        (~/Descriptor_Deck_Pack_HMGteam_PKM_POL, 2),
+        (~/Descriptor_Deck_Pack_Hibneryt_KG_POL, 1),
+        (~/Descriptor_Deck_Pack_KrAZ_255B_supply_POL, 1),
+        (~/Descriptor_Deck_Pack_MANPAD_Strela_2M_POL, 2),
+        (~/Descriptor_Deck_Pack_MotRifles_POL, 4),
+        (~/Descriptor_Deck_Pack_MotRifles_SVD_POL, 2),
+        (~/Descriptor_Deck_Pack_Scout_POL, 2),
+        (~/Descriptor_Deck_Pack_Star_266_supply_POL, 4),
+        (~/Descriptor_Deck_Pack_T72M1_CMD_POL, 2),
+        (~/Descriptor_Deck_Pack_T72M1_POL, 2),
+        (~/Descriptor_Deck_Pack_ZSU_23_Shilka_POL, 2),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_POL_11_TkD"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_1SF_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{47c797f6-4d25-4baa-858b-f234680f5f3c}
+    CfgName = 'POL_1SF_challenge'
+    DivisionName = 'TQUMUBRSBF'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['HB', 'Axis']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Commandos_CMD_POL, 999),
+        (~/Descriptor_Deck_Pack_Commandos_POL, 999),
+        (~/Descriptor_Deck_Pack_Sniper_POL, 999),
+        (~/Descriptor_Deck_Pack_W3W_Sokol_AA_POL, 999),
+        (~/Descriptor_Deck_Pack_W3W_Sokol_RKT_POL, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_POL_30RMD_84MSR_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{e1d44fb8-9a14-49b8-b6b5-00e16e623e3b}
+    CfgName = 'POL_30RMD_84MSR_challenge'
+    DivisionName = 'EQTOVWSYGC'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['HB', 'Axis']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_AT_D44_85mm_POL, 999),
+        (~/Descriptor_Deck_Pack_ATteam_RCL_SPG9_POL, 999),
+        (~/Descriptor_Deck_Pack_DCA_AZP_S60_POL, 999),
+        (~/Descriptor_Deck_Pack_Engineers_POL, 999),
+        (~/Descriptor_Deck_Pack_Groupe_AT_POL, 999),
+        (~/Descriptor_Deck_Pack_HMGteam_NSV_POL, 999),
+        (~/Descriptor_Deck_Pack_HMGteam_PKM_POL, 999),
+        (~/Descriptor_Deck_Pack_Howz_M30_122mm_POL, 999),
+        (~/Descriptor_Deck_Pack_LO_1800_ZPU_2_POL, 999),
+        (~/Descriptor_Deck_Pack_Mortier_M43_82mm_POL, 999),
+        (~/Descriptor_Deck_Pack_Mortier_PM43_120mm_POL, 999),
+        (~/Descriptor_Deck_Pack_OT_65_CMD_POL, 999),
+        (~/Descriptor_Deck_Pack_Reserve_CMD_POL, 999),
+        (~/Descriptor_Deck_Pack_Reserve_POL, 999),
+        (~/Descriptor_Deck_Pack_Rifles_CMD_POL, 999),
+        (~/Descriptor_Deck_Pack_Rifles_POL, 999),
+        (~/Descriptor_Deck_Pack_Scout_POL, 999),
+        (~/Descriptor_Deck_Pack_Star_266_supply_POL, 999),
+        (~/Descriptor_Deck_Pack_T34_85M_CMD_POL, 999),
+        (~/Descriptor_Deck_Pack_T34_85M_POL, 999),
+        (~/Descriptor_Deck_Pack_T54B_CMD_POL, 999),
+        (~/Descriptor_Deck_Pack_T54B_POL, 999),
+        (~/Descriptor_Deck_Pack_UAZ_469_CMD_POL, 999),
+        (~/Descriptor_Deck_Pack_WSW_POL, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_POL_20_Pc"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -4271,6 +6154,92 @@ Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+Descriptor_Deck_Division_RFA_2_PzGrenadier_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d95a18f7-36c7-428b-b51c-aadb14bdc145}
+    CfgName = 'RFA_2_PzGrenadier_challenge'
+    DivisionName = 'YFXMMZXILW'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['HB', 'Allied']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_ATteam_Milan_1_RFA, 999),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_RFA, 999),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_para_RFA, 999),
+        (~/Descriptor_Deck_Pack_ATteam_RCL_M40A1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Bo_105_PAH_1A1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Bo_105_PAH_1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Bo_105_reco_RFA, 999),
+        (~/Descriptor_Deck_Pack_CH53G_RFA, 999),
+        (~/Descriptor_Deck_Pack_DCA_FK20_2_20mm_Zwillinge_RFA, 999),
+        (~/Descriptor_Deck_Pack_DCA_I_Hawk_RFA, 999),
+        (~/Descriptor_Deck_Pack_Engineers_AT_RFA, 999),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_RFA, 999),
+        (~/Descriptor_Deck_Pack_Engineers_Flam_RFA, 999),
+        (~/Descriptor_Deck_Pack_Engineers_RFA, 999),
+        (~/Descriptor_Deck_Pack_F104G_Starfighter_AT_RFA, 999),
+        (~/Descriptor_Deck_Pack_F4F_Phantom_II_HE2_RFA, 999),
+        (~/Descriptor_Deck_Pack_FH70_155mm_RFA, 999),
+        (~/Descriptor_Deck_Pack_FV101_Scorpion_BEL, 999),
+        (~/Descriptor_Deck_Pack_FV105_Sultan_BEL, 999),
+        (~/Descriptor_Deck_Pack_FV107_Scimitar_BEL, 999),
+        (~/Descriptor_Deck_Pack_Fallschirm_RFA, 999),
+        (~/Descriptor_Deck_Pack_Fallschirmjager_CMD_RFA, 999),
+        (~/Descriptor_Deck_Pack_Fallschirmjager_Scout_RFA, 999),
+        (~/Descriptor_Deck_Pack_Feldgendarmerie_RFA, 999),
+        (~/Descriptor_Deck_Pack_G91_R3_Gina_HE_RFA, 999),
+        (~/Descriptor_Deck_Pack_G91_R3_Gina_NPL_RFA, 999),
+        (~/Descriptor_Deck_Pack_G91_R3_Gina_RKT_RFA, 999),
+        (~/Descriptor_Deck_Pack_Gepard_1A2_RFA, 999),
+        (~/Descriptor_Deck_Pack_HMGteam_MG3_FJ_RFA, 999),
+        (~/Descriptor_Deck_Pack_HMGteam_MG3_RFA, 999),
+        (~/Descriptor_Deck_Pack_Harrier_UK, 999),
+        (~/Descriptor_Deck_Pack_Iltis_RFA, 999),
+        (~/Descriptor_Deck_Pack_Jager_Aufk_RFA, 999),
+        (~/Descriptor_Deck_Pack_Jager_CMD_RFA, 999),
+        (~/Descriptor_Deck_Pack_Jager_RFA, 999),
+        (~/Descriptor_Deck_Pack_Jaguar_2_RFA, 999),
+        (~/Descriptor_Deck_Pack_Lars_2_RFA, 999),
+        (~/Descriptor_Deck_Pack_Leopard_1A1_CMD_RFA, 999),
+        (~/Descriptor_Deck_Pack_Leopard_1A1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Leopard_1A5_CMD_RFA, 999),
+        (~/Descriptor_Deck_Pack_Leopard_1A5_RFA, 999),
+        (~/Descriptor_Deck_Pack_Leopard_2A3_CMD_RFA, 999),
+        (~/Descriptor_Deck_Pack_Leopard_2A3_RFA, 999),
+        (~/Descriptor_Deck_Pack_Luchs_A1_RFA, 999),
+        (~/Descriptor_Deck_Pack_M109A3G_HOWZ_RFA, 999),
+        (~/Descriptor_Deck_Pack_M110A2_Howz_RFA, 999),
+        (~/Descriptor_Deck_Pack_M113A1G_supply_RFA, 999),
+        (~/Descriptor_Deck_Pack_M113_PzMorser_RFA, 999),
+        (~/Descriptor_Deck_Pack_M270_MLRS_RFA, 999),
+        (~/Descriptor_Deck_Pack_M48A2C_RFA, 999),
+        (~/Descriptor_Deck_Pack_M577_RFA, 999),
+        (~/Descriptor_Deck_Pack_MANPAD_Redeye_RFA, 999),
+        (~/Descriptor_Deck_Pack_MAN_Kat_6x6_RFA, 999),
+        (~/Descriptor_Deck_Pack_Mortier_Tampella_120mm_RFA, 999),
+        (~/Descriptor_Deck_Pack_Panzergrenadier_APC_RFA, 999),
+        (~/Descriptor_Deck_Pack_Panzergrenadier_CMD_RFA, 999),
+        (~/Descriptor_Deck_Pack_Panzergrenadier_IFV_RFA, 999),
+        (~/Descriptor_Deck_Pack_PzGrenadier_RFA, 999),
+        (~/Descriptor_Deck_Pack_Scout_BEL, 999),
+        (~/Descriptor_Deck_Pack_Scout_RFA, 999),
+        (~/Descriptor_Deck_Pack_Security_RFA, 999),
+        (~/Descriptor_Deck_Pack_TPZ_Fuchs_CMD_RFA, 999),
+        (~/Descriptor_Deck_Pack_TPZ_Fuchs_RASIT_RFA, 999),
+        (~/Descriptor_Deck_Pack_Tornado_ADV_SEAD_UK, 999),
+        (~/Descriptor_Deck_Pack_Tornado_ADV_UK, 999),
+        (~/Descriptor_Deck_Pack_Tornado_IDS_AT1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Tornado_IDS_CLUS_RFA, 999),
+        (~/Descriptor_Deck_Pack_Tornado_IDS_HE1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Tornado_IDS_MW1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Unimog_S_404_RFA, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Nord"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
 Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{1567ee5a-42bf-4200-b5a2-8c14d8a133b6}
@@ -4420,6 +6389,33 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge_IA is TDeckDivisionDescriptor
     MaxActivationPoints = 9999
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_138_TkInde_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{6e6fd404-348d-436d-9892-c6db42eba23b}
+    CfgName = 'SOV_138_TkInde_challenge'
+    DivisionName = 'WYNOTADMUW'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['HB', 'Axis']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_2S1_Gvozdika_SOV, 999),
+        (~/Descriptor_Deck_Pack_BRM_1_SOV, 999),
+        (~/Descriptor_Deck_Pack_HvyScout_SOV, 999),
+        (~/Descriptor_Deck_Pack_MTLB_Strela10_SOV, 999),
+        (~/Descriptor_Deck_Pack_Mi_8TV_s57_16_SOV, 999),
+        (~/Descriptor_Deck_Pack_Mortier_2S12_120mm_SOV, 999),
+        (~/Descriptor_Deck_Pack_MotRifles_SOV, 999),
+        (~/Descriptor_Deck_Pack_T64BV1_SOV, 999),
+        (~/Descriptor_Deck_Pack_T64B_CMD_SOV, 999),
+        (~/Descriptor_Deck_Pack_T64B_SOV, 999),
+        (~/Descriptor_Deck_Pack_Ural_4320_SOV, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_SOV_138OdtTP"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -5086,6 +7082,228 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge_IA is TDeckDivisionDescriptor
     MaxActivationPoints = 9999
     CostMatrix = MatrixCostName_Challenge
     EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_SOV_9_Gds_Tank_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{c068effe-28e6-4e44-b62b-76a311bf2c06}
+    CfgName = 'SOV_9_Gds_Tank_challenge'
+    DivisionName = 'UCHGNEBJWY'
+    DivisionCoalition = ECoalition/Axis
+    DivisionTags = ['HB', 'Axis']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_2K12_KUB_SOV, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_SOV_9TD"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_UK_2nd_Infantry_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{4701444a-c2cf-4679-a881-4019b503d615}
+    CfgName = 'UK_2nd_Infantry_challenge'
+    DivisionName = ''
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['HB', 'Allied']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_AEC_Militant_UK, 999),
+        (~/Descriptor_Deck_Pack_Airmobile_Mot_UK, 999),
+        (~/Descriptor_Deck_Pack_Airmobile_UK, 999),
+        (~/Descriptor_Deck_Pack_Bedford_MJ_4t_trans_UK, 999),
+        (~/Descriptor_Deck_Pack_FH70_155mm_UK, 999),
+        (~/Descriptor_Deck_Pack_FV4201_Chieftain_Mk11_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_FV4201_Chieftain_Mk9_UK, 999),
+        (~/Descriptor_Deck_Pack_LandRover_MILAN_UK, 999),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk7_I_TOW2_UK, 999),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk7_I_TOW_UK, 999),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk7_SNEB_UK, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_UK_2nd_Infantry"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_UK_4th_Armoured_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{2f7f7000-7dbf-43d5-95a5-775017cae9f2}
+    CfgName = 'UK_4th_Armoured_challenge'
+    DivisionName = 'EDKSESFKOW'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['HB', 'Allied']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_81mm_mortar_UK, 1),
+        (~/Descriptor_Deck_Pack_AEC_Militant_UK, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_1_UK, 1),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_UK, 1),
+        (~/Descriptor_Deck_Pack_Alvis_Stalwart_UK, 1),
+        (~/Descriptor_Deck_Pack_CH47D_Chinook_supply_UK, 1),
+        (~/Descriptor_Deck_Pack_Centurion_AVRE_105_UK, 1),
+        (~/Descriptor_Deck_Pack_DCA_Javelin_LML_UK, 1),
+        (~/Descriptor_Deck_Pack_DCA_Rapier_Darkfire_UK, 2),
+        (~/Descriptor_Deck_Pack_DCA_Rapier_UK, 1),
+        (~/Descriptor_Deck_Pack_Engineers_AT_UK, 1),
+        (~/Descriptor_Deck_Pack_Engineers_CMD_UK, 1),
+        (~/Descriptor_Deck_Pack_Engineers_UK, 2),
+        (~/Descriptor_Deck_Pack_F4_Phantom_AA_F3_UK, 2),
+        (~/Descriptor_Deck_Pack_F4_Phantom_GR2_NPLM_UK, 1),
+        (~/Descriptor_Deck_Pack_F4_Phantom_GR2_UK, 1),
+        (~/Descriptor_Deck_Pack_FH70_155mm_UK, 2),
+        (~/Descriptor_Deck_Pack_FOB_UK, 1),
+        (~/Descriptor_Deck_Pack_FV101_Scorpion_UK, 2),
+        (~/Descriptor_Deck_Pack_FV102_Striker_UK, 1),
+        (~/Descriptor_Deck_Pack_FV103_Spartan_GSR_UK, 1),
+        (~/Descriptor_Deck_Pack_FV105_Sultan_UK, 1),
+        (~/Descriptor_Deck_Pack_FV107_Scimitar_UK, 1),
+        (~/Descriptor_Deck_Pack_FV4003_Centurion_AVRE_ROMOR_UK, 2),
+        (~/Descriptor_Deck_Pack_FV4201_Chieftain_Mk11_CMD_UK, 3),
+        (~/Descriptor_Deck_Pack_FV4201_Chieftain_Mk11_UK, 3),
+        (~/Descriptor_Deck_Pack_FV4201_Chieftain_Mk6_UK, 1),
+        (~/Descriptor_Deck_Pack_FV4201_Chieftain_Mk9_UK, 1),
+        (~/Descriptor_Deck_Pack_FV432_CMD_UK, 2),
+        (~/Descriptor_Deck_Pack_FV432_Mortar_UK, 2),
+        (~/Descriptor_Deck_Pack_FV433_Abbot_UK, 2),
+        (~/Descriptor_Deck_Pack_FV438_Swingfire_UK, 1),
+        (~/Descriptor_Deck_Pack_FV721_Fox_UK, 2),
+        (~/Descriptor_Deck_Pack_Ferret_Mk2_UK, 1),
+        (~/Descriptor_Deck_Pack_Gazelle_SNEB_UK, 1),
+        (~/Descriptor_Deck_Pack_Gazelle_UK, 1),
+        (~/Descriptor_Deck_Pack_Gun_Group_UK, 2),
+        (~/Descriptor_Deck_Pack_HMGteam_MAG_UK, 2),
+        (~/Descriptor_Deck_Pack_Jaguar_CLU_UK, 1),
+        (~/Descriptor_Deck_Pack_Jaguar_HE1_UK, 1),
+        (~/Descriptor_Deck_Pack_Jaguar_RKT_UK, 1),
+        (~/Descriptor_Deck_Pack_Jaguar_overwing_UK, 1),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk1_TOW_UK, 1),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk7_I_TOW_UK, 2),
+        (~/Descriptor_Deck_Pack_M107A2_175mm_UK, 2),
+        (~/Descriptor_Deck_Pack_MANPAD_Javelin_UK, 2),
+        (~/Descriptor_Deck_Pack_RCL_L6_Wombat_UK, 1),
+        (~/Descriptor_Deck_Pack_RMP_UK, 1),
+        (~/Descriptor_Deck_Pack_Rifles_AT_UK, 2),
+        (~/Descriptor_Deck_Pack_Rifles_CMD_UK, 3),
+        (~/Descriptor_Deck_Pack_Rifles_Mot_UK, 2),
+        (~/Descriptor_Deck_Pack_Saxon_CMD_UK, 1),
+        (~/Descriptor_Deck_Pack_Scout_AT_UK, 1),
+        (~/Descriptor_Deck_Pack_Scout_UK, 1),
+        (~/Descriptor_Deck_Pack_Sniper_UK, 1),
+        (~/Descriptor_Deck_Pack_Territorial_CMD_UK, 1),
+        (~/Descriptor_Deck_Pack_Territorial_UK, 2),
+        (~/Descriptor_Deck_Pack_Tracked_Rapier_UK, 2),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_UK_4th_Armoured"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = ""
+)
+Descriptor_Deck_Division_UK_5th_Airborne_Brigade_challenge is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d50a844f-54a9-475f-82c0-d56d3b27a302}
+    CfgName = 'UK_5th_Airborne_Brigade_challenge'
+    DivisionName = 'HEWSNUTIYY'
+    DivisionCoalition = ECoalition/Allied
+    DivisionTags = ['HB', 'Allied']
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_81mm_mortar_Para_UK, 999),
+        (~/Descriptor_Deck_Pack_AT_Group_Gurkhas_UK, 999),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_1_para_BEL, 999),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_UK, 999),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_para_BEL, 999),
+        (~/Descriptor_Deck_Pack_ATteam_Milan_2_para_RFA, 999),
+        (~/Descriptor_Deck_Pack_Atteam_Dragon_Marines_NL, 999),
+        (~/Descriptor_Deck_Pack_Bo_105_PAH_1A1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Bo_105_PAH_1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Buccaneer_S2B_ATGM_UK, 999),
+        (~/Descriptor_Deck_Pack_Buccaneer_S2B_GBU_UK, 999),
+        (~/Descriptor_Deck_Pack_Buccaneer_S2B_HE_UK, 999),
+        (~/Descriptor_Deck_Pack_Buccaneer_S2B_SEAD_UK, 999),
+        (~/Descriptor_Deck_Pack_CH47D_Chinook_supply_UK, 999),
+        (~/Descriptor_Deck_Pack_CH53G_RFA, 999),
+        (~/Descriptor_Deck_Pack_DCA_M167_Vulcan_para_20mm_BEL, 999),
+        (~/Descriptor_Deck_Pack_DCA_Oerlikon_GDF_002_35mm_UK, 999),
+        (~/Descriptor_Deck_Pack_F16A_AA2_NL, 999),
+        (~/Descriptor_Deck_Pack_F4F_Phantom_II_AA_RFA, 999),
+        (~/Descriptor_Deck_Pack_F5A_FreedomFighter_CLU_NL, 999),
+        (~/Descriptor_Deck_Pack_FV101_Scorpion_UK, 999),
+        (~/Descriptor_Deck_Pack_FV101_Scorpion_para_BEL, 999),
+        (~/Descriptor_Deck_Pack_FV102_Striker_para_UK, 999),
+        (~/Descriptor_Deck_Pack_FV103_Spartan_GSR_UK, 999),
+        (~/Descriptor_Deck_Pack_FV105_Sultan_para_BEL, 999),
+        (~/Descriptor_Deck_Pack_FV105_Sultan_para_UK, 999),
+        (~/Descriptor_Deck_Pack_FV107_Scimitar_UK, 999),
+        (~/Descriptor_Deck_Pack_FV107_Scimitar_para_BEL, 999),
+        (~/Descriptor_Deck_Pack_Fallschirm_B1_RFA, 999),
+        (~/Descriptor_Deck_Pack_Fallschirm_Engineers_RFA, 999),
+        (~/Descriptor_Deck_Pack_Fallschirm_RFA, 999),
+        (~/Descriptor_Deck_Pack_Fallschirmjager_CMD_RFA, 999),
+        (~/Descriptor_Deck_Pack_Fallschirmjager_Scout_RFA, 999),
+        (~/Descriptor_Deck_Pack_Faun_Kraka_20mm_RFA, 999),
+        (~/Descriptor_Deck_Pack_Faun_Kraka_Log_RFA, 999),
+        (~/Descriptor_Deck_Pack_Faun_Kraka_TOW_RFA, 999),
+        (~/Descriptor_Deck_Pack_Gazelle_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_Gazelle_SNEB_reco_UK, 999),
+        (~/Descriptor_Deck_Pack_Gazelle_UK, 999),
+        (~/Descriptor_Deck_Pack_Gun_Group_Paras_UK, 999),
+        (~/Descriptor_Deck_Pack_HMGteam_M2HB_para_UK, 999),
+        (~/Descriptor_Deck_Pack_HMGteam_MAG_para_BEL, 999),
+        (~/Descriptor_Deck_Pack_HMGteam_MAG_para_UK, 999),
+        (~/Descriptor_Deck_Pack_HMGteam_MG3_FJ_RFA, 999),
+        (~/Descriptor_Deck_Pack_Howz_L118_105mm_UK, 999),
+        (~/Descriptor_Deck_Pack_Howz_M101_105mm_para_BEL, 999),
+        (~/Descriptor_Deck_Pack_Iltis_HMG_BEL, 999),
+        (~/Descriptor_Deck_Pack_Iltis_para_CMD_BEL, 999),
+        (~/Descriptor_Deck_Pack_Iltis_para_CMD_RFA, 999),
+        (~/Descriptor_Deck_Pack_LRRP_UK, 999),
+        (~/Descriptor_Deck_Pack_LSV_M2HB_UK, 999),
+        (~/Descriptor_Deck_Pack_LSV_MILAN_UK, 999),
+        (~/Descriptor_Deck_Pack_LandRover_CMD_Para_UK, 999),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk1_TOW_UK, 999),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk7_Chancellor_UK, 999),
+        (~/Descriptor_Deck_Pack_Lynx_AH_Mk7_I_TOW_UK, 999),
+        (~/Descriptor_Deck_Pack_MANPAD_Javelin_UK, 999),
+        (~/Descriptor_Deck_Pack_MANPAD_Mistral_para_BEL, 999),
+        (~/Descriptor_Deck_Pack_Marines_NL, 999),
+        (~/Descriptor_Deck_Pack_Mirage_5_BA_BEL, 999),
+        (~/Descriptor_Deck_Pack_Mirage_5_BA_RKT_BEL, 999),
+        (~/Descriptor_Deck_Pack_Mortier_107mm_para_BEL, 999),
+        (~/Descriptor_Deck_Pack_Mortier_81mm_para_BEL, 999),
+        (~/Descriptor_Deck_Pack_Mortier_Tampella_120mm_para_RFA, 999),
+        (~/Descriptor_Deck_Pack_ParaCmdo_AT_BEL, 999),
+        (~/Descriptor_Deck_Pack_ParaCmdo_BEL, 999),
+        (~/Descriptor_Deck_Pack_ParaCmdo_CMD_BEL, 999),
+        (~/Descriptor_Deck_Pack_ParaCmdo_Pionier_BEL, 999),
+        (~/Descriptor_Deck_Pack_Paratroopers_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_Paratroopers_Engineers_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_Paratroopers_Engineers_UK, 999),
+        (~/Descriptor_Deck_Pack_Paratroopers_UK, 999),
+        (~/Descriptor_Deck_Pack_Pathfinders_UK, 999),
+        (~/Descriptor_Deck_Pack_Rifles_Gurkhas_CMD_UK, 999),
+        (~/Descriptor_Deck_Pack_Rifles_Gurkhas_UK, 999),
+        (~/Descriptor_Deck_Pack_Rover_101FC_supply_UK, 999),
+        (~/Descriptor_Deck_Pack_SAS_UK, 999),
+        (~/Descriptor_Deck_Pack_Scout_ParaCmdo_BEL, 999),
+        (~/Descriptor_Deck_Pack_Scout_ParaCmdo_Mech_BEL, 999),
+        (~/Descriptor_Deck_Pack_Scout_Para_UK, 999),
+        (~/Descriptor_Deck_Pack_Sniper_UK, 999),
+        (~/Descriptor_Deck_Pack_Supacat_ATMP_Javelin_LML_UK, 999),
+        (~/Descriptor_Deck_Pack_Supacat_ATMP_MILAN_UK, 999),
+        (~/Descriptor_Deck_Pack_Supacat_ATMP_supply_UK, 999),
+        (~/Descriptor_Deck_Pack_Unimog_supply_BEL, 2),
+        (~/Descriptor_Deck_Pack_Westland_Scout_SS11_UK, 999),
+        (~/Descriptor_Deck_Pack_Wiesel_20mm_RFA, 999),
+        (~/Descriptor_Deck_Pack_Wiesel_TOW_RFA, 999),
+    ]
+    MaxActivationPoints = 9999
+    CostMatrix = MatrixCostName_Challenge
+    EmblemTexture     = "Texture_Division_Emblem_UK_5th_Airborne"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
