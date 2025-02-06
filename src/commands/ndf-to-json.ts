@@ -8,7 +8,7 @@ import { Command } from '@oclif/core';
 import { NdfFilePathMap, NdfManager } from '../lib/ndf-to-json/ndf-manager';
 import { Unit, UnitManager } from '../lib/ndf-to-json/unit-manager';
 import { extractValuesFromFile, isNdfObject } from '../lib/ndf-to-json/utils';
-import parseDivisionData from '../lib/parse/divisions';
+import { parseDivisionData, _legacyParseDivisionData } from '../lib/parse/divisions';
 import { diff } from 'json-diff';
 
 const path = require('path');
@@ -122,14 +122,16 @@ export default class NdfToJson extends Command {
     const { args } = await this.parse(NdfToJson);
     this.log('Extracting unit data from ndf files');
 
+    const i18nMap = this.extractI18n(args);
+
     const { unitData: currentPatchData, damageTableData } =
-      await this.extractNdfData(args.inputNdfFolder);
+      await this.extractNdfData(args.inputNdfFolder, i18nMap);
 
     let previousPatchData: UnitData;
 
     if (args.previousNdfFolder) {
       const { unitData: _previousPatchData } = await this.extractNdfData(
-        args.previousNdfFolder
+        args.previousNdfFolder, args.inputNdfFolder, true
       );
       previousPatchData = _previousPatchData;
 
@@ -175,7 +177,7 @@ export default class NdfToJson extends Command {
 
         for (const pack of newPacks) {
           const oldPack = oldPacks.find(
-            (p: any) => p.packDescriptor === pack.packDescriptor
+            (p: any) => p.unitDescriptor === pack.unitDescriptor
           );
 
           if (oldPack) {
@@ -184,14 +186,14 @@ export default class NdfToJson extends Command {
             if (packDiff) {
               divisionDiff.packDiff.push({
                 descriptor: pack.unitDescriptor,
-                pack: pack.packDescriptor,
+                pack: pack.unitDescriptor,
                 diff: packDiff,
               });
             }
           } else {
             divisionDiff.packDiff.push({
               descriptor: pack.unitDescriptor,
-              pack: pack.packDescriptor,
+              pack: pack.unitDescriptor,
               new: true,
             });
           }
@@ -245,7 +247,29 @@ export default class NdfToJson extends Command {
     this.log(`Done! 🎉 File written to ${args.outputFile}`);
   }
 
-  private async extractNdfData(readDirectory: string): Promise<{
+  private extractI18n(args: { [name: string]: any; }) {
+    const i18nMap: { [key: string]: string; } = {};
+
+    try {
+      const i18n = fs.readFileSync(
+        path.join(args.inputNdfFolder, 'UNITS.csv'),
+        'utf8'
+      );
+      const i18nLines = i18n.split('\n');
+
+      for (const line of i18nLines) {
+        let [key, value] = line.split(';');
+        key = key.replaceAll(`"`, '');
+        i18nMap[key] = value;
+      }
+    } catch (e) {
+      console.log('No UNITS.csv file found');
+    }
+
+    return i18nMap;
+  }
+
+  private async extractNdfData(readDirectory: string, i18nMap?: {[key: string]: string}, legacyDivisionFormat = false): Promise<{
     unitData: UnitData;
     damageTableData: {
       resistanceFamilyWithIndexes: FamilyIndexTuple[];
@@ -439,16 +463,30 @@ export default class NdfToJson extends Command {
       packs = ndfs.divisionPacks;
     }
 
-    const outputJson: UnitData = {
-      version: undefined,
-      units: [] as Unit[],
-      divisions: parseDivisionData({
+    let divisions;
+    debugger;
+    if(legacyDivisionFormat) {
+      divisions = _legacyParseDivisionData({
         division: ndfs.divisions,
         rules: ndfs.rules,
         packs: packs,
         costMatrix: ndfs.costMatrix,
         divisionIdMap: divisionIdMap,
-      }),
+      });
+    }
+    else {
+      divisions = parseDivisionData({
+        division: ndfs.divisions,
+        rules: ndfs.rules,
+        costMatrix: ndfs.costMatrix,
+        divisionIdMap: divisionIdMap,
+      });
+    } 
+
+    const outputJson: UnitData = {
+      version: undefined,
+      units: [] as Unit[],
+      divisions
     };
 
     for (const unitNdf of ndfs.units) {
@@ -461,7 +499,8 @@ export default class NdfToJson extends Command {
           mappedSmokeDescriptors,
           mappedMissileDescriptors,
           unitIdMap,
-          bonusPrecision
+          bonusPrecision,
+          i18nMap
         );
         const unit = unitManager.parse();
 

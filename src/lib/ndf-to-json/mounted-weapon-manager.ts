@@ -9,16 +9,25 @@ export type MountedWeapon = {
   numberOfWeapons: number;
   ammo: Ammo;
   salvoIndex: number;
-}
+};
 
 export class MountedWeaponManager extends AbstractManager {
-  constructor(mountedWeaponDescriptor: NdfObject, mappedAmmo: MappedNdf, mappedSmoke: MappedNdf, mappedMissiles: MappedNdf, salvoMap: number[], bonusPrecision: number) {
+  constructor(
+    mountedWeaponDescriptor: NdfObject,
+    mappedAmmo: MappedNdf,
+    mappedSmoke: MappedNdf,
+    mappedMissiles: MappedNdf,
+    salvoMap: number[],
+    bonusPrecision: number,
+    i18nMap?: { [key: string]: string }
+  ) {
     super(mountedWeaponDescriptor);
     this.mappedAmmo = mappedAmmo;
     this.mappedSmoke = mappedSmoke;
     this.mappedMissiles = mappedMissiles;
     this.salvoMap = salvoMap;
     this.bonusPrecision = bonusPrecision;
+    this.i18nMap = i18nMap;
 
   }
 
@@ -27,15 +36,22 @@ export class MountedWeaponManager extends AbstractManager {
   mappedMissiles: MappedNdf;
   salvoMap: number[];
   bonusPrecision: number;
+  i18nMap?: { [key: string]: string };
 
   parse() {
     const showInterface = this.getValueFromSearch('ShowInInterface') === 'True';
     const ammunitionPath = this.getValueFromSearch<string>('Ammunition');
     const ammoDescriptorId = NdfManager.extractLastToken(ammunitionPath);
     const ammoDescriptor = this.mappedAmmo[ammoDescriptorId];
-    const ammunitionManager = new AmmunitionManager(ammoDescriptor as NdfObject, this.mappedSmoke, this.mappedMissiles, this.salvoMap, this.bonusPrecision);
+    const ammunitionManager = new AmmunitionManager(
+      ammoDescriptor as NdfObject,
+      this.mappedSmoke,
+      this.mappedMissiles,
+      this.salvoMap,
+      this.bonusPrecision,
+      this.i18nMap
+    );
     const ammo = ammunitionManager.parse();
-
 
     const numberOfWeapons = Number(this.getValueFromSearch('NbWeapons'));
     const salvoIndex = Number(this.getValueFromSearch('SalvoStockIndex'));
@@ -44,7 +60,7 @@ export class MountedWeaponManager extends AbstractManager {
       showInterface,
       numberOfWeapons,
       salvoIndex,
-      ammo: ammo
+      ammo: ammo,
     };
 
     return mountedWeapon;

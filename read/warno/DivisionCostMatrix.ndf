@@ -115,7 +115,7 @@ MatrixCostName_POL_4_Zmechanizowana_multi is MAP
     (EDefaultFactories/Logistic, [1, 1, 2, 2, 3, 3, 3]),
     (EDefaultFactories/Planes, [1, 2, 3, 3, 3]),
     (EDefaultFactories/Recons, [1, 1, 1, 2, 3, 3, 3]),
-    (EDefaultFactories/Tanks, [1, 1, 1, 1, 2, 3, 3, 3]),
+    (EDefaultFactories/Tanks, [1, 1, 1, 1, 2, 2, 3, 3]),
 ]
 
 MatrixCostName_POL_Korpus_Desantowy_multi is MAP
@@ -510,14 +510,14 @@ MatrixCostName_US_9th_Mot_multi is MAP
 
 MatrixCostName_WP_Unternehmen_Zentrum_multi is MAP
 [
-    (EDefaultFactories/Art, [1, 1, 1, 2, 2, 2, 3, 3, 3]),
-    (EDefaultFactories/DCA, [1, 1, 1, 2, 2, 3, 3]),
+    (EDefaultFactories/Art, [1, 1, 1, 2, 2, 2, 3, 3]),
+    (EDefaultFactories/DCA, [1, 1, 1, 2, 2, 3]),
     (EDefaultFactories/Defense, []),
-    (EDefaultFactories/Helis, [1, 2, 2, 3, 3]),
-    (EDefaultFactories/Infantry, [1, 1, 1, 1, 1, 1, 1, 1, 2, 3]),
+    (EDefaultFactories/Helis, [1, 2, 2, 3]),
+    (EDefaultFactories/Infantry, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]),
     (EDefaultFactories/Logistic, [1, 1, 1, 1, 2, 2, 3, 3]),
     (EDefaultFactories/Planes, [1, 1, 2, 2, 3, 3]),
     (EDefaultFactories/Recons, [1, 1, 2, 3, 3, 3]),
-    (EDefaultFactories/Tanks, [1, 1, 1, 2, 2, 3]),
+    (EDefaultFactories/Tanks, [1, 1, 1, 2, 2, 2, 3, 3]),
 ]
 

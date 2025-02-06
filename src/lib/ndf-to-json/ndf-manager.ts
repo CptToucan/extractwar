@@ -64,17 +64,19 @@ export class NdfManager {
 
     for (const key in filesToRead) {
       if (Object.prototype.hasOwnProperty.call(filesToRead, key)) {
-        if(fs.existsSync(filesToRead[key])) {
-          const annotatedDescriptor = this.extractToAnnotatedDescriptor(
-            filesToRead[key]
-          );
-          jsonDescriptors[key] = annotatedDescriptor;
-        }
-
-        else {
+        if (fs.existsSync(filesToRead[key])) {
+          try {
+            const annotatedDescriptor = this.extractToAnnotatedDescriptor(
+              filesToRead[key]
+            );
+            jsonDescriptors[key] = annotatedDescriptor;
+          } catch (e) {
+            console.log(`Error parsing ${key} - ${e}`);
+            jsonDescriptors[key] = [];
+          }
+        } else {
           jsonDescriptors[key] = [];
         }
-
       }
     }
 
@@ -87,8 +89,6 @@ export class NdfManager {
    * @returns a JSON formatted ndf
    */
   extractToAnnotatedDescriptor(filePath: string): (NdfObject | NdfConstant)[] {
-
-
     const buffer: string = fs.readFileSync(filePath);
     const descriptorNdf = buffer.toString();
     const parser = new NdfParser(descriptorNdf);
@@ -144,7 +144,7 @@ export class NdfManager {
    * Extracts a name from a tuple
    * @param tuple The tuple to extract from
    * @returns The name
-   * 
+   *
    */
   static extractNameFromTuple(tuple: ParserTuple): unknown {
     return (tuple.value[0] as ParserStringLiteral).value;
@@ -162,12 +162,11 @@ export class NdfManager {
   /**
    * Extracts values from a search result
    * @param searchResult The search result to extract from
-   * @returns The value 
+   * @returns The value
    */
   static extractValuesFromSearchResult<T>(searchResult: any): T[] {
     return searchResult?.value?.values;
   }
-
 
   /**
    * Extract number from a metre value in the form of (number * metre)
@@ -180,16 +179,16 @@ export class NdfManager {
     return Number(numberTokens[0]) * RANGE_METRE;
   }
 
-    /**
+  /**
    * Extract number from a metre value in the form of (number * metre)
    * @param rawValue The raw value to extract from
    * @returns The number
    */
-    static parseSpeedNumberFromMetre(rawValue: string): number {
-      const metreValue = this.removeBracketsFromValue(rawValue);
-      const numberTokens = metreValue.split('*');
-      return Number(numberTokens[0]) * SPEED_METRE;
-    }
+  static parseSpeedNumberFromMetre(rawValue: string): number {
+    const metreValue = this.removeBracketsFromValue(rawValue);
+    const numberTokens = metreValue.split('*');
+    return Number(numberTokens[0]) * SPEED_METRE;
+  }
 
   /**
    * Extracts a number from a second value in the form of (number * second)

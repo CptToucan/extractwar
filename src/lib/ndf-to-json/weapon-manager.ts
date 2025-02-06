@@ -82,19 +82,22 @@ export class WeaponManager extends AbstractManager {
     mappedAmmo: MappedNdf,
     mappedSmoke: MappedNdf,
     mappedMissiles: MappedNdf,
-    bonusPrecision: number
+    bonusPrecision: number,
+    i18nMap?: { [key: string]: string }
   ) {
     super(weaponDescriptor);
     this.mappedAmmo = mappedAmmo;
     this.mappedSmoke = mappedSmoke;
     this.mappedMissiles = mappedMissiles;
     this.bonusPrecision = bonusPrecision;
+    this.i18nMap = i18nMap;
   }
 
   mappedAmmo: MappedNdf;
   mappedSmoke: MappedNdf;
   mappedMissiles: MappedNdf;
   bonusPrecision: number;
+  i18nMap?: { [key: string]: string };
 
   /**
    * Parses the weapon descriptor and returns the weapon data
@@ -171,7 +174,8 @@ export class WeaponManager extends AbstractManager {
             this.mappedSmoke,
             this.mappedMissiles,
             salvoMap,
-            this.bonusPrecision
+            this.bonusPrecision,
+            this.i18nMap
           );
           const mountedWeapon = mountedWeaponManager.parse();
           extractedMountedWeapons.push({...mountedWeapon, ...turret});

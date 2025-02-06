@@ -25,6 +25,7 @@ export const EXTRACT_FILES = [
     'GameData/Gameplay/Constantes/HitRollConstants.ndf',
     'GameData/Gameplay/Constantes/WeaponConstantes.ndf',
     'GameData/Generated/Gameplay/Decks/DivisionPacks.ndf',
+    'UNITS.csv',
 ]
 
 export default class GenerateNdfFiles extends Command {

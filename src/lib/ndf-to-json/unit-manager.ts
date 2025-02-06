@@ -5,6 +5,7 @@ import { AbstractManager } from './abstract-manager';
 import { MappedNdf, NdfManager } from './ndf-manager';
 import { isNdfObject } from './utils';
 import { Weapon, WeaponManager } from './weapon-manager';
+import { search } from '@izohek/ndf-parser';
 
 export const AIR_FUEL_PER_SECOND = 10;
 export const AIR_HEALTH_PER_SECOND = 0.018;
@@ -47,7 +48,6 @@ export enum ArmourToken {
 export type Unit = {
   descriptorName: string;
   name: string;
-  category: string;
   id: number;
   unitType: UnitType;
   commandPoints: number;
@@ -124,7 +124,8 @@ export class UnitManager extends AbstractManager {
     mappedSmoke: MappedNdf,
     mappedMissiles: MappedNdf,
     unitIdMap: DescriptorIdMap,
-    bonusPrecision: number
+    bonusPrecision: number,
+    i18nMap?: { [key: string]: string }
   ) {
     super(unitDescriptor);
     this.speedModifiers = speedModifiers;
@@ -134,6 +135,7 @@ export class UnitManager extends AbstractManager {
     this.mappedMissiles = mappedMissiles;
     this.unitIdMap = unitIdMap;
     this.bonusPrecision = bonusPrecision;
+    this.i18nMap = i18nMap;
   }
 
   speedModifiers: SpeedModifier[];
@@ -143,19 +145,25 @@ export class UnitManager extends AbstractManager {
   mappedMissiles: MappedNdf;
   unitIdMap: DescriptorIdMap;
   bonusPrecision: number;
+  i18nMap?: { [key: string]: string };
 
   parse() {
     const descriptorName = this.ndf.name;
 
-    const localizedUnitCard = findUnitCardByDescriptor(descriptorName);
 
-    let name = localizedUnitCard?.name || '';
+    
+    const nameToken = (this.getValueFromSearch('NameToken') as string || undefined)?.replaceAll(`'`, '');
+    let name;
+    
+    if(nameToken) {
+      name = this.i18nMap?.[nameToken]?.replaceAll(`\"`, '').replaceAll(`\r`, '') || undefined;
+    }
 
-    if (name.length === 0) {
+
+    if (!name || name.length === 0) {
       name = this.prettyUnitNameFromDescriptor(descriptorName);
     }
 
-    const category = localizedUnitCard?.category || '';
     const id = this.unitIdMap[descriptorName];
 
     const unitType = this.extractUnitType();
@@ -324,7 +332,8 @@ export class UnitManager extends AbstractManager {
           this.mappedAmmo,
           this.mappedSmoke,
           this.mappedMissiles,
-          this.bonusPrecision
+          this.bonusPrecision,
+          this.i18nMap
         );
         const { weapons: parsedWeapons, hasDefensiveSmoke: smoke } =
           weaponManager.parse();
@@ -360,7 +369,6 @@ export class UnitManager extends AbstractManager {
     const unit: Unit = {
       descriptorName,
       name,
-      category,
       id,
       unitType,
       commandPoints,

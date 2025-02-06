@@ -1,11 +1,19 @@
 /* eslint-disable camelcase */
 import { search } from '@izohek/ndf-parser';
-import parseDivisionRules from './rules';
+import { parseDivisionRules, _legacyParseDivisionRules } from './rules';
 import DivisionsJson from '@izohek/warno-db/dist/json/divisions.json';
 import { DescriptorIdMap } from '../../commands/ndf-to-json';
+import { url } from 'inspector';
 
 /// All the data required for parsing a division
 interface DivisionInputData {
+  division: any;
+  rules: any;
+  costMatrix: any;
+  divisionIdMap: DescriptorIdMap
+}
+
+interface LegacyDivisionInputData {
   division: any;
   rules: any;
   packs: any;
@@ -60,7 +68,6 @@ export const DIVISION_NAMES: { [key: string]: string } = {
 
 
 
-
 };
 
 /**
@@ -70,15 +77,68 @@ export const DIVISION_NAMES: { [key: string]: string } = {
  * @param data
  * @returns
  */
-export default function parseDivisionData(data: DivisionInputData) {
+export function parseDivisionData(data: DivisionInputData, i18nMap?: { [key: string]: string }) {
   const divisionData = data.division.map((division: any) => {
-    return extractDivisionDetails(division);
+    return extractDivisionDetails(division, i18nMap);
   }).filter( (division: any) => {
     // 'DEFAULT' tag defines a multiplayer-enabled division - not 100% sure
     return division.tags.includes('DEFAULT');
   });
 
   const rulesData = parseDivisionRules(data.rules);
+  
+  const mappedDivisions = divisionData.map((division: any) => {
+    let unitRules =
+      rulesData.find((rule: any) => {
+        return rule.division === division.divisionRuleName;
+      })?.unitRules ?? [];
+
+
+    /*
+    const id = DivisionsJson.find(
+      (_division) => _division.descriptor === division.descriptor
+    )?.id;
+    */
+
+    unitRules = unitRules.map((unitRule: any) => {
+      return {
+        ...unitRule,
+        packDescriptor: unitRule.unitDescriptor
+      };
+    });
+
+    const id = data.divisionIdMap[division.descriptor];
+
+    const name = division.name || DIVISION_NAMES[division.descriptor] || division.descriptor;
+
+    return {
+      ...division,
+      id,
+      name,
+      packs: unitRules,
+      costMatrix: extractCostMatrix(division.costMatrix, data.costMatrix),
+    };
+  });
+
+  return mappedDivisions;
+}
+
+/**
+ * This method pulls all division and deck building related data together
+ * from multiple files into an array of objects.
+ *
+ * @param data
+ * @returns
+ */
+export function _legacyParseDivisionData(data: LegacyDivisionInputData) {
+  const divisionData = data.division.map((division: any) => {
+    return _legacyExtractDivisionDetails(division);
+  }).filter( (division: any) => {
+    // 'DEFAULT' tag defines a multiplayer-enabled division - not 100% sure
+    return division.tags.includes('DEFAULT');
+  });
+
+  const rulesData = _legacyParseDivisionRules(data.rules);
 
   return divisionData.map((division: any) => {
     const unitRules =
@@ -104,7 +164,7 @@ export default function parseDivisionData(data: DivisionInputData) {
       ...division,
       id,
       name,
-      packs: combineUnitRulesAndPacks(unitRules, divisionPacks, data.packs),
+      packs: _legacyCombineUnitRulesAndPacks(unitRules, divisionPacks, data.packs),
       costMatrix: extractCostMatrix(division.costMatrix, data.costMatrix),
       packList: undefined,
     };
@@ -117,7 +177,42 @@ export default function parseDivisionData(data: DivisionInputData) {
  * @param division
  * @returns
  */
-function extractDivisionDetails(division: any) {
+function extractDivisionDetails(division: any, i18nMap?: { [key: string]: string }) {
+  let nameToken = search(division, 'DivisionName')[0]?.value?.value;
+  nameToken = nameToken?.replaceAll(`'`, '')
+  let name = i18nMap?.[nameToken]?.replaceAll(`\"`, '').replaceAll(`\r`, '') || undefined;
+
+
+  return {
+    name: name,
+    descriptor: search(division, 'name'),
+    alliance: search(division, 'DivisionCoalition')[0]?.value?.value ? search(division, 'DivisionCoalition')[0]?.value?.value : search(division, 'DivisionNationalite')[0].value.value,
+    country: search(division, 'CountryId')[0]?.value?.value?.replaceAll('"', ''),
+    tags: search(division, 'DivisionTags')[0].value.values.map((t: any) =>
+      t.value.replaceAll("'", '')
+    ),
+    maxActivationPoints: Number.parseInt(
+      search(division, 'MaxActivationPoints')[0]?.value?.value
+    , 10),
+    costMatrix: search(division, 'CostMatrix')[0]?.value?.value || [],
+    divisionRuleName: search(division, 'DivisionRule')[0]?.value?.value /*?.map((p: any) => {
+      return {
+        descriptor: p.value[0].value.replace('~/', ''),
+        count: Number.parseInt(p.value[1].value, 10),
+      };
+      
+    }),
+    */
+  };
+}
+
+/**
+ * Extract the division data found in Divisions.ndf
+ *
+ * @param division
+ * @returns
+ */
+function _legacyExtractDivisionDetails(division: any) {
   return {
     descriptor: search(division, 'name'),
     alliance: search(division, 'DivisionCoalition')[0]?.value?.value ? search(division, 'DivisionCoalition')[0]?.value?.value : search(division, 'DivisionNationalite')[0].value.value,
@@ -138,6 +233,7 @@ function extractDivisionDetails(division: any) {
   };
 }
 
+
 /**
  * Extract the rules and card counts for the packs and combine into a single object.
  *
@@ -150,7 +246,7 @@ function extractDivisionDetails(division: any) {
  * @param packDefinitions
  * @returns
  */
-function combineUnitRulesAndPacks(
+function _legacyCombineUnitRulesAndPacks(
   unitRules: any,
   divisionPacks: any,
   packDefinitions: any
@@ -169,13 +265,12 @@ function combineUnitRulesAndPacks(
       packUnit = search(packDefinition, 'UnitDescriptor')[0].value.value?.replace("$/GFX/Unit/", "")
     }
 
-    return {
-      packDescriptor: dp.descriptor.replace('~/', ''),
-      ...unitRules.find((ur: any) => {
-        return ur.unitDescriptor === packUnit;
-      }),
-      numberOfCards: dp.count,
-    };
+    const unitRule = unitRules.find((ur: any) => {
+      return ur.unitDescriptor === packUnit;
+    }
+    );
+
+    return {packDescriptor: unitRule.unitDescriptor, ...unitRule, numberOfCards: dp.count};
   });
 }
 

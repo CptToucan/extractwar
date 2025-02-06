@@ -1,9 +1,7 @@
 // Ne pas éditer, ce fichier est généré par DeckSerializerFileWriter
 
-
-DeckSerializer is TDeckSerializer
+unnamed TDeckSerializerEntries
 (
-
     DivisionIds = MAP
     [
         (Descriptor_Deck_Division_SOV_3FrontUkr_solo, 4),
@@ -30,7 +28,6 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi, 28),
         (Descriptor_Deck_Division_UK_1st_Armoured_multi, 29),
         (Descriptor_Deck_Division_UK_2nd_Infantry_multi, 30),
-        (Descriptor_Deck_Division_US_11ACR_multi_HB, 32),
         (Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi, 33),
         (Descriptor_Deck_Division_NATO_CENTAG_solo, 34),
         (Descriptor_Deck_Division_RFA_12PzD_solo, 35),
@@ -75,11 +72,14 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Division_SOV_308ArtBr_solo, 74),
         (Descriptor_Deck_Division_SOV_35GvDSHB_solo, 75),
         (Descriptor_Deck_Division_SOV_390ArtBr_solo, 76),
+        (Descriptor_Deck_Division_RDA_4_MSD_challenge, 77),
+        (Descriptor_Deck_Division_RFA_5_Panzer_challenge, 78),
         (Descriptor_Deck_Division_RFA_2_PzGrenadier_challenge, 79),
         (Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge, 81),
         (Descriptor_Deck_Division_US_3rd_Arm_challenge, 82),
         (Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge, 83),
         (Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge, 84),
+        (Descriptor_Deck_Division_US_8th_Inf_challenge, 85),
         (Descriptor_Deck_Division_NL_4e_Divisie_multi, 87),
         (Descriptor_Deck_Division_US_9th_Mot_multi, 89),
         (Descriptor_Deck_Division_UK_5th_Airborne_Brigade_multi, 90),
@@ -91,8 +91,11 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Division_POL_Korpus_Desantowy_multi, 97),
         (Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge, 98),
         (Descriptor_Deck_Division_SOV_27_Gds_Rifle_challenge, 99),
+        (Descriptor_Deck_Division_FR_5e_Blindee_challenge, 103),
         (Descriptor_Deck_Division_UK_4th_Armoured_challenge, 104),
+        (Descriptor_Deck_Division_UK_1st_Armoured_challenge, 105),
         (Descriptor_Deck_Division_RDA_11MSD_challenge, 106),
+        (Descriptor_Deck_Division_RFA_12_Panzer_challenge, 107),
         (Descriptor_Deck_Division_BEL_10PtserBrig_solo, 108),
         (Descriptor_Deck_Division_BEL_10Wing_solo, 109),
         (Descriptor_Deck_Division_BEL_16de_PtserDiv_solo, 110),
@@ -171,17 +174,12 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Division_SOV_8GA_SAM_Brig_solo, 183),
         (Descriptor_Deck_Division_SOV_931ORAP_solo, 184),
         (Descriptor_Deck_Division_FR_7e_Blindee_challenge, 185),
-        (Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge_IA, 186),
-        (Descriptor_Deck_Division_US_3rd_Arm_challenge_IA, 187),
-        (Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge_IA, 188),
-        (Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge_IA, 189),
-        (Descriptor_Deck_Division_US_8th_Inf_challenge_IA, 190),
-        (Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA, 192),
-        (Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge_IA, 193),
         (Descriptor_Deck_Division_UK_Blues_Royals_challenge, 194),
         (Descriptor_Deck_Division_SOV_119IndTkBrig_multi, 195),
+        (Descriptor_Deck_Division_UK_Queens_Own_Highlanders_challenge, 196),
+        (Descriptor_Deck_Division_FR_11e_para_challenge, 200),
+        (Descriptor_Deck_Division_US_82nd_Airborne_challenge, 201),
         (Descriptor_Deck_Division_SOV_25_Tank_multi, 205),
-        (Descriptor_Deck_Division_SOV_57_GMRD_challenge_Sledgehammer, 206),
         (Descriptor_Deck_Division_SOV_27_Gds_Rifle_multi, 207),
         (Descriptor_Deck_Division_US_24th_Inf_multi, 208),
         (Descriptor_Deck_Division_RFA_TK_Nord_solo, 209),
@@ -284,6 +282,8 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Division_SOV_9_Gds_Tank_challenge, 308),
         (Descriptor_Deck_Division_BEL_1BEC_challenge, 309),
         (Descriptor_Deck_Division_DDR_23_MSB_challenge, 310),
+        (Descriptor_Deck_Division_US_11ACR_challenge, 389),
+        (Descriptor_Deck_Division_SOV_57_GMRD_challenge, 390),
     ]
 
     UnitIds = MAP
@@ -1996,7 +1996,6 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_HMGteam_PKM_Naval_POL, 2597),
         ($/GFX/Unit/Descriptor_Unit_PT76B_CMD_Naval_POL, 2598),
         ($/GFX/Unit/Descriptor_Unit_PT76B_tank_Naval_POL, 2599),
-        ($/GFX/Unit/Descriptor_Unit_Mi_4AV_130mm_TCH, 2651),
         ($/GFX/Unit/Descriptor_Unit_M998_Humvee_AGL_US, 2700),
         ($/GFX/Unit/Descriptor_Unit_Pathfinder_NG_US, 2710),
         ($/GFX/Unit/Descriptor_Unit_PT76B_Naval_POL, 2717),
@@ -2006,7 +2005,7 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_UH1H_CMD_ESP, 2790),
         ($/GFX/Unit/Descriptor_Unit_Iltis_MILAN_2_RFA, 2803),
         ($/GFX/Unit/Descriptor_Unit_Marder_1A1_RFA, 2805),
-        ($/GFX/Unit/Descriptor_Unit_Marder_1A_MILAN_RFA, 2806),
-        ($/GFX/Unit/Descriptor_Unit_VLTT_P4_PC_para_FR, 2823),
+        ($/GFX/Unit/Descriptor_Unit_MANPAD_Strela_2M_Naval_POL, 2839),
+        ($/GFX/Unit/Descriptor_Unit_Marder_1A1_MILAN_RFA, 2840),
     ]
 )

@@ -18,8 +18,6 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         TExperienceModuleDescriptor
         (
             ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
-            CanWinExperience = False
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         ~/FOBBuildingModuleDescriptor,
@@ -159,8 +157,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         TExperienceModuleDescriptor
         (
             ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
-            CanWinExperience = False
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         ~/FOBBuildingModuleDescriptor,
@@ -300,8 +296,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         TExperienceModuleDescriptor
         (
             ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
-            CanWinExperience = False
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         ~/FOBBuildingModuleDescriptor,
@@ -441,8 +435,6 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
         TExperienceModuleDescriptor
         (
             ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
-            CanWinExperience = False
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         ~/FOBBuildingModuleDescriptor,
@@ -582,8 +574,6 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
         TExperienceModuleDescriptor
         (
             ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
-            CanWinExperience = False
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         ~/FOBBuildingModuleDescriptor,
@@ -723,8 +713,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         TExperienceModuleDescriptor
         (
             ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
-            CanWinExperience = False
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         ~/FOBBuildingModuleDescriptor,
@@ -864,8 +852,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         TExperienceModuleDescriptor
         (
             ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
-            CanWinExperience = False
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         ~/FOBBuildingModuleDescriptor,
@@ -1005,8 +991,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         TExperienceModuleDescriptor
         (
             ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
-            CanWinExperience = False
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         ~/FOBBuildingModuleDescriptor,
@@ -1146,8 +1130,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         TExperienceModuleDescriptor
         (
             ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
-            CanWinExperience = False
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         ~/FOBBuildingModuleDescriptor,

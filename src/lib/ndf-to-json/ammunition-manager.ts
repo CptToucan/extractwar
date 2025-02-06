@@ -128,19 +128,22 @@ export class AmmunitionManager extends AbstractManager {
     mappedSmoke: MappedNdf,
     mappedMissiles: MappedNdf,
     salvoMap: number[],
-    bonusPrecision: number
+    bonusPrecision: number,
+    i18nMap?: { [key: string]: string }
   ) {
     super(ammunitionDescriptor);
     this.mappedSmoke = mappedSmoke;
     this.mappedMissiles = mappedMissiles;
     this.salvoMap = salvoMap;
     this.bonusPrecision = bonusPrecision;
+    this.i18nMap = i18nMap;
   }
 
   mappedSmoke: MappedNdf;
   mappedMissiles: MappedNdf;
   salvoMap: number[];
   bonusPrecision: number;
+  i18nMap?: { [key: string]: string };
 
   /**
    *  Parses the ammunition descriptor into a JSON object
@@ -148,7 +151,18 @@ export class AmmunitionManager extends AbstractManager {
    *
    */
   parse() {
-    const name = this.prettifyAmmoDescriptorName(this.ndf.name);
+    let name: string;
+    const backupName = this.prettifyAmmoDescriptorName(this.ndf.name);
+    let nameToken = this.getValueFromSearch<string>('Name');
+
+    name = backupName;
+
+    if(nameToken) {
+      nameToken = nameToken.replaceAll(`'`, '');
+      name = this.i18nMap?.[nameToken]?.replaceAll(`\"`, '').replaceAll(`\'`, '').replaceAll(`\r`, '') || backupName;
+    }
+
+
     const descriptorName = this.ndf.name;
 
     const textureId = (
