@@ -2325,7 +2325,7 @@ Ammo_AA_R98MR is TAmmunitionDescriptor
     TypeCategoryName                  = 'UYJALNLOYI'
     Caliber                           = 'EVYIVPZVOJ'
     WeaponDescriptionToken            = 'UYIYEYCCSG'
-    TraitsToken                       = [ 'MOTION', 'F&F', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', ]
     WeaponCursorType                  = Weapon_Cursor_AirMissile
     MinMaxCategory                    = MinMax_AAM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
@@ -2354,7 +2354,6 @@ Ammo_AA_R98MR is TAmmunitionDescriptor
     FluidFriction                     = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-    IsFireAndForget                   = True
     TargetOnlyOneUnitInDistrict       = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -2367,6 +2366,7 @@ Ammo_AA_R98MR is TAmmunitionDescriptor
             (EBaseHitValueModifier/Moving, 55),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
+        DistanceToTarget = True
     )
     TempsDeVisee                      = 0.0
     TempsEntreDeuxSalves              = 2.0
@@ -8824,7 +8824,7 @@ Ammo_ATGM_ADATS is TAmmunitionDescriptor
     MinMaxCategory                    = MinMax_ATGM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=25)
     ProjectileType                    = EProjectileType/GuidedMissile
-    ImpactHappening                   = [ 'MissileATGMGen2' ]
+    ImpactHappening                   = [ 'MissileAGMGen4' ]
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
@@ -8867,7 +8867,7 @@ Ammo_ATGM_ADATS is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 3
     TempsDeVisee                      = 2.5
-    TempsEntreDeuxSalves              = 10.0
+    TempsEntreDeuxSalves              = 20.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
@@ -8876,7 +8876,6 @@ Ammo_ATGM_ADATS is TAmmunitionDescriptor
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
-    InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14647,10 +14646,10 @@ Ammo_SAM_ADATS is TAmmunitionDescriptor
     MinMaxCategory                    = MinMax_SAM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
     ProjectileType                    = EProjectileType/GuidedMissile
-    ImpactHappening                   = [ 'MIssileAAMIM72C' ]
+    ImpactHappening                   = [ 'MissileAGMGen4' ]
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 3.5
+    TempsEntreDeuxFx                  = 3.5
     PorteeMaximaleTBAGRU              = 3175
     PorteeMaximaleHAGRU               = 4075
     AngleDispersion                   = 0.0020001473227855013
@@ -14687,8 +14686,8 @@ Ammo_SAM_ADATS is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount             = 3
-    TempsDeVisee                      = 2.5
-    TempsEntreDeuxSalves              = 10.0
+    TempsDeVisee                      = 1.0
+    TempsEntreDeuxSalves              = 20.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8

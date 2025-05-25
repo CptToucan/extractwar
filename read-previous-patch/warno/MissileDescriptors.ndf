@@ -10271,12 +10271,12 @@ export Descriptor_Missile_ATGM_ADATS is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ADATS
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_ADATS
                 Actions = MAP[
-                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation2 )),
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation4 )),
                 ]
             )
         ),
@@ -16940,19 +16940,12 @@ export Descriptor_Missile_SAM_ADATS is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tunguska
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ADATS
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tunguska
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_ADATS
                 Actions = MAP[
-                    ( ["fx_propulsion_on"], TRandomHappening(
-                            Alternatives = [
-                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_moyen_1 ),
-                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_moyen_2 ),
-                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_moyen_3 ),
-                            ]
-                        )),
-                    ( ["fx_propulsion_off"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_moyen )),
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation4 )),
                 ]
             )
         ),

@@ -243,48 +243,33 @@ export class AmmunitionManager extends AbstractManager {
     const firesLeftToRight =
       this.getValueFromSearch('DispersionWithoutSorting') === 'True';
 
-    let groundMaxRange,
-      groundMinRange,
-      heliMaxRange,
-      heliMinRange,
-      planeMaxRange,
-      planeMinRange;
 
     // Check if the weapon has the new range attributes
     // Ground range
-    if (this.getFirstSearchResult('PorteeMaximaleGRU')) {
-      groundMaxRange = this.getRange('PorteeMaximaleGRU');
-      groundMinRange = this.getRange('PorteeMinimaleGRU');
-    }
-    // If not, use the legacy range attributes
-    else {
-      groundMaxRange = this.getLegacyRange('PorteeMaximale');
-      groundMinRange = this.getLegacyRange('PorteeMinimale');
-    }
+
+      const groundMaxRange = this.getRange('PorteeMaximaleGRU');
+      const groundMinRange = this.getRange('PorteeMinimaleGRU');
+    
+
 
     // Helicopter range
-    if (this.getFirstSearchResult('PorteeMaximaleTBAGRU')) {
-      heliMaxRange = this.getRange('PorteeMaximaleTBAGRU');
-      heliMinRange = this.getRange('PorteeMinimaleTBAGRU');
-    } else {
-      heliMaxRange = this.getLegacyRange('PorteeMaximaleTBA');
-      heliMinRange = this.getLegacyRange('PorteeMinimaleTBA');
-    }
+
+      const heliMaxRange = this.getRange('PorteeMaximaleTBAGRU');
+      const heliMinRange = this.getRange('PorteeMinimaleTBAGRU');
+
 
     // Plane range
-    if (this.getFirstSearchResult('PorteeMaximaleHAGRU')) {
-      planeMaxRange = this.getRange('PorteeMaximaleHAGRU');
-      planeMinRange = this.getRange('PorteeMinimaleHAGRU');
-    } else {
-      planeMaxRange = this.getLegacyRange('PorteeMaximaleHA');
-      planeMinRange = this.getLegacyRange('PorteeMinimaleHA');
-    }
+
+      const planeMaxRange = this.getRange('PorteeMaximaleHAGRU');
+      const planeMinRange = this.getRange('PorteeMinimaleHAGRU');
+
+    
 
     const aimingTime = Number(this.getValueFromSearch('TempsDeVisee'));
-    const reloadTime = Number(this.getValueFromSearch('TempsEntreDeuxSalves'));
+    const reloadTime = Number(this.getLegacyValueFromSearchWithUpgradeFallback('TempsEntreDeuxSalves', 'TimeBetweenTwoSalvos'));
     const salvoLength = Number(this.getValueFromSearch('NbTirParSalves'));
     const timeBetweenSalvos = Number(
-      this.getValueFromSearch('TempsEntreDeuxTirs')
+      this.getLegacyValueFromSearchWithUpgradeFallback('TempsEntreDeuxTirs', "TimeBetweenTwoShots")
     );
     const ammunitionPerSalvo = Number(
       this.getValueFromSearch('AffichageMunitionParSalve')
@@ -341,14 +326,6 @@ export class AmmunitionManager extends AbstractManager {
     const damageResult: ParserObject =
       this.getFirstSearchResult('TDamageTypeRTTI');
 
-    function isLegacyAmmoDamages(damageResult: ParserObject) {
-      if (damageResult?.children?.[1] === undefined) {
-        return false;
-      }
-
-      return true;
-    }
-
     const {
       isKinetic,
       kineticInstakillAtMaxRangeArmour,
@@ -360,13 +337,7 @@ export class AmmunitionManager extends AbstractManager {
       kineticAP,
       heatAP,
       penetration,
-    } = isLegacyAmmoDamages(damageResult)
-      ? this.extractLegacyAmmoDamages(
-          damageResult,
-          groundMaxRange,
-          damageDropOff
-        )
-      : this.extractAmmoDamages(damageResult, groundMaxRange, damageDropOff);
+    } = this.extractAmmoDamages(damageResult, groundMaxRange, damageDropOff);
 
     const instaKillAtMaxRangeArmour = isKinetic
       ? kineticInstakillAtMaxRangeArmour
@@ -592,44 +563,6 @@ export class AmmunitionManager extends AbstractManager {
     };
   }
 
-  private extractLegacyAmmoDamages(
-    damageResult: ParserObject,
-    groundMaxRange: number,
-    damageDropOff: number
-  ) {
-    const damageFamily = (
-      damageResult?.children?.[0]?.value as ParserStringLiteral
-    )?.value;
-    const damageIndex = (
-      damageResult?.children?.[1]?.value as ParserStringLiteral
-    )?.value;
-    const piercingWeapon = this.getValueFromSearch('PiercingWeapon') === 'True';
-
-    const isKinetic = piercingWeapon && damageFamily === '"ap"';
-    const kineticAP =
-      Math.round(Number(damageIndex) - groundMaxRange / damageDropOff) + 1;
-
-    const heatAP = Number(damageIndex);
-
-    const kineticInstakillAtMaxRangeArmour =
-      kineticAP - KINETIC_AP_MAGIC_NUMBER;
-    const heatInstakillAtMaxRangeArmour = heatAP - HEAT_AP_MAGIC_NUMBER;
-
-    const penetration = isKinetic ? kineticAP : heatAP;
-
-    return {
-      isKinetic,
-      kineticInstakillAtMaxRangeArmour,
-      heatInstakillAtMaxRangeArmour,
-      damageFamily,
-      damageIndex,
-      piercingWeapon,
-      tandemCharge: false,
-      kineticAP,
-      heatAP,
-      penetration,
-    };
-  }
 
   /**
    *  Calculates the accuracy over distance for a given base accuracy and range
@@ -738,26 +671,6 @@ export class AmmunitionManager extends AbstractManager {
     }
 
     return valueModifiers;
-  }
-
-  /**
-   * Extracts the range of the weapon
-   * @param rangeAttribute  The attribute to search for
-   * @returns The range of the weapon
-   */
-  getLegacyRange(rangeAttribute: string): number {
-    const searchResult = this.getFirstSearchResult(rangeAttribute);
-    if (searchResult) {
-      return Math.round(
-        Number(
-          NdfManager.parseNumberFromMetre(
-            NdfManager.extractValueFromSearchResult(searchResult)
-          )
-        )
-      );
-    }
-
-    return 0;
   }
 
   getRange(rangeAttribute: string): number {

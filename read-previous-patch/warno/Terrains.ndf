@@ -17,7 +17,6 @@ export DefaultTerrain is TGameplayTerrain
     SpeedModifierTrack = 1
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/Default
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 export ForetDense is TGameplayTerrain
@@ -43,9 +42,8 @@ export ForetDense is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 1
     SpeedModifierTrack = 0
-    ConcealmentBonus = 6
+    ConcealmentBonus = 3
     TerrainType = ~/ETerrainType/ForetDense
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = false
 )
 export ForetLegere is TGameplayTerrain
@@ -77,9 +75,8 @@ export ForetLegere is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0.40
     SpeedModifierInfantry = 0.75
     SpeedModifierTrack = 0.50
-    ConcealmentBonus = 2.50
+    ConcealmentBonus = 3
     TerrainType = ~/ETerrainType/ForetLegere
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = false
 )
 export PetitBatiment is TGameplayTerrain
@@ -112,9 +109,8 @@ export PetitBatiment is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    ConcealmentBonus = 3.50
+    ConcealmentBonus = 3
     TerrainType = ~/ETerrainType/PetitBatiment
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 export Batiment is TGameplayTerrain
@@ -147,9 +143,8 @@ export Batiment is TGameplayTerrain
     SpeedModifierAllTerrainWheel = 0
     SpeedModifierInfantry = 0.5
     SpeedModifierTrack = 0
-    ConcealmentBonus = 3.50
+    ConcealmentBonus = 3
     TerrainType = ~/ETerrainType/Batiment
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 export Ruin is TGameplayTerrain
@@ -184,7 +179,6 @@ export Ruin is TGameplayTerrain
     SpeedModifierTrack = 0
     ConcealmentBonus = 2.50
     TerrainType = ~/ETerrainType/Ruin
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 
@@ -207,7 +201,6 @@ export Bloqueur is TGameplayTerrain
     SpeedModifierTrack = 1
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/Bloqueur
-    WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
 )
 export StrategicForest is TGameplayTerrain
@@ -229,7 +222,6 @@ export StrategicForest is TGameplayTerrain
     SpeedModifierTrack = 0.9
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/StrategicForest
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 export StrategicPlain is TGameplayTerrain
@@ -251,7 +243,6 @@ export StrategicPlain is TGameplayTerrain
     SpeedModifierTrack = 0.9
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/StrategicPlain
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 export StrategicSemiUrban is TGameplayTerrain
@@ -273,7 +264,6 @@ export StrategicSemiUrban is TGameplayTerrain
     SpeedModifierTrack = 0.9
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/StrategicSemiUrban
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 export StrategicUrban is TGameplayTerrain
@@ -295,7 +285,6 @@ export StrategicUrban is TGameplayTerrain
     SpeedModifierTrack = 0.9
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/StrategicUrban
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 export StrategicRiver is TGameplayTerrain
@@ -317,7 +306,6 @@ export StrategicRiver is TGameplayTerrain
     SpeedModifierTrack = 0.9
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/StrategicRiver
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 
@@ -340,7 +328,6 @@ export EauPeuProfonde is TGameplayTerrain
     SpeedModifierTrack = 0.3
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/EauPeuProfonde
-    WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
 )
 
@@ -363,7 +350,6 @@ export Rocher is TGameplayTerrain
     SpeedModifierTrack = 0
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/Rocher
-    WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
 )
 export SmokeHeavy is TGameplayTerrain
@@ -385,7 +371,6 @@ export SmokeHeavy is TGameplayTerrain
     SpeedModifierTrack = 1
     ConcealmentBonus = 5
     TerrainType = ~/ETerrainType/HeavySmoke
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 export SmokeLight is TGameplayTerrain
@@ -407,7 +392,6 @@ export SmokeLight is TGameplayTerrain
     SpeedModifierTrack = 1
     ConcealmentBonus = 4
     TerrainType = ~/ETerrainType/LightSmoke
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 export SmokeMedium is TGameplayTerrain
@@ -429,7 +413,6 @@ export SmokeMedium is TGameplayTerrain
     SpeedModifierTrack = 1
     ConcealmentBonus = 4.5
     TerrainType = ~/ETerrainType/MediumSmoke
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )
 export EauProfonde is TGameplayTerrain
@@ -451,7 +434,6 @@ export EauProfonde is TGameplayTerrain
     SpeedModifierTrack = 0.375
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/EauProfonde
-    WorldLayerActiveMask = 3
     AuthorizeNearGroundFlying = true
 )
 export BloqueConstruction is TGameplayTerrain
@@ -473,6 +455,5 @@ export BloqueConstruction is TGameplayTerrain
     SpeedModifierTrack = 1
     ConcealmentBonus = 1
     TerrainType = ~/ETerrainType/BloqueConstruction
-    WorldLayerActiveMask = 255
     AuthorizeNearGroundFlying = true
 )

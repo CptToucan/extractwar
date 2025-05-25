@@ -96,7 +96,7 @@ export type TerrainResistance = {
   damageFamily: any;
   resistances: {
     type: any;
-    value: number;
+  value: number;
   }[];
 };
 
@@ -131,7 +131,7 @@ export default class NdfToJson extends Command {
 
     if (args.previousNdfFolder) {
       const { unitData: _previousPatchData } = await this.extractNdfData(
-        args.previousNdfFolder, args.inputNdfFolder, true
+        args.previousNdfFolder, i18nMap
       );
       previousPatchData = _previousPatchData;
 
@@ -464,7 +464,6 @@ export default class NdfToJson extends Command {
     }
 
     let divisions;
-    debugger;
     if(legacyDivisionFormat) {
       divisions = _legacyParseDivisionData({
         division: ndfs.divisions,
@@ -480,7 +479,7 @@ export default class NdfToJson extends Command {
         rules: ndfs.rules,
         costMatrix: ndfs.costMatrix,
         divisionIdMap: divisionIdMap,
-      });
+      }, i18nMap);
     } 
 
     const outputJson: UnitData = {

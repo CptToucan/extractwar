@@ -166,8 +166,6 @@ Constantes is TTunableConstante
     LargeurRouteGRU                        = 21 // les trajectoires des véhicules sont décalées de 0.5 * LargeurRoute d'un côté ou de l'autre
     ToleranceLargeurRoutePourMouvementsRapidesShiftes = 2 // multiplicateur de LargeurRoute pour vérifier si la destination d'un movefast est sur la route
     DecalageDepuisLeCentreDansCouloirGRU   = 3 // décalage des waypoints des unités par rapport au milieu du couloir quand une unité en traverse un
-    RapprocherFormationsSelonObstacles  = false
-    RotationLignesDInfanterie           = false // définit si les soldats d'une unité d'infanterie s'orientent comme des véhicules (pour les lignes d'infanterie)
     TagDecrochage                       = "Retraite"  // tag utilisé pour determiner si on affiche l'etiquette decrochage pendant la retraite
 
 //----------------------------- Constantes Resale -----------------------------------------//
@@ -229,10 +227,10 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     DistanceInfanterieEnnemiDetectionGRU = 70
     DistanceRelaunchMouvementForMoveAndAttackGRU = 530 // Distance pour laquelle une unité en MoveAndAttackTarget doit relancer le mouvement si sa cible s'est déplacée de cette distance (diminuer cette valeur baisse la perf)
-    DistanceToAddToEnnemiDetectionForAAWeaponGRU = 1413
+    DistanceToAddToEnnemiDetectionForAAWeaponGRU = 1400
     DistanceToAddToEnnemiDetectionForAntiProjectileWeaponGRU = 0 // grosso merdo la porté max d'une arme anti-missile
-    DistanceToAddToEnnemiDetectionForOtherWeaponGRU = 353
-    DureeDeRevelationApresAttaque = 5.0
+    DistanceToAddToEnnemiDetectionForOtherWeaponGRU = 350
+    DureeDeRevelationApresAttaque = 10.0
     FacteurMinTempsViseeReel = 0.75 // Le temps de visée réel est un random entre cette valeur et la valeur de temps de visee théorique située dans l'ODS
 
     // Portee Min pour considerer qu'une arme est une artillerie. Les unités ne cherche pas a fuir les armes considéré comme des artilleries
@@ -256,7 +254,6 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     FuirDistrictEnFeu = true
     MargePourLesTestsDeSortieDeDistrictLBU = 2
     DurationForLeavingDistrict = 3.0        // Durée de l'action de sortie de district.
-    RefreshBestPlaceEveryNbSeconds = 5 // Les unites dans les quartiers peuvent changer de points de tir tous les x secondes.
 
 //---------------------------- Constantes Gameplay ----------------------------------------//
 
@@ -528,26 +525,26 @@ WargameConstantes is TWargameTunableConstante
         (1.0, 'Value_1'),
         (1.5, 'Value_2'),
         (2.0, 'Value_4'),
-        (2.5, 'Value_6'),
-        (3.0, 'Value_6'),
+        (4.0, 'Value_6'),
     ]
 
     PaliersDOptiqueDAltitude = MAP
     [
         (150, 'Value_3'),
         (300, 'Value_4'),
+        (375, 'Value_5'),
         (450, 'Value_6'),
 
     ]
 
     PaliersDOptique = MAP
     [
-        (42.45, 'Value_1'),
-        (70.75, 'Value_2'),
-        (90.9, 'Value_3'),
-        (130.35, 'Value_4'),
-        (193.02, 'Value_5'),
-        (233.48, 'Value_6'),
+        (50, 'Value_1'),
+        (75, 'Value_2'),
+        (100, 'Value_3'),
+        (150, 'Value_4'),
+        (200, 'Value_5'),
+        (250, 'Value_6'),
     ]
 
     PaliersDeResilience = MAP

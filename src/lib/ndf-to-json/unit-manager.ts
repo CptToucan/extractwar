@@ -68,6 +68,10 @@ export type Unit = {
   rotationTime: number;
   optics: number;
   airOptics: number;
+  lowAltOptics?: number;
+  opticsRange?: number;
+  airOpticsRange?: number;
+  lowAltOpticsRange?: number;
   bombStrategy: string | undefined;
   stealth: number;
   advancedDeployment: number;
@@ -150,15 +154,16 @@ export class UnitManager extends AbstractManager {
   parse() {
     const descriptorName = this.ndf.name;
 
-
-    
-    const nameToken = (this.getValueFromSearch('NameToken') as string || undefined)?.replaceAll(`'`, '');
+    const nameToken = (
+      (this.getValueFromSearch('NameToken') as string) || undefined
+    )?.replaceAll(`'`, '');
     let name;
-    
-    if(nameToken) {
-      name = this.i18nMap?.[nameToken]?.replaceAll(`\"`, '').replaceAll(`\r`, '') || undefined;
-    }
 
+    if (nameToken) {
+      name =
+        this.i18nMap?.[nameToken]?.replaceAll(`\"`, '').replaceAll(`\r`, '') ||
+        undefined;
+    }
 
     if (!name || name.length === 0) {
       name = this.prettyUnitNameFromDescriptor(descriptorName);
@@ -193,13 +198,7 @@ export class UnitManager extends AbstractManager {
       Number(this.getValueFromSearch<string>('MaxPhysicalDamages')) ||
       Number(this.getValueFromSearch<string>('MaxDamages'));
 
-    let speed: number;
-
-    if (this.getFirstSearchResult('MaxSpeedInKmph')) {
-      speed = this.getSpeed('MaxSpeedInKmph');
-    } else {
-      speed = this.getLegacyMaxSpeed('MaxSpeed');
-    }
+    let speed = this.getSpeed('MaxSpeedInKmph');
 
     const isSpecialForces = (
       this.getValueFromSearch<string>('ExperienceLevelsPackDescriptor') || ''
@@ -208,15 +207,8 @@ export class UnitManager extends AbstractManager {
       'ExperienceLevelsPackDescriptor'
     ).slice('~/'.length);
 
-    if (
-      this.getFirstSearchResult('SpeedInKmph') ||
-      this.getLegacyMaxSpeed('Speed')
-    ) {
-      if (this.getFirstSearchResult('SpeedInKmph')) {
-        speed = this.getSpeed('SpeedInKmph');
-      } else {
-        speed = this.getLegacyMaxSpeed('Speed');
-      }
+    if (this.getFirstSearchResult('SpeedInKmph')) {
+      speed = this.getSpeed('SpeedInKmph');
     }
 
     const unitMoveTypeValue = this.getValueFromSearch<string>('UnitMovingType');
@@ -236,10 +228,94 @@ export class UnitManager extends AbstractManager {
     }
 
     const rotationTime = Number(this.getValueFromSearch('TempsDemiTour'));
-    const optics = Number(this.getValueFromSearch('OpticalStrength'));
-    const airOptics = Number(
-      this.getValueFromSearch('OpticalStrengthAltitude')
-    );
+
+
+
+    const opticalStrengthsMap = this.getValueFromSearch<any[]>('OpticalStrengths');
+    const visionRangesMap = this.getValueFromSearch<any[]>('VisionRangesGRU');
+
+    
+    const movementType = this.getMovementType();
+
+
+    let optics;
+    let airOptics;
+    let lowAltOptics;
+    let opticsRange;
+    let airOpticsRange;
+    let lowAltOpticsRange;
+    // new optics
+    if(opticalStrengthsMap) {
+      const _parseMap = function (opticalStrength: any) {
+        const opticalStrengthTuple = opticalStrength.value;
+        const opticalStrengthType = opticalStrengthTuple[0].value;
+        const opticalStrengthValue = opticalStrengthTuple[1].value;
+        return [opticalStrengthType, opticalStrengthValue];
+      }
+
+      const opticalStrengths = opticalStrengthsMap.map(_parseMap);
+      const visionRanges = visionRangesMap.map(_parseMap);
+
+      if(!opticalStrengths) {
+        optics = 0;
+        airOptics = 0;
+      }
+      else {
+        const STANDARD_OPTICS = 'EVisionUnitType/Standard';
+        const LOW_ALT_OPTICS = 'EVisionUnitType/LowAltitude';
+        const HIGH_ALT_OPTICS = 'EVisionUnitType/HighAltitude';
+
+        const _getTupleValueFromKey = function ([type, _]: [string, string]) {
+          return type === STANDARD_OPTICS;
+        }; 
+
+        const getOpticsValue = (key: string, _values: any[]) => 
+          Number(_values.find(([type, _]) => type === key)?.[1] ?? 0);
+
+        optics = getOpticsValue(STANDARD_OPTICS, opticalStrengths);
+        lowAltOptics = getOpticsValue(LOW_ALT_OPTICS, opticalStrengths);
+        airOptics = getOpticsValue(HIGH_ALT_OPTICS, opticalStrengths);
+
+        opticsRange = getOpticsValue(STANDARD_OPTICS, visionRanges);
+        lowAltOpticsRange = getOpticsValue(LOW_ALT_OPTICS, visionRanges);
+        airOpticsRange = getOpticsValue(HIGH_ALT_OPTICS, visionRanges);
+      }
+    }
+    // legacy optics
+    else {
+      optics = Number(this.getValueFromSearch('OpticalStrength'));
+
+      airOptics = Number(
+        this.getValueFromSearch('OpticalStrengthAltitude')
+      );
+
+      if(movementType === "plane") {
+        lowAltOptics = airOptics;
+        lowAltOpticsRange = Number(this.getValueFromSearch('PorteeVisionTBAGRU'));
+      }
+      else {
+        lowAltOptics = optics;
+        lowAltOpticsRange = Number(this.getValueFromSearch('DetectionTBAGRU'));
+      }
+
+
+      opticsRange = Number(this.getValueFromSearch('PorteeVisionGRU'));
+  
+
+      const specialisedDetections = this.getFirstSearchResult('SpecializedDetectionsGRU');
+      if(specialisedDetections) {
+        const highAltitudeValue = NdfManager.extractTupleFromMap(specialisedDetections.value,'EVisionUnitType/AlwaysInHighAltitude');
+        airOpticsRange = Number(highAltitudeValue);
+      }
+      else {
+        airOpticsRange = 0;
+      }
+ 
+      
+
+    }
+
+
     const bombStrategy = this.getBombStrategy();
     const stealth = Number(this.getValueFromSearch('UnitConcealmentBonus'));
 
@@ -305,8 +381,6 @@ export class UnitManager extends AbstractManager {
     if (dangerousnessResult) {
       dangerousness = Number(dangerousnessResult);
     }
-
-    const movementType = this.getMovementType();
 
     const occupiableTerrains = this.getOccupiableTerrains();
 
@@ -389,6 +463,10 @@ export class UnitManager extends AbstractManager {
       rotationTime,
       optics,
       airOptics,
+      lowAltOptics,
+      opticsRange,
+      airOpticsRange,
+      lowAltOpticsRange,
       bombStrategy,
       stealth,
       advancedDeployment,
@@ -419,19 +497,6 @@ export class UnitManager extends AbstractManager {
     return unit;
   }
 
-  private getLegacyMaxSpeed(speedToken: string) {
-    let speed;
-    try {
-      speed = Math.round(
-        NdfManager.parseSpeedNumberFromMetre(
-          this.getValueFromSearch(speedToken)
-        )
-      );
-    } catch {
-      speed = 0;
-    }
-    return speed;
-  }
 
   private getSpeed(speedToken: string) {
     let speed;
@@ -448,35 +513,6 @@ export class UnitManager extends AbstractManager {
    * @returns armour values object
    */
   private extractArmourValues() {
-    // eslint-disable-next-line unicorn/consistent-function-scoping
-    const isLegacyArmourNdf = () => {
-      const result = this.getValueFromSearch<string>('ArmorDescriptorFront');
-
-      if (result !== undefined) {
-        return true;
-      }
-
-      return false;
-    };
-
-    if (isLegacyArmourNdf()) {
-      const frontArmour = this.getValueFromSearch<string>(
-        'ArmorDescriptorFront'
-      );
-      const sideArmour = this.getValueFromSearch<string>(
-        'ArmorDescriptorSides'
-      );
-      const rearArmour = this.getValueFromSearch<string>('ArmorDescriptorRear');
-      const topArmour = this.getValueFromSearch<string>('ArmorDescriptorTop');
-
-      return {
-        front: this.convertLegacyArmourTokenToNumber(frontArmour),
-        side: this.convertLegacyArmourTokenToNumber(sideArmour),
-        rear: this.convertLegacyArmourTokenToNumber(rearArmour),
-        top: this.convertLegacyArmourTokenToNumber(topArmour),
-      };
-    }
-
     const frontArmour =
       this.getFirstSearchResult('ResistanceFront')?.value?.children[0]?.value
         ?.value;
@@ -560,6 +596,13 @@ export class UnitManager extends AbstractManager {
    * @returns array of specialties
    */
   private getSpecialities(): string[] {
+    const unitRole = NdfManager.extractValueFromSearchResult<string>(this.getFirstSearchResult('UnitRole')).replace(/'/g, '');
+
+    let roleSpecialty;
+    if(!unitRole.startsWith("tank_")) {
+      roleSpecialty = unitRole;
+    }
+
     const specialitiesList = this.getFirstSearchResult('SpecialtiesList');
     let specialties =
       NdfManager.extractValuesFromSearchResult<string>(specialitiesList);
@@ -571,11 +614,18 @@ export class UnitManager extends AbstractManager {
           .replace(/^(["']*)/g, '')
           .replace(/(["']*)$/g, '');
       })
-      .filter((specialty: any) => {
-        return specialty && specialty !== 'appui';
-      });
 
-    return specialties;
+
+      specialties = specialties || [];
+
+      if(roleSpecialty) {
+        // append to start
+        specialties.unshift(roleSpecialty);
+      }
+
+    return specialties.filter((specialty: any) => {
+      return specialty && specialty !== 'appui';
+    });
   }
 
   /**
@@ -643,47 +693,6 @@ export class UnitManager extends AbstractManager {
     }
 
     return [`${armourType}-${armourStrength}`, Number(armourStrength)];
-  }
-
-  private convertLegacyArmourTokenToNumber(
-    armourToken: string
-  ): [string, number] {
-    const armourTokenTokens = armourToken.split('_');
-    const armourType = armourTokenTokens[1];
-    const armourStrength = armourTokenTokens[2];
-
-    // If leger is returned, this is light armour and displays as >1 in Unit cards
-    if (armourStrength === 'leger') {
-      return [armourType, 0.5];
-    }
-
-    // If infanterie, then this is 0 armour
-    if (
-      (armourType.toLowerCase() as unknown as ArmourToken) ===
-      ArmourToken.Infanterie
-    ) {
-      return [armourType, 0];
-    }
-
-    if (
-      (armourType.toLowerCase() as unknown as ArmourToken) ===
-        ArmourToken.Helico ||
-      (armourType.toLowerCase() as unknown as ArmourToken) ===
-        ArmourToken.Avion ||
-      (armourType.toLowerCase() as unknown as ArmourToken) ===
-        ArmourToken.Vehicule
-    ) {
-      const baseArmourValue = Number(armourStrength);
-
-      const airVehicleArmour = baseArmourValue - 1;
-      if (airVehicleArmour >= 1) {
-        return [armourType, airVehicleArmour];
-      }
-
-      return [armourType, 0.5];
-    }
-
-    return [armourType, Number(armourStrength)];
   }
 
   /**
