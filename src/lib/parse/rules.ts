@@ -62,7 +62,7 @@ function extractTransportList(data: any) {
     const rawDataFromNdf = data.children.find( 
         (u: any) => u.name === 'AvailableTransportList' 
     )?.value;
-        // new descriptors start with $/GFX
+        // Deprecated descriptors start with $/GFX
     if(rawDataFromNdf?.values?.[0]?.name === "$/GFX") {
         const descriptorNames: string[] = [];
         for(let i = 1; i < rawDataFromNdf.values.length; i = i + 2) {
@@ -70,6 +70,19 @@ function extractTransportList(data: any) {
         }
         return descriptorNames;
     } 
+
+    // New descriptors start with $/GFX/ do not have separate layers
+    if(rawDataFromNdf?.values?.[0]?.name?.startsWith("$/GFX/Unit/")) {
+        const descriptorNames: string[] = [];
+        for(let i = 0; i < rawDataFromNdf.values.length; i++) {
+            const fullPath = rawDataFromNdf.values[i].name;
+            const descriptorPart = fullPath.split("/").find((part: string) => part.startsWith("Descriptor_"));
+            if (descriptorPart) {
+                descriptorNames.push(descriptorPart);
+            }
+        }
+        return descriptorNames;
+    }
 
     if (rawDataFromNdf?.values) {
         return rawDataFromNdf.values[0].value?.split(",").map((i: any) => i.trim().replace('~/', ''));

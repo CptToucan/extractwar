@@ -264,8 +264,13 @@ export class AmmunitionManager extends AbstractManager {
       const planeMinRange = this.getRange('PorteeMinimaleHAGRU');
 
     
-
-    const aimingTime = Number(this.getValueFromSearch('TempsDeVisee'));
+    // Deprecated as of 31-05-2025
+    const aimingTimeDeprec = Number(this.getValueFromSearch('TempsDeVisee'));
+    let aimingTime = Number(this.getValueFromSearch('AimingTime'));
+    if (isNaN(aimingTime) && !isNaN(aimingTimeDeprec)) {
+      aimingTime = aimingTimeDeprec;
+    }
+    
     const reloadTime = Number(this.getLegacyValueFromSearchWithUpgradeFallback('TempsEntreDeuxSalves', 'TimeBetweenTwoSalvos'));
     const salvoLength = Number(this.getValueFromSearch('NbTirParSalves'));
     const timeBetweenSalvos = Number(

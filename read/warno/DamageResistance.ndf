@@ -36,6 +36,7 @@ private DamageResistanceParams is TGameplayDamageResistanceContainer
         TDamageTypeFamilyDefinition(Family=DamageFamily_he MaxIndex=1),
         TDamageTypeFamilyDefinition(Family=DamageFamily_he_dca MaxIndex=1),
         TDamageTypeFamilyDefinition(Family=DamageFamily_he_autocanon MaxIndex=2),
+        TDamageTypeFamilyDefinition(Family=DamageFamily_he_cluster MaxIndex=1),
         TDamageTypeFamilyDefinition(Family=DamageFamily_howz MaxIndex=1),
         TDamageTypeFamilyDefinition(Family=DamageFamily_howz_bombe MaxIndex=1),
         TDamageTypeFamilyDefinition(Family=DamageFamily_mmgballe MaxIndex=3),
@@ -298,6 +299,8 @@ private DamageResistanceParams is TGameplayDamageResistanceContainer
         [1.2, 1.1, 1.0, 0.3, 2.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 2.5, 1.8, 1.7, 1.0, 1.0, 1.0, 8, 1.0, 3.3, 0.8, 0.4, 3.3,],
         //HE_autocanon_2
         [1.0, 1.0, 1.0, 0.3, 1.3333, 0.6666, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.5, 0.0, 1.0, 1.0, 1.0, 8, 1.0, 2.0, 1.67, 1.0, 2.0,],
+        //HE_cluster
+        [3.0, 2.0, 2.0, 0.1, 0.5, 0.25, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.75, 0.75, 0.75, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 8, 0.1, 1.0, 1.0, 1.0, 1.0,],
         //Howz
         [3.0, 2.0, 1.0, 1.33, 1.0, 1.0, 1.0, 0.75, 0.75, 0.75, 0.75, 0.75, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 1.0, 1.0, 1.0, 3.0, 2.0, 1.0, 1.5, 1.0, 1.0, 1, 1.0, 1.25, 1.0, 1.0, 1.25,],
         //Howz_bombe

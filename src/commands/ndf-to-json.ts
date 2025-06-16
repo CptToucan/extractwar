@@ -65,6 +65,10 @@ export type SpeedModifier = {
       name: string;
       value: number;
     };
+    Wheel: {
+      name: string;
+      value: number;
+    };
   };
 };
 
@@ -558,6 +562,70 @@ export default class NdfToJson extends Command {
   private extractSpeedModifiers(
     terrains: (NdfObject | NdfConstant)[]
   ): SpeedModifier[] {
+
+    const validTerrains = [
+      { descriptorName: 'ForetLegere', name: 'forest' },
+      { descriptorName: 'Batiment', name: 'building' },
+      { descriptorName: 'Ruin', name: 'ruins' },
+    ];
+
+    const speedModifiers = [];
+  
+    // Determine if we are using new or old format)
+    const newTerrains = search(terrains[0], 'TGameplayTerrain')
+    if(newTerrains && newTerrains.length > 0) {
+      for(const terrainDescriptor of newTerrains) {
+        const name = search(terrainDescriptor, 'Name')[0].value.value.replaceAll("'", '')
+          const terrain = validTerrains.find(
+            (terrain) => terrain.descriptorName === name
+          );
+
+          if (terrain) {
+            const wheel = NdfManager.extractValueFromSearchResult(
+              search(terrainDescriptor, 'SpeedModifierWheel')[0]
+            );
+            const infantry = NdfManager.extractValueFromSearchResult(
+              search(terrainDescriptor, 'SpeedModifierInfantry')[0]
+            );
+            const track = NdfManager.extractValueFromSearchResult(
+              search(terrainDescriptor, 'SpeedModifierTrack')[0]
+            );
+  
+            speedModifiers.push({
+              name: terrain.name,
+              descriptorName: terrain.descriptorName,
+              movementTypes: {
+                AllTerrainWheel: {
+                  name: 'wheel',
+                  value: Number(wheel),
+                },
+                Wheel: {
+                  name: 'wheel',
+                  value: Number(wheel),
+                },
+                Infantry: {
+                  name: 'infantry',
+                  value: Number(infantry),
+                },
+                Track: {
+                  name: 'track',
+                  value: Number(track),
+                },
+
+              },
+            });
+          }
+      }
+    }
+    else{
+      return this.extractSpeedModifiersPre310525(terrains);
+    }
+  return speedModifiers;
+  }
+
+  private extractSpeedModifiersPre310525(
+    terrains: (NdfObject | NdfConstant)[]
+  ): SpeedModifier[] {
     const validTerrains = [
       { descriptorName: 'ForetLegere', name: 'forest' },
       { descriptorName: 'Batiment', name: 'building' },
@@ -588,6 +656,10 @@ export default class NdfToJson extends Command {
             descriptorName: terrain.descriptorName,
             movementTypes: {
               AllTerrainWheel: {
+                name: 'wheel',
+                value: Number(wheel),
+              },
+              Wheel: {
                 name: 'wheel',
                 value: Number(wheel),
               },

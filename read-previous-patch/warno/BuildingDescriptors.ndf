@@ -58,7 +58,6 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
@@ -126,10 +125,8 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
-            UnitRole = 'tank_A'
-            SpecialtiesList = [
-                'supply',
-            ]
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
             NameToken = 'BFCFNEMWNZ'
             InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
@@ -197,7 +194,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
@@ -265,10 +261,8 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
-            UnitRole = 'tank_A'
-            SpecialtiesList = [
-                'supply',
-            ]
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
             NameToken = 'FOBGER'
             InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
@@ -336,7 +330,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
@@ -404,10 +397,8 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
-            UnitRole = 'tank_A'
-            SpecialtiesList = [
-                'supply',
-            ]
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
             NameToken = 'FOBFRA'
             InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
@@ -475,7 +466,6 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
@@ -543,10 +533,8 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
-            UnitRole = 'tank_A'
-            SpecialtiesList = [
-                'supply',
-            ]
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
             NameToken = 'FOBNL'
             InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
@@ -614,7 +602,6 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
@@ -682,10 +669,8 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
-            UnitRole = 'tank_A'
-            SpecialtiesList = [
-                'supply',
-            ]
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
             NameToken = 'WJEPUEYMNL'
             InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
@@ -753,7 +738,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
@@ -821,10 +805,8 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
-            UnitRole = 'tank_A'
-            SpecialtiesList = [
-                'supply',
-            ]
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
             NameToken = 'FOBGER'
             InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
@@ -892,7 +874,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
@@ -960,10 +941,8 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
-            UnitRole = 'tank_A'
-            SpecialtiesList = [
-                'supply',
-            ]
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
             NameToken = 'FOBSOV'
             InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
@@ -1031,7 +1010,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
@@ -1099,10 +1077,8 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
-            UnitRole = 'tank_A'
-            SpecialtiesList = [
-                'supply',
-            ]
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
             NameToken = 'FOBUSUK'
             InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
@@ -1170,7 +1146,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/AlwaysOnGround
         ),
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
@@ -1238,10 +1213,8 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
-            UnitRole = 'tank_A'
-            SpecialtiesList = [
-                'supply',
-            ]
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
             NameToken = 'FOBUSUK'
             InfoPanelConfigurationToken = 'FOB'
             GenerateName = true
