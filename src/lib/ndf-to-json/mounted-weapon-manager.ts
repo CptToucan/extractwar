@@ -39,7 +39,12 @@ export class MountedWeaponManager extends AbstractManager {
   i18nMap?: { [key: string]: string };
 
   parse() {
-    const showInterface = this.getValueFromSearch('ShowInInterface') === 'True';
+    let showInterface = false;
+    const showInInterfaceDeprec = this.getValueFromSearch('ShowInInterface') === 'True';
+    const hideInInterface = this.getValueFromSearch('HideInInterface') === 'True';
+    // Handle deprecated showInterface
+    showInterface = !hideInInterface ? true : showInInterfaceDeprec
+
     const ammunitionPath = this.getValueFromSearch<string>('Ammunition');
     const ammoDescriptorId = NdfManager.extractLastToken(ammunitionPath);
     const ammoDescriptor = this.mappedAmmo[ammoDescriptorId];
@@ -57,7 +62,7 @@ export class MountedWeaponManager extends AbstractManager {
     const salvoIndex = Number(this.getValueFromSearch('SalvoStockIndex'));
 
     const mountedWeapon: MountedWeapon = {
-      showInterface,
+      showInterface: showInterface,
       numberOfWeapons,
       salvoIndex,
       ammo: ammo,

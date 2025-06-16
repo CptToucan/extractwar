@@ -189,7 +189,12 @@ export class UnitManager extends AbstractManager {
     ).replace(/'/g, '');
     const infoPanelType = infoPanelMap[descriptorInformationPanelType];
 
-    const factoryDescriptor = this.getValueFromSearch<string>('Factory');
+    let factoryDescriptor = this.getValueFromSearch<string>('FactoryType');
+    if(!factoryDescriptor) {
+      // Deprec handling - 31/05/25 - Replace to avoid erroneous patch notes
+      factoryDescriptor = this.getValueFromSearch<string>('Factory').replace('EDefaultFactories', 'EFactory');
+    }
+
     const armourValues = this.extractArmourValues();
     const era =
       this.getValueFromSearch<string>('ExplosiveReactiveArmor') === 'True';
@@ -261,24 +266,33 @@ export class UnitManager extends AbstractManager {
         airOptics = 0;
       }
       else {
-        const STANDARD_OPTICS = 'EVisionUnitType/Standard';
-        const LOW_ALT_OPTICS = 'EVisionUnitType/LowAltitude';
-        const HIGH_ALT_OPTICS = 'EVisionUnitType/HighAltitude';
-
-        const _getTupleValueFromKey = function ([type, _]: [string, string]) {
-          return type === STANDARD_OPTICS;
-        }; 
-
         const getOpticsValue = (key: string, _values: any[]) => 
           Number(_values.find(([type, _]) => type === key)?.[1] ?? 0);
 
-        optics = getOpticsValue(STANDARD_OPTICS, opticalStrengths);
-        lowAltOptics = getOpticsValue(LOW_ALT_OPTICS, opticalStrengths);
-        airOptics = getOpticsValue(HIGH_ALT_OPTICS, opticalStrengths);
+        if (opticalStrengths[0][0] === 'EOpticalStrength/Standard') {
+          const PREFIX = 'EOpticalStrength/';
+          const RANGE_PREFIX = 'EVisionRange/';
+  
+          optics = getOpticsValue(`${PREFIX}Standard`, opticalStrengths);
+          lowAltOptics = getOpticsValue(`${PREFIX}LowAltitude`, opticalStrengths);
+          airOptics = getOpticsValue(`${PREFIX}HighAltitude`, opticalStrengths);
+  
+          opticsRange = getOpticsValue(`${RANGE_PREFIX}Standard`, visionRanges);
+          lowAltOpticsRange = getOpticsValue(`${RANGE_PREFIX}LowAltitude`, visionRanges);
+          airOpticsRange = getOpticsValue(`${RANGE_PREFIX}HighAltitude`, visionRanges);
 
-        opticsRange = getOpticsValue(STANDARD_OPTICS, visionRanges);
-        lowAltOpticsRange = getOpticsValue(LOW_ALT_OPTICS, visionRanges);
-        airOpticsRange = getOpticsValue(HIGH_ALT_OPTICS, visionRanges);
+        } else {
+      // Legacy optics - Deprecated post 31/05/25
+          const DEPRECATED_PREFIX = 'EVisionUnitType/';
+  
+          optics = getOpticsValue(`${DEPRECATED_PREFIX}Standard`, opticalStrengths);
+          lowAltOptics = getOpticsValue(`${DEPRECATED_PREFIX}LowAltitude`, opticalStrengths);
+          airOptics = getOpticsValue(`${DEPRECATED_PREFIX}HighAltitude`, opticalStrengths)
+
+          opticsRange = getOpticsValue(`${DEPRECATED_PREFIX}Standard`, visionRanges);
+          lowAltOpticsRange = getOpticsValue(`${DEPRECATED_PREFIX}LowAltitude`, visionRanges);
+          airOpticsRange = getOpticsValue(`${DEPRECATED_PREFIX}HighAltitude`, visionRanges);
+        }
       }
     }
     // legacy optics
@@ -371,9 +385,13 @@ export class UnitManager extends AbstractManager {
     const travelTime =
       Number(this.getValueFromSearch('TravelDuration')) || null;
 
-    const isSellable = Boolean(
+    let isSellable = Boolean(search(this.ndf, 'SellModuleDescriptor'))
+    // Deprec as of 31-05-2025
+    const isSellableDeprec = Boolean(
       this.getFirstSearchResult('TSellModuleDescriptor')
     );
+    if (!isSellable && isSellableDeprec) isSellable = true;
+    
 
     const dangerousnessResult = this.getValueFromSearch('Dangerousness');
     let dangerousness;
@@ -390,8 +408,16 @@ export class UnitManager extends AbstractManager {
 
     const weaponManagerSearchResult =
       this.getFirstSearchResult('WeaponManager');
-    const weaponManagerPath =
+
+      // Deprec as of 31/05/25
+    const weaponManagerPath_Deprec =
       weaponManagerSearchResult?.children[0]?.value?.value;
+    const weaponManagerType =
+      weaponManagerSearchResult?.type;
+
+    const weaponManagerPath =  weaponManagerPath_Deprec ?
+      weaponManagerPath_Deprec :
+      weaponManagerType;
 
     let weapons: Weapon[] = [];
     let hasDefensiveSmoke = false;
@@ -409,6 +435,7 @@ export class UnitManager extends AbstractManager {
           this.bonusPrecision,
           this.i18nMap
         );
+        
         const { weapons: parsedWeapons, hasDefensiveSmoke: smoke } =
           weaponManager.parse();
 
@@ -585,9 +612,10 @@ export class UnitManager extends AbstractManager {
           speed: modifiedSpeed,
           name: speedModifier.name,
         });
-      }
-    }
 
+      }
+
+    }
     return speedForTerrains;
   }
 
@@ -716,13 +744,27 @@ export class UnitManager extends AbstractManager {
       'TTypeUnitModuleDescriptor'
     );
 
-    for (const unitModule of unitTypeSearchResult.children) {
+    const factorySearchResult = this.getFirstSearchResult(
+      'TFormationModuleDescriptor'
+    );
+
+    const compiledSearchResultChildren = [
+      ...(unitTypeSearchResult?.children || []), 
+      ...(factorySearchResult?.children || [])
+    ];
+
+    for (const unitModule of compiledSearchResultChildren) {
       const prettyValue =
         unitTypePrettyKeys[unitModule.name as keyof typeof unitTypePrettyKeys];
       if (prettyValue) {
         unitType[prettyValue as keyof typeof unitType] =
           unitModule.value.value.replace(/'/g, '');
       }
+    }
+
+    // Handling for deprecated Formation = "None" 31-05-2025
+    if(unitType.formation == '') {
+      unitType.formation = 'None';
     }
 
     return unitType;
