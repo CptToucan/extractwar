@@ -65,7 +65,6 @@ Constantes is TTunableConstante
 //----------------------------- Constantes Combat -----------------------------------------//
 
     ReductionDegatsSuppressDansVehicule = 0.50 // Pourcentage des dégats de suppress reçuts par un véhicule appliqués aux unités transportées
-    TimerRechercheDeCibleRiposte = -1
     TagRadioArtillerie = "Radio"
     TagRadioJammed = "RadioJammed"
     PorteeRadioArtillerieGRU = 2120
@@ -193,7 +192,7 @@ Constantes is TTunableConstante
 
 //---------------------------- Constantes Visibilite --------------------------------------//
 
-    MultiplicateurDistancePourBonusDissimulationGRU = 0.00052 div 100.0 // = (Distance en GRU) / 100.f
+    MultiplicateurBonusDissimulationParDistanceGRU = 0.0283 // = (Distance en GRU^-1)
     RelativeScanningPositionGRU = [0, 0, 7]
 
 //------------------------------ Constantes Vision ----------------------------------------//
@@ -243,8 +242,6 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     TempsSansStressPourRegen = 10 // 10 secondes
 
     TempsSansTirNiDamagePourPasserHorsCombat = 30 // 1, passage à 2 pour limiter bug graphique
-
-    DensitePointsRecherchePosition = 8.0 // utilisé par l'IA pour calculer la densité de points à tester pour trouver des positions. En DistanceFeedbackTactique.
 
     TagStunned = "Stunned"
     TagUberstress = "Uberstress"
@@ -420,18 +417,18 @@ WargameConstantes is TWargameTunableConstante
 
     BaseIncome = MAP
     [
-        (CombatRule/NotSpecified,   0),
-        (CombatRule/Conquest,       260),
-        (CombatRule/Destruction,    4),
+        (ECombatRule/NotSpecified,   0),
+        (ECombatRule/Conquest,       260),
+        (ECombatRule/Destruction,    4),
     ]
     DefaultIncomeMultiplierIndex    = 3 // normal
     //                   none   very_low   low      normal    high     very_high
     IncomeMultiplier = [   0,    0.5,    0.75,       1,      1.25,       1.5 ]
     TimeBeforeEarningCommandPoints = MAP
     [
-        (CombatRule/NotSpecified,   60.0),
-        (CombatRule/Conquest,       60.0),
-        (CombatRule/Destruction,     4.0),
+        (ECombatRule/NotSpecified,   60.0),
+        (ECombatRule/Conquest,       60.0),
+        (ECombatRule/Destruction,     4.0),
     ]
 
     TimeBeforeEarningCommandPointsFactorToAddByNbPlayers = //Facteur de TimeBeforeEarningCommandPoints à ajouter selon des paliers de joueurs
@@ -593,7 +590,7 @@ WargameConstantes is TWargameTunableConstante
         3000,
     ]
 
-    DestructionScoreToReachSetting =
+    DefaultDestructionScoreToReachSetting =
     [
         3000,
         4000,
@@ -633,11 +630,6 @@ WargameConstantes is TWargameTunableConstante
     InfantryTrenchDepthGRU = 2
 
 //------------------------------ Constantes Tactic --------------------------------------//
-
-    // ATTENTION NE SONT PRISES QUE SI ON NE TROUVE PAS SON BONHEUR DANS LE DECK
-    //---- Set OTAN, PACT
-    CommandUnitToSpawnForCoalition = [ nil, nil ]
-    CommandUnitToSpawnOverWaterForCoalition = [ nil, nil ]
 
     //Order Token bloqué lorsque que l'unité est sans essence
     OrderBlockedWhenOutOfFuel = ["Move", "SmartMove", "QuickMove", "FastMoveAndAttack", "Spread", "Reverse", "ChangeAltitude",

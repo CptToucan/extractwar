@@ -1366,6 +1366,7 @@ unnamed TDeckSerializerEntries
         ($/GFX/Unit/Descriptor_Unit_Rifles_CMD_NL, 1563),
         ($/GFX/Unit/Descriptor_Unit_Rifles_CMD_POL, 1564),
         ($/GFX/Unit/Descriptor_Unit_Rifles_Carl_NL, 1565),
+        ($/GFX/Unit/Descriptor_Unit_Rifles_Dragon_NL, 1566),
         ($/GFX/Unit/Descriptor_Unit_Rifles_Gurkhas_CMD_UK, 1567),
         ($/GFX/Unit/Descriptor_Unit_Rifles_Gurkhas_UK, 1568),
         ($/GFX/Unit/Descriptor_Unit_Rifles_HMG_POL, 1569),
@@ -2075,8 +2076,6 @@ unnamed TDeckSerializerEntries
         ($/GFX/Unit/Descriptor_Unit_ATteam_TOW2A_US, 2765),
         ($/GFX/Unit/Descriptor_Unit_Security_Naval_SOV, 2766),
         ($/GFX/Unit/Descriptor_Unit_ATteam_RCL_B11_Reserve_SOV, 2767),
-        ($/GFX/Unit/Descriptor_Unit_M48A5E_CMD_ESP, 2782),
-        ($/GFX/Unit/Descriptor_Unit_M48A5E_ESP, 2783),
         ($/GFX/Unit/Descriptor_Unit_UH1H_CMD_ESP, 2790),
         ($/GFX/Unit/Descriptor_Unit_Iltis_MILAN_2_RFA, 2803),
         ($/GFX/Unit/Descriptor_Unit_Marder_1A1_RFA, 2805),
@@ -2100,5 +2099,7 @@ unnamed TDeckSerializerEntries
         ($/GFX/Unit/Descriptor_Unit_ATteam_Milan_2_RIMa_FR, 2941),
         ($/GFX/Unit/Descriptor_Unit_Groupe_AT_US, 2942),
         ($/GFX/Unit/Descriptor_Unit_ATteam_RCL_M40A1_NL, 2946),
+        ($/GFX/Unit/Descriptor_Unit_ParaCmdo_reserve_BEL, 2978),
+        ($/GFX/Unit/Descriptor_Unit_Bo_105_reco_ESP, 2988),
     ]
 )

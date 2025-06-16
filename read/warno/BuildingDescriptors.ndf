@@ -9,7 +9,7 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             MotherCountry                    = 'BEL'
-            Coalition                        = ECoalition/Allied
+            Coalition                        = ECoalition/NATO
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -54,7 +54,7 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/TargetCoordinatorModuleSelector,
+        ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
@@ -87,7 +87,7 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         ~/UnitStateEngineModuleDescriptor,
         TProductionModuleDescriptor
         (
-            Factory            = EDefaultFactories/Logistic
+            FactoryType        = EFactory/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
                 ($/GFX/Resources/Resource_CommandPoints, 175),
@@ -120,7 +120,7 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         ),
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
-        ~/GroupableUnitModuleSelector,
+        ~/GroupableUnitModuleDescriptor,
         ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
@@ -145,7 +145,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             MotherCountry                    = 'DDR'
-            Coalition                        = ECoalition/Axis
+            Coalition                        = ECoalition/PACT
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -190,7 +190,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/TargetCoordinatorModuleSelector,
+        ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
@@ -223,7 +223,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ~/UnitStateEngineModuleDescriptor,
         TProductionModuleDescriptor
         (
-            Factory            = EDefaultFactories/Logistic
+            FactoryType        = EFactory/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
                 ($/GFX/Resources/Resource_CommandPoints, 175),
@@ -256,7 +256,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ),
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
-        ~/GroupableUnitModuleSelector,
+        ~/GroupableUnitModuleDescriptor,
         ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
@@ -281,7 +281,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             MotherCountry                    = 'FR'
-            Coalition                        = ECoalition/Allied
+            Coalition                        = ECoalition/NATO
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -326,7 +326,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/TargetCoordinatorModuleSelector,
+        ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
@@ -359,7 +359,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ~/UnitStateEngineModuleDescriptor,
         TProductionModuleDescriptor
         (
-            Factory            = EDefaultFactories/Logistic
+            FactoryType        = EFactory/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
                 ($/GFX/Resources/Resource_CommandPoints, 175),
@@ -392,7 +392,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ),
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
-        ~/GroupableUnitModuleSelector,
+        ~/GroupableUnitModuleDescriptor,
         ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
@@ -417,7 +417,7 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             MotherCountry                    = 'NL'
-            Coalition                        = ECoalition/Allied
+            Coalition                        = ECoalition/NATO
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -462,7 +462,7 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/TargetCoordinatorModuleSelector,
+        ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
@@ -495,7 +495,7 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
         ~/UnitStateEngineModuleDescriptor,
         TProductionModuleDescriptor
         (
-            Factory            = EDefaultFactories/Logistic
+            FactoryType        = EFactory/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
                 ($/GFX/Resources/Resource_CommandPoints, 175),
@@ -528,7 +528,7 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
         ),
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
-        ~/GroupableUnitModuleSelector,
+        ~/GroupableUnitModuleDescriptor,
         ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
@@ -553,7 +553,7 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             MotherCountry                    = 'POL'
-            Coalition                        = ECoalition/Axis
+            Coalition                        = ECoalition/PACT
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -598,7 +598,7 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/TargetCoordinatorModuleSelector,
+        ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
@@ -631,7 +631,7 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
         ~/UnitStateEngineModuleDescriptor,
         TProductionModuleDescriptor
         (
-            Factory            = EDefaultFactories/Logistic
+            FactoryType        = EFactory/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
                 ($/GFX/Resources/Resource_CommandPoints, 175),
@@ -664,7 +664,7 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
         ),
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
-        ~/GroupableUnitModuleSelector,
+        ~/GroupableUnitModuleDescriptor,
         ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
@@ -689,7 +689,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             MotherCountry                    = 'RFA'
-            Coalition                        = ECoalition/Allied
+            Coalition                        = ECoalition/NATO
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -734,7 +734,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/TargetCoordinatorModuleSelector,
+        ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
@@ -767,7 +767,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ~/UnitStateEngineModuleDescriptor,
         TProductionModuleDescriptor
         (
-            Factory            = EDefaultFactories/Logistic
+            FactoryType        = EFactory/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
                 ($/GFX/Resources/Resource_CommandPoints, 175),
@@ -800,7 +800,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ),
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
-        ~/GroupableUnitModuleSelector,
+        ~/GroupableUnitModuleDescriptor,
         ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
@@ -825,7 +825,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             MotherCountry                    = 'SOV'
-            Coalition                        = ECoalition/Axis
+            Coalition                        = ECoalition/PACT
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -870,7 +870,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/TargetCoordinatorModuleSelector,
+        ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
@@ -903,7 +903,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ~/UnitStateEngineModuleDescriptor,
         TProductionModuleDescriptor
         (
-            Factory            = EDefaultFactories/Logistic
+            FactoryType        = EFactory/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
                 ($/GFX/Resources/Resource_CommandPoints, 175),
@@ -936,7 +936,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ),
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
-        ~/GroupableUnitModuleSelector,
+        ~/GroupableUnitModuleDescriptor,
         ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
@@ -961,7 +961,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             MotherCountry                    = 'UK'
-            Coalition                        = ECoalition/Allied
+            Coalition                        = ECoalition/NATO
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -1006,7 +1006,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/TargetCoordinatorModuleSelector,
+        ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
@@ -1039,7 +1039,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ~/UnitStateEngineModuleDescriptor,
         TProductionModuleDescriptor
         (
-            Factory            = EDefaultFactories/Logistic
+            FactoryType        = EFactory/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
                 ($/GFX/Resources/Resource_CommandPoints, 175),
@@ -1072,7 +1072,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ),
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
-        ~/GroupableUnitModuleSelector,
+        ~/GroupableUnitModuleDescriptor,
         ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
@@ -1097,7 +1097,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             MotherCountry                    = 'US'
-            Coalition                        = ECoalition/Allied
+            Coalition                        = ECoalition/NATO
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -1142,7 +1142,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/TargetCoordinatorModuleSelector,
+        ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
@@ -1175,7 +1175,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ~/UnitStateEngineModuleDescriptor,
         TProductionModuleDescriptor
         (
-            Factory            = EDefaultFactories/Logistic
+            FactoryType        = EFactory/Logistic
             ProductionTime     = -1
             ProductionRessourcesNeeded = MAP [
                 ($/GFX/Resources/Resource_CommandPoints, 175),
@@ -1208,7 +1208,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ),
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
-        ~/GroupableUnitModuleSelector,
+        ~/GroupableUnitModuleDescriptor,
         ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
