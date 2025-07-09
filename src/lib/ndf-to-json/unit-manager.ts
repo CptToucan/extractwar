@@ -425,7 +425,7 @@ export class UnitManager extends AbstractManager {
 
         // Deprec as of 31/05/25
       const weaponManagerPath_Deprec =
-        weaponManagerSearchResult?.children[0]?.vzalue?.value;
+        weaponManagerSearchResult?.children[0]?.value?.value;
       weaponManagerType =
         weaponManagerSearchResult?.type ?? weaponManagerDescriptor;
       weaponManagerPath =  weaponManagerPath_Deprec ?

@@ -240,30 +240,50 @@ export class AmmunitionManager extends AbstractManager {
       this.getValueFromSearch<string>('NbrProjectilesSimultanes')
     );
 
-    const firesLeftToRight =
-      this.getValueFromSearch('DispersionWithoutSorting') === 'True';
+    let firesLeftToRight = false;
+    const usesNamingV2 = this.getValueFromSearch('SalvoShotsSorted') !== undefined;
 
+    if(usesNamingV2){
+      firesLeftToRight = this.getValueFromSearch('SalvoShotsSorted') === 'False';
+    } else {
+      // Deprecated as of 09-07-25
+      firesLeftToRight =
+        this.getValueFromSearch('DispersionWithoutSorting') === 'True';
+    }
 
-    // Check if the weapon has the new range attributes
-    // Ground range
+    let groundMaxRange: number;
+    let groundMinRange: number;
+    let heliMaxRange: number;
+    let heliMinRange: number;
+    let planeMaxRange: number;
+    let planeMinRange: number;
 
-      const groundMaxRange = this.getRange('PorteeMaximaleGRU');
-      const groundMinRange = this.getRange('PorteeMinimaleGRU');
-    
+    // Test which range attributes are available
+    const minRangesV2 = this.getRange('MaximumRangeGRU') !== undefined;
 
+    if(minRangesV2){
+      groundMaxRange = this.getRange('MaximumRangeGRU') || 0;
+      groundMinRange = this.getRange('MinimumRangeGRU') || 0;
 
-    // Helicopter range
+      heliMaxRange = this.getRange('MaximumRangeHelicopterGRU') || 0;
+      heliMinRange = this.getRange('MinimumRangeHelicopterGRU') || 0;
 
-      const heliMaxRange = this.getRange('PorteeMaximaleTBAGRU');
-      const heliMinRange = this.getRange('PorteeMinimaleTBAGRU');
+      planeMaxRange = this.getRange('MaximumRangeAirplaneGRU') || 0;
+      planeMinRange = this.getRange('MinimumRangeAirplaneGRU') || 0;
 
+    } else {
+      // Deprecated as of 31-05-2025
+      // Ground range
+      groundMaxRange = this.getRange('PorteeMaximaleGRU') || 0;
+      groundMinRange = this.getRange('PorteeMinimaleGRU') || 0;
+      // Helicopter range
+      heliMaxRange = this.getRange('PorteeMaximaleTBAGRU') || 0;
+      heliMinRange = this.getRange('PorteeMinimaleTBAGRU') || 0;
+      // Plane range
+      planeMaxRange = this.getRange('PorteeMaximaleHAGRU') || 0;
+      planeMinRange = this.getRange('PorteeMinimaleHAGRU') || 0;
+    }
 
-    // Plane range
-
-      const planeMaxRange = this.getRange('PorteeMaximaleHAGRU');
-      const planeMinRange = this.getRange('PorteeMinimaleHAGRU');
-
-    
     // Deprecated as of 31-05-2025
     const aimingTimeDeprec = Number(this.getValueFromSearch('TempsDeVisee'));
     let aimingTime = Number(this.getValueFromSearch('AimingTime'));
@@ -678,7 +698,7 @@ export class AmmunitionManager extends AbstractManager {
     return valueModifiers;
   }
 
-  getRange(rangeAttribute: string): number {
+  getRange(rangeAttribute: string): number | undefined {
     const searchResult = this.getFirstSearchResult(rangeAttribute);
     if (searchResult) {
       return Math.round(
@@ -686,7 +706,7 @@ export class AmmunitionManager extends AbstractManager {
       );
     }
 
-    return 0;
+    return undefined;
   }
 
   /**
