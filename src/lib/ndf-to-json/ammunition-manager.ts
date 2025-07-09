@@ -241,14 +241,14 @@ export class AmmunitionManager extends AbstractManager {
     );
 
     let firesLeftToRight = false;
-    const usesNamingV2 = this.getValueFromSearch('SalvoShotsSorted') !== undefined;
-
-    if(usesNamingV2){
-      firesLeftToRight = this.getValueFromSearch('SalvoShotsSorted') === 'False';
+    const salvoShotsSorted = this.getValueFromSearch('SalvoShotsSorted');
+    
+    if (salvoShotsSorted !== undefined) {
+      firesLeftToRight = salvoShotsSorted === 'True';
     } else {
       // Deprecated as of 09-07-25
-      firesLeftToRight =
-        this.getValueFromSearch('DispersionWithoutSorting') === 'True';
+      const dispersionWithoutSorting = this.getValueFromSearch('DispersionWithoutSorting');
+      firesLeftToRight = dispersionWithoutSorting === 'False';
     }
 
     let groundMaxRange: number;

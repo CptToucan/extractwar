@@ -784,8 +784,15 @@ export class UnitManager extends AbstractManager {
   }
 
   private getMovementType(): MovementType {
-    const isLandMovement = this.getFirstSearchResult('LandMovement');
-    const isAirplaneMovement = this.getFirstSearchResult('AirplaneMovement');
+    let isLandMovement = this.getFirstSearchResult('TLandMovementModuleDescriptor');
+    let isAirplaneMovement = this.getFirstSearchResult('AirplaneMovementDescriptor')
+
+    // Deprec as of 31/05/25
+    if(!isLandMovement && !isAirplaneMovement) {
+      isLandMovement = this.getFirstSearchResult('LandMovement');
+      isAirplaneMovement = this.getFirstSearchResult('AirplaneMovement');
+    }
+
     const isHelicopterMovement =
       this.getFirstSearchResult('HelicopterMovement');
 
