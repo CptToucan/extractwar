@@ -8,8 +8,8 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            MotherCountry                    = 'BEL'
             Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'BEL'
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -69,12 +69,12 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
             )
         ),
-        ApparenceModel is BuildingApparenceModuleDescriptor
+        BuildingApparenceModuleDescriptor
         (
             BlackHoleIdentifier = "FOB_BEL"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_BEL ),
+        BuildingCadavreGeneratorModuleDescriptor(),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -144,8 +144,8 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            MotherCountry                    = 'DDR'
             Coalition                        = ECoalition/PACT
+            MotherCountry                    = 'DDR'
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -205,12 +205,12 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
             )
         ),
-        ApparenceModel is BuildingApparenceModuleDescriptor
+        BuildingApparenceModuleDescriptor
         (
             BlackHoleIdentifier = "FOB_DDR"
             SymbolName = 'FOB_Pact_03'
         ),
-        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_DDR ),
+        BuildingCadavreGeneratorModuleDescriptor(),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -280,8 +280,8 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            MotherCountry                    = 'FR'
             Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'FR'
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -341,12 +341,12 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
             )
         ),
-        ApparenceModel is BuildingApparenceModuleDescriptor
+        BuildingApparenceModuleDescriptor
         (
             BlackHoleIdentifier = "FOB_FR"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_FR ),
+        BuildingCadavreGeneratorModuleDescriptor(),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -416,8 +416,8 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            MotherCountry                    = 'NL'
             Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'NL'
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -477,12 +477,12 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
             )
         ),
-        ApparenceModel is BuildingApparenceModuleDescriptor
+        BuildingApparenceModuleDescriptor
         (
             BlackHoleIdentifier = "FOB_NL"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_NL ),
+        BuildingCadavreGeneratorModuleDescriptor(),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -552,8 +552,8 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            MotherCountry                    = 'POL'
             Coalition                        = ECoalition/PACT
+            MotherCountry                    = 'POL'
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -613,12 +613,12 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
             )
         ),
-        ApparenceModel is BuildingApparenceModuleDescriptor
+        BuildingApparenceModuleDescriptor
         (
             BlackHoleIdentifier = "FOB_POL"
             SymbolName = 'FOB_Pact_03'
         ),
-        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_POL ),
+        BuildingCadavreGeneratorModuleDescriptor(),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -688,8 +688,8 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            MotherCountry                    = 'RFA'
             Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'RFA'
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -749,12 +749,12 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
             )
         ),
-        ApparenceModel is BuildingApparenceModuleDescriptor
+        BuildingApparenceModuleDescriptor
         (
             BlackHoleIdentifier = "FOB_RFA"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_RFA ),
+        BuildingCadavreGeneratorModuleDescriptor(),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -824,8 +824,8 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            MotherCountry                    = 'SOV'
             Coalition                        = ECoalition/PACT
+            MotherCountry                    = 'SOV'
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -885,12 +885,12 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
             )
         ),
-        ApparenceModel is BuildingApparenceModuleDescriptor
+        BuildingApparenceModuleDescriptor
         (
             BlackHoleIdentifier = "FOB_SOV"
             SymbolName = 'FOB_Pact_03'
         ),
-        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_SOV ),
+        BuildingCadavreGeneratorModuleDescriptor(),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -960,8 +960,8 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            MotherCountry                    = 'UK'
             Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'UK'
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -1021,12 +1021,12 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
             )
         ),
-        ApparenceModel is BuildingApparenceModuleDescriptor
+        BuildingApparenceModuleDescriptor
         (
             BlackHoleIdentifier = "FOB_UK"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_UK ),
+        BuildingCadavreGeneratorModuleDescriptor(),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
@@ -1096,8 +1096,8 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            MotherCountry                    = 'US'
             Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'US'
         ),
         ~/BuildingDescriptorTagsModuleDescriptor,
         ~/BuildingFlagsModuleDescriptor,
@@ -1157,12 +1157,12 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
             )
         ),
-        ApparenceModel is BuildingApparenceModuleDescriptor
+        BuildingApparenceModuleDescriptor
         (
             BlackHoleIdentifier = "FOB_US"
             SymbolName = 'FOB_Nato_03'
         ),
-        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_FOB_US ),
+        BuildingCadavreGeneratorModuleDescriptor(),
         TIAStratModuleDescriptor
         (
             DatabaseId = 0
