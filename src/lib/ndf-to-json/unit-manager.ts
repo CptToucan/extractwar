@@ -405,20 +405,33 @@ export class UnitManager extends AbstractManager {
     /**
      * Extract weapon data for the weapon descriptors associated to this descriptor by finding the weapon manager and then using  the weapon manager to extract the weapon data
      */
+    const descriptorNameWithoutPrefix = descriptorName.replace(
+      /^Descriptor_Unit_/g,
+      ''
+    );
+    const weaponManagerDescriptor =
+      this.getFirstSearchResult(`$/GFX/Weapon/WeaponDescriptor_${descriptorNameWithoutPrefix}`);
 
-    const weaponManagerSearchResult =
-      this.getFirstSearchResult('WeaponManager');
+    let weaponManagerType: string | undefined
+    let weaponManagerPath: string | undefined;
 
-      // Deprec as of 31/05/25
-    const weaponManagerPath_Deprec =
-      weaponManagerSearchResult?.children[0]?.value?.value;
-    const weaponManagerType =
-      weaponManagerSearchResult?.type;
+    if(weaponManagerDescriptor) {
+      weaponManagerType = weaponManagerDescriptor.name;
+      weaponManagerPath = weaponManagerDescriptor.name;
+    } else {
+      // Deprec as of 09-07-2025 - WeaponManager title removed
+      const weaponManagerSearchResult =
+        this.getFirstSearchResult('WeaponManager');
 
-    const weaponManagerPath =  weaponManagerPath_Deprec ?
-      weaponManagerPath_Deprec :
-      weaponManagerType;
-
+        // Deprec as of 31/05/25
+      const weaponManagerPath_Deprec =
+        weaponManagerSearchResult?.children[0]?.value?.value;
+      weaponManagerType =
+        weaponManagerSearchResult?.type ?? weaponManagerDescriptor;
+      weaponManagerPath =  weaponManagerPath_Deprec ?
+        weaponManagerPath_Deprec :
+        weaponManagerType;
+    }
     let weapons: Weapon[] = [];
     let hasDefensiveSmoke = false;
 
@@ -771,8 +784,15 @@ export class UnitManager extends AbstractManager {
   }
 
   private getMovementType(): MovementType {
-    const isLandMovement = this.getFirstSearchResult('LandMovement');
-    const isAirplaneMovement = this.getFirstSearchResult('AirplaneMovement');
+    let isLandMovement = this.getFirstSearchResult('TLandMovementModuleDescriptor');
+    let isAirplaneMovement = this.getFirstSearchResult('AirplaneMovementDescriptor')
+
+    // Deprec as of 31/05/25
+    if(!isLandMovement && !isAirplaneMovement) {
+      isLandMovement = this.getFirstSearchResult('LandMovement');
+      isAirplaneMovement = this.getFirstSearchResult('AirplaneMovement');
+    }
+
     const isHelicopterMovement =
       this.getFirstSearchResult('HelicopterMovement');
 
