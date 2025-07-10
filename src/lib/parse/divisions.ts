@@ -65,7 +65,8 @@ export const DIVISION_NAMES: { [key: string]: string } = {
   Descriptor_Deck_Division_RDA_9_Panzer_multi: '9. Panzerdivision',
   Descriptor_Deck_Division_SOV_25_Tank_multi: '25-Ya Tank. Div',
 
-
+  Descriptor_Deck_Division_BEL_Division_Mobilisation_multi: 'DIVMOB',
+  Descriptor_Deck_Division_NL_CLKA_multi: 'CLKA', 
 
 
 };

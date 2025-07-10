@@ -12,12 +12,6 @@ CountingRule_Average is 2
 CountingRule_Min is 3
 CountingRule_Max is 4
 
-// GhostModule.h
-EShowGhostOverSpecificTerrainConditionFilterType is TBaseClass
-(
-    None is 0
-)
-
 Constantes is TTunableConstante
 (
     // /!\ MERCI DE RESPECTER L'ORDRE ALPHABETIQUE !
@@ -295,12 +289,7 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
 //----------------------------- Constantes Weapons ----------------------------------------//
 
-    MergeAllWeaponOnSameTurretInUI = false // permet d'indiquer dans l'interface si on merge les armes sur une même tourelle
-                                           // même si elles ont des munitions différentes (boites de munitions différentes).
-
     AdditionalSuppressDamagePerLostPhysicalDamage = 25 // c'est un multiplicateur des degats physiques qu'on va appliquer en stress.
-
-    ArtilleryDispersionTargetNotVisible = 1 // 2 Dispersion du tireur (artillerie) quand la cible n'est pas visible (attaque sur position ou unité)
 
     // http://dl.uncw.edu/digilib/mathematics/algebra/mat111hb/functions/equations/equations.html
     DistanceFriendlyFireGRU = 1  // distance entre un ennemi et un allié en dessous de laquelle une tourelle ne tire pas (1000)
@@ -315,7 +304,6 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     NbSalveDesignatedShot = -1 // -1 -> tir jusqu'a epuisement des munitions. 0 est indéfini, prévenir si il y en a besoin
 
     ShootingAdjustmentAngleMax = 0.4 //20°
-    SplashSurTirRate = true // Est-ce que les tirs ratés font des dégâts de splash ?
     SplashRatioDamage = [0.35, 0.35, 0.25] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
     SplashRatioDistance = [0.35, 0.35, 0.30] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
 
