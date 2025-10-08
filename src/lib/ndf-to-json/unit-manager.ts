@@ -409,15 +409,14 @@ export class UnitManager extends AbstractManager {
       /^Descriptor_Unit_/g,
       ''
     );
-    const weaponManagerDescriptor =
-      this.getFirstSearchResult(`$/GFX/Weapon/WeaponDescriptor_${descriptorNameWithoutPrefix}`);
+    const weaponManagerDescriptor = `$/GFX/Weapon/WeaponDescriptor_${descriptorNameWithoutPrefix}`;
 
     let weaponManagerType: string | undefined
     let weaponManagerPath: string | undefined;
 
     if(weaponManagerDescriptor) {
-      weaponManagerType = weaponManagerDescriptor.name;
-      weaponManagerPath = weaponManagerDescriptor.name;
+      weaponManagerType = weaponManagerDescriptor;
+      weaponManagerPath = weaponManagerDescriptor;
     } else {
       // Deprec as of 09-07-2025 - WeaponManager title removed
       const weaponManagerSearchResult =
@@ -439,7 +438,7 @@ export class UnitManager extends AbstractManager {
       const weaponManagerId = NdfManager.extractLastToken(weaponManagerPath);
       const weaponManagerDescriptor = this.mappedWeapons[weaponManagerId];
 
-      if (isNdfObject(weaponManagerDescriptor)) {
+      if (weaponManagerDescriptor && isNdfObject(weaponManagerDescriptor)) {
         const weaponManager = new WeaponManager(
           weaponManagerDescriptor,
           this.mappedAmmo,

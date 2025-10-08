@@ -14,6 +14,32 @@ MatrixCostName_BEL_16e_Mecanisee_multi is MAP
     (EFactory/Tanks, [1, 1, 1, 2, 3, 3, 3]),
 ]
 
+MatrixCostName_BEL_Division_Mobilisation_multi is MAP
+[
+    (EFactory/Art, [1, 1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 1, 2, 2, 3, 3]),
+    (EFactory/Defense, []),
+    (EFactory/Helis, []),
+    (EFactory/Infantry, [1, 1, 1, 1, 1, 1, 1, 2, 2, 2]),
+    (EFactory/Logistic, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 2, 2, 3, 3]),
+    (EFactory/Recons, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Tanks, [1, 1, 2, 2, 3, 3, 3]),
+]
+
+MatrixCostName_CAN_1st_Canadian_multi is MAP
+[
+    (EFactory/Art, [1, 1, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Defense, [0]),
+    (EFactory/Helis, [2, 3]),
+    (EFactory/Infantry, [1, 1, 1, 1, 1, 1, 1, 2, 3, 3]),
+    (EFactory/Logistic, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Recons, [1, 1, 1, 1, 2, 3, 3]),
+    (EFactory/Tanks, [1, 1, 1, 1, 2, 2, 3, 3, 3]),
+]
+
 MatrixCostName_Challenge is MAP
 [
     (EFactory/Art, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
@@ -25,6 +51,19 @@ MatrixCostName_Challenge is MAP
     (EFactory/Planes, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
     (EFactory/Recons, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
     (EFactory/Tanks, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
+]
+
+MatrixCostName_ESP_Division_Brunete_multi is MAP
+[
+    (EFactory/Art, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Defense, [0]),
+    (EFactory/Helis, [2, 2, 3]),
+    (EFactory/Infantry, [1, 1, 1, 2, 2, 3, 3]),
+    (EFactory/Logistic, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 1, 2, 3, 3]),
+    (EFactory/Recons, [1, 1, 1, 1, 2, 3, 3]),
+    (EFactory/Tanks, [1, 1, 1, 1, 1, 1, 1, 2, 3, 3]),
 ]
 
 MatrixCostName_FR_11e_Para_multi is MAP
@@ -66,6 +105,19 @@ MatrixCostName_FR_5e_Blindee_multi is MAP
     (EFactory/Tanks, [1, 1, 1, 2, 2, 2, 2, 3, 3, 3]),
 ]
 
+MatrixCostName_FR_6e_Blindee_Legere_multi is MAP
+[
+    (EFactory/Art, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Defense, [0]),
+    (EFactory/Helis, [1, 1, 2]),
+    (EFactory/Infantry, [1, 1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Logistic, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Recons, [1, 1, 1, 2, 2, 3, 3]),
+    (EFactory/Tanks, [1, 1, 1, 1, 1, 1, 2, 3, 3, 3]),
+]
+
 MatrixCostName_NATO_Garnison_Berlin_multi is MAP
 [
     (EFactory/Art, [1, 1, 1, 2, 2, 3, 3, 3]),
@@ -90,6 +142,19 @@ MatrixCostName_NL_4e_Divisie_multi is MAP
     (EFactory/Planes, [1, 1, 1, 2, 2, 3, 3]),
     (EFactory/Recons, [1, 1, 1, 2, 2, 3, 3, 3]),
     (EFactory/Tanks, [1, 1, 1, 1, 1, 2, 3, 3, 3]),
+]
+
+MatrixCostName_NL_CLKA_multi is MAP
+[
+    (EFactory/Art, [1, 1, 1, 2, 3, 3, 3, 4]),
+    (EFactory/DCA, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Defense, [0]),
+    (EFactory/Helis, [2, 2, 3]),
+    (EFactory/Infantry, [1, 1, 1, 1, 1, 1, 1, 2, 3]),
+    (EFactory/Logistic, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 2, 2, 3, 3]),
+    (EFactory/Recons, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Tanks, [1, 1, 1, 2, 3, 3, 3]),
 ]
 
 MatrixCostName_POL_20_Pancerna_multi is MAP
@@ -196,6 +261,19 @@ MatrixCostName_RDA_Rugen_Gruppierung is MAP
     (EFactory/Tanks, [1, 1, 2, 3, 3, 3]),
 ]
 
+MatrixCostName_RFA_1_Luftlande_multi is MAP
+[
+    (EFactory/Art, [1, 1, 2, 2, 3, 3, 4]),
+    (EFactory/DCA, [1, 2, 2, 3, 3, 3]),
+    (EFactory/Defense, []),
+    (EFactory/Helis, [1, 2]),
+    (EFactory/Infantry, [1, 1, 1, 1, 1, 1, 1, 2, 2, 3]),
+    (EFactory/Logistic, [1, 1, 1, 2, 3, 3]),
+    (EFactory/Planes, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Recons, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Tanks, [1, 1, 2, 2, 3, 3, 3]),
+]
+
 MatrixCostName_RFA_2_PzGrenadier_multi is MAP
 [
     (EFactory/Art, [1, 1, 1, 1, 2, 3, 3]),
@@ -287,6 +365,19 @@ MatrixCostName_SOV_27_Gds_Rifle_multi is MAP
     (EFactory/Tanks, [1, 2, 2, 3, 3, 3]),
 ]
 
+MatrixCostName_SOV_31_Tank_multi is MAP
+[
+    (EFactory/Art, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 1, 2, 2, 3, 3]),
+    (EFactory/Defense, []),
+    (EFactory/Helis, [1, 2, 3, 3, 3]),
+    (EFactory/Infantry, [1, 1, 1, 2, 2, 3, 3]),
+    (EFactory/Logistic, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 2, 3, 3, 3]),
+    (EFactory/Recons, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Tanks, [1, 1, 1, 1, 1, 1, 1, 1, 2, 3]),
+]
+
 MatrixCostName_SOV_35_AirAslt_Brig_multi is MAP
 [
     (EFactory/Art, [1, 1, 2, 2, 3, 3]),
@@ -363,6 +454,45 @@ MatrixCostName_SOV_79_Gds_Tank_multi is MAP
     (EFactory/Planes, [1, 2, 2, 3, 3]),
     (EFactory/Recons, [1, 1, 1, 2, 3, 3, 3]),
     (EFactory/Tanks, [1, 1, 1, 1, 1, 1, 2, 2, 2, 3]),
+]
+
+MatrixCostName_TCH_19_MSD_multi is MAP
+[
+    (EFactory/Art, [1, 1, 1, 2, 2, 3, 3]),
+    (EFactory/DCA, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Defense, []),
+    (EFactory/Helis, [1, 1, 1, 2, 3, 3]),
+    (EFactory/Infantry, [1, 1, 1, 1, 1, 2, 2, 3, 3]),
+    (EFactory/Logistic, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Recons, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Tanks, [1, 1, 2, 2, 3, 3, 3]),
+]
+
+MatrixCostName_TCH_1_Tank_multi is MAP
+[
+    (EFactory/Art, [1, 1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Defense, []),
+    (EFactory/Helis, [1, 2, 3]),
+    (EFactory/Infantry, [1, 1, 2, 2, 3, 3]),
+    (EFactory/Logistic, [1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Recons, [1, 1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Tanks, [1, 1, 1, 1, 1, 1, 1, 1, 2, 3]),
+]
+
+MatrixCostName_TCH_303_Tank_multi is MAP
+[
+    (EFactory/Art, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Defense, []),
+    (EFactory/Helis, [1, 2, 3]),
+    (EFactory/Infantry, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Logistic, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 1, 2, 3, 3]),
+    (EFactory/Recons, [1, 2, 2, 3, 3, 3]),
+    (EFactory/Tanks, [1, 1, 1, 1, 1, 1, 1, 2, 3, 3]),
 ]
 
 MatrixCostName_UK_1st_Armoured_multi is MAP
@@ -459,13 +589,13 @@ MatrixCostName_US_24th_Inf_multi is MAP
 MatrixCostName_US_35th_Inf_multi is MAP
 [
     (EFactory/Art, [1, 1, 1, 2, 2, 3, 3]),
-    (EFactory/DCA, [1, 1, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 2, 2, 3, 3]),
     (EFactory/Defense, []),
     (EFactory/Helis, [1, 2, 3, 3]),
     (EFactory/Infantry, [1, 1, 1, 1, 1, 1, 2, 3, 3]),
-    (EFactory/Logistic, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Logistic, [1, 1, 2, 2, 2, 3, 3]),
     (EFactory/Planes, [1, 1, 2, 2, 3, 3, 3]),
-    (EFactory/Recons, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Recons, [1, 1, 2, 2, 3, 3]),
     (EFactory/Tanks, [1, 1, 1, 1, 1, 1, 2, 3, 3]),
 ]
 

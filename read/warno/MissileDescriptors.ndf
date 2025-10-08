@@ -92,7 +92,6 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -187,7 +186,94 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_AA_AIM54_Phoenix is TEntityDescriptor
+(
+    DescriptorId       = GUID:{c1dc2fd4-99b7-40dc-a2fc-7b428b664c17}
+    ClassNameForDebug  = 'Missile_AA_AIM54_Phoenix'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_AA_AIM54_Phoenix",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM7
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM7
+                Actions = MAP[
+                    ( "fx_propulsion_on", template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_gros )),
+                    ( "fx_propulsion_off", template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_gros )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 4946
+                MaxAccelerationGRU = 2826
+                AutoGyr            = 1.9198621771937625
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 4946
+                MaxAccelerationGRU = 2826
+                AutoGyr            = 1.3962634015954636
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 6000
+            AngleMaxForRandomMouvUncontrollable = 6.0
+            RotationSpeedWhenUncontrollable = 30
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TCapaciteModuleDescriptor
+        (
+            DefaultSkillList = [
+                $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+            ]
+        ),
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -276,7 +362,6 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -365,7 +450,6 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -460,7 +544,6 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -555,7 +638,6 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -650,7 +732,6 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder_upgrade is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -745,7 +826,6 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -840,7 +920,6 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -935,7 +1014,6 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1024,7 +1102,6 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1113,7 +1190,6 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1202,7 +1278,6 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1297,7 +1372,100 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_AA_R13M1 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{70c43595-141d-4b53-a7d7-bb209affeb13}
+    ClassNameForDebug  = 'Missile_AA_R13M1'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_AA_R13M1",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R13M
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R13M
+                Actions = MAP[
+                    ( "fx_propulsion_on", TRandomHappening(
+                            Alternatives = [
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_moyen_1 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_moyen_2 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_moyen_3 ),
+                            ]
+                        )),
+                    ( "fx_propulsion_off", template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_moyen )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 3533
+                MaxAccelerationGRU = 1413
+                AutoGyr            = 1.0471975511965976
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 3533
+                MaxAccelerationGRU = 1413
+                AutoGyr            = 1.0471975511965976
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 10000
+            AngleMaxForRandomMouvUncontrollable = 6.0
+            RotationSpeedWhenUncontrollable = 30
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TCapaciteModuleDescriptor
+        (
+            DefaultSkillList = [
+                $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+            ]
+        ),
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1386,7 +1554,6 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1475,7 +1642,6 @@ export Descriptor_Missile_AA_R24MR_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1564,7 +1730,6 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1653,7 +1818,6 @@ export Descriptor_Missile_AA_R27ER_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1742,7 +1906,6 @@ export Descriptor_Missile_AA_R27R_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1831,7 +1994,6 @@ export Descriptor_Missile_AA_R27T_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -1920,7 +2082,6 @@ export Descriptor_Missile_AA_R33_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2009,7 +2170,6 @@ export Descriptor_Missile_AA_R37_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2104,7 +2264,6 @@ export Descriptor_Missile_AA_R3R is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2193,7 +2352,6 @@ export Descriptor_Missile_AA_R40RD1 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2282,7 +2440,6 @@ export Descriptor_Missile_AA_R40TD1 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2377,7 +2534,6 @@ export Descriptor_Missile_AA_R550_Magic is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2472,7 +2628,6 @@ export Descriptor_Missile_AA_R550_Magic_II is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2567,7 +2722,6 @@ export Descriptor_Missile_AA_R60_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2662,7 +2816,6 @@ export Descriptor_Missile_AA_R60_Vympel_helo is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2757,7 +2910,6 @@ export Descriptor_Missile_AA_R60M_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2852,7 +3004,6 @@ export Descriptor_Missile_AA_R60M_Vympel_x2 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -2947,7 +3098,6 @@ export Descriptor_Missile_AA_R60M_Vympel_helo is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3042,7 +3192,6 @@ export Descriptor_Missile_AA_R73_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3137,7 +3286,6 @@ export Descriptor_Missile_AA_R77_Vympel is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3226,7 +3374,6 @@ export Descriptor_Missile_AA_R98MR is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3315,7 +3462,6 @@ export Descriptor_Missile_AA_R98MT is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3404,7 +3550,6 @@ export Descriptor_Missile_AA_Skyflash is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3493,7 +3638,6 @@ export Descriptor_Missile_AA_Skyflash_SuperTEMP is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3575,7 +3719,6 @@ export Descriptor_Missile_AGM_9K121_Vikhr is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3657,7 +3800,6 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x12 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3739,7 +3881,6 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x16 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3821,7 +3962,6 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x16_avion is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3903,7 +4043,6 @@ export Descriptor_Missile_AGM_9M114M_Ataka_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -3985,7 +4124,6 @@ export Descriptor_Missile_AGM_9M114M_Ataka_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4067,7 +4205,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4149,7 +4286,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x16 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4231,7 +4367,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4313,7 +4448,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4395,7 +4529,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4477,7 +4610,6 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4559,7 +4691,6 @@ export Descriptor_Missile_AGM_9M14_MalyutkaP_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4641,7 +4772,6 @@ export Descriptor_Missile_AGM_9M14_MalyutkaP_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4723,7 +4853,6 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4805,7 +4934,6 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4887,7 +5015,6 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -4969,7 +5096,6 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5063,7 +5189,6 @@ export Descriptor_Missile_AGM_AGM114A is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5157,7 +5282,6 @@ export Descriptor_Missile_AGM_AGM114A_x16 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5251,7 +5375,6 @@ export Descriptor_Missile_AGM_AGM114A_x2_salve is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5345,7 +5468,6 @@ export Descriptor_Missile_AGM_AGM114A_x2_sol is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5439,7 +5561,6 @@ export Descriptor_Missile_AGM_AGM114A_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5533,7 +5654,87 @@ export Descriptor_Missile_AGM_AGM114A_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_AGM_AGM122_Sidearm is TEntityDescriptor
+(
+    DescriptorId       = GUID:{73c850ab-db37-499e-a3c5-01e762b4999e}
+    ClassNameForDebug  = 'Missile_AGM_AGM122_Sidearm'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_AGM_AGM122_Sidearm",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AGM88_Harm
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AGM88_Harm
+                Actions = MAP[
+                    ( "fx_propulsion_on", template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_AGM_gros )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 3533
+                MaxAccelerationGRU = 2120
+                AutoGyr            = 0.6981317007977318
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 3533
+                MaxAccelerationGRU = 2120
+                AutoGyr            = 0.08726646259971647
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 800
+            AngleMaxForRandomMouvUncontrollable = 0.0
+            RotationSpeedWhenUncontrollable = 0
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5615,7 +5816,6 @@ export Descriptor_Missile_AGM_AGM45_Shrike is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5697,7 +5897,6 @@ export Descriptor_Missile_AGM_AGM65B_Maverick is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5779,7 +5978,6 @@ export Descriptor_Missile_AGM_AGM65D_Maverick is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5861,7 +6059,6 @@ export Descriptor_Missile_AGM_AGM65E_Maverick is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -5943,7 +6140,6 @@ export Descriptor_Missile_AGM_AGM88_HARM is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6025,7 +6221,6 @@ export Descriptor_Missile_AGM_AJ_168_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6107,7 +6302,6 @@ export Descriptor_Missile_AGM_ALARM is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6189,7 +6383,6 @@ export Descriptor_Missile_AGM_ARMAT is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6271,7 +6464,6 @@ export Descriptor_Missile_AGM_AS11_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6353,7 +6545,6 @@ export Descriptor_Missile_AGM_AS11_x2_air is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6435,7 +6626,6 @@ export Descriptor_Missile_AGM_AS11_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6517,7 +6707,6 @@ export Descriptor_Missile_AGM_AS30 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6599,7 +6788,6 @@ export Descriptor_Missile_AGM_AS30L is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6681,7 +6869,6 @@ export Descriptor_Missile_AGM_AS37_Martel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6763,7 +6950,6 @@ export Descriptor_Missile_AGM_AS37_Martel_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6845,7 +7031,6 @@ export Descriptor_Missile_AGM_BGM71_TOW_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -6927,7 +7112,6 @@ export Descriptor_Missile_AGM_BGM71C_FITOW_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7009,7 +7193,6 @@ export Descriptor_Missile_AGM_BGM71C_ITOW_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7091,7 +7274,6 @@ export Descriptor_Missile_AGM_BGM71D_TOW_2_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7173,7 +7355,6 @@ export Descriptor_Missile_AGM_BGM71D_TOW_2_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7255,7 +7436,6 @@ export Descriptor_Missile_AGM_HOT1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7337,7 +7517,6 @@ export Descriptor_Missile_AGM_HOT1_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7419,7 +7598,6 @@ export Descriptor_Missile_AGM_HOT1_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7501,7 +7679,6 @@ export Descriptor_Missile_AGM_HOT2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7583,7 +7760,6 @@ export Descriptor_Missile_AGM_HOT2_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7665,7 +7841,6 @@ export Descriptor_Missile_AGM_HOT2_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7747,7 +7922,6 @@ export Descriptor_Missile_AGM_Kh23M is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7829,7 +8003,6 @@ export Descriptor_Missile_AGM_Kh23M_helo is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7911,7 +8084,6 @@ export Descriptor_Missile_AGM_Kh25ML is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -7993,7 +8165,6 @@ export Descriptor_Missile_AGM_Kh25MP is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8075,7 +8246,6 @@ export Descriptor_Missile_AGM_Kh25MPU is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8157,7 +8327,6 @@ export Descriptor_Missile_AGM_Kh28_X28 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8239,7 +8408,6 @@ export Descriptor_Missile_AGM_Kh29D is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8321,7 +8489,6 @@ export Descriptor_Missile_AGM_Kh29L is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8403,7 +8570,6 @@ export Descriptor_Missile_AGM_Kh29T is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8485,7 +8651,6 @@ export Descriptor_Missile_AGM_Kh31P is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8567,7 +8732,6 @@ export Descriptor_Missile_AGM_Kh58U is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8649,7 +8813,6 @@ export Descriptor_Missile_AGM_Kh66 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8731,7 +8894,6 @@ export Descriptor_Missile_AGM_SS11_TCA_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8813,7 +8975,6 @@ export Descriptor_Missile_AGM_SS11_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8895,7 +9056,6 @@ export Descriptor_Missile_ATGM_9K111_Fagot is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -8977,7 +9137,6 @@ export Descriptor_Missile_ATGM_9K111M_Fagot_M is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9059,7 +9218,6 @@ export Descriptor_Missile_ATGM_9K111M_Fagot_M_IFV is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9141,7 +9299,6 @@ export Descriptor_Missile_ATGM_9K121_Vikhr is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9223,7 +9380,6 @@ export Descriptor_Missile_ATGM_9M112_1_Kobra is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9305,7 +9461,6 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_BMP2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9387,7 +9542,6 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x3 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9469,7 +9623,6 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x5 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9551,7 +9704,6 @@ export Descriptor_Missile_ATGM_9M113_KonkursM is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9633,7 +9785,6 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9715,7 +9866,6 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late_x5 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9797,7 +9947,6 @@ export Descriptor_Missile_ATGM_9M114_Shturm_MTLB is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9879,7 +10028,6 @@ export Descriptor_Missile_ATGM_9M114M_Ataka is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -9961,7 +10109,6 @@ export Descriptor_Missile_ATGM_9M114M_KokonM is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10043,7 +10190,6 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10125,7 +10271,6 @@ export Descriptor_Missile_ATGM_9M117_Bastion_IFV is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10207,7 +10352,6 @@ export Descriptor_Missile_ATGM_9M117M_Arkan is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10289,7 +10433,6 @@ export Descriptor_Missile_ATGM_9M119M_Refleks is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10371,7 +10514,6 @@ export Descriptor_Missile_ATGM_9M119M_Svir is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10453,7 +10595,6 @@ export Descriptor_Missile_ATGM_9M128_Agona is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10535,7 +10676,6 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10617,7 +10757,6 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10699,7 +10838,6 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10781,7 +10919,6 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10863,7 +11000,6 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_IFV is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -10945,7 +11081,6 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11027,7 +11162,6 @@ export Descriptor_Missile_ATGM_ADATS is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11109,7 +11243,6 @@ export Descriptor_Missile_ATGM_AS11_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11191,7 +11324,6 @@ export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11273,7 +11405,6 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11355,7 +11486,6 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11437,7 +11567,6 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11519,7 +11648,6 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11601,7 +11729,6 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11683,7 +11810,6 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2_IFV is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11765,7 +11891,6 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11847,7 +11972,6 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -11929,7 +12053,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12011,7 +12134,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12093,7 +12215,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2_IFV is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12175,7 +12296,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12257,7 +12377,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12339,7 +12458,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2A is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12421,7 +12539,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2A_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12503,7 +12620,6 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2A_x2_IFV is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12585,7 +12701,6 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12667,7 +12782,6 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12749,7 +12863,6 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12831,7 +12944,6 @@ export Descriptor_Missile_ATGM_HOT2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12913,7 +13025,6 @@ export Descriptor_Missile_ATGM_HOT2_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -12995,7 +13106,6 @@ export Descriptor_Missile_ATGM_HOT2_x3 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13077,7 +13187,6 @@ export Descriptor_Missile_ATGM_HOT2_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13159,7 +13268,6 @@ export Descriptor_Missile_ATGM_HOT2_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13241,7 +13349,6 @@ export Descriptor_Missile_ATGM_MGM551C_Shillelagh is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13323,7 +13430,6 @@ export Descriptor_Missile_ATGM_MILAN is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13405,7 +13511,6 @@ export Descriptor_Missile_ATGM_MILAN_2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13487,7 +13592,6 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13569,7 +13673,6 @@ export Descriptor_Missile_ATGM_MILAN_2_IFV is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13651,7 +13754,6 @@ export Descriptor_Missile_ATGM_MILAN_IFV is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13733,7 +13835,6 @@ export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13815,7 +13916,6 @@ export Descriptor_Missile_ATGM_Swingfire_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13897,7 +13997,6 @@ export Descriptor_Missile_ATGM_Swingfire_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -13979,7 +14078,6 @@ export Descriptor_Missile_ATGM_Swingfire_x5 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14061,7 +14159,6 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14143,7 +14240,6 @@ export Descriptor_Missile_ATGM_Eryx is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14226,7 +14322,6 @@ export Descriptor_Missile_Bomb_BGL_400_x1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14309,7 +14404,6 @@ export Descriptor_Missile_Bomb_BGL_400_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14392,7 +14486,6 @@ export Descriptor_Missile_Bomb_CPU_123_x1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14475,7 +14568,6 @@ export Descriptor_Missile_Bomb_CPU_123_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14558,7 +14650,6 @@ export Descriptor_Missile_Bomb_GBU_10_x1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14641,7 +14732,6 @@ export Descriptor_Missile_Bomb_GBU_10_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14724,7 +14814,6 @@ export Descriptor_Missile_Bomb_GBU_12_x1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14807,7 +14896,6 @@ export Descriptor_Missile_Bomb_GBU_12_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14890,7 +14978,6 @@ export Descriptor_Missile_Bomb_GBU_27_x1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -14973,7 +15060,6 @@ export Descriptor_Missile_Bomb_GBU_27_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15056,7 +15142,6 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15139,7 +15224,6 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15222,7 +15306,6 @@ export Descriptor_Missile_Bomb_KAB_1500L_x1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15305,7 +15388,6 @@ export Descriptor_Missile_Bomb_KAB_1500L_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15388,7 +15470,6 @@ export Descriptor_Missile_Bomb_KAB_1500L_x3 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15471,7 +15552,6 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15554,7 +15634,6 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15637,7 +15716,6 @@ export Descriptor_Missile_Bomb_KAB_500L_x1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15720,7 +15798,6 @@ export Descriptor_Missile_Bomb_KAB_500L_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15803,7 +15880,6 @@ export Descriptor_Missile_Bomb_KAB_500L_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15891,7 +15967,6 @@ export Descriptor_Missile_FakeRoquette_S_24 is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -15979,7 +16054,6 @@ export Descriptor_Missile_FakeRoquette_S_24_helo is TEntityDescriptor
             AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16075,7 +16149,6 @@ export Descriptor_Missile_Javelin is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16171,7 +16244,6 @@ export Descriptor_Missile_Javelin_LML is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16253,7 +16325,6 @@ export Descriptor_Missile_M47_DRAGON is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16335,7 +16406,6 @@ export Descriptor_Missile_M47_DRAGON_Bipied is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16417,7 +16487,6 @@ export Descriptor_Missile_M47_DRAGON_II is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16513,7 +16582,6 @@ export Descriptor_Missile_MANPAD_Blowpipe is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16609,7 +16677,6 @@ export Descriptor_Missile_MANPAD_FIM43 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16631,10 +16698,10 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -16705,7 +16772,6 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16727,10 +16793,10 @@ export Descriptor_Missile_MANPAD_FIM92_A is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -16801,7 +16867,6 @@ export Descriptor_Missile_MANPAD_FIM92_A is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16897,7 +16962,6 @@ export Descriptor_Missile_MANPAD_Javelin is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -16919,10 +16983,10 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -16993,7 +17057,6 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -17015,10 +17078,10 @@ export Descriptor_Missile_MANPAD_Strela3 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -17089,7 +17152,6 @@ export Descriptor_Missile_MANPAD_Strela3 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -17185,21 +17247,20 @@ export Descriptor_Missile_MANPAD_igla is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
-export Descriptor_Missile_Mistral is TEntityDescriptor
+export Descriptor_Missile_MissileAA_9K38_Igla_c is TEntityDescriptor
 (
-    DescriptorId       = GUID:{ba2c3243-2356-46de-b9cc-a2a6b12e1c2e}
-    ClassNameForDebug  = 'Missile_Mistral'
+    DescriptorId       = GUID:{b283ffa6-1d62-4048-ba7d-302a04872e0d}
+    ClassNameForDebug  = 'Missile_MissileAA_9K38_Igla_c'
     ModulesDescriptors = [
         ~/SimpleTypeUnitModuleDescriptor,
         TTagsModuleDescriptor
         (
             TagSet = [
                 "MISSILE",
-                "MISSILE_Mistral",
+                "MISSILE_MissileAA_9K38_Igla_c",
             ]
         ),
         ~/MissileFlagsModuleDescriptor,
@@ -17281,7 +17342,101 @@ export Descriptor_Missile_Mistral is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_Mistral is TEntityDescriptor
+(
+    DescriptorId       = GUID:{ba2c3243-2356-46de-b9cc-a2a6b12e1c2e}
+    ClassNameForDebug  = 'Missile_Mistral'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_Mistral",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
+                Actions = MAP[
+                    ( "fx_propulsion_on", TRandomHappening(
+                            Alternatives = [
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_petit_1 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_petit_2 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_petit_3 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_petit_4 ),
+                            ]
+                        )),
+                    ( "fx_propulsion_off", template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_moyen )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 5300
+                MaxAccelerationGRU = 2826
+                AutoGyr            = 1.7453292519943295
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 5300
+                MaxAccelerationGRU = 2826
+                AutoGyr            = 0.17453292519943295
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 1000
+            AngleMaxForRandomMouvUncontrollable = 2.0
+            RotationSpeedWhenUncontrollable = 5
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TCapaciteModuleDescriptor
+        (
+            DefaultSkillList = [
+                $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+            ]
+        ),
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -17303,10 +17458,10 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -17377,7 +17532,6 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -17472,7 +17626,6 @@ export Descriptor_Missile_SAM_9M311_Tunguska_x8 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -17567,7 +17720,6 @@ export Descriptor_Missile_SAM_9M33 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -17656,7 +17808,6 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -17751,7 +17902,6 @@ export Descriptor_Missile_SAM_9M336_x3 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -17846,7 +17996,6 @@ export Descriptor_Missile_SAM_9M33M2_x6 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -17941,7 +18090,6 @@ export Descriptor_Missile_SAM_9M38M1_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18030,7 +18178,6 @@ export Descriptor_Missile_SAM_9M8M3_x2 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18118,7 +18265,6 @@ export Descriptor_Missile_SAM_ADATS is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18213,7 +18359,6 @@ export Descriptor_Missile_SAM_Aspide_1A_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18235,10 +18380,10 @@ export Descriptor_Missile_SAM_BLOODHOUND_x1 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_3M8M
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Bloodhound
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_3M8M
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Bloodhound
                 Actions = MAP[
                     ( "fx_propulsion_on", template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_tres_gros_KRUG_1 )),
                     ( "fx_propulsion_off", template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_gros )),
@@ -18302,7 +18447,6 @@ export Descriptor_Missile_SAM_BLOODHOUND_x1 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18324,10 +18468,10 @@ export Descriptor_Missile_SAM_FASTA_Strela2M_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -18398,7 +18542,6 @@ export Descriptor_Missile_SAM_FASTA_Strela2M_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18420,10 +18563,10 @@ export Descriptor_Missile_SAM_FASTA_Strela2M_x4_TOWED is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -18494,7 +18637,6 @@ export Descriptor_Missile_SAM_FASTA_Strela2M_x4_TOWED is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18516,10 +18658,10 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -18590,7 +18732,6 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18612,10 +18753,10 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -18686,7 +18827,6 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18708,10 +18848,10 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -18782,7 +18922,6 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18804,10 +18943,10 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x8 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -18878,7 +19017,6 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x8 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -18900,10 +19038,10 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -18974,7 +19112,6 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19069,7 +19206,6 @@ export Descriptor_Missile_SAM_I_Hawk is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19164,7 +19300,6 @@ export Descriptor_Missile_SAM_I_Hawk_x3 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19260,7 +19395,6 @@ export Descriptor_Missile_SAM_Igla is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19356,7 +19490,6 @@ export Descriptor_Missile_SAM_IglaN is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19452,7 +19585,6 @@ export Descriptor_Missile_SAM_IglaN_1M is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19548,7 +19680,6 @@ export Descriptor_Missile_SAM_IglaV is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19644,7 +19775,6 @@ export Descriptor_Missile_SAM_IglaV_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19739,7 +19869,6 @@ export Descriptor_Missile_SAM_MIM72A is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19834,7 +19963,6 @@ export Descriptor_Missile_SAM_MIM72F is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19929,7 +20057,6 @@ export Descriptor_Missile_SAM_MIM72G is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -19951,10 +20078,10 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Stinger
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Stinger
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -20025,7 +20152,6 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -20120,7 +20246,6 @@ export Descriptor_Missile_SAM_R440_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -20215,7 +20340,6 @@ export Descriptor_Missile_SAM_RAPIER is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -20310,7 +20434,6 @@ export Descriptor_Missile_SAM_RAPIER_DARKFIRE_x6 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -20405,7 +20528,6 @@ export Descriptor_Missile_SAM_RAPIER_FSA_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -20500,7 +20622,6 @@ export Descriptor_Missile_SAM_RAPIER_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -20595,7 +20716,6 @@ export Descriptor_Missile_SAM_RAPIER_x8 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -20690,7 +20810,6 @@ export Descriptor_Missile_SAM_ROLAND is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -20785,7 +20904,6 @@ export Descriptor_Missile_SAM_ROLAND_1 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -20880,7 +20998,6 @@ export Descriptor_Missile_SAM_ROLAND_1_x2 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -20975,7 +21092,6 @@ export Descriptor_Missile_SAM_ROLAND_2 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21070,7 +21186,6 @@ export Descriptor_Missile_SAM_ROLAND_2_x2 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21165,7 +21280,6 @@ export Descriptor_Missile_SAM_ROLAND_3 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21260,7 +21374,6 @@ export Descriptor_Missile_SAM_ROLAND_3_x2 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21282,10 +21395,10 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -21356,7 +21469,6 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21378,10 +21490,10 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -21452,7 +21564,6 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21474,10 +21585,10 @@ export Descriptor_Missile_SAM_Strela10M3_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -21548,7 +21659,6 @@ export Descriptor_Missile_SAM_Strela10M3_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21570,10 +21680,10 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -21644,7 +21754,6 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21666,10 +21775,10 @@ export Descriptor_Missile_SAM_Strela2_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -21740,7 +21849,6 @@ export Descriptor_Missile_SAM_Strela2_x2 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21762,10 +21870,10 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Igla
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -21836,7 +21944,6 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21858,10 +21965,10 @@ export Descriptor_Missile_SAM_Strela2M_x2 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -21932,7 +22039,6 @@ export Descriptor_Missile_SAM_Strela2M_x2 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -21954,10 +22060,10 @@ export Descriptor_Missile_SAM_Strela2M_x2_Static is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Strela
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Strela
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -22028,7 +22134,6 @@ export Descriptor_Missile_SAM_Strela2M_x2_Static is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )
@@ -22050,10 +22155,10 @@ export Descriptor_Missile_Starstreak_x3 is TEntityDescriptor
         ~/LinkTeamModuleDescriptor,
         TApparenceModuleDescriptor
         (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Starstreak
             Depiction     = Template_DescriptorMissileBase
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Starstreak
                 Actions = MAP[
                     ( "fx_propulsion_on", TRandomHappening(
                             Alternatives = [
@@ -22124,7 +22229,6 @@ export Descriptor_Missile_Starstreak_x3 is TEntityDescriptor
                 $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
             ]
         ),
-        ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
 )

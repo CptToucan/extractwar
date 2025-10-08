@@ -310,12 +310,46 @@ export default class NdfToJson extends Command {
     const ndfManager = new NdfManager(ndfFilePathMap);
     const ndfs = await ndfManager.parse();
 
-    const resistanceFamilyStrings: string[] = (
-      ndfs.damageResistance?.[0] as any
+    let resistanceFamilyStrings: string[] = [];
+    const ndfDamageResistance = ndfs.damageResistance?.[0] as any
+
+    if(ndfDamageResistance?.attributes[0].value?.values[0].children.length > 0){
+      resistanceFamilyStrings = (
+      ndfDamageResistance
     )?.attributes[0].value?.values.map((v: any) => v.children[0]?.value?.value);
-    const damageFamilyStrings: string[] = (
-      ndfs.damageResistance?.[0] as any
+    } else {
+      const resistanceFamilyStringsVals = (
+        ndfs.damageResistance?.[0] as any
+      )?.attributes[0].value?.values
+      for(let i = 0; i < resistanceFamilyStringsVals.length;){
+        if(resistanceFamilyStringsVals.length - i < 0) break;
+
+        const parseObj = resistanceFamilyStringsVals[i]
+        const maxIndex = resistanceFamilyStringsVals[i+1]
+        resistanceFamilyStrings = [...resistanceFamilyStrings, `${parseObj.name} MaxIndex=${maxIndex.value}`]
+        i += 2;
+      }
+    }
+
+    let damageFamilyStrings: string[] = [];
+
+    if(ndfDamageResistance?.attributes[0].value?.values[0].children.length > 0){
+      damageFamilyStrings = (
+      ndfDamageResistance
     )?.attributes[1].value?.values.map((v: any) => v.children[0]?.value?.value);
+    } else {
+      const damageFamilyStringsVals = (
+        ndfs.damageResistance?.[0] as any
+      )?.attributes[1].value?.values
+      for(let i = 0; i < damageFamilyStringsVals.length;){
+        if(damageFamilyStringsVals.length - i < 0) break;
+
+        const parseObj = damageFamilyStringsVals[i]
+        const maxIndex = damageFamilyStringsVals[i+1]
+        damageFamilyStrings = [...damageFamilyStrings, `${parseObj.name} MaxIndex=${maxIndex.value}`]
+        i += 2;
+      }
+    }
 
     const terrainResistances = this.extractTerrainResistances(ndfs.terrain);
 

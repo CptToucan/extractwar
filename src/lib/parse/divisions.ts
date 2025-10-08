@@ -68,7 +68,17 @@ export const DIVISION_NAMES: { [key: string]: string } = {
   Descriptor_Deck_Division_BEL_Division_Mobilisation_multi: 'DIVMOB',
   Descriptor_Deck_Division_NL_CLKA_multi: 'CLKA', 
 
-
+  // SOUTAHG
+  Descriptor_Deck_Division_FR_6e_Blindee_Legere_multi: '6E Division Legere Blinde',
+  Descriptor_Deck_Division_FR_Division_du_Rhin_multi: 'Division Du Rhin',
+  Descriptor_Deck_Division_RFA_1_Luftlande_multi: '1. Luftlande-Division',
+  Descriptor_Deck_Division_CAN_1st_Canadian_multi: '1. Canadian Division',
+  Descriptor_Deck_Division_ESP_Division_Brunete_multi: `Division Acorazada 'BRUNETE'`,
+  Descriptor_Deck_Division_SOV_17_Gds_Tank_multi: '27-Ya Gv. Motostrelki. Div.',
+  Descriptor_Deck_Division_SOV_31_Tank_multi: '31-Ya Tank. Div.',
+  Descriptor_Deck_Division_TCH_1_Tank_multi: '1. Tankova Divize',
+  Descriptor_Deck_Division_TCH_303_Tank_multi: '303. Tankova Divize',
+  Descriptor_Deck_Division_TCH_19_MSD_multi: '19. Motostrelecke Divize',
 };
 
 /**

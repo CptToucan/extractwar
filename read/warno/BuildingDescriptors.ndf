@@ -121,7 +121,6 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleDescriptor,
-        ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
@@ -132,7 +131,140 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_BEL'
-            CountryTexture = 'CommonTexture_MotherCountryFlag_BEL'
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
+        ),
+    ]
+)
+export Descriptor_Unit_FOB_CAN is TEntityDescriptor
+(
+    DescriptorId       = GUID:{57543796-2450-4aa4-9156-910254ea7545}
+    ClassNameForDebug  = 'Building_FOB_CAN'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'CAN'
+        ),
+        ~/BuildingDescriptorTagsModuleDescriptor,
+        ~/BuildingFlagsModuleDescriptor,
+        ~/BuildingPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        ~/FOBBuildingModuleDescriptor,
+        TSupplyModuleDescriptor
+        (
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
+            SupplyCapacity     = 16000.0
+            SupplyPriority     = 0
+        ),
+        ~/CapturableModuleDescriptor,
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 10
+            MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+            MaxStunDamages = ~/Building_MaxStunDamages
+            PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+            SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+            StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Building_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        ~/TargetCoordinatorModuleDescriptor,
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        ~/BuildingScannerConfigurationDescriptor,
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 1.0
+                TimeBetweenEachIdentifyRoll = 1.0
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+            )
+        ),
+        BuildingApparenceModuleDescriptor
+        (
+            BlackHoleIdentifier = "FOB_CAN"
+            SymbolName = 'FOB_Nato_03'
+        ),
+        BuildingCadavreGeneratorModuleDescriptor(),
+        TIAStratModuleDescriptor
+        (
+            DatabaseId = 0
+            GameplayBehavior = EGameplayBehavior/Nothing
+        ),
+        ~/IAStratZoneIndexModuleDescriptor,
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/UnitStateEngineCompanyModuleDescriptor,
+        ~/UnitStateEngineModuleDescriptor,
+        TProductionModuleDescriptor
+        (
+            FactoryType        = EFactory/Logistic
+            ProductionTime     = -1
+            ProductionRessourcesNeeded = MAP [
+                ($/GFX/Resources/Resource_CommandPoints, 175),
+            ]
+        ),
+        ~/EffectApplierModuleDescriptor,
+        TTacticalLabelModuleDescriptor
+        (
+            IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_fob",
+                    "Texture_fob"
+                ]
+            )
+            UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_NATO_Unidentified",
+                    "Texture_NATO_Unidentified"
+                ]
+            )
+            PositionHeightOffset = 1000.0
+        ),
+        ~/BuildingOrderConfigModuleDescriptor,
+        ~/OrderDisplayModuleDescriptor,
+        ~/GroupableUnitModuleDescriptor,
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
+        TUnitUIModuleDescriptor
+        (
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
+            NameToken = 'FOBUSUK'
+            InfoPanelConfigurationToken = 'FOB'
+            GenerateName = true
+            MenuIconTexture = 'Texture_RTS_H_fob'
+            ButtonTexture = 'Texture_Button_Unit_FOB_CAN'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
@@ -257,7 +389,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleDescriptor,
-        ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
@@ -268,7 +399,140 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_DDR'
-            CountryTexture = 'CommonTexture_MotherCountryFlag_DDR'
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
+        ),
+    ]
+)
+export Descriptor_Unit_FOB_ESP is TEntityDescriptor
+(
+    DescriptorId       = GUID:{5149604a-b6b2-4ffb-a341-b6f7891a18e3}
+    ClassNameForDebug  = 'Building_FOB_ESP'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'ESP'
+        ),
+        ~/BuildingDescriptorTagsModuleDescriptor,
+        ~/BuildingFlagsModuleDescriptor,
+        ~/BuildingPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        ~/FOBBuildingModuleDescriptor,
+        TSupplyModuleDescriptor
+        (
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
+            SupplyCapacity     = 16000.0
+            SupplyPriority     = 0
+        ),
+        ~/CapturableModuleDescriptor,
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 10
+            MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+            MaxStunDamages = ~/Building_MaxStunDamages
+            PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+            SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+            StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Building_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        ~/TargetCoordinatorModuleDescriptor,
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        ~/BuildingScannerConfigurationDescriptor,
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 1.0
+                TimeBetweenEachIdentifyRoll = 1.0
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+            )
+        ),
+        BuildingApparenceModuleDescriptor
+        (
+            BlackHoleIdentifier = "FOB_ESP"
+            SymbolName = 'FOB_Nato_03'
+        ),
+        BuildingCadavreGeneratorModuleDescriptor(),
+        TIAStratModuleDescriptor
+        (
+            DatabaseId = 0
+            GameplayBehavior = EGameplayBehavior/Nothing
+        ),
+        ~/IAStratZoneIndexModuleDescriptor,
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/UnitStateEngineCompanyModuleDescriptor,
+        ~/UnitStateEngineModuleDescriptor,
+        TProductionModuleDescriptor
+        (
+            FactoryType        = EFactory/Logistic
+            ProductionTime     = -1
+            ProductionRessourcesNeeded = MAP [
+                ($/GFX/Resources/Resource_CommandPoints, 175),
+            ]
+        ),
+        ~/EffectApplierModuleDescriptor,
+        TTacticalLabelModuleDescriptor
+        (
+            IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_fob",
+                    "Texture_fob"
+                ]
+            )
+            UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_NATO_Unidentified",
+                    "Texture_NATO_Unidentified"
+                ]
+            )
+            PositionHeightOffset = 1000.0
+        ),
+        ~/BuildingOrderConfigModuleDescriptor,
+        ~/OrderDisplayModuleDescriptor,
+        ~/GroupableUnitModuleDescriptor,
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
+        TUnitUIModuleDescriptor
+        (
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
+            NameToken = 'FOBQZRPWXQ'
+            InfoPanelConfigurationToken = 'FOB'
+            GenerateName = true
+            MenuIconTexture = 'Texture_RTS_H_fob'
+            ButtonTexture = 'Texture_Button_Unit_FOB_ESP'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
@@ -393,7 +657,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleDescriptor,
-        ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
@@ -404,7 +667,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_FR'
-            CountryTexture = 'CommonTexture_MotherCountryFlag_FR'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
@@ -529,7 +791,6 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleDescriptor,
-        ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
@@ -540,7 +801,6 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_NL'
-            CountryTexture = 'CommonTexture_MotherCountryFlag_NL'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
@@ -665,7 +925,6 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleDescriptor,
-        ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
@@ -676,7 +935,6 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_POL'
-            CountryTexture = 'CommonTexture_MotherCountryFlag_POL'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
@@ -801,7 +1059,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleDescriptor,
-        ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
@@ -812,7 +1069,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_RFA'
-            CountryTexture = 'CommonTexture_MotherCountryFlag_RFA'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
@@ -937,7 +1193,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleDescriptor,
-        ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
@@ -948,7 +1203,140 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_SOV'
-            CountryTexture = 'CommonTexture_MotherCountryFlag_SOV'
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
+        ),
+    ]
+)
+export Descriptor_Unit_FOB_TCH is TEntityDescriptor
+(
+    DescriptorId       = GUID:{c04a75f1-2e50-4dc9-860b-71d208ad357a}
+    ClassNameForDebug  = 'Building_FOB_TCH'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/PACT
+            MotherCountry                    = 'TCH'
+        ),
+        ~/BuildingDescriptorTagsModuleDescriptor,
+        ~/BuildingFlagsModuleDescriptor,
+        ~/BuildingPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        ~/FOBBuildingModuleDescriptor,
+        TSupplyModuleDescriptor
+        (
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
+            SupplyCapacity     = 16000.0
+            SupplyPriority     = 0
+        ),
+        ~/CapturableModuleDescriptor,
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 10
+            MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+            MaxStunDamages = ~/Building_MaxStunDamages
+            PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+            SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+            StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Building_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        ~/TargetCoordinatorModuleDescriptor,
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        ~/BuildingScannerConfigurationDescriptor,
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 1.0
+                TimeBetweenEachIdentifyRoll = 1.0
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+            )
+        ),
+        BuildingApparenceModuleDescriptor
+        (
+            BlackHoleIdentifier = "FOB_TCH"
+            SymbolName = 'FOB_Pact_03'
+        ),
+        BuildingCadavreGeneratorModuleDescriptor(),
+        TIAStratModuleDescriptor
+        (
+            DatabaseId = 0
+            GameplayBehavior = EGameplayBehavior/Nothing
+        ),
+        ~/IAStratZoneIndexModuleDescriptor,
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/UnitStateEngineCompanyModuleDescriptor,
+        ~/UnitStateEngineModuleDescriptor,
+        TProductionModuleDescriptor
+        (
+            FactoryType        = EFactory/Logistic
+            ProductionTime     = -1
+            ProductionRessourcesNeeded = MAP [
+                ($/GFX/Resources/Resource_CommandPoints, 175),
+            ]
+        ),
+        ~/EffectApplierModuleDescriptor,
+        TTacticalLabelModuleDescriptor
+        (
+            IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_fob",
+                    "Texture_fob"
+                ]
+            )
+            UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_NATO_Unidentified",
+                    "Texture_NATO_Unidentified"
+                ]
+            )
+            PositionHeightOffset = 1000.0
+        ),
+        ~/BuildingOrderConfigModuleDescriptor,
+        ~/OrderDisplayModuleDescriptor,
+        ~/GroupableUnitModuleDescriptor,
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
+        TUnitUIModuleDescriptor
+        (
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
+            NameToken = 'BGANMGCHQZ'
+            InfoPanelConfigurationToken = 'FOB'
+            GenerateName = true
+            MenuIconTexture = 'Texture_RTS_H_fob'
+            ButtonTexture = 'Texture_Button_Unit_FOB_TCH'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
@@ -1073,7 +1461,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleDescriptor,
-        ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
@@ -1084,7 +1471,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_UK'
-            CountryTexture = 'CommonTexture_MotherCountryFlag_UK'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
@@ -1209,7 +1595,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ~/BuildingOrderConfigModuleDescriptor,
         ~/OrderDisplayModuleDescriptor,
         ~/GroupableUnitModuleDescriptor,
-        ~/PackSignauxModuleDescriptor,
         TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
         TUnitUIModuleDescriptor
         (
@@ -1220,7 +1605,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_US'
-            CountryTexture = 'CommonTexture_MotherCountryFlag_US'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
